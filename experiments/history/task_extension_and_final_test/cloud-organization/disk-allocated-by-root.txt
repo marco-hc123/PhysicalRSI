@@ -1,0 +1,7 @@
+22531940352	/mnt/data/physical-RSI/envs
+1517768704	/mnt/data/physical-RSI/code
+72814022656	/mnt/data/physical-RSI/models
+4241104896	/mnt/data/physical-RSI/assets
+6584459264	/mnt/data/physical-RSI/result
+11041873920	/mnt/data/physical-RSI/cache
+118731173888	/mnt/data/physical-RSI

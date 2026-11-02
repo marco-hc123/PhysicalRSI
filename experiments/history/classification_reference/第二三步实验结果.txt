@@ -1,0 +1,22 @@
+第2、3步服务器实验结果
+
+本轮保持第一步的源码、模型、权重、奖励与1100步上限。第2步5个诊断回合，第3步40个参考回合；普通失败均保留。
+诊断真值只写日志，未进入策略。参考场景为此前登记的两个任务各5–9号，不能再当System2新验证或最终测试。
+
+任务 / 路线 / 原生执行 / 完整成功 / 逻辑模型调用 / HTTP / 总Token
+diagnostic_classify / 2/2 / 0/2 / 0 / 0 / 0
+diagnostic_classify_missing / 1/1 / 0/1 / 0 / 0 / 0
+diagnostic_language / 2/2 / 0/2 / 0 / 0 / 0
+reference_classify_objects_pi05 / 5/5 / 0/5 / 0 / 0 / 0
+reference_classify_objects_pi05-sparse-memory / 5/5 / 0/5 / 0 / 0 / 0
+reference_classify_objects_code / 5/5 / 2/5 / 0 / 0 / 0
+reference_classify_objects_agent / 5/5 / 1/5 / 5 / 5 / 63020
+reference_classify_objects_by_language_pi05 / 5/5 / 0/5 / 0 / 0 / 0
+reference_classify_objects_by_language_pi05-sparse-memory / 5/5 / 0/5 / 0 / 0 / 0
+reference_classify_objects_by_language_code / 5/5 / 1/5 / 0 / 0 / 0
+reference_classify_objects_by_language_agent / 5/5 / 1/5 / 5 / 5 / 61662
+
+记忆检查：不可变快照内容哈希、执行绑定、回合后队列/会话清空、稀疏历史首帧无虚构历史、后续真实历史与复位均单列。
+两种VLA的权重和架构不同，此对照不能独立归因于“有无记忆”。固定路线无高层API，不代表推理/训练成本为零。
+本轮计时含观察器开销，且每路线组内复用进程；不与此前冷启动数字混算，更不能推出跨项目速度倍率。
+项目A未公开的API次数和端到端时间仍未知。System2及步骤4以后未启动。

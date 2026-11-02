@@ -1,0 +1,42 @@
+{
+  "cap_usd": 20.0,
+  "carried_upper_usd": 0.30173,
+  "prior_ledger_sha256": "efd343b7e534233ae8e4bf5c7b421491d1d28d96ddc034455bd95b3e48b7e6d2",
+  "cumulative_upper_usd": 0.332955,
+  "pending_usd": 0.0,
+  "reservation_per_attempt_usd": 8.0,
+  "maximum_new_attempts": 1,
+  "attempts": [
+    {
+      "request_id": "38_system2_gpt61sol_20261102-proposal-1",
+      "utc": "2026-11-02T02:18:46.925181+00:00",
+      "sha256": "4e7a10d7936a6dc8711f54ff2b3987a6aaa24e288f8a6c431c8809c92b109b1f",
+      "state": "response_received",
+      "reservation_usd": 8.0,
+      "provider_id": "chatcmpl-EfbvEGLe5u9T9jlphQm2CwLduASHB",
+      "returned_model": "gpt-6.1-sol",
+      "usage": {
+        "prompt_tokens": 3138,
+        "completion_tokens": 2338,
+        "total_tokens": 5476,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 3135,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 512,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "estimated_cost_lower_usd": 0.029656,
+      "estimated_cost_upper_usd": 0.031225,
+      "http_status": 200,
+      "seconds": 33.09556290000182,
+      "guard_charge_usd": 0.031225
+    }
+  ],
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+}

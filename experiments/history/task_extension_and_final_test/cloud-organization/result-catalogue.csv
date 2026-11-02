@@ -1,0 +1,196 @@
+﻿path,kind,role,status,disposition,bytes
+/mnt/data/physical-RSI/result/06_cloud_graphics_preflight_20261028,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/07_native_deployment_20261028,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/08_isaac_rgb_smoke_20261028,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/09_policy_assets_20261028,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/10_policy_download_20261028T222534Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/11_environment_setup_20261028T222805Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/12_native_scene_preflight_20261028T223526Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/12_native_scene_preflight_20261028T223804Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/12_native_scene_preflight_20261028T224100Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/13_asset_install_20261028T223526Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/14_fixed_pi05_episode_20261028T225024Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/14_fixed_pi05_episode_20261028T225427Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/14_fixed_pi05_episode_20261028T225819Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/15_offline_setup_20261028T225338Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/15_offline_setup_20261028T230241Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/16_fixed_sparse_episode_20261028T230241Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/17_qwen_agent_episode_20261029T010809Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/17_qwen_agent_episode_20261029T010809Z.launcher.log,file,"pointer, procedure or record",,retain,309
+/mnt/data/physical-RSI/result/17_qwen_agent_episode_20261029T010919Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/17_qwen_agent_episode_20261029T010919Z.launcher.log,file,"pointer, procedure or record",,retain,0
+/mnt/data/physical-RSI/result/18_experiment_suite_20261029T020602Z,directory,historical pickup and catalogue auxiliary experiments,"[{""file"": ""COMPLETION.json"", ""complete"": null, ""stage"": null, ""utc"": ""2026-10-29T04:24:46.587720+00:00""}, {""file"": ""controller-status.json"", ""complete"": true, ""stage"": null, ""utc"": ""2026-10-29T03:59:50.930758+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/18_experiment_suite_20261029T020602Z-archive-receipt.json,file,"pointer, procedure or record",,retain,247
+/mnt/data/physical-RSI/result/18_experiment_suite_20261029T020602Z.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,219546967
+/mnt/data/physical-RSI/result/19_catalogue_ablation_20261029T051109Z,directory,historical pickup and catalogue auxiliary experiments,"[{""file"": ""COMPLETION.json"", ""complete"": null, ""stage"": null, ""utc"": null}, {""file"": ""controller-status.json"", ""complete"": true, ""stage"": null, ""utc"": ""2026-10-29T06:21:23.077027+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/19_catalogue_ablation_20261029T051109Z-archive-receipt.json,file,"pointer, procedure or record",,retain,336
+/mnt/data/physical-RSI/result/19_catalogue_ablation_20261029T051109Z-archive-verification.json,file,"pointer, procedure or record",,retain,442
+/mnt/data/physical-RSI/result/19_catalogue_ablation_20261029T051109Z.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,179951948
+/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z,directory,cross-project evidence and timing,"[{""file"": ""COMPLETION.json"", ""complete"": null, ""stage"": null, ""utc"": ""2026-10-29T09:03:21.492892+00:00""}, {""file"": ""controller-status.json"", ""complete"": false, ""stage"": null, ""utc"": ""2026-10-29T08:04:36.419933+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z-archive-verification.json,file,"pointer, procedure or record",,retain,316
+/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z-final-server-state.json,file,"pointer, procedure or record",,retain,286
+/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,571846590
+/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z,directory,cross-project evidence and timing,"[{""file"": ""COMPLETION.json"", ""complete"": true, ""stage"": null, ""utc"": null}, {""file"": ""controller-status.json"", ""complete"": true, ""stage"": ""complete"", ""utc"": ""2026-10-29T12:00:42.336659+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z-archive-verification.json,file,"pointer, procedure or record",,retain,265
+/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,307460800
+/mnt/data/physical-RSI/result/22_failure_consistency_20261029T121940Z,directory,"protocol, consistency and System1 references","[{""file"": ""COMPLETION.json"", ""complete"": true, ""stage"": null, ""utc"": ""2026-10-29T12:35:15.935792+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/22_failure_consistency_20261029T121940Z-archive-verification.json,file,"pointer, procedure or record",,retain,268
+/mnt/data/physical-RSI/result/22_failure_consistency_20261029T121940Z.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,12464023
+/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z,directory,"protocol, consistency and System1 references","[{""file"": ""COMPLETION.json"", ""complete"": true, ""stage"": null, ""utc"": ""2026-10-29T13:33:36.446053+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z-archive-verification.json,file,"pointer, procedure or record",,retain,262
+/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,789728
+/mnt/data/physical-RSI/result/24_steps23_20261030T011329Z,directory,"protocol, consistency and System1 references","[{""file"": ""controller-status.json"", ""complete"": false, ""stage"": ""superseded_instrumentation_fault"", ""utc"": ""2026-10-30T01:14:29.496623+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/24_steps23_20261030T012400Z_v2,directory,"protocol, consistency and System1 references","[{""file"": ""controller-status.json"", ""complete"": false, ""stage"": ""needs_review"", ""utc"": ""2026-10-30T01:33:56.288454+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3,directory,"protocol, consistency and System1 references","[{""file"": ""controller-status.json"", ""complete"": true, ""stage"": ""complete"", ""utc"": ""2026-10-30T04:04:01.862969+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3-archive-verification.json,file,"pointer, procedure or record",,retain,263
+/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3-completion.json,file,"pointer, procedure or record",,retain,938
+/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3-review,directory,"protocol, consistency and System1 references",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3-review.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,25609
+/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3.tar.gz,archive,archive copy,,potential redundant storage only after extraction/source/reference checks; not deleted,1236829106
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z,directory,"System2 lineage, interrupted attempts and selected dependencies","[{""file"": ""controller-status.json"", ""complete"": true, ""stage"": ""step4_verified_complete"", ""utc"": ""2026-10-30T06:18:09.259722+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.bootstrap.log,file,"pointer, procedure or record",,retain,331
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.configure.log,file,"pointer, procedure or record",,retain,455
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.finish-paired.log,file,"pointer, procedure or record",,retain,4604
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.initialize-v2.log,file,"pointer, procedure or record",,retain,1593
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.initialize-v3.log,file,"pointer, procedure or record",,retain,2518
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.initialize-v4.log,file,"pointer, procedure or record",,retain,3896
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.initialize-v5.log,file,"pointer, procedure or record",,retain,479
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.iteration-v2.log,file,"pointer, procedure or record",,retain,5876
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.iteration-v3.log,file,"pointer, procedure or record",,retain,6477
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.iteration.log,file,"pointer, procedure or record",,retain,5873
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.prelaunch-failure.log,file,"pointer, procedure or record",,retain,610
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.validation-recovery.log,file,"pointer, procedure or record",,retain,1387
+/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z.validation-v3.log,file,"pointer, procedure or record",,retain,914
+/mnt/data/physical-RSI/result/26_system2_iterations_20261030T074100Z,directory,"System2 lineage, interrupted attempts and selected dependencies","[{""file"": ""controller-status.json"", ""complete"": false, ""stage"": ""registered_stop_diagnosed_and_audited"", ""utc"": ""2026-10-30T08:58:13.700649+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/27_scene_contract_repair_20261030T094946552127Z,directory,"System2 lineage, interrupted attempts and selected dependencies",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/28_system2_interface_20261030T102000Z,directory,"System2 lineage, interrupted attempts and selected dependencies","[{""file"": ""controller-status.json"", ""complete"": false, ""stage"": ""formal_iteration_blocked"", ""utc"": ""2026-10-30T10:14:10.934987+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z,directory,"System2 lineage, interrupted attempts and selected dependencies","[{""file"": ""controller-status.json"", ""complete"": false, ""stage"": ""formal_iteration_blocked"", ""utc"": ""2026-10-30T11:56:28.296710+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z,directory,"System2 lineage, interrupted attempts and selected dependencies","[{""file"": ""controller-status.json"", ""complete"": false, ""stage"": ""formal_iteration_blocked"", ""utc"": ""2026-10-30T12:06:57.683862+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z,directory,"System2 lineage, interrupted attempts and selected dependencies","[{""file"": ""step5-completion.json"", ""complete"": true, ""stage"": null, ""utc"": ""2026-10-30T12:56:30.504455+00:00""}, {""file"": ""controller-status.json"", ""complete"": true, ""stage"": ""complete_verified"", ""utc"": ""2026-10-30T12:56:30.504455+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/32_state_recovery_20261030T133119Z,directory,recovery verification,"[{""file"": ""step6-completion.json"", ""complete"": true, ""stage"": null, ""utc"": ""2026-10-30T13:40:47.472192+00:00""}, {""file"": ""controller-status.json"", ""complete"": true, ""stage"": ""complete_verified"", ""utc"": ""2026-10-30T13:40:47.472565+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/33_limited_completion_20261030T150938Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z,directory,current limited completion,"[{""file"": ""completion.json"", ""complete"": true, ""stage"": ""limited_scope_complete_verified"", ""utc"": ""2026-10-30T23:40:57.286695+00:00""}, {""file"": ""pipeline-status.json"", ""complete"": true, ""stage"": ""complete_verified"", ""utc"": ""2026-10-30T23:40:57.321264+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z,directory,"preparation, earlier investigation or support; retain pending reference audit","[{""file"": ""completion.json"", ""complete"": true, ""stage"": null, ""utc"": ""2026-10-31T00:12:33.112098+00:00""}, {""file"": ""controller-status.json"", ""complete"": true, ""stage"": ""complete_verified"", ""utc"": ""2026-10-31T00:12:33.112518+00:00""}]",retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/CURRENT_ASSET_INSTALL.json,file,"pointer, procedure or record",,retain,131
+/mnt/data/physical-RSI/result/CURRENT_CATALOGUE_RUN.json,file,"pointer, procedure or record",,retain,109
+/mnt/data/physical-RSI/result/CURRENT_CATALOGUE_STUDY.json,file,"pointer, procedure or record",,retain,146
+/mnt/data/physical-RSI/result/CURRENT_CLOSING_STUDY.json,file,"pointer, procedure or record",,retain,3065
+/mnt/data/physical-RSI/result/CURRENT_COMPLETED_CATALOGUE_STUDY.json,file,"pointer, procedure or record",,retain,423
+/mnt/data/physical-RSI/result/CURRENT_COMPLETED_EXPERIMENT_SUITE.json,file,"pointer, procedure or record",,retain,458
+/mnt/data/physical-RSI/result/CURRENT_CROSS_PROJECT_STUDY.json,file,"pointer, procedure or record",,retain,1533
+/mnt/data/physical-RSI/result/CURRENT_ENVIRONMENT_SETUP.json,file,"pointer, procedure or record",,retain,131
+/mnt/data/physical-RSI/result/CURRENT_EXPERIMENT_SUITE.json,file,"pointer, procedure or record",,retain,83
+/mnt/data/physical-RSI/result/CURRENT_FAILURE_DIAGNOSIS.json,file,"pointer, procedure or record",,retain,950
+/mnt/data/physical-RSI/result/CURRENT_FINAL_TEST.json,file,"pointer, procedure or record",,retain,219
+/mnt/data/physical-RSI/result/CURRENT_FIXED_EPISODE.json,file,"pointer, procedure or record",,retain,501
+/mnt/data/physical-RSI/result/CURRENT_FIXED_SPARSE_EPISODE.json,file,"pointer, procedure or record",,retain,210
+/mnt/data/physical-RSI/result/CURRENT_NATIVE_SCENE.json,file,"pointer, procedure or record",,retain,521
+/mnt/data/physical-RSI/result/CURRENT_OFFLINE_SETUP.json,file,"pointer, procedure or record",,retain,292
+/mnt/data/physical-RSI/result/CURRENT_POLICY_DOWNLOAD.json,file,"pointer, procedure or record",,retain,297
+/mnt/data/physical-RSI/result/CURRENT_PROTOCOL_FREEZE.json,file,"pointer, procedure or record",,retain,973
+/mnt/data/physical-RSI/result/CURRENT_QWEN_EPISODE.json,file,"pointer, procedure or record",,retain,85
+/mnt/data/physical-RSI/result/CURRENT_REPRODUCTION_PLAN.json,file,"pointer, procedure or record",,retain,12205
+/mnt/data/physical-RSI/result/CURRENT_STEP4.json,file,"pointer, procedure or record",,retain,556
+/mnt/data/physical-RSI/result/CURRENT_STEP5.json,file,"pointer, procedure or record",,retain,319
+/mnt/data/physical-RSI/result/CURRENT_STEP6.json,file,"pointer, procedure or record",,retain,290
+/mnt/data/physical-RSI/result/CURRENT_STEP7.json,file,"pointer, procedure or record",,retain,670
+/mnt/data/physical-RSI/result/CURRENT_STEPS23.json,file,"pointer, procedure or record",,retain,965
+/mnt/data/physical-RSI/result/CURRENT_SUITE_RUN.json,file,"pointer, procedure or record",,retain,119
+/mnt/data/physical-RSI/result/PAUSED_20261028.json,file,"pointer, procedure or record",,retain,961
+/mnt/data/physical-RSI/result/PENDING_STEPS23_V2.json,file,"pointer, procedure or record",,retain,78
+/mnt/data/physical-RSI/result/REPRODUCTION_WORKPLAN.txt,file,"pointer, procedure or record",,retain,3510
+/mnt/data/physical-RSI/result/__pycache__,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/analyze_catalogue_payload.py,file,"pointer, procedure or record",,retain,25229
+/mnt/data/physical-RSI/result/catalogue_audit_20261029.txt,file,"pointer, procedure or record",,retain,13928
+/mnt/data/physical-RSI/result/cloud_catalogue_analysis_corrections.py,file,"pointer, procedure or record",,retain,20977
+/mnt/data/physical-RSI/result/cloud_catalogue_archive.py,file,"pointer, procedure or record",,retain,4238
+/mnt/data/physical-RSI/result/cloud_catalogue_common.py,file,"pointer, procedure or record",,retain,1165
+/mnt/data/physical-RSI/result/cloud_catalogue_controller.py,file,"pointer, procedure or record",,retain,4432
+/mnt/data/physical-RSI/result/cloud_catalogue_finalize.py,file,"pointer, procedure or record",,retain,2656
+/mnt/data/physical-RSI/result/cloud_catalogue_finalize_v2.py,file,"pointer, procedure or record",,retain,2744
+/mnt/data/physical-RSI/result/cloud_catalogue_initial_audit.py,file,"pointer, procedure or record",,retain,2802
+/mnt/data/physical-RSI/result/cloud_catalogue_policy.py,file,"pointer, procedure or record",,retain,11401
+/mnt/data/physical-RSI/result/cloud_catalogue_prepare.py,file,"pointer, procedure or record",,retain,6336
+/mnt/data/physical-RSI/result/cloud_catalogue_replay.py,file,"pointer, procedure or record",,retain,11653
+/mnt/data/physical-RSI/result/cloud_catalogue_report.py,file,"pointer, procedure or record",,retain,46305
+/mnt/data/physical-RSI/result/cloud_catalogue_run.py,file,"pointer, procedure or record",,retain,9801
+/mnt/data/physical-RSI/result/cloud_catalogue_snapshot.py,file,"pointer, procedure or record",,retain,2657
+/mnt/data/physical-RSI/result/cloud_catalogue_watch.py,file,"pointer, procedure or record",,retain,1582
+/mnt/data/physical-RSI/result/cloud_download_subset.py,file,"pointer, procedure or record",,retain,6403
+/mnt/data/physical-RSI/result/cloud_dual_vla_check.py,file,"pointer, procedure or record",,retain,3574
+/mnt/data/physical-RSI/result/cloud_finish_offline_setup.py,file,"pointer, procedure or record",,retain,3474
+/mnt/data/physical-RSI/result/cloud_finish_offline_setup_v2.py,file,"pointer, procedure or record",,retain,3634
+/mnt/data/physical-RSI/result/cloud_fixed_skill_server.py,file,"pointer, procedure or record",,retain,4985
+/mnt/data/physical-RSI/result/cloud_native_scene_smoke.py,file,"pointer, procedure or record",,retain,6011
+/mnt/data/physical-RSI/result/cloud_native_subset.py,file,"pointer, procedure or record",,retain,1089
+/mnt/data/physical-RSI/result/cloud_probe_qwen_modes.py,file,"pointer, procedure or record",,retain,3471
+/mnt/data/physical-RSI/result/cloud_qwen_agent_server.py,file,"pointer, procedure or record",,retain,8074
+/mnt/data/physical-RSI/result/cloud_readiness_20261029.json,file,"pointer, procedure or record",,retain,27495
+/mnt/data/physical-RSI/result/cloud_run_fixed_skill.py,file,"pointer, procedure or record",,retain,5596
+/mnt/data/physical-RSI/result/cloud_run_qwen_episode.py,file,"pointer, procedure or record",,retain,7450
+/mnt/data/physical-RSI/result/cloud_suite_archive.py,file,"pointer, procedure or record",,retain,1971
+/mnt/data/physical-RSI/result/cloud_suite_controller.py,file,"pointer, procedure or record",,retain,3236
+/mnt/data/physical-RSI/result/cloud_suite_extension.py,file,"pointer, procedure or record",,retain,1887
+/mnt/data/physical-RSI/result/cloud_suite_policy.py,file,"pointer, procedure or record",,retain,9378
+/mnt/data/physical-RSI/result/cloud_suite_report.py,file,"pointer, procedure or record",,retain,11926
+/mnt/data/physical-RSI/result/cloud_suite_run.py,file,"pointer, procedure or record",,retain,8221
+/mnt/data/physical-RSI/result/cloud_suite_status.py,file,"pointer, procedure or record",,retain,2200
+/mnt/data/physical-RSI/result/cloud_suite_video_audit.py,file,"pointer, procedure or record",,retain,1861
+/mnt/data/physical-RSI/result/cloud_thinking_continuation.py,file,"pointer, procedure or record",,retain,3260
+/mnt/data/physical-RSI/result/configure_cloud_agent_credentials.py,file,"pointer, procedure or record",,retain,1248
+/mnt/data/physical-RSI/result/fixed_skill_comparison_20261029.json,file,"pointer, procedure or record",,retain,2206
+/mnt/data/physical-RSI/result/plan-history,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/qwen_agent_experiment_20261029.json,file,"pointer, procedure or record",,retain,4172
+/mnt/data/physical-RSI/result/qwen_api_connection_20261029.json,file,"pointer, procedure or record",,retain,464
+/mnt/data/physical-RSI/result/qwen_api_vision_20261029.json,file,"pointer, procedure or record",,retain,1467
+/mnt/data/physical-RSI/result/resume_cloud_asset_download.py,file,"pointer, procedure or record",,retain,8097
+/mnt/data/physical-RSI/result/sample_gpu_until_offline_complete.py,file,"pointer, procedure or record",,retain,1003
+/mnt/data/physical-RSI/result/step4_bootstrap.py,file,"pointer, procedure or record",,retain,4753
+/mnt/data/physical-RSI/result/step4_boundary_probes.py,file,"pointer, procedure or record",,retain,1591
+/mnt/data/physical-RSI/result/step4_configure_native.py,file,"pointer, procedure or record",,retain,9754
+/mnt/data/physical-RSI/result/step4_final_audit.py,file,"pointer, procedure or record",,retain,11407
+/mnt/data/physical-RSI/result/step4_finish_paired_validation.py,file,"pointer, procedure or record",,retain,10000
+/mnt/data/physical-RSI/result/step4_finish_source_setup.py,file,"pointer, procedure or record",,retain,2339
+/mnt/data/physical-RSI/result/step4_initialize_v2.py,file,"pointer, procedure or record",,retain,2210
+/mnt/data/physical-RSI/result/step4_initialize_v3.py,file,"pointer, procedure or record",,retain,2165
+/mnt/data/physical-RSI/result/step4_initialize_v4.py,file,"pointer, procedure or record",,retain,1960
+/mnt/data/physical-RSI/result/step4_initialize_v5.py,file,"pointer, procedure or record",,retain,1960
+/mnt/data/physical-RSI/result/step4_planning_rejection_setup.py,file,"pointer, procedure or record",,retain,6966
+/mnt/data/physical-RSI/result/step4_prepare_isolated.py,file,"pointer, procedure or record",,retain,3400
+/mnt/data/physical-RSI/result/step4_run_native.py,file,"pointer, procedure or record",,retain,5634
+/mnt/data/physical-RSI/result/step4_run_native_v2.py,file,"pointer, procedure or record",,retain,5645
+/mnt/data/physical-RSI/result/step4_run_native_v3.py,file,"pointer, procedure or record",,retain,5645
+/mnt/data/physical-RSI/result/step4_validation_recovery.py,file,"pointer, procedure or record",,retain,9182
+/mnt/data/physical-RSI/result/step4_validation_recovery_v3.py,file,"pointer, procedure or record",,retain,9479
+/mnt/data/physical-RSI/result/step4_validation_setup.py,file,"pointer, procedure or record",,retain,3173
+/mnt/data/physical-RSI/result/step5_api_audit.py,file,"pointer, procedure or record",,retain,17387
+/mnt/data/physical-RSI/result/step5_api_finish.py,file,"pointer, procedure or record",,retain,2008
+/mnt/data/physical-RSI/result/step5_api_register.py,file,"pointer, procedure or record",,retain,7673
+/mnt/data/physical-RSI/result/step5_api_run.py,file,"pointer, procedure or record",,retain,17233
+/mnt/data/physical-RSI/result/step5_audit.py,file,"pointer, procedure or record",,retain,13957
+/mnt/data/physical-RSI/result/step5_feedback.py,file,"pointer, procedure or record",,retain,1094
+/mnt/data/physical-RSI/result/step5_final_audit.py,file,"pointer, procedure or record",,retain,14593
+/mnt/data/physical-RSI/result/step5_final_finish.py,file,"pointer, procedure or record",,retain,2010
+/mnt/data/physical-RSI/result/step5_final_register.py,file,"pointer, procedure or record",,retain,6522
+/mnt/data/physical-RSI/result/step5_final_run.py,file,"pointer, procedure or record",,retain,18653
+/mnt/data/physical-RSI/result/step5_finish.py,file,"pointer, procedure or record",,retain,2004
+/mnt/data/physical-RSI/result/step5_interface_audit.py,file,"pointer, procedure or record",,retain,16416
+/mnt/data/physical-RSI/result/step5_interface_finish.py,file,"pointer, procedure or record",,retain,2014
+/mnt/data/physical-RSI/result/step5_interface_register.py,file,"pointer, procedure or record",,retain,7026
+/mnt/data/physical-RSI/result/step5_interface_run.py,file,"pointer, procedure or record",,retain,15529
+/mnt/data/physical-RSI/result/step5_interruption_audit.py,file,"pointer, procedure or record",,retain,7094
+/mnt/data/physical-RSI/result/step5_observe.py,file,"pointer, procedure or record",,retain,1355
+/mnt/data/physical-RSI/result/step5_progress.py,file,"pointer, procedure or record",,retain,1371
+/mnt/data/physical-RSI/result/step5_register.py,file,"pointer, procedure or record",,retain,7580
+/mnt/data/physical-RSI/result/step5_run.py,file,"pointer, procedure or record",,retain,11542
+/mnt/data/physical-RSI/result/step5_scene_api_v2.py,file,"pointer, procedure or record",,retain,7753
+/mnt/data/physical-RSI/result/step5_scene_api_v3.py,file,"pointer, procedure or record",,retain,7753
+/mnt/data/physical-RSI/result/step5_scene_api_v4.py,file,"pointer, procedure or record",,retain,9246
+/mnt/data/physical-RSI/result/step5_scene_contract_check.py,file,"pointer, procedure or record",,retain,9903
+/mnt/data/physical-RSI/result/step5_scene_contract_v1.py,file,"pointer, procedure or record",,retain,8471
+/mnt/data/physical-RSI/result/step5_validation_audit.py,file,"pointer, procedure or record",,retain,14362
+/mnt/data/physical-RSI/result/step5_validation_finish.py,file,"pointer, procedure or record",,retain,2015
+/mnt/data/physical-RSI/result/step5_validation_register.py,file,"pointer, procedure or record",,retain,6246
+/mnt/data/physical-RSI/result/step5_validation_run.py,file,"pointer, procedure or record",,retain,17758
+/mnt/data/physical-RSI/result/steps23_setup_20261030T011329Z,directory,"preparation, earlier investigation or support; retain pending reference audit",[],retain; original absolute paths may be pinned,
+/mnt/data/physical-RSI/result/verify_cloud_catalogue_archive.py,file,"pointer, procedure or record",,retain,2822

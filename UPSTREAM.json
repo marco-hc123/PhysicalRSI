@@ -1,0 +1,21 @@
+{
+  "snapshot_date": "2026-11-02",
+  "source": "experiment server",
+  "physicalrsi": {
+    "url": "https://github.com/PhysicalRSI/PhysicalRSI",
+    "commit": "90b322a3a362aad14125f36d8ed080ca31daaea6",
+    "snapshot": "upstream/PhysicalRSI",
+    "unrelated_demo_videos_omitted": true
+  },
+  "robodojo": {
+    "url": "https://github.com/RoboDojo-Benchmark/RoboDojo",
+    "commit": "09bd5f5e762b949f5858ece31347ce62057b3a5e",
+    "source_not_vendored": true
+  },
+  "public_reference_a": {
+    "url": "https://anonymous-report-421.github.io/public-website/?lang=en",
+    "project": "GPT-as-Policy",
+    "public_reference_only": true
+  },
+  "no_new_experiments_or_api_calls": true
+}

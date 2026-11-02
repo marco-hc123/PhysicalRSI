@@ -1,0 +1,169 @@
+{
+  "complete": true,
+  "utc": "2026-10-31T00:14:39.660279+00:00",
+  "references_reviewed": 26,
+  "classifications": {
+    "optional_cache_destination": 18,
+    "colon_separated_PYTHONPATH_all_components_exist": 6,
+    "unused_output_destination_of_interrupted_attempt": 2
+  },
+  "missing_required_inputs_identified": 0,
+  "findings": [
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/26_system2_iterations_20261030T074100Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/26_system2_iterations_20261030T074100Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/26_system2_iterations_20261030T074100Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab",
+      "referenced_by": "/mnt/data/physical-RSI/result/26_system2_iterations_20261030T074100Z/runtime.json",
+      "classification": "colon_separated_PYTHONPATH_all_components_exist",
+      "resolution": "Index treated a path list as one file; no missing input."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/28_system2_interface_20261030T102000Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/28_system2_interface_20261030T102000Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/28_system2_interface_20261030T102000Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/28_system2_interface_20261030T102000Z/primitive-services",
+      "referenced_by": "/mnt/data/physical-RSI/result/28_system2_interface_20261030T102000Z/runtime.json",
+      "classification": "unused_output_destination_of_interrupted_attempt",
+      "resolution": "Output directory in a preserved interrupted attempt, not a missing source/weight input; current resumed run has separate output evidence."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab",
+      "referenced_by": "/mnt/data/physical-RSI/result/28_system2_interface_20261030T102000Z/runtime.json",
+      "classification": "colon_separated_PYTHONPATH_all_components_exist",
+      "resolution": "Index treated a path list as one file; no missing input."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab",
+      "referenced_by": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/runtime.json",
+      "classification": "colon_separated_PYTHONPATH_all_components_exist",
+      "resolution": "Index treated a path list as one file; no missing input."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab",
+      "referenced_by": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/runtime.json",
+      "classification": "colon_separated_PYTHONPATH_all_components_exist",
+      "resolution": "Index treated a path list as one file; no missing input."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z/primitive-services",
+      "referenced_by": "/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z/runtime.json",
+      "classification": "unused_output_destination_of_interrupted_attempt",
+      "resolution": "Output directory in a preserved interrupted attempt, not a missing source/weight input; current resumed run has separate output evidence."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab",
+      "referenced_by": "/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z/runtime.json",
+      "classification": "colon_separated_PYTHONPATH_all_components_exist",
+      "resolution": "Index treated a path list as one file; no missing input."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/cache/huggingface",
+      "referenced_by": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/runtime.json",
+      "classification": "optional_cache_destination",
+      "resolution": "HF_HOME output/cache destination; frozen checkpoints were loaded from explicit local asset paths. No required model artifact is identified as missing."
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab",
+      "referenced_by": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/runtime.json",
+      "classification": "colon_separated_PYTHONPATH_all_components_exist",
+      "resolution": "Index treated a path list as one file; no missing input."
+    }
+  ]
+}

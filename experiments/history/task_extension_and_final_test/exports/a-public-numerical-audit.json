@@ -1,0 +1,12 @@
+[
+  {
+    "method": "mix",
+    "episodes": 50,
+    "aggregate_and_subset_checks": true
+  },
+  {
+    "method": "gpt",
+    "episodes": 50,
+    "aggregate_and_subset_checks": true
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "step": 1,
+    "name": "Protocol and measurement freeze",
+    "status": "complete",
+    "role": "comparison and reproduction",
+    "path": "/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z"
+  },
+  {
+    "step": 2,
+    "name": "Native failure consistency diagnostics",
+    "status": "complete",
+    "role": "evidence reliability",
+    "path": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3"
+  },
+  {
+    "step": 3,
+    "name": "System1 route and memory references",
+    "status": "complete; 40 reference cases plus separate diagnostics",
+    "role": "selected-task reproduction and cost measurement",
+    "path": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3"
+  },
+  {
+    "step": 4,
+    "name": "Native System2 connection and bounded first iteration",
+    "status": "complete; integration/recovery evidence retained",
+    "role": "core workflow reproduction",
+    "path": "/mnt/data/physical-RSI/result/CURRENT_STEP4.json"
+  },
+  {
+    "step": 5,
+    "name": "Actual proposal, validation and selection rounds",
+    "status": "complete; two rounds retained parent; no improvement demonstrated",
+    "role": "core workflow reproduction",
+    "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z"
+  },
+  {
+    "step": 6,
+    "name": "State recovery and independent-process replay",
+    "status": "complete; no host reboot/provider outage tested",
+    "role": "recovery boundary verification",
+    "path": "/mnt/data/physical-RSI/result/32_state_recovery_20261030T133119Z"
+  },
+  {
+    "step": 7,
+    "name": "Three new representative tasks and independent final acceptance",
+    "status": "complete; 3 smoke + 15 formal + 20 final",
+    "role": "limited additional task coverage",
+    "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z"
+  },
+  {
+    "step": 8,
+    "name": "Comparison, metrics, reproduction entry and critical-gap review",
+    "status": "complete; seven targeted timing attempts, no blanket repeats",
+    "role": "cross-project analysis and reproducibility",
+    "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review"
+  }
+]

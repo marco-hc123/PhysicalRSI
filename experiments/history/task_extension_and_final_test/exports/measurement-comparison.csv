@@ -1,0 +1,10 @@
+﻿item,project_a,physicalrsi,qualification
+Task/control interface,GPT-as-Policy official selected public cases; direct short action chunks and hybrid skill/tool behavior,Actual Qwen Agent chooses a frozen composition; local code/VLA executes many native controls,"Same task names do not establish identical layouts, model, success level or training."
+Provider total tokens,"Use a-public-task-reference.csv mean_total_tokens, per episode; includes cached input",Use actual prompt_tokens+completion_tokens from provider usage per attempt,"Different providers/tokenizers; cached input and reasoning are subsets, not additional tokens."
+Uncached comparison,"mean_uncached_input_plus_output is diagnostic, not a bill or latency measurement",total_tokens-cached_input_tokens; report alongside total,No equal-success savings ratio or price comparison claimed.
+Calls,Public action segments are not verified HTTP request counts,"Separate logical planning, real HTTP attempts, native robot controls",A request count unavailable remains blank; never substitute action count.
+Speed,Public physical duration=steps*0.04; complete wall clock unavailable,"Separate process startup, API, policy, simulator/reset and batch elapsed",No end-to-end inter-project speed ratio supported.
+Cold/continuous,No matched public process timing,Reuse six prior paired measurements and batch accounting,Early format failures not speedups; OS/GPU caches were not flushed.
+System2,"Official metrics only, no new execution",Two proposal/selection rounds retained parent; final reports test frozen policy,Generation+development+failed-attempt costs stay separate from online System1.
+New task scope,No new A benchmark,Three smoke plus fifteen representative formal cases,One Memory task is not memory-on/off causality; one precision task not full dexterity proof; stack_bowls not random variant.
+Final transfer,Not applicable,Ordinary selected artifact unchanged; language assembly only binds same pi05,No language System2 gain or improved candidate is claimed.

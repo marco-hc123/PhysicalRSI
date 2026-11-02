@@ -1,0 +1,85 @@
+{
+  "batches": [
+    {
+      "count": 1,
+      "expert": null,
+      "finished_utc": "2026-11-02T02:23:33.819227+00:00",
+      "harness_id": "initial",
+      "index": 0,
+      "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000000",
+      "requested_utc": "2026-11-02T02:19:22.469602+00:00",
+      "scores": [
+        0.0
+      ],
+      "split": "validation",
+      "state": "completed",
+      "successes": [
+        false
+      ]
+    },
+    {
+      "count": 1,
+      "expert": null,
+      "finished_utc": "2026-11-02T02:27:31.622817+00:00",
+      "harness_id": "initial",
+      "index": 1,
+      "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000001",
+      "requested_utc": "2026-11-02T02:23:33.821437+00:00",
+      "scores": [
+        0.0
+      ],
+      "split": "validation",
+      "state": "completed",
+      "successes": [
+        false
+      ]
+    },
+    {
+      "count": 1,
+      "expert": null,
+      "finished_utc": "2026-11-02T02:31:30.353822+00:00",
+      "harness_id": "initial",
+      "index": 2,
+      "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000002",
+      "requested_utc": "2026-11-02T02:27:31.624494+00:00",
+      "scores": [
+        0.0
+      ],
+      "split": "validation",
+      "state": "completed",
+      "successes": [
+        false
+      ]
+    },
+    {
+      "count": 1,
+      "expert": null,
+      "finished_utc": "2026-11-02T02:35:27.993840+00:00",
+      "harness_id": "initial",
+      "index": 3,
+      "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000003",
+      "requested_utc": "2026-11-02T02:31:30.355746+00:00",
+      "scores": [
+        0.0
+      ],
+      "split": "validation",
+      "state": "completed",
+      "successes": [
+        false
+      ]
+    },
+    {
+      "count": 1,
+      "expert": null,
+      "harness_id": "initial",
+      "index": 4,
+      "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000004",
+      "requested_utc": "2026-11-02T02:35:27.995557+00:00",
+      "split": "validation",
+      "state": "started"
+    }
+  ],
+  "completed": 4,
+  "maximum": 10,
+  "requested": 5
+}

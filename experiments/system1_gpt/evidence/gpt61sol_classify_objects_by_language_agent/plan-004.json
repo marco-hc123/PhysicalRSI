@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "plan": {
+    "composition": "memory-guided-program-library",
+    "operations": [
+      "language-conditioned-placement"
+    ],
+    "rationale": "The operation explicitly parses category mappings to left, middle, and right baskets and performs visually grounded grasp-and-place. RGB shows three open baskets and objects consistent with the requested categories. Bind chocolate_bar to the left white basket, wooden_toy to the middle blue basket, and car to the right red basket. Its observation/action-chunk contracts and end-effector representation fit the program-library composition. Unlike visual-attribute-placement, it honors language-specified destinations rather than assigning baskets by transfer cost. Resetting the arm is a shared lifecycle action after placement."
+  },
+  "episode_index": 3,
+  "seconds": 28.258971066999948
+}

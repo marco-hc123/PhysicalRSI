@@ -1,0 +1,127 @@
+{
+  "schema": "physicalrsi.targeted-timing/v1",
+  "registered_utc": "2026-10-30T23:41:57.867462+00:00",
+  "parent": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z",
+  "goal": "Complete valid paired language timing after two original continuous format failures; prior typed followup had cold cases only.",
+  "jobs": [
+    {
+      "name": "language_cold_0",
+      "task": "classify_objects_by_language",
+      "condition": "process_cold",
+      "layouts": [
+        0
+      ],
+      "warmup_layouts": [],
+      "route": "agent",
+      "stage": "targeted_timing",
+      "output_contract": "typed"
+    },
+    {
+      "name": "language_continuous",
+      "task": "classify_objects_by_language",
+      "condition": "continuous_process",
+      "layouts": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "warmup_layouts": [
+        3
+      ],
+      "route": "agent",
+      "stage": "targeted_timing",
+      "output_contract": "typed"
+    },
+    {
+      "name": "language_cold_1",
+      "task": "classify_objects_by_language",
+      "condition": "process_cold",
+      "layouts": [
+        1
+      ],
+      "warmup_layouts": [],
+      "route": "agent",
+      "stage": "targeted_timing",
+      "output_contract": "typed"
+    },
+    {
+      "name": "language_cold_2",
+      "task": "classify_objects_by_language",
+      "condition": "process_cold",
+      "layouts": [
+        2
+      ],
+      "warmup_layouts": [],
+      "route": "agent",
+      "stage": "targeted_timing",
+      "output_contract": "typed"
+    }
+  ],
+  "source_hashes": {
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/agent_planner.py": "d6f6936d5b57283c7c8affacd857356f9b1e8f8d5f54a7b6959a4e70c1cb25db",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/skill_model.py": "a9a965538b15198df7b5a9521d45af92a205ead1ceba7bca659efabbe4aba9e5",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/configure_skills.py": "8d8506cfb812c565a4a29b46ceadcf0f8855a6c87696c8965b966300f0cdaa6e",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/evaluation.py": "b4d4d98aab14412ec4a4c61ce318ec531122b24323a53e7b4db074c36e6aa28f",
+    "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/main.py": "ca6ba652b6f123506370f1907b1d88060d83f56c9e91ce6e6930f63d9f2b71a8",
+    "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/eval_env.py": "3ae75304d8a840ede2589441f987824f50b2a89cc2ef37f4d43ce0a8dbc4fd88",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_run.py": "d7d4b94729f85c27e124cfa0c5928b676f7f32a13d5b74f9c2c0489a0ccddeac",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_replay.py": "8449f2e4ec700c9e961c15a3ae6751433e31ced9faab109e0284a987539fd113",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_policy.py": "241b0b2a64423fe38c43084b94fa8419380ae1fcf0458c808c5b5fa0e0e7cd27",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_controller.py": "489c314da68f6c3ba682f8155a131eadcb08a0d4d2b159bf3a49ca960bab4a8a",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_prepare.py": "4cea0ad848f4743986b1a63d4e978b4e4e34477db7ab998f2150509962ff9309",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_contract.py": "f88f41688d8d395476bd1a617ee121b4dc61b7c68743e8b34f901aeef28c6c16",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_native.py": "cf8245aa7e33f66da3b783e432a27db2020772210234038ddebd67a50cba50e3"
+  },
+  "model": "qwen3.7-plus",
+  "thinking": true,
+  "temperature": 0,
+  "native_attempts": 7,
+  "comparison_episodes": 6,
+  "warmup_episodes": 1,
+  "logical_calls_per_episode": 1,
+  "official_transport_attempts_per_call": 3,
+  "native_step_limit": 1100,
+  "procedure_changes": {
+    "cloud_closing_run.py": {
+      "source": "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_run.py",
+      "source_sha256": "d7d4b94729f85c27e124cfa0c5928b676f7f32a13d5b74f9c2c0489a0ccddeac",
+      "sha256": "420b05de48002d5c90ef0e52c7ae5771bb29ef133d743fbf07f0dd7cde49f394",
+      "changes": [
+        "Explicit existing ecs-user credential path for root orchestration; no secret copied",
+        "Unique native run namespace to prevent evaluator resume collisions"
+      ]
+    },
+    "cloud_closing_policy.py": {
+      "source": "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_policy.py",
+      "source_sha256": "241b0b2a64423fe38c43084b94fa8419380ae1fcf0458c808c5b5fa0e0e7cd27",
+      "sha256": "1d2ffc9515050cc105a0449f2224430e44ab8ff8d03e2f9c55e44ebb866811b8",
+      "changes": [
+        "Explicit existing ecs-user credential path for root orchestration; no secret copied"
+      ]
+    },
+    "cloud_closing_native.py": {
+      "source": "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_native.py",
+      "source_sha256": "cf8245aa7e33f66da3b783e432a27db2020772210234038ddebd67a50cba50e3",
+      "sha256": "cf8245aa7e33f66da3b783e432a27db2020772210234038ddebd67a50cba50e3",
+      "changes": []
+    },
+    "cloud_closing_contract.py": {
+      "source": "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_contract.py",
+      "source_sha256": "f88f41688d8d395476bd1a617ee121b4dc61b7c68743e8b34f901aeef28c6c16",
+      "sha256": "f88f41688d8d395476bd1a617ee121b4dc61b7c68743e8b34f901aeef28c6c16",
+      "changes": []
+    }
+  },
+  "preregistered_before_new_outcomes": true,
+  "role": "targeted_interface_timing_not_original_final",
+  "qualifications": [
+    "The serialization-only prompt addition is identical in both arms; this is a declared adapter condition, not unmodified original prompt results.",
+    "No raw response rewriting, no forced skill or operation, no reward/physics change.",
+    "Cold means fresh processes, not cleared OS/GPU caches.",
+    "Same layout numbers and initialization states checked; RGB may differ.",
+    "All seven attempts, failures, startup, warmup and teardown are retained.",
+    "No tuning on independent final outcomes; public diagnostic layouts 0–3 were used previously.",
+    "No claim about project A wall-clock speed follows from this within-B test."
+  ]
+}

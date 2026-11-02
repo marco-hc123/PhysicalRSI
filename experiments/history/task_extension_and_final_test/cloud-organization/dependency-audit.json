@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "utc": "2026-10-31T00:12:35.385963+00:00",
+  "manifests_scanned": 44,
+  "reference_roots": 17,
+  "unresolved_historical_paths": 26,
+  "temporary_candidates": 0,
+  "candidate_apparent_bytes": 0,
+  "files_removed": 0,
+  "qualifications": [
+    "Historical missing paths are inventory findings, not proof the current admitted runtime is missing a dependency.",
+    "Active runtime pins are separately verified by current protocols.",
+    "Reference index scans top-level protocol/runtime/archive manifests; not a complete general filesystem reachability proof.",
+    "Apparent bytes may share storage via hard links; not a reclaimable-space promise."
+  ]
+}

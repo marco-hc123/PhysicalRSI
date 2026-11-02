@@ -1,0 +1,132 @@
+[
+  {
+    "source_cohort": "17_qwen_agent_episode_20261029T010919Z",
+    "unique_successful_provider_responses": 1,
+    "input_tokens": 11552,
+    "output_tokens": 198,
+    "total_tokens": 11750,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 5.778310701000009,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "18_experiment_suite_20261029T020602Z",
+    "unique_successful_provider_responses": 26,
+    "input_tokens": 300346,
+    "output_tokens": 14948,
+    "total_tokens": 315294,
+    "cached_input_tokens": 46080,
+    "measured_http_seconds": 204.66948627600505,
+    "unknown_http_duration_count": 6
+  },
+  {
+    "source_cohort": "19_catalogue_ablation_20261029T051109Z",
+    "unique_successful_provider_responses": 40,
+    "input_tokens": 1397752,
+    "output_tokens": 38330,
+    "total_tokens": 1436082,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 692.1262175090014,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "20_cross_project_evidence_20261029T075456Z",
+    "unique_successful_provider_responses": 15,
+    "input_tokens": 173484,
+    "output_tokens": 16401,
+    "total_tokens": 189885,
+    "cached_input_tokens": 10368,
+    "measured_http_seconds": 269.0087152349879,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "21_cloud_closing_20261029T112202Z",
+    "unique_successful_provider_responses": 19,
+    "input_tokens": 221101,
+    "output_tokens": 15009,
+    "total_tokens": 236110,
+    "cached_input_tokens": 46080,
+    "measured_http_seconds": 248.83547782101232,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "24_steps23_20261030T011329Z",
+    "unique_successful_provider_responses": 2,
+    "input_tokens": 23092,
+    "output_tokens": 2394,
+    "total_tokens": 25486,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 39.00864439100019,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "24_steps23_20261030T013742Z_v3",
+    "unique_successful_provider_responses": 10,
+    "input_tokens": 115674,
+    "output_tokens": 9008,
+    "total_tokens": 124682,
+    "cached_input_tokens": 20736,
+    "measured_http_seconds": 148.3518973379987,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "25_system2_integration_20261030T050100Z",
+    "unique_successful_provider_responses": 1,
+    "input_tokens": 318818,
+    "output_tokens": 4781,
+    "total_tokens": 323599,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 98.35293078099858,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "26_system2_iterations_20261030T074100Z",
+    "unique_successful_provider_responses": 1,
+    "input_tokens": 3629,
+    "output_tokens": 27578,
+    "total_tokens": 31207,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 442.4485819830006,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "28_system2_interface_20261030T102000Z",
+    "unique_successful_provider_responses": 1,
+    "input_tokens": 3836,
+    "output_tokens": 20871,
+    "total_tokens": 24707,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 379.7692848180013,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "29_system2_api_20261030T101800Z",
+    "unique_successful_provider_responses": 1,
+    "input_tokens": 3831,
+    "output_tokens": 22532,
+    "total_tokens": 26363,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 361.79368145400076,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "34_limited_completion_20261030T151253Z",
+    "unique_successful_provider_responses": 18,
+    "input_tokens": 207984,
+    "output_tokens": 20577,
+    "total_tokens": 228561,
+    "cached_input_tokens": 82944,
+    "measured_http_seconds": 336.4131123930201,
+    "unknown_http_duration_count": 0
+  },
+  {
+    "source_cohort": "35_targeted_language_timing_20261030T234157Z",
+    "unique_successful_provider_responses": 7,
+    "input_tokens": 81893,
+    "output_tokens": 5299,
+    "total_tokens": 87192,
+    "cached_input_tokens": 0,
+    "measured_http_seconds": 89.53154063299007,
+    "unknown_http_duration_count": 0
+  }
+]

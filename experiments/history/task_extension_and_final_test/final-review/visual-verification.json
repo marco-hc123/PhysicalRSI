@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "utc": "2026-10-31T00:21:06.718817+00:00",
+  "method": "Rendered PNG visual inspection; SVG counterparts retained.",
+  "figures": {
+    "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/figures/cross-project-token-accounting.png": "00784394516911ae9f8734b5812dc9ee820d4217dd852f8c6b1a869b4104206a",
+    "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/figures/cross-project-token-accounting.svg": "51771e4c399f3d6c1498e6e26dd10b453fa7a774c0d8a5281428d52bbfa21f28",
+    "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/figures/targeted-cold-continuous-timing.png": "bf7fee7f28807f8afca6f801af4a77246a25e02ef6868091acb76835c19d832f",
+    "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/figures/targeted-cold-continuous-timing.svg": "c1c5411b6af6235e48e4143ecf72bca818315fab1e40731ad13ef7921face6dd"
+  },
+  "observations": [
+    "Cross-project total and cache-adjusted accounting are separately labelled.",
+    "Timing legend is clear of bars after versioned y-axis headroom adjustment.",
+    "Timing plot retains startup, warmup and process-cold qualifications.",
+    "First render and earlier reports preserved in closure-review."
+  ]
+}

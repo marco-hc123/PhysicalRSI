@@ -1,0 +1,35 @@
+{
+  "job": {
+    "name": "gpt61sol_classify_objects_by_language_agent",
+    "step": 3,
+    "task": "classify_objects_by_language",
+    "layouts": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "route": "agent",
+    "condition": "gpt61sol-model-swap",
+    "ground_truth": false,
+    "reference_output": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3/reference_classify_objects_by_language_agent"
+  },
+  "stage": "complete",
+  "complete": true,
+  "started_monotonic": 2405.904322149,
+  "started_utc": "2026-11-02T01:06:24.057284+00:00",
+  "elapsed_seconds": 1106.991855761,
+  "utc": "2026-11-02T01:24:51.049139+00:00",
+  "policy_pid": 8735,
+  "policy_ready_monotonic": 2418.173017903,
+  "client_pid": 8992,
+  "client_started_monotonic": 2418.173549415,
+  "client_exit_code": 0,
+  "native_finished_monotonic": 3510.944209983,
+  "native_result_path": "/mnt/data/physical-RSI/code/RoboDojo/eval_result/RoboDojo/classify_objects_by_language/physicalRSI/arx_x5/0_sol-supplement-agent/37_gpt61sol_supplement_20261102--gpt61sol_classify_objects_by_language_agent/_result.json",
+  "native_completed": 5,
+  "counted_episode_errors": 0,
+  "successes": 2,
+  "finished_monotonic": 3512.896175462
+}

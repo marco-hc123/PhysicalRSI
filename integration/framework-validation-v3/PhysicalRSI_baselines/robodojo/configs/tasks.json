@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "release_profile": "curated-robodojo-v1",
+  "tasks": [
+    "put_bottles_into_dustbin",
+    "stack_bowls",
+    "classify_objects"
+  ]
+}

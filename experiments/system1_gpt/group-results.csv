@@ -1,0 +1,5 @@
+condition,task,episodes,successes,score,mean_input,mean_output,mean_total,mean_cached_input,mean_uncached_metric,mean_api_seconds,mean_reset_to_result_seconds,total_http_attempts,logical_calls,group_wrapper_seconds
+qwen_reference,classify_objects,5,1,32.0,11546,1058,12604,4147.2,8456.8,17.404910274199757,236.53175448939982,5,5,1247.4491848379994
+gpt61sol,classify_objects,5,1,47.0,11545,116.6,11661.6,0,11661.6,15.796895663800024,229.41943272239996,5,5,1282.881000777
+qwen_reference,classify_objects_by_language,5,1,30.0,11588.8,743.6,12332.4,0,12332.4,12.265469193399985,214.75510789399996,5,5,1123.7488695720003
+gpt61sol,classify_objects_by_language,5,2,46.0,11587.8,131.6,11719.4,0,11719.4,16.569807105400013,212.05784546900003,5,5,1106.9918533129999

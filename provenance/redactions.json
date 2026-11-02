@@ -1,0 +1,22 @@
+[
+  {
+    "path": "experiments/system1_gpt/protocol.json",
+    "redactions": 1
+  },
+  {
+    "path": "experiments/system1_gpt/analysis-summary.json",
+    "redactions": 1
+  },
+  {
+    "path": "experiments/system2_gpt/recovery-01/protocol.json",
+    "redactions": 1
+  },
+  {
+    "path": "experiments/history/classification_reference/protocol.json",
+    "redactions": 1
+  },
+  {
+    "path": "experiments/history/task_extension_and_final_test/protocol.json",
+    "redactions": 1
+  }
+]

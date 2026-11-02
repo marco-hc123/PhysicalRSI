@@ -1,0 +1,18 @@
+{
+  "pid": 4775,
+  "command": [
+    "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python",
+    "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/procedure-sources/system2_sol_run.py",
+    "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102"
+  ],
+  "utc": "2026-11-02T02:18:23.288019+00:00",
+  "bridge_check": {
+    "model": "gpt-6.1-sol",
+    "cap_usd": 20.0,
+    "cumulative_upper_usd": 0.30173,
+    "pending_usd": 0.0,
+    "actual_attempts": 0,
+    "max_attempts": 1
+  },
+  "automatic_restart": false
+}

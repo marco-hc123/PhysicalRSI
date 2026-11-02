@@ -1,0 +1,20 @@
+Inspect CURRENT_SYSTEM2_DIAGNOSTIC.json and actual processes before any dispatch.
+Do not rerun the same output directory. Original attempts and errors are evidence.
+protocol.json defines the eight cells and source pins; reachability-protocol.json defines 24 solver probes.
+category-repair/protocol.json defines the single adaptive supplementary attempt.
+procedures/system2_mechanism_control_v4.py is the reconciled controller; v1-v3 remain historical.
+procedures/system2_mechanism_audit_v2.py generates bounded descriptive audits.
+procedures/system2_mechanism_finish.py independently verifies binding/artifact/video evidence.
+All experiment data remain cloud-only. No model API is used in this diagnostic extension.
+
+To repeat only these diagnostic controls, choose a NEW output directory and run:
+  sudo /mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python OLD_RUN/procedures/system2_mechanism_control_v4.py register NEW_RUN
+  sudo /mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python OLD_RUN/procedures/system2_mechanism_control_v4.py run NEW_RUN
+Replace OLD_RUN by this directory and NEW_RUN by a new absolute cloud result path.
+The existing validation cases are intentionally reused for mechanism diagnosis;
+they are not a new held-out benchmark. No final-test cases are used.
+Prerequisite: verify no scientific process is already running, preserve credentials,
+and retain all failed attempts. No rerun is queued by this document.
+The category-repair supplementary run was registered adaptively after a KeyError;
+do not count it as part of the original eight cells. Future reports must be based
+on their own outputs, not copied from this report's fixed observed conclusions.

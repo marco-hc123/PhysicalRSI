@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "episodes": 68,
+  "groups": 19,
+  "maximum_pairwise_timer_overlap_seconds": 0,
+  "qualifications": [
+    "Same-host monotonic intervals, clipped to reset-to-result; union accounting prevents double-counting concurrent/nested timers.",
+    "API time is measured request transport duration. Policy action timers include local policy and skill work, not pure GPU kernel time.",
+    "Native control timers cover the instrumented native take_action_batch call, including associated simulation/rendering work.",
+    "Remaining time is unassigned observation/communication/reset/serialization/other work; it is not proven to be one specific bottleneck.",
+    "Process startup/warmup/teardown remain separately reported in whole-job timing. These episode intervals do not replace whole-batch timing.",
+    "No corresponding project-A wall-time intervals are public; no cross-project end-to-end ratio follows."
+  ]
+}

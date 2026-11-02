@@ -1,0 +1,9 @@
+﻿phase,role,episodes,http,tokens,source
+Representative smoke,development; exclude from formal,3,3,37254,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+Representative formal,"three tasks, five cases each",15,15,191307,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+Independent selected-policy final,"two tasks, ten fresh layouts each; equivalent parent deduplicated",20,0,0,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/independent-final-episodes.csv
+Targeted timing matched cases,exploratory interface/timing supplement; not final score,6,6,74862,/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/episodes.csv
+Targeted timing warmup,include in batch cost; exclude from paired means,1,1,12330,/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/episodes.csv
+System2 formal two rounds,prior result; not part of latest 45 episode attempts,40,2,51070,/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/step5-results.json
+System2 proposal including prior failure,OVERLAPS preceding formal proposals; do not sum,,3,82277,/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/step5-results.json
+All observed retained provider responses,"DEDUPLICATED whole-cloud accounting, OVERLAPS all above; not provider invoice",,142,3060918,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/cloud-organization/provider-ledger-audit.json

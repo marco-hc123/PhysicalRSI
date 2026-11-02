@@ -1,0 +1,329 @@
+{
+  "cap_usd": 20.0,
+  "charged_upper_usd": 0.30173,
+  "pending_usd": 0.0,
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "reservation_usd_per_attempt": 6.2,
+  "attempts": [
+    {
+      "request_id": "smoke-e4238f8a-45f4-4bfa-894b-0ea20362c2e3",
+      "sha256": "c121647ee61db2c5882702679d61e2dbb809c2d5ced606b5a26f89f3563bc12f",
+      "utc": "2026-11-02T00:42:44.483896+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 20,
+        "completion_tokens": 11,
+        "total_tokens": 31,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfaQI2NCvXoeiJx1UmqSCYpdAotKc",
+      "estimated_cost_lower_usd": 0.00015,
+      "estimated_cost_upper_usd": 0.00016,
+      "seconds": 3.165390900001512,
+      "http_status": 200,
+      "guard_charge_usd": 0.00016
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_agent-e0a9df41-a187-4154-96b4-a54f49e48965",
+      "sha256": "3b253fa3860a8a9a5743b563193667f3b2c74000a804109a51bcb23ddf7eff63",
+      "utc": "2026-11-02T00:47:19.197738+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11545,
+        "completion_tokens": 115,
+        "total_tokens": 11660,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfaUjaep6TdfzghzNQa773d53sc8h",
+      "estimated_cost_lower_usd": 0.02424,
+      "estimated_cost_upper_usd": 0.0300125,
+      "seconds": 5.0560134000043035,
+      "http_status": 200,
+      "guard_charge_usd": 0.0300125
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_agent-80fd2fc6-1ad1-44cf-8b0f-38c953359552",
+      "sha256": "dd5bb3d0bbaed4552280d391da1270232004f2a874e6543e5783d5ac9a47f5fc",
+      "utc": "2026-11-02T00:51:25.571535+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11545,
+        "completion_tokens": 110,
+        "total_tokens": 11655,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfaYigVwAxHV4J5guH4VTysyP5raY",
+      "estimated_cost_lower_usd": 0.02419,
+      "estimated_cost_upper_usd": 0.0299625,
+      "seconds": 5.7166700000016135,
+      "http_status": 200,
+      "guard_charge_usd": 0.0299625
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_agent-ce91a171-e20f-4eae-b408-bd1b7d6d4979",
+      "sha256": "d129725a6af98b4c3c486556ab7f4b263a95f3fdc4de57164e2adefb27018a77",
+      "utc": "2026-11-02T00:54:33.326109+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11545,
+        "completion_tokens": 127,
+        "total_tokens": 11672,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfabjUF7Zi3oUZ5F5WVKnCps6NHEh",
+      "estimated_cost_lower_usd": 0.02436,
+      "estimated_cost_upper_usd": 0.0301325,
+      "seconds": 4.994774899998447,
+      "http_status": 200,
+      "guard_charge_usd": 0.0301325
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_agent-0e042c23-4dd3-49ec-a66f-4cbf31c86588",
+      "sha256": "34abdbf5b38cfd6d4afdb56ed47aa8f18d68c7fa10eeff0e6d1ca0a35612c104",
+      "utc": "2026-11-02T00:58:31.890440+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11545,
+        "completion_tokens": 116,
+        "total_tokens": 11661,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfafaNTslwSD7Oo27hdGJfUwa8Pbe",
+      "estimated_cost_lower_usd": 0.02425,
+      "estimated_cost_upper_usd": 0.0300225,
+      "seconds": 5.026544400003331,
+      "http_status": 200,
+      "guard_charge_usd": 0.0300225
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_agent-471389c4-e649-41f0-9ea1-81a1f15dff6e",
+      "sha256": "760c9309df108f3564f92ba7cc66dbcdef561f274a76d368261086758453f2ee",
+      "utc": "2026-11-02T01:02:34.596668+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11545,
+        "completion_tokens": 115,
+        "total_tokens": 11660,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfajVB4o3EXCkpzFwtevouIt44x6W",
+      "estimated_cost_lower_usd": 0.02424,
+      "estimated_cost_upper_usd": 0.0300125,
+      "seconds": 4.681574700000056,
+      "http_status": 200,
+      "guard_charge_usd": 0.0300125
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_by_language_agent-df8e9fc3-96a2-4d72-b0f6-30112eee3ddf",
+      "sha256": "bbab62ab177470125d83d22dd25540e887d30f1170ec04b1624ec583bffc96b4",
+      "utc": "2026-11-02T01:07:20.919131+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11587,
+        "completion_tokens": 129,
+        "total_tokens": 11716,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-Efao74fVVNzWS7lJz2d2flBHz7Av7",
+      "estimated_cost_lower_usd": 0.024464,
+      "estimated_cost_upper_usd": 0.0302575,
+      "seconds": 5.173763699996925,
+      "http_status": 200,
+      "guard_charge_usd": 0.0302575
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_by_language_agent-ad05908e-b47b-4c77-b81d-1790794b3160",
+      "sha256": "9556b06312fa9a17e9f04619b005431e06e298908aa8f1c364e60ff34c031440",
+      "utc": "2026-11-02T01:11:11.200729+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11589,
+        "completion_tokens": 115,
+        "total_tokens": 11704,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfarpScZ5ijHQeOe0UP1gU0rkvV7Q",
+      "estimated_cost_lower_usd": 0.024328,
+      "estimated_cost_upper_usd": 0.0301225,
+      "seconds": 4.705431100002897,
+      "http_status": 200,
+      "guard_charge_usd": 0.0301225
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_by_language_agent-18f3fe63-1508-4301-a25e-8a68b06c56ab",
+      "sha256": "c4692cea420420c619a07b5bf7464b8eca746d22151fe566fe2c255d66b36e48",
+      "utc": "2026-11-02T01:14:32.804944+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11587,
+        "completion_tokens": 127,
+        "total_tokens": 11714,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-Efav5LvNSgF84CR6UJjWT79inFlBZ",
+      "estimated_cost_lower_usd": 0.024444,
+      "estimated_cost_upper_usd": 0.0302375,
+      "seconds": 6.341524900002696,
+      "http_status": 200,
+      "guard_charge_usd": 0.0302375
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_by_language_agent-ed9d249b-708b-4528-9b02-a364a3d0099c",
+      "sha256": "014d4bace89f7d5a9361444d1f31c22174f4fb38a2934a16c850cfefd35f145d",
+      "utc": "2026-11-02T01:17:21.156437+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11589,
+        "completion_tokens": 144,
+        "total_tokens": 11733,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-EfaxnfV9NTf0fXJQUu8WLpjdfzVxj",
+      "estimated_cost_lower_usd": 0.024618,
+      "estimated_cost_upper_usd": 0.0304125,
+      "seconds": 5.198263499994937,
+      "http_status": 200,
+      "guard_charge_usd": 0.0304125
+    },
+    {
+      "request_id": "37_gpt61sol_supplement_20261102-gpt61sol_classify_objects_by_language_agent-71d2b98d-cb4a-4dde-b50a-2cc409fe4a4a",
+      "sha256": "c04ac44de12b85ee7a0e7182bdb2a3f4fef13f76250795ce3cbb826f6a0676cf",
+      "utc": "2026-11-02T01:21:28.396877+00:00",
+      "state": "response_received",
+      "reserve_usd": 6.2,
+      "usage": {
+        "prompt_tokens": 11587,
+        "completion_tokens": 143,
+        "total_tokens": 11730,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "audio_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        }
+      },
+      "returned_model": "gpt-6.1-sol",
+      "provider_id": "chatcmpl-Efb1mkTfiMmYi0qGHtRwGcEZMfIUS",
+      "estimated_cost_lower_usd": 0.024604,
+      "estimated_cost_upper_usd": 0.0303975,
+      "seconds": 4.966268099997251,
+      "http_status": 200,
+      "guard_charge_usd": 0.0303975
+    }
+  ]
+}

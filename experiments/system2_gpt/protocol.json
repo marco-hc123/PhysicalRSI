@@ -1,0 +1,147 @@
+{
+  "allowed_changes": [
+    "Candidate generator model/provider/necessary compatible parameters",
+    "isolated output paths and provenance metadata"
+  ],
+  "amendments_before_dispatch": [
+    "Static CPU fixtures inspect a bounded valid RPC prefix; exhausting the static fixture is inconclusive for policy completion. Also verify completed no-path rejection handling. No synthetic motion/reward success is invented.",
+    "Native isolation max_calls remains 100, physics/control/reward/checkpoints/model output unchanged. Native evaluation alone determines physical outcome.",
+    "Explicit new policy bootstrap preserving selected skill/memory/control/weights; rebind only assets/prompts/dependencies to the current execution closure, with external bridge to the first committed round. This is a registered policy-boundary continuation, not an unchanged-policy hash chain.",
+    "Reuse ten completed second-round development episodes and exact completed Qwen source/memory/response. No new HTTP, no native development replay.",
+    "Only five new paired validation layouts, generated after comparison freeze and excluding all prior layouts; official selector/commit used without changing scores."
+  ],
+  "automatic_http_retries": 0,
+  "budget": {
+    "client_reservation_per_request_usd": 8,
+    "cumulative_limit_usd": 20,
+    "maximum_new_requests": 1,
+    "prior_upper_usd": 0.30173
+  },
+  "candidate_editing": "No manual correction or extra feedback",
+  "collect_interval": 10,
+  "completed_proposal": {
+    "directory": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z",
+    "files": {
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/proposal-api/call-0001/completed.json": "ce3ff98868173680a702b0341d456b6350724251182b769285a1e1a08441f910",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/proposal-api/call-0001/request.json": "97f432995a6321a47e573c420a6214c97390029b1b69ce341ca3590554a244b9",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/proposal-api/call-0001/response.json": "6dab3e3f2c2ea28e86393cca9bc11e6589e93d65e3f0aed77a1c12b2a3d48de0",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/workspace/rounds/round-000001/proposals/classify_objects/request.json": "88c8bfb4b56a23ebdce446bc7df804b5c4f0088dc7521c6c4cb0ada33b686a81",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/workspace/rounds/round-000001/proposals/classify_objects/response.json": "4124c4cba316acfcc97b8a96a46031e96b3d65c93432c13e196431d37aa48f81"
+    },
+    "new_http_attempts": 0,
+    "round_index": 1
+  },
+  "configuration_sha256": "64763745bff30935f433c2ced984e1ccd2fa641e2fc6e238897e0dac42970f35",
+  "control_dt": 0.04,
+  "development_layouts_per_round": 5,
+  "exclusions": [
+    "feedback enhancement",
+    "manual candidate repair",
+    "directory changes",
+    "new VLA training",
+    "two complete new rounds",
+    "20-case independent final test"
+  ],
+  "expected_native_evaluations": "Fresh parent 5 plus fresh GPT candidate 5 on the same frozen validation layouts",
+  "held_constant": [
+    "exact original model messages",
+    "frozen development feedback",
+    "parent pi05",
+    "primitive API",
+    "local VLA and code implementations",
+    "five matched validation layouts",
+    "1100 steps",
+    "0.04s control interval",
+    "native scoring and selector"
+  ],
+  "historical_exclusions_sha256": "108617d37090a2ddc1e52d00bef43c1c0ade587615612b1dbd8fe3954be7b520",
+  "initial_parent": "Official workflow initial pi05 seed; no integration candidate relabelled as initial parent",
+  "logical_round_index": 0,
+  "maximum_candidates_per_round": 1,
+  "maximum_native_evaluations": 10,
+  "maximum_regression": 0,
+  "maximum_rounds": 1,
+  "minimum_gain": 0,
+  "minimum_vla_score": 0.6,
+  "model_profile": {
+    "automatic_retries": 0,
+    "maximum_prompt_characters": 100000,
+    "model": "gpt-6.1-sol",
+    "output_limit_override": false,
+    "reasoning_effort": "medium",
+    "response_format": {
+      "type": "json_object"
+    },
+    "service_tier": "default",
+    "timeout_s": 600
+  },
+  "new_model": "gpt-6.1-sol",
+  "num_envs": 1,
+  "original_reference_suite": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z",
+  "physics_dt": 0.004,
+  "previous_complete_round": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/round-00-result.json",
+  "prior_attempt": "/mnt/data/physical-RSI/result/26_system2_iterations_20261030T074100Z",
+  "prior_attempt_protocol_sha256": "e34660e5d2c9d1e857245bbae406e1aaeef2a3ffbcd6743f5bf8183f54d94c1b",
+  "prior_protocol": "/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z/protocol.json",
+  "prior_protocol_sha256": "ba90cca004a0839582405bad04e8fa2bb01c612eba4e8612edf4f13a3c62110c",
+  "prompt_input_fingerprint": {
+    "messages_sha256": "4ed288d0a1ac8c7ca240b1f9e8c4324683f5844fe8d3118355e492c29b632fa8",
+    "new_model": "gpt-6.1-sol",
+    "original_chat_sha256": "97f432995a6321a47e573c420a6214c97390029b1b69ce341ca3590554a244b9",
+    "reference_model": "qwen3.7-plus",
+    "structured_request_sha256": "88c8bfb4b56a23ebdce446bc7df804b5c4f0088dc7521c6c4cb0ada33b686a81"
+  },
+  "proposal_http_attempts_maximum": 1,
+  "qualifications": [
+    "No improvement assumed; parent retention is a valid scientific result.",
+    "Fresh validation informs selection, not the model proposal. Final step7 test remains ungenerated.",
+    "Selected task and study-specific budgets, not full RoboDojo leaderboard or authors historical exact performance.",
+    "No changes to original source, weights, reward, model/proxy/permission settings; no local raw backup"
+  ],
+  "raw_retention": "cloud_only",
+  "reference_validation_round": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000",
+  "registered_utc": "2026-11-02T02:14:27.646383+00:00",
+  "registered_zero_dispatch_attempt": "/mnt/data/physical-RSI/result/30_system2_final_validation_20261030T120500Z",
+  "reuse_development": {
+    "directory": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z",
+    "episodes": 10,
+    "files": {
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/iteration-failed.json": "edcf757ca46c819e154fff5a33c130ce4b0334ae2a523ebbc5ae67f617f13a37",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/native-budget.json": "744da2b26a837c9f5d9c9231130e0e3a3159d3c4e9466ed2740f3b2b6561fa94",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/protocol.json": "fb75c6e6d96b9f63fb2e98078ce627aaacf72d89c225f3728c4b863abb143d98",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/runtime.json": "dd27842740f8a6c61766a5ff022bfde4d0bc7d5f9db7daa119744cf2ce0b7d4d",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/workspace/rounds/round-000000/commit.json": "aa5c0c501c3820be35e5ef9e8ce1cb32e607cc339165e771cd5b9f0d412da997",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/workspace/rounds/round-000001/development-cases.json": "7d819507ca8aa2f6760d808d96ac6ce8f30b713c42140f9738ba43e32d3f34a9",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/workspace/rounds/round-000001/development-results.json": "f7d19f1b529640cd3d5b6de2a800b2132804caba197caeeee28efe20f987abf8",
+      "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/workspace/rounds/round-000001/parent.json": "aa5c0c501c3820be35e5ef9e8ce1cb32e607cc339165e771cd5b9f0d412da997"
+    },
+    "new_native_episodes": 0,
+    "round_index": 1
+  },
+  "reused_runtime": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/attempt-05-planning-contract/runtime.json",
+  "rollout_batch_size": 1,
+  "schema": "physicalrsi.system2-model-swap/v1",
+  "scheme": "hybrid",
+  "scope": "Selected-task core reproduction; development/proposal costs separate from System1 online comparison",
+  "selected_parent_commit": "/mnt/data/physical-RSI/result/29_system2_api_20261030T101800Z/workspace/rounds/round-000000/commit.json",
+  "selected_parent_commit_sha256": "aa5c0c501c3820be35e5ef9e8ce1cb32e607cc339165e771cd5b9f0d412da997",
+  "selected_parent_freeze_sha256": "8c60cc1aeb843d4dbe3f75caffa4e269c0b024640c3fea418b136b69fcf6d1ba",
+  "simulator_seed": 0,
+  "sources": {
+    "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/procedure-sources/step5_feedback.py": "822132f0e6f16fe0b4d26df48dcd80bb73f99c91d77a0aa4d97227113d700ef6",
+    "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/procedure-sources/step5_scene_api_v4.py": "09db344ca589ba093e6b2be68701eadb3e6e6cf6f5c2b81867c7627135404190",
+    "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/procedure-sources/system2_sol_run.py": "68f0828f0761a883c7838211165e0aafaccef8cd72a9dc6c098e08e2e5a76a15"
+  },
+  "step": 5,
+  "step4_completion": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/step4-completion.json",
+  "step4_completion_sha256": "30f9de39d0026666dd001ba27faf1152a0b0ce3175028ac2bf11afeac4c0c3b4",
+  "step_limit": 1100,
+  "stop_conditions": [
+    "Two committed rounds or native evaluation cap",
+    "Any ambiguous interrupted native/model operation, admission error, malformed model response or contract failure blocks automatic retry; preserve all evidence and diagnose"
+  ],
+  "task": "classify_objects",
+  "tie_tolerance": 1e-10,
+  "validation_layouts_per_round": 5,
+  "workflow_configuration_sha256": "81ff5f003e087832e40bb5333efc7d823ab65ef01f8aaa5c059654be59204dde"
+}

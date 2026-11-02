@@ -1,0 +1,99 @@
+{
+  "complete": true,
+  "utc": "2026-10-30T23:40:57.286209+00:00",
+  "new_agent_episodes": 18,
+  "formal_agent_episodes": 15,
+  "final_episodes": 20,
+  "videos": [
+    {
+      "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/smoke_stack_bowls",
+      "count": 3,
+      "frames": 2403
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/smoke_cover_blocks",
+      "count": 3,
+      "frames": 1626
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/smoke_insert_tubes",
+      "count": 3,
+      "frames": 1377
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/formal_stack_bowls",
+      "count": 15,
+      "frames": 11181
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/formal_cover_blocks",
+      "count": 15,
+      "frames": 9600
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/formal_insert_tubes",
+      "count": 15,
+      "frames": 7005
+    }
+  ],
+  "original_deployment_files_verified": 450,
+  "final_reference_files_unchanged": true,
+  "api_usage_arithmetic_verified": true,
+  "credential_matches": 0,
+  "qualifications": [
+    {
+      "item": "Task/control interface",
+      "project_a": "GPT-as-Policy official selected public cases; direct short action chunks and hybrid skill/tool behavior",
+      "physicalrsi": "Actual Qwen Agent chooses a frozen composition; local code/VLA executes many native controls",
+      "qualification": "Same task names do not establish identical layouts, model, success level or training."
+    },
+    {
+      "item": "Provider total tokens",
+      "project_a": "Use a-public-task-reference.csv mean_total_tokens, per episode; includes cached input",
+      "physicalrsi": "Use actual prompt_tokens+completion_tokens from provider usage per attempt",
+      "qualification": "Different providers/tokenizers; cached input and reasoning are subsets, not additional tokens."
+    },
+    {
+      "item": "Uncached comparison",
+      "project_a": "mean_uncached_input_plus_output is diagnostic, not a bill or latency measurement",
+      "physicalrsi": "total_tokens-cached_input_tokens; report alongside total",
+      "qualification": "No equal-success savings ratio or price comparison claimed."
+    },
+    {
+      "item": "Calls",
+      "project_a": "Public action segments are not verified HTTP request counts",
+      "physicalrsi": "Separate logical planning, real HTTP attempts, native robot controls",
+      "qualification": "A request count unavailable remains blank; never substitute action count."
+    },
+    {
+      "item": "Speed",
+      "project_a": "Public physical duration=steps*0.04; complete wall clock unavailable",
+      "physicalrsi": "Separate process startup, API, policy, simulator/reset and batch elapsed",
+      "qualification": "No end-to-end inter-project speed ratio supported."
+    },
+    {
+      "item": "Cold/continuous",
+      "project_a": "No matched public process timing",
+      "physicalrsi": "Reuse six prior paired measurements and batch accounting",
+      "qualification": "Early format failures not speedups; OS/GPU caches were not flushed."
+    },
+    {
+      "item": "System2",
+      "project_a": "Official metrics only, no new execution",
+      "physicalrsi": "Two proposal/selection rounds retained parent; final reports test frozen policy",
+      "qualification": "Generation+development+failed-attempt costs stay separate from online System1."
+    },
+    {
+      "item": "New task scope",
+      "project_a": "No new A benchmark",
+      "physicalrsi": "Three smoke plus fifteen representative formal cases",
+      "qualification": "One Memory task is not memory-on/off causality; one precision task not full dexterity proof; stack_bowls not random variant."
+    },
+    {
+      "item": "Final transfer",
+      "project_a": "Not applicable",
+      "physicalrsi": "Ordinary selected artifact unchanged; language assembly only binds same pi05",
+      "qualification": "No language System2 gain or improved candidate is claimed."
+    }
+  ]
+}

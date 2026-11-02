@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "unique_proposals": 4,
+  "total_tokens": 405876,
+  "http_seconds": 1282.3644790360013,
+  "integration_tokens": 323599,
+  "formal_two_round_tokens": 51070,
+  "failed_proposal_only_tokens": 31207,
+  "qualification": "Integration + two formal proposals + one failed proposal are disjoint. The 82277 subtotal excludes integration; native execution and local inference are separate."
+}

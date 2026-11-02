@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "plan": {
+    "composition": "memory-guided-program-library",
+    "operations": [
+      "language-conditioned-placement"
+    ],
+    "rationale": "This operation explicitly supports instruction-specified category mappings to left, middle, and right baskets. RGB shows three open baskets and the requested object categories, matching bounded grasp-and-place execution. Its observation-batch input and end-effector action-chunk output fit the library contracts. Visual-attribute-placement instead assigns baskets by transfer cost and cannot preserve the requested mapping. Arm reset remains a shared lifecycle action after placement."
+  },
+  "episode_index": 1,
+  "seconds": 13.048477459999958
+}

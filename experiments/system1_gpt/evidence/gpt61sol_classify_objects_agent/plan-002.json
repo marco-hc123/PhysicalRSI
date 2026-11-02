@@ -1,0 +1,12 @@
+{
+  "valid": true,
+  "plan": {
+    "composition": "memory-guided-program-library",
+    "operations": [
+      "visual-attribute-placement"
+    ],
+    "rationale": "The scene shows three open baskets and three object categories: toy vehicles, pens, and plush figures. The selected operation explicitly supports grouping detected categories into separate baskets using visual localization and bounded grasp-and-place control. Its geometry-based basket assignment fits the instruction, which specifies no category-to-basket mapping. Its observation-batch input and joint-action-chunk output match the configured contracts."
+  },
+  "episode_index": 1,
+  "seconds": 19.04322326600004
+}

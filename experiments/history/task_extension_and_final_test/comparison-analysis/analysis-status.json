@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "utc": "2026-10-30T23:41:03.455753+00:00",
+  "public_A_episodes": 100,
+  "matched_B_reference_episodes": 10,
+  "repeat_episodes": 0,
+  "source_commit": "8f3d362b077d8efb77e2a7274d5b2c20e2243846",
+  "source_sha256": "0c4be006a2a0dc1ca2559e4421c45680eec94d466f390ea34b2ea055af9bd74e",
+  "cross_project_wall_speed_ratio_supported": false,
+  "no_A_execution": true
+}

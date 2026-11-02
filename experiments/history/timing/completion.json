@@ -1,0 +1,48 @@
+{
+  "complete": true,
+  "utc": "2026-10-31T00:12:33.112098+00:00",
+  "episodes": 7,
+  "paired_layouts": 3,
+  "valid_native_pairs": 3,
+  "same_instruction_state_pairs": 3,
+  "counted_errors": 0,
+  "http_attempts": 7,
+  "known_tokens": 87192,
+  "warmup_tokens": 12330,
+  "three_cold_total_wrapper_s": 835.7477401079959,
+  "continuous_wrapper_including_one_warmup_s": 987.2756988059991,
+  "full_batch_cold_minus_continuous_s": -151.5279586980032,
+  "mean_cold_reset_to_result_s": 231.9214168136629,
+  "mean_continuous_reset_to_result_s": 236.71134231399628,
+  "video_proof": [
+    {
+      "path": "/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/language_cold_0",
+      "count": 3,
+      "frames": 3303
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/language_continuous",
+      "count": 12,
+      "frames": 13212
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/language_cold_1",
+      "count": 3,
+      "frames": 3303
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/language_cold_2",
+      "count": 3,
+      "frames": 3303
+    }
+  ],
+  "qualifications": [
+    "The serialization-only prompt addition is identical in both arms; this is a declared adapter condition, not unmodified original prompt results.",
+    "No raw response rewriting, no forced skill or operation, no reward/physics change.",
+    "Cold means fresh processes, not cleared OS/GPU caches.",
+    "Same layout numbers and initialization states checked; RGB may differ.",
+    "All seven attempts, failures, startup, warmup and teardown are retained.",
+    "No tuning on independent final outcomes; public diagnostic layouts 0–3 were used previously.",
+    "No claim about project A wall-clock speed follows from this within-B test."
+  ]
+}

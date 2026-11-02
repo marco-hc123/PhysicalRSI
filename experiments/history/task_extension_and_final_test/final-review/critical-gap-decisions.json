@@ -1,0 +1,63 @@
+{
+  "complete": true,
+  "provisional": false,
+  "utc": "2026-10-31T00:12:46.743696+00:00",
+  "items": [
+    {
+      "id": "G01",
+      "finding": "Language final sampler implementation existed but was absent from curated task declaration.",
+      "action": "Isolated sampler-config copy; original policy and first ten completed cases preserved. Completed only ten remaining cases.",
+      "status": "resolved_and_verified",
+      "new_native": 10,
+      "new_http": 0,
+      "evidence": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/closure-review/final-evidence-verification.json"
+    },
+    {
+      "id": "G02",
+      "finding": "Two original continuous language cases ended early on planner-format errors; later typed followup had cold cases only.",
+      "action": "Three fresh process-cold/continuous matched pairs plus one warmup, using identical previously validated serialization-only contract.",
+      "status": "measurement_gap_closed",
+      "new_native": 7,
+      "new_http": 7,
+      "evidence": "/mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/completion.json"
+    },
+    {
+      "id": "G03",
+      "finding": "System2 candidates and retained parent had low/zero validation scores; ordinary final score remained low.",
+      "action": "Checked selected bindings, actual candidate execution, native termination, evidence and source pins. Preserve valid negative outcomes; no retry-until-success.",
+      "status": "negative_result_retained_no_new_defect_identified",
+      "new_native": 0,
+      "new_http": 0,
+      "evidence": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/step5-results.json"
+    },
+    {
+      "id": "G04",
+      "finding": "Project A public record lacks measured full wall-clock and verified HTTP counts.",
+      "action": "Report missing fields as unavailable. No PhysicalRSI rerun can supply absent project-A measurements.",
+      "status": "external_evidence_limit_declared",
+      "new_native": 0,
+      "new_http": 0,
+      "evidence": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/comparison-analysis/analysis-status.json"
+    },
+    {
+      "id": "G05",
+      "finding": "Copied provider responses and overlapping phase receipts could double-count usage.",
+      "action": "Deduplicate provider response IDs, verify token arithmetic and keep online/proposal/diagnostic phases separate.",
+      "status": "accounting_audited",
+      "new_native": 0,
+      "new_http": 0,
+      "evidence": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/cloud-organization/provider-ledger-audit.json"
+    },
+    {
+      "id": "G06",
+      "finding": "Historical paths and temporary cache candidates need disposition without breaking pinned dependencies.",
+      "action": "Indexed roots and scanned known manifests/open descriptors. Retain working dependencies and original failure evidence; no speculative deletion.",
+      "status": "organized_no_destructive_cleanup_needed",
+      "new_native": 0,
+      "new_http": 0,
+      "evidence": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/cloud-organization/dependency-audit.json"
+    }
+  ],
+  "no_unconditional_repeat_rounds": true,
+  "valid_negative_outcomes_not_replaced": true
+}

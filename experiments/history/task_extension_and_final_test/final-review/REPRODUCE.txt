@@ -1,0 +1,56 @@
+PhysicalRSI limited reproduction: evidence and rerun entrypoints
+
+Root: /mnt/data/physical-RSI
+Original closure: /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z
+Targeted timing supplement: /mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z
+Raw evidence remains on this server. Keep original absolute paths and hashes.
+Do not export credentials from /home/ecs-user/.config/physicalrsi/agent.json.
+Use the existing ecs-user account and sudo for root-owned experiment records.
+
+READ-ONLY VERIFICATION (no API or simulator dispatch)
+sudo python3 /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/step8_reproduce.py verify /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z
+sudo python3 /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/verify_bundle.py /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review
+The original verification checks the original closure, not the later supplement.
+The bundle check verifies derived files, registered supplement and independent audit receipts.
+
+OPTIONAL EXACT FINAL REPLAY (20 native cases, no new planning API)
+sudo /mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/step8_reproduce.py rerun-final /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z /mnt/data/physical-RSI/result/NEW_UNIQUE_FINAL_REPLAY
+The output directory must not exist. This reuses the 20 archived layouts and fixed
+policy; it is a replay, not a new heldout final-test cohort. No such replay is
+needed now, and this command was NOT dispatched during closure review.
+
+OPTIONAL THREE-TASK FORMAL REPLAY (15 native cases with API usage)
+sudo python3 /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/step8_reproduce.py rerun-new-tasks /mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z /mnt/data/physical-RSI/result/NEW_UNIQUE_TASK_REPLAY
+Frozen task layouts and defaults are preserved. Keep its denominator separate
+from the original formal results. No such blanket replay was dispatched.
+
+TARGETED TIMING PROTOCOL
+Read /mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/protocol.json, registration.json and procedure-registration.json.
+The recorded order is cold layout 0; one continuous process for warmup 3 then
+layouts 0,1,2; cold layout 1; cold layout 2. There are seven attempts in total.
+Do NOT invoke its run mode again in the existing directory. It deliberately
+requires new logs and a unique output namespace. Another timing experiment needs
+a new preregistered directory and a specific unresolved hypothesis.
+Read-only metric re-extraction, if required:
+sudo /mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python /mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z/step8_timing_gap.py audit /mnt/data/physical-RSI/result/35_targeted_language_timing_20261030T234157Z
+This regenerates derived timing metrics; preserve their previous version first.
+
+REQUIREMENTS AND BOUNDARIES
+Existing L20, frozen NVIDIA/runtime dependencies, source paths and VLA weights;
+simulator runtime /mnt/data/physical-RSI/envs/run-native-simulator.sh;
+policy Python /mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python.
+Check real processes, GPU occupancy and saved controller status before dispatch.
+Only one GPU experiment at a time. Run heavy video/inventory audits outside timing.
+Model settings and official pinned limits are in each protocol. Do not change them
+silently. Keep raw responses, counted failures, startup and warmup cost.
+The existing serialization-only adapter is declared in both timing arms; this
+supplement must not replace the original-prompt baseline or independent final.
+
+SOURCES AND COMPARISON
+A: official pinned GPT-as-Policy public_results/data.json, commit
+8f3d362b077d8efb77e2a7274d5b2c20e2243846. No project-A execution was performed.
+B: pinned source, actual provider usage and native evidence; see original protocol.
+Action segments are not verified HTTP calls. Physical duration is not wall time.
+Cached input and reasoning output are subsets. Selected-public and observed-B
+ratios are descriptive and do not establish equal-quality efficiency.
+The full leaderboard, training and additional System2 iterations are outside scope.

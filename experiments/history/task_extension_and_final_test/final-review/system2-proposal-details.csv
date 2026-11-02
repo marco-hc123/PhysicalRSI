@@ -1,0 +1,5 @@
+﻿source_cohort,input_tokens,cached_input_tokens,output_tokens,reasoning_output_tokens,total_tokens,http_seconds,phase
+25_system2_integration_20261030T050100Z,318818,0,4781,3801,323599,98.35293078099858,native integration
+26_system2_iterations_20261030T074100Z,3629,0,27578,26412,31207,442.4485819830006,retained failed proposal
+28_system2_interface_20261030T102000Z,3836,0,20871,19930,24707,379.7692848180013,formal round 1
+29_system2_api_20261030T101800Z,3831,0,22532,21232,26363,361.79368145400076,formal round 2

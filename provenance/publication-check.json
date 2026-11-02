@@ -1,0 +1,18 @@
+{
+  "prepared_utc": "2026-11-02T06:45:03.577192+00:00",
+  "repository": "/mnt/data/physical-RSI/github/PhysicalRSI",
+  "files": 1600,
+  "bytes": 35889266,
+  "credential_findings": 0,
+  "sensitive_file_exclusions": true,
+  "redacted_files": 5,
+  "new_model_calls": 0,
+  "new_native_episodes": 0,
+  "original_experiments_modified": false,
+  "source_manifest_entries": 1597,
+  "remaining_disallowed_wording": 0,
+  "results_verified": true,
+  "finalized_utc": "2026-11-02T06:51:52.624435+00:00",
+  "presentation_included": true,
+  "presentation_slides": 6
+}

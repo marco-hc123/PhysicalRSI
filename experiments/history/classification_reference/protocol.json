@@ -1,0 +1,245 @@
+{
+  "schema": "physicalrsi.steps23/v3",
+  "registered_utc": "2026-10-30T01:37:42.206088+00:00",
+  "supersedes": "/mnt/data/physical-RSI/result/24_steps23_20261030T012400Z_v2",
+  "amendment": "Keep two verified v2 fixed-route diagnostic episodes; run only missing layout1, then remaining registered jobs. Unique native run IDs prevent importing earlier resume results. Initial v1 route fault costs remain separate.",
+  "freeze": "/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z",
+  "freeze_protocol_sha256": "ba90cca004a0839582405bad04e8fa2bb01c612eba4e8612edf4f13a3c62110c",
+  "source_hashes": {
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/agent_planner.py": "d6f6936d5b57283c7c8affacd857356f9b1e8f8d5f54a7b6959a4e70c1cb25db",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/skill_model.py": "a9a965538b15198df7b5a9521d45af92a205ead1ceba7bca659efabbe4aba9e5",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/configure_skills.py": "8d8506cfb812c565a4a29b46ceadcf0f8855a6c87696c8965b966300f0cdaa6e",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/evaluation.py": "b4d4d98aab14412ec4a4c61ce318ec531122b24323a53e7b4db074c36e6aa28f",
+    "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/main.py": "ca6ba652b6f123506370f1907b1d88060d83f56c9e91ce6e6930f63d9f2b71a8",
+    "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/eval_env.py": "3ae75304d8a840ede2589441f987824f50b2a89cc2ef37f4d43ce0a8dbc4fd88",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_native.py": "cf8245aa7e33f66da3b783e432a27db2020772210234038ddebd67a50cba50e3",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_prepare.py": "054dbc80b52223e92c3245f0a52f0eb2e6b175f251b409a9c6945e2af27827d3",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_policy.py": "09f64067674369f8d9746801885928f646d3fbe8504321f252df4cff5af1e981",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_run.py": "8cb9e33054d60474bb1634f4d6b1ec1e3fb57cd010bed33744a424b816fe9752",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_controller.py": "ae19a993e51ecffe82b5dfadb883f67524402162735095c738015bfbc1d082cd",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_existing.py": "f9323885a48bbd147bd5aafd328b4d20aae802d909ff7fa6e030431156ad12c4",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_controller_v2.py": "5a5ef3b713b557ad20d6149aa2ed8d2268259ec6e0951cce46158f4a144b3918",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_run_v2.py": "97c2484da651f1156ec89a8c9a88a9d30a3ae062d8309af4ce03457437f31e9c",
+    "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/analysis-sources/cloud_comparison_policy_v2.py": "9f94b7ae74f5239e3f1ae9a1198a65eeb2aab30363434a0aff039e1f5575af8b",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_run.py": "d7d4b94729f85c27e124cfa0c5928b676f7f32a13d5b74f9c2c0489a0ccddeac",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_replay.py": "8449f2e4ec700c9e961c15a3ae6751433e31ced9faab109e0284a987539fd113",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_policy.py": "241b0b2a64423fe38c43084b94fa8419380ae1fcf0458c808c5b5fa0e0e7cd27",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_controller.py": "489c314da68f6c3ba682f8155a131eadcb08a0d4d2b159bf3a49ca960bab4a8a",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_prepare.py": "4cea0ad848f4743986b1a63d4e978b4e4e34477db7ab998f2150509962ff9309",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_contract.py": "f88f41688d8d395476bd1a617ee121b4dc61b7c68743e8b34f901aeef28c6c16",
+    "/mnt/data/physical-RSI/result/21_cloud_closing_20261029T112202Z/analysis-sources/cloud_closing_native.py": "cf8245aa7e33f66da3b783e432a27db2020772210234038ddebd67a50cba50e3",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_baselines/robodojo/workflow.py": "917bedeb447de3a3f2a6c74aac31cad28935eb6090441eae3748179f2b0a9d81",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_baselines/robodojo/native_runtime.py": "2fbda379365f92769a68f4269be5d67533c9dc2d76584b417266d991f979459f",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_baselines/robodojo/layouts.py": "b4d8125b415a79a27d2b18a63a35793aed695c07bad7800232e32b72f668e7f2",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_baselines/robodojo/evidence.py": "59ddd811fccc51ebc7279fb87b627552b6bf8a35f5af495d851fe7bc5146cb3e",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_baselines/robodojo/proposal.py": "c9f5998acb286151e630287c11cd33222b1fe1ab86b93cea08d6c8ca5f2b5d56",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_core/self_harness/selection.py": "f904988875ecdcaf001f5ab63f63996dbd5d8e7103608b5c4f9ed6bfbdb2f7e3",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/docs/xpolicylab-pr.md": "895011905b8e9690cff54c15a2bd53b41fb8a4f97df0096b1f4dce3ace36733a",
+    "/mnt/data/physical-RSI/code/PhysicalRSI/docs/implementation-status.md": "51e0c6f3f20c0b254f0332bf3c89767d8c76f0502a8dc61cd6b0a6f5a6d30307"
+  },
+  "jobs": [
+    {
+      "name": "diagnostic_classify",
+      "step": 2,
+      "task": "classify_objects",
+      "layouts": [
+        2,
+        4
+      ],
+      "route": "code",
+      "condition": "diagnostic",
+      "ground_truth": true,
+      "retained": true
+    },
+    {
+      "name": "diagnostic_classify_missing",
+      "step": 2,
+      "task": "classify_objects",
+      "layouts": [
+        1
+      ],
+      "route": "code",
+      "condition": "diagnostic",
+      "ground_truth": true
+    },
+    {
+      "name": "diagnostic_language",
+      "step": 2,
+      "task": "classify_objects_by_language",
+      "layouts": [
+        0,
+        3
+      ],
+      "route": "code",
+      "condition": "diagnostic",
+      "ground_truth": true
+    },
+    {
+      "name": "reference_classify_objects_pi05",
+      "step": 3,
+      "task": "classify_objects",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "pi05",
+      "condition": "reference",
+      "ground_truth": false
+    },
+    {
+      "name": "reference_classify_objects_pi05-sparse-memory",
+      "step": 3,
+      "task": "classify_objects",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "pi05-sparse-memory",
+      "condition": "reference",
+      "ground_truth": false
+    },
+    {
+      "name": "reference_classify_objects_code",
+      "step": 3,
+      "task": "classify_objects",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "code",
+      "condition": "reference",
+      "ground_truth": false
+    },
+    {
+      "name": "reference_classify_objects_agent",
+      "step": 3,
+      "task": "classify_objects",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "agent",
+      "condition": "reference",
+      "ground_truth": false
+    },
+    {
+      "name": "reference_classify_objects_by_language_pi05",
+      "step": 3,
+      "task": "classify_objects_by_language",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "pi05",
+      "condition": "reference",
+      "ground_truth": false
+    },
+    {
+      "name": "reference_classify_objects_by_language_pi05-sparse-memory",
+      "step": 3,
+      "task": "classify_objects_by_language",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "pi05-sparse-memory",
+      "condition": "reference",
+      "ground_truth": false
+    },
+    {
+      "name": "reference_classify_objects_by_language_code",
+      "step": 3,
+      "task": "classify_objects_by_language",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "code",
+      "condition": "reference",
+      "ground_truth": false
+    },
+    {
+      "name": "reference_classify_objects_by_language_agent",
+      "step": 3,
+      "task": "classify_objects_by_language",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "agent",
+      "condition": "reference",
+      "ground_truth": false
+    }
+  ],
+  "authorization": "REDACTED_CREDENTIAL",
+  "step2": {
+    "episodes": 5,
+    "design": "Three category-sort controls and two language-sort diagnostics on previously seen development layouts.",
+    "route": "Fixed official released code capability, isolating execution from Agent selection.",
+    "truth": "Simulator-side pose and pure native containment/settlement/home predicates; output only, never policy inputs.",
+    "timing": "Diagnostics include observation overhead and are not pooled with original speed measurements.",
+    "caveat": "Fresh diagnostic executions, not a replay of saved physical states or a controlled repair."
+  },
+  "step3": {
+    "episodes": 40,
+    "layouts_per_task": 5,
+    "repetitions": 1,
+    "routes": [
+      "pi05",
+      "pi05-sparse-memory",
+      "code",
+      "agent"
+    ],
+    "layout_manifest": "/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z/data-splits.json",
+    "design": "All four routes on the same ten preregistered System 1 reference scenes; no tuning or retry-until-success.",
+    "interpretation": "Fixed-route zero planner usage is not zero VLA inference/development cost; sparse-vs-base differs in weights and architecture as well as memory.",
+    "memory": "Verify immutable snapshot references, episode binding/reset and real sparse-history append/materialize/reset. No memory-off ablation or improvement claim."
+  },
+  "accounting": {
+    "step_limit": 1100,
+    "control_dt_seconds": 0.04,
+    "seed": 0,
+    "model": "qwen3.7-plus",
+    "temperature": 0,
+    "enable_thinking": true,
+    "maximum_http_attempts_per_logical_call": 3,
+    "failure_policy": "Keep normal planner and native failures; halt on incomplete infrastructure evidence.",
+    "cold_definition": "One fresh top-level process per task/route group, then five ordered resets; record total group time separately.",
+    "scope": "Model requests only on Agent reference route, at most 10 logical calls and 30 HTTP attempts.",
+    "purposes": [
+      "infrastructure_diagnostics",
+      "frozen_skill_execution"
+    ]
+  },
+  "exclusions": [
+    "System 2",
+    "project A execution",
+    "all-task leaderboard",
+    "raw-output migration"
+  ],
+  "raw_retention": "cloud_only"
+}

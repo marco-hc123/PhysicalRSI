@@ -1,0 +1,4 @@
+Cloud experiment organization
+
+Start with index.json and result-catalogue.csv. Original directories remain in place because absolute paths and hashes are part of experiment provenance.
+The current run has exports/, final-test/, inspection/ and pinned launch procedures. Earlier failed attempts remain separate. No raw evidence or working environment has been deleted.

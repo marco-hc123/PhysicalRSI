@@ -1,0 +1,9 @@
+﻿task,method,scope,evaluations,successes,mean_score,score_observed_cases,mean_total_tokens,mean_input_tokens,mean_cached_tokens,mean_output_tokens,mean_uncached_input_plus_output,mean_control_steps,mean_action_segments,mean_physical_duration,model_requests,end_to_end_wall_seconds
+classify_objects,mix,all_5_public,5,3,0.71,5,11193280.4,11168139.6,10871577.6,25140.8,321702.8,959.8,75,38.392,,
+classify_objects,mix,matching_layout_ids_0_1_2,3,2,0.8,3,11372580,11346050,11045546.666666666,26530,327033.3333333333,937,77.33333333333333,37.48,,
+classify_objects,gpt,all_5_public,5,5,1.0,5,22906180.8,22875218.4,22474342.4,30962.4,431838.4,753.4,151.4,30.136,,
+classify_objects,gpt,matching_layout_ids_0_1_2,3,3,1.0,3,25215479.333333332,25181122,24746666.666666668,34357.333333333336,468812.6666666667,851.3333333333334,171,34.053333333333335,,
+classify_objects_by_language,mix,all_5_public,5,1,0.38,5,14423783.8,14398568.8,14083584,25215,340199.8,1038.8,91,41.552,,
+classify_objects_by_language,mix,matching_layout_ids_0_1_2,3,1,0.3666666666666667,3,9420490.666666666,9399882.666666666,9135530.666666666,20608,284960,998,77.33333333333333,39.92,,
+classify_objects_by_language,gpt,all_5_public,5,2,0.6,4,37611460.2,37539493.2,36675737.6,71967,935722.6,845.2,182.8,33.808,,
+classify_objects_by_language,gpt,matching_layout_ids_0_1_2,3,1,0.7,2,23520011.333333332,23472323,22926933.333333332,47688.333333333336,593078,716,145,28.64,,

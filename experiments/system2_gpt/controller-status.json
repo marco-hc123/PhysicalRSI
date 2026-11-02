@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "pid": 3383,
+  "recovered_after_power_loss": true,
+  "round_index": 0,
+  "rounds_finished": 1,
+  "stage": "complete",
+  "utc": "2026-11-02T03:09:28.251499+00:00",
+  "audit_complete": true
+}

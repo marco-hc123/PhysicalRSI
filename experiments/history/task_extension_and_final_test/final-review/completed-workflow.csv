@@ -1,0 +1,9 @@
+﻿step,name,status,role,path
+1,Protocol and measurement freeze,complete,comparison and reproduction,/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z
+2,Native failure consistency diagnostics,complete,evidence reliability,/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3
+3,System1 route and memory references,complete; 40 reference cases plus separate diagnostics,selected-task reproduction and cost measurement,/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3
+4,Native System2 connection and bounded first iteration,complete; integration/recovery evidence retained,core workflow reproduction,/mnt/data/physical-RSI/result/CURRENT_STEP4.json
+5,"Actual proposal, validation and selection rounds",complete; two rounds retained parent; no improvement demonstrated,core workflow reproduction,/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z
+6,State recovery and independent-process replay,complete; no host reboot/provider outage tested,recovery boundary verification,/mnt/data/physical-RSI/result/32_state_recovery_20261030T133119Z
+7,Three new representative tasks and independent final acceptance,complete; 3 smoke + 15 formal + 20 final,limited additional task coverage,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z
+8,"Comparison, metrics, reproduction entry and critical-gap review","complete; seven targeted timing attempts, no blanket repeats",cross-project analysis and reproducibility,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review

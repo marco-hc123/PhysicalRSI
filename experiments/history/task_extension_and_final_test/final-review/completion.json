@@ -1,0 +1,148 @@
+{
+  "complete": true,
+  "utc": "2026-10-31T00:12:46.743696+00:00",
+  "scope": "authorized limited reproduction and cross-project evidence analysis",
+  "original_scope_attempts": 38,
+  "targeted_supplement_attempts": 7,
+  "latest_scope_total_attempts": 45,
+  "formal_new_tasks": [
+    {
+      "cohort": "formal",
+      "task": "stack_bowls",
+      "episodes": 5,
+      "successes": 1,
+      "success_rate": 0.2,
+      "descriptive_wilson95": [
+        0.03622316096978745,
+        0.6244717358814613
+      ],
+      "mean_partial_score": 0.2,
+      "input_tokens": 57690,
+      "output_tokens": 5891,
+      "total_tokens": 63581,
+      "cached_input_tokens": 20736,
+      "http_attempts": 5,
+      "logical_calls": 5,
+      "mean_reset_to_result_seconds": 134.8103925603995,
+      "mean_control_steps": 744.4,
+      "native_errors": 0
+    },
+    {
+      "cohort": "formal",
+      "task": "cover_blocks",
+      "episodes": 5,
+      "successes": 3,
+      "success_rate": 0.6,
+      "descriptive_wilson95": [
+        0.23071993220883708,
+        0.8823817688407467
+      ],
+      "mean_partial_score": 0.64,
+      "input_tokens": 57890,
+      "output_tokens": 7277,
+      "total_tokens": 65167,
+      "cached_input_tokens": 31104,
+      "http_attempts": 5,
+      "logical_calls": 5,
+      "mean_reset_to_result_seconds": 129.6050759317979,
+      "mean_control_steps": 639,
+      "native_errors": 0
+    },
+    {
+      "cohort": "formal",
+      "task": "insert_tubes",
+      "episodes": 5,
+      "successes": 4,
+      "success_rate": 0.8,
+      "descriptive_wilson95": [
+        0.3755282641185388,
+        0.9637768390302125
+      ],
+      "mean_partial_score": 0.88,
+      "input_tokens": 57740,
+      "output_tokens": 4819,
+      "total_tokens": 62559,
+      "cached_input_tokens": 31104,
+      "http_attempts": 5,
+      "logical_calls": 5,
+      "mean_reset_to_result_seconds": 110.34156196419936,
+      "mean_control_steps": 466,
+      "native_errors": 0
+    }
+  ],
+  "independent_final": [
+    {
+      "cohort": "independent_final",
+      "task": "classify_objects",
+      "episodes": 10,
+      "successes": 0,
+      "success_rate": 0.0,
+      "descriptive_wilson95": [
+        0,
+        0.2775401687666166
+      ],
+      "mean_partial_score": 0.0,
+      "total_tokens": 0,
+      "http_attempts": 0,
+      "logical_calls": 0,
+      "mean_wrapper_seconds": 246.9916048821986
+    },
+    {
+      "cohort": "independent_final",
+      "task": "classify_objects_by_language",
+      "episodes": 10,
+      "successes": 0,
+      "success_rate": 0.0,
+      "descriptive_wilson95": [
+        0,
+        0.2775401687666166
+      ],
+      "mean_partial_score": 0.0,
+      "total_tokens": 0,
+      "http_attempts": 0,
+      "logical_calls": 0,
+      "mean_wrapper_seconds": 241.61055673880037
+    }
+  ],
+  "targeted_timing": {
+    "complete": true,
+    "utc": "2026-10-31T00:12:33.112098+00:00",
+    "episodes": 7,
+    "paired_layouts": 3,
+    "valid_native_pairs": 3,
+    "same_instruction_state_pairs": 3,
+    "counted_errors": 0,
+    "http_attempts": 7,
+    "known_tokens": 87192,
+    "warmup_tokens": 12330,
+    "three_cold_total_wrapper_s": 835.7477401079959,
+    "continuous_wrapper_including_one_warmup_s": 987.2756988059991,
+    "full_batch_cold_minus_continuous_s": -151.5279586980032,
+    "mean_cold_reset_to_result_s": 231.9214168136629,
+    "mean_continuous_reset_to_result_s": 236.71134231399628,
+    "qualifications": [
+      "The serialization-only prompt addition is identical in both arms; this is a declared adapter condition, not unmodified original prompt results.",
+      "No raw response rewriting, no forced skill or operation, no reward/physics change.",
+      "Cold means fresh processes, not cleared OS/GPU caches.",
+      "Same layout numbers and initialization states checked; RGB may differ.",
+      "All seven attempts, failures, startup, warmup and teardown are retained.",
+      "No tuning on independent final outcomes; public diagnostic layouts 0–3 were used previously.",
+      "No claim about project A wall-clock speed follows from this within-B test."
+    ]
+  },
+  "critical_gap_decisions": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/critical-gap-decisions.json",
+  "report": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/report-zh.txt",
+  "comparison": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/matched-project-comparison.csv",
+  "accounting": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/phase-accounting.csv",
+  "reproduction_instructions": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-review/REPRODUCE.txt",
+  "cloud_index": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/cloud-organization/index.json",
+  "all_raw_cloud_only": true,
+  "no_unconditional_repeat_rounds": true,
+  "files_deleted": 0,
+  "ecs_auto_stopped": false,
+  "full_leaderboard_reproduced": false,
+  "system2_performance_gain_demonstrated": false,
+  "project_a_executed": false,
+  "cross_project_wall_speed_ratio_supported": false,
+  "further_experiments_required_for_current_authorized_scope": false
+}

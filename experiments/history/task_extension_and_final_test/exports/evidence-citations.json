@@ -1,0 +1,76 @@
+{
+  "pinned_source_verification": [
+    {
+      "path": "public-evidence/pinned-source/hybrid_rollout/robodojo/settings.py",
+      "sha256": "9c2d71a8e2429902b4dbe0e68b337a4d222c68e91136609b0ab0e348bcda2185",
+      "original_url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/settings.py",
+      "verified_against_prior_manifest": true
+    },
+    {
+      "path": "public-evidence/pinned-source/hybrid_rollout/robodojo/robodojo_server/validation.py",
+      "sha256": "487dd38ece545d962c8dd96df207fce65e2ec31715a5c3e2a51f406da772e079",
+      "original_url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo_server/validation.py",
+      "verified_against_prior_manifest": true
+    },
+    {
+      "path": "public-evidence/pinned-source/hybrid_rollout/robodojo/skill/run.py",
+      "sha256": "807ee734702943f242680c0627ffc91232657dac0e81293c69102202de8d72c0",
+      "original_url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/run.py",
+      "verified_against_prior_manifest": true
+    },
+    {
+      "path": "public-evidence/pinned-source/hybrid_rollout/robodojo/skill/SKILL.md",
+      "sha256": "4314afdd4439f3f7b38da4d98561c6acab5c85459a9659400be10dc843331ff5",
+      "original_url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/SKILL.md",
+      "verified_against_prior_manifest": true
+    },
+    {
+      "path": "public-evidence/pinned-source/hybrid_rollout/robodojo/robodojo-gpt-only-rollout/SKILL.md",
+      "sha256": "999513d63e474e20e9523523b774ce970efbe91f9d41465f9eca0a1d72d1f2eb",
+      "original_url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo-gpt-only-rollout/SKILL.md",
+      "verified_against_prior_manifest": true
+    },
+    {
+      "path": "public-evidence/pinned-source/hybrid_rollout/report_site/build.py",
+      "sha256": "f2a83e43065ae7c194bf0ff844553c0603dd6b4d8794f06e15119cba595cf408",
+      "original_url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/report_site/build.py",
+      "verified_against_prior_manifest": true
+    }
+  ],
+  "references": [
+    {
+      "item": "A methods/control/usage/time",
+      "url": "https://anonymous-report-421.github.io/public-website/?lang=en&view=1",
+      "locations": "Methods2.1,2.2 and Table3",
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "item": "A numeric snapshot",
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/public_results/data.json",
+      "sha256": "0c4be006a2a0dc1ca2559e4421c45680eec94d466f390ea34b2ea055af9bd74e"
+    },
+    {
+      "item": "B exact runtime",
+      "artifact": "protocol-v2.json source_hashes",
+      "source_commit": "90b322a3a362aad14125f36d8ed080ca31daaea6"
+    },
+    {
+      "item": "B old measured records",
+      "artifacts": [
+        "existing-b-episodes.json",
+        "existing-b-summary.json"
+      ],
+      "cases": 89
+    },
+    {
+      "item": "B new measured records",
+      "artifacts": [
+        "*/api/*metadata.json",
+        "*/policy-events.jsonl",
+        "*/native-events.jsonl",
+        "*/native-result.json"
+      ],
+      "status": "in_progress"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "source_hashes_checked": true,
+  "original_sources_untouched": true,
+  "script_hashes": {
+    "cloud_comparison_native.py": "8eed3ac4ff2a73ca1ead2b913a37cea61f846fbafe8ac8c5cdda084e5801c9c1",
+    "cloud_comparison_policy.py": "7e723c54d1c47810940dc39b29988ec44b8786dcc23d53327024688a900db7d8",
+    "cloud_comparison_run.py": "40d5ad6fdf20d6541eeb0bb39cfe9bb1839ea3a251b9a09221dc6172d73d6c63"
+  }
+}

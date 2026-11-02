@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-02T02:45:19.948501+00:00",
+  "authorization": "REDACTED_CREDENTIAL",
+  "original_protocol_sha256": "82f9377a0a2409759245474f38c2882cad649944a0d61ca42e6d00a605c1c7b0",
+  "original_driver_sha256": "68f0828f0761a883c7838211165e0aafaccef8cd72a9dc6c098e08e2e5a76a15",
+  "recovery_source_sha256": "6c8121f0f3fab2ecafc66db075d48db2998b2adb810e0bafb5cbcba1cc23bbba",
+  "completed_receipts_reused": 4,
+  "interrupted_physical_attempts": 1,
+  "additional_complete_rollouts_planned": 6,
+  "maximum_total_native_starts": 11,
+  "planned_complete_native_episodes": 10,
+  "model_requests_allowed": 0,
+  "candidate_source_sha256": "339ddd5d8c4c3f7195e57f297ed99b2579da122f116baac7af365a3421dd1e08",
+  "recovery_interface": "SelfHarness evaluator.resume_evaluation with durable per-batch receipt reconciliation",
+  "native_policy_source_changes": false,
+  "feedback_changes": false,
+  "scoring_changes": false,
+  "interrupted_attempt_counts_as": "Infrastructure interruption, unknown score, not task inability"
+}

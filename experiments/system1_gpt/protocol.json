@@ -1,0 +1,80 @@
+{
+  "schema": "physicalrsi.model-swap/v1",
+  "registered_utc": "2026-11-02T00:44:50.922468+00:00",
+  "reference_suite": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3",
+  "source_hashes": {
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/agent_planner.py": "d6f6936d5b57283c7c8affacd857356f9b1e8f8d5f54a7b6959a4e70c1cb25db",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/skill_model.py": "a9a965538b15198df7b5a9521d45af92a205ead1ceba7bca659efabbe4aba9e5",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/configure_skills.py": "8d8506cfb812c565a4a29b46ceadcf0f8855a6c87696c8965b966300f0cdaa6e",
+    "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/evaluation.py": "b4d4d98aab14412ec4a4c61ce318ec531122b24323a53e7b4db074c36e6aa28f",
+    "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/main.py": "ca6ba652b6f123506370f1907b1d88060d83f56c9e91ce6e6930f63d9f2b71a8",
+    "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/eval_env.py": "3ae75304d8a840ede2589441f987824f50b2a89cc2ef37f4d43ce0a8dbc4fd88"
+  },
+  "jobs": [
+    {
+      "name": "gpt61sol_classify_objects_agent",
+      "step": 3,
+      "task": "classify_objects",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "agent",
+      "condition": "gpt61sol-model-swap",
+      "ground_truth": false,
+      "reference_output": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3/reference_classify_objects_agent"
+    },
+    {
+      "name": "gpt61sol_classify_objects_by_language_agent",
+      "step": 3,
+      "task": "classify_objects_by_language",
+      "layouts": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "route": "agent",
+      "condition": "gpt61sol-model-swap",
+      "ground_truth": false,
+      "reference_output": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3/reference_classify_objects_by_language_agent"
+    }
+  ],
+  "authorization": "REDACTED_CREDENTIAL",
+  "model": "gpt-6.1-sol",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "reasoning_effort": "medium",
+  "max_completion_tokens": 16000,
+  "service_tier": "default",
+  "budget_cap_usd": 20,
+  "budget_scope": "All supplementary smoke and inference attempts, including unknown-usage reservations.",
+  "held_constant": [
+    "two classification tasks",
+    "layouts 5-9",
+    "seed 0",
+    "frozen skill catalogue",
+    "initial-only skill selection",
+    "local code and VLA implementations",
+    "1100 control steps",
+    "0.04s control interval",
+    "native success and score"
+  ],
+  "compatibility_changes": [
+    "Remove temperature=0 and enable_thinking; use reasoning_effort=medium for Sol.",
+    "Set 16000 completion-token cap including hidden reasoning.",
+    "Inference runs on local OpenAI client through SSH; simulation stays on cloud L20."
+  ],
+  "interpretation": "Model/provider/configuration swap in B, not a strict same-model A/B comparison or a directory ablation.",
+  "failure_policy": "Keep every native failure. No retry-until-success. Preserve up to three transport attempts per logical call.",
+  "timing_caveat": "API duration includes SSH transfer and the local client; do not interpret as a direct provider-speed comparison.",
+  "exclusions": [
+    "directory changes",
+    "new System 2",
+    "new VLA training",
+    "project A execution"
+  ]
+}

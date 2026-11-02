@@ -1,0 +1,118 @@
+{
+  "schema": "physicalrsi.system2-mechanism-diagnostic/v1",
+  "registered_at": "2026-10-31T02:03:18.725238+00:00",
+  "purpose": "Diagnose concrete zero-gain mechanisms in the second System2 candidate; exploratory, not a new final benchmark or autonomous learned improvement.",
+  "original_candidate": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/candidate",
+  "original_runtime": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/runtime.json",
+  "layout_root": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts",
+  "conditions": {
+    "original_dense": {
+      "predicate": "original",
+      "motion": "dense",
+      "source_sha256": "3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195",
+      "runtime": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/original_dense/runtime.json",
+      "harness": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/original_dense/harness.json"
+    },
+    "original_thinned": {
+      "predicate": "original",
+      "motion": "thinned",
+      "source_sha256": "3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195",
+      "runtime": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/original_thinned/runtime.json",
+      "harness": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/original_thinned/harness.json"
+    },
+    "bbox_dense": {
+      "predicate": "bbox",
+      "motion": "dense",
+      "source_sha256": "4c0d8ee0e05b05274f360ce3fd68d1030631c93348a76315e51fcba2b0bbc543",
+      "runtime": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/bbox_dense/runtime.json",
+      "harness": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/bbox_dense/harness.json"
+    },
+    "bbox_thinned": {
+      "predicate": "bbox",
+      "motion": "thinned",
+      "source_sha256": "4c0d8ee0e05b05274f360ce3fd68d1030631c93348a76315e51fcba2b0bbc543",
+      "runtime": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/bbox_thinned/runtime.json",
+      "harness": "/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/conditions/bbox_thinned/harness.json"
+    }
+  },
+  "jobs": [
+    {
+      "index": 0,
+      "layout": 2,
+      "condition": "original_dense"
+    },
+    {
+      "index": 1,
+      "layout": 2,
+      "condition": "bbox_dense"
+    },
+    {
+      "index": 2,
+      "layout": 2,
+      "condition": "bbox_thinned"
+    },
+    {
+      "index": 3,
+      "layout": 2,
+      "condition": "original_thinned"
+    },
+    {
+      "index": 4,
+      "layout": 0,
+      "condition": "original_thinned"
+    },
+    {
+      "index": 5,
+      "layout": 0,
+      "condition": "bbox_thinned"
+    },
+    {
+      "index": 6,
+      "layout": 0,
+      "condition": "bbox_dense"
+    },
+    {
+      "index": 7,
+      "layout": 0,
+      "condition": "original_dense"
+    }
+  ],
+  "selection": "Validation layout 2 previously emitted no motion; layout 0 previously hit the native limit during the next approach. No final-test layouts used.",
+  "factors": {
+    "bbox": "Only replace the 0.2m x/y predicate by observed basket half dimensions; does not fix category assignment, z, memory, grasp, arm, or detector.",
+    "thinned": "Only subsample existing CuRobo path with the already-installed code skill waypoint helper (.12rad/.01rad); no new IK, target, endpoint dwell, or success relaxation. This is a diagnostic adapter variant, not claimed stock official behavior."
+  },
+  "controls": [
+    "same cases and simulator seed",
+    "same RGB detector and camera",
+    "same candidate except explicit predicate factor",
+    "same native 1100-step limit",
+    "same primitive 100-call bound",
+    "same scoring",
+    "same planner collision model",
+    "no API calls",
+    "sequential GPU episodes"
+  ],
+  "outcomes": [
+    "official episode_score and success",
+    "RPC approach/gripper counts",
+    "no-path counts",
+    "dense and returned waypoints",
+    "completed primitive action steps",
+    "policy termination versus completion hold",
+    "wall seconds",
+    "perception omissions and predicate decisions"
+  ],
+  "limitations": [
+    "Two deliberately chosen diagnostic layouts, one execution per cell; not a success-rate estimate.",
+    "Same initial layout does not guarantee identical RGB images or CuRobo stochastic plans.",
+    "Thinning changes physical command sampling; speed or extra actions alone do not establish improved grasp quality.",
+    "BBox containment is a proxy using existing observations, not hidden simulator truth or the task score."
+  ],
+  "original_pins": {
+    "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/candidate/code/classify_objects.py": "3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195",
+    "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/runtime.json": "264b13eea4bc17a7505df43b868711eaba04f4f085117eade195e1e3eb341067",
+    "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/step4_native_primitives_v3.py": "e34a6244a8497c5a08d5cbaad7f51b3f9889f907934209f35f5121445fa7ff49",
+    "/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_v1_classify_objects/6bb861ace4b706d9/rdj_v1_classify_objects/waypoints.py": "21639d3c67656d12c0ad038b26113a1cd6fc64fb8810ab061afad7bab7f59ac0"
+  }
+}

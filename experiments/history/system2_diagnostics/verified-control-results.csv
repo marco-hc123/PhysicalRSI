@@ -1,0 +1,10 @@
+index,layout,condition,terminal,score,success,native_steps,scene_calls,approach_calls,gripper_calls,no_path_count,completed_primitive_action_steps,planned_waypoints,returned_waypoints,policy_returned,category_error,wall_seconds,path
+0,2,original_dense,completed,0.0,False,1100,2,0,0,0,0,0,0,True,,,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/00-layout2-original_dense
+1,2,bbox_dense,completed,0.0,False,1100,4,5,4,2,947,923,923,True,,222.54572968599678,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/01-layout2-bbox_dense
+2,2,bbox_thinned,category_exception,,,,3,2,2,1,34,401,22,False,'pen',,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/02-layout2-bbox_thinned
+3,2,original_thinned,completed,0.0,False,1100,2,0,0,0,0,0,0,True,,216.57845440700476,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/03-layout2-original_thinned
+4,0,original_thinned,tracking_rejection,,,,3,4,2,0,45,1184,51,False,,,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/04-layout0-original_thinned
+5,0,bbox_thinned,tracking_rejection,,,,3,4,2,0,45,1184,51,False,,91.39676161699754,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/05-layout0-bbox_thinned
+6,0,bbox_dense,completed,0.0,False,1100,3,4,2,0,835,1164,1164,False,,223.41450718899432,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/06-layout0-bbox_dense
+7,0,original_dense,completed,0.0,False,1100,3,4,2,0,835,1164,1164,False,,223.5605301700125,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/episodes/07-layout0-original_dense
+8,2,bbox_thinned_dynamic_mapping,tracking_rejection,,,,3,3,2,1,34,682,33,False,,89.47409317400889,/mnt/data/physical-RSI/result/36_system2_mechanism_20261031T010000Z_v3/category-repair/episode

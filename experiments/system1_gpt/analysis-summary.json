@@ -1,0 +1,327 @@
+{
+  "utc": "2026-11-02T01:25:43.469751+00:00",
+  "protocol": {
+    "schema": "physicalrsi.model-swap/v1",
+    "registered_utc": "2026-11-02T00:44:50.922468+00:00",
+    "reference_suite": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3",
+    "source_hashes": {
+      "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/agent_planner.py": "d6f6936d5b57283c7c8affacd857356f9b1e8f8d5f54a7b6959a4e70c1cb25db",
+      "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/skill_model.py": "a9a965538b15198df7b5a9521d45af92a205ead1ceba7bca659efabbe4aba9e5",
+      "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/configure_skills.py": "8d8506cfb812c565a4a29b46ceadcf0f8855a6c87696c8965b966300f0cdaa6e",
+      "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/policy/physicalRSI/runtime/PhysicalRSI_baselines/robodojo/evaluation.py": "b4d4d98aab14412ec4a4c61ce318ec531122b24323a53e7b4db074c36e6aa28f",
+      "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/main.py": "ca6ba652b6f123506370f1907b1d88060d83f56c9e91ce6e6930f63d9f2b71a8",
+      "/mnt/data/physical-RSI/code/RoboDojo/src/eval_client/eval_env.py": "3ae75304d8a840ede2589441f987824f50b2a89cc2ef37f4d43ce0a8dbc4fd88"
+    },
+    "jobs": [
+      {
+        "name": "gpt61sol_classify_objects_agent",
+        "step": 3,
+        "task": "classify_objects",
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "route": "agent",
+        "condition": "gpt61sol-model-swap",
+        "ground_truth": false,
+        "reference_output": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3/reference_classify_objects_agent"
+      },
+      {
+        "name": "gpt61sol_classify_objects_by_language_agent",
+        "step": 3,
+        "task": "classify_objects_by_language",
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "route": "agent",
+        "condition": "gpt61sol-model-swap",
+        "ground_truth": false,
+        "reference_output": "/mnt/data/physical-RSI/result/24_steps23_20261030T013742Z_v3/reference_classify_objects_by_language_agent"
+      }
+    ],
+    "authorization": "REDACTED_CREDENTIAL",
+    "model": "gpt-6.1-sol",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "reasoning_effort": "medium",
+    "max_completion_tokens": 16000,
+    "service_tier": "default",
+    "budget_cap_usd": 20,
+    "budget_scope": "All supplementary smoke and inference attempts, including unknown-usage reservations.",
+    "held_constant": [
+      "two classification tasks",
+      "layouts 5-9",
+      "seed 0",
+      "frozen skill catalogue",
+      "initial-only skill selection",
+      "local code and VLA implementations",
+      "1100 control steps",
+      "0.04s control interval",
+      "native success and score"
+    ],
+    "compatibility_changes": [
+      "Remove temperature=0 and enable_thinking; use reasoning_effort=medium for Sol.",
+      "Set 16000 completion-token cap including hidden reasoning.",
+      "Inference runs on local OpenAI client through SSH; simulation stays on cloud L20."
+    ],
+    "interpretation": "Model/provider/configuration swap in B, not a strict same-model A/B comparison or a directory ablation.",
+    "failure_policy": "Keep every native failure. No retry-until-success. Preserve up to three transport attempts per logical call.",
+    "timing_caveat": "API duration includes SSH transfer and the local client; do not interpret as a direct provider-speed comparison.",
+    "exclusions": [
+      "directory changes",
+      "new System 2",
+      "new VLA training",
+      "project A execution"
+    ]
+  },
+  "groups": [
+    {
+      "condition": "qwen_reference",
+      "task": "classify_objects",
+      "episodes": 5,
+      "successes": 1,
+      "score": 32.0,
+      "mean_input": 11546,
+      "mean_output": 1058,
+      "mean_total": 12604,
+      "mean_cached_input": 4147.2,
+      "mean_uncached_metric": 8456.8,
+      "mean_api_seconds": 17.404910274199757,
+      "mean_reset_to_result_seconds": 236.53175448939982,
+      "total_http_attempts": 5,
+      "logical_calls": 5,
+      "group_wrapper_seconds": 1247.4491848379994
+    },
+    {
+      "condition": "gpt61sol",
+      "task": "classify_objects",
+      "episodes": 5,
+      "successes": 1,
+      "score": 47.0,
+      "mean_input": 11545,
+      "mean_output": 116.6,
+      "mean_total": 11661.6,
+      "mean_cached_input": 0,
+      "mean_uncached_metric": 11661.6,
+      "mean_api_seconds": 15.796895663800024,
+      "mean_reset_to_result_seconds": 229.41943272239996,
+      "total_http_attempts": 5,
+      "logical_calls": 5,
+      "group_wrapper_seconds": 1282.881000777
+    },
+    {
+      "condition": "qwen_reference",
+      "task": "classify_objects_by_language",
+      "episodes": 5,
+      "successes": 1,
+      "score": 30.0,
+      "mean_input": 11588.8,
+      "mean_output": 743.6,
+      "mean_total": 12332.4,
+      "mean_cached_input": 0,
+      "mean_uncached_metric": 12332.4,
+      "mean_api_seconds": 12.265469193399985,
+      "mean_reset_to_result_seconds": 214.75510789399996,
+      "total_http_attempts": 5,
+      "logical_calls": 5,
+      "group_wrapper_seconds": 1123.7488695720003
+    },
+    {
+      "condition": "gpt61sol",
+      "task": "classify_objects_by_language",
+      "episodes": 5,
+      "successes": 2,
+      "score": 46.0,
+      "mean_input": 11587.8,
+      "mean_output": 131.6,
+      "mean_total": 11719.4,
+      "mean_cached_input": 0,
+      "mean_uncached_metric": 11719.4,
+      "mean_api_seconds": 16.569807105400013,
+      "mean_reset_to_result_seconds": 212.05784546900003,
+      "total_http_attempts": 5,
+      "logical_calls": 5,
+      "group_wrapper_seconds": 1106.9918533129999
+    }
+  ],
+  "paired_contract_checks": [
+    {
+      "task": "classify_objects",
+      "layout": 5,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "b083bfcfebe91aee795d2dd65ec79755cdd100428f6c82cbf80c3e4ef161216b",
+        "684808da8856fad5a5ab2a1961599d916f9efb8adda6f7ef8bd3716b0546c38d",
+        "922c2afbff9051948fb8aa9f593c2640a6c4a3b1f08d22256aa752e17326111f"
+      ],
+      "new_image_sha256": [
+        "8b8feff9916acf180b9291c6a971c88c846d98fe0a49fd16e294b2f39ceb3b46",
+        "264a90a30e700cd48b8e9b0965b2ae98f382660de3395504997ca23066922fba",
+        "3d6d2d716bef2782496f5eff13f6730fc62c9f98b154fd6bcc2ab5f1ca0a96dd"
+      ]
+    },
+    {
+      "task": "classify_objects",
+      "layout": 6,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "f7659828df89b3b33572dfe4e1014c1bac02ab33659038b3432742fff2c1209b",
+        "12b66394ca2b1813c5613363d41aced603bc10d22712d2a36fdd2ee2b094ca61",
+        "c8e5d06b913afab4f972c059d95013c7714853472a13dd9f99e24d4f03b75a0e"
+      ],
+      "new_image_sha256": [
+        "9720255def6d69d1dd7aa34c9e2eb4c942ac406270631cf0aa8cc87209f98847",
+        "94dda9d4f36a7e1362a65ffece14f86e87cbed6b5075d570ec1cf24ceed862ab",
+        "135193dc7b8c8079d3abbe64ddb9e4f9aa9138028bebc1febef9a2e7d7159f09"
+      ]
+    },
+    {
+      "task": "classify_objects",
+      "layout": 7,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "fd52fae68f0f9bc036105b19201b5ee987315e556052e37dc455eebd33ce55e9",
+        "93910a56af37f5c58c37e2b6ad5c51edb95240419081c06b8b7f6305492c71b1",
+        "cd8fd480cc562270de92f1e3d142ee63f123faf68e4fa45b252096408e64cdfb"
+      ],
+      "new_image_sha256": [
+        "bf676d2df3ae05af1ba4f72eebdc6a0a22789f5b788529a4b37390f5cf4cdaab",
+        "dc5a69d4a4ac0069c67a0aefd68a64c61f93e2bbbedbc9aa097dfea4c8d60f1f",
+        "185a58c1f44a14dafe8a9344e2477f8fdabdfa5aa03fce9acaa29e11226fc5bf"
+      ]
+    },
+    {
+      "task": "classify_objects",
+      "layout": 8,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "f31a2e0f4c82f85195c20c74c0cbe7eac0dc7cc54201015309bf0e448845299a",
+        "63d3872195710c12836f9e6b20c950fdc6085c51a9878e8d8cafb1db208138f6",
+        "cb684800e5a25aa3a019d8d5a0c669965ac1d5745dcf6906c2cc671509d09039"
+      ],
+      "new_image_sha256": [
+        "0605a60e2eddaf513f5bbb962a1ac6e4a37e579a27204ea6dd4662fa86682a9f",
+        "1aa287788a13278b599204af025160f31ad45dd66c110e43f33967b5d6340477",
+        "b5da8524ccc3c21445b34d536a358f8b09b8c8d4ff53add96931f42632371d8e"
+      ]
+    },
+    {
+      "task": "classify_objects",
+      "layout": 9,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "37e9ec84a49c7bb804b60c4588d2c4f61f071404955274e7cda0d509fe7aabc7",
+        "08a169f15e1cd7bfdd08598b470efbb782a61bc4c6bc363e23324db6d534f7f8",
+        "5aaf8e811b802517aaed1f967a8aad9924aa5af3e8ab82112f880ba8f3b2cc17"
+      ],
+      "new_image_sha256": [
+        "4e6f8a73b296dbc04c7c5b41a61a7619d3efb3a35f08cf2211141f14a7ea8b69",
+        "1c12a1056312684995b472eeef29a5f89b492602a779ff06ae658ed9cb7a45d2",
+        "9d6439aeeb13acaa7427405dd9312c243ffa44dc7247dbc89f3e6880a556e6e8"
+      ]
+    },
+    {
+      "task": "classify_objects_by_language",
+      "layout": 5,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "fd4ae1321fa42dee2acfd62416c7b6347311cdf76aed77d2e3f4113537a98b8f",
+        "4b098bf4588cfc7cf420411f0e2d95c952b8a46901881fef7c731bd48cd9c510",
+        "13c324e8ab3d60660bbefeb9e50ff735adee4f11eff016d188de94d5374b54aa"
+      ],
+      "new_image_sha256": [
+        "1143ddf649782797bf3f3082eee5e20bff82b80ec3d6f1617f76cd5ffaad2ea3",
+        "d3852b4782d5bed0b7d8e7c5797790d81f8f02ffd6a79c8f3b88f8da7a39f379",
+        "41e609e5b5c939f4214ad62a3c925177ed184ba4abff4db15f565a01e92dba06"
+      ]
+    },
+    {
+      "task": "classify_objects_by_language",
+      "layout": 6,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "85732444e1aefd932311da6fe15db9e941a72931a29d846bf5c58c00f66f437d",
+        "2e9794959e1a52477b32379dded3c3b48118ec95fd1bb7e6fde3ae9fdb180681",
+        "6b73f8e002f59072e5a667a84ad24d474e1bf975e26decf3bf810735f31b74b0"
+      ],
+      "new_image_sha256": [
+        "67708af938bcdaae8e3c7b9951667f8eafa1cde88d7a8826f470c2df67f36367",
+        "0bb61956de36bd24204b6ee8e96c5a09c87ee170cd3236253c2255a69da79101",
+        "531f87ac388b81db36c7634a00781345e7862824ccfb88c3675610fc875151b6"
+      ]
+    },
+    {
+      "task": "classify_objects_by_language",
+      "layout": 7,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "92cf33d65a411cfa084604975c37b62c8e8f08d8e237579fc2af519299dd2d1c",
+        "024c219f244cb0e18526d373bba2bb5fd3a108c9e207b237d870107f0c910045",
+        "a6ba4e3433ea4783231e84ffdda460b66d4056cad3774bfb7726c801707094ef"
+      ],
+      "new_image_sha256": [
+        "e751bdb1cc693f2b626e6165be498c96062e8a28e93cd46bdf22b432814eb818",
+        "09447547e440c8fe1bf0c41dbe4a48e7c2a7ee6c066dfa2772476e3b286f67d1",
+        "fdd1a287dea76a99a188f9bdc49879edd721df1890767de971ece4ede8933b6c"
+      ]
+    },
+    {
+      "task": "classify_objects_by_language",
+      "layout": 8,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "1292fb3de8f9c181a5d07446518e76cb8ef65db0644e2747c2e833bc0cf91dfa",
+        "6895c7f8829533fde1c5835788267479ef44b024fd24ba6ae11023a5c06ac2e2",
+        "064095376265d1e51f572168d61afc4a0e50f0f3b3fefa8873931e5269cd9702"
+      ],
+      "new_image_sha256": [
+        "8941f24c1565d65f6b6f685dd97fa82f7a0907a452563a158eedaefb3332778c",
+        "3f03ea45ccc25f3b35f7962245ef1141c2d88de03422a646bd2ac66880921f72",
+        "5485a76be44e94a0c55c34cc491df0a4581c0c2c31cf95664b88d4937706feea"
+      ]
+    },
+    {
+      "task": "classify_objects_by_language",
+      "layout": 9,
+      "catalogue_identical_except_model_and_output_paths": true,
+      "request_text_identical": true,
+      "initial_camera_pngs_identical": false,
+      "old_image_sha256": [
+        "da4ae35bc52c6cca4389690a4019d0f1bf326c4878f1a0f20fc5d9b75232e40e",
+        "e50f7fff9b2839a9650277c50cffbcc621c20a8fb6be1bb4ab9070a04c7b09b2",
+        "e5d93139404582b525986649c383cbe79b6060b0ad7ad8e9141cf1bc2208bad2"
+      ],
+      "new_image_sha256": [
+        "9d239f326603cac134571dd09516b3d1b2b95c2a149331cf35b7773387fc3147",
+        "987980f4f9ce08e1a75975ff28e33cfa63663d2e1be1a481c838b733db9da579",
+        "fdb445609a2f1d5498d9463301f61657e42d37dc6fed55e0ef66d3bfd9a0b1be"
+      ]
+    }
+  ],
+  "interpretation": "A historical B/Qwen vs new B/Sol model-provider swap. No same-model A/B or catalogue ablation claim.",
+  "credentials_in_evidence": false
+}

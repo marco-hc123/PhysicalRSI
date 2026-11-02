@@ -1,0 +1,29 @@
+{
+  "attempt": 1,
+  "logical_call": 1,
+  "episode_index": 0,
+  "started_monotonic": 2458.742326264,
+  "started_utc": "2026-11-02T01:07:16.895287+00:00",
+  "image_count": 3,
+  "request_sha256": "bbab62ab177470125d83d22dd25540e887d30f1170ec04b1624ec583bffc96b4",
+  "http_status": 200,
+  "success": true,
+  "returned_model": "gpt-6.1-sol",
+  "usage": {
+    "prompt_tokens": 11587,
+    "completion_tokens": 129,
+    "total_tokens": 11716,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "seconds": 9.476595602000089
+}

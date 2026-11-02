@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "utc": "2026-10-30T23:40:57.286695+00:00",
+  "stage": "limited_scope_complete_verified",
+  "new_native_or_counted_episode_attempts": 38,
+  "model_http_attempts": 18,
+  "model_total_tokens": 228561,
+  "result_summary": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json",
+  "export_manifest_sha256": "be7186689ff67013c0e9082b864861c02624f2cff73646310a9eec68a1673cfa",
+  "raw_retention": "cloud_only",
+  "full_leaderboard_completed": false
+}

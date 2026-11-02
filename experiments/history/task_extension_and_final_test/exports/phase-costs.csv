@@ -1,0 +1,11 @@
+﻿phase,task,http_attempts,total_tokens,native_episodes,source
+System1 smoke,stack_bowls,1,12458,1,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System1 smoke,cover_blocks,1,12511,1,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System1 smoke,insert_tubes,1,12285,1,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System1 formal,stack_bowls,5,63581,5,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System1 formal,cover_blocks,5,65167,5,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System1 formal,insert_tubes,5,62559,5,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System1 independent_final,classify_objects,0,0,10,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System1 independent_final,classify_objects_by_language,0,0,10,/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports/task-summary.json
+System2 formal two proposals,classify_objects,2,51070,40,/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/step5-results.json
+System2 including prior failed proposal; overlaps formal row,classify_objects,3,82277,,/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/step5-results.json

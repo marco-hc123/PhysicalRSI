@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "utc": "2026-10-31T00:12:35.744910+00:00",
+  "unique_provider_response_count": 142,
+  "observed_response_file_count": 144,
+  "deduplicated_file_copies": 2,
+  "known_input_tokens": 2862992,
+  "known_output_tokens": 197926,
+  "known_total_tokens": 3060918,
+  "unknown_usage_metadata_records": 0,
+  "response_id_conflicts": [],
+  "skipped_oversize_files": [],
+  "qualifications": [
+    "Observed retained provider responses, not an account invoice. Unknown-usage failed requests are not assigned zero billable cost.",
+    "Response ids deduplicate copied evidence; independent responses with equal token counts remain separate.",
+    "Canonical ownership is the first retained source path; cohort aggregates are accounting buckets, not homogeneous experimental groups.",
+    "Cached input and reasoning output are subsets, never added again.",
+    "Setup, diagnostic replays, normal online episodes and System2 proposal costs are retained separately.",
+    "No API is called by this inventory."
+  ]
+}

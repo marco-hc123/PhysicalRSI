@@ -1,0 +1,74 @@
+[
+  {
+    "source": "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_baselines/robodojo/XPolicyLab",
+    "reason": "not present or not a regular file"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_demos/media/dexjoco-click-mouse.mp4",
+    "reason": "upstream demonstration video; not reproduction evidence",
+    "sha256": "4f1cf9754c8ddc20b2bc525e26c3c56fc2c0b20f93913235cda9f346e51ce440"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_demos/media/dexjoco-hammer-nail.mp4",
+    "reason": "upstream demonstration video; not reproduction evidence",
+    "sha256": "ebdf1c5a922951083aed81c8ce836238cd8f786b25682af823f7c77aa7f6001c"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_demos/media/dexjoco-water-plant.mp4",
+    "reason": "upstream demonstration video; not reproduction evidence",
+    "sha256": "d9064e4def6a72857ace0fde951801bf128eee2b85589469b84233ebe375a539"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/code/PhysicalRSI/PhysicalRSI_demos/media/tchaikovsky_october.mp4",
+    "reason": "upstream demonstration video; not reproduction evidence",
+    "sha256": "c4e73080b24ca0a64c71106be510271bc8b878b4dde251473f50d85c9f32b899"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/37_gpt61sol_supplement_20261102/portable-evidence.tar.gz::evidence/gpt61sol_classify_objects_agent/gpu.jsonl",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/37_gpt61sol_supplement_20261102/portable-evidence.tar.gz::evidence/gpt61sol_classify_objects_by_language_agent/gpu.jsonl",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::controller.log",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::recovery-controller.log",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::round/development-results.json",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::round/parent.json",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::round/commit.json",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::round/evaluate_candidate_round-000000.json",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::round/config.json",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/portable-evidence.tar.gz::round/evaluate_initial.json",
+    "reason": "redundant large execution payload or machine-specific log; original retained"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/proposals/classify_objects/program-request.json",
+    "reason": "large evidence retained in cloud; summary included"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/proposals/classify_objects/skill-request.json",
+    "reason": "large evidence retained in cloud; summary included"
+  }
+]

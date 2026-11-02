@@ -1,0 +1,31 @@
+# Credentials and host-specific runtime configuration
+.env
+.env.*
+!.env.example
+!*.env.example
+**/runtime.json
+**/*credentials*.json
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+# Generated state, environments, and large model assets
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+*.egg-info/
+checkpoints/
+weights/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.log
+*.lock
+.DS_Store
+Thumbs.db

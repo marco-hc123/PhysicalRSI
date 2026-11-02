@@ -1,0 +1,18 @@
+{
+  "policy_name": "physicalRSI",
+  "protocol": "ws",
+  "host": "127.0.0.1",
+  "port": 6012,
+  "bench_name": "RoboDojo",
+  "task_name": "classify_objects_by_language",
+  "ckpt_name": "cross-project-measurement",
+  "env_cfg_type": "arx_x5",
+  "seed": 0,
+  "action_type": "joint",
+  "gpu_id": 0,
+  "eval_batch": false,
+  "policy_uv_env_path": "runtime_env",
+  "result_dir": "./results/physicalrsi/",
+  "obs_transform_pipeline": "xspark-v1.0",
+  "request_timeout_s": 1800
+}

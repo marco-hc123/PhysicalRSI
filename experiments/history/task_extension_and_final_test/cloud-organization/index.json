@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-31T00:12:34.319978+00:00",
+  "root": "/mnt/data/physical-RSI",
+  "current_result": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z",
+  "raw_retention": "cloud_only",
+  "no_files_deleted": true,
+  "no_original_paths_moved": true,
+  "directories": {
+    "code": "Pinned source trees; do not upgrade while evaluating",
+    "envs": "Active simulator/python runtimes; needed for reruns",
+    "models": "Frozen skill/VLA weights and implementation dependencies; needed",
+    "assets": "Official layouts/object resources and content-addressed cache; shared links possible",
+    "cache": "Compilation, download and runtime caches; deletion may force downloads/slow cold runs",
+    "result": "Immutable original evidence plus derived reports and pointers"
+  },
+  "recommended_entrypoints": {
+    "new_results": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/exports",
+    "independent_final": "/mnt/data/physical-RSI/result/34_limited_completion_20261030T151253Z/final-test",
+    "source_protocol": "/mnt/data/physical-RSI/result/23_protocol_freeze_20261029T132917Z",
+    "selected_System2": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z",
+    "prior_project_comparison": "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z"
+  },
+  "cleanup_assessment": [
+    "Do not delete old interrupted attempts: their API costs and original model responses explain subsequent recovery.",
+    "Do not delete earlier System2 roots: selected artifacts reference their pinned integration runtime.",
+    "Archives may duplicate extracted data, but freeing them is not needed with current available space; preserve evidence.",
+    "Do not sum apparent duplicate files as reclaimable space; some assets/videos are hard linked.",
+    "No packages, caches, model weights or credentials are removed by this inventory."
+  ]
+}
