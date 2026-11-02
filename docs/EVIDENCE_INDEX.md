@@ -35,3 +35,9 @@
 根 README → 最新总览 → 本页 → 指定批次协议/CSV/原子证据。历史报告中某些路径为原执行位置，不能据其本机不可访问判定数据没有产生。未上传的权重、全部观测和逐步日志不宣称已在 Git 验证；完整原件仍在既有档案。
 
 旧辅助表 `early-api-reductions-reviewed.csv` 的 API120 `evidence_level` 保留了早期审计标签。后来 2026-11-01 已完成原件复核；本次再次取得实验室原件并用 `tools/verify_research_evidence.py` 复算。判断当前证据强度以原件和新核验为准，旧快照标签不覆盖新证据。
+
+## 再次核对：补充执行原件
+
+[原始执行档案与读取方法](../experiments/raw_execution_archive/README.md)补充原生 API 输入/响应、System 2 中间记录、恢复与机制诊断执行文本，以及小型场景图片/兼容性样本。它们是已发生实验的证据补充，新增机器人回合和 API 调用均为 0。
+
+[二次核对报告](../provenance/SECOND_REVIEW_20261102_ZH.md)说明本次补齐范围、逐帧/轨迹外部清单和剩余边界。

@@ -80,3 +80,5 @@ python tools/verify_research_evidence.py
 ## 上游与许可
 
 PhysicalRSI 固定提交：`90b322a3a362aad14125f36d8ed080ca31daaea6`。源码位于 `upstream/PhysicalRSI`，保留原 `LICENSE`、`NOTICE` 和子模块信息；与研究无关的上游演示 MP4 未重复上传。其他依赖及许可见 [第三方说明](THIRD_PARTY_NOTICES.md) 和 [UPSTREAM.json](UPSTREAM.json)。
+
+补充资料：参见[原始执行档案](experiments/raw_execution_archive/README.md)与[二次资料核对报告](provenance/SECOND_REVIEW_20261102_ZH.md)。这是已有实验的原始证据补齐，不增加实验样本数。

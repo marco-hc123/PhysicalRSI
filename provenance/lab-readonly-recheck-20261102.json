@@ -1,0 +1,80 @@
+{
+  "files": 15626,
+  "bytes": 4323932002,
+  "extensions": {
+    ".mp4": [
+      890,
+      1716265820
+    ],
+    ".parquet": [
+      8,
+      109070
+    ],
+    ".h5": [
+      2,
+      18544
+    ],
+    ".npz": [
+      1615,
+      563867443
+    ],
+    ".png": [
+      4319,
+      1107808417
+    ],
+    ".jpg": [
+      8572,
+      733993540
+    ],
+    ".npy": [
+      219,
+      201858432
+    ],
+    ".usda": [
+      1,
+      10736
+    ]
+  },
+  "scope": "Metadata-only listing of organized lab result directories; duplicate content and reused paths are not independent episodes; not all file payloads reverified",
+  "observed_utc": "2026-11-02T12:08:52.687277+00:00",
+  "lab_text_files_collected": 508,
+  "new_lab_unique_text_objects": 169,
+  "new_lab_original_bytes": 28859043,
+  "new_lab_shards": [
+    {
+      "path": "experiments/raw_execution_archive/lab-records-001.jsonl.gz",
+      "sha256": "a881555e3c56095ff81afa07a5f8fadf47238bd2b8a160df7ff8089b9e00ceda",
+      "bytes": 631419
+    },
+    {
+      "path": "experiments/raw_execution_archive/lab-records-002.jsonl.gz",
+      "sha256": "f5fcc4edf39e9a94318074e7f03bf7c1d56515a8253eb33fc521043c52af748e",
+      "bytes": 355583
+    },
+    {
+      "path": "experiments/raw_execution_archive/lab-records-003.jsonl.gz",
+      "sha256": "1b436abfaad22cb6667aae59d47efdb421e5ed75ea20b447b3e8b60a169656f4",
+      "bytes": 384301
+    },
+    {
+      "path": "experiments/raw_execution_archive/lab-records-004.jsonl.gz",
+      "sha256": "835ec6cfc31f7b8778f6d54b210941d5f3f0dc4768ab201da21cb78ad5a3b0df",
+      "bytes": 230423
+    }
+  ],
+  "lab_source_kinds": {
+    "existing_archived_object": 15,
+    "raw_text_object": 206,
+    "existing_exact_file": 283,
+    "existing_redacted_derivative": 4
+  },
+  "fresh_model_swap_text_files_hashed": 191,
+  "fresh_model_swap_sha_matches": true,
+  "later_modified_result_files_found": 0,
+  "lab_writes": 0,
+  "cloud_connection_used": false,
+  "new_api_calls": 0,
+  "new_native_episodes": 0,
+  "credential_pattern_findings": 0,
+  "qualification": "Read-only metadata inventory; aliases and cameras are not episode counts. Do not infer all binaries were payload-verified. Existing redacted publications remain redacted."
+}

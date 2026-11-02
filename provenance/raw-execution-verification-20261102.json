@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "unique_new_raw_text_objects": 7764,
+  "restored_original_bytes": 487308985,
+  "raw_text_source_aliases": 124765,
+  "auxiliary_unique_objects": 60,
+  "source_kinds": {
+    "raw_text_object": 124765,
+    "existing_archived_object": 15,
+    "existing_exact_file": 283,
+    "existing_redacted_derivative": 4,
+    "exact_auxiliary_file": 127
+  },
+  "qualification": "Aliases/objects are evidence units, not experiment or API counts; existing derivatives are not claimed to be original bytes."
+}
