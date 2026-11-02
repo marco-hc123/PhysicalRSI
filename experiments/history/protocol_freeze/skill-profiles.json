@@ -1,0 +1,26 @@
+{
+  "vlas": [
+    {
+      "skill": "pi05",
+      "model_path": "/mnt/data/physical-RSI/models/skill-assets/checkpoints/pi05",
+      "checkpoint_num": 59999,
+      "train_config_name": "pi05_base_aloha_full_sim_arx-x5_seed_0",
+      "repo_id": "arx_x5_sim"
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "model_path": "/mnt/data/physical-RSI/models/skill-assets/checkpoints/pi05-sparse-memory",
+      "checkpoint_num": 120000,
+      "train_config_name": "pi05_sparse_mem_robodojo_all35_80k",
+      "repo_id": "robodojo_arx_x5_all35"
+    }
+  ],
+  "baseline_compositions": [
+    "memory-guided-manipulation",
+    "memory-guided-visual-history",
+    "memory-guided-program-library"
+  ],
+  "configured_code_skills": 22,
+  "baseline_catalogue": "Official default projection; original output contract",
+  "typing_adapter": "Prior diagnostic arm only; not silently substituted into the original baseline"
+}

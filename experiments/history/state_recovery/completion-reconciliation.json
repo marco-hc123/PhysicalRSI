@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-30T13:42:37.890543+00:00",
+  "completion": {
+    "complete": true,
+    "result": "/mnt/data/physical-RSI/result/32_state_recovery_20261030T133119Z/step6-results.json",
+    "result_sha256": "6390bd1a2338a4b983cdfa7f2b809a4c337c92c72e530a8c95c9572954f72c4d",
+    "utc": "2026-10-30T13:40:47.472192+00:00"
+  },
+  "native_results": [
+    {
+      "elapsed_s": 247.37593128300068,
+      "mode": "baseline",
+      "pid": 154376,
+      "receipt": "/mnt/data/physical-RSI/result/32_state_recovery_20261030T133119Z/native/baseline/episodes/0.json",
+      "revision": "6d6c45369109af957984beb88ee1ac8bfbe556335cdab9951d1881f6da5b7163",
+      "route": "pi05",
+      "score": 0.0,
+      "steps": 1100,
+      "success": false
+    },
+    {
+      "elapsed_s": 248.50979743600328,
+      "mode": "restored",
+      "pid": 155980,
+      "receipt": "/mnt/data/physical-RSI/result/32_state_recovery_20261030T133119Z/native/restored/episodes/0.json",
+      "revision": "90b97de77d40eb283b521fa9fbd02a9de948406a04c610adbd067602f935dc47",
+      "route": "pi05",
+      "score": 0.0,
+      "steps": 1100,
+      "success": false
+    }
+  ],
+  "video_count": 6,
+  "video_frames": 6606,
+  "deployment_pins": 450,
+  "framework_pins": 30,
+  "gpu_processes_empty": true,
+  "qualifications": [
+    "Recovery smoke only; not independent held-out performance or a speed comparison",
+    "The selected version retained its parent; no improved-child adoption is claimed",
+    "External weights, assets and evidence remain available at their cloud paths",
+    "No host reboot, provider outage or entire-disk-loss recovery is tested"
+  ],
+  "cpu_check_keys": [
+    "complete",
+    "completed_round_resumed",
+    "corruption_detected",
+    "corruption_error",
+    "exact_snapshot_restored",
+    "forbidden_dispatches",
+    "idempotent_commit",
+    "memory_snapshot_revision",
+    "model_http_attempts",
+    "native_episodes",
+    "original_completed_round_untouched",
+    "original_records_unchanged",
+    "pid",
+    "rejected_candidate_blocked",
+    "rejection_error",
+    "restoration_receipt",
+    "restored_branch_revision",
+    "restored_state",
+    "rollback_idempotent",
+    "selected_skill_selection",
+    "source_freeze_sha256",
+    "source_revision",
+    "stale_head_blocked",
+    "stale_head_error",
+    "uncertain_error",
+    "uncertain_stage_blocked",
+    "utc"
+  ]
+}

@@ -1,0 +1,4 @@
+﻿phase_as_recorded,unique_responses,input_tokens,cached_input_tokens,output_tokens,reasoning_output_tokens,total_tokens,qualification
+System1 or setup; see source cohort,116,2043706,160128,101665,86567,2145371,Existing ledger phase labels preserved; phase is not native episode count. Cache/reasoning are subsets.
+System2 proposal,4,330114,0,75762,71375,405876,Existing ledger phase labels preserved; phase is not native episode count. Cache/reasoning are subsets.
+API-only diagnostic/replay,22,489172,46080,20499,17833,509671,Existing ledger phase labels preserved; phase is not native episode count. Cache/reasoning are subsets.

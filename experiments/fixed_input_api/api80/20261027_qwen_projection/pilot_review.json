@@ -1,0 +1,12 @@
+{
+  "recorded_before_followup_utc": "2026-10-27T09:06:00.655733+00:00",
+  "pilot_calls": 20,
+  "reason": "Original operation prompt often yields object entries instead of string IDs, or uses operation ID as composition. Preserve every original response; add identical type guidance to both operation-directory arms.",
+  "pilot_estimated_uncached_cost_rmb": 0.26013400000000003,
+  "original_composition_continuation_calls": 30,
+  "separate_schema_clarified_operation_calls": 30,
+  "overall_calls_including_pilot": 80,
+  "overall_max_reservation_rmb": 80.00055,
+  "schema_addition_exact": " Output-format constraint: composition must be a string key from available_compositions. operations must be an array of string keys from operation_program.operations, never an array of objects. Return exactly this JSON shape with actual supplied keys: {\"composition\":\"<supplied composition key>\",\"operations\":[\"<supplied operation key>\"],\"rationale\":\"<nonempty explanation>\"}. Do not output placeholders.",
+  "analysis_rule": "Pool only unchanged example-composition calls across runs. Never pool original and schema-clarified operation calls. Schema-guided results are an adapted experiment, not unchanged official behavior."
+}

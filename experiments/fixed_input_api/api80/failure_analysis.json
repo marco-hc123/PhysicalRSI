@@ -1,0 +1,99 @@
+[
+  {
+    "sequence": 1,
+    "suite": "registry_22_operations",
+    "condition": "projected",
+    "task": "align",
+    "reasons": [
+      "composition_not_registered",
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"align-blocks\",\n  \"operations\": [\n    {\n      \"handle\": \"align-blocks\",\n      \"input\": \"robodojo.observation-batch/v1\",\n      \"output\": \"robodojo.action-chunks/v1\"\n    }\n  ],\n  \"rationale\": \"The instruction explicitly requests using a visible straightedge to align scattered blocks along one common edge. The 'align-blocks' capability is described as supporting 'RGB straightedge localization and tool-mediated contact alignment of multiple blocks', with observation cues stating 'A visible straightedge is the contact tool; block positions are estimated from RGB. The tool edge supplies a common alignment reference for multiple objects.' This directly matches the task semantics and visible scene (straightedge and three scattered blocks). No other available composition or operation has this specific tool-mediated multi-object alignment behavior. The operation memory confirms it is executable (13 operations), and the input/output contracts match the required observation and action formats.\"\n}"
+  },
+  {
+    "sequence": 3,
+    "suite": "registry_22_operations",
+    "condition": "projected",
+    "task": "coin",
+    "reasons": [
+      "composition_not_registered",
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"deposit-coin\",\n  \"operations\": [\n    {\n      \"handle\": \"deposit-coin\",\n      \"input\": {\n        \"instruction\": \"Pick up the thin coin and insert it into the narrow receiving slot.\",\n        \"state\": {\n          \"left_arm_joint_state\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],\n          \"right_arm_joint_state\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\n        },\n        \"vision\": {\n          \"cam_head\": {\n            \"color\": {\n              \"image_index\": 0\n            },\n            \"shape\": [480, 640, 3]\n          }\n        }\n      },\n      \"output_contract\": \"robodojo.action-chunks/v1\"\n    }\n  ],\n  \"rationale\": \"The instruction explicitly requests picking up a 'thin coin' and inserting it into a 'narrow receiving slot'. The 'deposit-coin' capability is specifically described as supporting 'RGB localization of a thin coin and a receiving slot, with direct or assisted grasp and insertion', and its execution scope requires exactly that: 'The manipulated object is a thin coin and the receiving geometry is a narrow slot.' The visual observation confirms a thin oval (coin) and a rectangular slot with a narrow horizontal opening, matching the required geometry. No other operation in the library has this precise semantic and geometric alignment. Structured operations like 'insert-tubes' or 'insert-key' are not appropriate because their descriptions do not mention coins or narrow slots, and geometric compatibility cannot be assumed from names alone. Therefore, 'deposit-coin' is the only capability whose declared behavior, geometry, and input/output contracts match the instruction and observed scene.\"\n}"
+  },
+  {
+    "sequence": 4,
+    "suite": "registry_22_operations",
+    "condition": "unprojected",
+    "task": "coin",
+    "reasons": [
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"memory-guided-program-library\",\n  \"operations\": [\n    {\n      \"handle\": \"deposit-coin\",\n      \"input\": \"robodojo.observation-batch/v1\",\n      \"output\": \"robodojo.action-chunks/v1\"\n    }\n  ],\n  \"rationale\": \"The instruction 'Pick up the thin coin and insert it into the narrow receiving slot' matches the explicit description and observation cues of the 'deposit-coin' capability, which states: 'RGB localization of a thin coin and a receiving slot, with direct or assisted grasp and insertion' and lists observation cues: 'The manipulated object is a thin coin and the receiving geometry is a narrow slot.' The visual observation confirms a thin oval (coin) and a rectangular slot with a narrow horizontal opening, satisfying the geometric requirements. No other available operation explicitly supports coin insertion into a narrow slot; 'insert-key' and 'insert-tubes' are for different object geometries. Therefore, 'deposit-coin' is the only operation whose declared capability and execution scope directly cover the requested manipulation.\"\n}"
+  },
+  {
+    "sequence": 5,
+    "suite": "registry_22_operations",
+    "condition": "unprojected",
+    "task": "classify",
+    "reasons": [
+      "composition_not_registered",
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"classify-objects\",\n  \"operations\": [\n    {\n      \"handle\": \"classify_objects.action.count_and_emit\",\n      \"parameters\": {}\n    }\n  ],\n  \"rationale\": \"The instruction requests grouping visible objects by category into separate baskets, with freedom to choose basket assignments. The 'classify-objects' capability explicitly supports this: its description states 'Visual attribute grounding with category-aware localization and bounded grasp-and-place control', and its instruction_binding evidence confirms 'Group detected categories into separate baskets' with destination assignment chosen by geometric transfer cost (no language-specified binding required). The current observation shows four visible objects (two red squares, two blue circles) and two empty baskets—sufficient for the task. No other available composition matches the grouping-by-category objective as directly. Structured operations like 'general-pickup' or 'insert-tubes' lack category-based grouping logic. Therefore, 'classify-objects' is the only suitable composition, and its single operation 'classify_objects.action.count_and_emit' initiates the category detection and placement sequence.\"\n}"
+  },
+  {
+    "sequence": 6,
+    "suite": "registry_22_operations",
+    "condition": "projected",
+    "task": "classify",
+    "reasons": [
+      "composition_not_registered"
+    ],
+    "output_text": "{\n  \"composition\": \"classify-objects\",\n  \"operations\": [],\n  \"rationale\": \"The instruction requests grouping visible objects by category into separate baskets, with freedom to choose basket assignments. The 'classify-objects' capability explicitly supports 'Group detected categories into separate baskets' and allows destination assignment based on geometric transfer cost (no language-specified binding required). The observation shows four objects: two red squares and two blue circles — clearly separable into two visual categories. No other operation in the library matches this exact objective; 'classify-objects-by-language' requires explicit language-specified mappings, which are absent in the instruction. The capability's input/output contracts match the current observation format, and its description aligns with the task semantics. Since the composition is a request-only fixture and no further operations are needed at planning time, the operations list is empty.\"\n}"
+  },
+  {
+    "sequence": 9,
+    "suite": "registry_22_operations",
+    "condition": "unprojected",
+    "task": "cover",
+    "reasons": [
+      "composition_not_registered",
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"cover-blocks\",\n  \"operations\": [\n    {\n      \"handle\": \"cap-99d1de5fa0e382c6c280e0da\",\n      \"name\": \"cover-blocks\"\n    }\n  ],\n  \"rationale\": \"The instruction 'Place each colored block over the matching outlined footprint on the tabletop' describes a task where colored solid blocks must be aligned with same-color outlined footprints. The 'cover-blocks' capability is explicitly described as 'Visual shape grounding and footprint-relative placement with reachable grasp control', which directly matches the required behavior: identifying colored blocks and their corresponding outlined footprints (shape/footprint grounding) and placing them accordingly. The observation shows two solid blocks (red and blue) and two outlined footprints (red and blue), confirming the scene matches the capability's expected input. Other capabilities like 'align-blocks' require a straightedge tool, and 'classify-objects-by-language' is for basket-based sorting, not footprint covering—so they are incompatible. Thus, 'cover-blocks' is the only geometrically and semantically appropriate choice.\"\n}"
+  },
+  {
+    "sequence": 10,
+    "suite": "registry_22_operations",
+    "condition": "projected",
+    "task": "cover",
+    "reasons": [
+      "composition_not_registered",
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"cover-blocks\",\n  \"operations\": [\n    {\n      \"handle\": \"cover-blocks\",\n      \"input\": \"robodojo.observation-batch/v1\",\n      \"output\": \"robodojo.action-chunks/v1\"\n    }\n  ],\n  \"rationale\": \"The instruction 'Place each colored block over the matching outlined footprint on the tabletop' directly matches the capability description of 'cover-blocks': 'Visual shape grounding and footprint-relative placement with reachable grasp control.' The observation shows two solid-colored blocks (red, blue) and two corresponding outlined footprints (red, blue), satisfying the geometric requirement of shape-grounded footprint alignment. No other operation explicitly supports footprint-relative placement of colored blocks; alternatives like 'align-blocks' require a straightedge tool, and 'classify-objects' or 'stack-blocks-by-language' do not address footprint matching. The RGB input shape [480,640,3] satisfies the head camera condition for 'cover-blocks'. Therefore, 'cover-blocks' is the only composition whose declared capability and execution scope align with the instruction and observed scene.\"\n}"
+  },
+  {
+    "sequence": 15,
+    "suite": "registry_22_operations",
+    "condition": "projected",
+    "task": "pickup",
+    "reasons": [
+      "composition_not_registered",
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"general-pickup\",\n  \"operations\": [\n    {\n      \"handle\": \"grasp\",\n      \"parameters\": {\n        \"object_role\": \"red block\",\n        \"frame\": \"tabletop\",\n        \"contact_mode\": \"top_grasp\"\n      }\n    },\n    {\n      \"handle\": \"transfer\",\n      \"parameters\": {\n        \"object_role\": \"red block\",\n        \"destination_relation\": \"above_tabletop\",\n        \"preserve_contact\": true\n      }\n    }\n  ],\n  \"rationale\": \"The instruction 'Pick up the red block and lift it above the tabletop' specifies a two-step manipulation: (1) grasp the red block, and (2) lift it to a position above the tabletop. The available composition 'general-pickup' is explicitly described as supporting 'instruction-grounded object localization with appearance-conditioned grasp and reachable lifting', which matches the task semantics. From the observation, the red block is visible and identifiable via RGB, satisfying the visual grounding requirement. The reusable primitives 'grasp' and 'transfer' are directly applicable: 'grasp' can be instantiated for the red block using top-grasp contact, and 'transfer' can move it while preserving contact until the destination relation ('above_tabletop') is achieved. No other composition better matches the simple pick-and-lift objective; e.g., 'classify-objects' or 'stack-blocks-by-language' involve additional categorization or stacking logic not requested. The operation memory confirms 'general-pickup' has 11 operations and supports joint action representation, consistent with the robot's current joint-state availability. Thus, this composition with the two structured operations is the correct plan.\"\n}"
+  },
+  {
+    "sequence": 16,
+    "suite": "registry_22_operations",
+    "condition": "unprojected",
+    "task": "pickup",
+    "reasons": [
+      "composition_not_registered",
+      "operations_not_string_array"
+    ],
+    "output_text": "{\n  \"composition\": \"general-pickup\",\n  \"operations\": [\n    {\n      \"handle\": \"general-pickup\",\n      \"input\": {\n        \"instruction\": \"Pick up the red block and lift it above the tabletop.\",\n        \"state\": {\n          \"left_arm_joint_state\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],\n          \"right_arm_joint_state\": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]\n        },\n        \"vision\": {\n          \"cam_head\": {\n            \"color\": {\n              \"image_index\": 0\n            },\n            \"shape\": [480, 640, 3]\n          }\n        }\n      },\n      \"output_contract\": \"robodojo.action-chunks/v1\"\n    }\n  ],\n  \"rationale\": \"The instruction 'Pick up the red block and lift it above the tabletop' specifies a direct object manipulation: grasp and lift a red block. The observation shows a red square (block) on the tabletop, confirming the target object is visible. Among available compositions, 'general-pickup' is explicitly described as supporting 'instruction-grounded object localization with appearance-conditioned grasp and reachable lifting', which directly matches the required behavior. Other compositions like 'classify-objects' or 'stack-blocks-by-language' involve additional semantics (grouping, ordering, language-conditioned placement) not requested. No structured operation in the library has explicit support for this exact task beyond 'general-pickup', and its input/output contracts match the observation format. Therefore, 'general-pickup' is the only suitable composition.\"\n}"
+  }
+]

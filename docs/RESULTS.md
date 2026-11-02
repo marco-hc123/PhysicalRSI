@@ -1,5 +1,7 @@
 # 最新实验结论（2026-11-02）
 
+完整研究结论、早期 API、目录消融、原生任务、公开比较、System 2、独立验收和机制诊断统一见 [研究总览](RESEARCH_OVERVIEW_ZH.md) 与 [证据导航](EVIDENCE_INDEX.md)。下面保留最新两项模型替换补测的聚焦摘要。
+
 ## 1. 分类任务：换 GPT 后输出更短，任务优势尚不能归因于模型
 
 详细数据：[group-results.csv](../experiments/system1_gpt/group-results.csv)、[逐回合结果](../experiments/system1_gpt/episode-results.csv)。

@@ -1,0 +1,37 @@
+{
+  "missing_usage": "null/unknown, never zero by default",
+  "purposes": [
+    "frozen_skill_execution",
+    "system2_development",
+    "system2_proposal",
+    "system2_validation",
+    "final_test",
+    "infrastructure_diagnostics"
+  ],
+  "costs": "Keep execution and improvement accounts separate; include failed trials, warmups and diagnostics in their tagged accounts",
+  "local_compute": "GPU inference/perception/planning consume time and compute even if they produce no remote planner tokens",
+  "time": "Use monotonic intervals on one host; do not add overlapping intervals or subtract unrelated host clocks",
+  "cold": "Fresh processes only; filesystem/kernel/model caches are not deliberately cleared",
+  "continuous": "Top-level process reuse; code workers may still reload at official reset",
+  "outcomes": [
+    "native_success",
+    "native_task_failure",
+    "planner_contract_failure",
+    "transport_failure",
+    "infrastructure_failure",
+    "unstable",
+    "interrupted"
+  ],
+  "provider_cost": "Token count is not currency cost; cache/reasoning/image subsets must not be double-counted",
+  "project_a": {
+    "source_commit": "8f3d362b077d8efb77e2a7274d5b2c20e2243846",
+    "execution": false,
+    "unknown": [
+      "Actual model request count",
+      "Comparable end-to-end wall time",
+      "Unpublished earlier retry/development costs"
+    ],
+    "restriction": "Do not divide A physical duration by B wall time; no equal-quality causal algorithm ratio"
+  },
+  "system2_limits": "New rounds measure only their own improvement cost, not the original released skills training/development cost"
+}

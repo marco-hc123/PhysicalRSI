@@ -1,0 +1,71 @@
+{
+  "snapshot_checked_utc": "2026-10-29T02:14:35.629346+00:00",
+  "source_snapshot": "sources/local_history/lab_h100_audit_20261029/lab_snapshot.json",
+  "qualification": "Historical audit snapshot, not a fresh verification of 120 raw responses in this ZIP.",
+  "summary": {
+    "updated_utc": "2026-10-27T13:55:45.610173+00:00",
+    "status": "completed",
+    "planned_attempts": 120,
+    "started_attempts": 120,
+    "recorded_responses": 120,
+    "completed_events": 120,
+    "unresolved_attempts": [],
+    "http_successes": 120,
+    "json_valid": 120,
+    "contract_valid": 120,
+    "label_agreement": 120,
+    "usage_coverage": 120,
+    "input_tokens_total": 2184396,
+    "output_tokens_total": 20201,
+    "total_tokens": 2204597,
+    "unknown_usage_attempts": 0,
+    "cache_hit_calls": 41,
+    "truncated_outputs": 0,
+    "groups": [
+      {
+        "condition": "unprojected",
+        "calls": 60,
+        "http_ok": 60,
+        "contract_valid": 60,
+        "label_agreement": 60,
+        "input_tokens_mean": 27437.3,
+        "output_tokens_mean": 161.61666666666667,
+        "total_tokens_mean": 27598.916666666668,
+        "elapsed_seconds_mean": 14.43237250285844
+      },
+      {
+        "condition": "projected",
+        "calls": 60,
+        "http_ok": 60,
+        "contract_valid": 60,
+        "label_agreement": 60,
+        "input_tokens_mean": 8969.3,
+        "output_tokens_mean": 175.06666666666666,
+        "total_tokens_mean": 9144.366666666667,
+        "elapsed_seconds_mean": 9.864257193667193
+      }
+    ],
+    "monetary_limit_rmb": null,
+    "automatic_retries": 0,
+    "actual_invoice_verified": false,
+    "monetary_cost_estimated": false,
+    "stopped_reason": null,
+    "analysis_status": "Detailed interpretation deferred by user request; nominal token sums exclude unknown usage rather than asserting it is zero."
+  },
+  "completion_audit": {
+    "status": "verified",
+    "verified_at_utc": "2026-10-27T13:56:43.502158+00:00",
+    "scheduled_attempts": 120,
+    "unique_started_ids": 120,
+    "unique_completed_ids": 120,
+    "raw_responses_verified": 120,
+    "provider_ids_unique": 120,
+    "request_hashes_verified": 120,
+    "preparation_files_unchanged": true,
+    "prior_80_call_files_verified": 183,
+    "credential_pattern_findings": [],
+    "monetary_ceiling": null,
+    "automatic_retries": 0,
+    "detailed_analysis": "Deferred at user request"
+  }
+}

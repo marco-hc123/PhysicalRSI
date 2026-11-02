@@ -1,0 +1,3 @@
+﻿source,response_id,input_tokens,output_tokens,total_tokens,qualification
+sources/cloud_root/qwen_api_connection_20261029.json,not_recorded,23,5,28,Cloud connectivity summary only; no provider response ID; separate from 142-ID ledger
+sources/cloud_root/qwen_api_vision_20261029.json,not_recorded,345,223,568,Cloud connectivity summary only; no provider response ID; separate from 142-ID ledger

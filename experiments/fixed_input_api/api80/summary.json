@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-27",
+  "source_commit": "90b322a3a362aad14125f36d8ed080ca31daaea6",
+  "model": "qwen3-vl-plus",
+  "experiment_calls": 80,
+  "previous_smoke_calls": 2,
+  "http_successes": 80,
+  "usage_coverage": "80/80",
+  "input_tokens_total": 854246,
+  "output_tokens_total": 16129,
+  "total_tokens": 870375,
+  "known_uncached_list_estimate_rmb": 1.015536,
+  "cache_adjusted_list_estimate_rmb": 0.771824,
+  "including_smoke_uncached_list_estimate_rmb": 1.016086,
+  "invoice_verified": false,
+  "user_budget_rmb": 100,
+  "unknown_usage_attempts": 0,
+  "automatic_retries": 0,
+  "cache_hit_calls": 38,
+  "truncated_outputs": 0,
+  "failure_diagnostics": {
+    "composition_not_registered": 8,
+    "operations_not_string_array": 8
+  },
+  "groups": [
+    {
+      "suite": "example_2_compositions",
+      "condition": "projected",
+      "calls": 20,
+      "json_valid": 20,
+      "contract_valid": 20,
+      "label_agreement": null,
+      "cache_hit_calls": 11,
+      "input_tokens_mean": 2616.2,
+      "output_tokens_mean": 206.9,
+      "total_tokens_mean": 2823.1,
+      "latency_mean_seconds": 8.554896577075123,
+      "latency_median_seconds": 8.440811002627015,
+      "cached_input_tokens_total": 24064
+    },
+    {
+      "suite": "example_2_compositions",
+      "condition": "unprojected",
+      "calls": 20,
+      "json_valid": 20,
+      "contract_valid": 20,
+      "label_agreement": null,
+      "cache_hit_calls": 13,
+      "input_tokens_mean": 3752.2,
+      "output_tokens_mean": 210.5,
+      "total_tokens_mean": 3962.7,
+      "latency_mean_seconds": 8.4882073671557,
+      "latency_median_seconds": 8.498180897906423,
+      "cached_input_tokens_total": 38400
+    },
+    {
+      "suite": "registry_22_operations",
+      "condition": "projected",
+      "calls": 5,
+      "json_valid": 5,
+      "contract_valid": 0,
+      "label_agreement": 0,
+      "cache_hit_calls": 0,
+      "input_tokens_mean": 8880.2,
+      "output_tokens_mean": 271.2,
+      "total_tokens_mean": 9151.4,
+      "latency_mean_seconds": 11.412286749854683,
+      "latency_median_seconds": 10.101642752066255,
+      "cached_input_tokens_total": 0
+    },
+    {
+      "suite": "registry_22_operations",
+      "condition": "unprojected",
+      "calls": 5,
+      "json_valid": 5,
+      "contract_valid": 1,
+      "label_agreement": 1,
+      "cache_hit_calls": 0,
+      "input_tokens_mean": 27348.2,
+      "output_tokens_mean": 250.6,
+      "total_tokens_mean": 27598.8,
+      "latency_mean_seconds": 15.412423420324922,
+      "latency_median_seconds": 17.134110417217016,
+      "cached_input_tokens_total": 0
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "condition": "projected",
+      "calls": 15,
+      "json_valid": 15,
+      "contract_valid": 15,
+      "label_agreement": 15,
+      "cache_hit_calls": 7,
+      "input_tokens_mean": 8957.2,
+      "output_tokens_mean": 180.46666666666667,
+      "total_tokens_mean": 9137.666666666666,
+      "latency_mean_seconds": 8.573368939260641,
+      "latency_median_seconds": 8.227698031812906,
+      "cached_input_tokens_total": 53120
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "condition": "unprojected",
+      "calls": 15,
+      "json_valid": 15,
+      "contract_valid": 15,
+      "label_agreement": 15,
+      "cache_hit_calls": 7,
+      "input_tokens_mean": 27425.2,
+      "output_tokens_mean": 164.33333333333334,
+      "total_tokens_mean": 27589.533333333333,
+      "latency_mean_seconds": 10.88243843888243,
+      "latency_median_seconds": 11.14968435280025,
+      "cached_input_tokens_total": 189056
+    }
+  ],
+  "comparisons": [
+    {
+      "suite": "example_2_compositions",
+      "pairs": 20,
+      "distinct_synthetic_tasks": 5,
+      "input_reduction_pct": 30.275571664623424,
+      "total_reduction_pct": 28.75816993464052,
+      "latency_reduction_pct": -0.785668952639762,
+      "latency_seconds_saved_mean": -0.06668920991942287,
+      "latency_seconds_saved_task_bootstrap95": [
+        -0.6471959148533643,
+        0.5497648432850838
+      ],
+      "projected_faster_pairs": 11
+    },
+    {
+      "suite": "registry_22_operations",
+      "pairs": 5,
+      "distinct_synthetic_tasks": 5,
+      "input_reduction_pct": 67.52912440306858,
+      "total_reduction_pct": 66.8413119410989,
+      "latency_reduction_pct": 25.95397596717407,
+      "latency_seconds_saved_mean": 4.000136670470238,
+      "latency_seconds_saved_task_bootstrap95": [
+        0.8521094564348459,
+        7.14816388450563
+      ],
+      "projected_faster_pairs": 4
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "pairs": 15,
+      "distinct_synthetic_tasks": 5,
+      "input_reduction_pct": 67.3395271502122,
+      "total_reduction_pct": 66.87995205911422,
+      "latency_reduction_pct": 21.21830978038519,
+      "latency_seconds_saved_mean": 2.3090694996217884,
+      "latency_seconds_saved_task_bootstrap95": [
+        1.1425313847760359,
+        3.415972217544913
+      ],
+      "projected_faster_pairs": 12
+    }
+  ],
+  "reduction_formula": "100 * (1 - projected group mean / unprojected group mean). Run-level summaries use a different mean-of-paired-percentages statistic; do not mix them.",
+  "matched_payload_tokenizer_comparison": [
+    {
+      "suite": "example_2_compositions",
+      "condition": "projected",
+      "o200k_text_mean": 2300.2,
+      "cl100k_text_mean": 2290.2,
+      "provider_input_mean": 2616.2,
+      "provider_image_mean": 302,
+      "provider_reported_text_mean": 2314.2
+    },
+    {
+      "suite": "example_2_compositions",
+      "condition": "unprojected",
+      "o200k_text_mean": 3172.2,
+      "cl100k_text_mean": 3154.2,
+      "provider_input_mean": 3752.2,
+      "provider_image_mean": 302,
+      "provider_reported_text_mean": 3450.2
+    },
+    {
+      "suite": "registry_22_operations",
+      "condition": "projected",
+      "o200k_text_mean": 8657.2,
+      "cl100k_text_mean": 8544.2,
+      "provider_input_mean": 8880.2,
+      "provider_image_mean": 302,
+      "provider_reported_text_mean": 8578.2
+    },
+    {
+      "suite": "registry_22_operations",
+      "condition": "unprojected",
+      "o200k_text_mean": 23068.2,
+      "cl100k_text_mean": 22881.2,
+      "provider_input_mean": 27348.2,
+      "provider_image_mean": 302,
+      "provider_reported_text_mean": 27046.2
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "condition": "projected",
+      "o200k_text_mean": 8735.2,
+      "cl100k_text_mean": 8621.2,
+      "provider_input_mean": 8957.2,
+      "provider_image_mean": 302,
+      "provider_reported_text_mean": 8655.2
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "condition": "unprojected",
+      "o200k_text_mean": 23146.2,
+      "cl100k_text_mean": 22958.2,
+      "provider_input_mean": 27425.2,
+      "provider_image_mean": 302,
+      "provider_reported_text_mean": 27123.2
+    }
+  ],
+  "evidence_checks": [
+    {
+      "run": "20261027_qwen_projection",
+      "completed": 20,
+      "events_reconciled": true,
+      "request_and_source_hashes_valid": true,
+      "manifest_sha256": "4df915b1533b10adb899ed663d1cd56d69f6f563638e3e793dd05b4f772f6aa6"
+    },
+    {
+      "run": "20261027_qwen_followup",
+      "completed": 60,
+      "events_reconciled": true,
+      "request_and_source_hashes_valid": true,
+      "manifest_sha256": "ad67e090a3ce864bb2a3f21aeea127f2b2a99c719ea18ad793a94b23c3ab5763"
+    }
+  ],
+  "boundaries": [
+    "Synthetic illustrations and zero joint states only.",
+    "No simulator, VLA weights, robot rollout, or System 2 improvement.",
+    "Semantic score is predeclared capability-handle agreement; no human or native robot success labels.",
+    "Five synthetic inputs are not a representative benchmark.",
+    "API alias is recorded, immutable model snapshot unverified.",
+    "Request wall time includes network/queue/output/cache effects. Not pure inference or end-to-end robot time.",
+    "Schema amendment chosen after observing pilot; exploratory and separately analyzed.",
+    "Token savings do not establish the reported cross-project overall gap."
+  ]
+}

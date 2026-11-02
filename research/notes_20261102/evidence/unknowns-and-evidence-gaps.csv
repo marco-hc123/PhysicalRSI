@@ -1,0 +1,21 @@
+﻿ID,未知项,现有证据,结论限制,如何补证,status
+U01,项目A完整墙钟与逐HTTP计时,公开物理时长、action segments不等于完整wall/HTTP,不提供跨项目加速倍数,取得带单调时钟起止的原始逐请求与整体执行日志,open_or_qualified
+U02,A逐请求prompt、实际HTTP次数,只有累计usage与动作段,不拆分频率/每次长度的因果份额,请求级脱敏payload、usage、重试与会话映射,open_or_qualified
+U03,同模型同质量A/B对照,模型、tokenizer、布局、成功率不同；A不重跑,仅作条件性描述，不称等质量效率,若未来授权研究，应另注册统一条件；当前不部署A,open_or_qualified
+U04,模型alias对应不可变checkpoint,记录了实际model字段，供应商alias可变化,不能保证未来完全重现输出,供应商模型版本ID与服务更新记录,open_or_qualified
+U05,120次API响应原件当前覆盖,2026-11-01只读取回120原响应、40请求、120元数据；326项历史manifest和请求/响应SHA全部一致,已完成本轮逐响应复核；仍是合成输入API实验，非机器人评分,本证据缺口已闭合；账单与机器人成功率仍属于其他未知项,closed_in_this_edition
+U06,真实人民币账单与GPU租赁总成本,usage不等于invoice；旧价格估计未经账单确认,不把Token比值换成费用比值,服务商账单导出、缓存单价与时段、实例计费明细,open_or_qualified
+U07,全部episode最终对象位姿,部分旧运行未保存最终object transforms,不能根据最后robot state补判归类,未来在不回传策略的只读observer记录对象ID与变换,open_or_qualified
+U08,纯memory因果效应,pi05与sparse权重/配置不同；真实历史读取已确认,可比较路线，不能断言memory开关的独立收益,同权重、同观测/布局，只控制history可见性的注册对照,open_or_qualified
+U09,较大样本泛化与统计稳定性,任务多为5布局，重复不增加独立布局数,成功率仅描述；不证明总体为0或优于,通过契约门禁后注册新独立布局并报告聚类不确定性,open_or_qualified
+U10,发布模型训练数据是否含布局,仅保证本次dev/validation/final布局分离,不称未见过训练场景,发布方训练数据清单或可验证数据隔离记录,open_or_qualified
+U11,未归属时间的具体瓶颈,已有API/policy/native区间，剩余大,不能把剩余全叫GPU或网络,CPU/GPU/渲染/通信分段trace和同步开销测试,open_or_qualified
+U12,thin动作是否等价且被完全执行,部分thin运行异常提前退出,不把更短时长当执行加速,逐请求执行完成确认、末端误差、超时与安全停止记录,open_or_qualified
+U13,planner success是否变成真实抓取,离线24调用只检查规划成功,不将可规划写成任务完成,分层记录到位、夹持、抬升、入篮和原生success,open_or_qualified
+U14,感知类别与物体稳定身份,出现动态类别与tracking中止,不能用名字默认对应固定仿真对象,只读离线ID关联、视觉重识别与位置一致性检查,open_or_qualified
+U15,增强反馈是否提升System2,已有请求缺当前代码/上次RPC失败，尚未做反馈干预,反馈不足是机制线索而非唯一原因证明,固定其他条件，补反馈/不补反馈的小规模候选对照,open_or_qualified
+U16,全部PhysicalRSI分支的memory返回,已查分支没有回传变更字典,不推广成全项目memory全部失效,逐adapter验证读写、序列化、回传与隔离契约,open_or_qualified
+U17,所有任务/全榜单/真机复现,目前六任务有限覆盖且无真机,不宣称完整复现论文榜单,以后按另行研究需求扩展；本报告不据此造分,open_or_qualified
+U18,实验室完整归档与所有二进制,迁移由独立任务管理；本ZIP只含关键视频/原文,本包不是服务器镜像，不证明归档完成,独立传输完成receipt和全量SHA清单；当前不干预,open_or_qualified
+U19,相同初态的严格物理轨迹复现,指令/state/操作可匹配，RGB与物理轨迹仍有差异,不宣称逐帧完全一致或严格确定性,记录reset/seed、对象初始变换、数值配置与重复误差,open_or_qualified
+U20,未发表作者训练/开发成本,仅测试发布模型和本次部署运行,不能把技能形成与训练成本视为0,原作者披露；若未知则生命周期账目保留unknown,open_or_qualified

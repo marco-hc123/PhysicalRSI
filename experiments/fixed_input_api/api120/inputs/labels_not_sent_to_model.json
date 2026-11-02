@@ -1,0 +1,162 @@
+[
+  {
+    "scene_id": "scene_01",
+    "expected_operations": [
+      "align-blocks"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "RGB straightedge localization and tool-mediated contact alignment of multiple blocks."
+  },
+  {
+    "scene_id": "scene_02",
+    "expected_operations": [
+      "align-blocks"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "RGB straightedge localization and tool-mediated contact alignment of multiple blocks."
+  },
+  {
+    "scene_id": "scene_03",
+    "expected_operations": [
+      "cover-blocks"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual shape grounding and footprint-relative placement with reachable grasp control."
+  },
+  {
+    "scene_id": "scene_04",
+    "expected_operations": [
+      "cover-blocks"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual shape grounding and footprint-relative placement with reachable grasp control."
+  },
+  {
+    "scene_id": "scene_05",
+    "expected_operations": [
+      "deposit-coin"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "RGB localization of a thin coin and a receiving slot, with direct or assisted grasp and insertion."
+  },
+  {
+    "scene_id": "scene_06",
+    "expected_operations": [
+      "deposit-coin"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "RGB localization of a thin coin and a receiving slot, with direct or assisted grasp and insertion."
+  },
+  {
+    "scene_id": "scene_07",
+    "expected_operations": [
+      "classify-objects"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual attribute grounding with category-aware localization and bounded grasp-and-place control."
+  },
+  {
+    "scene_id": "scene_08",
+    "expected_operations": [
+      "classify-objects"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual attribute grounding with category-aware localization and bounded grasp-and-place control."
+  },
+  {
+    "scene_id": "scene_09",
+    "expected_operations": [
+      "general-pickup"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Instruction-grounded object localization with appearance-conditioned grasp and reachable lifting."
+  },
+  {
+    "scene_id": "scene_10",
+    "expected_operations": [
+      "general-pickup"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Instruction-grounded object localization with appearance-conditioned grasp and reachable lifting."
+  },
+  {
+    "scene_id": "scene_11",
+    "expected_operations": [
+      "arrange-largest-number-random"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual symbol grounding, ordering, and reachable object placement under observed geometry."
+  },
+  {
+    "scene_id": "scene_12",
+    "expected_operations": [
+      "arrange-largest-number-random"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual symbol grounding, ordering, and reachable object placement under observed geometry."
+  },
+  {
+    "scene_id": "scene_13",
+    "expected_operations": [
+      "insert-key"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Two-object pose grounding with possession checks, alignment, insertion, and bounded contact control."
+  },
+  {
+    "scene_id": "scene_14",
+    "expected_operations": [
+      "insert-key"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Two-object pose grounding with possession checks, alignment, insertion, and bounded contact control."
+  },
+  {
+    "scene_id": "scene_15",
+    "expected_operations": [
+      "insert-tubes"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Object-slot geometry grounding with reachable assignment, alignment refresh, and insertion release."
+  },
+  {
+    "scene_id": "scene_16",
+    "expected_operations": [
+      "insert-tubes"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Object-slot geometry grounding with reachable assignment, alignment refresh, and insertion release."
+  },
+  {
+    "scene_id": "scene_17",
+    "expected_operations": [
+      "press-by-number"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual symbol grounding with bounded counted contact and confirmation control."
+  },
+  {
+    "scene_id": "scene_18",
+    "expected_operations": [
+      "press-by-number"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "Visual symbol grounding with bounded counted contact and confirmation control."
+  },
+  {
+    "scene_id": "scene_19",
+    "expected_operations": [
+      "push-t"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "RGB pose tracking and direct planar contact control for a T-shaped object and its target pose."
+  },
+  {
+    "scene_id": "scene_20",
+    "expected_operations": [
+      "push-t"
+    ],
+    "scope": "Author-assigned capability-handle agreement for synthetic illustrations; not an independently annotated benchmark, geometry certificate, or robot success.",
+    "basis": "RGB pose tracking and direct planar contact control for a T-shaped object and its target pose."
+  }
+]

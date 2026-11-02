@@ -1,0 +1,21 @@
+﻿task,mode,attempts,scored,successes,incomplete,mean_total_tokens,mean_uncached_input_plus_output,mean_native_score_completed_only,mean_physical_steps,qualification
+organize_table,mix,5,5,0,0,15555661.6,400640.8,0.6,1000,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+organize_table,gpt,5,5,0,0,22606717.6,493412,0.3,1000,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+classify_objects_by_language,mix,5,5,1,0,14423783.8,340199.8,0.38,1038.8,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+classify_objects_by_language,gpt,5,4,2,1,37611460.2,935722.6,0.6,845.2,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+imitate_sorting_sequence,mix,5,5,2,0,18519643.2,556635.2,0.53,1271,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+imitate_sorting_sequence,gpt,5,5,0,0,5230228.2,236717.8,0.0,216.8,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+arrange_largest_number,mix,5,5,2,0,16087072,450028.8,0.5,891.2,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+arrange_largest_number,gpt,5,5,2,0,27070445,500537.8,0.57,952.4,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+pack_objects_into_box,mix,5,5,1,0,20602024.8,429301.6,0.5,1244.4,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+pack_objects_into_box,gpt,5,4,1,1,31187024.6,505808.6,0.5,1193.8,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+classify_objects,mix,5,5,3,0,11193280.4,321702.8,0.71,959.8,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+classify_objects,gpt,5,5,5,0,22906180.8,431838.4,1.0,753.4,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+build_tower,mix,5,5,3,0,11299109.4,359231,0.64,880,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+build_tower,gpt,5,5,0,0,28337925.4,614482.2,0.12,1050,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+make_kong,mix,5,5,2,0,7480625.2,245655.6,0.4,509.8,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+make_kong,gpt,5,5,0,0,21037457,504234.6,0.0,600,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+fold_clothes,mix,5,5,5,0,3458680,150315.2,1.0,302.6,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+fold_clothes,gpt,5,5,2,0,11516967.8,395303.8,0.4,352.2,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+put_bottles_into_dustbin,mix,5,5,5,0,6332685.2,187686.8,1.0,452.4,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.
+put_bottles_into_dustbin,gpt,5,5,1,0,18964347.8,380744.6,0.36,680.4,Public descriptive evidence only. Cost includes all attempts; score mean excludes incomplete; no A redeployment.

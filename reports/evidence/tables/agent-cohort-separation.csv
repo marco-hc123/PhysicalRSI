@@ -1,0 +1,5 @@
+﻿cohort,task,n,layouts,successes,source
+Run20/21 old Agent,classify_objects,5,"0,1,2,3,4",1,sources/21_cloud_closing_20261029T112202Z/original-five-case-episodes.csv
+Run24 frozen reference Agent,classify_objects,5,"5,6,7,8,9",1,tables/historical-reference-episodes.csv
+Run20/21 old Agent,classify_objects_by_language,5,"0,1,2,3,4",0,sources/21_cloud_closing_20261029T112202Z/original-five-case-episodes.csv
+Run24 frozen reference Agent,classify_objects_by_language,5,"5,6,7,8,9",1,tables/historical-reference-episodes.csv

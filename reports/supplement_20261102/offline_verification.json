@@ -1,0 +1,167 @@
+{
+  "verified_utc": "2026-11-02T11:05:53.208277+00:00",
+  "scope": "Offline verification and import of supplied packages, not new experiments",
+  "system1": {
+    "groups": [
+      {
+        "condition": "qwen_reference",
+        "task": "classify_objects",
+        "episodes": 5,
+        "successes": 1,
+        "score": 32.0,
+        "mean_input": 11546.0,
+        "mean_output": 1058.0,
+        "mean_total": 12604.0,
+        "mean_cached_input": 4147.2,
+        "mean_uncached_metric": 8456.8,
+        "mean_api_seconds": 17.404910274199757,
+        "mean_reset_to_result_seconds": 236.53175448939982,
+        "total_http_attempts": 5,
+        "logical_calls": 5,
+        "group_wrapper_seconds": 1247.4491848379994
+      },
+      {
+        "condition": "gpt61sol",
+        "task": "classify_objects",
+        "episodes": 5,
+        "successes": 1,
+        "score": 47.0,
+        "mean_input": 11545.0,
+        "mean_output": 116.6,
+        "mean_total": 11661.6,
+        "mean_cached_input": 0.0,
+        "mean_uncached_metric": 11661.6,
+        "mean_api_seconds": 15.796895663800024,
+        "mean_reset_to_result_seconds": 229.41943272239996,
+        "total_http_attempts": 5,
+        "logical_calls": 5,
+        "group_wrapper_seconds": 1282.881000777
+      },
+      {
+        "condition": "qwen_reference",
+        "task": "classify_objects_by_language",
+        "episodes": 5,
+        "successes": 1,
+        "score": 30.0,
+        "mean_input": 11588.8,
+        "mean_output": 743.6,
+        "mean_total": 12332.4,
+        "mean_cached_input": 0.0,
+        "mean_uncached_metric": 12332.4,
+        "mean_api_seconds": 12.265469193399985,
+        "mean_reset_to_result_seconds": 214.75510789399996,
+        "total_http_attempts": 5,
+        "logical_calls": 5,
+        "group_wrapper_seconds": 1123.7488695720003
+      },
+      {
+        "condition": "gpt61sol",
+        "task": "classify_objects_by_language",
+        "episodes": 5,
+        "successes": 2,
+        "score": 46.0,
+        "mean_input": 11587.8,
+        "mean_output": 131.6,
+        "mean_total": 11719.4,
+        "mean_cached_input": 0.0,
+        "mean_uncached_metric": 11719.4,
+        "mean_api_seconds": 16.569807105400013,
+        "mean_reset_to_result_seconds": 212.05784546900003,
+        "total_http_attempts": 5,
+        "logical_calls": 5,
+        "group_wrapper_seconds": 1106.9918533129999
+      }
+    ],
+    "changes": [
+      {
+        "task": "classify_objects",
+        "total_token_change_percent": -7.476991431291646,
+        "api_time_change_percent": -9.23885607605447,
+        "reset_to_result_change_percent": -3.00692047981177,
+        "old_successes": 1,
+        "new_successes": 1,
+        "denominator_per_condition": 5
+      },
+      {
+        "task": "classify_objects_by_language",
+        "total_token_change_percent": -4.970646427297199,
+        "api_time_change_percent": 35.09313703479178,
+        "reset_to_result_change_percent": -1.2559712555620606,
+        "old_successes": 1,
+        "new_successes": 2,
+        "denominator_per_condition": 5
+      }
+    ],
+    "comparison_rows": 20,
+    "new_native_episodes_in_supplied_results": 10,
+    "historical_native_reference_rows_not_new": 10,
+    "formal_api_response_ids": [
+      "chatcmpl-EfaUjaep6TdfzghzNQa773d53sc8h",
+      "chatcmpl-EfaYigVwAxHV4J5guH4VTysyP5raY",
+      "chatcmpl-EfabjUF7Zi3oUZ5F5WVKnCps6NHEh",
+      "chatcmpl-EfafaNTslwSD7Oo27hdGJfUwa8Pbe",
+      "chatcmpl-EfajVB4o3EXCkpzFwtevouIt44x6W",
+      "chatcmpl-Efao74fVVNzWS7lJz2d2flBHz7Av7",
+      "chatcmpl-EfarpScZ5ijHQeOe0UP1gU0rkvV7Q",
+      "chatcmpl-Efav5LvNSgF84CR6UJjWT79inFlBZ",
+      "chatcmpl-EfaxnfV9NTf0fXJQUu8WLpjdfzVxj",
+      "chatcmpl-Efb1mkTfiMmYi0qGHtRwGcEZMfIUS"
+    ],
+    "formal_api_calls": 10,
+    "smoke_calls_from_original_verification": 1,
+    "same_selected_routes": 10,
+    "paired_camera_pngs_identical": 0
+  },
+  "system2": {
+    "normal_validation_episodes": 10,
+    "dispatch_attempts": 11,
+    "infrastructure_interrupted_attempts_unknown_score": 1,
+    "reused_development_episodes_not_new": 10,
+    "new_candidate_api_calls": 1,
+    "candidate_total_tokens": 5476,
+    "historical_proposal_total_tokens": 26363,
+    "proposal_token_reduction_percent": 79.2284641353412,
+    "decision": "retain_parent",
+    "independent_final_test_performed": false
+  },
+  "provided_video_files": 0,
+  "verification": {
+    "delivery_manifests": {
+      "system1": {
+        "verified": 116,
+        "path_handling": "Interpret Windows separators; preserve original manifest bytes"
+      },
+      "system2": {
+        "verified": 96,
+        "path_handling": "Interpret Windows separators; preserve original manifest bytes"
+      }
+    },
+    "nested_archives": {
+      "system1": {
+        "files": 106,
+        "all_identical_to_delivery": true
+      },
+      "system2": {
+        "files": 89,
+        "all_identical_to_delivery": true
+      }
+    },
+    "checks": [
+      "Four ZIP CRC checks passed before extraction; 486 original files preserved",
+      "Delivery manifests: all 212 hashes match after path separator normalization",
+      "Nested tar archives contain only 195 identical delivery files",
+      "System1 20 comparison rows recompute all four group summaries",
+      "System1 10 new API responses match metadata and CSV usage",
+      "System1 10 native results match per-layout success and score",
+      "System1 10 paired requests retain catalogue/text and choose the same routes",
+      "System2 11 dispatch rows split into 10 completed and 1 interruption with unknown score",
+      "System2 all 10 available receipt hashes, outcomes and layout hashes match",
+      "System2 selection file agrees with summary and retains initial parent",
+      "System2 exact original message content; generated code and memory unedited",
+      "System2 usage matches provider response; reasoning is not added twice"
+    ]
+  },
+  "new_experiments_started_by_import": 0,
+  "new_api_calls_started_by_import": 0,
+  "boundary": "Portable evidence supports the listed checks; unprovided per-step artifacts and videos were not reverified. Original verification claims remain source claims."
+}

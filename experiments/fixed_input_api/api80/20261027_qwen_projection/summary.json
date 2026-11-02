@@ -1,0 +1,142 @@
+{
+  "updated_utc": "2026-10-27T09:02:18.013407+00:00",
+  "completed_attempts": 20,
+  "planned_attempts": 80,
+  "provider_usage_calls": 20,
+  "known_uncached_list_cost_rmb": 0.26013400000000003,
+  "unknown_cost_attempts": 0,
+  "reserved_cost_upper_bound_rmb": 20.0,
+  "including_prior_smoke_list_estimate_rmb": 0.260684,
+  "groups": [
+    {
+      "suite": "example_2_compositions",
+      "condition": "projected",
+      "calls": 5,
+      "http_ok": 5,
+      "json_valid": 5,
+      "contract_valid": 5,
+      "label_agreement": null,
+      "cache_hit_calls": 0,
+      "input_tokens_mean": 2616.2,
+      "input_tokens_median": 2615,
+      "output_tokens_mean": 206.4,
+      "output_tokens_median": 206,
+      "total_tokens_mean": 2822.6,
+      "total_tokens_median": 2819,
+      "elapsed_seconds_mean": 8.371522161737085,
+      "elapsed_seconds_median": 8.166222451254725,
+      "cached_input_tokens_mean": 0,
+      "cached_input_tokens_median": 0,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    },
+    {
+      "suite": "example_2_compositions",
+      "condition": "unprojected",
+      "calls": 5,
+      "http_ok": 5,
+      "json_valid": 5,
+      "contract_valid": 5,
+      "label_agreement": null,
+      "cache_hit_calls": 1,
+      "input_tokens_mean": 3752.2,
+      "input_tokens_median": 3751,
+      "output_tokens_mean": 214.8,
+      "output_tokens_median": 210,
+      "total_tokens_mean": 3967,
+      "total_tokens_median": 3971,
+      "elapsed_seconds_mean": 8.979955357685686,
+      "elapsed_seconds_median": 8.997795563191175,
+      "cached_input_tokens_mean": 307.2,
+      "cached_input_tokens_median": 0,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    },
+    {
+      "suite": "registry_22_operations",
+      "condition": "projected",
+      "calls": 5,
+      "http_ok": 5,
+      "json_valid": 5,
+      "contract_valid": 0,
+      "label_agreement": 0,
+      "cache_hit_calls": 0,
+      "input_tokens_mean": 8880.2,
+      "input_tokens_median": 8879,
+      "output_tokens_mean": 271.2,
+      "output_tokens_median": 237,
+      "total_tokens_mean": 9151.4,
+      "total_tokens_median": 9114,
+      "elapsed_seconds_mean": 11.412286749854683,
+      "elapsed_seconds_median": 10.101642752066255,
+      "cached_input_tokens_mean": 0,
+      "cached_input_tokens_median": 0,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    },
+    {
+      "suite": "registry_22_operations",
+      "condition": "unprojected",
+      "calls": 5,
+      "http_ok": 5,
+      "json_valid": 5,
+      "contract_valid": 1,
+      "label_agreement": 1,
+      "cache_hit_calls": 0,
+      "input_tokens_mean": 27348.2,
+      "input_tokens_median": 27347,
+      "output_tokens_mean": 250.6,
+      "output_tokens_median": 225,
+      "total_tokens_mean": 27598.8,
+      "total_tokens_median": 27577,
+      "elapsed_seconds_mean": 15.412423420324922,
+      "elapsed_seconds_median": 17.134110417217016,
+      "cached_input_tokens_mean": 0,
+      "cached_input_tokens_median": 0,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    }
+  ],
+  "comparisons": [
+    {
+      "suite": "example_2_compositions",
+      "complete_pairs": 5,
+      "input_tokens_reduction_pct_task_mean": 30.275621840208878,
+      "input_tokens_reduction_pct_task_bootstrap95": [
+        30.240173865310883,
+        30.304651898377358
+      ],
+      "total_tokens_reduction_pct_task_mean": 28.84783091632635,
+      "total_tokens_reduction_pct_task_bootstrap95": [
+        28.531416301514152,
+        29.170504931398852
+      ],
+      "elapsed_seconds_reduction_pct_task_mean": 5.637196565804223,
+      "elapsed_seconds_reduction_pct_task_bootstrap95": [
+        -9.614278173795828,
+        15.726450092157883
+      ]
+    },
+    {
+      "suite": "registry_22_operations",
+      "complete_pairs": 5,
+      "input_tokens_reduction_pct_task_mean": 67.52912651187917,
+      "input_tokens_reduction_pct_task_bootstrap95": [
+        67.51826417515585,
+        67.5380150206051
+      ],
+      "total_tokens_reduction_pct_task_mean": 66.8414588764782,
+      "total_tokens_reduction_pct_task_bootstrap95": [
+        66.59455461401437,
+        67.05673651677719
+      ],
+      "elapsed_seconds_reduction_pct_task_mean": 23.56328290284508,
+      "elapsed_seconds_reduction_pct_task_bootstrap95": [
+        6.00627390750981,
+        41.56913985539178
+      ]
+    }
+  ],
+  "uncertainty": "Exploratory percentile bootstrap over five synthetic task-level means, not population or robot-task confidence intervals.",
+  "cost_note": "Undiscounted list-price estimate from provider usage, not the billing console. Cache/free-credit discounts not subtracted."
+}

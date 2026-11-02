@@ -1,0 +1,3 @@
+﻿round,development_pi05_mean,development_sparse_mean,parent_validation_n,parent_validation_successes,parent_validation_score,candidate_validation_n,candidate_validation_successes,candidate_validation_score,decision
+1,0.0,0.27,5,0,0.0,5,0,0.0,retain_parent
+2,0.0,0.11,5,0,0.0,5,0,0.0,retain_parent

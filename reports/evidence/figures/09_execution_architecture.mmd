@@ -1,0 +1,22 @@
+flowchart LR
+  A0["A: observation<br/>+ persistent context"]
+  A1["Language model<br/>short action / review"]
+  A2["Native execution<br/>new observation"]
+  B0["B: instruction / RGB<br/>state / skill catalogue"]
+  B1["System 1 Agent<br/>high-level selection"]
+  B2["Local skill<br/>code / pi05 / sparse"]
+  B3["Native control<br/>+ task reward"]
+  S0["System 2<br/>development evidence"]
+  S1["Generate candidate<br/>+ versioned proposal"]
+  S2["Paired validation<br/>parent vs candidate"]
+  S3["Select / retain parent<br/>lineage + recovery"]
+  A0 --> A1
+  A1 --> A2
+  A2 --> A0
+  B0 --> B1
+  B1 --> B2
+  B2 --> B3
+  S0 --> S1
+  S1 --> S2
+  S2 --> S3
+  S3 --> B2

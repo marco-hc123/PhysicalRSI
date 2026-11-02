@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-label="Audited high-level decision and execution paths">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#334155"/></marker></defs>
+<rect width="1200" height="650" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#142536} .title{font-size:23px;font-weight:bold} .label{font-size:17px} .note{font-size:15px;fill:#475569} rect.box{stroke-width:1.8;rx:9} .flow{fill:none;stroke:#334155;stroke-width:2;marker-end:url(#arrow)}</style>
+<text x="30" y="40" class="title">PhysicalRSI: public SkillModel evaluation path</text>
+<rect class="box" x="30" y="70" width="220" height="80" fill="#e8f4f6" stroke="#187d87"/><text x="48" y="102" class="label">Observation + Goal</text><text x="48" y="129" class="label">Frozen Memory / Skills</text>
+<rect class="box" x="290" y="70" width="225" height="80" fill="#e8f4f6" stroke="#187d87"/><text x="308" y="102" class="label">High-level Selection</text><text x="308" y="129" class="label">Episode Plan Binding</text>
+<rect class="box" x="555" y="70" width="245" height="80" fill="#e8f4f6" stroke="#187d87"/><text x="573" y="102" class="label">Registered Skill</text><text x="573" y="129" class="label">Code Policy / Learned Policy</text>
+<rect class="box" x="840" y="70" width="320" height="80" fill="#f1f5f9" stroke="#64748b"/><text x="860" y="102" class="label">Native Environment</text><text x="860" y="129" class="label">Actions / Observations / Termination</text>
+<path class="flow" d="M250,110 H290 M515,110 H555 M800,110 H840 M990,150 V180 H675 V150"/>
+<text x="555" y="210" class="note">Repeated low-level control; no per-step high-level selection.</text>
+<text x="30" y="242" class="note">Scope: one logical selection per bound episode/session; retries and skill-internal models are separate.</text>
+<text x="30" y="290" class="title">GPT-as-Policy: published Direct and Hybrid paths</text>
+<rect class="box" x="30" y="320" width="220" height="74" fill="#fff3e7" stroke="#b56a27"/><text x="48" y="350" class="label">New Observation</text><text x="48" y="376" class="label">Persistent Model Thread</text>
+<rect class="box" x="290" y="320" width="225" height="74" fill="#fff3e7" stroke="#b56a27"/><text x="308" y="350" class="label">Direct EEF Decision</text><text x="308" y="376" class="label">1-5 control steps</text>
+<rect class="box" x="555" y="320" width="245" height="74" fill="#fff3e7" stroke="#b56a27"/><text x="573" y="350" class="label">OR: pi0.5 Proposal</text><text x="573" y="376" class="label">+ Model Review / Correction</text>
+<rect class="box" x="840" y="320" width="320" height="74" fill="#f1f5f9" stroke="#64748b"/><text x="860" y="350" class="label">Native Environment</text><text x="860" y="376" class="label">Execute Reviewed Action Chunk</text>
+<path class="flow" d="M250,350 H290 M515,340 H535 V302 H1000 V320 M250,380 H270 V420 H675 V394 M800,357 H840 M1000,394 V452 H140 V394"/>
+<text x="30" y="490" class="note">Hybrid student chunk: up to 15 steps; corrections: up to 5. These are not exact API-call counts.</text>
+<rect x="30" y="530" width="1130" height="85" rx="8" fill="#eef2ff"/>
+<text x="50" y="561" class="label">Separate development path: Feedback → Code / Memory Proposal → Validation → Candidate Selection</text>
+<text x="50" y="591" class="note">Not executed in this audit. Development cost must be reported separately from frozen-skill evaluation.</text>
+</svg>

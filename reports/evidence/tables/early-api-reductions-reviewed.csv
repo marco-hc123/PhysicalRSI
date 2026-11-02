@@ -1,0 +1,5 @@
+﻿batch,suite,input_reduction_pct,total_reduction_pct,http_reduction_pct,http_seconds_saved,paired_calls,independent_synthetic_inputs,evidence_level
+API80,example_2_compositions,30.275571664623424,28.75816993464052,-0.785668952639762,-0.06668920991942251,20,5,raw_call_table_recomputed
+API80,registry_22_operations,67.52912440306858,66.8413119410989,25.95397596717407,4.000136670470239,5,5,raw_call_table_recomputed
+API80,registry_22_operations_schema,67.3395271502122,66.87995205911422,21.21830978038519,2.3090694996217884,15,5,raw_call_table_recomputed
+API120,registry_22_operations_schema_20_scenes,67.30983004887507,66.866936202206,31.651866720364218,4.568115309191247,60,20,historical_audit_snapshot_only

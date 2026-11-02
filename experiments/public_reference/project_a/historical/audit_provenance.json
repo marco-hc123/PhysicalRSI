@@ -1,0 +1,291 @@
+{
+  "repository": "https://github.com/anonymous-report-421/GPT-as-Policy",
+  "commit": "8f3d362b077d8efb77e2a7274d5b2c20e2243846",
+  "retrieved_date": "2026-10-11",
+  "retrieved_timezone": "Asia/Shanghai",
+  "scope": "Selected public source and public per-episode summary only. No original RPC or private model sessions.",
+  "downloaded_files": [
+    {
+      "path": "LICENSE",
+      "upstream_path": "LICENSE",
+      "bytes": 1085,
+      "sha256": "f66893b8bc9c42d5d765c1ce9b1f7069dc669df8c626de04f7a502b0ace2ea2e",
+      "git_blob_sha1": "39a3adabbdc97b8fc691dd7bd44047005b7bc532",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "upstream_path": "README.md",
+      "bytes": 8095,
+      "sha256": "aa0805d107e668aa25514bd218aa197bd93c7ce3fbb99b7ad91127cc36425d5f",
+      "git_blob_sha1": "0d9b384bddbaaca59b5ce3d2d68b9291bcda5140",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/README.md"
+    },
+    {
+      "path": "source/hybrid_rollout/report_site/build.py",
+      "upstream_path": "hybrid_rollout/report_site/build.py",
+      "bytes": 20885,
+      "sha256": "f2a83e43065ae7c194bf0ff844553c0603dd6b4d8794f06e15119cba595cf408",
+      "git_blob_sha1": "394b4eda268d47c2ba4ff83da677f481b3c61d6c",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/report_site/build.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/acp.py",
+      "upstream_path": "hybrid_rollout/robodojo/acp.py",
+      "bytes": 17127,
+      "sha256": "d997c0248c1d67c020a2a72c01ae3cd21a3236f14a2d7be977db3f4ec467dfe5",
+      "git_blob_sha1": "c8b8219bdfa9425ec47edea7d5a0ad360fd85b60",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/acp.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/codex_backend/profiles.py",
+      "upstream_path": "hybrid_rollout/robodojo/codex_backend/profiles.py",
+      "bytes": 13282,
+      "sha256": "956c498f3111b65de4ac1d3f915381ee8b61a6201fc3db3965479e9ddf3081da",
+      "git_blob_sha1": "3df77d77d661ff07baa6831b69edecef360d1f48",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/codex_backend/profiles.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/context_migration.py",
+      "upstream_path": "hybrid_rollout/robodojo/context_migration.py",
+      "bytes": 10225,
+      "sha256": "5043b6352ee524e34aa472af4abe48d75bfb5cccfb4888b1ada63c54f8561aa0",
+      "git_blob_sha1": "9587bde4352ebd63023e6649b95c950902702f94",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/context_migration.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/prompt_context.py",
+      "upstream_path": "hybrid_rollout/robodojo/prompt_context.py",
+      "bytes": 1527,
+      "sha256": "85414b8abe770138c22d53de10a2a7b5967124ce96814db795a38e13dcbaf95d",
+      "git_blob_sha1": "8d1deba5bdae0cfec58c981bbee5f4a68f676f91",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/prompt_context.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo-gpt-only-rollout/SKILL.md",
+      "upstream_path": "hybrid_rollout/robodojo/robodojo-gpt-only-rollout/SKILL.md",
+      "bytes": 4184,
+      "sha256": "999513d63e474e20e9523523b774ce970efbe91f9d41465f9eca0a1d72d1f2eb",
+      "git_blob_sha1": "12c00344ee852152867c6c0814a02f4a582098ca",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo-gpt-only-rollout/SKILL.md"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/client.py",
+      "upstream_path": "hybrid_rollout/robodojo/robodojo_server/client.py",
+      "bytes": 19274,
+      "sha256": "b0f3d490f7cbd736204f5c1b4198cec29ac4e3884fa33901b82543b88800b7b8",
+      "git_blob_sha1": "709f689f0b865dd8d064e576c74cd9f9fb3b39be",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo_server/client.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/decision_log.py",
+      "upstream_path": "hybrid_rollout/robodojo/robodojo_server/decision_log.py",
+      "bytes": 4083,
+      "sha256": "01e8826f3ebde70f1b2fe83312517a12620168464accf05f964bb2f1e5cc3cc4",
+      "git_blob_sha1": "66e60044605a7968230f82905125ba66b70f813d",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo_server/decision_log.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/gpt_only_client.py",
+      "upstream_path": "hybrid_rollout/robodojo/robodojo_server/gpt_only_client.py",
+      "bytes": 8949,
+      "sha256": "11484ca34bb27c073dc2f10aa2336d37ff64738c9049a3d9c6e86ed600b122d3",
+      "git_blob_sha1": "debbc8c73d91de3dcd3a578dadf8166c29071145",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo_server/gpt_only_client.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/protocol.py",
+      "upstream_path": "hybrid_rollout/robodojo/robodojo_server/protocol.py",
+      "bytes": 3663,
+      "sha256": "815c2ee8b6a5086825b057ddeff3261c37411eabd6a2a5541e297307cf3c4942",
+      "git_blob_sha1": "b345ad17a7496692d8ef9b63cf5ebd4e39c9cc41",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo_server/protocol.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/validation.py",
+      "upstream_path": "hybrid_rollout/robodojo/robodojo_server/validation.py",
+      "bytes": 3211,
+      "sha256": "487dd38ece545d962c8dd96df207fce65e2ec31715a5c3e2a51f406da772e079",
+      "git_blob_sha1": "b00778bf6345a9e53a15be8255cb1c9d675ad6fc",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/robodojo_server/validation.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/run_local.sh",
+      "upstream_path": "hybrid_rollout/robodojo/run_local.sh",
+      "bytes": 9730,
+      "sha256": "8b1aa26f6da2278bf084946c3b8ea35bcf7f88edf97be8e30eab53d0d52c1820",
+      "git_blob_sha1": "e4ad4fdd74aab6abc4d6c28f61b2110f6138663d",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/run_local.sh"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/settings.py",
+      "upstream_path": "hybrid_rollout/robodojo/settings.py",
+      "bytes": 410,
+      "sha256": "9c2d71a8e2429902b4dbe0e68b337a4d222c68e91136609b0ab0e348bcda2185",
+      "git_blob_sha1": "9b2b4e25b498757666c7dc1572ec2d51ac287cfd",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/settings.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/SKILL.md",
+      "upstream_path": "hybrid_rollout/robodojo/skill/SKILL.md",
+      "bytes": 6257,
+      "sha256": "4314afdd4439f3f7b38da4d98561c6acab5c85459a9659400be10dc843331ff5",
+      "git_blob_sha1": "9a987f5fd1f5939be74117f28d40e9eba659c044",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/SKILL.md"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/image_preview.py",
+      "upstream_path": "hybrid_rollout/robodojo/skill/image_preview.py",
+      "bytes": 1726,
+      "sha256": "32cc6e609d018b252a56ea105d12fab6837acc1e78111e127b55d27c9b17fb13",
+      "git_blob_sha1": "5959f6469964ec1a634e05a9464a64b0d2b54a2e",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/image_preview.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/network_recovery.py",
+      "upstream_path": "hybrid_rollout/robodojo/skill/network_recovery.py",
+      "bytes": 1309,
+      "sha256": "6d24136460ea6a6054c0ecf05eb8c47cbe4ac21283416640e59ee9a77f0d18b1",
+      "git_blob_sha1": "0d719d47d723194bd19d96e5e939077fbb7d1e63",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/network_recovery.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/run.py",
+      "upstream_path": "hybrid_rollout/robodojo/skill/run.py",
+      "bytes": 27220,
+      "sha256": "807ee734702943f242680c0627ffc91232657dac0e81293c69102202de8d72c0",
+      "git_blob_sha1": "9efde67632e529c00c47851304c165dd0eb51d50",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/run.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/schema.py",
+      "upstream_path": "hybrid_rollout/robodojo/skill/schema.py",
+      "bytes": 2182,
+      "sha256": "1a1c673366d480a0a08709f337457dc9d92f7a1c9d9efca1fc8e61126d851a55",
+      "git_blob_sha1": "d4101d541f7a0384aee619920bd0670b0ac0199f",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/schema.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/transport.py",
+      "upstream_path": "hybrid_rollout/robodojo/skill/transport.py",
+      "bytes": 5511,
+      "sha256": "29be5ecc930e8f3f1356138f46dbb13757490a1f3fe705aa618ab0b034cad839",
+      "git_blob_sha1": "8f08705383841a4a41860bbaedf6d898438b86b7",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/transport.py"
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/workspace.py",
+      "upstream_path": "hybrid_rollout/robodojo/skill/workspace.py",
+      "bytes": 3796,
+      "sha256": "cabfd886c79188eeb77d23b0f6bd8cebccb7cef158bb0ec4e5ab98c806f3c88a",
+      "git_blob_sha1": "8cf872d1ed61ed2558dba2c8aeb1e467cdfddc4d",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/skill/workspace.py"
+    },
+    {
+      "path": "source/public_results/data.json",
+      "upstream_path": "public_results/data.json",
+      "bytes": 277423,
+      "sha256": "0c4be006a2a0dc1ca2559e4421c45680eec94d466f390ea34b2ea055af9bd74e",
+      "git_blob_sha1": "86a7b6f063fe5445d2f24b7adbff97080ee002b6",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/public_results/data.json"
+    },
+    {
+      "path": "source/public_results/provenance.json",
+      "upstream_path": "public_results/provenance.json",
+      "bytes": 1383,
+      "sha256": "d8b4550e5225cfcf5c1ede083b0955a8520d42dcaa858d1231e7695ba4d04d8f",
+      "git_blob_sha1": "bc934bc845bf986e75edfb34da84d9580296554b",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": true,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/public_results/provenance.json"
+    },
+    {
+      "path": "release-manifest.json",
+      "upstream_path": "release-manifest.json",
+      "bytes": 160128,
+      "sha256": "bb46985a929a227049fdb6a657e4e747406d6c65b6ce5a8f6aeb1fb0ecd2f511",
+      "git_blob_sha1": "26db1060e4f3063b99f42e0566fa8d6bf58e0637",
+      "verified_against_git_tree": true,
+      "verified_against_release_manifest": false,
+      "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/release-manifest.json"
+    }
+  ],
+  "public_aggregate_validation": {
+    "mix": {
+      "cases": 50,
+      "token_totals": {
+        "totalTokens": 624762828,
+        "inputTokens": 623457803,
+        "cachedInputTokens": 607555840,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 1305025,
+        "reasoningOutputTokens": 380541
+      },
+      "all_token_fields_reconcile": true,
+      "steps_reconcile": true,
+      "chunks_reconcile": true,
+      "successes_reconcile": true
+    },
+    "gpt": {
+      "cases": 50,
+      "token_totals": {
+        "totalTokens": 1132343772,
+        "inputTokens": 1130257208,
+        "cachedInputTokens": 1107349760,
+        "cacheWriteInputTokens": 0,
+        "outputTokens": 2086564,
+        "reasoningOutputTokens": 873464
+      },
+      "all_token_fields_reconcile": true,
+      "steps_reconcile": true,
+      "chunks_reconcile": true,
+      "successes_reconcile": true
+    }
+  }
+}

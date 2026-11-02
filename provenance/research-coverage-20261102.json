@@ -1,0 +1,17 @@
+{
+  "source_paths_indexed": 3327,
+  "publication_kinds": {
+    "lossless_corpus_object": 1433,
+    "existing_exact_file": 909,
+    "new_exact_file": 240,
+    "external_only": 141,
+    "lossless_jsonl_member": 604
+  },
+  "additional_unique_text_objects": 1140,
+  "additional_original_text_bytes": 28082614,
+  "jsonl_files": 4,
+  "original_video_files": 13,
+  "new_model_calls": 0,
+  "new_native_experiments": 0,
+  "qualification": "Indexed collected sources, not a full server image; external bulk stores/caches/unselected binary observations explicitly listed."
+}

@@ -1,0 +1,9 @@
+﻿batch,evidence_level,suite,condition,n,input_mean,output_mean,total_mean,http_mean_s,contract_valid,independent_synthetic_inputs
+API80,raw_call_table_recomputed,example_2_compositions,projected,20,2616.2,206.9,2823.1,8.554896577075123,20,5
+API80,raw_call_table_recomputed,example_2_compositions,unprojected,20,3752.2,210.5,3962.7,8.4882073671557,20,5
+API80,raw_call_table_recomputed,registry_22_operations,projected,5,8880.2,271.2,9151.4,11.412286749854683,0,5
+API80,raw_call_table_recomputed,registry_22_operations,unprojected,5,27348.2,250.6,27598.8,15.412423420324922,1,5
+API80,raw_call_table_recomputed,registry_22_operations_schema,projected,15,8957.2,180.46666666666667,9137.666666666666,8.573368939260641,15,5
+API80,raw_call_table_recomputed,registry_22_operations_schema,unprojected,15,27425.2,164.33333333333334,27589.533333333333,10.88243843888243,15,5
+API120,raw_requests_responses_and_manifest_recomputed_20261101,registry_22_operations_schema_20_scenes,unprojected,60,27437.3,161.61666666666667,27598.916666666668,14.43237250285844,60,20
+API120,raw_requests_responses_and_manifest_recomputed_20261101,registry_22_operations_schema_20_scenes,projected,60,8969.3,175.06666666666666,9144.366666666667,9.864257193667193,60,20

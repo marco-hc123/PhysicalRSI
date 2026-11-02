@@ -1,0 +1,73 @@
+PhysicalRSI 第三阶段：真实 API 对照实验报告
+日期：2026-10-27（Asia/Shanghai）；模型：qwen3-vl-plus；代码提交：90b322a3a362aad14125f36d8ed080ca31daaea6
+
+1. 本次确实完成了什么
+完成 80 次真实收费接口调用，加上此前 2 次连通测试，共 82 次。80 次均有独立 provider ID、HTTP 状态、usage 和耗时记录；没有自动重试。测试在老师服务器的个人项目目录运行，模型推理使用个人百炼 API。没有使用服务器 GPU、共享模型 API、VLA 权重或仿真器。
+本轮输入 854,246 Token，输出 16,129 Token，总计 870,375 Token。
+本轮未折扣单价费用估算 1.015536 元；按返回缓存命中量和当前缓存单价估算 0.771824 元。加上此前连通测试，未折扣估算 1.016086 元。未登录财务账单核销，因此这些不是实际扣款确认；免费额度、促销、结算差异以控制台为准。
+
+2. 研究问题与控制变量
+在同一 Qwen 模型、同一场景图片、任务指令、记忆、输出限制下，只切换官方 _planner_catalogue 的投影行为。projected 是官方目录精简逻辑；unprojected 是将该函数替换为恒等函数的消融条件，不是另一个项目。
+投影会去掉 implementation、source、provenance、configuration、evidence 等字段，并将 operation_memory 的细节缩为数量或可用性信息。它不意味着所有上下文都被压缩，也不改变本次每组实验的调用次数。
+所有请求使用实际官方 AgentPlanner 构造逻辑捕获，再由受预算限制的客户端发送；响应使用官方校验器离线检查。调用参数统一为 temperature=0、enable_thinking=false、max_tokens=512、非流式。没有使用官方最多三次重试的传输循环。
+
+3. 输入和实验设计
+5 个预先定义的任务：直尺对齐方块、覆盖轮廓、投币、按类别分组、抓取抬起。图片为代码绘制的 640×480 示意图，关节状态为零值，缺少真实标定。它们不是 RoboDojo 截图，也不是机器人动作轨迹。
+官方示例：2 个技能组合，5 输入×2 条件×4 重复=40 次。每个输入的 AB/BA 顺序在四次重复内平衡。
+22 项目录原始提示词：首批 5 输入×2 条件=10 次，保留为接口兼容性诊断。
+22 项目录格式说明补充实验：5 输入×2 条件×3 重复=30 次。精简和完整两边增加完全相同的字符串数组格式说明。三次重复不能在每个输入内完全平衡 AB/BA，已记录每对顺序。
+22 项目录由公开能力记录构造，只用于请求实验；没有安装或执行这 22 个技能。预期技能标签在调用前保存，只检验描述与技能句柄的一致性，不能证明真实几何可行性。
+
+4. 主要结果
+官方示例：输入 Token 平均下降 30.28%，含输出的总 Token 平均下降 28.76%。
+22 项目录（增加格式说明）：输入 Token 平均下降 67.34%，含输出的总 Token 平均下降 66.88%。
+两者的平均请求耗时变化分别为下降 -0.79% 和下降 21.22%；负值代表变慢。不能由这些数值推导整个机器人系统快多少倍。
+本总报告的下降率统一使用 100×(1−精简组均值/完整组均值)。运行子目录summary.json保留的是逐输入百分比平均，尤其耗时部分可能不同，不应混用两种汇总口径。
+请求耗时是 HTTP 完整耗时，包括网络、排队、输入处理、输出生成和缓存影响。我们没有测纯模型推理耗时、首 Token 时间或机器人端到端耗时。
+共有 38/80 次调用报告缓存命中。缓存 Token 是输入的子集，不能重复相加，也不能将缓存抵扣当作输入 Token 减少。输入 Token 的因果对照比耗时对照更直接。
+
+5. 失败同样是结果
+首批原始 operation 提示词出现 operations 对象数组，而官方要求字符串数组；另有 composition 使用操作名的问题。所有失败仍计入调用量、Token 和费用，没有自动修正后冒充原始成功。
+发现问题后先保存 pilot_review.json / protocol_amendment.json，再进行补充实验。增加格式说明的实验属于适配后结果，不能冒充完全未改的官方提示词复现，也不能与原始 operation 结果合并。
+格式修正前后输出质量可作为探索性对照；由于是在观察首批数据后提出修正、样本量与调用时间不同，不能将差异视为严格独立随机试验结论。
+
+6. 与前期结果及公开对比的关系
+前期 3192→2320、约27.32%的数字来自 o200k_base 对旧合成样本的纯文本估算。本轮使用 Qwen provider usage，并改变了场景尺寸、camera 字段和任务指令，因此两次百分比不同并不矛盾。应以同一请求的文本代理统计和真实 usage 对照来区分编码与图像占比，而不能直接混用。
+本轮可以支持“catalogue projection 减少实际 API 输入 Token”的机制结论。不能单独解释别人汇报中的约205万/121万/5万以内差距，也没有复现对应的65秒或端到端加速。这些还涉及高层规划调用次数、技能执行跨度、历史上下文、模型及缓存口径。
+本轮在各组中主动固定调用次数，所以没有实测“调用频率降低”带来的总费用变化。该问题需要真实或可验证的闭环轨迹。
+
+7. 证据与文件
+summary.json：汇总数字及限制；all_calls.csv/json：逐请求记录；failure_analysis.json：原始失败输出及分类。
+两个运行子目录：保留请求体、返回文本、raw usage、请求/源码哈希、执行事件、输入图像和代码快照。
+figures/input_tokens：真实输入 Token 柱状图；figures/request_latency：配对耗时图；figures/synthetic_inputs.png：合成输入拼图。
+本目录可直接复制到另一台电脑查看，无需原始仓库；report.html 是阅读入口。没有创建压缩包。API Key 与 Authorization 头不在这些文件中。
+
+8. 后续最有价值的实验
+先增加有来源、可核验标注的真实任务观察，验证技能选择质量；再在可运行的仿真环境做少量闭环任务，记录真实高层决策次数、技能执行步数、native success 和总 wall time。System 2 改进过程与冻结技能运行成本须分开核算。
+当前80次实验结束后停止收费调用；不因预算剩余而重复相同实验。
+
+官方示例：2 个技能组合
+unprojected: n=20, input=3752.2, output=210.5, latency=8.488s, JSON=20/20, contract=20/20, label_agreement=None
+projected: n=20, input=2616.2, output=206.9, latency=8.555s, JSON=20/20, contract=20/20, label_agreement=None
+配对耗时节省均值（秒）：-0.06668920991942287；任务级 bootstrap 95% 区间：[-0.6471959148533643, 0.5497648432850838]
+
+22 项能力目录：原始提示词（首批）
+unprojected: n=5, input=27348.2, output=250.6, latency=15.412s, JSON=5/5, contract=1/5, label_agreement=1
+projected: n=5, input=8880.2, output=271.2, latency=11.412s, JSON=5/5, contract=0/5, label_agreement=0
+配对耗时节省均值（秒）：4.000136670470238；任务级 bootstrap 95% 区间：[0.8521094564348459, 7.14816388450563]
+
+22 项能力目录：增加格式说明（补充实验）
+unprojected: n=15, input=27425.2, output=164.3, latency=10.882s, JSON=15/15, contract=15/15, label_agreement=15
+projected: n=15, input=8957.2, output=180.5, latency=8.573s, JSON=15/15, contract=15/15, label_agreement=15
+配对耗时节省均值（秒）：2.3090694996217884；任务级 bootstrap 95% 区间：[1.1425313847760359, 3.415972217544913]
+
+统计限制：bootstrap 以5个合成输入的重复均值为单位，避免把重复调用当作独立任务；区间仅作探索性参考，不代表真实机器人任务总体。
+
+同一请求的代理编码与真实用量复核（均值）：
+{"suite": "example_2_compositions", "condition": "projected", "o200k_text_mean": 2300.2, "cl100k_text_mean": 2290.2, "provider_input_mean": 2616.2, "provider_image_mean": 302, "provider_reported_text_mean": 2314.2}
+{"suite": "example_2_compositions", "condition": "unprojected", "o200k_text_mean": 3172.2, "cl100k_text_mean": 3154.2, "provider_input_mean": 3752.2, "provider_image_mean": 302, "provider_reported_text_mean": 3450.2}
+{"suite": "registry_22_operations", "condition": "projected", "o200k_text_mean": 8657.2, "cl100k_text_mean": 8544.2, "provider_input_mean": 8880.2, "provider_image_mean": 302, "provider_reported_text_mean": 8578.2}
+{"suite": "registry_22_operations", "condition": "unprojected", "o200k_text_mean": 23068.2, "cl100k_text_mean": 22881.2, "provider_input_mean": 27348.2, "provider_image_mean": 302, "provider_reported_text_mean": 27046.2}
+{"suite": "registry_22_operations_schema", "condition": "projected", "o200k_text_mean": 8735.2, "cl100k_text_mean": 8621.2, "provider_input_mean": 8957.2, "provider_image_mean": 302, "provider_reported_text_mean": 8655.2}
+{"suite": "registry_22_operations_schema", "condition": "unprojected", "o200k_text_mean": 23146.2, "cl100k_text_mean": 22958.2, "provider_input_mean": 27425.2, "provider_image_mean": 302, "provider_reported_text_mean": 27123.2}
+代理计数只统计消息内文本字符串；provider input 包含图像与服务端计数口径。本轮每次图像均为302 Token。o200k/cl100k不是Qwen的计费编码器，不能拿其估算值替代实际usage；剩余差异还可能包含消息包装口径，因此不能把所有差额只归因于tokenizer。

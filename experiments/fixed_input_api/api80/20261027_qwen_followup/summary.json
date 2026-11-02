@@ -1,0 +1,142 @@
+{
+  "updated_utc": "2026-10-27T09:18:02.990996+00:00",
+  "completed_attempts": 60,
+  "planned_attempts": 60,
+  "provider_usage_calls": 60,
+  "known_uncached_list_cost_rmb": 0.7554019999999999,
+  "unknown_cost_attempts": 0,
+  "reserved_cost_upper_bound_rmb": 60.0,
+  "including_prior_smoke_list_estimate_rmb": 1.016086,
+  "groups": [
+    {
+      "suite": "example_2_compositions",
+      "condition": "projected",
+      "calls": 15,
+      "http_ok": 15,
+      "json_valid": 15,
+      "contract_valid": 15,
+      "label_agreement": null,
+      "cache_hit_calls": 11,
+      "input_tokens_mean": 2616.2,
+      "input_tokens_median": 2615,
+      "output_tokens_mean": 207.06666666666666,
+      "output_tokens_median": 200,
+      "total_tokens_mean": 2823.266666666667,
+      "total_tokens_median": 2824,
+      "elapsed_seconds_mean": 8.616021382187803,
+      "elapsed_seconds_median": 8.533337419852614,
+      "cached_input_tokens_mean": 1604.2666666666667,
+      "cached_input_tokens_median": 2432,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    },
+    {
+      "suite": "example_2_compositions",
+      "condition": "unprojected",
+      "calls": 15,
+      "http_ok": 15,
+      "json_valid": 15,
+      "contract_valid": 15,
+      "label_agreement": null,
+      "cache_hit_calls": 12,
+      "input_tokens_mean": 3752.2,
+      "input_tokens_median": 3751,
+      "output_tokens_mean": 209.06666666666666,
+      "output_tokens_median": 205,
+      "total_tokens_mean": 3961.266666666667,
+      "total_tokens_median": 3956,
+      "elapsed_seconds_mean": 8.324291370312373,
+      "elapsed_seconds_median": 8.297439197078347,
+      "cached_input_tokens_mean": 2457.6,
+      "cached_input_tokens_median": 3584,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "condition": "projected",
+      "calls": 15,
+      "http_ok": 15,
+      "json_valid": 15,
+      "contract_valid": 15,
+      "label_agreement": 15,
+      "cache_hit_calls": 7,
+      "input_tokens_mean": 8957.2,
+      "input_tokens_median": 8956,
+      "output_tokens_mean": 180.46666666666667,
+      "output_tokens_median": 179,
+      "total_tokens_mean": 9137.666666666666,
+      "total_tokens_median": 9131,
+      "elapsed_seconds_mean": 8.573368939260641,
+      "elapsed_seconds_median": 8.227698031812906,
+      "cached_input_tokens_mean": 3541.3333333333335,
+      "cached_input_tokens_median": 0,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "condition": "unprojected",
+      "calls": 15,
+      "http_ok": 15,
+      "json_valid": 15,
+      "contract_valid": 15,
+      "label_agreement": 15,
+      "cache_hit_calls": 7,
+      "input_tokens_mean": 27425.2,
+      "input_tokens_median": 27424,
+      "output_tokens_mean": 164.33333333333334,
+      "output_tokens_median": 166,
+      "total_tokens_mean": 27589.533333333333,
+      "total_tokens_median": 27594,
+      "elapsed_seconds_mean": 10.88243843888243,
+      "elapsed_seconds_median": 11.14968435280025,
+      "cached_input_tokens_mean": 12603.733333333334,
+      "cached_input_tokens_median": 0,
+      "image_tokens_mean": 302,
+      "image_tokens_median": 302
+    }
+  ],
+  "comparisons": [
+    {
+      "suite": "example_2_compositions",
+      "complete_pairs": 15,
+      "input_tokens_reduction_pct_task_mean": 30.275621840208878,
+      "input_tokens_reduction_pct_task_bootstrap95": [
+        30.240173865310883,
+        30.304655347845326
+      ],
+      "total_tokens_reduction_pct_task_mean": 28.72603419467212,
+      "total_tokens_reduction_pct_task_bootstrap95": [
+        28.43787931526935,
+        29.01418907407489
+      ],
+      "elapsed_seconds_reduction_pct_task_mean": -5.139715742147916,
+      "elapsed_seconds_reduction_pct_task_bootstrap95": [
+        -12.118529857100889,
+        3.233055663277118
+      ]
+    },
+    {
+      "suite": "registry_22_operations_schema",
+      "complete_pairs": 15,
+      "input_tokens_reduction_pct_task_mean": 67.33952924131124,
+      "input_tokens_reduction_pct_task_bootstrap95": [
+        67.32774563772622,
+        67.34836791074963
+      ],
+      "total_tokens_reduction_pct_task_mean": 66.8799359913665,
+      "total_tokens_reduction_pct_task_bootstrap95": [
+        66.83724785963261,
+        66.91580799684294
+      ],
+      "elapsed_seconds_reduction_pct_task_mean": 16.292570027262396,
+      "elapsed_seconds_reduction_pct_task_bootstrap95": [
+        3.8107293669969473,
+        26.314582109571752
+      ]
+    }
+  ],
+  "uncertainty": "Exploratory percentile bootstrap over five synthetic task-level means, not population or robot-task confidence intervals.",
+  "cost_note": "Undiscounted list-price estimate from provider usage, not the billing console. Cache/free-credit discounts not subtracted."
+}

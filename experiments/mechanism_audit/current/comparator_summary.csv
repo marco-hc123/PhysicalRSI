@@ -1,0 +1,3 @@
+method,episodes,successes,score_n,control_steps,executed_chunks,totalTokens,inputTokens,cachedInputTokens,cacheWriteInputTokens,outputTokens,reasoningOutputTokens,uncached_input_tokens,cached_share_of_input_pct
+mix,50,24,50,42750,3776,624762828,623457803,607555840,0,1305025,380541,15901963,97.44939225662398
+gpt,50,13,48,38221,7729,1132343772,1130257208,1107349760,0,2086564,873464,22907448,97.97325353575626

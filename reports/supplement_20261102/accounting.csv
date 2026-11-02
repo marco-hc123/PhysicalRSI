@@ -1,0 +1,3 @@
+﻿experiment_id,role,canonical_path,completed_new_episodes,infrastructure_interrupted_attempts,historical_reference_rows,reused_development_episodes,new_formal_http_calls_in_source,smoke_http_calls_in_source,calls_started_by_this_import,videos_in_provided_archives
+EXP-2026W45-001,System1,/mnt/data/joey_tr/physical-RSI/result/24_system1_model_swap/37_gpt61sol_supplement_20261102,10,0,10,0,10,1,0,0
+EXP-2026W45-002,System2,/mnt/data/joey_tr/physical-RSI/result/25_system2_model_swap/38_system2_gpt61sol_20261102,10,1,0,10,1,0,0,0

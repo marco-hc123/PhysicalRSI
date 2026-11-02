@@ -1,0 +1,4 @@
+﻿cohort,task,episodes,successes,success_rate,descriptive_wilson95,mean_partial_score,input_tokens,output_tokens,total_tokens,cached_input_tokens,http_attempts,logical_calls,mean_reset_to_result_seconds,mean_control_steps,native_errors
+formal,stack_bowls,5,1,0.2,"[0.03622316096978745, 0.6244717358814613]",0.2,57690,5891,63581,20736,5,5,134.8103925603995,744.4,0
+formal,cover_blocks,5,3,0.6,"[0.23071993220883708, 0.8823817688407467]",0.64,57890,7277,65167,31104,5,5,129.6050759317979,639,0
+formal,insert_tubes,5,4,0.8,"[0.3755282641185388, 0.9637768390302125]",0.88,57740,4819,62559,31104,5,5,110.34156196419936,466,0

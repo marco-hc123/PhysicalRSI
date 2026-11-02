@@ -1,0 +1,14 @@
+[
+  {
+    "skill": "pi05",
+    "portable_content_tree_sha256": "19565f0093cfcaad33e0ebe9285afb27fb01ed07d05594176e0539847753c74d",
+    "normalizer_path": "/mnt/data/physical-RSI/models/skill-assets/checkpoints/pi05/assets/arx_x5_sim/norm_stats.json",
+    "normalizer_sha256": "ad7dea3e3d2bcdb348945fe03422ab1adccd03baf67318b1a1d153dfe8694db5"
+  },
+  {
+    "skill": "pi05-sparse-memory",
+    "portable_content_tree_sha256": "a2c77d449b9df62e378e75e0e15fc3ca238de448ff7d143be90f0fa4450dbc71",
+    "normalizer_path": "/mnt/data/physical-RSI/models/skill-assets/checkpoints/pi05-sparse-memory/assets/robodojo_arx_x5_all35/norm_stats.json",
+    "normalizer_sha256": "4cf3155653a12e13ae8b4f9bc640eda865f300e46058da160782f58d5694d08b"
+  }
+]

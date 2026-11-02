@@ -1,0 +1,7 @@
+﻿host,cohort,unique_response_ids,input_tokens,output_tokens,total_tokens,qualification
+lab,API120 synthetic,120,2184396,20201,2204597,ID-reconciled stored evidence only; not provider invoice; not native-episode count
+lab,API80 synthetic,80,854246,16129,870375,ID-reconciled stored evidence only; not provider invoice; not native-episode count
+lab,connectivity smoke,2,150,40,190,ID-reconciled stored evidence only; not provider invoice; not native-episode count
+cloud,System1 or setup; see source cohort,116,2043706,101665,2145371,ID-reconciled stored evidence only; not provider invoice; not native-episode count
+cloud,System2 proposal,4,330114,75762,405876,ID-reconciled stored evidence only; not provider invoice; not native-episode count
+cloud,API-only diagnostic/replay,22,489172,20499,509671,ID-reconciled stored evidence only; not provider invoice; not native-episode count

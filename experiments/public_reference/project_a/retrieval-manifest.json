@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://anonymous-report-421.github.io/public-website/data.json",
+    "path": "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/public-evidence/project-a-current-data.json",
+    "sha256": "0c4be006a2a0dc1ca2559e4421c45680eec94d466f390ea34b2ea055af9bd74e",
+    "bytes": 277423,
+    "retrieved_utc": "2026-10-29T07:55:27.613614+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/anonymous-report-421/GPT-as-Policy/8f3d362b077d8efb77e2a7274d5b2c20e2243846/hybrid_rollout/robodojo/SOURCE.json",
+    "path": "/mnt/data/physical-RSI/result/20_cross_project_evidence_20261029T075456Z/public-evidence/project-a-upstream-source.json",
+    "sha256": "63656da94951231bd493181bc7db176cf21cb355241bcbeb2b1e47cc7e6db7b7",
+    "bytes": 1352,
+    "retrieved_utc": "2026-10-29T07:55:29.373926+00:00"
+  }
+]

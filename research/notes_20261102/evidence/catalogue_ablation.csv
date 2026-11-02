@@ -1,0 +1,3 @@
+﻿condition,cases,native_completed,successes,input_tokens,output_tokens,total_tokens,mean_input_tokens,mean_http_seconds,mean_wrapper_seconds
+projected,15,15,5,173262,13306,186568,11550.8,14.560118915066656,127.91762509366671
+unprojected,15,14,6,875052,13918,888970,58336.8,18.268148220933412,128.58191283113314

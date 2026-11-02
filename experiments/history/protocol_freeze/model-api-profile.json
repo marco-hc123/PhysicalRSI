@@ -1,0 +1,19 @@
+{
+  "model": "qwen3.7-plus",
+  "temperature": 0,
+  "response_format": {
+    "type": "json_object"
+  },
+  "enable_thinking": true,
+  "endpoint": "https://ws-lckd7q7bpskdc5qj.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "unspecified_request_fields": [
+    "top_p",
+    "max_tokens",
+    "max_completion_tokens",
+    "stream"
+  ],
+  "credential_storage": "External private configuration; no credential copied",
+  "model_identity": "Provider model alias; exact backend checkpoint not supplied by provider",
+  "historical_request_sha256": "c2a90cca2f1a7467ba71f13ad389d2ea23085e8e5fc13a3cadd4741bda3310e0",
+  "inference_settings_source": "Observed baseline payload; no network call made during registration"
+}

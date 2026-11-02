@@ -1,0 +1,44 @@
+[
+  {
+    "video_id": "V02_classification_agent_success",
+    "frame_index": "702",
+    "video_time_seconds": "28.08",
+    "task": "classify_objects",
+    "layout": "layout6",
+    "policy_version": "Qwen3.7-plus Agent; frozen code skill",
+    "source_video_sha256": "4a30f534cef9211a6b5c4d0144b3c2270730b516027af0eadd6cb992a9adb052",
+    "frame_path": "media/frames/V02_classification_agent_success_f0702.png",
+    "frame_png_sha256": "d0cc95e80db416b865427845afb938033bd85f472c60339efb6aba930a2628b6",
+    "description": "Terminal",
+    "pixel_processing": "decoded frame only; no crop, recolor or generated content",
+    "repository_path": "reports/evidence/media/frames/V02_classification_agent_success_f0702.png"
+  },
+  {
+    "video_id": "V05_diagnostic_skip_all",
+    "frame_index": "1100",
+    "video_time_seconds": "44.0",
+    "task": "classify_objects",
+    "layout": "layout2",
+    "policy_version": "round2 candidate original_dense",
+    "source_video_sha256": "f35353872472c928f7ccc867186f3676bd9fc04617905791154d9fd9b6469ba9",
+    "frame_path": "media/frames/V05_diagnostic_skip_all_f1100.png",
+    "frame_png_sha256": "7dd5aa49db1f5e5d7edb7e36313bc2f0f627d4df41b0e24cfe15a291347ba479",
+    "description": "Terminal",
+    "pixel_processing": "decoded frame only; no crop, recolor or generated content",
+    "repository_path": "reports/evidence/media/frames/V05_diagnostic_skip_all_f1100.png"
+  },
+  {
+    "video_id": "V06_diagnostic_bbox_more_actions",
+    "frame_index": "1100",
+    "video_time_seconds": "44.0",
+    "task": "classify_objects",
+    "layout": "layout2",
+    "policy_version": "round2 candidate bbox_dense; manual diagnosis only",
+    "source_video_sha256": "ba399faefc56c1180a235191ff4253fad8a5ce0ed7a7f2659ea9d64115b82a7e",
+    "frame_path": "media/frames/V06_diagnostic_bbox_more_actions_f1100.png",
+    "frame_png_sha256": "7f841f53e67dab76e2d95fa2a0566bba5272e9430bffa36d40dc38faa6cc50e1",
+    "description": "Terminal",
+    "pixel_processing": "decoded frame only; no crop, recolor or generated content",
+    "repository_path": "reports/evidence/media/frames/V06_diagnostic_bbox_more_actions_f1100.png"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "scope": "Real AgentPlanner and LanguageModel paths, simulated HTTP only; fixture token counts are not measurements.",
+  "real_network_requests": 0,
+  "physical_transport_attempts_simulated": 4,
+  "logical_operations": 3,
+  "tests": [
+    "planner transport retry is counted",
+    "chat boundary observed before usage is discarded",
+    "Responses boundary observed before usage is discarded",
+    "cached/reasoning subsets are not added twice",
+    "failed attempt token count remains unknown"
+  ],
+  "fixture_summary": {
+    "physical_attempts": 4,
+    "response_attempts": 3,
+    "transport_error_attempts": 1,
+    "caller_error_attempts": 0,
+    "measured_complete_attempts": 3,
+    "unknown_or_invalid_usage_attempts": 1,
+    "usage_coverage": 0.75,
+    "token_totals_scope": "validated complete usage attempts only; unknown attempts excluded",
+    "input_tokens": 250,
+    "output_tokens": 50,
+    "total_tokens": 300,
+    "elapsed_seconds_sum": 0.0008017580007617653,
+    "usage_issue_counts": {
+      "opener_failed": 1
+    },
+    "cached_input_tokens": 190,
+    "cached_input_tokens_known_attempts": 3,
+    "uncached_input_tokens": 60,
+    "uncached_input_tokens_known_attempts": 3,
+    "reasoning_output_tokens": 14,
+    "reasoning_output_tokens_known_attempts": 3,
+    "explicit_logical_calls": 3,
+    "grouped_additional_attempts": 1,
+    "ungrouped_attempts_retry_status_unknown": 0,
+    "retry_interpretation": "additional attempts are retries only when each explicit group wraps one retrying operation"
+  },
+  "passed": true
+}

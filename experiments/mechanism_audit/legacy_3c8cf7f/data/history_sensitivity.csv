@@ -1,0 +1,15 @@
+turns,policy,scope,text_tokens_cl100k_base,text_tokens_o200k_base,image_attachments,image_tokens
+1,retained_full_requests,constructed sensitivity; not measured application trace,2310,2320,1,unknown
+1,current_request_only,constructed sensitivity; not measured application trace,2310,2320,1,unknown
+2,retained_full_requests,constructed sensitivity; not measured application trace,4556,4576,2,unknown
+2,current_request_only,constructed sensitivity; not measured application trace,2310,2320,1,unknown
+5,retained_full_requests,constructed sensitivity; not measured application trace,11294,11344,5,unknown
+5,current_request_only,constructed sensitivity; not measured application trace,2310,2320,1,unknown
+10,retained_full_requests,constructed sensitivity; not measured application trace,22524,22624,10,unknown
+10,current_request_only,constructed sensitivity; not measured application trace,2310,2320,1,unknown
+20,retained_full_requests,constructed sensitivity; not measured application trace,44984,45184,20,unknown
+20,current_request_only,constructed sensitivity; not measured application trace,2310,2320,1,unknown
+50,retained_full_requests,constructed sensitivity; not measured application trace,112364,112864,50,unknown
+50,current_request_only,constructed sensitivity; not measured application trace,2310,2320,1,unknown
+100,retained_full_requests,constructed sensitivity; not measured application trace,224664,225664,100,unknown
+100,current_request_only,constructed sensitivity; not measured application trace,2310,2320,1,unknown

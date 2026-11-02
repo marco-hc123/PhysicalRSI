@@ -1,0 +1,17 @@
+﻿field,unit,definition
+input_tokens,tokens,Provider prompt_tokens; includes cached and image input
+output_tokens,tokens,Provider completion_tokens; includes reasoning subset where reported
+total_tokens,tokens,"Provider total_tokens; check input+output, retain any discrepancy"
+cached_input_tokens,tokens,Subset of input; do not add to input or total again
+reasoning_tokens,tokens,Subset of output; not an additional total
+logical_model_calls,count,Planner/proposer invocations tagged by purpose and episode/round
+http_attempts,count,Every transport attempt including retries and failed responses
+executed_control_steps,count,"Sum of actual native control ACK differences, not requested chunks"
+physical_duration_seconds,s,Actual controls multiplied by native control_dt; excludes model waiting
+api_seconds,s,"Request send to full response return; per attempt, including failed attempts"
+episode_wall_seconds,s,"Native episode_start to native end/error, including model wait and skill load inside episode"
+reset_to_result_seconds,s,reset_start to native end/error; includes reset
+process_wrapper_seconds,s,Run launcher start through owned process cleanup
+continuous_group_seconds,s,Entire group startup+warmups+evaluation+cleanup; report warmups separately too
+native_success,bool,Native success flag only; internal done/complete_hold are not success
+native_score,0..1,"Native partial score, separate from full task success"

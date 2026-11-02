@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "base_commit": "2c747197a0dd34bef925fdb3603aafe43c6a0b67",
+  "private_repository_verified": true,
+  "current_navigation_links_checked": 205,
+  "broken_current_navigation_links": [],
+  "raw_historical_markdown_snapshots_not_rewritten": 29,
+  "credential_scan_text_files_including_decompressed_objects": 254,
+  "credential_pattern_findings": [],
+  "credential_scan_limitations": "Known token/private-key/bearer patterns; no guarantee of every possible credential format.",
+  "offline_research_verification": {
+    "status": "passed",
+    "manifest_files_verified": 277,
+    "fixed_input_api": {
+      "api80_calls": 80,
+      "api120_calls": 120,
+      "new_calls_in_this_publication": 0,
+      "api120_independent_synthetic_inputs": 20,
+      "api120_repetitions_per_condition": 3,
+      "jsonl_members_verified": 400,
+      "api120_reduction_percent": {
+        "input_tokens": 67.30983004887507,
+        "total_tokens": 66.866936202206,
+        "elapsed_seconds": 31.651866720364218
+      },
+      "robot_episodes": 0
+    },
+    "native_catalogue_ablation": {
+      "projected": {
+        "attempts": 15,
+        "native_completed": 15,
+        "successes": 5,
+        "input": 173262,
+        "total": 186568
+      },
+      "unprojected": {
+        "attempts": 15,
+        "native_completed": 14,
+        "successes": 6,
+        "input": 875052,
+        "total": 888970
+      }
+    },
+    "media": {
+      "original_videos": 13,
+      "featured_videos": 3,
+      "terminal_frames": 3,
+      "random_sample": false,
+      "new_GPT_execution_videos": 0
+    },
+    "research_archive": {
+      "source_paths_indexed": 3327,
+      "unique_lossless_text_objects": 1140,
+      "original_text_bytes": 28082614,
+      "new_exact_source_paths_checked": 240,
+      "external_sources_explicitly_listed": 141,
+      "scope": "Collected source packages and research notes; not all server bytes or all raw binary observations."
+    },
+    "new_model_calls": 0,
+    "new_native_experiments": 0
+  },
+  "existing_GPT_result_checks": {
+    "system1": {
+      "episodes_including_historical_reference": 20,
+      "new_gpt_episodes": 10,
+      "new_formal_http_requests": 10,
+      "matched_skill_selections": 10
+    },
+    "system2": {
+      "completed_parent": 5,
+      "completed_candidate": 5,
+      "infrastructure_interruptions_unknown_score": 1,
+      "successes": 0,
+      "mean_score": 0,
+      "selection": "retain_parent",
+      "candidate_generation_total_tokens": 5476
+    },
+    "scope": "Existing result checks only; full original source manifest is not rechecked here."
+  },
+  "lab_previous_snapshot_comparison": {
+    "matched_files": 712,
+    "changed_files": 0
+  },
+  "cloud_connection_used": false,
+  "lab_writes": 0,
+  "new_model_calls": 0,
+  "new_native_experiments": 0,
+  "manifest_self_reference_exclusions": [
+    "provenance/SOURCES.csv",
+    "provenance/ADDITIONS_20261102.csv",
+    "provenance/research-evidence-check-20261102.json"
+  ],
+  "scope": "No full server mirror; external sources have explicit index entries. Existing complete source-manifest verification remains available after clone."
+}

@@ -6,6 +6,14 @@
 
 ## 先看哪些文件
 
+- [全研究阶段原件库及读取方法](experiments/evidence_archive/README.md)
+- [研究计划、讨论与周记](research/README.md)
+
+- [完整研究总览：机制、全部阶段、结果与下一步](docs/RESEARCH_OVERVIEW_ZH.md)
+- [按研究问题组织的证据导航](docs/EVIDENCE_INDEX.md)
+- [历史详细报告、场景与汇报大纲](reports/research_archive_20261101/README.md)
+- [新增图表、可编辑数据及代表性真实视频](reports/evidence/README.md)
+
 - [汇报 PPT（2026-11-02，6 页）](reports/presentations/PhysicalRSI_report_20261102.pptx)
 
 - [最新实验结论与限制](docs/RESULTS.md)
@@ -36,7 +44,10 @@ upstream/PhysicalRSI/          实验使用的上游代码快照及原许可证
 integration/                  实际使用的冻结集成层
 experiments/system1_gpt/      GPT 分类补测：代码、协议、请求响应和结果
 experiments/system2_gpt/      GPT 自改进补测：候选代码、验证和选择记录
-experiments/history/          原生分类、扩展任务、计时及失败诊断资料
+experiments/history/          原生分类、目录消融、恢复、扩展任务、计时与失败诊断
+experiments/fixed_input_api/  80/120 次合成输入 API 原件、协议与分析
+experiments/mechanism_audit/  版本化提示词、调度和 CPU 机制证据
+experiments/public_reference/ 项目 A 公开资料快照，不属于本研究新执行
 procedures/historical_server/  历史服务器实验程序，供追溯检查
 environment/                  环境版本记录
 configs/                      不含密钥的配置示例
@@ -51,11 +62,14 @@ provenance/                   来源索引、SHA256 和上传检查记录
 
 ```bash
 python tools/verify_results.py
+python tools/verify_research_evidence.py
 ```
 
 此命令仅复算归档结果和检查文件哈希，不发起付费 API 请求、不启动仿真。
 
 ## 证据边界
+
+2026-11-02 仓库补充按已有代码与实验材料核对；未重新运行实验，现有 PPT 未修改。原始记录分散在不同时间和版本中，不能把目录数、副本数和 API-only 当作新的机器人回合。
 
 - GPT-as-Policy 是公开参考项目；跨项目模型、布局及成功率未完全对齐，Token 比值不等于公平条件下的等质量省费倍数。
 - `total = input + output`；缓存命中是 input 的子集；reasoning 若已包含在 output，不应重复相加。

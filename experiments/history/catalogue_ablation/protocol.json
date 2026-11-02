@@ -1,0 +1,300 @@
+{
+  "schema": "physicalrsi.catalogue-ablation/v1",
+  "registered_utc": "2026-10-29T05:11:09.095457+00:00",
+  "task": "general_pickup",
+  "layouts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "conditions": [
+    "projected",
+    "unprojected"
+  ],
+  "native_repetitions": 3,
+  "native_cases": 30,
+  "replay_cases": 10,
+  "model": "qwen3.7-plus",
+  "enable_thinking": true,
+  "temperature": 0,
+  "max_tokens": "Keep frozen planner/provider default; no new output limit",
+  "seed": 0,
+  "step_limit": 200,
+  "planner_sha256": "d6f6936d5b57283c7c8affacd857356f9b1e8f8d5f54a7b6959a4e70c1cb25db",
+  "sole_treatment": "Official _planner_catalogue projection vs identity/deepcopy, for available_compositions and operation_program only",
+  "selection_rule": "First five numeric layouts used in prior suite, fixed before new outcomes; no success-based selection",
+  "scope": "Developmental mechanism pilot and repeated same-layout evaluation; not independent held-out generalization",
+  "primary_metrics": [
+    "Native success per attempted case",
+    "Provider prompt and total tokens per attempted case"
+  ],
+  "secondary_metrics": [
+    "Strict plan validity",
+    "Selected skill",
+    "Cached/reasoning subsets",
+    "API latency",
+    "Native execution time",
+    "Cold startup"
+  ],
+  "failure_rule": "Keep planning and execution failures in denominator; do not remap or retry semantic failures; preserve native transport retry policy up to3 with full ledger; infrastructure failure pauses controller for review",
+  "attempt_budget": {
+    "max_native_logical_plans": 30,
+    "max_replay_logical_plans": 10,
+    "max_transport_attempts_per_plan": 3,
+    "max_total_transport_attempts": 120
+  },
+  "continuation_gate": "After first10 cases, verify no infrastructure faults and unchanged sources, then execute two declared repeats irrespective of success direction",
+  "interpretation_notes": [
+    "Full projection-off restores static implementation/source labels and operation stages; effect is not pure byte compression.",
+    "Both VLA checkpoints and all22 operations remain available for both conditions.",
+    "Same layout/seed/robot reset does not guarantee pixel-identical independently rendered RGB.",
+    "Five layouts are the sampling units; repeats do not constitute15 independent layouts.",
+    "Thinking was selected after prior exploration; this is a new developmental comparison.",
+    "No online learning, System2 skill evolution, or comparison to an external project is included.",
+    "Existing earlier 59-case suite remains immutable."
+  ],
+  "jobs": [
+    {
+      "name": "r1_layout01_projected",
+      "condition": "projected",
+      "layout": 1,
+      "repeat": 1,
+      "pair_id": "r1_layout01",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout01_unprojected",
+      "condition": "unprojected",
+      "layout": 1,
+      "repeat": 1,
+      "pair_id": "r1_layout01",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout02_unprojected",
+      "condition": "unprojected",
+      "layout": 2,
+      "repeat": 1,
+      "pair_id": "r1_layout02",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout02_projected",
+      "condition": "projected",
+      "layout": 2,
+      "repeat": 1,
+      "pair_id": "r1_layout02",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout03_projected",
+      "condition": "projected",
+      "layout": 3,
+      "repeat": 1,
+      "pair_id": "r1_layout03",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout03_unprojected",
+      "condition": "unprojected",
+      "layout": 3,
+      "repeat": 1,
+      "pair_id": "r1_layout03",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout04_unprojected",
+      "condition": "unprojected",
+      "layout": 4,
+      "repeat": 1,
+      "pair_id": "r1_layout04",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout04_projected",
+      "condition": "projected",
+      "layout": 4,
+      "repeat": 1,
+      "pair_id": "r1_layout04",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout05_projected",
+      "condition": "projected",
+      "layout": 5,
+      "repeat": 1,
+      "pair_id": "r1_layout05",
+      "phase": "pilot"
+    },
+    {
+      "name": "r1_layout05_unprojected",
+      "condition": "unprojected",
+      "layout": 5,
+      "repeat": 1,
+      "pair_id": "r1_layout05",
+      "phase": "pilot"
+    },
+    {
+      "name": "r2_layout01_unprojected",
+      "condition": "unprojected",
+      "layout": 1,
+      "repeat": 2,
+      "pair_id": "r2_layout01",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout01_projected",
+      "condition": "projected",
+      "layout": 1,
+      "repeat": 2,
+      "pair_id": "r2_layout01",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout02_projected",
+      "condition": "projected",
+      "layout": 2,
+      "repeat": 2,
+      "pair_id": "r2_layout02",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout02_unprojected",
+      "condition": "unprojected",
+      "layout": 2,
+      "repeat": 2,
+      "pair_id": "r2_layout02",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout03_unprojected",
+      "condition": "unprojected",
+      "layout": 3,
+      "repeat": 2,
+      "pair_id": "r2_layout03",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout03_projected",
+      "condition": "projected",
+      "layout": 3,
+      "repeat": 2,
+      "pair_id": "r2_layout03",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout04_projected",
+      "condition": "projected",
+      "layout": 4,
+      "repeat": 2,
+      "pair_id": "r2_layout04",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout04_unprojected",
+      "condition": "unprojected",
+      "layout": 4,
+      "repeat": 2,
+      "pair_id": "r2_layout04",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout05_unprojected",
+      "condition": "unprojected",
+      "layout": 5,
+      "repeat": 2,
+      "pair_id": "r2_layout05",
+      "phase": "repeat"
+    },
+    {
+      "name": "r2_layout05_projected",
+      "condition": "projected",
+      "layout": 5,
+      "repeat": 2,
+      "pair_id": "r2_layout05",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout01_projected",
+      "condition": "projected",
+      "layout": 1,
+      "repeat": 3,
+      "pair_id": "r3_layout01",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout01_unprojected",
+      "condition": "unprojected",
+      "layout": 1,
+      "repeat": 3,
+      "pair_id": "r3_layout01",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout02_unprojected",
+      "condition": "unprojected",
+      "layout": 2,
+      "repeat": 3,
+      "pair_id": "r3_layout02",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout02_projected",
+      "condition": "projected",
+      "layout": 2,
+      "repeat": 3,
+      "pair_id": "r3_layout02",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout03_projected",
+      "condition": "projected",
+      "layout": 3,
+      "repeat": 3,
+      "pair_id": "r3_layout03",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout03_unprojected",
+      "condition": "unprojected",
+      "layout": 3,
+      "repeat": 3,
+      "pair_id": "r3_layout03",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout04_unprojected",
+      "condition": "unprojected",
+      "layout": 4,
+      "repeat": 3,
+      "pair_id": "r3_layout04",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout04_projected",
+      "condition": "projected",
+      "layout": 4,
+      "repeat": 3,
+      "pair_id": "r3_layout04",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout05_projected",
+      "condition": "projected",
+      "layout": 5,
+      "repeat": 3,
+      "pair_id": "r3_layout05",
+      "phase": "repeat"
+    },
+    {
+      "name": "r3_layout05_unprojected",
+      "condition": "unprojected",
+      "layout": 5,
+      "repeat": 3,
+      "pair_id": "r3_layout05",
+      "phase": "repeat"
+    }
+  ]
+}

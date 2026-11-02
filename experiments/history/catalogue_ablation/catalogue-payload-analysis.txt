@@ -1,0 +1,7 @@
+Verified 5 replay pairs: only available_compositions and operation_program differ; settings, other context, image content SHA values, and candidate handles match.
+All projected catalogues exactly match the frozen official projection of their unprojected counterpart.
+Structural canonical UTF-8 JSON reductions across the replay pairs: available_compositions 10,880 bytes, operation_program 511,355 bytes.
+Reductions come from omitted implementation/source/provenance/identity/evidence metadata and replacement of detailed operation memory with count summaries. Static task-name cues and executable stages are part of this bundled treatment.
+Byte and character sizes are structural proxies, not actual model tokens or cost. Per-field sizes use canonical UTF-8 JSON (sorted keys, no optional spaces, ensure_ascii=False). Raw user-context text sizes are also reported. Portable image references are not the full transmitted multimodal payload.
+Observed provider prompt_tokens across all recorded transport attempts: projected=57754 (0 attempts missing usage); unprojected=291684 (0 attempts missing usage).
+Provider evidence: replay/replay-summary.json. Provider prompt_tokens are observed separately from replay-summary.json, counted once per recorded transport attempt. Missing usage is unknown, not zero. Exact token savings cannot be attributed to a context field without new API ablations; no field token or cost estimates are made.

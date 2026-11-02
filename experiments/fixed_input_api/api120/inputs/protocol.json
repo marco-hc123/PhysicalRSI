@@ -1,0 +1,56 @@
+{
+  "schema": "physicalrsi.fixed-input-preparation/v2",
+  "status": "prepared_not_executed",
+  "created_utc": "2026-10-27T13:14:26.604330+00:00",
+  "reporting_timezone": "Asia/Shanghai",
+  "source_commit": "90b322a3a362aad14125f36d8ed080ca31daaea6",
+  "model": "qwen3-vl-plus",
+  "requested_model_is_alias": true,
+  "scene_count": 20,
+  "family_count": 10,
+  "scenes_per_family": 2,
+  "repetitions": 3,
+  "unique_requests": 40,
+  "planned_calls": 120,
+  "new_api_calls": 0,
+  "conditions": [
+    "unprojected",
+    "projected"
+  ],
+  "suite": "registry_22_operations_schema",
+  "execution_enabled": false,
+  "network_execution_implemented": false,
+  "sampling": {
+    "temperature": 0,
+    "max_tokens": 512,
+    "enable_thinking": false,
+    "stream": false
+  },
+  "primary_outcome": "Provider-reported input-token reduction; ratio of balanced condition means.",
+  "secondary_outcomes": [
+    "total tokens",
+    "HTTP wall time",
+    "official contract validity",
+    "predeclared operation-handle agreement"
+  ],
+  "analysis_unit": "10 task families, 2 scenes per family; repeats are not independent tasks.",
+  "uncertainty": "Exploratory family-cluster bootstrap, 10000 resamples, fixed seed 2026102702; report family values and scene paired deltas.",
+  "subgroup": "5 previously used families / 5 newly added families, reported separately; all 20 inputs newly created.",
+  "order": "Three rounds; 10 AB and 10 BA pairs per round; per scene ordering is 2:1 or 1:2, not perfectly balanced.",
+  "stopping": "120 attempt cap; checkpoints after 40/80/120. No stopping for favorable outcomes, no automatic retry. Stop on billing/transport/unknown usage errors.",
+  "checkpoint_rule": "No prompt or label changes after execution starts. Any repair creates a new protocol revision and separate cohort.",
+  "planned_budget_rmb": 10.0,
+  "user_total_budget_rmb": 100.0,
+  "budget_status": "Planning limit only; no live runner in this package. Verify actual account balance/prices and configure enforceable budget ledger before launch.",
+  "price_estimate_basis": "Prior schema cohort mean list-price estimate per request, scaled to 120; not a quote or invoice.",
+  "boundaries": [
+    "Synthetic images only; not native RoboDojo observations.",
+    "Zero joint states; geometry/physics not validated.",
+    "Labels assigned from descriptions by preparation author; no independent human labels.",
+    "Instruction alone often reveals the family; this is not a visual grounding benchmark.",
+    "Same 22-operation catalogue means input savings need not generalize to other catalogues.",
+    "No simulation, VLA execution, training, System 2 improvement, or robot task success.",
+    "The schema addition is an adaptation, not unmodified official behavior."
+  ],
+  "rough_new_batch_list_estimate_rmb": 2.389824
+}

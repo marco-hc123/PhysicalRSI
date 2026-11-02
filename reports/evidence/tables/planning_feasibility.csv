@@ -1,0 +1,9 @@
+﻿layout,condition,seeds,planning_successes,robot_execution_tested
+1,lift_10cm,3,3,False
+1,lift_15cm,3,3,False
+1,lift_5cm,3,3,False
+1,original_20cm,3,0,False
+3,left,3,0,False
+3,right,3,3,False
+4,left,3,0,False
+4,right,3,3,False

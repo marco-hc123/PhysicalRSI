@@ -1,0 +1,13 @@
+case,evidence,scope,catalogue_entries,operation_entries,image_count,image_width,image_height,text_characters,text_utf8_bytes,request_json_bytes,text_tokens_cl100k_base,text_tokens_o200k_base,image_tokens,output_tokens,provider_usage
+example_projected,production request construction with synthetic observation,example configuration; production projection,2,0,1,224,224,11127,11127,12915,2310,2320,unknown,unknown,not_called
+example_unprojected,production request construction with synthetic observation,ablation: projection disabled only,2,0,1,224,224,13413,13413,15409,3174,3192,unknown,unknown,not_called
+example_no_memory,production request construction with synthetic observation,ablation: memory removed; quality untested,2,0,1,224,224,3786,3786,5222,892,901,unknown,unknown,not_called
+example_no_images,production request construction with synthetic observation,image count sensitivity,2,0,0,0,0,11007,11007,11810,2251,2261,unknown,unknown,not_called
+example_three_images,production request construction with synthetic observation,image count sensitivity,2,0,3,224,224,11371,11371,15129,2430,2440,unknown,unknown,not_called
+example_larger_image,production request construction with synthetic observation,image resolution sensitivity; image tokens unknown,2,0,1,640,640,11127,11127,15439,2310,2320,unknown,unknown,not_called
+all_declared_projected,production request construction with synthetic observation,declared compositions; not a deployed library,3,0,1,224,224,11333,11333,13133,2349,2358,unknown,unknown,not_called
+all_declared_unprojected,production request construction with synthetic observation,declared compositions; projection ablation,3,0,1,224,224,13619,13619,15627,3213,3230,unknown,unknown,not_called
+operation_library_projected,production request construction with synthetic observation,"request-only fixture; 22 capability records, no executable deployment",1,22,1,224,224,39730,39730,43462,8564,8677,unknown,unknown,not_called
+operation_library_unprojected,production request construction with synthetic observation,request-only fixture; operation projection disabled,1,22,1,224,224,77793,77793,84581,22901,23088,unknown,unknown,not_called
+operations_only_projected,production request construction with synthetic observation,operation-only request branch,0,22,1,224,224,38538,38538,42256,8368,8481,unknown,unknown,not_called
+advisory_projected,production request construction with synthetic observation,advisory request branch,0,0,1,224,224,8121,8121,9701,1663,1664,unknown,unknown,not_called

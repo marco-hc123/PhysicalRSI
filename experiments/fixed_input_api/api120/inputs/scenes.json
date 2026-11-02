@@ -1,0 +1,1671 @@
+[
+  {
+    "id": "scene_01",
+    "family": "align-blocks",
+    "variant": 1,
+    "family_seen_in_stage1": true,
+    "instruction": "Move the three scattered blocks into a straight row against the long ruler lying near the lower edge of the table.",
+    "variation_zh": "横向直尺；三个不同颜色积木；位置与旧图不同。",
+    "image": "images/scene_01.png",
+    "image_sha256": "f2440bd7fe9e07f4d6573705ab7b79f0d0d0d1f33df74291aaff6eafb2198a82",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          70,
+          350,
+          565,
+          376
+        ],
+        "color": "#8c969e",
+        "role": "straightedge"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          100,
+          130,
+          156,
+          186
+        ],
+        "color": "#df5858",
+        "role": "block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          280,
+          205,
+          336,
+          261
+        ],
+        "color": "#548fd4",
+        "role": "block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          465,
+          115,
+          521,
+          171
+        ],
+        "color": "#edc35b",
+        "role": "block"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_02",
+    "family": "align-blocks",
+    "variant": 2,
+    "family_seen_in_stage1": true,
+    "instruction": "Use the long ruler on the right to bring all four blocks into one vertical line with their right edges aligned.",
+    "variation_zh": "纵向直尺；四个积木；目标方向改变。",
+    "image": "images/scene_02.png",
+    "image_sha256": "cfc24c89028df1e6f73c5f7b4e81e55b4ba78d244f4cc9394560e1ab62eaab6d",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          490,
+          70,
+          516,
+          414
+        ],
+        "color": "#8c969e",
+        "role": "straightedge"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          100,
+          105,
+          148,
+          153
+        ],
+        "color": "#55a77a",
+        "role": "block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          300,
+          90,
+          348,
+          138
+        ],
+        "color": "#edc35b",
+        "role": "block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          170,
+          270,
+          218,
+          318
+        ],
+        "color": "#df5858",
+        "role": "block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          340,
+          320,
+          388,
+          368
+        ],
+        "color": "#548fd4",
+        "role": "block"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_03",
+    "family": "cover-blocks",
+    "variant": 1,
+    "family_seen_in_stage1": true,
+    "instruction": "Put the green and yellow blocks over the outlines with the same colors, covering each outline.",
+    "variation_zh": "两种颜色、交叉配对的目标位置。",
+    "image": "images/scene_03.png",
+    "image_sha256": "87341225f044b4a03c2bb36596416cf0aa19f700bf7f76eaab583a5666282e7e",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          145,
+          90,
+          203,
+          148
+        ],
+        "color": "#55a77a",
+        "role": "loose block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          410,
+          310,
+          468,
+          368
+        ],
+        "color": null,
+        "role": "colored footprint"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          410,
+          120,
+          468,
+          178
+        ],
+        "color": "#edc35b",
+        "role": "loose block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          145,
+          310,
+          203,
+          368
+        ],
+        "color": null,
+        "role": "colored footprint"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_04",
+    "family": "cover-blocks",
+    "variant": 2,
+    "family_seen_in_stage1": true,
+    "instruction": "Cover the three colored square outlines with the matching red, blue, and green blocks.",
+    "variation_zh": "三个目标；颜色对应位置改变。",
+    "image": "images/scene_04.png",
+    "image_sha256": "ff1459e840ab047db4e6c954a67d6c971b5ed4ca930c6f90b9acfe6e132bdf35",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          85,
+          90,
+          143,
+          148
+        ],
+        "color": "#df5858",
+        "role": "loose block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          485,
+          310,
+          543,
+          368
+        ],
+        "color": null,
+        "role": "colored footprint"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          285,
+          120,
+          343,
+          178
+        ],
+        "color": "#548fd4",
+        "role": "loose block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          285,
+          310,
+          343,
+          368
+        ],
+        "color": null,
+        "role": "colored footprint"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          485,
+          90,
+          543,
+          148
+        ],
+        "color": "#55a77a",
+        "role": "loose block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          85,
+          310,
+          143,
+          368
+        ],
+        "color": null,
+        "role": "colored footprint"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_05",
+    "family": "deposit-coin",
+    "variant": 1,
+    "family_seen_in_stage1": true,
+    "instruction": "Take the gold coin from the lower left and put it through the narrow slot on the gray box.",
+    "variation_zh": "硬币与接收槽的相对位置改变。",
+    "image": "images/scene_05.png",
+    "image_sha256": "6e76b974ef9a254a5d3f03123e0d5686448f4a1bbe716750b9cabc4d265b0563",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "ellipse",
+        "bbox": [
+          130,
+          240,
+          201,
+          274
+        ],
+        "color": "#edc35b",
+        "role": "gold coin"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          390,
+          95,
+          550,
+          240
+        ],
+        "color": "#b2bbc6",
+        "role": "coin receiver"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          420,
+          152,
+          520,
+          162
+        ],
+        "color": "#202733",
+        "role": "receiving slot"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_06",
+    "family": "deposit-coin",
+    "variant": 2,
+    "family_seen_in_stage1": true,
+    "instruction": "Insert only the gold coin into the slot in the gray box; leave the silver coin where it is.",
+    "variation_zh": "新增银色硬币干扰；限定选择金色硬币。",
+    "image": "images/scene_06.png",
+    "image_sha256": "1835185a90348b6a7ce5e8fb95169c797c399121e9ce969e39942a09dcbce56b",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "ellipse",
+        "bbox": [
+          140,
+          110,
+          200,
+          142
+        ],
+        "color": "#c4c9cf",
+        "role": "silver distractor coin"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          390,
+          130,
+          454,
+          164
+        ],
+        "color": "#edc35b",
+        "role": "gold target coin"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          225,
+          280,
+          405,
+          400
+        ],
+        "color": "#aab5c4",
+        "role": "coin receiver"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          270,
+          326,
+          360,
+          336
+        ],
+        "color": "#202733",
+        "role": "receiving slot"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_07",
+    "family": "classify-objects",
+    "variant": 1,
+    "family_seen_in_stage1": true,
+    "instruction": "Sort the loose objects into the two empty baskets by shape: cubes together and balls together. Choose either basket for either group.",
+    "variation_zh": "同类别具有不同颜色；按形状分类，篮子归属自由。",
+    "image": "images/scene_07.png",
+    "image_sha256": "ee3c59c029115ca4b2eaa2d72c7364fe6017946832355ad323c7bb5b7bfebaf0",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          55,
+          55,
+          260,
+          185
+        ],
+        "color": "#f2eee5",
+        "role": "empty basket"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          375,
+          55,
+          580,
+          185
+        ],
+        "color": "#f2eee5",
+        "role": "empty basket"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          90,
+          270,
+          142,
+          322
+        ],
+        "color": "#df5858",
+        "role": "cube"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          345,
+          300,
+          397,
+          352
+        ],
+        "color": "#548fd4",
+        "role": "cube"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          220,
+          330,
+          272,
+          382
+        ],
+        "color": "#edc35b",
+        "role": "ball"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          500,
+          255,
+          552,
+          307
+        ],
+        "color": "#55a77a",
+        "role": "ball"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_08",
+    "family": "classify-objects",
+    "variant": 2,
+    "family_seen_in_stage1": true,
+    "instruction": "Separate the triangular pieces from the rectangular pieces, collecting each shape category in its own basket. The basket assignment is up to you.",
+    "variation_zh": "类别改成三角形与长方形；无需按语言指定篮子。",
+    "image": "images/scene_08.png",
+    "image_sha256": "a259ac96996ff3abd9d3fcc111e4327c36652bdbeac18fac7b3c0d6e9594ff86",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          55,
+          55,
+          260,
+          185
+        ],
+        "color": "#f2eee5",
+        "role": "empty basket"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          375,
+          55,
+          580,
+          185
+        ],
+        "color": "#f2eee5",
+        "role": "empty basket"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            80,
+            340
+          ],
+          [
+            110,
+            285
+          ],
+          [
+            140,
+            340
+          ]
+        ],
+        "color": "#edc35b",
+        "role": "triangle"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            355,
+            365
+          ],
+          [
+            385,
+            310
+          ],
+          [
+            415,
+            365
+          ]
+        ],
+        "color": "#55a77a",
+        "role": "triangle"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          230,
+          260,
+          295,
+          295
+        ],
+        "color": "#548fd4",
+        "role": "rectangular block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          500,
+          340,
+          565,
+          375
+        ],
+        "color": "#df5858",
+        "role": "rectangular block"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_09",
+    "family": "general-pickup",
+    "variant": 1,
+    "family_seen_in_stage1": true,
+    "instruction": "Grasp the green cube at the upper right and lift it clear of the table, leaving the other objects untouched.",
+    "variation_zh": "目标改为绿色；增加两个不同类型干扰物。",
+    "image": "images/scene_09.png",
+    "image_sha256": "17b1d4599f7dafc01d9ab91d65d5f61689cadc8c9409b49e14ebe8cfab875244",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          390,
+          120,
+          455,
+          185
+        ],
+        "color": "#55a77a",
+        "role": "target block"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          125,
+          270,
+          195,
+          340
+        ],
+        "color": "#df5858",
+        "role": "distractor block"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          285,
+          300,
+          340,
+          355
+        ],
+        "color": "#548fd4",
+        "role": "distractor ball"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_10",
+    "family": "general-pickup",
+    "variant": 2,
+    "family_seen_in_stage1": true,
+    "instruction": "Lift the blue cylinder from the table. Do not move the red cylinder or the yellow cube.",
+    "variation_zh": "目标改为蓝色圆柱；同形状异色干扰。",
+    "image": "images/scene_10.png",
+    "image_sha256": "5800c4ef34192b927ef34512faeb2187dd7afd231f36913c8e66d0ad93f4511d",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          130,
+          160,
+          200,
+          250
+        ],
+        "color": "#548fd4",
+        "role": "cylinder side"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          130,
+          140,
+          200,
+          180
+        ],
+        "color": "#548fd4",
+        "role": "cylinder top"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          390,
+          255,
+          460,
+          345
+        ],
+        "color": "#df5858",
+        "role": "cylinder side"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          390,
+          235,
+          460,
+          275
+        ],
+        "color": "#df5858",
+        "role": "cylinder top"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          280,
+          340,
+          335,
+          395
+        ],
+        "color": "#edc35b",
+        "role": "distractor cube"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_11",
+    "family": "arrange-largest-number-random",
+    "variant": 1,
+    "family_seen_in_stage1": false,
+    "instruction": "Arrange all three digit tiles in the empty row to form the largest possible three-digit number.",
+    "variation_zh": "新增数字排序类别；数字3、8、1。",
+    "image": "images/scene_11.png",
+    "image_sha256": "cae0329ca75cc5ae1293b64919fb0d8573d0d845c3747423c8bd508d3ba6f1e8",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          65,
+          95,
+          137,
+          183
+        ],
+        "color": "#faf5e7",
+        "role": "digit tile"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          210,
+          160,
+          282,
+          248
+        ],
+        "color": "#faf5e7",
+        "role": "digit tile"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          355,
+          95,
+          427,
+          183
+        ],
+        "color": "#faf5e7",
+        "role": "digit tile"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          90,
+          340,
+          164,
+          425
+        ],
+        "color": null,
+        "role": "empty row position"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          205,
+          340,
+          279,
+          425
+        ],
+        "color": null,
+        "role": "empty row position"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          320,
+          340,
+          394,
+          425
+        ],
+        "color": null,
+        "role": "empty row position"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_12",
+    "family": "arrange-largest-number-random",
+    "variant": 2,
+    "family_seen_in_stage1": false,
+    "instruction": "Use all four loose digit tiles, including zero, to form the greatest possible four-digit number along the empty row.",
+    "variation_zh": "四位数字，含0；不得省略数字。",
+    "image": "images/scene_12.png",
+    "image_sha256": "28e49028b36049d3a2b39af85cfb6ffb0e59cc729a37c23cfb273c4d0058e61b",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          65,
+          95,
+          137,
+          183
+        ],
+        "color": "#faf5e7",
+        "role": "digit tile"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          195,
+          160,
+          267,
+          248
+        ],
+        "color": "#faf5e7",
+        "role": "digit tile"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          325,
+          95,
+          397,
+          183
+        ],
+        "color": "#faf5e7",
+        "role": "digit tile"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          455,
+          160,
+          527,
+          248
+        ],
+        "color": "#faf5e7",
+        "role": "digit tile"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          90,
+          340,
+          164,
+          425
+        ],
+        "color": null,
+        "role": "empty row position"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          205,
+          340,
+          279,
+          425
+        ],
+        "color": null,
+        "role": "empty row position"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          320,
+          340,
+          394,
+          425
+        ],
+        "color": null,
+        "role": "empty row position"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          435,
+          340,
+          509,
+          425
+        ],
+        "color": null,
+        "role": "empty row position"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_13",
+    "family": "insert-key",
+    "variant": 1,
+    "family_seen_in_stage1": false,
+    "instruction": "Pick up the brass key, align its tip with the padlock keyhole, and insert it.",
+    "variation_zh": "新增钥匙与锁孔类别。",
+    "image": "images/scene_13.png",
+    "image_sha256": "a6d30dde7187c416740bb8db93de15e945458d1e7ff5a8843fbaa0a5eb919ce4",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "ellipse",
+        "bbox": [
+          100,
+          145,
+          165,
+          210
+        ],
+        "color": "#edc35b",
+        "role": "key bow"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          118,
+          163,
+          147,
+          192
+        ],
+        "color": "#e7dfce",
+        "role": "key bow hole"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          155,
+          170,
+          245,
+          187
+        ],
+        "color": "#edc35b",
+        "role": "key shaft"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          203,
+          185,
+          218,
+          203
+        ],
+        "color": "#edc35b",
+        "role": "key tooth"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          230,
+          185,
+          245,
+          198
+        ],
+        "color": "#edc35b",
+        "role": "key tooth"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          430,
+          165,
+          500,
+          260
+        ],
+        "color": null,
+        "role": "lock shackle"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          410,
+          220,
+          520,
+          335
+        ],
+        "color": "#a2aebb",
+        "role": "lock body"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          454,
+          255,
+          476,
+          277
+        ],
+        "color": "#202733",
+        "role": "keyhole top"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          461,
+          270,
+          469,
+          296
+        ],
+        "color": "#202733",
+        "role": "keyhole bottom"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_14",
+    "family": "insert-key",
+    "variant": 2,
+    "family_seen_in_stage1": false,
+    "instruction": "Insert the key with the red circular head into the padlock at the upper left. Leave the blue block alone.",
+    "variation_zh": "钥匙位置、外观改变；新增积木干扰。",
+    "image": "images/scene_14.png",
+    "image_sha256": "655455db130552a1f630510e406adbd027be83cba7574cac4d22f9dffa1791cd",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "ellipse",
+        "bbox": [
+          345,
+          285,
+          410,
+          350
+        ],
+        "color": "#df5858",
+        "role": "key bow"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          363,
+          303,
+          392,
+          332
+        ],
+        "color": "#e7dfce",
+        "role": "key bow hole"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          400,
+          310,
+          490,
+          327
+        ],
+        "color": "#edc35b",
+        "role": "key shaft"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          448,
+          325,
+          463,
+          343
+        ],
+        "color": "#edc35b",
+        "role": "key tooth"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          475,
+          325,
+          490,
+          338
+        ],
+        "color": "#edc35b",
+        "role": "key tooth"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          155,
+          45,
+          225,
+          140
+        ],
+        "color": null,
+        "role": "lock shackle"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          135,
+          100,
+          245,
+          215
+        ],
+        "color": "#a2aebb",
+        "role": "lock body"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          179,
+          135,
+          201,
+          157
+        ],
+        "color": "#202733",
+        "role": "keyhole top"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          186,
+          150,
+          194,
+          176
+        ],
+        "color": "#202733",
+        "role": "keyhole bottom"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          440,
+          90,
+          492,
+          142
+        ],
+        "color": "#548fd4",
+        "role": "irrelevant block"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_15",
+    "family": "insert-tubes",
+    "variant": 1,
+    "family_seen_in_stage1": false,
+    "instruction": "Insert each colored tube into the rack socket with the same colored rim.",
+    "variation_zh": "新增管件入孔类别；三个颜色配对。",
+    "image": "images/scene_15.png",
+    "image_sha256": "564a684ffadc8b3bb94a62a06989ccddcc3adbde7543226c2d85eb186f91d839",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          80,
+          285,
+          565,
+          410
+        ],
+        "color": "#aebbc4",
+        "role": "tube rack"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          105,
+          100,
+          149,
+          210
+        ],
+        "color": "#df5858",
+        "role": "tube side"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          105,
+          85,
+          149,
+          115
+        ],
+        "color": "#df5858",
+        "role": "hollow tube rim"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          114,
+          92,
+          140,
+          108
+        ],
+        "color": "#293a49",
+        "role": "tube opening"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          170,
+          322,
+          214,
+          352
+        ],
+        "color": "#273341",
+        "role": "rack socket"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          275,
+          100,
+          319,
+          210
+        ],
+        "color": "#55a77a",
+        "role": "tube side"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          275,
+          85,
+          319,
+          115
+        ],
+        "color": "#55a77a",
+        "role": "hollow tube rim"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          284,
+          92,
+          310,
+          108
+        ],
+        "color": "#293a49",
+        "role": "tube opening"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          305,
+          322,
+          349,
+          352
+        ],
+        "color": "#273341",
+        "role": "rack socket"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          445,
+          100,
+          489,
+          210
+        ],
+        "color": "#548fd4",
+        "role": "tube side"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          445,
+          85,
+          489,
+          115
+        ],
+        "color": "#548fd4",
+        "role": "hollow tube rim"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          454,
+          92,
+          480,
+          108
+        ],
+        "color": "#293a49",
+        "role": "tube opening"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          440,
+          322,
+          484,
+          352
+        ],
+        "color": "#273341",
+        "role": "rack socket"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_16",
+    "family": "insert-tubes",
+    "variant": 2,
+    "family_seen_in_stage1": false,
+    "instruction": "Place the narrow yellow tube in the small rack socket and the wide blue tube in the large socket.",
+    "variation_zh": "两个不同直径管件；按尺寸及颜色匹配。",
+    "image": "images/scene_16.png",
+    "image_sha256": "6d028f1eb727289ffc45717e2343821d3425338f6af7a290819f8564ca0f53f1",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          80,
+          285,
+          565,
+          410
+        ],
+        "color": "#aebbc4",
+        "role": "tube rack"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          105,
+          100,
+          143,
+          210
+        ],
+        "color": "#edc35b",
+        "role": "tube side"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          105,
+          85,
+          143,
+          115
+        ],
+        "color": "#edc35b",
+        "role": "hollow tube rim"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          114,
+          92,
+          134,
+          108
+        ],
+        "color": "#293a49",
+        "role": "tube opening"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          170,
+          322,
+          208,
+          352
+        ],
+        "color": "#273341",
+        "role": "rack socket"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          275,
+          100,
+          341,
+          210
+        ],
+        "color": "#548fd4",
+        "role": "tube side"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          275,
+          85,
+          341,
+          115
+        ],
+        "color": "#548fd4",
+        "role": "hollow tube rim"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          284,
+          92,
+          332,
+          108
+        ],
+        "color": "#293a49",
+        "role": "tube opening"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          305,
+          322,
+          371,
+          352
+        ],
+        "color": "#273341",
+        "role": "rack socket"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_17",
+    "family": "press-by-number",
+    "variant": 1,
+    "family_seen_in_stage1": false,
+    "instruction": "Press the blue button exactly as many times as the number on the display indicates.",
+    "variation_zh": "新增按数字计数按压类别；显示2。",
+    "image": "images/scene_17.png",
+    "image_sha256": "c7b623cf808149af901db13aa1e99fc2621990d1af5088ce1a9e1bd18a4259c5",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          110,
+          80,
+          530,
+          405
+        ],
+        "color": "#aebac6",
+        "role": "button panel"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          245,
+          115,
+          395,
+          190
+        ],
+        "color": "#e7f1e7",
+        "role": "count display"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          260,
+          240,
+          380,
+          360
+        ],
+        "color": "#548fd4",
+        "role": "target button"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_18",
+    "family": "press-by-number",
+    "variant": 2,
+    "family_seen_in_stage1": false,
+    "instruction": "Read the displayed count and press the green button that many times, then stop.",
+    "variation_zh": "显示4；按钮颜色与指令表达改变。",
+    "image": "images/scene_18.png",
+    "image_sha256": "6e8826bbf7126c7d1ad9d53a1f7c5e08e912a0f8fc89bed7efe9af6cb34eab06",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "rectangle",
+        "bbox": [
+          110,
+          80,
+          530,
+          405
+        ],
+        "color": "#aebac6",
+        "role": "button panel"
+      },
+      {
+        "shape": "rectangle",
+        "bbox": [
+          245,
+          115,
+          395,
+          190
+        ],
+        "color": "#e7f1e7",
+        "role": "count display"
+      },
+      {
+        "shape": "ellipse",
+        "bbox": [
+          260,
+          240,
+          380,
+          360
+        ],
+        "color": "#55a77a",
+        "role": "target button"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_19",
+    "family": "push-t",
+    "variant": 1,
+    "family_seen_in_stage1": false,
+    "instruction": "Push the red T-shaped piece across the tabletop until it fits the green T-shaped outline; do not lift it.",
+    "variation_zh": "新增平面推T类别；目标位于右下。",
+    "image": "images/scene_19.png",
+    "image_sha256": "795aaef8378cd94db58489ce4a5cf2ddf00d3a189aa8cef4a492301dd29e635a",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            95,
+            115
+          ],
+          [
+            225,
+            115
+          ],
+          [
+            225,
+            153
+          ],
+          [
+            179,
+            153
+          ],
+          [
+            179,
+            240
+          ],
+          [
+            141,
+            240
+          ],
+          [
+            141,
+            153
+          ],
+          [
+            95,
+            153
+          ]
+        ],
+        "color": "#df5858",
+        "role": "T-shaped block"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            380,
+            265
+          ],
+          [
+            510,
+            265
+          ],
+          [
+            510,
+            303
+          ],
+          [
+            464,
+            303
+          ],
+          [
+            464,
+            390
+          ],
+          [
+            426,
+            390
+          ],
+          [
+            426,
+            303
+          ],
+          [
+            380,
+            303
+          ]
+        ],
+        "color": null,
+        "role": "T-shaped target outline"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  },
+  {
+    "id": "scene_20",
+    "family": "push-t",
+    "variant": 2,
+    "family_seen_in_stage1": false,
+    "instruction": "Slide the blue T-shaped object toward the outlined target in the upper left and align it with that target without picking it up.",
+    "variation_zh": "目标位于左上；推移方向与物体颜色改变。",
+    "image": "images/scene_20.png",
+    "image_sha256": "b50721e94a9429ed2a831ca18d9174fb0b5374a50072a5ddbf46c1b72f2f9030",
+    "image_kind": "programmatic_synthetic_illustration",
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            370,
+            255
+          ],
+          [
+            500,
+            255
+          ],
+          [
+            500,
+            293
+          ],
+          [
+            454,
+            293
+          ],
+          [
+            454,
+            380
+          ],
+          [
+            416,
+            380
+          ],
+          [
+            416,
+            293
+          ],
+          [
+            370,
+            293
+          ]
+        ],
+        "color": "#548fd4",
+        "role": "T-shaped block"
+      },
+      {
+        "shape": "polygon",
+        "points": [
+          [
+            105,
+            100
+          ],
+          [
+            235,
+            100
+          ],
+          [
+            235,
+            138
+          ],
+          [
+            189,
+            138
+          ],
+          [
+            189,
+            225
+          ],
+          [
+            151,
+            225
+          ],
+          [
+            151,
+            138
+          ],
+          [
+            105,
+            138
+          ]
+        ],
+        "color": null,
+        "role": "T-shaped target outline"
+      }
+    ],
+    "pose_scope": "Zero joint states; no camera calibration, depth, dynamics, or reachability validation."
+  }
+]

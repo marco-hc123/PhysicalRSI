@@ -1,0 +1,112 @@
+[
+  {
+    "suite": "registry_22_operations",
+    "task": "align",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 67.52714907309225,
+    "input_tokens_saved": 18468,
+    "total_tokens_reduction_pct": 67.03448275862068,
+    "total_tokens_saved": 18468,
+    "elapsed_seconds_reduction_pct": 14.004465773021293,
+    "elapsed_seconds_saved": 1.6355562005192041
+  },
+  {
+    "suite": "registry_22_operations",
+    "task": "coin",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 67.53208761472922,
+    "input_tokens_saved": 18468,
+    "total_tokens_reduction_pct": 66.37893515160307,
+    "total_tokens_saved": 18302,
+    "elapsed_seconds_reduction_pct": -8.499946221446429,
+    "elapsed_seconds_saved": -1.1365678515285254
+  },
+  {
+    "suite": "registry_22_operations",
+    "task": "classify",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 67.50740212742625,
+    "input_tokens_saved": 18468,
+    "total_tokens_reduction_pct": 67.12840410487,
+    "total_tokens_saved": 18512,
+    "elapsed_seconds_reduction_pct": 50.2758344878432,
+    "elapsed_seconds_saved": 8.614316994324327
+  },
+  {
+    "suite": "example_2_compositions",
+    "task": "classify",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 30.204732783834086,
+    "input_tokens_saved": 1136,
+    "total_tokens_reduction_pct": 28.5570385293377,
+    "total_tokens_saved": 1134,
+    "elapsed_seconds_reduction_pct": 12.832794253364257,
+    "elapsed_seconds_saved": 1.198402849957347
+  },
+  {
+    "suite": "registry_22_operations",
+    "task": "cover",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 67.53702687877126,
+    "input_tokens_saved": 18468,
+    "total_tokens_reduction_pct": 66.95790885690461,
+    "total_tokens_saved": 18469,
+    "elapsed_seconds_reduction_pct": 43.01373004040802,
+    "elapsed_seconds_saved": 7.624807424843311
+  },
+  {
+    "suite": "example_2_compositions",
+    "task": "pickup",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 30.31758740325594,
+    "input_tokens_saved": 1136,
+    "total_tokens_reduction_pct": 29.197265130412763,
+    "total_tokens_saved": 1153,
+    "elapsed_seconds_reduction_pct": 19.847571673027534,
+    "elapsed_seconds_saved": 1.716758543625474
+  },
+  {
+    "suite": "example_2_compositions",
+    "task": "cover",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 30.301413710322752,
+    "input_tokens_saved": 1136,
+    "total_tokens_reduction_pct": 29.366073665747933,
+    "total_tokens_saved": 1172,
+    "elapsed_seconds_reduction_pct": 9.847570494889078,
+    "elapsed_seconds_saved": 1.0369022823870182
+  },
+  {
+    "suite": "registry_22_operations",
+    "task": "pickup",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 67.54196686537688,
+    "input_tokens_saved": 18468,
+    "total_tokens_reduction_pct": 66.7075635103926,
+    "total_tokens_saved": 18486,
+    "elapsed_seconds_reduction_pct": 19.022330434399322,
+    "elapsed_seconds_saved": 3.262570584192872
+  },
+  {
+    "suite": "example_2_compositions",
+    "task": "align",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 30.26911803890221,
+    "input_tokens_saved": 1136,
+    "total_tokens_reduction_pct": 28.694550063371356,
+    "total_tokens_saved": 1132,
+    "elapsed_seconds_reduction_pct": -23.58391853907749,
+    "elapsed_seconds_saved": -1.7414708081632853
+  },
+  {
+    "suite": "example_2_compositions",
+    "task": "coin",
+    "repeat": 0,
+    "input_tokens_reduction_pct": 30.285257264729406,
+    "input_tokens_saved": 1136,
+    "total_tokens_reduction_pct": 28.424227192762,
+    "total_tokens_saved": 1131,
+    "elapsed_seconds_reduction_pct": 9.241964946817737,
+    "elapsed_seconds_saved": 0.83157311193645
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "schema": "physicalrsi.reproduction-protocol/v1",
+  "registered_utc": "2026-10-29T13:29:46.614729+00:00",
+  "primary_tasks": [
+    "classify_objects",
+    "classify_objects_by_language"
+  ],
+  "model_api_profile_sha256": "e0bcaf5f5071ec72e512d6ccede0cc210e05dddb056d7537ff4da72bb89efba9",
+  "seed": 0,
+  "control_dt_seconds": 0.04,
+  "physics_dt_seconds": 0.004,
+  "collect_interval": 10,
+  "step_limit": 1100,
+  "maximum_transport_attempts": 3,
+  "output_contract": "Original baseline; no response repair or silent typing-adapter substitution",
+  "system1_reference": {
+    "routes": [
+      "pi05",
+      "pi05-sparse-memory",
+      "code-policy",
+      "Agent"
+    ],
+    "layouts_per_task": 5,
+    "repetitions": 1,
+    "registered_evaluations": 40
+  },
+  "system2": {
+    "scheme": "hybrid",
+    "initial_parent": "Pinned official workflow seed, not a relabelled released code skill",
+    "task": "classify_objects",
+    "maximum_rounds": 2,
+    "maximum_candidates_per_round": 1,
+    "development_episodes": 5,
+    "validation_episodes": 5,
+    "minimum_vla_score": 0.6,
+    "minimum_gain": 0.0,
+    "maximum_regression": 0.0,
+    "tie_tolerance": 1e-10,
+    "maximum_full_native_evaluations": 50,
+    "provenance": "Study-specific preregistration values; not asserted to be historical official hyperparameters",
+    "routing_threshold": "Development mean native partial score; not a task-success definition",
+    "selection": "Use the pinned selector; equal candidates retain parent; no forced promotion",
+    "qualification": "Routing-only/no admitted changed candidate does not establish model-generated code repair or an improvement effect"
+  },
+  "authorization": {
+    "active_step": 1,
+    "new_api_calls": false,
+    "new_native_rollouts": false,
+    "later_steps": "Recorded in order, not dispatched by this instruction"
+  },
+  "amendment": "Frozen artifacts are immutable after completion; any supported-runtime change requires a new protocol revision before execution",
+  "exclusions": [
+    "Run project A",
+    "Full RoboDojo leaderboard",
+    "Retrain VLA from scratch",
+    "Unrequested raw-data migration"
+  ],
+  "raw_retention": "cloud_only"
+}

@@ -1,0 +1,3 @@
+﻿method,cost_attempts,native_completed,successes,incomplete,success_over_scored,success_over_attempts,input_tokens,cached_input_tokens,output_tokens,reasoning_output_tokens,total_tokens,uncached_input_plus_output,cached_share_of_input,reasoning_share_of_output
+mix,50,50,24,0,0.48,0.48,623457803,607555840,1305025,380541,624762828,17206988,0.9744939225662398,0.2915967127066531
+gpt,50,48,13,2,0.2708333333333333,0.26,1130257208,1107349760,2086564,873464,1132343772,24994012,0.9797325353575627,0.41861356756850016

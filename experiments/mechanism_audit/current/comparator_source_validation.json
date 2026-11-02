@@ -1,0 +1,185 @@
+{
+  "recorded_at_utc": "2026-10-27T06:59:51.074900+00:00",
+  "repository": "https://github.com/anonymous-report-421/GPT-as-Policy",
+  "commit": "8f3d362b077d8efb77e2a7274d5b2c20e2243846",
+  "original_retrieved_date": "2026-10-11",
+  "fresh_download": false,
+  "note": "Revalidated locally archived public sources on server; upstream latest version not queried in Stage 2.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "f66893b8bc9c42d5d765c1ce9b1f7069dc669df8c626de04f7a502b0ace2ea2e",
+      "bytes": 1085,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "aa0805d107e668aa25514bd218aa197bd93c7ce3fbb99b7ad91127cc36425d5f",
+      "bytes": 8095,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/report_site/build.py",
+      "sha256": "f2a83e43065ae7c194bf0ff844553c0603dd6b4d8794f06e15119cba595cf408",
+      "bytes": 20885,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/acp.py",
+      "sha256": "d997c0248c1d67c020a2a72c01ae3cd21a3236f14a2d7be977db3f4ec467dfe5",
+      "bytes": 17127,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/codex_backend/profiles.py",
+      "sha256": "956c498f3111b65de4ac1d3f915381ee8b61a6201fc3db3965479e9ddf3081da",
+      "bytes": 13282,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/context_migration.py",
+      "sha256": "5043b6352ee524e34aa472af4abe48d75bfb5cccfb4888b1ada63c54f8561aa0",
+      "bytes": 10225,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/prompt_context.py",
+      "sha256": "85414b8abe770138c22d53de10a2a7b5967124ce96814db795a38e13dcbaf95d",
+      "bytes": 1527,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo-gpt-only-rollout/SKILL.md",
+      "sha256": "999513d63e474e20e9523523b774ce970efbe91f9d41465f9eca0a1d72d1f2eb",
+      "bytes": 4184,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/client.py",
+      "sha256": "b0f3d490f7cbd736204f5c1b4198cec29ac4e3884fa33901b82543b88800b7b8",
+      "bytes": 19274,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/decision_log.py",
+      "sha256": "01e8826f3ebde70f1b2fe83312517a12620168464accf05f964bb2f1e5cc3cc4",
+      "bytes": 4083,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/gpt_only_client.py",
+      "sha256": "11484ca34bb27c073dc2f10aa2336d37ff64738c9049a3d9c6e86ed600b122d3",
+      "bytes": 8949,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/protocol.py",
+      "sha256": "815c2ee8b6a5086825b057ddeff3261c37411eabd6a2a5541e297307cf3c4942",
+      "bytes": 3663,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/robodojo_server/validation.py",
+      "sha256": "487dd38ece545d962c8dd96df207fce65e2ec31715a5c3e2a51f406da772e079",
+      "bytes": 3211,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/run_local.sh",
+      "sha256": "8b1aa26f6da2278bf084946c3b8ea35bcf7f88edf97be8e30eab53d0d52c1820",
+      "bytes": 9730,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/settings.py",
+      "sha256": "9c2d71a8e2429902b4dbe0e68b337a4d222c68e91136609b0ab0e348bcda2185",
+      "bytes": 410,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/SKILL.md",
+      "sha256": "4314afdd4439f3f7b38da4d98561c6acab5c85459a9659400be10dc843331ff5",
+      "bytes": 6257,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/image_preview.py",
+      "sha256": "32cc6e609d018b252a56ea105d12fab6837acc1e78111e127b55d27c9b17fb13",
+      "bytes": 1726,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/network_recovery.py",
+      "sha256": "6d24136460ea6a6054c0ecf05eb8c47cbe4ac21283416640e59ee9a77f0d18b1",
+      "bytes": 1309,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/run.py",
+      "sha256": "807ee734702943f242680c0627ffc91232657dac0e81293c69102202de8d72c0",
+      "bytes": 27220,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/schema.py",
+      "sha256": "1a1c673366d480a0a08709f337457dc9d92f7a1c9d9efca1fc8e61126d851a55",
+      "bytes": 2182,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/transport.py",
+      "sha256": "29be5ecc930e8f3f1356138f46dbb13757490a1f3fe705aa618ab0b034cad839",
+      "bytes": 5511,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/hybrid_rollout/robodojo/skill/workspace.py",
+      "sha256": "cabfd886c79188eeb77d23b0f6bd8cebccb7cef158bb0ec4e5ab98c806f3c88a",
+      "bytes": 3796,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/public_results/data.json",
+      "sha256": "0c4be006a2a0dc1ca2559e4421c45680eec94d466f390ea34b2ea055af9bd74e",
+      "bytes": 277423,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "source/public_results/provenance.json",
+      "sha256": "d8b4550e5225cfcf5c1ede083b0955a8520d42dcaa858d1231e7695ba4d04d8f",
+      "bytes": 1383,
+      "git_blob_verified": true,
+      "release_verified": true
+    },
+    {
+      "path": "release-manifest.json",
+      "sha256": "bb46985a929a227049fdb6a657e4e747406d6c65b6ce5a8f6aeb1fb0ecd2f511",
+      "bytes": 160128,
+      "git_blob_verified": true,
+      "release_verified": false
+    }
+  ]
+}

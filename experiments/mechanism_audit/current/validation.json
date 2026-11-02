@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-10-27T06:59:51.074900+00:00",
+  "stage": "code_and_call_mechanism_audit",
+  "physicalrsi_commit": "90b322a3a362aad14125f36d8ed080ca31daaea6",
+  "upstream_tracked_tree_clean": true,
+  "offline_prompt_cases": 12,
+  "selected_official_tests_passed": 13,
+  "transport_probe_cases": 5,
+  "comparator_source_files_verified": 25,
+  "public_episodes_reaggregated": 100,
+  "public_aggregate_reconciled": true,
+  "source_anchors": 31,
+  "html_local_links_valid": true,
+  "svg_xml_valid": true,
+  "real_model_api_calls": 0,
+  "gpu_jobs_started": 0,
+  "native_robot_episodes": 0,
+  "model_weights_loaded": 0,
+  "other_server_model_environments_used": 0,
+  "note": "Checks prove software contracts, source consistency and summary arithmetic only; no native task success or API cost measured."
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "system1_reference_matrix.csv",
+    "sha256": "21ab64abfa31b342e7a5f1bf15fbfbce6c10cb4ab9a115e4bea6110d1ad85b87",
+    "source_kind": "Existing completed-stage report table; copied without rerunning experiments.",
+    "source_report_date": "2026-11-01",
+    "source_file_name": "system1_reference_matrix.csv"
+  },
+  {
+    "file": "system2_rounds.csv",
+    "sha256": "5161539ae54909fd56df33aaa3f119a0bef2e454481b96b54c37967085cf6184",
+    "source_kind": "Existing completed-stage report table; copied without rerunning experiments.",
+    "source_report_date": "2026-11-01",
+    "source_file_name": "system2_rounds.csv"
+  },
+  {
+    "file": "independent-final-episodes.csv",
+    "sha256": "c1cd72f47fb586eb66bfbcd9e1e65c55aa3bc210cbfcb8ffc4204fe14674c445",
+    "source_kind": "Existing completed-stage report table; copied without rerunning experiments.",
+    "source_report_date": "2026-11-01",
+    "source_file_name": "independent-final-episodes.csv"
+  },
+  {
+    "file": "catalogue_ablation.csv",
+    "sha256": "fa479f3298c115f9f296af75d16bad0d2634e1ffd0f68b9996519abbdd386fb0",
+    "source_kind": "Existing completed-stage report table; copied without rerunning experiments.",
+    "source_report_date": "2026-11-01",
+    "source_file_name": "catalogue_ablation.csv"
+  },
+  {
+    "file": "api120-raw-recomputed.json",
+    "sha256": "9874143b1093be870fff557548b20b36e61910ffc3008737e5631b6b5013ff47",
+    "source_kind": "Existing completed-stage report table; copied without rerunning experiments.",
+    "source_report_date": "2026-11-01",
+    "source_file_name": "api120-raw-recomputed.json"
+  },
+  {
+    "file": "targeted-timing-pairs.csv",
+    "sha256": "bc42a95c821025f2d9074f9935216fa1818ef829b2bbf1ec6029aa538d836313",
+    "source_kind": "Existing completed-stage report table; copied without rerunning experiments.",
+    "source_report_date": "2026-11-01",
+    "source_file_name": "targeted-timing-pairs.csv"
+  },
+  {
+    "file": "unknowns-and-evidence-gaps.csv",
+    "sha256": "5af0146202441751a3bf6870ea3415be0c082caa1dff869ceb08d99f762315b9",
+    "source_kind": "Existing completed-stage report table; copied without rerunning experiments.",
+    "source_report_date": "2026-11-01",
+    "source_file_name": "unknowns-and-evidence-gaps.csv"
+  }
+]

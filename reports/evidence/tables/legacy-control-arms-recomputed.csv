@@ -1,0 +1,5 @@
+﻿arm,n,success,success_fraction,mean_scripted_planner_calls,mean_local_feedback_updates,scope
+every_four_steps_feedback,128,110,0.859375,2.53125,0,"Handwritten CPU counter surrogate, 4 disturbance families x32 seeds; not robot/API"
+every_step_feedback,128,128,1.0,8.765625,0,"Handwritten CPU counter surrogate, 4 disturbance families x32 seeds; not robot/API"
+one_closed_loop_skill,128,128,1.0,1,8.765625,"Handwritten CPU counter surrogate, 4 disturbance families x32 seeds; not robot/API"
+one_open_loop_program,128,50,0.390625,1,0,"Handwritten CPU counter surrogate, 4 disturbance families x32 seeds; not robot/API"
