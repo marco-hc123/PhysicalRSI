@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-05T05:25:28.583893+00:00",
+  "check": {
+    "ready": false,
+    "error": "No module named 'step4_native_primitives_v3'",
+    "physical_qualification": false
+  },
+  "elapsed_s": 13.262643358999412,
+  "client_files_all_pinned": true,
+  "runtime_identity_unchanged": true
+}

@@ -1,0 +1,47 @@
+{
+  "state": "paused_by_user_at_archive_review_boundary",
+  "utc": "2026-11-05T07:40:26.871110+00:00",
+  "reason": "User will disconnect local network; preserve completed experiments and verified staging.",
+  "cloud": {
+    "native_state": "diagnostic_matrix_completed",
+    "valid_cases": 35,
+    "native_controller_pid": 41504,
+    "native_controller_alive": false,
+    "validated_videos": 105,
+    "gpu": "0 MiB, 0 %",
+    "report_exists": true,
+    "lift_diagnosis_exists": true
+  },
+  "lab": {
+    "stage_exists": true,
+    "final_exists": false,
+    "verified_cohorts": 7,
+    "all_cohorts_verified": true
+  },
+  "cloud_result": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105",
+  "lab_stage": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1.incoming",
+  "lab_final_destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+  "active_native_process": null,
+  "active_local_transfer_process": null,
+  "active_archive_watcher": null,
+  "active_analysis_watcher": null,
+  "new_paid_api_calls": 0,
+  "new_paid_api_cost_usd": 0,
+  "lab_gpu_used": false,
+  "completed": [
+    "All35 native cases finished",
+    "All105 original videos fully decoded and passed",
+    "Seven native cohort copies SHA256 verified in lab staging",
+    "Detailed report/figures and lift-gate diagnosis generated on source server"
+  ],
+  "pending": [
+    "Review updated report and figures, including augmented_3 lift-observation capability mismatch",
+    "Update REPRODUCE.txt to include ordered-trace and lift-gate analysis sequence; do not rerun experiments",
+    "Snapshot latest metadata, transport-recovery evidence and report",
+    "Transfer metadata only; verify global source manifest",
+    "Atomically finalize lab .incoming directory; portable audit; final continuation"
+  ],
+  "resume_instruction": "Inspect this record, actual processes, cohort-archive-status.json and analysis-completion-status.json first. All35 experiments are done: DO NOT rerun the native campaign. Continue final review and metadata archive only.",
+  "instance_power": "Not stopped or released",
+  "temporary_ingress_cleanup": "Previous console permission block; not verified or changed in this pause"
+}

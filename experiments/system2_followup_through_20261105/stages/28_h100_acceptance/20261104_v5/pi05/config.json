@@ -1,0 +1,10 @@
+{
+  "task_name": "classify_objects",
+  "action_type": "joint",
+  "env_cfg_type": "arx_x5",
+  "model_path": "/mnt/data/joey_tr/physical-RSI/models/recorded_policy_assets/skill-assets/checkpoints/pi05",
+  "repo_id": "arx_x5_sim",
+  "train_config_name": "pi05_base_aloha_full_sim_arx-x5_seed_0",
+  "require_gpu": true,
+  "seed": 0
+}

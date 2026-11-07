@@ -1,0 +1,10 @@
+Pause checkpoint, 2026-11-04
+No owned compute/API processes remain. Resume only on explicit user instruction.
+Completed: GPU basic acceptance (v4); 24 historical planning calls (v5); pi05 3 synthetic-input inferences (v5); six paired API generations (29.../v1).
+The 24 planner outcomes reproduce the archived pattern: layout1 20cm lift 0/3; 15/10/5cm variants each 3/3; layouts3/4 left 0/3 and right 3/3. Other-arm comparison also changes quaternion. Planning success is not grasp/task success.
+pi05 emits 50-step chunks with left/right arm 6 and gripper 1 dimensions per step; all finite, reset verified. This is synthetic-input runtime acceptance.
+Earlier failed v1-v3 CUDA startup attempts were in the new test confinement setup. v4 then passed CUDA but its copied-YAML relative asset resolution and list-of-dicts output verifier failed. v5 corrects those harness issues. Preserve all attempts; they are not native task failures.
+Sparse-memory produced an output in v4 but its same verifier failed; corrected sparse acceptance remains pending, not passed.
+API: baseline 3 + augmented 3, GPT-6.1-Sol medium, all parse valid. No new candidate execution or scoring yet. The append-only feedback treatment increases input length; effects cannot be attributed to information alone without a length-matched control.
+See billing-reviewed.json for corrected cache-write accounting; original online ledger estimate omitted the cache-write premium. Reserved whole-batch upper cost 2.447298 USD; usage-based estimate 0.1932249 USD, invoice authoritative.
+Resume: read continuation.json, verify no active jobs, then run ONLY sparse worker in a fresh attempt directory on one idle GPU. Do not rerun 24 planning probes, pi05 acceptance or six API calls. Continue saved candidate audits/CPU fixture evaluations separately. No native RGB simulation, training or new task success claim.

@@ -1,0 +1,115 @@
+{
+  "stage": "completed_and_archived",
+  "updated_utc": "2026-11-05T08:10:08.236175+00:00",
+  "native_episodes": 35,
+  "new_native_valid_cases": 35,
+  "active_controller_pid": null,
+  "native_campaign_controller": {
+    "pid": null,
+    "last_pid": 41504,
+    "state": "exited"
+  },
+  "lab_writes": true,
+  "lab_gpu_used": false,
+  "api_calls": 0,
+  "new_paid_api_calls": 0,
+  "paid_cost_usd": 0,
+  "latest_gpu_observation": "0 MiB, 0 %",
+  "final_lab_archive": {
+    "state": "verified",
+    "utc": "2026-11-05T08:02:10.619983+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+    "manifest_sha256": "e6d9dc68f95e778c227a073f5ead0d0a65c9a39d806d24bccc09ef7e54b0a090",
+    "verified_files": 29299,
+    "logical_bytes": 1663174520,
+    "valid_native_cases": 35,
+    "videos": 105,
+    "new_paid_api_calls": 0,
+    "new_paid_cost_usd": 0,
+    "lab_gpu_used": false
+  },
+  "pending": [],
+  "next_action": "Read the archived report; any one-variable repair or independent-layout campaign is a new preregistered experiment, not started here.",
+  "final_results": {
+    "baseline": {
+      "cases": 15,
+      "successes": 0,
+      "positive_score_cases": 0,
+      "mean_score_100": 0.0,
+      "first_approach_rejections": 12,
+      "accepted_approach_calls": 9,
+      "rejected_approach_calls": 15,
+      "incomplete_approach_calls": 0,
+      "step_limit_cancellations": 0,
+      "post_error_calls": 0
+    },
+    "augmented": {
+      "cases": 15,
+      "successes": 0,
+      "positive_score_cases": 2,
+      "mean_score_100": 2.0,
+      "first_approach_rejections": 0,
+      "accepted_approach_calls": 50,
+      "rejected_approach_calls": 5,
+      "incomplete_approach_calls": 5,
+      "step_limit_cancellations": 5,
+      "post_error_calls": 0
+    }
+  },
+  "reports": {
+    "root": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+    "report": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt",
+    "data": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+    "verification": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/migration/ARCHIVE_VERIFIED.json"
+  },
+  "nonblocking_followups": [
+    "Previous temporary TCP22 ingress rule cleanup was not verified or performed; console access remains blocked in the saved permission record.",
+    "Cloud instance was not powered off or released; no authorization to do so."
+  ],
+  "latest_native_state": {
+    "api_calls": 0,
+    "completed_cases": 35,
+    "elapsed_s": 6591.523740977002,
+    "lab_gpu_used": false,
+    "paid_cost_usd": 0,
+    "pid": 41504,
+    "selection": "pi05 retained; diagnostic comparison only",
+    "state": "diagnostic_matrix_completed",
+    "utc": "2026-11-05T07:33:06.945437+00:00"
+  },
+  "latest_results": {
+    "qualified_cases": 35,
+    "completed_conditions": [
+      "pi05",
+      "baseline_1",
+      "augmented_1",
+      "augmented_2",
+      "baseline_2",
+      "baseline_3",
+      "augmented_3"
+    ],
+    "active_condition": null,
+    "provisional_active_outcomes": 0,
+    "native_errors": []
+  },
+  "archive_progress": {
+    "state": "final_archive_verified",
+    "final_destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+    "archived": [
+      "pi05",
+      "baseline_1",
+      "augmented_1",
+      "augmented_2",
+      "baseline_2",
+      "baseline_3",
+      "augmented_3"
+    ],
+    "active_transfer_pid": null
+  },
+  "analysis_progress": {
+    "state": "completed_and_reviewed",
+    "active_pid": null,
+    "report": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt"
+  }
+}

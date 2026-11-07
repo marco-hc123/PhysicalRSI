@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "/mnt/data/physical-RSI/envs/tools/uv",
+    "venv",
+    "--python",
+    "/mnt/data/physical-RSI/envs/python/cpython-3.11.17-linux-x86_64-gnu/bin/python3.11",
+    "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv"
+  ],
+  "returncode": 0
+}

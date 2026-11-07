@@ -1,0 +1,74 @@
+[
+  {
+    "call": 0,
+    "seconds": 7.370293131098151,
+    "shape": {
+      "left_arm_joint_state": [
+        50,
+        6
+      ],
+      "left_ee_joint_state": [
+        50,
+        1
+      ],
+      "right_arm_joint_state": [
+        50,
+        6
+      ],
+      "right_ee_joint_state": [
+        50,
+        1
+      ]
+    },
+    "all_finite": true,
+    "sparse_masks": null
+  },
+  {
+    "call": 1,
+    "seconds": 0.05674700066447258,
+    "shape": {
+      "left_arm_joint_state": [
+        50,
+        6
+      ],
+      "left_ee_joint_state": [
+        50,
+        1
+      ],
+      "right_arm_joint_state": [
+        50,
+        6
+      ],
+      "right_ee_joint_state": [
+        50,
+        1
+      ]
+    },
+    "all_finite": true,
+    "sparse_masks": null
+  },
+  {
+    "call": 2,
+    "seconds": 0.05358554795384407,
+    "shape": {
+      "left_arm_joint_state": [
+        50,
+        6
+      ],
+      "left_ee_joint_state": [
+        50,
+        1
+      ],
+      "right_arm_joint_state": [
+        50,
+        6
+      ],
+      "right_ee_joint_state": [
+        50,
+        1
+      ]
+    },
+    "all_finite": true,
+    "sparse_masks": null
+  }
+]

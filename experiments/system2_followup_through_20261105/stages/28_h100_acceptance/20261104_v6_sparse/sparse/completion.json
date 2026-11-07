@@ -1,0 +1,164 @@
+{
+  "state": "passed",
+  "started_seconds": 11102935.681774342,
+  "elapsed_seconds": 23.620027085766196,
+  "result": {
+    "loaded_existing_checkpoint": true,
+    "load_seconds": 5.232777887955308,
+    "calls": [
+      {
+        "call": 0,
+        "seconds": 9.694971673190594,
+        "shape": {
+          "left_arm_joint_state": [
+            50,
+            6
+          ],
+          "left_ee_joint_state": [
+            50,
+            1
+          ],
+          "right_arm_joint_state": [
+            50,
+            6
+          ],
+          "right_ee_joint_state": [
+            50,
+            1
+          ]
+        },
+        "all_finite": true,
+        "sparse_masks": {
+          "base_0_rgb": [
+            [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          ]
+        }
+      },
+      {
+        "call": 1,
+        "seconds": 0.1014363169670105,
+        "shape": {
+          "left_arm_joint_state": [
+            50,
+            6
+          ],
+          "left_ee_joint_state": [
+            50,
+            1
+          ],
+          "right_arm_joint_state": [
+            50,
+            6
+          ],
+          "right_ee_joint_state": [
+            50,
+            1
+          ]
+        },
+        "all_finite": true,
+        "sparse_masks": {
+          "base_0_rgb": [
+            [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ]
+          ]
+        }
+      },
+      {
+        "call": 2,
+        "seconds": 0.08601577393710613,
+        "shape": {
+          "left_arm_joint_state": [
+            50,
+            6
+          ],
+          "left_ee_joint_state": [
+            50,
+            1
+          ],
+          "right_arm_joint_state": [
+            50,
+            6
+          ],
+          "right_ee_joint_state": [
+            50,
+            1
+          ]
+        },
+        "all_finite": true,
+        "sparse_masks": {
+          "base_0_rgb": [
+            [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ]
+          ]
+        }
+      }
+    ],
+    "reset_verified": true,
+    "input": "synthetic seed 0 RGB/state; not task observation",
+    "native_episodes": 0,
+    "api_calls": 0
+  },
+  "pid": 4094523,
+  "finished_utc": "2026-11-04T13:14:35.680265+00:00"
+}

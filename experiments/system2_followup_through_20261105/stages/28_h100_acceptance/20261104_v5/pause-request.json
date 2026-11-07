@@ -1,0 +1,25 @@
+{
+  "at": "2026-11-04T12:54:10.329404+00:00",
+  "request": "User requested pause at restartable boundary",
+  "before_status": {
+    "state": "running",
+    "phase": "pi05",
+    "controller_pid": 4089080,
+    "child_pid": 4089241,
+    "gpu_uuid": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f",
+    "started_utc": "2026-11-04T12:54:00.099623+00:00",
+    "completed": [
+      {
+        "phase": "planning",
+        "exit_code": 0,
+        "elapsed_seconds": 55.560865668579936
+      }
+    ]
+  },
+  "controller_action": "SIGTERM owned scheduler only, to prevent next phase",
+  "active_worker": {
+    "pid": 4089241,
+    "phase": "pi05",
+    "command": "/mnt/data/joey_tr/physical-RSI/envs/policy/bin/python -B /mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v5/run_gpu_batch.py worker pi05 "
+  }
+}

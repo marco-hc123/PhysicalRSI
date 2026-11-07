@@ -1,0 +1,277 @@
+{
+  "state": "passed",
+  "scientific_cutoff": "2026-11-05T23:59:59+08:00",
+  "unique_raw_objects": 2015,
+  "source_paths_verified": 87,
+  "source_sha256": {
+    "result/29_system2_feedback_api/20261104_v1/responses/augmented_1.json": "965089f56971e8cb236a049f6e68fd4a5f22409e293814b68d1a72b90f40cde4",
+    "result/29_system2_feedback_api/20261104_v1/candidates/augmented_1/candidate.py": "7cac17e53aab9b2af44a4bdf63b8da4058df44410e03cb616fca26c9486bb655",
+    "result/29_system2_feedback_api/20261104_v1/responses/augmented_2.json": "0589c57ac2710941a12fcd6e005e0bc1b929343c94311bc8774e461557666677",
+    "result/29_system2_feedback_api/20261104_v1/candidates/augmented_2/candidate.py": "d793e1d9c62b68175d0160f0a84acd2af3ea8e8e15529bfa6d8ec602cc4b64b0",
+    "result/29_system2_feedback_api/20261104_v1/responses/augmented_3.json": "2a7667d085f483625ba4dc0bf15223fde911df1ebeed2ec01bdea397f7215cf4",
+    "result/29_system2_feedback_api/20261104_v1/candidates/augmented_3/candidate.py": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db",
+    "result/29_system2_feedback_api/20261104_v1/responses/baseline_1.json": "c9c9942a0185b85a80edcb934eb658889e281bba0efa4dd421573a69675fc958",
+    "result/29_system2_feedback_api/20261104_v1/candidates/baseline_1/candidate.py": "0771f9cb503c9702b779d9ff5fe0996219e5e879af9377ea78f21158e6cbdf27",
+    "result/29_system2_feedback_api/20261104_v1/responses/baseline_2.json": "5ff6b5cad8d3bfe2beb4e627a0dfab35daf2d32ec1ef98a538ca41692374a2c9",
+    "result/29_system2_feedback_api/20261104_v1/candidates/baseline_2/candidate.py": "4863b29962e05a503e05464e3347b499a86da4ea3f273213023b31c853d8105d",
+    "result/29_system2_feedback_api/20261104_v1/responses/baseline_3.json": "0fd065e6e5edb643d44754507b8b97b4fea9e53a874828f479ab5e88ee19f94d",
+    "result/29_system2_feedback_api/20261104_v1/candidates/baseline_3/candidate.py": "a627d9fdf1fe333b2c5195a46b844cbd04dd6ee5d1405ac63c8c72e4a6b716eb",
+    "result/31_system2_rgb_validation/20261105_v1/analysis/episode-results.csv": "1fadbdf3726a2bd651501768bff81807bf1eb59b5906c94430169cb2c4860abc",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/pi05/attempt-002/episodes/0.json": "585a52f502d3a8d73611af0882c7de157aff8a6b0b6d73381723d002b2bc2cc4",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/_result.json": "8c273211a1938c01eae2b74bf8b74bd72d2cdbc0ba5844e1cdc99b1ba44c4efd",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/pi05/attempt-002/episodes/1.json": "323c9f417d4ff42b6f9584ed3b116dfaa0c3fd6f0d11503edc08f45914a38cda",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/pi05/attempt-002/episodes/2.json": "324dedfefd47acfaaa602ef38470bbef155770f0b965caa5a23e72cdb2f9b368",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/pi05/attempt-002/episodes/3.json": "8c4938e19ebfc679f1baeef7bed1a9f8f06224a0e77f8d466eddefb69b74be30",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/pi05/attempt-002/episodes/4.json": "9ce360b317d63cef81ff545c3d249ad6aa7e1419d9189914446fa65cb764514a",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/episodes/0.json": "84d481d4d034ee989b2295e9e17d79f84b3d7e62c007c410b03a13aaaae6aa82",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/_result.json": "8c273211a1938c01eae2b74bf8b74bd72d2cdbc0ba5844e1cdc99b1ba44c4efd",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/episodes/1.json": "f87aece6d456accb0af0363dac199f8351180e95bfad56308f82b479267f9da5",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/episodes/2.json": "01943650b50fd1d6b20db04ac357d2d5385c04db6730ca7691b8cdd21b4da5fd",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/episodes/3.json": "061fae0447c764b39c165ac912df72cd04146d16b8f7466d8ac208706faa9b0d",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/episodes/4.json": "e97b3dec3ecab7f76b12a2e859e44018db562d20a71e6eb75f9c8a3db79174f5",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/episodes/0.json": "a417846b0fa967abcb92d24e139838635eccd72a4aee59eb84284b70fa7350da",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/_result.json": "2ebc5179ac19aad37ad8cc620bd385e64528092679a68c817db8bc8f23efd8b0",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/episodes/1.json": "d38e40084ad29b6c3b15a4a03a4739a8f95e686ada574fdcafe4b6de73aa3f12",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/episodes/2.json": "635fb154ae56be7a04b842b58dca8d5b8f0041ac260dd51a0cfa08de58df3c59",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/episodes/3.json": "15f572487d67a97082570bd436af8319df0c1dfbf8cf1a56cb7d2eb74bc6192e",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/episodes/4.json": "39178a4ef3a53f045809bae71458b6666e0b81222ede3cd8b80b87d02c23fa28",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/episodes/0.json": "d8d00a0919f5ee111d2a1b322e9b6ed3114f951f40d609156582d5ff897a4705",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/_result.json": "2ebc5179ac19aad37ad8cc620bd385e64528092679a68c817db8bc8f23efd8b0",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/episodes/1.json": "a0abccfae54eb5d81a395696e1be4d4936f20224d973a3444141ca19cf39e16f",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/episodes/2.json": "00f772f81a07756440b9ecd390bea699432481f6f34b7cea41c6ba39e459968f",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/episodes/3.json": "7b479763a6e8ab3515d32078cb7a7ee1756ba895d5b566d2a04a2e6a667e1ac2",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/episodes/4.json": "3907f3574f1ade4cec6b725d4fb534d19752e359446ea697ae4d9d5469e27585",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/episodes/0.json": "a8471aa2c05bb6839795ad796448593b144fae42cd6b004f32f02aef58a68995",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/_result.json": "8c273211a1938c01eae2b74bf8b74bd72d2cdbc0ba5844e1cdc99b1ba44c4efd",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/episodes/1.json": "66e0e73cfb3e87950e005bb70c2edf63b6412e8ff9ec8289b650954383fc2108",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/episodes/2.json": "1c0e0c2fb8561e9facf8105935b562634053dadd832bbeb49d5a29079ec9e998",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/episodes/3.json": "eb4d5bd59678d6649298f5a1988c5bae24408852f3866c871981880d18e01f9b",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/episodes/4.json": "0053de372a6e2355b1811b6a68df52edfbdbdd7738dad41853f77df0c16ee848",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/episodes/0.json": "ad56c999912b147b33612be857eaa86256c45b987ceeaf6ceb2ab29b963974b6",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/_result.json": "8c273211a1938c01eae2b74bf8b74bd72d2cdbc0ba5844e1cdc99b1ba44c4efd",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/episodes/1.json": "3e68b8df48beeaa37da8a0d46cf3ee10970bf73e2f49e03cfe8e3871a90612d7",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/episodes/2.json": "4e0a7bd8f7499d675ab45824b9ae71fd5892464562783e6932a8c071802a55af",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/episodes/3.json": "ec9870e575cd3842722584225da1d19953020ec2efaf1058c7c2a804de99fb77",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/episodes/4.json": "e9953cb535e8e1e777a2f94238c7b31e2fe32e2da42dc0354025c26544f6e892",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/episodes/0.json": "0c72a5fe404470ffac99d6c66d7713ce53c501e09fec1b6af9dea5fd90f2dd26",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/_result.json": "8c273211a1938c01eae2b74bf8b74bd72d2cdbc0ba5844e1cdc99b1ba44c4efd",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/episodes/1.json": "e8a5605d6391f5b3ace181636c5736761d4999e23114a2f8a1cc6aa98fa75c7e",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/episodes/2.json": "f7f54debb5d615fe45026ea9690b7b1e217e9e52bbc2768b361ba7d8e10b34c7",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/episodes/3.json": "edb23d99315664ac4233faeeb96ded6c58fc75aae67c8c730c859db957ea4d1e",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/episodes/4.json": "4f5753f16419cebe0b31d3aea609ec30e9baf338adad128bc20a3cc75783929d",
+    "result/31_system2_rgb_validation/20261105_v1/protocol/diagnostic-matrix-v1.json": "60816ebccd9fc07bae5e252efb67d8806a941adadbe84d788bbb7695d81d665d",
+    "result/31_system2_rgb_validation/20261105_v1/analysis/actor-diagnostics.csv": "572b206f33c3f8737f505a32f3b4e090c367fd71d3406e643f6f80a602dc267f",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/model/expert/ec0a702e306244b4b9d3191de8fc44fe/0/policy/processes/isolated/process.json": "05534ccd02a45d22344289c073ba3524385fdc46f8d43944491fc33990f01a2b",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/model/expert/33347edbbc534204b7e0aee55b4ce00e/0/policy/processes/isolated/process.json": "3f453b927b2bfd5a07db78a92503b5676fbb975e5c0e688a0a256352ed4ce3df",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/model/expert/142b242792b04316b629d5e3dd61a132/0/policy/processes/isolated/process.json": "c54bd3632e25811b9b59b155d75cf8fe8318919b98a277a4afa1395a32910b9d",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/model/expert/acf8e6d12a4345e1a70ae0ac5393d861/0/policy/processes/isolated/process.json": "d19f157794f05b78becb0e2c765dcd337924e90e83bbeef7a8d2ede139287608",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_1/attempt-001/model/expert/18adbe7c873c40bfaf7e10812bb2d1ba/0/policy/processes/isolated/process.json": "48779e8afe42fe210b677372ce227d253aee14ea541d98718771a4e262b8e8b8",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/model/expert/24aad55f93bf4034b89c5c7b04ce7d00/0/policy/processes/isolated/process.json": "9734e78c76e47a8d3f05c5427bbaf346853216df2fad73381ba170a9723fb739",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/model/expert/97e9cae98fef4c4880604a178eebcc36/0/policy/processes/isolated/process.json": "2f0fcc07299a47651051937b0b2f3a95d978c83bdeaada97ef604c07f864d339",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/model/expert/3a2ea2ccbd1d43c58fc54c73346fd686/0/policy/processes/isolated/process.json": "ba1683f1f0f7d0ee7ba851908e808e58129ac8e93ae652d0712e2d5da1dc9375",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_1/attempt-001/model/expert/0450367990824975ab6499f662dd8e91/0/policy/processes/isolated/process.json": "36066fe6c990e49eab54036b37c186130347525657f5fa3b460ebeeab3bb93fd",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/model/expert/e935b247691d4dc7a2a0d4d03b1ea567/0/policy/processes/isolated/process.json": "0844a154a28c03e2b9f5d3dabf188b0a7c0d95ec43759146192986cc686ed53f",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/model/expert/dd4c49853d524408b1e0c065ecc24bfc/0/policy/processes/isolated/process.json": "a55e91be8555a583889a05a84a2a82034a223cc504979b257045bdede899f240",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/model/expert/e45ab260712f45648ab1327b363568c0/0/policy/processes/isolated/process.json": "d77ebf0ce974d7f311c4b15e868fbfc67ec20466f040a8fb0aa6ef7ed8a2015f",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/model/expert/21599c8b154841ca8ffc767b840c1661/0/policy/processes/isolated/process.json": "2f174962e557cb50050a781ef7b1dee1736efb19c85d8f1352e6049e1461e206",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_2/attempt-001/model/expert/378328dd64964fc8a0177960e06f06b7/0/policy/processes/isolated/process.json": "5c00a102a367a38ac4ed096b840935c5dab3860349e73f0b66afa8c3515a6146",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/model/expert/f723b945187443e1abc1eb4522469925/0/policy/processes/isolated/process.json": "ee2aeab41c64e75e2b1b5dd38681d8ab42922fc733827ca563a7d067d0c8143c",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/model/expert/ebfb2f942b824eb9b539e13c0e57b0eb/0/policy/processes/isolated/process.json": "2d7d2f93633950fce81c4363db9a0a53c4a88493d83159ec247fb9ae2bb4840d",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/model/expert/cf654a336c4243999efa5942a36ebb11/0/policy/processes/isolated/process.json": "7f16c71a7557f8865525bde95a430748efe4dad4ac55a03c85c0abc2df778c4e",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/model/expert/df6d8b4daa784716a05e54c737a97e65/0/policy/processes/isolated/process.json": "e7c4213031033518e609aa33655b17571b22d7be4bfefa7164c137bccd3c418b",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_2/attempt-001/model/expert/31ed12b6684d437fa5afa753f6e62d3a/0/policy/processes/isolated/process.json": "790da0ea46c85e2b6006d5a2acc697eb9e010f41d25a3259ba97fb4dd730ce15",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/model/expert/ba9c8051c55b4eb7863f8ec4e105432b/0/policy/processes/isolated/process.json": "a0f773c043c6738f1791218be6bf48b4f10016c140a704dc338b43d534a9c407",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/model/expert/a69d6094bef04cbd9ad861fcee673f6e/0/policy/processes/isolated/process.json": "c966f21f45d1dd463e2a3efbaaa02f912a00b21b12a2dfd89aa356896f4305ed",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/model/expert/b603824e15ec472a8b106975613d9d11/0/policy/processes/isolated/process.json": "952424f3da37b5f229fdd603180bc4178b921ecae432bbf959b48f7aafec5389",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/model/expert/5bccb40fad014d22a1cd671c82aa8784/0/policy/processes/isolated/process.json": "60981e9e359c34dfa3b5b8feb3e442449dc32339ff180941e74c180b352f73f9",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/baseline_3/attempt-001/model/expert/f55ec0439c24430e8367ef4d87a715ad/0/policy/processes/isolated/process.json": "1e522d9c41c4a7d570b9f88035a37819136a5eb379dd60765429f2b4278ff3b8",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/b16f7dc840804bf59b88ede9b455f041/0/policy/processes/isolated/process.json": "f799400a34bcb7644bd060b6ce5e68a0a2c2775ad35b6c930409cf9c5fc666ea",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/eea4f38ec125482ea01cb6ede59bebca/0/policy/processes/isolated/process.json": "f6f9594ff67d37e6714d94bbc1e63265f6b3fc9ac64005c3cd5f7eb892ce8b5e",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/2d0e1052f7054782877b4c7b1d538499/0/policy/processes/isolated/process.json": "9b60df39336a1e259f8168cd758483672dc6938f7cd12c647e46c18d2f6344cf",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/f0a7099c349c40f0b98a164538e0d809/0/policy/processes/isolated/process.json": "1c444aeddf8491a01d14d3f8433e3b8dc9aecdc3449b307380c7ca8d7ed749b1",
+    "result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/58de3c0834dc4c4b9b7eed840a3aa2ed/0/policy/processes/isolated/process.json": "63d520112dc4a631b97ec54a42736bedadb1e80a27660103da5548645735a559"
+  },
+  "api": [
+    {
+      "source_root": "result/29_system2_feedback_api/20261104_v1/",
+      "calls": 6,
+      "input": 49839,
+      "output": 14835,
+      "total": 64674,
+      "historical_estimated_usd": 0.1932249,
+      "rows": [
+        {
+          "candidate": "augmented_1",
+          "response_id": "chatcmpl-EgUhtWWqHTyXadCOEdDlgMFkeBEMt",
+          "input": 13475,
+          "output": 3168,
+          "total": 16643,
+          "historical_usage_estimate_usd": 0.065366
+        },
+        {
+          "candidate": "augmented_2",
+          "response_id": "chatcmpl-EgUj2gd2INo6FlcxKwiuT7nmiRaHk",
+          "input": 13475,
+          "output": 2243,
+          "total": 15718,
+          "historical_usage_estimate_usd": 0.0237832
+        },
+        {
+          "candidate": "augmented_3",
+          "response_id": "chatcmpl-EgUlWgkxSN3V49PRUFZv9IKpQPF0O",
+          "input": 13475,
+          "output": 2366,
+          "total": 15841,
+          "historical_usage_estimate_usd": 0.0250132
+        },
+        {
+          "candidate": "baseline_1",
+          "response_id": "chatcmpl-EgUh3yCSFcxUnwo16IGj6KpQQlJcN",
+          "input": 3138,
+          "output": 2461,
+          "total": 5599,
+          "historical_usage_estimate_usd": 0.0324535
+        },
+        {
+          "candidate": "baseline_2",
+          "response_id": "chatcmpl-EgUjq7bgnUHWh0VAetIwrVrsjrFqe",
+          "input": 3138,
+          "output": 2299,
+          "total": 5437,
+          "historical_usage_estimate_usd": 0.0233095
+        },
+        {
+          "candidate": "baseline_3",
+          "response_id": "chatcmpl-EgUkibJ1LaTkIFfYUkH9rU0oklGr7",
+          "input": 3138,
+          "output": 2298,
+          "total": 5436,
+          "historical_usage_estimate_usd": 0.0232995
+        }
+      ]
+    }
+  ],
+  "campaigns": [
+    {
+      "campaign": "rgb35",
+      "n": 35,
+      "cohorts": [
+        {
+          "condition": "pi05",
+          "n": 5,
+          "successes": 0,
+          "scores_100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_score_100": 0.0
+        },
+        {
+          "condition": "baseline_1",
+          "n": 5,
+          "successes": 0,
+          "scores_100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_score_100": 0.0
+        },
+        {
+          "condition": "augmented_1",
+          "n": 5,
+          "successes": 0,
+          "scores_100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "mean_score_100": 3.0
+        },
+        {
+          "condition": "augmented_2",
+          "n": 5,
+          "successes": 0,
+          "scores_100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            15.0
+          ],
+          "mean_score_100": 3.0
+        },
+        {
+          "condition": "baseline_2",
+          "n": 5,
+          "successes": 0,
+          "scores_100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_score_100": 0.0
+        },
+        {
+          "condition": "baseline_3",
+          "n": 5,
+          "successes": 0,
+          "scores_100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_score_100": 0.0
+        },
+        {
+          "condition": "augmented_3",
+          "n": 5,
+          "successes": 0,
+          "scores_100": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_score_100": 0.0
+        }
+      ]
+    }
+  ],
+  "native_cases": 35,
+  "native_successes": 0,
+  "partial_score_cases": 2,
+  "unique_exposed_layouts": 5,
+  "distinct_layouts_with_partial_score": 1,
+  "actor_totals": {
+    "baseline": {
+      "cases": 15,
+      "accepted": 9,
+      "rejected": 15,
+      "incomplete": 0,
+      "first_rejected": 12
+    },
+    "augmented": {
+      "cases": 15,
+      "accepted": 50,
+      "rejected": 5,
+      "incomplete": 5,
+      "first_rejected": 0
+    }
+  },
+  "new_experiments_from_verification": 0,
+  "new_model_requests_from_verification": 0
+}

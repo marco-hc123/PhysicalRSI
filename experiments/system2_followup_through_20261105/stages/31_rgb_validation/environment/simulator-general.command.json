@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/mnt/data/physical-RSI/envs/tools/uv",
+    "pip",
+    "install",
+    "--python",
+    "/mnt/data/physical-RSI/envs/simulator/bin/python",
+    "--no-deps",
+    "--index-url",
+    "https://mirrors.aliyun.com/pypi/simple",
+    "-r",
+    "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/environment/simulator-general.txt"
+  ],
+  "returncode": 0
+}

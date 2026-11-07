@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/mnt/data/physical-RSI/envs/tools/uv",
+    "pip",
+    "install",
+    "--python",
+    "/mnt/data/physical-RSI/envs/simulator/bin/python",
+    "--no-deps",
+    "--no-build-isolation",
+    "-e",
+    "/mnt/data/physical-RSI/code/RoboDojo/third_party/curobo"
+  ],
+  "utc": "2026-11-05T03:13:43.317690+00:00",
+  "returncode": 0
+}

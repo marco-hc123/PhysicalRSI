@@ -1,0 +1,31 @@
+Read-only reproduction and audit
+
+1. On the archived directory, use Python >=3.9:
+   python3 audit_archive.py /mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1
+   This checks every archived evidence file SHA256, 35 raw results/receipts, and 105 videos. It does not launch a simulation, use a GPU, or call an API.
+
+2. Original server analysis commands (absolute original project bindings required):
+   sudo -n python3 /mnt/data/physical-RSI/result/31_rgb_supplement_20261105/analyze_native_matrix.py
+   sudo -n python3 /mnt/data/physical-RSI/result/31_rgb_supplement_20261105/build_execution_trace_tables.py
+   sudo -n python3 /mnt/data/physical-RSI/result/31_rgb_supplement_20261105/diagnose_lift_gate.py
+   sudo -n /mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python /mnt/data/physical-RSI/result/31_rgb_supplement_20261105/validate_completed_matrix.py
+   sudo -n /mnt/data/physical-RSI/envs/run-simulator.sh /mnt/data/physical-RSI/result/31_rgb_supplement_20261105/build_campaign_report.py
+   These commands generate analysis artifacts and must not be run against an immutable archived snapshot. Make a separate analysis copy if reanalysing.
+
+3. Immutable evidence and editable figure data:
+   analysis/episode-results.csv and cohort-summary.csv are direct scoring/denominator tables.
+   analysis/actor-diagnostics.csv includes qualified actor-layout associations and original process_record paths.
+   analysis/figure-provenance.json identifies plot inputs and script. SVG keeps text editable.
+   analysis/keyframe-index.json gives camera, candidate, layout, video time and source SHA256.
+
+4. Path mapping:
+   Original result prefix /mnt/data/physical-RSI/result/31_rgb_supplement_20261105/ maps to the root of this archive.
+   Preserve original JSON and logs unchanged; do not replace path strings inside evidence.
+   analysis/reference-path-map.json maps externally referenced primitive scenes and scoring/runtime contracts into archive-relative copies.
+   analysis/predecessor-index.json points to already existing lab precursor studies.
+   migration/archive-scope.json lists deliberate exclusions and symlink targets preserved only as metadata.
+
+5. No automatic experiment replay:
+   run_rgb_campaign.py is the exact original controller and points at the original server and completed outputs. Do not simply invoke it on the lab host. Native RGB rendering, released weights/assets, pinned package versions and privileged executor must be qualified before a new separately named run.
+   Original protocol, candidate hashes, layouts, runtime digest, scoring and 1100-step limit are in protocol/ and native-campaign/campaign.json.
+   This batch reuses diagnostic layouts and does not establish independent generalization or promote a candidate.

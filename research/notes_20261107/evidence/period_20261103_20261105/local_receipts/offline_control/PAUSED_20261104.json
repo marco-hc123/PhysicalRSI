@@ -1,0 +1,38 @@
+{
+  "state": "paused_by_user",
+  "updated_utc": "2026-11-04T12:56:16.160017+00:00",
+  "host": "gpuserver3",
+  "ssh_alias": "physicalrsi-lab",
+  "project_root": "/mnt/data/joey_tr/physical-RSI",
+  "active_owned_processes": [],
+  "gpu_process_snapshot": "",
+  "gpu_snapshot": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 1 MiB, 0 %",
+  "selected_gpu_uuid": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f",
+  "gpu_limit": "One idle H100 only; check idle before each new worker",
+  "completed": [
+    "Prior CPU diagnostics retained (65 probes across distinct purposes, no robot scores)",
+    "PyTorch and JAX CUDA acceptance: v4/basic/completion.json",
+    "24 historical CuRobo planning probes: v5/planning; original outcomes reproduced",
+    "pi05 checkpoint loaded; 3 synthetic-input action chunks finite; state reset verified",
+    "Six GPT-6.1-Sol medium requests, 3 baseline + 3 augmented; all JSON/Python syntax valid"
+  ],
+  "paused_before": [
+    "Corrected sparse-memory inference acceptance",
+    "Offline fixture comparison of 6 newly generated candidates",
+    "Final consolidated causal diagnosis/report"
+  ],
+  "results": {
+    "cpu": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1",
+    "gpu": "/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v5",
+    "api": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1"
+  },
+  "api_cost_estimate_usd": 0.1932249,
+  "api_budget_usd": 10,
+  "api_credential": "Ephemeral process memory ended; no key persisted. One-day key may expire; ask fresh key only if additional calls needed. Existing 6 calls need not be repeated.",
+  "new_native_episodes": 0,
+  "new_task_score_claim": false,
+  "source_and_environment_changes": "No existing env/driver/source changes; new result scripts/config copies only",
+  "next_action": "User explicitly resumes -> read this file and actual status/processes -> one idle GPU -> run sparse only in a NEW attempt subdir using corrected v5 worker; DO NOT run main() or regenerate API candidates",
+  "pause_mechanism": "Stopped owned scheduler PID 4089080 to prevent next phase; current pi05 worker PID 4089241 finished naturally at 2026-11-04T12:54:23Z",
+  "api_reserved_upper_usd": 2.447298
+}

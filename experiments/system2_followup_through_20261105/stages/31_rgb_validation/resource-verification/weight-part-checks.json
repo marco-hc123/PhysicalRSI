@@ -1,0 +1,125 @@
+{
+  "parts": [
+    {
+      "name": "pi05-weights.tar.part000",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part001",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part002",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part003",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part004",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part005",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part006",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part007",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part008",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part009",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part010",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "pi05-weights.tar.part011",
+      "bytes": 629856256,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part000",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part001",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part002",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part003",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part004",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part005",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part006",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part007",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part008",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part009",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part010",
+      "bytes": 1073741824,
+      "match": true
+    },
+    {
+      "name": "sparse-memory-weights.tar.part011",
+      "bytes": 629129216,
+      "match": true
+    }
+  ],
+  "all_match": true
+}

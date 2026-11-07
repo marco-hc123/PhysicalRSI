@@ -1,0 +1,77 @@
+{
+  "terminal": "returned",
+  "error": null,
+  "return_value": null,
+  "calls": [
+    {
+      "index": 0,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "objects": {
+          "basket_1": {
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ],
+            "pose": [
+              -0.297817818215213,
+              0.04308161675662886,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "basket_2": {
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ],
+            "pose": [
+              0.000146973019715899,
+              0.06194454692889434,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "basket_3": {
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ],
+            "pose": [
+              0.29355555632205604,
+              0.028074221427602686,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "observation": {
+          "channel_id": "a4f812d6df6b49bfbc89cb2fef59ddc9",
+          "sequence": 374
+        },
+        "unit": "m"
+      }
+    }
+  ],
+  "counts": {
+    "scene": 1
+  },
+  "invalid_calls": [],
+  "memory_after_in_process": {},
+  "native_score": null,
+  "scope": "CPU fixture only; no physics, no new robot episode"
+}

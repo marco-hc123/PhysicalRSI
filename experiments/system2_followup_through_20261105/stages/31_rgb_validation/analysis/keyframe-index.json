@@ -1,0 +1,80 @@
+[
+  {
+    "task": "classify_objects",
+    "condition": "augmented_1",
+    "layout_id": 4,
+    "camera": "head",
+    "video_time_seconds": 0,
+    "time_scope": "encoded video timestamp; not physical simulation time or wall clock",
+    "source_video": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "0ad12980aae88c1ee9f82cea705036c4567d906ed47942ded49ecb5409feedac",
+    "image": "analysis/keyframes/augmented_1_layout4_head_t0.png",
+    "image_sha256": "ecfccdab69c2e84c4fb5b309ae04b4cdada79f83b1bed68c9d4d901319cc6bbc",
+    "policy_identity": "Frozen native-campaign/campaign.json entry and harnesses/augmented_1"
+  },
+  {
+    "task": "classify_objects",
+    "condition": "augmented_1",
+    "layout_id": 4,
+    "camera": "head",
+    "video_time_seconds": 20,
+    "time_scope": "encoded video timestamp; not physical simulation time or wall clock",
+    "source_video": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "0ad12980aae88c1ee9f82cea705036c4567d906ed47942ded49ecb5409feedac",
+    "image": "analysis/keyframes/augmented_1_layout4_head_t20.png",
+    "image_sha256": "50e7c6c6e75aaa0ba1e3f275224d3ca59f860c6ebc45febf2dc0d7b6650e0bec",
+    "policy_identity": "Frozen native-campaign/campaign.json entry and harnesses/augmented_1"
+  },
+  {
+    "task": "classify_objects",
+    "condition": "augmented_1",
+    "layout_id": 4,
+    "camera": "head",
+    "video_time_seconds": 40,
+    "time_scope": "encoded video timestamp; not physical simulation time or wall clock",
+    "source_video": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "0ad12980aae88c1ee9f82cea705036c4567d906ed47942ded49ecb5409feedac",
+    "image": "analysis/keyframes/augmented_1_layout4_head_t40.png",
+    "image_sha256": "2cfa414ff0b638941c7ca8a21e7ba33defa97842b2b7fadf8c00ac73826fd5be",
+    "policy_identity": "Frozen native-campaign/campaign.json entry and harnesses/augmented_1"
+  },
+  {
+    "task": "classify_objects",
+    "condition": "baseline_1",
+    "layout_id": 0,
+    "camera": "head",
+    "video_time_seconds": 40,
+    "time_scope": "encoded video timestamp; not physical simulation time or wall clock",
+    "source_video": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000000_cam_head_fail.mp4",
+    "video_sha256": "0ca9669f5396d4c92098c2211313cd468bc2141442a276cac4575d8c915cd8cd",
+    "image": "analysis/keyframes/baseline_1_layout0_head_t40.png",
+    "image_sha256": "bbc8d723f7bbba5cbc5faa318c8b1c44ec6a2ad204f884239389bde47cb18e1f",
+    "policy_identity": "Frozen native-campaign/campaign.json entry and harnesses/baseline_1"
+  },
+  {
+    "task": "classify_objects",
+    "condition": "baseline_1",
+    "layout_id": 4,
+    "camera": "head",
+    "video_time_seconds": 40,
+    "time_scope": "encoded video timestamp; not physical simulation time or wall clock",
+    "source_video": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "57635d107eafef93804d9c86ff1a32426f186b82ea3318185e3bef3351eb9aaf",
+    "image": "analysis/keyframes/baseline_1_layout4_head_t40.png",
+    "image_sha256": "0c0e86763bd6a9004b4d6f30f0f058345d74fa5204fbe9a710f2a217c06f3dd9",
+    "policy_identity": "Frozen native-campaign/campaign.json entry and harnesses/baseline_1"
+  },
+  {
+    "task": "classify_objects",
+    "condition": "pi05",
+    "layout_id": 0,
+    "camera": "head",
+    "video_time_seconds": 40,
+    "time_scope": "encoded video timestamp; not physical simulation time or wall clock",
+    "source_video": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000000_cam_head_fail.mp4",
+    "video_sha256": "31dab77aa203374dd7502e451e44a06bc6dba731c9097b5951fc197f29337318",
+    "image": "analysis/keyframes/pi05_layout0_head_t40.png",
+    "image_sha256": "5a192805713c62b0cd3ecf65c5f1585ef3298ab42369b3c47312456b8b68f4ed",
+    "policy_identity": "Frozen native-campaign/campaign.json entry and harnesses/pi05"
+  }
+]

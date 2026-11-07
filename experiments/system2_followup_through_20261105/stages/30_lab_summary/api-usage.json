@@ -1,0 +1,24 @@
+[
+  {
+    "arm": "baseline",
+    "generation_count": 3,
+    "input_tokens": 9414,
+    "cached_input_subset": 6270,
+    "cache_write_subset": 3135,
+    "output_including_reasoning": 7058,
+    "reasoning_subset": 1518,
+    "mean_generation_seconds": 52.808549175038934,
+    "estimated_usd": 0.07906250000000001
+  },
+  {
+    "arm": "augmented",
+    "generation_count": 3,
+    "input_tokens": 40425,
+    "cached_input_subset": 26944,
+    "cache_write_subset": 13472,
+    "output_including_reasoning": 7777,
+    "reasoning_subset": 1932,
+    "mean_generation_seconds": 55.98021328138808,
+    "estimated_usd": 0.1141624
+  }
+]

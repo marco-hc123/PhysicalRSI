@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-05T05:03:47.141531+00:00",
+  "state": "passed",
+  "result": {
+    "square": 49,
+    "uid": 65534
+  },
+  "scope": "CPU chroot/seccomp startup, unprivileged UID and deterministic JSON response; no robot task",
+  "runtime_unchanged": true,
+  "system_configuration_changed": false
+}

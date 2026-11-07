@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-04T12:53:04.332005+00:00",
+  "gpu_uuid": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f",
+  "physical_gpu": 1,
+  "maximum_visible_gpus": 1,
+  "training": false,
+  "rgb_simulation": false,
+  "api_calls": 0,
+  "source_change_policy": "No existing environment/source edits; new outputs and copied path-only config in this batch",
+  "phases": [
+    "basic",
+    "planning",
+    "pi05",
+    "sparse"
+  ],
+  "policy_input_scope": "Synthetic hardware inference acceptance; not task-success evaluation",
+  "planner_scope": "Exact archived 24-job reachability protocol; do not count as episodes"
+}

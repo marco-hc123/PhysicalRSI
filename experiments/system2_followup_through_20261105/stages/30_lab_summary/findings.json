@@ -1,0 +1,58 @@
+[
+  {
+    "id": "F1",
+    "claim": "Existing candidates contain local geometric and control-flow weaknesses",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/REPORT.txt",
+    "confidence": "CPU behavior reproduced; full native causal contribution not isolated",
+    "attribution": "Generated candidate code, not proof of a universal upstream core defect"
+  },
+  {
+    "id": "F2",
+    "claim": "The recorded no-path error is converted to RuntimeError by the existing driver",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/driver-memory-and-error-contract.json",
+    "confidence": "Exact driver text under virtual IO",
+    "attribution": "Error delivery works in this contract; catch-and-return can still lose policy-level explanation"
+  },
+  {
+    "id": "F3",
+    "claim": "The mutated memory object is not separately published by the recorded driver",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/driver-memory-and-error-contract.json",
+    "confidence": "Schema observation and copied explicit-consumer prototype only",
+    "attribution": "Not established cause of native zero scores; candidates do not read memory; distinct from VLA sparse history"
+  },
+  {
+    "id": "F4",
+    "claim": "Historical no-path pattern reproduces on H100; smaller lift targets and arm+orientation variants change feasibility",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v5/planning/results.json",
+    "confidence": "24 solver calls, same pinned recorded inputs",
+    "attribution": "Supports target/constraint mismatch; no proof of unavoidable geometry or grasp success"
+  },
+  {
+    "id": "F5",
+    "claim": "Both existing neural policies can load and emit finite actions on one H100",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/policy-acceptance.csv",
+    "confidence": "Three synthetic-input calls per policy, reset verified",
+    "attribution": "Does not qualify RGB native simulation or benchmark performance"
+  },
+  {
+    "id": "F6",
+    "claim": "Supplemental feedback changes generated containment and motion heuristics",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/candidate-diagnostics.csv",
+    "confidence": "3 candidates per arm, 150 offline probes, exploratory only",
+    "attribution": "Information and longer context are confounded; no native score improvement established"
+  },
+  {
+    "id": "F7",
+    "claim": "All six candidates stop without further approaches after the changed category is actually observed",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1/offline-eval-v1/followup-v2/dynamic.json",
+    "confidence": "Six two-scene mock follow-through probes",
+    "attribution": "No uncaught error is not evidence of task completion or recovery"
+  },
+  {
+    "id": "F8",
+    "claim": "No new native improvement or selected policy replacement is demonstrated",
+    "evidence": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/phase-accounting.csv",
+    "confidence": "New robot episodes zero",
+    "attribution": "Do not conclude System2 is universally ineffective, or promote any candidate from these diagnostics"
+  }
+]

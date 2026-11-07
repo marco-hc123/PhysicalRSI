@@ -1,0 +1,4 @@
+{
+  "cuInit_return": 0,
+  "adaptation": "Explicit driver init inside confinement, before torch/JAX import; no system configuration changes"
+}

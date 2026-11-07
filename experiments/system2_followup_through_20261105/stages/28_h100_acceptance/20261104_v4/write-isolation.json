@@ -1,0 +1,5 @@
+{
+  "scope": "Each GPU worker applies Landlock to its own process; controller writes only explicit batch paths",
+  "reason": "Inherited parent /proc/self/task rule denies child CUDA thread setup",
+  "disk_write_root": "/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v4"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "layout": 0,
+    "variant": "original",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 0,
+    "variant": "bbox_only",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 1,
+    "variant": "original",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 1,
+    "variant": "bbox_only",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 2,
+    "variant": "original",
+    "terminal": "returned",
+    "approach_requests": 0,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 2,
+    "variant": "bbox_only",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 3,
+    "variant": "original",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 3,
+    "variant": "bbox_only",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 4,
+    "variant": "original",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  },
+  {
+    "layout": 4,
+    "variant": "bbox_only",
+    "terminal": "prefix_observed",
+    "approach_requests": 1,
+    "native_score": null,
+    "scope": "Ordered historical observations + stop before first mock approach; no physics"
+  }
+]

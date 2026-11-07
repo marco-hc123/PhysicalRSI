@@ -1,0 +1,11 @@
+layout,variant,terminal,approach_requests,qualification,native_score
+0,original,prefix_observed,1,Historical observations + mock stop before first action; not physical replay,
+0,bbox_only,prefix_observed,1,Historical observations + mock stop before first action; not physical replay,
+1,original,returned,0,Historical observations + mock stop before first action; not physical replay,
+1,bbox_only,returned,0,Historical observations + mock stop before first action; not physical replay,
+2,original,returned,0,Historical observations + mock stop before first action; not physical replay,
+2,bbox_only,prefix_observed,1,Historical observations + mock stop before first action; not physical replay,
+3,original,prefix_observed,1,Historical observations + mock stop before first action; not physical replay,
+3,bbox_only,prefix_observed,1,Historical observations + mock stop before first action; not physical replay,
+4,original,prefix_observed,1,Historical observations + mock stop before first action; not physical replay,
+4,bbox_only,prefix_observed,1,Historical observations + mock stop before first action; not physical replay,

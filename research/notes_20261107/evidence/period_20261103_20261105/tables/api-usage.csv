@@ -1,0 +1,3 @@
+arm,generation_count,input_tokens,cached_input_subset,cache_write_subset,output_including_reasoning,reasoning_subset,mean_generation_seconds,estimated_usd
+baseline,3,9414,6270,3135,7058,1518,52.808549175038934,0.07906250000000001
+augmented,3,40425,26944,13472,7777,1932,55.98021328138808,0.1141624

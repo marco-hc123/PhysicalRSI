@@ -1,0 +1,207 @@
+[
+  {
+    "path": "result/27_system2_offline_diagnostics/20261104_cpu_v1/REPORT.txt",
+    "bytes": 4559,
+    "sha256": "fd872d5ebfcb22a6fc29fe0a25e10fe4a0acfaedc731de7b9025877dec34b4e3"
+  },
+  {
+    "path": "result/27_system2_offline_diagnostics/20261104_cpu_v1/completion.json",
+    "bytes": 828,
+    "sha256": "872256fc2a2f35d9bf85962c670fa31ae1568c7c641fa1211792ee763d72a7c7"
+  },
+  {
+    "path": "result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/completion.json",
+    "bytes": 267,
+    "sha256": "18cba5970df613c6ee2b80da47e404e85809282706319e1b23b9f4f583db5297"
+  },
+  {
+    "path": "result/27_system2_offline_diagnostics/20261104_cpu_v1/driver-memory-and-error-contract.json",
+    "bytes": 807,
+    "sha256": "ad42dbb8f9c1bb7cd322394001f80aa4414d6ac7607632cb0bfcf149b69f0b1a"
+  },
+  {
+    "path": "result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/feedback/prompt-comparison.json",
+    "bytes": 721,
+    "sha256": "ff536f52516641c7e7f38d51f58f1908959489db04fa2c7cc1107bb40cc2de79"
+  },
+  {
+    "path": "result/28_h100_offline_acceptance/20261104_v4/basic/completion.json",
+    "bytes": 435,
+    "sha256": "c017241f023c50362a962d63bfc0551dc6270b4dee950afd4faac4b940f0a38a"
+  },
+  {
+    "path": "result/28_h100_offline_acceptance/20261104_v5/planning/protocol.json",
+    "bytes": 24555,
+    "sha256": "c711ea166e64a46c1c6b2dfa80066733d5ed4f776040d1788b64d3e799255104"
+  },
+  {
+    "path": "result/28_h100_offline_acceptance/20261104_v5/planning/results.json",
+    "bytes": 22596,
+    "sha256": "6d31854a399f4c434f528041e542b1c379847e2fd5cf97ad1c6f561603e7bc00"
+  },
+  {
+    "path": "result/28_h100_offline_acceptance/20261104_v5/pi05/completion.json",
+    "bytes": 1866,
+    "sha256": "f389463642ac0130776dda95dc98ae9261eb9d97697cfd570f7ff0a3f7d0ab98"
+  },
+  {
+    "path": "result/28_h100_offline_acceptance/20261104_v6_sparse/sparse/completion.json",
+    "bytes": 3340,
+    "sha256": "558642214402f02f8de872b6a0ee62abe1485eb6a414ace82562ece030a7863e"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/protocol.json",
+    "bytes": 1356,
+    "sha256": "7e00e1f452a1db09945884c64f1c14521ff8dc0221a619a0c88ade9a7cfb62dc"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/ledger.json",
+    "bytes": 9162,
+    "sha256": "363964910e7dfc57cd7efc59ee87a4d7a41ecbc1c0cc2cd57fa27ee7d4fcd91d"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/billing-reviewed.json",
+    "bytes": 2468,
+    "sha256": "f892f15b4d6e664e69b27593046c814d288b9eb418b29f9b2c28361894084bec"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/candidate-audit.json",
+    "bytes": 1953,
+    "sha256": "c16ff5ce73eed08bd2268a78f2c091795bb8d99f62776b4779db8464c36d2d17"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/completion.json",
+    "bytes": 260,
+    "sha256": "5b5d3ff2b9a9493c950ee81d167aeb88fa6ad734a55d862a7916b526af1363bc"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/summary.json",
+    "bytes": 2724,
+    "sha256": "5f30260d67f1811c157aefb085435c597343981596783c1f5ccdb1a852593c42"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/recorded-prefix-matrix.json",
+    "bytes": 13968,
+    "sha256": "f63de267388315f0380f7fe8b1248bb2a37b284f89a5f9d708c26203a4c019b2"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/fixture-matrix.json",
+    "bytes": 21787,
+    "sha256": "40b83a6c98d2ed29c8eab93763723e707cf7e56857e56d2dedcb6078197b1435"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/geometry-matrix.json",
+    "bytes": 19716,
+    "sha256": "a5a63ddb6d5f5854848c1a11790876b39bc9b680b7da7e0d19cae53d139ccac3"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/followup-v2/protocol.json",
+    "bytes": 998,
+    "sha256": "1e7205b62f5dbfd6784076b47e1fcc9d08d44ea0a34832543e4c07e2808affd2"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/followup-v2/completion.json",
+    "bytes": 210,
+    "sha256": "acb0bdcd42fdabc3a4d95e4219123490592fafda23252b2267d728bc8e430925"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/followup-v2/geometry.json",
+    "bytes": 12728,
+    "sha256": "608b28d43fcb0227c4f1ebe0b5197b60a2425de29fe62c0303aa117b5db70ab2"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/offline-eval-v1/followup-v2/dynamic.json",
+    "bytes": 2916,
+    "sha256": "6663ed1134c9bedda2a3ee6f6de56f6219b784a623a3814bc07d5f2e938dd2ff"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/candidates/augmented_2/candidate.py",
+    "bytes": 4990,
+    "sha256": "d793e1d9c62b68175d0160f0a84acd2af3ea8e8e15529bfa6d8ec602cc4b64b0"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/candidates/baseline_2/candidate.py",
+    "bytes": 5395,
+    "sha256": "4863b29962e05a503e05464e3347b499a86da4ea3f273213023b31c853d8105d"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/candidates/baseline_1/candidate.py",
+    "bytes": 5855,
+    "sha256": "0771f9cb503c9702b779d9ff5fe0996219e5e879af9377ea78f21158e6cbdf27"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/candidates/augmented_1/candidate.py",
+    "bytes": 6385,
+    "sha256": "7cac17e53aab9b2af44a4bdf63b8da4058df44410e03cb616fca26c9486bb655"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/candidates/augmented_3/candidate.py",
+    "bytes": 5607,
+    "sha256": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/candidates/baseline_3/candidate.py",
+    "bytes": 5701,
+    "sha256": "a627d9fdf1fe333b2c5195a46b844cbd04dd6ee5d1405ac63c8c72e4a6b716eb"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/responses/baseline_1.json",
+    "bytes": 8441,
+    "sha256": "c9c9942a0185b85a80edcb934eb658889e281bba0efa4dd421573a69675fc958"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/responses/augmented_1.json",
+    "bytes": 9301,
+    "sha256": "965089f56971e8cb236a049f6e68fd4a5f22409e293814b68d1a72b90f40cde4"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/responses/baseline_3.json",
+    "bytes": 8089,
+    "sha256": "0fd065e6e5edb643d44754507b8b97b4fea9e53a874828f479ab5e88ee19f94d"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/responses/augmented_2.json",
+    "bytes": 7679,
+    "sha256": "0589c57ac2710941a12fcd6e005e0bc1b929343c94311bc8774e461557666677"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/responses/baseline_2.json",
+    "bytes": 8015,
+    "sha256": "5ff6b5cad8d3bfe2beb4e627a0dfab35daf2d32ec1ef98a538ca41692374a2c9"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/responses/augmented_3.json",
+    "bytes": 8342,
+    "sha256": "2a7667d085f483625ba4dc0bf15223fde911df1ebeed2ec01bdea397f7215cf4"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/requests/baseline_1.json",
+    "bytes": 10610,
+    "sha256": "7653511302e175b7b7ed8142f5e0da1187f4caf7419a57b1941a5418390c9c0c"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/requests/augmented_1.json",
+    "bytes": 37305,
+    "sha256": "0f3ecfb09cc282fa438da4f23ea7e5db751c6199fb90bb40f91dc56b28524f50"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/requests/baseline_3.json",
+    "bytes": 10610,
+    "sha256": "7653511302e175b7b7ed8142f5e0da1187f4caf7419a57b1941a5418390c9c0c"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/requests/augmented_2.json",
+    "bytes": 37305,
+    "sha256": "0f3ecfb09cc282fa438da4f23ea7e5db751c6199fb90bb40f91dc56b28524f50"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/requests/baseline_2.json",
+    "bytes": 10610,
+    "sha256": "7653511302e175b7b7ed8142f5e0da1187f4caf7419a57b1941a5418390c9c0c"
+  },
+  {
+    "path": "result/29_system2_feedback_api/20261104_v1/requests/augmented_3.json",
+    "bytes": 37305,
+    "sha256": "0f3ecfb09cc282fa438da4f23ea7e5db751c6199fb90bb40f91dc56b28524f50"
+  }
+]

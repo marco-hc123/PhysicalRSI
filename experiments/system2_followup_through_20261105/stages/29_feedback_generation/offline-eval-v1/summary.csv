@@ -1,0 +1,7 @@
+candidate,arm,fixture_exceptions,fixture_budget_exhaustions,invalid_rpc_total,geometry_surrogate_matches,geometry_denominator,recorded_prefixes_with_approach,prefix_denominator,static_scene_rpc,static_scene_terminal,above_predicate_true,above_predicate_false,native_score
+baseline_1,baseline,0,0,0,6,6,5,5,11,returned,1,0,
+augmented_1,augmented,0,0,0,5,6,5,5,9,returned,0,3,
+augmented_2,augmented,0,0,0,5,6,5,5,9,returned,0,2,
+baseline_2,baseline,0,0,0,6,6,5,5,11,returned,2,0,
+baseline_3,baseline,0,0,0,6,6,5,5,11,returned,2,0,
+augmented_3,augmented,0,0,0,5,6,5,5,8,returned,0,2,

@@ -1,0 +1,31 @@
+{
+  "state": "completed_lab_offline_scope",
+  "checked_utc": "2026-11-04T13:26:55.967042+00:00",
+  "host": "gpuserver3",
+  "ssh_alias": "physicalrsi-lab",
+  "report": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/REPORT.txt",
+  "completion": {
+    "state": "completed_lab_offline_scope",
+    "finished_utc": "2026-11-04T13:26:55.967042+00:00",
+    "new_candidate_cpu_probes": 150,
+    "planning_calls": 24,
+    "policy_inferences": 6,
+    "paid_generations": 6,
+    "new_api_calls_after_resume": 0,
+    "native_episodes": 0,
+    "policy_promotion": false,
+    "estimated_api_usd": 0.1932249,
+    "credentials_persisted": false,
+    "remaining": [
+      "Native task score and independent layout acceptance",
+      "Production untrusted executor validation",
+      "Content-versus-length feedback control if justified"
+    ]
+  },
+  "active_owned_processes": [],
+  "gpu_snapshot": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 1 MiB, 0 %",
+  "evidence_files": 41,
+  "next_action": "Review consolidated report; new native score validation needs supported RGB execution and validated executor. Do not repeat existing API generations or completed probes.",
+  "server_write_root": "/mnt/data/joey_tr/physical-RSI",
+  "api_key": "not persisted"
+}

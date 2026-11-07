@@ -1,0 +1,516 @@
+{
+  "status": "passed",
+  "cutoff": "2026-11-02T23:59:59+08:00",
+  "new_api_requests": 0,
+  "new_native_episodes": 0,
+  "checks": {
+    "api80": {
+      "http": 80,
+      "total_tokens": 870375,
+      "cache_hits": 38,
+      "suites": {
+        "registry_22_operations": 10,
+        "example_2_compositions": 40,
+        "registry_22_operations_schema": 30
+      },
+      "method": "Recomputed from original all_calls.csv; original response files separately parsed in full file audit."
+    },
+    "api120": {
+      "http": 120,
+      "total_tokens": 2204597,
+      "cache_hits": 41,
+      "groups": {
+        "projected": {
+          "n": 60,
+          "input_tokens": 8969.3,
+          "output_tokens": 175.06666666666666,
+          "total_tokens": 9144.366666666667,
+          "elapsed_seconds": 9.864257193667193
+        },
+        "unprojected": {
+          "n": 60,
+          "input_tokens": 27437.3,
+          "output_tokens": 161.61666666666667,
+          "total_tokens": 27598.916666666668,
+          "elapsed_seconds": 14.43237250285844
+        }
+      },
+      "percent_reductions": {
+        "input_tokens": 67.30983004887507,
+        "total_tokens": 66.866936202206,
+        "elapsed_seconds": 31.651866720364218
+      },
+      "all_contracts_valid": true,
+      "method": "Every CSV row matched to original provider response identity, SHA256 and usage."
+    },
+    "system1_reference": {
+      "reference_classify_objects_agent": {
+        "n": 5,
+        "successes": 1,
+        "mean_score_100": 32.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_classify_objects_by_language_agent": {
+        "n": 5,
+        "successes": 1,
+        "mean_score_100": 30.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_classify_objects_by_language_code": {
+        "n": 5,
+        "successes": 1,
+        "mean_score_100": 40.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_classify_objects_by_language_pi05-sparse-memory": {
+        "n": 5,
+        "successes": 0,
+        "mean_score_100": 2.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_classify_objects_by_language_pi05": {
+        "n": 5,
+        "successes": 0,
+        "mean_score_100": 0.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_classify_objects_code": {
+        "n": 5,
+        "successes": 2,
+        "mean_score_100": 51.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_classify_objects_pi05-sparse-memory": {
+        "n": 5,
+        "successes": 0,
+        "mean_score_100": 17.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "reference_classify_objects_pi05": {
+        "n": 5,
+        "successes": 0,
+        "mean_score_100": 0.0,
+        "layouts": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "catalogue": {
+      "projected": {
+        "logical_cases": 15,
+        "native_completed": 15,
+        "successes": 5,
+        "input_tokens_mean": 11550.8,
+        "total_tokens_mean": 12437.866666666667
+      },
+      "unprojected": {
+        "logical_cases": 15,
+        "native_completed": 14,
+        "successes": 6,
+        "input_tokens_mean": 58336.8,
+        "total_tokens_mean": 59264.666666666664
+      }
+    },
+    "system1_sol": {
+      "groups": {
+        "classify_objects": {
+          "gpt61sol": {
+            "n": 5,
+            "input_tokens": 11545.0,
+            "output_tokens": 116.6,
+            "total_tokens": 11661.6,
+            "score": 47.0,
+            "api_seconds": 15.796895663800024,
+            "reset_to_result_seconds": 229.41943272239996,
+            "successes": 1
+          },
+          "qwen_reference": {
+            "n": 5,
+            "input_tokens": 11546.0,
+            "output_tokens": 1058.0,
+            "total_tokens": 12604.0,
+            "score": 32.0,
+            "api_seconds": 17.404910274199757,
+            "reset_to_result_seconds": 236.53175448939982,
+            "successes": 1
+          }
+        },
+        "classify_objects_by_language": {
+          "gpt61sol": {
+            "n": 5,
+            "input_tokens": 11587.8,
+            "output_tokens": 131.6,
+            "total_tokens": 11719.4,
+            "score": 46.0,
+            "api_seconds": 16.569807105400013,
+            "reset_to_result_seconds": 212.05784546900003,
+            "successes": 2
+          },
+          "qwen_reference": {
+            "n": 5,
+            "input_tokens": 11588.8,
+            "output_tokens": 743.6,
+            "total_tokens": 12332.4,
+            "score": 30.0,
+            "api_seconds": 12.265469193399985,
+            "reset_to_result_seconds": 214.75510789399996,
+            "successes": 1
+          }
+        }
+      },
+      "formal_http": 10,
+      "formal_total_tokens": 116905,
+      "smoke_total_tokens": 31,
+      "old_reference_rows": 10
+    },
+    "system2_sol": {
+      "starts": 11,
+      "completed": 10,
+      "interrupted": 1,
+      "interrupted_scores": [
+        ""
+      ],
+      "verified_receipts": 10,
+      "usage": {
+        "completion_tokens": 2338,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 512,
+          "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens": 3138,
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 3135,
+          "cached_tokens": 0
+        },
+        "total_tokens": 5476
+      },
+      "selection": "retain_parent",
+      "token_reduction_from_26363_percent": 79.2284641353412
+    },
+    "system2_two_formal_selections": {
+      "selections": [
+        {
+          "path": "result/17_system2_iterations/29_system2_api_20261030T101800Z/workspace/rounds/round-000000/selection.json",
+          "decision": "retain_parent",
+          "metrics": {
+            "candidate_round-000000": {
+              "normalized_score": 0.0,
+              "per_task": {
+                "classify_objects": 0.0
+              },
+              "success_rate": {
+                "classify_objects": 0.0
+              }
+            },
+            "initial": {
+              "normalized_score": 0.0,
+              "per_task": {
+                "classify_objects": 0.0
+              },
+              "success_rate": {
+                "classify_objects": 0.0
+              }
+            }
+          }
+        },
+        {
+          "path": "result/17_system2_iterations/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/selection.json",
+          "decision": "retain_parent",
+          "metrics": {
+            "candidate_round-000000": {
+              "normalized_score": 0.0,
+              "per_task": {
+                "classify_objects": 0.0
+              },
+              "success_rate": {
+                "classify_objects": 0.0
+              }
+            },
+            "initial": {
+              "normalized_score": 0.0,
+              "per_task": {
+                "classify_objects": 0.0
+              },
+              "success_rate": {
+                "classify_objects": 0.0
+              }
+            }
+          }
+        }
+      ],
+      "note": "Distinct formal-round selections in continuation lineage; duplicated workspace copies are not added."
+    },
+    "pi05_independent_final": {
+      "n": 20,
+      "successes": 0,
+      "all_scores_zero": true
+    },
+    "early_sparse_singleton": {
+      "result/09_single_task_validation/16_fixed_sparse_episode_20261028T230241Z/native-result.json": {
+        "success_rate": 1.0,
+        "score": 100.0
+      }
+    }
+  },
+  "source_sha256": {
+    "result/03_api_experiments/all_calls.csv": "9750f235b83b0f84019fbde0abf6958161a080f7b0b85d069bb448413c9f79ef",
+    "result/05_api20_execution_20261027/calls.csv": "e698d9b48c2a032cca108927e8fe80952c9a7c56cb200993004184aa331c7f26",
+    "result/05_api20_execution_20261027/raw_responses/scene_17__unprojected__r1.json": "f1a5bc5be5499f4e8ec9c6a7d9c737971700f772302acf83fe84bb52c8ad1784",
+    "result/05_api20_execution_20261027/raw_responses/scene_17__projected__r1.json": "31de8007aa7c3887fd9cc46b69c1521ba20f1f465efba38ef8dc89ce1eb64916",
+    "result/05_api20_execution_20261027/raw_responses/scene_11__unprojected__r1.json": "45a0131164d6f37be606963dfef757e3d68bbfce99d64fa13e96393a509a853a",
+    "result/05_api20_execution_20261027/raw_responses/scene_11__projected__r1.json": "0d07e329170c5252a195c4a48eaf4cbe9d3c1f95b0679b945001b375eccead90",
+    "result/05_api20_execution_20261027/raw_responses/scene_10__projected__r1.json": "8e6129fc0174c89731284f2ce8b49ce753392bf094037d8460563835647216c2",
+    "result/05_api20_execution_20261027/raw_responses/scene_10__unprojected__r1.json": "2b175b6c065e12627208fda90ce90fa95d440bdc5cd66d7285dd86beb59e1561",
+    "result/05_api20_execution_20261027/raw_responses/scene_05__unprojected__r1.json": "facdcba3e2ce5b15b261a0b2994ba799985f1b8c61826463d0a3cff7906e753c",
+    "result/05_api20_execution_20261027/raw_responses/scene_05__projected__r1.json": "5cb7b3a33c9f7e0be254ad2ba5f12d08f3ec79c5b221737b344b0a7dcec1d0c4",
+    "result/05_api20_execution_20261027/raw_responses/scene_18__projected__r1.json": "a943389e2251f7a23935b6cb402dd20d7b1e131399e7844addb09d463209b9c9",
+    "result/05_api20_execution_20261027/raw_responses/scene_18__unprojected__r1.json": "7c54da930315bb3b48694013233c7f48fb1e96d211e691bac5562dfaed9229fd",
+    "result/05_api20_execution_20261027/raw_responses/scene_08__projected__r1.json": "549d9b4398618d0bbcac39e03e4d3130d2735d10179a78a29734657f82071e17",
+    "result/05_api20_execution_20261027/raw_responses/scene_08__unprojected__r1.json": "6e35609eaf232af5b3a732454d002df25de20126607408e2f94ea17eda0533e8",
+    "result/05_api20_execution_20261027/raw_responses/scene_19__unprojected__r1.json": "25d0b5dd84f2d5e8176bdb8e3b6405b348a978eab51d6adeef6f2590d953cacc",
+    "result/05_api20_execution_20261027/raw_responses/scene_19__projected__r1.json": "d2b7a7250fb02167fdfa5b43718110176d75a2c51c71ab432cd2a8e53096dde6",
+    "result/05_api20_execution_20261027/raw_responses/scene_09__unprojected__r1.json": "9bfd7d00d613f194a58f63b325509c061bf5ac7d751468f8e7b0d5b3edd6afb3",
+    "result/05_api20_execution_20261027/raw_responses/scene_09__projected__r1.json": "cff5812cbae5a97afd0618d7c6fb946f84f7a794a2f8f4bcfae93dd69a1f4a9c",
+    "result/05_api20_execution_20261027/raw_responses/scene_20__projected__r1.json": "6101135bd0cbb5e815bf9b80af3c122653c5e78d790b69ff6be4d45730e8831f",
+    "result/05_api20_execution_20261027/raw_responses/scene_20__unprojected__r1.json": "a0de7e25dc6cd9b16092e787c14f36144d8aca4c11422602fafe8efe51f86027",
+    "result/05_api20_execution_20261027/raw_responses/scene_07__unprojected__r1.json": "2ac78f079511a69b0298d612264bb93f31ed7bdc036d3c8905f7c4cb4d3d8470",
+    "result/05_api20_execution_20261027/raw_responses/scene_07__projected__r1.json": "41a08add9b152edca2d6bb60ae2e746ab3fc34bce351256e299bca2da23856c2",
+    "result/05_api20_execution_20261027/raw_responses/scene_13__unprojected__r1.json": "e706911d721349967ecc9e29f1f8cf81f3927acb2f6d87fc181d81205bf8a048",
+    "result/05_api20_execution_20261027/raw_responses/scene_13__projected__r1.json": "0e5a301cca548f1e56ebf7025d47a5ff7a8c0e628ace22de1496ef6c4ac5ffa9",
+    "result/05_api20_execution_20261027/raw_responses/scene_04__projected__r1.json": "0b210a0521692ac1c7e7492757ff908dd1c901713f9ce50b68e3e8eda9580a6f",
+    "result/05_api20_execution_20261027/raw_responses/scene_04__unprojected__r1.json": "df1019488fcafdbd8589d364ce0e552e12d2085dedcc96b4c9028b98225f12c4",
+    "result/05_api20_execution_20261027/raw_responses/scene_06__projected__r1.json": "338d20e4d38c7458928f1ed08e44fbfa3dab83f8548fc40681fcd4bfc9c109cf",
+    "result/05_api20_execution_20261027/raw_responses/scene_06__unprojected__r1.json": "fc26a408e2627a9dac656f21ecb4cbf15bd63c6aa2f99fc30228e25fb2ed4ff0",
+    "result/05_api20_execution_20261027/raw_responses/scene_15__unprojected__r1.json": "25853a3fc1c8562344fb538507c682d1c8d0771c24437ef941393d7cebd5f204",
+    "result/05_api20_execution_20261027/raw_responses/scene_15__projected__r1.json": "d3751c47265d8bfda0c3228ed259811ff6fb18ae7cc5b6458352c510747117a9",
+    "result/05_api20_execution_20261027/raw_responses/scene_14__projected__r1.json": "152fd6c8da34fb0fe3094e18765d80b6b5e1a3752e7ced189ea3fbb1b964b57b",
+    "result/05_api20_execution_20261027/raw_responses/scene_14__unprojected__r1.json": "8705f65ed478010a92e362799ff790ae4881447c60dd3c4294bbd44154142125",
+    "result/05_api20_execution_20261027/raw_responses/scene_02__projected__r1.json": "bfa0f6654d364273e0e603000f1cc231c800bbaddd899320ab7b0aa05b8cd093",
+    "result/05_api20_execution_20261027/raw_responses/scene_02__unprojected__r1.json": "d9fcbb2d5fccf47d72a7dd89097e9703385415ad730c536d492e4e1ffe7b2332",
+    "result/05_api20_execution_20261027/raw_responses/scene_12__projected__r1.json": "96014f1dd958af494db4906c6690cefb43c63391e879518c7dfc8b80b89839f1",
+    "result/05_api20_execution_20261027/raw_responses/scene_12__unprojected__r1.json": "ffe1cf7c3b97f44cb85ee18874ed8c0fb491d3bf08f0f8042b8b952a32df6242",
+    "result/05_api20_execution_20261027/raw_responses/scene_16__projected__r1.json": "2ee2bd2df16600347f5f2580d52eaff5d57ba1f90c6b6b2de258404b05549a8b",
+    "result/05_api20_execution_20261027/raw_responses/scene_16__unprojected__r1.json": "62ac57b5ba3688d40a1c87a9f9ed23316a7b1fca5245aeffa18a1f092f0df139",
+    "result/05_api20_execution_20261027/raw_responses/scene_01__unprojected__r1.json": "5eda272c5a2809fcebc31742e22abe6dae7e1ddd4ad068b3a23f8c513df12708",
+    "result/05_api20_execution_20261027/raw_responses/scene_01__projected__r1.json": "38cbc38b157cc65d7fd6bfcafca7c57b7b6325fc7f7c0848f1041b43fbb1e593",
+    "result/05_api20_execution_20261027/raw_responses/scene_03__unprojected__r1.json": "080becf5a8859a3003b43aba349e0f696ea36b3b6d92242f2c027bbb8cd94f23",
+    "result/05_api20_execution_20261027/raw_responses/scene_03__projected__r1.json": "175289fcf2b08af178199466f7c3897cbc32150f8a2cbbd8ea35c123dea72528",
+    "result/05_api20_execution_20261027/raw_responses/scene_02__unprojected__r2.json": "c08171ea9cdcd9ae3b554b73c399bbf0bab5aeeedd74cf4a4b3d7ee422e11f6e",
+    "result/05_api20_execution_20261027/raw_responses/scene_02__projected__r2.json": "0862e6d1ab4d23fffb01db90ed4b3cb15940cb4eb2acb270faf7557212bf0730",
+    "result/05_api20_execution_20261027/raw_responses/scene_05__projected__r2.json": "2f816a8215f4d807b07a665ecd0f63c4b88caae856ca0f2360b5f1e1b7f7d355",
+    "result/05_api20_execution_20261027/raw_responses/scene_05__unprojected__r2.json": "3b2a8916ec89134bec1aea20a8cceab7e701cbbf5a7e8e7eb30b123f1228f1dd",
+    "result/05_api20_execution_20261027/raw_responses/scene_09__projected__r2.json": "7aa7ff6650d4fb44d7b7197221fda9a1dfb992f37910707dae4debf2a4ee3c11",
+    "result/05_api20_execution_20261027/raw_responses/scene_09__unprojected__r2.json": "295d3100eb3754c1321bd6b65aefe053e511d61311323b37babbed64b3ad2490",
+    "result/05_api20_execution_20261027/raw_responses/scene_12__unprojected__r2.json": "9dc4422b11ba7697606840e89faa19e8be45d08614fb2f1ae6e74394f0f16997",
+    "result/05_api20_execution_20261027/raw_responses/scene_12__projected__r2.json": "7951bcb781e380950446c278db2be145bb9d6ec736b6ba57729b09cd66692b41",
+    "result/05_api20_execution_20261027/raw_responses/scene_08__unprojected__r2.json": "30c912b7e8683d93f85eef56fff726c81d77bc9dae6f345b63512aa99be2fdef",
+    "result/05_api20_execution_20261027/raw_responses/scene_08__projected__r2.json": "9d6a46804eab63f25ed411a8c2bcc586f2db247c77fd84e6f565d0c8e3ff2954",
+    "result/05_api20_execution_20261027/raw_responses/scene_01__projected__r2.json": "5c5451fdfa5bc988f2f64e116efe99e54b32c1c6b04967af49b4d9165ed247dc",
+    "result/05_api20_execution_20261027/raw_responses/scene_01__unprojected__r2.json": "9c857ebfaa6154b24e6c8dacd746b969e3a81192bce81784bce7203f92c149ba",
+    "result/05_api20_execution_20261027/raw_responses/scene_19__projected__r2.json": "03664f8785c17f63e80803f315d4dc083ca07d1ce74486ffd676318726ee797f",
+    "result/05_api20_execution_20261027/raw_responses/scene_19__unprojected__r2.json": "8264826bf31321aba5614dac6a057b6bf2a1d178ffb476d1469969b816f0d77c",
+    "result/05_api20_execution_20261027/raw_responses/scene_04__unprojected__r2.json": "68dcb755232e775161eefeb66ccc9ac663f6fac5e6c50f8e99316abf7a2452c9",
+    "result/05_api20_execution_20261027/raw_responses/scene_04__projected__r2.json": "7d134efb017c062a140b8ed3e5ba4fc99fac7d2a759301ece3dfb4a62846c573",
+    "result/05_api20_execution_20261027/raw_responses/scene_20__unprojected__r2.json": "1216ba35dbb501e9c7c0da475d4ceca5fcb9794ad9886d235ae8da3cc93943bf",
+    "result/05_api20_execution_20261027/raw_responses/scene_20__projected__r2.json": "fb3dcea580559aeacd0502c26f41d53f9bcb4fee6c3f63d6a616f2a339b63181",
+    "result/05_api20_execution_20261027/raw_responses/scene_10__unprojected__r2.json": "72c1bc8a7fe45f814c5846fcc9e59cb4f71d783ebd299be61d9c93370f0b3b0d",
+    "result/05_api20_execution_20261027/raw_responses/scene_10__projected__r2.json": "9e583d6bf5c637b8eee251a189f760c4bd317f3d4cb5f68cf53def7059f07ebd",
+    "result/05_api20_execution_20261027/raw_responses/scene_13__projected__r2.json": "755beb596bff861734989a28285b0023372442528cdd5c7b0c74316a41e9e2c8",
+    "result/05_api20_execution_20261027/raw_responses/scene_13__unprojected__r2.json": "0b58ba87978c9f67271a981b79bb3abf59e766271b5fb9b27187e0cfb34cfbc8",
+    "result/05_api20_execution_20261027/raw_responses/scene_18__unprojected__r2.json": "12db41962a51ad39d98421d1f915537d412eb9eca88d39585286626ebbf358bd",
+    "result/05_api20_execution_20261027/raw_responses/scene_18__projected__r2.json": "e9e04a9d72d602cda1106041513f3c66ec82fd13c36be76429028da118653457",
+    "result/05_api20_execution_20261027/raw_responses/scene_03__projected__r2.json": "daef65cd80c75b8d2cd83b66a3c62292eefd5cf6bb24ee93e296c71b27d4e92b",
+    "result/05_api20_execution_20261027/raw_responses/scene_03__unprojected__r2.json": "e1d1fa1b1ac263d4e9f625418cdb258584eb14b183695049a899173d4509c831",
+    "result/05_api20_execution_20261027/raw_responses/scene_17__projected__r2.json": "bff005b7fcb77502614758427a8ebcfdb463a496747b49b4af3d728c10d0197f",
+    "result/05_api20_execution_20261027/raw_responses/scene_17__unprojected__r2.json": "11410a41a5b4dd8e43d1f8f0254ee4813b2403455e9f278f72d0b9b3d435df2a",
+    "result/05_api20_execution_20261027/raw_responses/scene_11__projected__r2.json": "61d9f8ca3e3df6b58390b5c2e16921372419c6c1a49cf06dd19c43fe359ebc85",
+    "result/05_api20_execution_20261027/raw_responses/scene_11__unprojected__r2.json": "83d5bdb74eae918ec644f7b0c0da5112714a4a02aa6d1ebaf852bd38ca82702d",
+    "result/05_api20_execution_20261027/raw_responses/scene_14__unprojected__r2.json": "b4a0771556056f0544f606ba94b19408a3fb9f192a7aef51e5792b4dbaaee301",
+    "result/05_api20_execution_20261027/raw_responses/scene_14__projected__r2.json": "b2289149036598f4cc4c1e1e9cf7b6e35df4eaa005f7b731c6258644ce41ee67",
+    "result/05_api20_execution_20261027/raw_responses/scene_16__unprojected__r2.json": "083a211ae4ab816318b037fee74c34a9bda95c8f131410616aebc5920b1b56cc",
+    "result/05_api20_execution_20261027/raw_responses/scene_16__projected__r2.json": "24c5f8f0c232c20960525978e186b19e46318ed63d4c348b129e893d7595cd2e",
+    "result/05_api20_execution_20261027/raw_responses/scene_07__projected__r2.json": "4dd1ed55261b733164c1853d7e0ca7eb02f95fea28b5e43ae92c9241c53d9db7",
+    "result/05_api20_execution_20261027/raw_responses/scene_07__unprojected__r2.json": "c72596f56a51d7e9431290ddcbb8cc8edc186bdeca126b9f273c06478cee1284",
+    "result/05_api20_execution_20261027/raw_responses/scene_06__unprojected__r2.json": "cac1f663a88cd459ffaa769a3e673bb113c57e2d102e301dc2d4f43b41383f33",
+    "result/05_api20_execution_20261027/raw_responses/scene_06__projected__r2.json": "4f1b6c9e84d9c3f2326ba0f53af4fdefcb3aff8f4975070eebf84ed0e44761b8",
+    "result/05_api20_execution_20261027/raw_responses/scene_15__projected__r2.json": "85b4f2d0708ef489f84fb164f28a66709a27a4be10acd43819cda3ad6ca4520e",
+    "result/05_api20_execution_20261027/raw_responses/scene_15__unprojected__r2.json": "0eb8fb7709fe6272e09311e6d7fc031b801f91c625420946b23f17aa07b89f85",
+    "result/05_api20_execution_20261027/raw_responses/scene_14__projected__r3.json": "d8d72c1542cfe0c5294c0377b7ec5e9b09576175fe79962f1cf40d68c03d6652",
+    "result/05_api20_execution_20261027/raw_responses/scene_14__unprojected__r3.json": "d9a5e31ed49076a0f7f59e07bc96fb6d041499e75360e2ab03bc890cf4b1d72b",
+    "result/05_api20_execution_20261027/raw_responses/scene_10__projected__r3.json": "2ac028f1c152258611a0a3bf52d1a3979a1c2fdadfe1e5d8da14df43a19b6bd6",
+    "result/05_api20_execution_20261027/raw_responses/scene_10__unprojected__r3.json": "11b5306455590e526dfda86d22bad011f3f86d4e18b0f3ae5b5f328274542e6e",
+    "result/05_api20_execution_20261027/raw_responses/scene_01__unprojected__r3.json": "9138f3d9a3853032570d281ed40933100f2db7ea20f7ffbb250945d56843bac1",
+    "result/05_api20_execution_20261027/raw_responses/scene_01__projected__r3.json": "d1659512e8b8f42b4f7abe0d101bde225f519629c396780b17f8004b28aa84a0",
+    "result/05_api20_execution_20261027/raw_responses/scene_17__unprojected__r3.json": "4bbb7a24b9799df84acc466e0ed4ff04366f6f80ffd4d6bd182a4f988ea6833b",
+    "result/05_api20_execution_20261027/raw_responses/scene_17__projected__r3.json": "49539314ee9a3b0b420d47b69c8bc85d15a61b93aebc700dd200b98b9e98742b",
+    "result/05_api20_execution_20261027/raw_responses/scene_12__projected__r3.json": "7a947fc9530fa4bb4914fd382b363a99fc3d23a6b65c1f85715961aa6dfebd8d",
+    "result/05_api20_execution_20261027/raw_responses/scene_12__unprojected__r3.json": "972985700205e431dc2d92a620e1507445d05f8d46d78ff6817014489c977630",
+    "result/05_api20_execution_20261027/raw_responses/scene_11__unprojected__r3.json": "8d66d50e4e6686dca483a4a8798393d970af831a4bc0c12c309a6730ade9f21f",
+    "result/05_api20_execution_20261027/raw_responses/scene_11__projected__r3.json": "178dc9d19615db1382aed20753d7e66b8fdfb1ee9d3541bf229c10f6beef3a6c",
+    "result/05_api20_execution_20261027/raw_responses/scene_02__projected__r3.json": "4ab1b1dda544b153c9eca4c143eb7c1136d9d23490210711c30d3b66c433c463",
+    "result/05_api20_execution_20261027/raw_responses/scene_02__unprojected__r3.json": "80b8ca9a240029890a97cd53ae4e6486d0ce6670aa5de29a87eb6654c6010701",
+    "result/05_api20_execution_20261027/raw_responses/scene_06__projected__r3.json": "4577a9326d3b9953bd78ab3af764f48c93c376125560f78840099e248e8b03e9",
+    "result/05_api20_execution_20261027/raw_responses/scene_06__unprojected__r3.json": "0638b484affe6d68aacd77c7091292749f22d9baf21552b88305a7d780ef670f",
+    "result/05_api20_execution_20261027/raw_responses/scene_15__unprojected__r3.json": "ef7a5af17568018ba87eac0332cfdb6168bf14ffc25721d390f77e89b45d3c1a",
+    "result/05_api20_execution_20261027/raw_responses/scene_15__projected__r3.json": "aae00f141c509a9a5d74c3c0ddaa4aa3cee14d468897d716e8a38d648cd06762",
+    "result/05_api20_execution_20261027/raw_responses/scene_08__projected__r3.json": "a8585cd5065f0af5f291d8da2e4f92bbf8655cd0a362b368cce029ddd08230fc",
+    "result/05_api20_execution_20261027/raw_responses/scene_08__unprojected__r3.json": "151cb713d9220ad3e7bf364519f19b447ec5924e66e3ae0cd816c3dcd46a3c44",
+    "result/05_api20_execution_20261027/raw_responses/scene_07__unprojected__r3.json": "e0bb89e0016fa3323a98bd3260117bb0de436c67a7e3d94d15eae099e8f0e1fc",
+    "result/05_api20_execution_20261027/raw_responses/scene_07__projected__r3.json": "3f29c709d7bd560c38b427cdebab5a849d457c3c8bd8b73753034a72d35d30dc",
+    "result/05_api20_execution_20261027/raw_responses/scene_18__projected__r3.json": "c8f294f7bb12f966340a6d512c210c7c7704b4b68081d817ee0ba382dbf70cc5",
+    "result/05_api20_execution_20261027/raw_responses/scene_18__unprojected__r3.json": "000c0cd677466a0a88d8bb106795f1c860da73bbc035b30b09d0a873ee05c4cc",
+    "result/05_api20_execution_20261027/raw_responses/scene_13__unprojected__r3.json": "f72b605b26dcebe1361d95fd51c8a71a3987942bd50f7526fdf18786e6e3a50e",
+    "result/05_api20_execution_20261027/raw_responses/scene_13__projected__r3.json": "413a17132c7da4af15b74abed11ccda87bef686d98eff7089eb2f286ebaee853",
+    "result/05_api20_execution_20261027/raw_responses/scene_04__projected__r3.json": "313fd4710a0f375aad7496aef44e64445496c2d748b90f87665432e74da4ca8b",
+    "result/05_api20_execution_20261027/raw_responses/scene_04__unprojected__r3.json": "1dd809761d27723227fa3bc07c21e8acb547ccba17f174c509b7cb7e14d18982",
+    "result/05_api20_execution_20261027/raw_responses/scene_20__projected__r3.json": "111a9e7c45e739aff746482f7f851dcc2b632438cc5c0c412b35d3c403e28c22",
+    "result/05_api20_execution_20261027/raw_responses/scene_20__unprojected__r3.json": "164973fd50498a02bc71e79520c6a407bc952604ff8cbc4f47d75d748e87e62b",
+    "result/05_api20_execution_20261027/raw_responses/scene_19__unprojected__r3.json": "7f5faf4df0853de165f8d0b05b6361e5e45be09878524f3691933ea0e081def9",
+    "result/05_api20_execution_20261027/raw_responses/scene_19__projected__r3.json": "ef676eaa135f1229de8c03b2266329e2da62b6dec3ecc5075abfc859e9d45ceb",
+    "result/05_api20_execution_20261027/raw_responses/scene_05__unprojected__r3.json": "42c9ce59fcd51b629ea1ccdf5995fa0fe817e3c9306119490e53bfbee83cd608",
+    "result/05_api20_execution_20261027/raw_responses/scene_05__projected__r3.json": "028ee3399d4f7f28ceff62fea2a22b3039d0fd4424bb0b67e328f9e7d97a283b",
+    "result/05_api20_execution_20261027/raw_responses/scene_03__unprojected__r3.json": "5fc4b002c048576d40d67e1357dc18e8c2879a1500badc5f9741932b14091bf6",
+    "result/05_api20_execution_20261027/raw_responses/scene_03__projected__r3.json": "8006458411ac5d01a057ada0f54622493056c71830135d4b10d078da2618b5e0",
+    "result/05_api20_execution_20261027/raw_responses/scene_16__projected__r3.json": "3bcd922a9cc692edcaef5120fab4a90fc10ecc77ff7c7af29fd6d906a9264dfe",
+    "result/05_api20_execution_20261027/raw_responses/scene_16__unprojected__r3.json": "9d8e9e809d57ddd0a1b929d0d32dfb05c21623e0ecb0f761fbbaeeef84b94134",
+    "result/05_api20_execution_20261027/raw_responses/scene_09__unprojected__r3.json": "da66c54377c36b187311f5827dc3621b963eca7d5aa6d1948fd84263a27619e7",
+    "result/05_api20_execution_20261027/raw_responses/scene_09__projected__r3.json": "e586a5cce5575b45afa625728562030c35c2ec033442714eb53d4dcc0fe8ab17",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_agent/native-result.json": "2bd97275b6c9036e2d32070a5f785c99fe7f8c973ef158fe385b7ee957311f06",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_by_language_agent/native-result.json": "c658e5f4a8c274758cff6e338b3a715402d471f103c9e5a8c01d6e14a40ce21f",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_by_language_code/native-result.json": "681716c3f677c9095b6dba5e7b886149c8ed2d0af8adf7617e7abb8829f3a06e",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_by_language_pi05-sparse-memory/native-result.json": "f13bd2446784e2e8721a207df8ca89b14c9b0c32da3228b6926984ecda32f564",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_by_language_pi05/native-result.json": "cd2aa2c44e387225bcb8f85b5360283ed50632a699748068d99f2e59cfe39339",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_code/native-result.json": "2d0d22d3456b2f71a8a187471f51db3b2b38e179832e0adfdb924ba3c0006c87",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_pi05-sparse-memory/native-result.json": "8aa70ea25dbfb188cc3d0a4afbed0b8d408c3865707fe1f85272edff3e07e310",
+    "result/15_system1_diagnostics_memory/24_steps23_20261030T013742Z_v3/reference_classify_objects_pi05/native-result.json": "cd2aa2c44e387225bcb8f85b5360283ed50632a699748068d99f2e59cfe39339",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/cases.csv": "92ae7a2f0e4a28bbd630da7fcc78a48d927b2c0ddd40a4b87c4fa7cea2b67f1d",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout01_projected/native-result.json": "8ae6a937232fc1b8c6d1e3b297a60df76889c266a3fa45274dc4e42ae609b509",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout01_unprojected/native-result.json": "8ae6a937232fc1b8c6d1e3b297a60df76889c266a3fa45274dc4e42ae609b509",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout01_projected/native-result.json": "8ae6a937232fc1b8c6d1e3b297a60df76889c266a3fa45274dc4e42ae609b509",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout01_unprojected/native-result.json": "8ae6a937232fc1b8c6d1e3b297a60df76889c266a3fa45274dc4e42ae609b509",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout01_projected/native-result.json": "8ae6a937232fc1b8c6d1e3b297a60df76889c266a3fa45274dc4e42ae609b509",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout01_unprojected/native-result.json": "8ae6a937232fc1b8c6d1e3b297a60df76889c266a3fa45274dc4e42ae609b509",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout02_projected/native-result.json": "7046d2412d1e4cde0c60664ae5a70e1e0e9f31989a426b7893c00433afd7feb5",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout02_projected/native-result.json": "7046d2412d1e4cde0c60664ae5a70e1e0e9f31989a426b7893c00433afd7feb5",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout02_unprojected/native-result.json": "7046d2412d1e4cde0c60664ae5a70e1e0e9f31989a426b7893c00433afd7feb5",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout02_projected/native-result.json": "7046d2412d1e4cde0c60664ae5a70e1e0e9f31989a426b7893c00433afd7feb5",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout02_unprojected/native-result.json": "7046d2412d1e4cde0c60664ae5a70e1e0e9f31989a426b7893c00433afd7feb5",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout03_projected/native-result.json": "da320cac65f46500da326a25e3b5f36a433d844b25f08c9dff59c323ba942bdc",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout03_unprojected/native-result.json": "e953b1c725f5dcc1b342774f0f89e01409eec6a9814f5fd19c5b4b5b4affc1ef",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout03_projected/native-result.json": "e953b1c725f5dcc1b342774f0f89e01409eec6a9814f5fd19c5b4b5b4affc1ef",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout03_unprojected/native-result.json": "da320cac65f46500da326a25e3b5f36a433d844b25f08c9dff59c323ba942bdc",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout03_projected/native-result.json": "e953b1c725f5dcc1b342774f0f89e01409eec6a9814f5fd19c5b4b5b4affc1ef",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout03_unprojected/native-result.json": "da320cac65f46500da326a25e3b5f36a433d844b25f08c9dff59c323ba942bdc",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout04_projected/native-result.json": "394fc192b798dd061440317bf387e76b4b59b1d7d2e95ffa92b46b88daed9375",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout04_unprojected/native-result.json": "394fc192b798dd061440317bf387e76b4b59b1d7d2e95ffa92b46b88daed9375",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout04_projected/native-result.json": "394fc192b798dd061440317bf387e76b4b59b1d7d2e95ffa92b46b88daed9375",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout04_unprojected/native-result.json": "394fc192b798dd061440317bf387e76b4b59b1d7d2e95ffa92b46b88daed9375",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout04_projected/native-result.json": "ea87682a5ef1824a77f04e22e412b395f7fe5087366e664618da42c5a80b599e",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout04_unprojected/native-result.json": "ea87682a5ef1824a77f04e22e412b395f7fe5087366e664618da42c5a80b599e",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout05_projected/native-result.json": "f0a315db3bb5acdc0177bae9a8df1e5b1db26ce14b043f95539d60bf66a931a4",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r1_layout05_unprojected/native-result.json": "f0a315db3bb5acdc0177bae9a8df1e5b1db26ce14b043f95539d60bf66a931a4",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout05_projected/native-result.json": "f0a315db3bb5acdc0177bae9a8df1e5b1db26ce14b043f95539d60bf66a931a4",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r2_layout05_unprojected/native-result.json": "f0a315db3bb5acdc0177bae9a8df1e5b1db26ce14b043f95539d60bf66a931a4",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout05_projected/native-result.json": "f0a315db3bb5acdc0177bae9a8df1e5b1db26ce14b043f95539d60bf66a931a4",
+    "result/11_catalogue_ablation/19_catalogue_ablation_20261029T051109Z/r3_layout05_unprojected/native-result.json": "f0a315db3bb5acdc0177bae9a8df1e5b1db26ce14b043f95539d60bf66a931a4",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/episode-results.csv": "370f01db5afc8d10284ddec185580c963ebfbea4964e4b1f0add9761c78bbd4f",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_agent/native-result.json": "4ebcbb1a25ebd67666f530964d93f1c2391c5542c2ce3f6223a05d4544e33089",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_by_language_agent/native-result.json": "81cbf18265a90e40a2fe6b09077faa5df99aaa33f11d1be8ef337642a15a99df",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_agent/api/call-001-response.json": "750d89d8130996fa874d722dc14e7c761afe84afbd2c04a226f03c9f2a243e63",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_agent/api/call-002-response.json": "ee26a59ad42d3726d57176ce7d3215b557248f978659b66a868834e894ae89a2",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_agent/api/call-003-response.json": "2a190fcc10460c7fcc25f1c3d431f836aba0afbdee0c1e37383fd304899bc4ab",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_agent/api/call-004-response.json": "5a266b0d3e4feec914732e3886f00ae88f67e3594227f97875f3a07cba2b50c3",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_agent/api/call-005-response.json": "10823d0e5c7c9099b4035965870842d0bfb61d4af3b21a1859812826badcddbd",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-response.json": "c111c9a42fc7bed4de64468c632d99ee5b166de4b733d55eaeb310260fef5883",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-response.json": "0071529d356fe80007a15be60ee6f4d8803d0f761547944408ce9c97f0fef197",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-response.json": "24a229d625d530eec289f2e3ace5943250fb5356c0dd52d37409e7196518886b",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-response.json": "e7a9caa93a08b287c3b836ae0171e52073012764deb16d46557bb9d23dab7593",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-response.json": "8876aea04e7a49866693e84ea0fd6a89a25edc9a8dcefcc9da3108574ce3fc93",
+    "result/24_system1_model_swap/37_gpt61sol_supplement_20261102/schema-smoke-response.json": "168e1ba09988fd7299e52f4b198d7e09ee7caefb68ffb076126373295b1736af",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/episode-results.csv": "03335839296faa103b43c2c3e20514407b0885b7c95d30df8df28a3fd4c1836c",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-0/0.json": "4088e6996d0972b2544d73212ac68be7bbc15a06c333a61eae85fab2185ccadc",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-1/0.json": "fe7310e7c5f2ca3ca6e59be2eb43d1682c17c1b101fd7b51f39743f33c523fb8",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-10/0.json": "4125e8b2f3e783edef8e2393b42d48a681f78c98f5728f91f6a5b252b45beda1",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-2/0.json": "6217433f391fbb46f6424593e65b0223f3a7fdd1d9eb035b507bbbb89753566a",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-3/0.json": "dd9b758cce389ee9f2b78a1ad9cdb48d0c861f757ee6e7abd442aac8b6e17d1d",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-5/0.json": "f220b0c282079f751cc70f67d40857b07c1ff081383809507391004c9486b049",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-6/0.json": "6d679d3d39db2413320de1b0d472f5529f07b441cda63f5eb39eafa48cb088b2",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-7/0.json": "e52b08743b0a6223a368f45647dd8c4f03b5a46bba69fb25cd68311b1facaa11",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-8/0.json": "9f37fc1f6c96a743578ffcbe628640c6146475c0b9921fbb686b57a4f1c0e225",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/native-receipts/batch-9/0.json": "9af9c8c7a711f606b0b2e7e46d6d04012704a138220267d0aff6572d3e418830",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/proposal-api/call-0001/response.json": "47279a7925f2454f4674257033ed4abc8c717bd501d2b5672b2c8c38a4f944f4",
+    "result/25_system2_model_swap/38_system2_gpt61sol_20261102/round/selection.json": "96327269dcb044a16e41717b15aeb783d20d21ad2209626d6aeb71ecbdbe1e19",
+    "result/17_system2_iterations/29_system2_api_20261030T101800Z/workspace/rounds/round-000000/selection.json": "8f47e4df38e559a88c36c5516ffe4a665651731486341652a6d198c5f292167c",
+    "result/17_system2_iterations/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/selection.json": "530114c2bb4d7aabdea5fcf7f225f6c12b01b8533ef1e47058c85732f44bc083",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/00/episodes/0.json": "3c87b23f112d2f961bb184878e037600a0a4f8915f5bd749b4870a51ce7c179f",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/01/episodes/0.json": "a764db30f3e135a879be7fa7467a7910e476b95c2794152082842b514ff261a4",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/02/episodes/0.json": "dc8aaa9e53087724b3a22c8b6be10dab15889bf91616a6c6c7c15010d5a8f6bd",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/03/episodes/0.json": "548e3ca31f08ec7b780216d5c3bfd1ffd6804db18f50170cc9b07b11c4ac0ec7",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/04/episodes/0.json": "c4739bb1f6713bd03cf578b7aa1b410be277cea6165616ff36e011c35d2a2e44",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/05/episodes/0.json": "b49fe633262e323eb32b3502fc26e2191a4d1ed3d1f5c3b260c2175ab814494c",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/06/episodes/0.json": "4c0c891da6050dcca77e3f08bc5263b95b4f8b500e3b0623136269a75da41d12",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/07/episodes/0.json": "2d0718c98f6b699c26dda4267e5e03b723332471f3d9dc02fc91e225af348267",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/08/episodes/0.json": "b68ac30e8bc8f6ddce8eef76bdfd8a3ad1dfdc7bbc1452bcaa1d2d19a6070710",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects/09/episodes/0.json": "77c2d74bcb2a33fdb986f7ab999d5c5451864f084c44d8f290cd3403e344a44a",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/00/episodes/0.json": "cd349a07c9ebabab6304ae17284539ed75d1e9a9c9feb326d799d82218e36365",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/01/episodes/0.json": "bc5313e0464998d1d0aa21c154557dbe58a6aa30b89c55ba0be1394394b91a76",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/02/episodes/0.json": "0e72d1c837ceae68cbeb9f5f97feeac9dbf429104c9f70f2c561891369fbc87c",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/03/episodes/0.json": "9eedaae1101dccff08c138c4e9d26537077409caa1872fbc71dfb53bef2c26d7",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/04/episodes/0.json": "5bca1bba5cef00d034334300f74d00ba7e17dd51d362e583ba652532d6ed492f",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/05/episodes/0.json": "ad1c1960ecc1def306f39a542e132dd59ef656b458b41a61da8742fbb162cd0f",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/06/episodes/0.json": "16c1602509c97732252798c8da4cbd6cec318cbf804f074bf7b1809fd2157a27",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/07/episodes/0.json": "e31d2309eb41c35d3fe8527825c686c54368fe5cb8a2ed47a57633184d4089e9",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/08/episodes/0.json": "09c8f7f41c51706d8a54f1427c7e5c1b03906e7b1286133bdfb00424c1dea1ce",
+    "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-test/native/classify_objects_by_language/09/episodes/0.json": "ee84a33c1762a8a2978e64ac922f7baff2e8fbf2d71f038f0f2e180bc60f3358",
+    "result/09_single_task_validation/16_fixed_sparse_episode_20261028T230241Z/native-result.json": "117b7aac5c033705b64fc53e97b00912e1fec4f50cff9869aee75b750b3529a6"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "layout": 1,
+  "variant": "original_20cm",
+  "seed": 2,
+  "action": {
+    "arm": "left",
+    "position_m": [
+      0.00721594799406127,
+      -0.18376721396225296,
+      1.145
+    ],
+    "quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ]
+  },
+  "start": [
+    -0.8538886308670044,
+    2.1327099800109863,
+    1.7190346717834473,
+    -1.1673202514648438,
+    0.026916762813925743,
+    -0.31595084071159363
+  ],
+  "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+  "planner_status": "Fail",
+  "seconds": 0.07228941842913628
+}

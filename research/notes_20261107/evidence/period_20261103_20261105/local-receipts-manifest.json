@@ -1,0 +1,212 @@
+[
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/system2_attribution_review_20261104/status.json",
+    "copy_path": "local_receipts/attribution_review/status.json",
+    "sha256": "c78eb35ea83a3efb46bb210c4716cb94de24fd580de59961eaa2a4b91f391373",
+    "bytes": 914
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/system2_attribution_review_20261104/核查说明.txt",
+    "copy_path": "local_receipts/attribution_review/核查说明.txt",
+    "sha256": "34f036ced9c492e3762727f234fa4171bd35e7bb7e747c13aeb34bbc3f090a4b",
+    "bytes": 6317
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/system2_attribution_review_20261104/verified-evidence.json",
+    "copy_path": "local_receipts/attribution_review/verified-evidence.json",
+    "sha256": "759ea087b817a403512daaff8b1593a7386f984800d013b83e4a7b77381800c5",
+    "bytes": 2013513
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/system2_attribution_review_20261104/round1_candidate_verified.py",
+    "copy_path": "local_receipts/attribution_review/round1_candidate_verified.py",
+    "sha256": "a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8",
+    "bytes": 2000
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/system2_attribution_review_20261104/round2_candidate_verified.py",
+    "copy_path": "local_receipts/attribution_review/round2_candidate_verified.py",
+    "sha256": "3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195",
+    "bytes": 3540
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/lab_readiness_20261104/status.json",
+    "copy_path": "local_receipts/lab_readiness/status.json",
+    "sha256": "f0773af7c35e4ba448d50866b05b337d65b90a4719f85fe3a55d27beb87a6544",
+    "bytes": 1917
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/lab_readiness_20261104/检查结论.txt",
+    "copy_path": "local_receipts/lab_readiness/检查结论.txt",
+    "sha256": "ae1448c88d5600b53cda0f917a3da1892bb8b5c83e95f470403aaea220d9b874",
+    "bytes": 5389
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/lab_readiness_20261104/runtime-check.json",
+    "copy_path": "local_receipts/lab_readiness/runtime-check.json",
+    "sha256": "3cf371f3cc0f94c51f828426172ac0bbd5216d54f678ea3b991f14f6cc13caea",
+    "bytes": 10125
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/lab_readiness_20261104/inventory.json",
+    "copy_path": "local_receipts/lab_readiness/inventory.json",
+    "sha256": "712d07a7a96cc4088cdba8923ac7701e919a7b3211e54c2f850f4f13d45c7961",
+    "bytes": 66667
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/lab_readiness_20261104/payload-check.json",
+    "copy_path": "local_receipts/lab_readiness/payload-check.json",
+    "sha256": "f2a1bf16506c507f0e8d98cf140ac4e6df9e0c4055f03966d5f1d20f3d08f922",
+    "bytes": 27306
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/lab_readiness_20261104/path-check.json",
+    "copy_path": "local_receipts/lab_readiness/path-check.json",
+    "sha256": "aaf85b2c974a1e180e21efc8e69ea7a87bd936f3b84ff148230838ab9353f3a0",
+    "bytes": 11221
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/system2_offline_20261104/status.json",
+    "copy_path": "local_receipts/offline_control/status.json",
+    "sha256": "aaeb16bf15b3db17a7f6c6c36b9038050d99683ce1de243b5286333e10d1778d",
+    "bytes": 1327
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/system2_offline_20261104/本轮实验结论.txt",
+    "copy_path": "local_receipts/offline_control/本轮实验结论.txt",
+    "sha256": "f016b82c2a2435ff627127f3f8ffc5758a35ac7d977f7e409b6e6fdc863c6b73",
+    "bytes": 2211
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/system2_offline_20261104/LAB_STUDY_COMPLETE_20261104.json",
+    "copy_path": "local_receipts/offline_control/LAB_STUDY_COMPLETE_20261104.json",
+    "sha256": "aaeb16bf15b3db17a7f6c6c36b9038050d99683ce1de243b5286333e10d1778d",
+    "bytes": 1327
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/system2_offline_20261104/PAUSED_20261104.json",
+    "copy_path": "local_receipts/offline_control/PAUSED_20261104.json",
+    "sha256": "380d6e27af422a3d857cf23e900d96cb5c4398285ddc4d0519e2e72efacdeea4",
+    "bytes": 2313
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/system2_offline_20261104/暂停接续说明.txt",
+    "copy_path": "local_receipts/offline_control/暂停接续说明.txt",
+    "sha256": "e369adf2b6458958fe99cbcf421f8d1c119c6e34070aa8f1f3c60537c61474e5",
+    "bytes": 2268
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/github_results_readme_20261104/status.json",
+    "copy_path": "local_receipts/readme_publication/status.json",
+    "sha256": "e244416a6d920af4d3ebb3becadadde744fb7b86d420581d23d0fdee2ae9a43c",
+    "bytes": 757
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/github_results_readme_20261104/validation.json",
+    "copy_path": "local_receipts/readme_publication/validation.json",
+    "sha256": "36d32392a2066b17ab80cd8a74336509ab16d988bef21f0914cf22ec834322db",
+    "bytes": 497
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/github_results_readme_20261104/publication-receipt.json",
+    "copy_path": "local_receipts/readme_publication/publication-receipt.json",
+    "sha256": "18e5249c9cfbf43524531984c7dccadda74bfcb3da33e4f8781e958e6076acb7",
+    "bytes": 677
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/github_results_readme_20261104/README.diff",
+    "copy_path": "local_receipts/readme_publication/README.diff",
+    "sha256": "03c84aca5a7491eeab957a480c27765769b598ec0f6311d0985997180a165a0f",
+    "bytes": 18580
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/github_results_readme_20261104/results-section.md",
+    "copy_path": "local_receipts/readme_publication/results-section.md",
+    "sha256": "e31c98fa052d8d68d9bb665f0cc544940dff125915fda9d422d019a6796ce0dd",
+    "bytes": 17042
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/status.json",
+    "copy_path": "local_receipts/rgb_archive_receipts/status.json",
+    "sha256": "63f8bf49a0bffc147d65bb02fdfebd2c1104f5162285bafbc610e2c0edb68e52",
+    "bytes": 15870
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/final-lab-archive-receipt.json",
+    "copy_path": "local_receipts/rgb_archive_receipts/final-lab-archive-receipt.json",
+    "sha256": "e128f5d736cbbc99390e0f49532080ed3ceeebda89670b07bc1f0bd31cf8edda",
+    "bytes": 514
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/PAUSED_ARCHIVE_REVIEW.json",
+    "copy_path": "local_receipts/rgb_archive_receipts/PAUSED_ARCHIVE_REVIEW.json",
+    "sha256": "711658fdd617bdd63834e4bec362589ddec81869af5921cfeb7aecee66ce0938",
+    "bytes": 2240
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/final-archive-snapshot.json",
+    "copy_path": "local_receipts/rgb_archive_receipts/final-archive-snapshot.json",
+    "sha256": "fc06a7d03a8272b83bec22865f4e506c43882655ee183c9bbb4a4ee5fa31ef12",
+    "bytes": 197
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/independent-validation-final.log",
+    "copy_path": "local_receipts/rgb_archive_receipts/independent-validation-final.log",
+    "sha256": "27bdffa4319f6b0fa8d1ee17bd2cf283383cccda00111972b9a16e7eaa4c7ec2",
+    "bytes": 559
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/report-and-figures-final.log",
+    "copy_path": "local_receipts/rgb_archive_receipts/report-and-figures-final.log",
+    "sha256": "75fc68602fb5f1fe2393d1548129efad718d3944d3a220325664f364477b012d",
+    "bytes": 732
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/research_full_readthrough_cutoff_20261102_20261105/final_verification/install-receipt.json",
+    "copy_path": "local_receipts/prior_period_archive/install-receipt.json",
+    "sha256": "fa4065a3187475692ac49f0e144de546a3641eda57ac00821342315794e271cd",
+    "bytes": 3427
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/research_full_readthrough_cutoff_20261102_20261105/final_verification/installed-manifest.json",
+    "copy_path": "local_receipts/prior_period_archive/installed-manifest.json",
+    "sha256": "cbfcf8784f1baaf63dcabcfee04dbaee26687bcc29d58c7cb02343de399bd68e",
+    "bytes": 19878
+  },
+  {
+    "origin": "local_existing_receipt",
+    "original_path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/research_full_readthrough_cutoff_20261102_20261105/final_verification/status.json",
+    "copy_path": "local_receipts/prior_period_archive/status.json",
+    "sha256": "20fadf5b6de3afd479aef6bf042c804f5191f90ef5b6a58cdffd563a7a89a24d",
+    "bytes": 933
+  }
+]

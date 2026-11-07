@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "controller_pid": null,
+  "child_pid": null,
+  "exit_code": 0,
+  "elapsed_seconds": 30.33296287059784,
+  "finished_utc": "2026-11-04T13:14:42.360162+00:00"
+}

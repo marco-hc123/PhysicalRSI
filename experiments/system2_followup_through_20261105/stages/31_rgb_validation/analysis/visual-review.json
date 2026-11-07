@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-05T06:52:24.030109+00:00",
+  "reviewer": "assistant visual inspection",
+  "reviewed_frames": [
+    "keyframes/baseline_1_layout0_head_t40.png",
+    "keyframes/augmented_1_layout4_head_t0.png",
+    "keyframes/augmented_1_layout4_head_t20.png",
+    "keyframes/augmented_1_layout4_head_t40.png",
+    "keyframes/baseline_1_layout4_head_t40.png"
+  ],
+  "observations": [
+    "Three baskets and tabletop objects are clearly visible.",
+    "augmented_1/layout4: initial watch lies on the left tabletop; at20s the left gripper is over that area; at40s the left end-effector is over the white basket and the watch is no longer at its initial table position.",
+    "baseline_1/layout4 at40s: right arm is raised while camera-like objects remain on the tabletop. This selected frame does not establish the cause of failed pickup; completed movement RPCs alone are insufficient evidence of grasp success."
+  ],
+  "limits": [
+    "These are selected encoded video times, not an exhaustive full-video review.",
+    "Occlusion and frame sampling limit exact contact/placement attribution.",
+    "Partial score15/100 comes from native receipt rather than a visual estimate.",
+    "Image previews may be JPEG compressed for display; original extracted PNG and original MP4 remain unmodified."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "scenes": [
+    {
+      "frame": "world",
+      "unit": "m",
+      "objects": {}
+    }
+  ],
+  "action_mode": "success"
+}

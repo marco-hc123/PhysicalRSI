@@ -1,0 +1,92 @@
+[
+  {
+    "path": "final-process-audit.json",
+    "bytes": 241,
+    "sha256": "2fbe7fbc1ecf1aabd5e753f3007cdf5278e79e6556dffa173591a6213c9e9cfa"
+  },
+  {
+    "path": "findings.json",
+    "bytes": 3406,
+    "sha256": "36b5d0bc2e2b5b16b6d810ef8b67bbe6f2ea03e5f5218dc775c4c3d49a66e7be"
+  },
+  {
+    "path": "candidate-diagnostics.csv",
+    "bytes": 768,
+    "sha256": "751e4b072d29b7ae83c3bc1a62510205357414e5bafd66b197573284502e4139"
+  },
+  {
+    "path": "completion.json",
+    "bytes": 552,
+    "sha256": "2e21415e3f40ece81f4a3674ed867f3756897927620adf4091890eb820508b7a"
+  },
+  {
+    "path": "planning-feasibility.csv",
+    "bytes": 267,
+    "sha256": "d270310e2f9f42cdda4e7ea565518b589b24e6d6b2a2d5c57afce6347e56f0fc"
+  },
+  {
+    "path": "phase-accounting.csv",
+    "bytes": 907,
+    "sha256": "33888519427c5500815a1e6e3b2af3b4c2ee50ea40579f4b9a17f836a5b163cd"
+  },
+  {
+    "path": "REPRODUCE.txt",
+    "bytes": 1015,
+    "sha256": "ea325f54e460173ee6a6e3e6dfcaed2976c24be10c5bc4491191230430eb18a1"
+  },
+  {
+    "path": "REPORT.txt",
+    "bytes": 12056,
+    "sha256": "b7c4d177383883f58e433c00e3f76bb9eaa8aab9236ab509e4b5910ccb6b03cb"
+  },
+  {
+    "path": "policy-acceptance.csv",
+    "bytes": 357,
+    "sha256": "c142ab1e2f767790fd48fe2a9e40b681fb4c5ee64733018deaf7d191f066f8b1"
+  },
+  {
+    "path": "api-usage.csv",
+    "bytes": 301,
+    "sha256": "a882f6683c0dde837e01e9737bf6626d2ea58fd2f53a1ffcec6fc0683b70f139"
+  },
+  {
+    "path": "credential-scan.json",
+    "bytes": 136,
+    "sha256": "ada434e53518b609f872a7e64df49a9a27c14277bd83920e04c91c66dfad0b4b"
+  },
+  {
+    "path": "api-usage.json",
+    "bytes": 620,
+    "sha256": "b3d6c054943c0117c7b6982ec18b478d9654109ad09c99b32a79cf26b19d4864"
+  },
+  {
+    "path": "continuation.json",
+    "bytes": 1423,
+    "sha256": "cd1c75e76dfa785ce6daf2d588f44cbaed33a28d3c3cd3dda4e0cb5016f3a684"
+  },
+  {
+    "path": "finalize_lab_study.py",
+    "bytes": 27857,
+    "sha256": "5e82e9fa7b125eb86dcaa9178a0dcd9c6ba8cb5cf18126cb72b6b38541c8d018"
+  },
+  {
+    "path": "evidence-index.json",
+    "bytes": 8136,
+    "sha256": "4d9415ff94131589383bde520ada7d5061d702aa011eecd28a662fe187f137e0"
+  },
+  {
+    "path": "candidate-diagnostics.json",
+    "bytes": 3666,
+    "sha256": "4bdcef5471f43da3abf3ccabbadbd806c77eae42f37c98c33f436d19da516a35"
+  },
+  {
+    "path": "next-experiment-plan.json",
+    "bytes": 3054,
+    "sha256": "50238b1e4ed509c22452b8a972da528bf726789a9b7a5ecdd20517e51bfd0dfc"
+  },
+  {
+    "path": "finalize.log",
+    "bytes": 4137,
+    "sha256": "d34edcb07bcd7867f7cc92a7f1a128cdf90e5af6545139b57b80d78704a4cd05"
+  }
+]

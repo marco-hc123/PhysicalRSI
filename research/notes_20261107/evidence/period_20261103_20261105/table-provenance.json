@@ -1,0 +1,37 @@
+{
+  "tables/api-usage.csv": {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/api-usage.csv",
+    "source_sha256": "a882f6683c0dde837e01e9737bf6626d2ea58fd2f53a1ffcec6fc0683b70f139",
+    "copy_sha256": "ce2062db3c32240dfab3cfde216fc8d4411dc9d8e625d1909ea81aa923ad9e63"
+  },
+  "tables/planning-feasibility.csv": {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/planning-feasibility.csv",
+    "source_sha256": "d270310e2f9f42cdda4e7ea565518b589b24e6d6b2a2d5c57afce6347e56f0fc",
+    "copy_sha256": "94adc2ac5924dbf586cf68a6e9aa69c35e73279c10060bd6741ee68a13198914"
+  },
+  "tables/policy-acceptance.csv": {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/policy-acceptance.csv",
+    "source_sha256": "c142ab1e2f767790fd48fe2a9e40b681fb4c5ee64733018deaf7d191f066f8b1",
+    "copy_sha256": "1a639cb57b4f8ce235ffe15d2041f04fc78d970ec9e616284536bee5c35d5c94"
+  },
+  "tables/episode-results.csv": {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/episode-results.csv",
+    "source_sha256": "1fadbdf3726a2bd651501768bff81807bf1eb59b5906c94430169cb2c4860abc",
+    "copy_sha256": "c58545204d606e3c8975a126b0e10025d1f7423961aa2f89b3a2b0112c387c01"
+  },
+  "tables/cohort-summary.csv": {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/cohort-summary.csv",
+    "source_sha256": "ca389968c3e89cb1cd3678382210033cb5d7d47161bf520d1ff8c4ade44d2217",
+    "copy_sha256": "5c2cc6d9ff697f484e86ed77cb52d28bbfe126a094c3cebb269836518dcb2b79"
+  },
+  "tables/actor-diagnostics.csv": {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/actor-diagnostics.csv",
+    "source_sha256": "572b206f33c3f8737f505a32f3b4e090c367fd71d3406e643f6f80a602dc267f",
+    "copy_sha256": "fd40a284589053733fb1bae8de3d098a504f7e08ce467b1f1eeb6ec0abfdb824"
+  },
+  "tables/lift-gate-diagnosis.csv": {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/lift-gate-diagnosis.csv",
+    "source_sha256": "d1916fb333c206825b1ec8004c39870a8311837158a18dd43d0f9ec0ede2cc5b",
+    "copy_sha256": "132379826c64cb908491b53e132aa09418a658ca3c30352330cfbae070fe3967"
+  }
+}

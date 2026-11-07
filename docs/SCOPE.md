@@ -27,3 +27,12 @@ JSONL 的每个成员保存原 path、原字节 SHA256、长度和 UTF-8 原文�
 ## 全研究资料覆盖补充
 
 按用户追加要求，另建立 `provenance/research-source-index-20261102.csv`，对全部已收集原件逐路径标记：已有精确文件、新精确文件、固定输入 JSONL 成员、去重无损文本对象或外部保留。所有研究阶段的补充文本可通过 `tools/read_research_evidence.py` 检索与恢复；研究计划、方法、讨论与周记在 `research/`。完整覆盖统计见 `provenance/research-coverage-20261102.json`。这些是来源路径/对象计数，不是新增实验。
+
+
+## 2026-11-07整理：实验截止11月5日
+
+按用户指定范围，新增公开结果27–31和截至11月5日科研管理资料：旧候选CPU诊断、H100离线验收、6次候选生成、150个候选CPU探针、35有效原生回合的文本证据。具体计数见[后续总览](../experiments/system2_followup_through_20261105/README.md)，整理没有新增科学执行。
+
+完整读取选定文本并按SHA256去重，范围/数量见`followup-coverage-20261107.json`；逐路径索引为`followup-source-index-20261107.csv.gz`。实际runtime、完整105段视频/逐帧观测、权重和大型二进制保留实验室，并明确外部状态。二进制哈希如果来自已有manifest会注明依据，不声称本次全量重新解码。
+
+科研Markdown适配GitHub链接，原始字节仍可从无损库恢复。旧PPT和上游/冻结集成实现保持原版本。修复README变更造成的旧清单失配：旧期望字节归档，历史清单不改，当前清单更新；见[本次整理审计](../provenance/REPOSITORY_REVIEW_20261107.md)。

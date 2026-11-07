@@ -1,0 +1,69 @@
+{
+  "utc": "2026-11-05T05:28:32.218583+00:00",
+  "rows": [
+    {
+      "expert": "pi05",
+      "root": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3/PhysicalRSI_baselines/robodojo/skills",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    {
+      "expert": "pi05",
+      "root": "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/src",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    {
+      "expert": "pi05",
+      "root": "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/utils",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    {
+      "expert": "pi05",
+      "root": "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/client_server",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    {
+      "expert": "pi05-sparse-memory",
+      "root": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3/PhysicalRSI_baselines/robodojo/skills",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    {
+      "expert": "pi05-sparse-memory",
+      "root": "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/src",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    {
+      "expert": "pi05-sparse-memory",
+      "root": "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/utils",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    },
+    {
+      "expert": "pi05-sparse-memory",
+      "root": "/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab/client_server",
+      "match": true,
+      "missing": [],
+      "extra": [],
+      "changed": []
+    }
+  ]
+}

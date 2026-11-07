@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-05T05:43:15.146876+00:00",
+  "pid": 41504,
+  "log": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/native-campaign/controller-retry002.log",
+  "reason": "Qualified missing ffmpeg entry repair; preserve invalid attempt001",
+  "api_calls": 0,
+  "paid_cost_usd": 0
+}

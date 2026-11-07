@@ -1,0 +1,27 @@
+{
+  "checks": {
+    "original_bbox_false_skip_reproduced": true,
+    "bbox_fixture_all_six_matched": true,
+    "dynamic_category_error_reproduced": true,
+    "dynamic_category_repair_reaches_action": true,
+    "static_scene_budget_exhaustion_reproduced": true,
+    "driver_no_path_conversion_verified": true,
+    "memory_prototype_roundtrip_verified": true,
+    "sources_unchanged": true
+  },
+  "sources": [
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/17_system2_iterations/29_system2_api_20261030T101800Z/workspace/rounds/round-000000/candidate/code/classify_objects.py",
+      "unchanged": true
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/17_system2_iterations/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/candidate/code/classify_objects.py",
+      "unchanged": true
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/25_system2_model_swap/38_system2_gpt61sol_20261102/model-candidate.py",
+      "unchanged": true
+    }
+  ],
+  "all_expected_checks_passed": true
+}

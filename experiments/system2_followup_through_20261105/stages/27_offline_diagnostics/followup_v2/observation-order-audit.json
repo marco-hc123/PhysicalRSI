@@ -1,0 +1,70 @@
+[
+  {
+    "layout": 0,
+    "original_file_order_sequences": [
+      1,
+      1,
+      836
+    ],
+    "corrected_sequences": [
+      1,
+      1,
+      836
+    ],
+    "same_sequence_different_payload": []
+  },
+  {
+    "layout": 1,
+    "original_file_order_sequences": [
+      374,
+      1,
+      1
+    ],
+    "corrected_sequences": [
+      1,
+      1,
+      374
+    ],
+    "same_sequence_different_payload": []
+  },
+  {
+    "layout": 2,
+    "original_file_order_sequences": [
+      1,
+      1
+    ],
+    "corrected_sequences": [
+      1,
+      1
+    ],
+    "same_sequence_different_payload": []
+  },
+  {
+    "layout": 3,
+    "original_file_order_sequences": [
+      1,
+      1,
+      1
+    ],
+    "corrected_sequences": [
+      1,
+      1,
+      1
+    ],
+    "same_sequence_different_payload": []
+  },
+  {
+    "layout": 4,
+    "original_file_order_sequences": [
+      1,
+      1,
+      1
+    ],
+    "corrected_sequences": [
+      1,
+      1,
+      1
+    ],
+    "same_sequence_different_payload": []
+  }
+]

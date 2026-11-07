@@ -1,0 +1,18 @@
+{
+  "simulator": {
+    "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+    "differences": [],
+    "extra": {},
+    "expected_packages": 267,
+    "actual_packages": 267,
+    "pip_check_exit": 0
+  },
+  "policy": {
+    "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+    "differences": [],
+    "extra": {},
+    "expected_packages": 232,
+    "actual_packages": 232,
+    "pip_check_exit": 1
+  }
+}

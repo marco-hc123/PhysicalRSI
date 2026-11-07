@@ -1,0 +1,197 @@
+{
+  "terminal": "returned",
+  "error": null,
+  "return_value": null,
+  "calls": [
+    {
+      "index": 0,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "unit": "m",
+        "objects": {
+          "basket_1": {
+            "pose": [
+              0,
+              0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ]
+          },
+          "watch_1": {
+            "pose": [
+              0.3,
+              -0.2,
+              0.79,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.05,
+              0.04,
+              0.05
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "method": "gripper",
+      "input": {
+        "arm": "right",
+        "command": 1
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    },
+    {
+      "index": 2,
+      "method": "approach",
+      "input": {
+        "arm": "right",
+        "position_m": [
+          0.3,
+          -0.2,
+          1.05
+        ],
+        "quaternion_wxyz": [
+          0.3814,
+          -0.6197,
+          0.3785,
+          0.572
+        ]
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    },
+    {
+      "index": 3,
+      "method": "approach",
+      "input": {
+        "arm": "right",
+        "position_m": [
+          0.3,
+          -0.2,
+          0.92
+        ],
+        "quaternion_wxyz": [
+          0.3814,
+          -0.6197,
+          0.3785,
+          0.572
+        ]
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    },
+    {
+      "index": 4,
+      "method": "gripper",
+      "input": {
+        "arm": "right",
+        "command": 0
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    },
+    {
+      "index": 5,
+      "method": "approach",
+      "input": {
+        "arm": "right",
+        "position_m": [
+          0.3,
+          -0.2,
+          1.05
+        ],
+        "quaternion_wxyz": [
+          0.3814,
+          -0.6197,
+          0.3785,
+          0.572
+        ]
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    },
+    {
+      "index": 6,
+      "method": "approach",
+      "input": {
+        "arm": "right",
+        "position_m": [
+          0,
+          0,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.3814,
+          -0.6197,
+          0.3785,
+          0.572
+        ]
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    },
+    {
+      "index": 7,
+      "method": "gripper",
+      "input": {
+        "arm": "right",
+        "command": 1
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    }
+  ],
+  "counts": {
+    "scene": 1,
+    "gripper": 3,
+    "approach": 4
+  },
+  "invalid_calls": [],
+  "memory_after_in_process": {},
+  "native_score": null,
+  "scope": "CPU fixture only; no physics, no new robot episode"
+}

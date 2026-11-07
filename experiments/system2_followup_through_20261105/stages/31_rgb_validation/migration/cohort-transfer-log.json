@@ -1,0 +1,120 @@
+{
+  "started_utc": "2026-11-05T07:09:39.956537+00:00",
+  "local_pid": 18027,
+  "state": "all_seven_cohorts_verified_in_staging",
+  "source": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105",
+  "stage": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1.incoming",
+  "final_destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+  "archived": [
+    "pi05",
+    "baseline_1",
+    "augmented_1",
+    "augmented_2",
+    "baseline_2",
+    "baseline_3",
+    "augmented_3"
+  ],
+  "attempts": [
+    {
+      "condition": "pi05",
+      "attempt": 1,
+      "started_utc": "2026-11-05T06:22:52.625076+00:00",
+      "source_pid": 15509,
+      "destination_pid": 15510,
+      "completed_utc": "2026-11-05T06:23:17.121456+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 0
+    },
+    {
+      "condition": "baseline_1",
+      "attempt": 1,
+      "started_utc": "2026-11-05T06:23:19.975857+00:00",
+      "source_pid": 15535,
+      "destination_pid": 15536,
+      "completed_utc": "2026-11-05T06:23:38.679277+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 0
+    },
+    {
+      "condition": "augmented_1",
+      "attempt": 1,
+      "started_utc": "2026-11-05T06:31:23.443446+00:00",
+      "source_pid": 15877,
+      "destination_pid": 15878,
+      "completed_utc": "2026-11-05T06:32:07.276063+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 0
+    },
+    {
+      "condition": "augmented_2",
+      "attempt": 1,
+      "started_utc": "2026-11-05T06:46:44.375439+00:00",
+      "source_pid": 16700,
+      "destination_pid": 16701,
+      "completed_utc": "2026-11-05T06:47:15.052778+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 0
+    },
+    {
+      "condition": "baseline_2",
+      "attempt": 1,
+      "started_utc": "2026-11-05T07:02:39.933183+00:00",
+      "source_pid": 17639,
+      "destination_pid": 17640,
+      "completed_utc": "2026-11-05T07:03:29.924866+00:00",
+      "source_returncode": 1,
+      "destination_returncode": 0
+    },
+    {
+      "condition": "baseline_2",
+      "attempt": 2,
+      "started_utc": "2026-11-05T07:03:44.942509+00:00",
+      "source_pid": 17711,
+      "destination_pid": 17712,
+      "completed_utc": "2026-11-05T07:04:02.355198+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 1
+    },
+    {
+      "condition": "baseline_2",
+      "attempt": 3,
+      "started_utc": "2026-11-05T07:04:17.365443+00:00",
+      "source_pid": 17738,
+      "destination_pid": 17739,
+      "completed_utc": "2026-11-05T07:04:47.226653+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 1
+    },
+    {
+      "condition": "baseline_3",
+      "attempt": 1,
+      "started_utc": "2026-11-05T07:17:26.217363+00:00",
+      "source_pid": 18547,
+      "destination_pid": 18548,
+      "completed_utc": "2026-11-05T07:18:02.571148+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 0
+    },
+    {
+      "condition": "augmented_3",
+      "attempt": 1,
+      "started_utc": "2026-11-05T07:33:27.961803+00:00",
+      "source_pid": 19427,
+      "destination_pid": 19428,
+      "completed_utc": "2026-11-05T07:34:01.332546+00:00",
+      "source_returncode": 0,
+      "destination_returncode": 0
+    }
+  ],
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "experiment_control": false,
+  "previous_archiver": {
+    "local_pid": 15493,
+    "state": "archive_stopped_for_diagnosis",
+    "updated_utc": "2026-11-05T07:04:47.228889+00:00"
+  },
+  "current_condition": null,
+  "error": null,
+  "updated_utc": "2026-11-05T07:34:03.185551+00:00"
+}

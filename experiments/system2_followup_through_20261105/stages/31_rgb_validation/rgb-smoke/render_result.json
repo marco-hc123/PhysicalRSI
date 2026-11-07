@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "scope": "Procedural Isaac Sim RGB rendering smoke test",
+  "renderer": "RaytracedLighting",
+  "resolution": [
+    640,
+    480
+  ],
+  "frames_received": 6,
+  "pixel_min": 20,
+  "pixel_max": 243,
+  "pixel_std": 33.947369056443534,
+  "checks": {
+    "shape_correct": true,
+    "nonconstant": true,
+    "red_pixels": 12345,
+    "blue_pixels": 8271,
+    "green_pixels": 2374
+  },
+  "elapsed_seconds": 143.73150903399983,
+  "robot_task_executed": false,
+  "api_calls": 0
+}

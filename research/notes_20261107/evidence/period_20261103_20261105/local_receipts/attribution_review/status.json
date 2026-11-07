@@ -1,0 +1,21 @@
+{
+  "state": "complete_readonly_review",
+  "goal": "Attribute System2 failure and basket-bound predicate provenance",
+  "verified_utc": "2026-11-04T03:44:27.405493+00:00",
+  "host": "physicalrsi-lab / gpuserver3",
+  "active_jobs": [],
+  "remote_writes": 0,
+  "new_api_calls": 0,
+  "new_native_episodes": 0,
+  "verified_file_count": 50,
+  "candidate_source_matches": true,
+  "native_candidate_result_records_verified": 10,
+  "result_dir": "/home/marco/workspace/PhysicalRSI/current/result/system2_attribution_review_20261104",
+  "next_action": "Validate remaining execution-contract uncertainties, then preregister a single-variable repair; no experiment started.",
+  "unresolved": [
+    "End-to-end parity with official author configuration",
+    "Effect of structured candidate failure feedback",
+    "Geometry prior accuracy and action timing/tracking fidelity",
+    "Task-score gains after local repairs"
+  ]
+}

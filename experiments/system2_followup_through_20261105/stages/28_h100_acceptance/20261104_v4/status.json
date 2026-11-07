@@ -1,0 +1,30 @@
+{
+  "state": "complete_with_failures",
+  "controller_pid": null,
+  "child_pid": null,
+  "results": [
+    {
+      "phase": "basic",
+      "exit_code": 0,
+      "elapsed_seconds": 5.21158086322248
+    },
+    {
+      "phase": "planning",
+      "exit_code": 1,
+      "elapsed_seconds": 10.11586587689817
+    },
+    {
+      "phase": "pi05",
+      "exit_code": 1,
+      "elapsed_seconds": 65.81333555653691
+    },
+    {
+      "phase": "sparse",
+      "exit_code": 1,
+      "elapsed_seconds": 40.40236521139741
+    }
+  ],
+  "finished_utc": "2026-11-04T12:51:41.080528+00:00",
+  "native_episodes": 0,
+  "api_calls": 0
+}

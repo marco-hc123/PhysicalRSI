@@ -1,0 +1,497 @@
+[
+  {
+    "candidate_pair": 1,
+    "layout_id": 0,
+    "baseline_arm": "right",
+    "augmented_arm": "right",
+    "baseline_target_m": [
+      -0.10240777317149068,
+      -0.1824309131290849,
+      1.14
+    ],
+    "augmented_target_m": [
+      0.11693359520469745,
+      -0.10702423731092836,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.23194137759158717,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 1,
+    "layout_id": 1,
+    "baseline_arm": "right",
+    "augmented_arm": "right",
+    "baseline_target_m": [
+      0.0072372329750630396,
+      -0.18374751933821942,
+      1.14
+    ],
+    "augmented_target_m": [
+      0.044367587524657345,
+      -0.09616433106000327,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.09512874485641044,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 1,
+    "layout_id": 2,
+    "baseline_arm": "right",
+    "augmented_arm": "right",
+    "baseline_target_m": [
+      0.0481210053565737,
+      -0.1217833461072107,
+      1.14
+    ],
+    "augmented_target_m": [
+      0.04814405585500998,
+      -0.12177026087752107,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 2.650563551758281e-05,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 1,
+    "layout_id": 3,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      -0.044943911512403005,
+      -0.16003803506581643,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.21670995421007647,
+      -0.13019036433639058,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.17434006100719135,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 1,
+    "layout_id": 4,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      0.2344241557403742,
+      -0.21204837545681243,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.1826850528972721,
+      -0.15967154200157485,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.4203848529777462,
+    "baseline_first_approach_rejected": false,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 2,
+    "layout_id": 0,
+    "baseline_arm": "right",
+    "augmented_arm": "right",
+    "baseline_target_m": [
+      0.11695387587889584,
+      -0.10706770766726359,
+      1.14
+    ],
+    "augmented_target_m": [
+      0.1169620547059273,
+      -0.10686571438641324,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.0002021587958024597,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 2,
+    "layout_id": 1,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      0.04436862964922505,
+      -0.09622243128482472,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.2686239133014936,
+      -0.09343863407330749,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.3130049224368082,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 2,
+    "layout_id": 2,
+    "baseline_arm": "right",
+    "augmented_arm": "right",
+    "baseline_target_m": [
+      0.04816646936733831,
+      -0.12174750005577173,
+      1.14
+    ],
+    "augmented_target_m": [
+      0.048122226404230875,
+      -0.12181209558584011,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 7.829445886741015e-05,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 2,
+    "layout_id": 3,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      -0.04500494970165193,
+      -0.1600525822558398,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.21663745806317464,
+      -0.13019969053480968,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.17420939432354304,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 2,
+    "layout_id": 4,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      0.23445409886096585,
+      -0.21203484546600385,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.18270109238284132,
+      -0.15970639028874012,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.42042445314574206,
+    "baseline_first_approach_rejected": false,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 3,
+    "layout_id": 0,
+    "baseline_arm": "right",
+    "augmented_arm": "right",
+    "baseline_target_m": [
+      -0.25113640714920565,
+      -0.15256979838144114,
+      1.14
+    ],
+    "augmented_target_m": [
+      0.11699070390957259,
+      -0.10686904538545139,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.37095300068995607,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 3,
+    "layout_id": 1,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      -0.2685742410258902,
+      -0.093376028287394,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.2686701125098123,
+      -0.09334073481235589,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.00010216149377182279,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 3,
+    "layout_id": 2,
+    "baseline_arm": "right",
+    "augmented_arm": "right",
+    "baseline_target_m": [
+      0.04812137296693661,
+      -0.12178929131544025,
+      1.14
+    ],
+    "augmented_target_m": [
+      0.048134057630915376,
+      -0.12175045894509046,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 4.085160568738837e-05,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 3,
+    "layout_id": 3,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      -0.04499037803561094,
+      -0.160048770902724,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.21664620154691372,
+      -0.13019438226883034,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.17423262113062263,
+    "baseline_first_approach_rejected": true,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  },
+  {
+    "candidate_pair": 3,
+    "layout_id": 4,
+    "baseline_arm": "right",
+    "augmented_arm": "left",
+    "baseline_target_m": [
+      0.234435539484513,
+      -0.21206932403574805,
+      1.14
+    ],
+    "augmented_target_m": [
+      -0.18266496696180093,
+      -0.15970380129640144,
+      1.01
+    ],
+    "baseline_quaternion_wxyz": [
+      0.38141138529977936,
+      -0.6197184988732912,
+      0.37851129873090317,
+      0.5720170749645352
+    ],
+    "augmented_quaternion_wxyz": [
+      0.6130773077919165,
+      -0.35934531270739906,
+      0.6163777239676316,
+      0.33924277781895285
+    ],
+    "target_z_difference_m": -0.1299999999999999,
+    "target_xy_distance_m": 0.42037480948498396,
+    "baseline_first_approach_rejected": false,
+    "augmented_first_approach_rejected": false,
+    "scope": "Descriptive comparison of separately executed saved candidates; multiple variables and RGB estimates may differ; not a one-variable intervention"
+  }
+]

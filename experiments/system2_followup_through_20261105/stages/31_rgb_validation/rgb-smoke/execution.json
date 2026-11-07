@@ -1,0 +1,8 @@
+{
+  "process_exit_code": 0,
+  "elapsed_seconds": 146.17835924699966,
+  "gpu_peak_memory_mib": 2560.0,
+  "gpu_sample_count": 140,
+  "robot_episodes": 0,
+  "api_calls": 0
+}

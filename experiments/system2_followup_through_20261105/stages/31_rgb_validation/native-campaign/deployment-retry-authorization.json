@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-05T05:42:51.625710+00:00",
+  "reason": "Documented missing ffmpeg command before any policy inference",
+  "excluded_attempts": [
+    {
+      "condition": "pi05",
+      "attempt": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/native-campaign/runs/pi05/attempt-001",
+      "classification": "invalid_deployment",
+      "failed_sha256": "2990bb3636703dc1c11d58354d9e1cbf9395b1ca73a96617ee82a3c154094b5b",
+      "observed_sha256": "c1818907643fa38af1037c0980de4d7733d7fe13ccdb0aa824f11b831bd01f93",
+      "simulator_log_sha256": "827cea3bf6facd18f04e3dc6213536460d0a6f4583733dcd23e384c41f479e94",
+      "repair": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/native-preparation/ffmpeg-entry-repair/repair.json",
+      "repair_sha256": "cba5154c4dd77ffbe1cc7ee51f7f342e41ee77a514c3e5e45651d76978c046e7",
+      "valid_native_cases": 0,
+      "policy_zero_score": false
+    }
+  ],
+  "source_algorithm_harness_layout_reward_or_timeout_changes": false,
+  "planned_logical_cases_unchanged": 35,
+  "next_attempt": "attempt-002"
+}

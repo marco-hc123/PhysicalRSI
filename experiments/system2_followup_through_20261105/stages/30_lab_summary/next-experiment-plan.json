@@ -1,0 +1,66 @@
+[
+  {
+    "experiment": "Geometry contract before policy promotion",
+    "variable": "Explicit oriented, relative-Z containment contract versus each saved candidate predicate; vary yaw, height, object extents and measurement uncertainty",
+    "fixed": [
+      "same recorded units/frame and object schema",
+      "same saved candidate source",
+      "no new model generations in this check"
+    ],
+    "acceptance": [
+      "separately report center-point, object-volume and true-interior definitions",
+      "zero invalid numeric/quat outputs",
+      "test boundary uncertainty without labeling a margin automatically wrong"
+    ],
+    "native_required": "Ground-truth physical basket membership and grasp success require supported simulator; current point fixtures are insufficient"
+  },
+  {
+    "experiment": "Action completion and failure feedback",
+    "variable": "Explicit termination reason and post-action observation checks versus current silent return; one contract change at a time",
+    "fixed": [
+      "same primitives and step limits",
+      "same candidate and task",
+      "same planner settings"
+    ],
+    "acceptance": [
+      "distinguish plan failure, action acknowledgement, executed motion, verified lift and task terminal",
+      "scene changes reached in tests",
+      "bounded recovery or explicit abort with reason, never silent completion claim"
+    ],
+    "native_required": "Verify actual motion and grasp on an RT-capable host; no privileged execution changes on this lab server"
+  },
+  {
+    "experiment": "Feedback-content control",
+    "variable": "Original feedback, relevant rejected-code/failure feedback, and token-budget-matched control",
+    "fixed": [
+      "gpt-6.1-sol medium",
+      "same parent pi05",
+      "same output budget and generation count",
+      "same downstream evaluation and cache accounting"
+    ],
+    "acceptance": [
+      "pre-register all candidates without hidden retries",
+      "compare contract pass and heldout task score separately",
+      "report latency by cache state",
+      "keep cumulative billing under remaining authorized limit"
+    ],
+    "native_required": "Do not spend more merely to increase parse-valid samples before an actionable scoring path is available"
+  },
+  {
+    "experiment": "Small independent layout acceptance",
+    "variable": "A narrowly repaired candidate versus retained pi05 and its unmodified candidate reference",
+    "fixed": [
+      "same task/robot/assets/version",
+      "same layout seed paired across policies",
+      "same RGB/deployment/step/scoring protocol",
+      "same initial reset contract"
+    ],
+    "acceptance": [
+      "audit prior layout exposure before selecting unused layouts",
+      "freeze 5-10 new paired layouts before generation/selection",
+      "report success count, partial score, exceptions, token cost and full wall clock",
+      "retain parent unless the frozen selection criterion is met"
+    ],
+    "native_required": "Supported RTX/RGB execution host and validated untrusted executor are prerequisites"
+  }
+]

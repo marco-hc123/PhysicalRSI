@@ -1,0 +1,134 @@
+{
+  "terminal": "prefix_observed",
+  "error": "First approach observed; no physical action simulated",
+  "return_value": null,
+  "calls": [
+    {
+      "index": 0,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "unit": "m",
+        "objects": {
+          "basket_1": {
+            "pose": [
+              0,
+              0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ]
+          },
+          "toy_car_1": {
+            "pose": [
+              0.3,
+              -0.2,
+              0.79,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.05,
+              0.04,
+              0.05
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "unit": "m",
+        "objects": {
+          "basket_1": {
+            "pose": [
+              0,
+              0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ]
+          },
+          "toy_car_1": {
+            "pose": [
+              0.3,
+              -0.2,
+              0.79,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.05,
+              0.04,
+              0.05
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 2,
+      "method": "gripper",
+      "input": {
+        "arm": "right",
+        "command": 1
+      },
+      "output": {
+        "state": {
+          "synthetic": true
+        },
+        "qualification": "mock acknowledgement, no measured motion"
+      }
+    },
+    {
+      "index": 3,
+      "method": "approach",
+      "input": {
+        "arm": "right",
+        "position_m": [
+          0.3,
+          -0.2,
+          1.14
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "scene": 2,
+    "gripper": 1,
+    "approach": 1
+  },
+  "invalid_calls": [],
+  "memory_after_in_process": {},
+  "native_score": null,
+  "scope": "CPU fixture only; no physics, no new robot episode"
+}

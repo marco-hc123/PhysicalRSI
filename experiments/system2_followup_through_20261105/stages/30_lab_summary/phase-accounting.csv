@@ -1,0 +1,8 @@
+item,count,unit,includes_old_evidence,new_robot_episodes,note
+Historical CPU study,65,heterogeneous CPU probe executions,False,0,27 fixtures +14 single-variable +4 driver +10 initially misordered prefixes +10 corrected prefixes; keep purposes separate
+Historical native evidence reanalyzed,10,previous candidate episodes,True,0,78 RPC records; not new trials
+H100 reachability,24,offline solver calls,True,0,"3 historical targets, variants, 3 solver seeds; no physics"
+Policy acceptance,6,synthetic input inference calls,False,0,3 pi05 +3 sparse; not task scores
+Feedback generation,6,paid API candidate generations,True,0,3 baseline +3 augmented; already completed before pause
+Saved candidate main diagnostics,120,CPU probes,True,0,54 fixture +36 point geometry +30 recorded prefixes
+Saved candidate targeted followup,30,CPU probes,False,0,24 supplemental geometry +6 changed-scene follow-through

@@ -1,0 +1,13 @@
+{"at": "2026-11-04T12:53:04.435084+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 1 MiB, 0 %"}
+{"at": "2026-11-04T12:53:09.490940+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 4 MiB, 0 %"}
+{"at": "2026-11-04T12:53:14.546990+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 620 MiB, 0 %"}
+{"at": "2026-11-04T12:53:19.596815+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 698 MiB, 0 %"}
+{"at": "2026-11-04T12:53:24.646138+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 712 MiB, 0 %"}
+{"at": "2026-11-04T12:53:29.695333+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 712 MiB, 0 %"}
+{"at": "2026-11-04T12:53:34.745318+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 712 MiB, 0 %"}
+{"at": "2026-11-04T12:53:39.795560+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 772 MiB, 0 %"}
+{"at": "2026-11-04T12:53:44.845361+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 1326 MiB, 0 %"}
+{"at": "2026-11-04T12:53:49.896301+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 1782 MiB, 3 %"}
+{"at": "2026-11-04T12:53:54.946294+00:00", "phase": "planning", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 2056 MiB, 63 %"}
+{"at": "2026-11-04T12:54:00.100091+00:00", "phase": "pi05", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 1 MiB, 0 %"}
+{"at": "2026-11-04T12:54:05.313983+00:00", "phase": "pi05", "query": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 546 MiB, 0 %"}

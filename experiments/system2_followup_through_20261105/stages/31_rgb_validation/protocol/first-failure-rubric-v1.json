@@ -1,0 +1,44 @@
+{
+  "schema": "physicalrsi.native-first-failure-rubric/v1",
+  "utc": "2026-11-05T05:21:12.699649+00:00",
+  "scope": "Post-execution evidence classification, no policy/runtime change",
+  "rules": [
+    "Infrastructure/import/transport/startup failures are invalid setup attempts, not task score zero.",
+    "Use original evaluator and completed bound receipts for scores; preserve raw 0-100 and normalized 0-1 scales.",
+    "Read RPC events in recorded call-id/sequence order; do not sort numeric names lexicographically.",
+    "A first failure is only assigned when a specific input, decision, response and subsequent behavior support it; otherwise mark unknown.",
+    "Return, planning feasibility, action acknowledgement, measured robot motion, visible object lift and task success are separate outcomes.",
+    "Do not infer a physical containment defect from a center-point surrogate alone.",
+    "Do not promote a policy from reused development/diagnostic layouts."
+  ],
+  "stages": [
+    {
+      "stage": "perception",
+      "evidence": "Recorded scene RPC response plus corresponding RGB, initial layout identity and task instruction"
+    },
+    {
+      "stage": "containment_and_target",
+      "evidence": "Exact candidate branch and observed object/basket schema; distinguish geometry definitions and uncertainty"
+    },
+    {
+      "stage": "arm_and_pose",
+      "evidence": "First attempted approach arm, XYZ and quaternion; compare the actual new target, not historical different targets"
+    },
+    {
+      "stage": "planning",
+      "evidence": "Recorded planner outcome or explicit planning exception; no-path is distinct from unreachable proof"
+    },
+    {
+      "stage": "execution",
+      "evidence": "RPC acknowledgement, action_steps and observed joint-state changes; keep safety-bound rejections separate"
+    },
+    {
+      "stage": "post_action_and_termination",
+      "evidence": "Next observation, recovery attempts, return reason and natural-terminal status"
+    },
+    {
+      "stage": "scoring_and_selection",
+      "evidence": "Original task evaluator and frozen selection criterion; unchanged scores legitimately retain pi05"
+    }
+  ]
+}

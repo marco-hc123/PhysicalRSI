@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "request_id": "req_0ecf7c15d8b1491bb2dc8a08c8dbeb1c",
+  "body": {
+    "id": "chatcmpl-EgUjq7bgnUHWh0VAetIwrVrsjrFqe",
+    "object": "chat.completion",
+    "created": 1793796642,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"source\": \"def policy(robot, memory):\\n    def read_scene():\\n        data = robot.scene()\\n        objects = data.get('objects')\\n        if not isinstance(objects, dict):\\n            return None\\n        result = []\\n        for key, value in objects.items():\\n            if not isinstance(key, str) or not isinstance(value, dict):\\n                continue\\n            parts = key.rsplit('_', 1)\\n            if len(parts) != 2 or not parts[1].isdigit() or int(parts[1]) < 1:\\n                continue\\n            pose = value.get('pose', [])\\n            dims = value.get('dims', [])\\n            if len(pose) < 3 or len(dims) < 3:\\n                continue\\n            try:\\n                p = [float(pose[i]) for i in range(3)]\\n                d = [float(dims[i]) for i in range(3)]\\n            except (TypeError, ValueError):\\n                continue\\n            if not all(-3.0 < v < 3.0 for v in p):\\n                continue\\n            if not all(0.0 < v < 1.5 for v in d):\\n                continue\\n            result.append({'category': parts[0], 'p': p, 'd': d})\\n        return result\\n\\n    def distance2(a, b):\\n        return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2\\n\\n    def inside(item, basket):\\n        return (abs(item['p'][0] - basket['p'][0]) < basket['d'][0] * 0.5\\n                and abs(item['p'][1] - basket['p'][1]) < basket['d'][1] * 0.5)\\n\\n    try:\\n        initial = read_scene()\\n    except Exception:\\n        return\\n    if not initial:\\n        return\\n    baskets = [o for o in initial if o['category'] == 'basket']\\n    items = [o for o in initial if o['category'] != 'basket']\\n    groups = {}\\n    for item in items:\\n        groups.setdefault(item['category'], []).append(item)\\n    if not baskets or len(groups) > len(baskets):\\n        return\\n\\n    # Assign distinct baskets from observed geometry, preserving any existing\\n    # unambiguous same-category grouping before considering travel distance.\\n    assigned = {}\\n    unused = list(range(len(baskets)))\\n    categories = sorted(groups, key=lambda c: (-len(groups[c]), c))\\n    for category in categories:\\n        group = groups[category]\\n        def cost(index):\\n            basket = baskets[index]\\n            own = sum(1 for item in group if inside(item, basket))\\n            foreign = sum(1 for item in items\\n                          if item['category'] != category and inside(item, basket))\\n            travel = sum(distance2(item['p'], basket['p']) for item in group)\\n            return (foreign, -own, travel)\\n        chosen = min(unused, key=cost)\\n        assigned[category] = baskets[chosen]\\n        unused.remove(chosen)\\n\\n    quaternions = {\\n        'left': [0.613, -0.3593, 0.6163, 0.3392],\\n        'right': [0.3814, -0.6197, 0.3785, 0.572]\\n    }\\n    for arm in quaternions:\\n        q = quaternions[arm]\\n        norm = sum(v * v for v in q) ** 0.5\\n        quaternions[arm] = [v / norm for v in q]\\n\\n    # Fixed finite worklist: never rediscover and repeatedly manipulate an\\n    # object merely because the RGB adapter gives it a new instance suffix.\\n    work = []\\n    for category in categories:\\n        basket = assigned[category]\\n        for item in sorted(groups[category], key=lambda o: distance2(o['p'], basket['p'])):\\n            if not inside(item, basket):\\n                work.append((category, item['p'], basket))\\n    deposited = {category: 0 for category in categories}\\n\\n    for category, original_position, basket in work:\\n        try:\\n            current = read_scene()\\n        except Exception:\\n            return\\n        if current is None:\\n            return\\n        candidates = [o for o in current\\n                      if o['category'] == category\\n                      and not inside(o, basket)\\n                      and distance2(o['p'], original_position) < 0.12 ** 2]\\n        if not candidates:\\n            continue\\n        item = min(candidates, key=lambda o: distance2(o['p'], original_position))\\n        x, y, z = item['p']\\n        bx, by, bz = basket['p']\\n        arm = 'left' if (y + by) >= 0.0 else 'right'\\n        q = quaternions[arm]\\n        contact_z = max(0.92, z + 0.125)\\n        clearance_z = max(1.14, contact_z + 0.10)\\n        if clearance_z > 1.45:\\n            return\\n\\n        # Small interior offsets reduce stacking without approaching walls.\\n        slot = deposited[category] % 4\\n        dx = min(0.025, basket['d'][0] * 0.12)\\n        dy = min(0.025, basket['d'][1] * 0.12)\\n        drop_x = bx + (dx if slot % 2 else -dx)\\n        drop_y = by + (dy if slot // 2 else -dy)\\n        try:\\n            robot.gripper(arm=arm, command=1)\\n            robot.approach(arm=arm, position_m=[x, y, clearance_z], quaternion_wxyz=q)\\n            robot.approach(arm=arm, position_m=[x, y, contact_z], quaternion_wxyz=q)\\n            robot.gripper(arm=arm, command=0)\\n            robot.approach(arm=arm, position_m=[x, y, clearance_z], quaternion_wxyz=q)\\n            robot.approach(arm=arm, position_m=[drop_x, drop_y, clearance_z], quaternion_wxyz=q)\\n            robot.approach(arm=arm, position_m=[drop_x, drop_y, 1.01], quaternion_wxyz=q)\\n            robot.gripper(arm=arm, command=1)\\n            robot.approach(arm=arm, position_m=[drop_x, drop_y, clearance_z], quaternion_wxyz=q)\\n        except Exception:\\n            # Planning or manipulation uncertainty is not evidence of a grasp;\\n            # do not issue a second speculative manipulation attempt.\\n            return\\n        deposited[category] += 1\\n\",\n  \"memory\": {\n    \"lessons\": [\n      \"Development runs exhausted the 1100-action limit with zero or partial scores; use a finite worklist rather than open-ended manipulation loops.\",\n      \"Parse scene names at the final underscore and compare category strings, not numeric instance suffixes.\",\n      \"Assign each observed category a distinct observed basket; do not encode layout-specific destinations.\",\n      \"Scene instance names are not persistent identities. Refresh perception and match a pending target by category and nearby observed position.\",\n      \"Normalize supplied downward quaternions and honor the minimum contact height and basket release height.\",\n      \"Primitive completion does not confirm grasp or task success. Stop on uncertain execution instead of retrying manipulation.\"\n    ]\n  },\n  \"rationale\": \"The policy replaces unbounded behavior with one finite pass over observed objects, assigns separate baskets by category, refreshes target positions, and uses staged pick-and-place motions with normalized orientations. It avoids layout assumptions, hidden state, and speculative manipulation retries. The supplied feedback establishes budget exhaustion but does not identify a specific grasp failure; this revision therefore emphasizes bounded execution and perception-grounded planning without claiming completion.\"\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 3138,
+      "completion_tokens": 2299,
+      "total_tokens": 5437,
+      "prompt_tokens_details": {
+        "cached_tokens": 3135,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 501,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

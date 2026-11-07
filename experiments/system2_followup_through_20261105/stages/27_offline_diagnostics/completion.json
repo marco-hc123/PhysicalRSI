@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-11-04T11:50:12.037327+00:00",
+  "historical_candidate_episodes_reanalyzed": 10,
+  "historical_rpc_records_read": 78,
+  "candidate_fixture_executions": 27,
+  "single_variable_fixture_executions": 14,
+  "recorded_observation_prefix_executions": 10,
+  "exact_driver_virtual_io_executions": 4,
+  "new_native_episodes": 0,
+  "api_calls": 0,
+  "gpu_jobs": 0,
+  "new_task_scores": 0,
+  "all_expected_checks_passed": true,
+  "privileged_isolation_backend": "Not exercised: joey_tr is non-root and unprivileged user-namespace mapping was denied; semantic harness does not replace production isolation gate",
+  "next": "Render controlled feedback prompts; API generation and any GPU acceptance require separate resources/credentials; native scoring requires RT-capable simulation host"
+}

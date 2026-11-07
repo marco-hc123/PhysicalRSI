@@ -1,0 +1,17 @@
+{
+  "status": "prepared_not_submitted",
+  "baseline_bytes": 9210,
+  "enhanced_bytes": 35065,
+  "actual_token_usage": null,
+  "api_calls": 0,
+  "only_treatment": "Append attributed rejected-candidate code and historical failure records to an explicit prompt section",
+  "required_adapter_change": "Render diagnostic_history into a delimited user-message section; unknown JSON fields alone are not guaranteed to reach the model",
+  "fixed_conditions": [
+    "same selected pi05 parent",
+    "same model/settings",
+    "same generation count and output budget",
+    "same validation and selection rules"
+  ],
+  "generation_and_native_comparison_status": "not_run",
+  "held_out_layouts": "must be selected after checking prior use; not the diagnostics above"
+}

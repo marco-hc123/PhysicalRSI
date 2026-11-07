@@ -1,0 +1,340 @@
+{
+  "utc": "2026-11-05T05:22:52.673651+00:00",
+  "state": "verified",
+  "files": [
+    {
+      "skill": "pi05",
+      "relative_path": "_CHECKPOINT_METADATA",
+      "bytes": 426,
+      "expected_sha256": "611068068c5c4b85052e57cc1f89766349182ab736ff96dfc1b2612bb16e427e",
+      "actual_sha256": "611068068c5c4b85052e57cc1f89766349182ab736ff96dfc1b2612bb16e427e",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "assets/arx_x5_sim/norm_stats.json",
+      "bytes": 3407,
+      "expected_sha256": "ad7dea3e3d2bcdb348945fe03422ab1adccd03baf67318b1a1d153dfe8694db5",
+      "actual_sha256": "ad7dea3e3d2bcdb348945fe03422ab1adccd03baf67318b1a1d153dfe8694db5",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/_METADATA",
+      "bytes": 23491,
+      "expected_sha256": "f7b1dbf26ce9466c9d444c3a7f60dfe21767b3abc3380a455e841972eae4f274",
+      "actual_sha256": "f7b1dbf26ce9466c9d444c3a7f60dfe21767b3abc3380a455e841972eae4f274",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/_sharding",
+      "bytes": 18258,
+      "expected_sha256": "77b1fa6b2c8d2a16a94d19eb268bed916c6913565421fdf6312453ac6c4fc621",
+      "actual_sha256": "77b1fa6b2c8d2a16a94d19eb268bed916c6913565421fdf6312453ac6c4fc621",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/array_metadatas/process_0",
+      "bytes": 9058,
+      "expected_sha256": "2b650291cb689bb0504470bf03a071c40ae96e203667b89cead0c6adb2d6288f",
+      "actual_sha256": "2b650291cb689bb0504470bf03a071c40ae96e203667b89cead0c6adb2d6288f",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/d/e9268d0868cc79dc08071adee3ba67f5",
+      "bytes": 42398,
+      "expected_sha256": "9482acdbb1250cf3344fad3c8be7f587ba3770441198e7d60f357702486ac2c8",
+      "actual_sha256": "9482acdbb1250cf3344fad3c8be7f587ba3770441198e7d60f357702486ac2c8",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/manifest.ocdbt",
+      "bytes": 120,
+      "expected_sha256": "634fea47615fa13f4c0852dc13b05d897ee1694a473d9d0605d02b834fd2befe",
+      "actual_sha256": "634fea47615fa13f4c0852dc13b05d897ee1694a473d9d0605d02b834fd2befe",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/0a05b3b4870f64154af3641ef1c1eecf",
+      "bytes": 2284789865,
+      "expected_sha256": "429161d8ab2ac9d13b72095d8b5be5ffba8f99302b12bb2cae149d1ee0a148b0",
+      "actual_sha256": "429161d8ab2ac9d13b72095d8b5be5ffba8f99302b12bb2cae149d1ee0a148b0",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/1fbec215d6341f33f041c6145ee3756f",
+      "bytes": 1200,
+      "expected_sha256": "cdf1415e6f30a9827e52e6d5442b5f819dadbaba7c8e941773290cfc2742f249",
+      "actual_sha256": "cdf1415e6f30a9827e52e6d5442b5f819dadbaba7c8e941773290cfc2742f249",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/3749fcdb2abf24595f8ca06ee208e773",
+      "bytes": 560077054,
+      "expected_sha256": "23ddd7f53b976bd27b1a62a83ad1499925a8a2e90a5b0545affd63c7bbd52bbc",
+      "actual_sha256": "23ddd7f53b976bd27b1a62a83ad1499925a8a2e90a5b0545affd63c7bbd52bbc",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/42eb48ef345d0e30b95bc9e2a194adc8",
+      "bytes": 2520305970,
+      "expected_sha256": "41eb65bde7e3d16f63ac71ac80bc4547bdcf3107c41af70ac5174992bd38b709",
+      "actual_sha256": "41eb65bde7e3d16f63ac71ac80bc4547bdcf3107c41af70ac5174992bd38b709",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/5dd44e9e6c20354d58016a470210b404",
+      "bytes": 109402,
+      "expected_sha256": "d096237d5373dc120004174e89dc44a341fdffdcc7457d568d0b841700ff2ade",
+      "actual_sha256": "d096237d5373dc120004174e89dc44a341fdffdcc7457d568d0b841700ff2ade",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/a66e531837010ca0fb32ecd927335e53",
+      "bytes": 2343282541,
+      "expected_sha256": "522d9057a70c021327d3c76132377aa0e6c323feb4dea4db0b8ccb16fc7980f4",
+      "actual_sha256": "522d9057a70c021327d3c76132377aa0e6c323feb4dea4db0b8ccb16fc7980f4",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/ce1637cf430319dc033526f7e32d833e",
+      "bytes": 2165726013,
+      "expected_sha256": "93e3eb49cbbcae7b3e424c4e19a11262ee118355a4676a62681ec2e26fccbc16",
+      "actual_sha256": "93e3eb49cbbcae7b3e424c4e19a11262ee118355a4676a62681ec2e26fccbc16",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/d7a5b27d8a8c4f63cc9dfe9d12d5e2d3",
+      "bytes": 232,
+      "expected_sha256": "437c63711361d678a44b06455d0124a50ec79d9ee0bafe2ada78e41d79360fa6",
+      "actual_sha256": "437c63711361d678a44b06455d0124a50ec79d9ee0bafe2ada78e41d79360fa6",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/d931aec2d1d586717a28915e6c710676",
+      "bytes": 2240108427,
+      "expected_sha256": "1a8834dd2a575ce5f8bfa7be2fbd554cca261cdf997d928c5a719e77174b1d83",
+      "actual_sha256": "1a8834dd2a575ce5f8bfa7be2fbd554cca261cdf997d928c5a719e77174b1d83",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/d/fbf78c71d75f5d3cb7ef11cd9cde9ab0",
+      "bytes": 326494172,
+      "expected_sha256": "9c268e5dfc2248b4c75ae5ccbf2f23a196b2cd55ee798707c0bef5d4b3f6b653",
+      "actual_sha256": "9c268e5dfc2248b4c75ae5ccbf2f23a196b2cd55ee798707c0bef5d4b3f6b653",
+      "match": true
+    },
+    {
+      "skill": "pi05",
+      "relative_path": "params/ocdbt.process_0/manifest.ocdbt",
+      "bytes": 368,
+      "expected_sha256": "b2117af3ce683fba15add35bdd5596df488e816ec4c5bcef1a82161a965115bd",
+      "actual_sha256": "b2117af3ce683fba15add35bdd5596df488e816ec4c5bcef1a82161a965115bd",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "_CHECKPOINT_METADATA",
+      "bytes": 426,
+      "expected_sha256": "933668ebcc18eb381c3d3a470f8ae4fda1bc401d33d6df43af13555df784e999",
+      "actual_sha256": "933668ebcc18eb381c3d3a470f8ae4fda1bc401d33d6df43af13555df784e999",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "assets/robodojo_arx_x5_all35/norm_stats.json",
+      "bytes": 3426,
+      "expected_sha256": "4cf3155653a12e13ae8b4f9bc640eda865f300e46058da160782f58d5694d08b",
+      "actual_sha256": "4cf3155653a12e13ae8b4f9bc640eda865f300e46058da160782f58d5694d08b",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/_METADATA",
+      "bytes": 23458,
+      "expected_sha256": "1a59e30e43f7af9b868e032aaaf3245a8701602207b08ddf1bde8edf7c1fd2dd",
+      "actual_sha256": "1a59e30e43f7af9b868e032aaaf3245a8701602207b08ddf1bde8edf7c1fd2dd",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/_sharding",
+      "bytes": 23664,
+      "expected_sha256": "55aeb35715e2a66ff996837ad67b335d3cdfb81884aeb021962d7c9ec32798ae",
+      "actual_sha256": "55aeb35715e2a66ff996837ad67b335d3cdfb81884aeb021962d7c9ec32798ae",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/array_metadatas/process_0",
+      "bytes": 8992,
+      "expected_sha256": "1ac4ea5f5c209bbcb6a28aec143ad92fd38482d410a0208600165348816ca316",
+      "actual_sha256": "1ac4ea5f5c209bbcb6a28aec143ad92fd38482d410a0208600165348816ca316",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/array_metadatas/process_1",
+      "bytes": 8992,
+      "expected_sha256": "1ac4ea5f5c209bbcb6a28aec143ad92fd38482d410a0208600165348816ca316",
+      "actual_sha256": "1ac4ea5f5c209bbcb6a28aec143ad92fd38482d410a0208600165348816ca316",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/d/442b24a871c231f75b988b5879fa44a2",
+      "bytes": 56808,
+      "expected_sha256": "fb6751951aaff3fcf8d9a952e998b8fdc0cce314e60f5ad52f11c044bcfd6ee8",
+      "actual_sha256": "fb6751951aaff3fcf8d9a952e998b8fdc0cce314e60f5ad52f11c044bcfd6ee8",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/manifest.ocdbt",
+      "bytes": 120,
+      "expected_sha256": "1ba2c4c935744b768ee1d860c7b4fa15087c403bff63f0a6a1bf248285561d49",
+      "actual_sha256": "1ba2c4c935744b768ee1d860c7b4fa15087c403bff63f0a6a1bf248285561d49",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/0dcb0bbd9ae862b6578e4fb346d1a496",
+      "bytes": 1979302,
+      "expected_sha256": "29517d31d961a97f331ba2b41efb58fa587c431a2623b5877ecedfa61c9f70dd",
+      "actual_sha256": "29517d31d961a97f331ba2b41efb58fa587c431a2623b5877ecedfa61c9f70dd",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/1691f2526b8a2ab39937f9d583a63e9f",
+      "bytes": 1960593317,
+      "expected_sha256": "334ea35614709ad4dfe9d0f28169d17eaeba9bca1398ef1844abd111bc5c0166",
+      "actual_sha256": "334ea35614709ad4dfe9d0f28169d17eaeba9bca1398ef1844abd111bc5c0166",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/1b55aa2a868a92190dfdd00a161c3ca6",
+      "bytes": 336781032,
+      "expected_sha256": "16266f40f502f5e8a90e9313c7a7e8c2d75eabdba3095a188e62c6b79306febc",
+      "actual_sha256": "16266f40f502f5e8a90e9313c7a7e8c2d75eabdba3095a188e62c6b79306febc",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/38d551e3adfda6a17277b286934d68df",
+      "bytes": 216,
+      "expected_sha256": "3f49b58427d972eaf35b5091c814d5e2afc4ad4cd834a7cbd79c49574bba24c7",
+      "actual_sha256": "3f49b58427d972eaf35b5091c814d5e2afc4ad4cd834a7cbd79c49574bba24c7",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/60f5fd13b459e792c409a8bcab341c49",
+      "bytes": 872005095,
+      "expected_sha256": "4b0ff0f7fe12f65c61e2e4b6ade900103975a611f06926c46b6172f1a5b59cf7",
+      "actual_sha256": "4b0ff0f7fe12f65c61e2e4b6ade900103975a611f06926c46b6172f1a5b59cf7",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/7ffe1f6cbaa0ed6abe8729f826806fdc",
+      "bytes": 2256587525,
+      "expected_sha256": "9edfaab9f140da3798bb9a49dc040d805bebd3789af7824a32a459143e397d4c",
+      "actual_sha256": "9edfaab9f140da3798bb9a49dc040d805bebd3789af7824a32a459143e397d4c",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/8925568669461262bbd7252aba5d92c1",
+      "bytes": 1097,
+      "expected_sha256": "3a806c1316c34de00a131ca9a35df269988a3239b3fd50b2c276f087c8f12df4",
+      "actual_sha256": "3a806c1316c34de00a131ca9a35df269988a3239b3fd50b2c276f087c8f12df4",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/d/b5294094e4cd501b89d66b3cb1ccd38e",
+      "bytes": 792507678,
+      "expected_sha256": "6db5efa5ace6e4a163a03ae2451c6b8ffbe8c62b4a677ea6bcb1c9a250dfed41",
+      "actual_sha256": "6db5efa5ace6e4a163a03ae2451c6b8ffbe8c62b4a677ea6bcb1c9a250dfed41",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_0/manifest.ocdbt",
+      "bytes": 418,
+      "expected_sha256": "b9c94a00433601410aca76dccebe99d494e67e508f90f5b18aca6be59c19ff8b",
+      "actual_sha256": "b9c94a00433601410aca76dccebe99d494e67e508f90f5b18aca6be59c19ff8b",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_1/d/2ec56b4d19d2fb921eaa68574b12f992",
+      "bytes": 2098717965,
+      "expected_sha256": "eb21d3dba9b1163a243828991a64eabd75cbd9acfb21cca364ec72ba2e148a32",
+      "actual_sha256": "eb21d3dba9b1163a243828991a64eabd75cbd9acfb21cca364ec72ba2e148a32",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_1/d/35eaf660c92d80a615a24e6075a88c5e",
+      "bytes": 741697762,
+      "expected_sha256": "5ca0f706f8d3b6efb02eb5efc1cafc4cf24ad891a126630f9bda4e1b99f5fa01",
+      "actual_sha256": "5ca0f706f8d3b6efb02eb5efc1cafc4cf24ad891a126630f9bda4e1b99f5fa01",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_1/d/39536ef91f5acfcb67ff7f30217a4078",
+      "bytes": 26055,
+      "expected_sha256": "41e141bbc5873712bd54af8403adc50e535732e9c2b993472f137b7774ee9b51",
+      "actual_sha256": "41e141bbc5873712bd54af8403adc50e535732e9c2b993472f137b7774ee9b51",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_1/d/d0e364fb8cfce55d8dce335dabd366f4",
+      "bytes": 1139170739,
+      "expected_sha256": "98d699d9586b85a1e4b1d8889f1b453af96c6daa2fc033cb88320e0de0cbb7f5",
+      "actual_sha256": "98d699d9586b85a1e4b1d8889f1b453af96c6daa2fc033cb88320e0de0cbb7f5",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_1/d/d92b86f29b33c331fe0cd5e9d73e87e3",
+      "bytes": 2240071414,
+      "expected_sha256": "b773c7506ac7f0c29aba8de3c574d088f325dd08d10eb410cb3ee5879c17ac82",
+      "actual_sha256": "b773c7506ac7f0c29aba8de3c574d088f325dd08d10eb410cb3ee5879c17ac82",
+      "match": true
+    },
+    {
+      "skill": "pi05-sparse-memory",
+      "relative_path": "params/ocdbt.process_1/manifest.ocdbt",
+      "bytes": 305,
+      "expected_sha256": "841299b39e31b9a8b980b39b2770c3f2911631bc89c6a7a42356ea3864424f5c",
+      "actual_sha256": "841299b39e31b9a8b980b39b2770c3f2911631bc89c6a7a42356ea3864424f5c",
+      "match": true
+    }
+  ],
+  "file_count": 41,
+  "matched": 41,
+  "elapsed_s": 335.7565685289992,
+  "bytes": 24881258208,
+  "api_calls": 0,
+  "gpu_used": false
+}

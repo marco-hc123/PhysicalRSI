@@ -1,0 +1,22 @@
+{
+  "repository": "marco-hc123/PhysicalRSI",
+  "branch": "main",
+  "old_commit": "dac031cbcd416d9c587877cee68a3045ab6f2f18",
+  "new_commit": "da1364a36e066a996b7d63e764dfe8929d463516",
+  "expected_commit": "da1364a36e066a996b7d63e764dfe8929d463516",
+  "README_blob": "e5f88b2573428bb3fd615c96fa1b174837bde37f",
+  "content_exact_match": true,
+  "readback_commit_matches": true,
+  "changed_files": [
+    {
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 145,
+      "deletions": 7,
+      "changes": 152,
+      "previous_filename": null
+    }
+  ],
+  "url": "https://github.com/marco-hc123/PhysicalRSI#当前主要结果",
+  "new_evidence_links": 30
+}

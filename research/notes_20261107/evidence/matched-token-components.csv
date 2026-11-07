@@ -1,0 +1,25 @@
+﻿project,task,A_method,component,tokens_mean,share_total_pct,n,qualification
+A,classify_objects,mix,Cached input,10871577.6,97.12592923161291,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects,gpt,Cached input,22474342.4,98.11475163070396,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects_by_language,mix,Cached input,14083584.0,97.64139698211505,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects_by_language,gpt,Cached input,36675737.6,97.51213434675422,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects,mix,Uncached input,296562.0,2.649464584126741,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects,gpt,Uncached input,400876.0,1.750077865446692,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects_by_language,mix,Uncached input,314984.80000000075,2.183787585612596,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects_by_language,gpt,Uncached input,863755.6000000015,2.296522377506634,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects,mix,Output (incl. reasoning),25140.8,0.22460618426033532,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects,gpt,Output (incl. reasoning),30962.4,0.1351705038493366,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects_by_language,mix,Output (incl. reasoning),25215.0,0.1748154322723556,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+A,classify_objects_by_language,gpt,Output (incl. reasoning),71967.0,0.1913432757391323,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects,mix,Cached input,4147.2,32.90384005077753,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects,gpt,Cached input,4147.2,32.90384005077753,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects_by_language,mix,Cached input,0.0,0.0,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects_by_language,gpt,Cached input,0.0,0.0,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects,mix,Uncached input,7398.8,58.70199936528086,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects,gpt,Uncached input,7398.8,58.70199936528086,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects_by_language,mix,Uncached input,11588.8,93.97035451331452,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects_by_language,gpt,Uncached input,11588.8,93.97035451331452,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects,mix,Output (incl. reasoning),1058.0,8.394160583941606,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects,gpt,Output (incl. reasoning),1058.0,8.394160583941606,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects_by_language,mix,Output (incl. reasoning),743.6,6.029645486685479,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.
+B,classify_objects_by_language,gpt,Output (incl. reasoning),743.6,6.029645486685479,5,B groups reused across A modes; different models/layouts/success; subsets are not added twice.

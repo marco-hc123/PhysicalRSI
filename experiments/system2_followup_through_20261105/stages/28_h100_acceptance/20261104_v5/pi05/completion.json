@@ -1,0 +1,89 @@
+{
+  "state": "passed",
+  "started_seconds": 11101723.75165173,
+  "elapsed_seconds": 23.050716750323772,
+  "result": {
+    "loaded_existing_checkpoint": true,
+    "load_seconds": 7.172855464741588,
+    "calls": [
+      {
+        "call": 0,
+        "seconds": 7.370293131098151,
+        "shape": {
+          "left_arm_joint_state": [
+            50,
+            6
+          ],
+          "left_ee_joint_state": [
+            50,
+            1
+          ],
+          "right_arm_joint_state": [
+            50,
+            6
+          ],
+          "right_ee_joint_state": [
+            50,
+            1
+          ]
+        },
+        "all_finite": true,
+        "sparse_masks": null
+      },
+      {
+        "call": 1,
+        "seconds": 0.05674700066447258,
+        "shape": {
+          "left_arm_joint_state": [
+            50,
+            6
+          ],
+          "left_ee_joint_state": [
+            50,
+            1
+          ],
+          "right_arm_joint_state": [
+            50,
+            6
+          ],
+          "right_ee_joint_state": [
+            50,
+            1
+          ]
+        },
+        "all_finite": true,
+        "sparse_masks": null
+      },
+      {
+        "call": 2,
+        "seconds": 0.05358554795384407,
+        "shape": {
+          "left_arm_joint_state": [
+            50,
+            6
+          ],
+          "left_ee_joint_state": [
+            50,
+            1
+          ],
+          "right_arm_joint_state": [
+            50,
+            6
+          ],
+          "right_ee_joint_state": [
+            50,
+            1
+          ]
+        },
+        "all_finite": true,
+        "sparse_masks": null
+      }
+    ],
+    "reset_verified": true,
+    "input": "synthetic seed 0 RGB/state; not task observation",
+    "native_episodes": 0,
+    "api_calls": 0
+  },
+  "pid": 4089241,
+  "finished_utc": "2026-11-04T12:54:23.180830+00:00"
+}

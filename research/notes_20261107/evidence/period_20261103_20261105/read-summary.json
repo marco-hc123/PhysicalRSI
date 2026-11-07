@@ -1,0 +1,17 @@
+{
+  "state": "source_read_complete",
+  "observed_start_utc": "2026-11-05T08:15:35.350418+00:00",
+  "read_completed_utc": "2026-11-05T08:17:33.042237+00:00",
+  "entries": 29998,
+  "states": {
+    "read_complete": 29996,
+    "link_recorded": 2
+  },
+  "unique_contents": 2674,
+  "text_contents": 2340,
+  "bytes_read": 1745979697,
+  "errors": [],
+  "new_experiments": 0,
+  "pid": null,
+  "reading_scope": "Complete byte reads and format analysis, not a claim of manual line-by-line or frame-by-frame review."
+}

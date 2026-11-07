@@ -1,0 +1,24 @@
+{
+  "state": "paused_by_user",
+  "phase": "checkpoint_after_pi05",
+  "controller_pid": null,
+  "child_pid": null,
+  "gpu_uuid": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f",
+  "started_utc": "2026-11-04T12:54:00.099623+00:00",
+  "completed": [
+    {
+      "phase": "planning",
+      "exit_code": 0,
+      "elapsed_seconds": 55.560865668579936
+    }
+  ],
+  "pause_requested_utc": "2026-11-04T12:54:10.329404+00:00",
+  "updated_utc": "2026-11-04T12:56:16.160017+00:00",
+  "verified_completed": [
+    "planning",
+    "pi05"
+  ],
+  "pending": [
+    "sparse"
+  ]
+}

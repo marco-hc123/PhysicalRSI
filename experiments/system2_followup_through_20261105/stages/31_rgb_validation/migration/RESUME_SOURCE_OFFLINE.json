@@ -1,0 +1,58 @@
+{
+  "state": "raw_cohorts_reverified_source_offline",
+  "utc": "2026-11-05T07:55:25.912604+00:00",
+  "verified_files": 28182,
+  "logical_bytes": 1568556702,
+  "mismatches": 0,
+  "valid_native_cases": 35,
+  "videos": 105,
+  "conditions": [
+    {
+      "condition": "augmented_1",
+      "valid_cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0
+    },
+    {
+      "condition": "augmented_2",
+      "valid_cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0
+    },
+    {
+      "condition": "augmented_3",
+      "valid_cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0
+    },
+    {
+      "condition": "baseline_1",
+      "valid_cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0
+    },
+    {
+      "condition": "baseline_2",
+      "valid_cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0
+    },
+    {
+      "condition": "baseline_3",
+      "valid_cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0
+    },
+    {
+      "condition": "pi05",
+      "valid_cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0
+    }
+  ],
+  "latest_analysis_report_present": false,
+  "final_directory_exists": false,
+  "source_status": "User confirms cloud server is powered off; do not retry SSH or start instance",
+  "pending": "Transfer latest analysis/report/figures/reference metadata after source is available; final manifest verification and directory finalization not completed",
+  "scope": "Read existing evidence; write this checkpoint only inside authorized project; no GPU/API/experiment run"
+}

@@ -1,0 +1,47 @@
+{
+  "recorded_identity": "SHA256 of canonical JSON with sorted keys and compact separators",
+  "raw_file_digest_is_distinct": true,
+  "all_five_canonical_digests_match": true,
+  "layouts": [
+    {
+      "file": "generated/classify_objects/0/layout.json",
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "raw_file_sha256": "44df4bcb49591ec5f89f0cfb54a9941e446da1e952d05e87d3e76b17c36f2120",
+      "task": "classify_objects",
+      "framework_split": "validation",
+      "research_role": "previously exposed diagnostic/development reuse; not heldout"
+    },
+    {
+      "file": "generated/classify_objects/1/layout.json",
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "raw_file_sha256": "36a069f6a5d5dd5c95b1a73f57783eb5e74347fc51b274c72748960fa74699e4",
+      "task": "classify_objects",
+      "framework_split": "validation",
+      "research_role": "previously exposed diagnostic/development reuse; not heldout"
+    },
+    {
+      "file": "generated/classify_objects/2/layout.json",
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "raw_file_sha256": "05995e7f644557046287b2b4ea98ec8bd225a749ee9091439b9da28600be769c",
+      "task": "classify_objects",
+      "framework_split": "validation",
+      "research_role": "previously exposed diagnostic/development reuse; not heldout"
+    },
+    {
+      "file": "generated/classify_objects/3/layout.json",
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "raw_file_sha256": "d69b473786d3fa979d557a4b31ecb1d6c2dec3a66564de884e5b5a118c716ca2",
+      "task": "classify_objects",
+      "framework_split": "validation",
+      "research_role": "previously exposed diagnostic/development reuse; not heldout"
+    },
+    {
+      "file": "generated/classify_objects/4/layout.json",
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "raw_file_sha256": "d8470ff44cdafde0e779fcaa9b75e838d8c0ca689701fc5ab1ae6a16bfa2137b",
+      "task": "classify_objects",
+      "framework_split": "validation",
+      "research_role": "previously exposed diagnostic/development reuse; not heldout"
+    }
+  ]
+}

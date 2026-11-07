@@ -1,0 +1,33 @@
+{
+  "driver_sha256": "f9c8c15465fea537878d62c5d59530be524216b6d5a214c74d46e8c1671fef47",
+  "scope": "Exact recorded driver string with virtual IO; no process-isolation qualification",
+  "original_payload": {
+    "kind": "result",
+    "value": null
+  },
+  "mutated_memory_published_original": false,
+  "memory_schema_prototype_roundtrip": [
+    {
+      "kind": "result",
+      "value": null,
+      "memory": {
+        "counter": 1
+      }
+    },
+    {
+      "kind": "result",
+      "value": null,
+      "memory": {
+        "counter": 2
+      }
+    }
+  ],
+  "recoverable_no_path_payload": {
+    "kind": "result",
+    "value": {
+      "caught_no_path": true
+    }
+  },
+  "native_score": null,
+  "meaning": "Explicit memory-return schema prototype only, not deployed or evidence of VLA sparse-memory failure"
+}

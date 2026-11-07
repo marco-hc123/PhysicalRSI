@@ -1,0 +1,59 @@
+{
+  "utc": "2026-11-05T08:02:59.485070+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+  "include": "All35 native receipts,7 valid cohort outputs,105 original videos,30 saved-candidate execution traces,all candidate sources/harnesses, excluded deployment attempt, frozen protocol, reports/figures/keyframes, reference contracts,resource/version checks, relevant preparation logs/scripts",
+  "exclusions": [
+    "Installed Python/IsaacSim environments",
+    "Released weights and complete simulation assets already indexed by frozen hash manifests",
+    "Download parts/cache and transport/network benchmark binary payloads",
+    "Repeated historical reference trees",
+    "Mutable continuation files and empty controller lock; immutable completion snapshot retained"
+  ],
+  "omitted_symlinks": [
+    {
+      "path": "native-preparation/preflight-attempt-001/original-integration-alias",
+      "target": "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z",
+      "archived_as": "metadata only"
+    },
+    {
+      "path": "native-preparation/preflight-attempt-003/original-alias-0",
+      "target": "/mnt/data/physical-RSI/reference/repos/RoboDojo-recorded",
+      "archived_as": "metadata only"
+    },
+    {
+      "path": "native-preparation/preflight-attempt-003/original-alias-1",
+      "target": "/mnt/data/physical-RSI/reference/repos/PhysicalRSI-recorded",
+      "archived_as": "metadata only"
+    },
+    {
+      "path": "native-preparation/preflight-attempt-003/original-alias-2",
+      "target": "/mnt/data/physical-RSI/reference/models/recorded_policy_assets/skill-assets",
+      "archived_as": "metadata only"
+    },
+    {
+      "path": "native-preparation/preflight-attempt-003/original-alias-3",
+      "target": "/mnt/data/physical-RSI/models/official-v4/checkpoints",
+      "archived_as": "metadata only"
+    },
+    {
+      "path": "native-preparation/preflight-attempt-003/original-alias-4",
+      "target": "/mnt/data/physical-RSI/models/official-v4/implementations/code-skills",
+      "archived_as": "metadata only"
+    },
+    {
+      "path": "native-preparation/preflight-attempt-003/original-alias-5",
+      "target": "/mnt/data/physical-RSI/reference/data/simulation_assets/robodojo-complete-source",
+      "archived_as": "metadata only"
+    },
+    {
+      "path": "native-preparation/preflight-attempt-003/original-alias-6",
+      "target": "/mnt/data/physical-RSI/reference/result/17_system2_iterations/31_system2_final_validation_20261030T121000Z",
+      "archived_as": "metadata only"
+    }
+  ],
+  "source_to_archive": "Relative paths under source root are preserved; external referenced primitive scenes are copied with analysis/reference-path-map.json",
+  "lab_writes": "Only the authorized project result subtree",
+  "new_paid_api_calls": 0,
+  "new_paid_cost_usd": 0
+}

@@ -1,0 +1,8 @@
+{
+  "base_identity_matches_shared_fields": true,
+  "extra_historical_keys": [
+    "campaign_adapter_sha256",
+    "historical_exclusions_sha256"
+  ],
+  "different_shared_keys": []
+}

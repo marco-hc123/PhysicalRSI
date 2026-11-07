@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "completed_utc": "2026-11-04T11:55:06.574687+00:00",
+  "new_prefix_probes": 10,
+  "new_native_episodes": 0,
+  "api_calls": 0,
+  "prompt_pair_validated": true,
+  "old_prefix_results_superseded": true,
+  "source_candidates_unchanged": true
+}

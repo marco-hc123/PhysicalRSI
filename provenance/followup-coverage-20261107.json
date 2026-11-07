@@ -1,0 +1,116 @@
+{
+  "observed_utc": "2026-11-07T03:50:34.776363+00:00",
+  "source_entries": 30210,
+  "source_text_paths": 28548,
+  "unique_text_contents": 2543,
+  "read_errors": 0,
+  "direct_files": 625,
+  "new_raw_text_objects": 2015,
+  "new_raw_text_bytes": 98846122,
+  "publication_kinds": {
+    "exact_file": 722,
+    "external_binary": 1660,
+    "lossless_text_object": 27825,
+    "external_symlink": 2,
+    "external_runtime": 1
+  },
+  "shards": [
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-001.jsonl.gz",
+      "bytes": 1718916,
+      "sha256": "0bac0f7c68612797f6d6073f35e823e22ce59219dc61ee84d57d09a2592c877b",
+      "decoded_bytes": 7883172
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-002.jsonl.gz",
+      "bytes": 796890,
+      "sha256": "9d90afc388fec5c226d4ad3384ef1c1568f13d548d7b3e80cbd2912fb63a87d4",
+      "decoded_bytes": 7831591
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-003.jsonl.gz",
+      "bytes": 1409384,
+      "sha256": "b2700a0a3f89091c31ffc761ac940334ce8ee774d83f57d643a98713ca73ef08",
+      "decoded_bytes": 7809152
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-004.jsonl.gz",
+      "bytes": 1433459,
+      "sha256": "cbd0b57a65540a376b764f8c0cfac0ef3af8ca640daea95b9ad23f648411e7f4",
+      "decoded_bytes": 7905314
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-005.jsonl.gz",
+      "bytes": 1703478,
+      "sha256": "fd7c277709274a241196dd1dc4065c7135d46cf43646469a442cf4fb2ec37a4e",
+      "decoded_bytes": 7874423
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-006.jsonl.gz",
+      "bytes": 1313920,
+      "sha256": "8fa2580752569deeb1a658c2fe6845c3458dcb60c9115267ea16f32a4d3c200b",
+      "decoded_bytes": 7820779
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-007.jsonl.gz",
+      "bytes": 1039965,
+      "sha256": "c6f96d556c362f65608f0bb98dfec517da652d2010ed239e331ab2d0fad9cdda",
+      "decoded_bytes": 7952994
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-008.jsonl.gz",
+      "bytes": 1322672,
+      "sha256": "da7ac873260755aef89e091580ba3a2bee764c3726ef8f9c0dfb7a3fb06473c2",
+      "decoded_bytes": 7922532
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-009.jsonl.gz",
+      "bytes": 1137600,
+      "sha256": "8dc404958cb0370f05ef6ec64c40b0428d72efcf0d8505920d1d5d0a7ca8a603",
+      "decoded_bytes": 7898509
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-010.jsonl.gz",
+      "bytes": 1282843,
+      "sha256": "d83a0c7981b5f011bb3f1ba2ca721ed4ea6da22929f42ab3667a10d0ca0c216a",
+      "decoded_bytes": 7959755
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-011.jsonl.gz",
+      "bytes": 1091018,
+      "sha256": "cf235cfdd6d4cd33aa41dca25e48c60ec26577e90f01cf4f63d842d5122e9776",
+      "decoded_bytes": 7990906
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-012.jsonl.gz",
+      "bytes": 1532844,
+      "sha256": "30eb16fa7744c0f5ef78de9cbd0e5944a1fd24a7cbf1ffe8366353bc72dada2a",
+      "decoded_bytes": 7814480
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-013.jsonl.gz",
+      "bytes": 1173568,
+      "sha256": "161fd43f4d154cc83f641b2d59bdf99ae2408a3401ed07db999d78ffa571994f",
+      "decoded_bytes": 7948113
+    },
+    {
+      "path": "experiments/system2_followup_through_20261105/raw/records-014.jsonl.gz",
+      "bytes": 80485,
+      "sha256": "561b02efe5558e6f36a4e565d5e1af89ccd8ae285221a86dff6a7c5745114fad",
+      "decoded_bytes": 918739
+    }
+  ],
+  "raw_compressed_bytes": 17037042,
+  "withheld_runtime_objects": 1,
+  "media_hash_basis": "Saved archival manifests and current byte sizes; no new video decode or full binary hash sweep.",
+  "new_experiments": 0,
+  "new_model_requests": 0,
+  "scientific_cutoff": "2026-11-05T23:59:59+08:00",
+  "included_result_groups": [
+    27,
+    28,
+    29,
+    30,
+    31
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "physicalrsi.protocol-authorization-amendment/v1",
+  "utc": "2026-11-05T04:55:58.085680+00:00",
+  "original_protocol_sha256": "60816ebccd9fc07bae5e252efb67d8806a941adadbe84d788bbb7695d81d665d",
+  "change": "User authorized yesterday credential reuse for paid gpt-6.1-sol if later required, with cumulative spending cap USD10. Saved-candidate native evaluation requires zero API calls.",
+  "scientific_protocol_changed": false,
+  "credential_included": false
+}

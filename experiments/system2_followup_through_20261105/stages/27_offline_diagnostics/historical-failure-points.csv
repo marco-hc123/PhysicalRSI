@@ -1,0 +1,11 @@
+round,layout,candidate_sha256,native_state,native_score,native_success,scene_calls,approach_calls,gripper_calls,no_path_count,historical_completed_primitive_steps,historical_policy_result_exists,scope
+1,0,a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8,completed,0.0,False,1,1,1,1,6,True,"Reanalysis of old native evidence, zero new episodes"
+1,1,a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8,completed,0.0,False,1,9,6,3,1081,False,"Reanalysis of old native evidence, zero new episodes"
+1,2,a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8,completed,0.0,False,1,2,2,2,12,True,"Reanalysis of old native evidence, zero new episodes"
+1,3,a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8,completed,0.0,False,1,7,6,3,1040,True,"Reanalysis of old native evidence, zero new episodes"
+1,4,a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8,completed,0.0,False,1,8,5,2,1095,False,"Reanalysis of old native evidence, zero new episodes"
+2,0,3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195,completed,0.0,False,3,4,2,0,835,False,"Reanalysis of old native evidence, zero new episodes"
+2,1,3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195,completed,0.0,False,3,2,2,1,373,True,"Reanalysis of old native evidence, zero new episodes"
+2,2,3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195,completed,0.0,False,2,0,0,0,0,True,"Reanalysis of old native evidence, zero new episodes"
+2,3,3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195,completed,0.0,False,3,1,0,1,0,True,"Reanalysis of old native evidence, zero new episodes"
+2,4,3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195,completed,0.0,False,3,1,0,1,0,True,"Reanalysis of old native evidence, zero new episodes"

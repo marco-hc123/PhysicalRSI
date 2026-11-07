@@ -1,0 +1,797 @@
+[
+  {
+    "layout": 1,
+    "variant": "original_20cm",
+    "seed": 0,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.145
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Fail",
+    "seconds": 0.11265096999704838
+  },
+  {
+    "layout": 1,
+    "variant": "lift_15cm",
+    "seed": 0,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.095
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.04877269268035889,
+    "trajectory_shape": [
+      221,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "lift_10cm",
+    "seed": 0,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.045
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.04642990045249462,
+    "trajectory_shape": [
+      161,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "lift_5cm",
+    "seed": 0,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        0.995
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.0465095080435276,
+    "trajectory_shape": [
+      121,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "original_20cm",
+    "seed": 1,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.145
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Fail",
+    "seconds": 0.07264667749404907
+  },
+  {
+    "layout": 1,
+    "variant": "lift_15cm",
+    "seed": 1,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.095
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.04594937525689602,
+    "trajectory_shape": [
+      221,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "lift_10cm",
+    "seed": 1,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.045
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.045998116955161095,
+    "trajectory_shape": [
+      161,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "lift_5cm",
+    "seed": 1,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        0.995
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.046465421095490456,
+    "trajectory_shape": [
+      121,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "original_20cm",
+    "seed": 2,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.145
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Fail",
+    "seconds": 0.07228941842913628
+  },
+  {
+    "layout": 1,
+    "variant": "lift_15cm",
+    "seed": 2,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.095
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.04594728350639343,
+    "trajectory_shape": [
+      221,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "lift_10cm",
+    "seed": 2,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        1.045
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.04634510725736618,
+    "trajectory_shape": [
+      161,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 1,
+    "variant": "lift_5cm",
+    "seed": 2,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.00721594799406127,
+        -0.18376721396225296,
+        0.995
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.8538886308670044,
+      2.1327099800109863,
+      1.7190346717834473,
+      -1.1673202514648438,
+      0.026916762813925743,
+      -0.31595084071159363
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001/model/expert/16597f6423994753ac9bcc5d82cc7c0a/0/execution/rpc/643ba5cd8d5c401cb6dfdff2a46eda66.json",
+    "planner_status": "Success",
+    "seconds": 0.046476976945996284,
+    "trajectory_shape": [
+      121,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 3,
+    "variant": "left",
+    "seed": 0,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.14952336675029232,
+        -0.18532781222400646,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      5.115578100012286e-13,
+      -1.156115904982105e-15,
+      1.767066072491508e-17,
+      7.853062682560905e-16,
+      -9.987136985467604e-13,
+      2.5006576670483227e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000003/model/expert/2cd6a9aede9c4d1e952617a4c30c04f7/0/execution/rpc/eb7323adabca408e9a4cf144f5222697.json",
+    "planner_status": "Fail",
+    "seconds": 0.07236070744693279
+  },
+  {
+    "layout": 3,
+    "variant": "right",
+    "seed": 0,
+    "action": {
+      "arm": "right",
+      "position_m": [
+        0.14952336675029232,
+        -0.18532781222400646,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "start": [
+      5.115569426394906e-13,
+      -1.1561103992679478e-15,
+      1.7667572032507807e-17,
+      7.853009213606109e-16,
+      -9.98713048025457e-13,
+      2.5006572333674537e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000003/model/expert/2cd6a9aede9c4d1e952617a4c30c04f7/0/execution/rpc/eb7323adabca408e9a4cf144f5222697.json",
+    "planner_status": "Success",
+    "seconds": 0.04647958278656006,
+    "trajectory_shape": [
+      341,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 3,
+    "variant": "left",
+    "seed": 1,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.14952336675029232,
+        -0.18532781222400646,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      5.115578100012286e-13,
+      -1.156115904982105e-15,
+      1.767066072491508e-17,
+      7.853062682560905e-16,
+      -9.987136985467604e-13,
+      2.5006576670483227e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000003/model/expert/2cd6a9aede9c4d1e952617a4c30c04f7/0/execution/rpc/eb7323adabca408e9a4cf144f5222697.json",
+    "planner_status": "Fail",
+    "seconds": 0.07236576452851295
+  },
+  {
+    "layout": 3,
+    "variant": "right",
+    "seed": 1,
+    "action": {
+      "arm": "right",
+      "position_m": [
+        0.14952336675029232,
+        -0.18532781222400646,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "start": [
+      5.115569426394906e-13,
+      -1.1561103992679478e-15,
+      1.7667572032507807e-17,
+      7.853009213606109e-16,
+      -9.98713048025457e-13,
+      2.5006572333674537e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000003/model/expert/2cd6a9aede9c4d1e952617a4c30c04f7/0/execution/rpc/eb7323adabca408e9a4cf144f5222697.json",
+    "planner_status": "Success",
+    "seconds": 0.04701174981892109,
+    "trajectory_shape": [
+      341,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 3,
+    "variant": "left",
+    "seed": 2,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.14952336675029232,
+        -0.18532781222400646,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      5.115578100012286e-13,
+      -1.156115904982105e-15,
+      1.767066072491508e-17,
+      7.853062682560905e-16,
+      -9.987136985467604e-13,
+      2.5006576670483227e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000003/model/expert/2cd6a9aede9c4d1e952617a4c30c04f7/0/execution/rpc/eb7323adabca408e9a4cf144f5222697.json",
+    "planner_status": "Fail",
+    "seconds": 0.07240364328026772
+  },
+  {
+    "layout": 3,
+    "variant": "right",
+    "seed": 2,
+    "action": {
+      "arm": "right",
+      "position_m": [
+        0.14952336675029232,
+        -0.18532781222400646,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "start": [
+      5.115569426394906e-13,
+      -1.1561103992679478e-15,
+      1.7667572032507807e-17,
+      7.853009213606109e-16,
+      -9.98713048025457e-13,
+      2.5006572333674537e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000003/model/expert/2cd6a9aede9c4d1e952617a4c30c04f7/0/execution/rpc/eb7323adabca408e9a4cf144f5222697.json",
+    "planner_status": "Success",
+    "seconds": 0.045926641672849655,
+    "trajectory_shape": [
+      341,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 4,
+    "variant": "left",
+    "seed": 0,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.2343497930625349,
+        -0.2120906643278518,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      5.115578100012286e-13,
+      -1.156115904982105e-15,
+      1.767066072491508e-17,
+      7.853062682560905e-16,
+      -9.987136985467604e-13,
+      2.5006576670483227e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000004/model/expert/f6465109abb042b58977cb8abdd6b80a/0/execution/rpc/1ce5e34cde5d41fc906bb1acb125732e.json",
+    "planner_status": "Fail",
+    "seconds": 0.07243438810110092
+  },
+  {
+    "layout": 4,
+    "variant": "right",
+    "seed": 0,
+    "action": {
+      "arm": "right",
+      "position_m": [
+        0.2343497930625349,
+        -0.2120906643278518,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "start": [
+      5.115569426394906e-13,
+      -1.1561103992679478e-15,
+      1.7667572032507807e-17,
+      7.853009213606109e-16,
+      -9.98713048025457e-13,
+      2.5006572333674537e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000004/model/expert/f6465109abb042b58977cb8abdd6b80a/0/execution/rpc/1ce5e34cde5d41fc906bb1acb125732e.json",
+    "planner_status": "Success",
+    "seconds": 0.04682728461921215,
+    "trajectory_shape": [
+      321,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 4,
+    "variant": "left",
+    "seed": 1,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.2343497930625349,
+        -0.2120906643278518,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      5.115578100012286e-13,
+      -1.156115904982105e-15,
+      1.767066072491508e-17,
+      7.853062682560905e-16,
+      -9.987136985467604e-13,
+      2.5006576670483227e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000004/model/expert/f6465109abb042b58977cb8abdd6b80a/0/execution/rpc/1ce5e34cde5d41fc906bb1acb125732e.json",
+    "planner_status": "Fail",
+    "seconds": 0.07254372164607048
+  },
+  {
+    "layout": 4,
+    "variant": "right",
+    "seed": 1,
+    "action": {
+      "arm": "right",
+      "position_m": [
+        0.2343497930625349,
+        -0.2120906643278518,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "start": [
+      5.115569426394906e-13,
+      -1.1561103992679478e-15,
+      1.7667572032507807e-17,
+      7.853009213606109e-16,
+      -9.98713048025457e-13,
+      2.5006572333674537e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000004/model/expert/f6465109abb042b58977cb8abdd6b80a/0/execution/rpc/1ce5e34cde5d41fc906bb1acb125732e.json",
+    "planner_status": "Success",
+    "seconds": 0.04683884233236313,
+    "trajectory_shape": [
+      321,
+      6
+    ],
+    "finite": true
+  },
+  {
+    "layout": 4,
+    "variant": "left",
+    "seed": 2,
+    "action": {
+      "arm": "left",
+      "position_m": [
+        0.2343497930625349,
+        -0.2120906643278518,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      5.115578100012286e-13,
+      -1.156115904982105e-15,
+      1.767066072491508e-17,
+      7.853062682560905e-16,
+      -9.987136985467604e-13,
+      2.5006576670483227e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000004/model/expert/f6465109abb042b58977cb8abdd6b80a/0/execution/rpc/1ce5e34cde5d41fc906bb1acb125732e.json",
+    "planner_status": "Fail",
+    "seconds": 0.07354803942143917
+  },
+  {
+    "layout": 4,
+    "variant": "right",
+    "seed": 2,
+    "action": {
+      "arm": "right",
+      "position_m": [
+        0.2343497930625349,
+        -0.2120906643278518,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "start": [
+      5.115569426394906e-13,
+      -1.1561103992679478e-15,
+      1.7667572032507807e-17,
+      7.853009213606109e-16,
+      -9.98713048025457e-13,
+      2.5006572333674537e-12
+    ],
+    "original_rpc": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000004/model/expert/f6465109abb042b58977cb8abdd6b80a/0/execution/rpc/1ce5e34cde5d41fc906bb1acb125732e.json",
+    "planner_status": "Success",
+    "seconds": 0.04729796014726162,
+    "trajectory_shape": [
+      321,
+      6
+    ],
+    "finite": true
+  }
+]

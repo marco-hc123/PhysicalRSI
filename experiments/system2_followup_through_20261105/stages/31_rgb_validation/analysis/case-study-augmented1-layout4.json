@@ -1,0 +1,305 @@
+{
+  "condition": "augmented_1",
+  "layout_id": 4,
+  "score_normalized": 0.15,
+  "success": false,
+  "ordered_calls": [
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 0,
+      "method": "scene",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {},
+      "primitive_error": null,
+      "scene_observation_sequence": 1,
+      "scene_object_names": [
+        "basket_1",
+        "basket_2",
+        "basket_3",
+        "camera_1",
+        "pen_1",
+        "watch_1"
+      ],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 1,
+      "method": "scene",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {},
+      "primitive_error": null,
+      "scene_observation_sequence": 1,
+      "scene_object_names": [
+        "basket_1",
+        "basket_2",
+        "basket_3",
+        "camera_1",
+        "pen_1",
+        "watch_1"
+      ],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 2,
+      "method": "gripper",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "left",
+        "command": 1
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 3,
+      "method": "approach",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "left",
+        "position_m": [
+          -0.1826850528972721,
+          -0.15967154200157485,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 4,
+      "method": "approach",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "left",
+        "position_m": [
+          -0.1826850528972721,
+          -0.15967154200157485,
+          0.92
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 5,
+      "method": "gripper",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "left",
+        "command": 0
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 6,
+      "method": "approach",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "left",
+        "position_m": [
+          -0.1826850528972721,
+          -0.15967154200157485,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 7,
+      "method": "approach",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "left",
+        "position_m": [
+          -0.29398769433555094,
+          0.028092829721823143,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 8,
+      "method": "gripper",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "left",
+        "command": 1
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 9,
+      "method": "scene",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {},
+      "primitive_error": null,
+      "scene_observation_sequence": 943,
+      "scene_object_names": [
+        "basket_1",
+        "basket_2",
+        "basket_3",
+        "camera_1",
+        "pen_1",
+        "pen_2"
+      ],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 10,
+      "method": "gripper",
+      "state": "completed",
+      "response_present": true,
+      "arguments": {
+        "arm": "right",
+        "command": 1
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "call_id": 11,
+      "method": "approach",
+      "state": "started",
+      "response_present": false,
+      "arguments": {
+        "arm": "right",
+        "position_m": [
+          0.1718615791409086,
+          -0.1706231500352687,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      },
+      "primitive_error": null,
+      "scene_observation_sequence": null,
+      "scene_object_names": [],
+      "source_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "source_sha256": "b3ea7849d2cec936e4c2042bcd5723a54c2a2d21fc308eb3a87703db7b9307b9"
+    }
+  ],
+  "observation": "First scene sequence1 contains watch_1 and one detected pen. After release, scene sequence943 contains two detected pens and no detected watch. The final attempted approach targets the right-side pen. Missing detections alone do not establish placement success; partial score comes from native receipts.",
+  "limitations": [
+    "Object labels are regenerated by category and X-sort each observation; they are not persistent track IDs.",
+    "Video review supports motion toward the watch and basket; exact score transition time and full object trajectory are not instrumented.",
+    "The second-object approach was unfinished at the native1100-step limit.",
+    "This live continuation does not validate every synthetic category-change case or prove a general recovery mechanism."
+  ]
+}

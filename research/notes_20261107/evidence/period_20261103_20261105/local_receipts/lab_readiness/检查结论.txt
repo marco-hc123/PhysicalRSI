@@ -1,0 +1,51 @@
+实验室服务器后续实验可行性检查（2026-11-04，北京时间约19:05–19:12）
+
+结论
+已通过既有 SSH 配置 physicalrsi-lab 连接 gpuserver3。当前可以推进 System 2 的历史失败轨迹整理、候选代码审计、CPU 接口与异常传播检查、结构化反馈构建及实验脚本开发。新的候选生成需要届时提供个人 API 凭据并验证端点。本机 H100 不满足当前 Isaac Sim 5.1 RGB 原生评测的受支持硬件要求；完整抓取、分类和独立布局验收仍需要带 RT Cores 的仿真主机。
+
+边界
+用户要求所有后续新增或修改仅限 /mnt/data/joey_tr/physical-RSI/。本次未安装依赖、修改驱动/环境/配置、加载模型权重、启动仿真、执行 GPU 计算或调用模型 API；检查脚本通过 SSH 标准输入执行，结果仅写本机。本次不是新实验，也未连接云服务器。SSH 登录等正常系统日志不在应用写入计数范围内。
+
+实际硬件和资源快照
+- Ubuntu 24.04.2 LTS，128 个逻辑 CPU。
+- 2 × NVIDIA H100 NVL，单卡 95,830 MiB；驱动 570.124.06。
+- 检查时两卡利用率0%，各1MiB显存，无nvidia-smi计算进程；不代表已经预留资源。延续此前只使用一张获准GPU的约束。
+- 总内存约1.0TiB，可用约644GiB。Swap已使用约63GiB；未因这一静态数值做清理或性能判断。
+- /mnt/data 总55TiB、可用约39TiB。系统盘已用91%、剩余约71GiB；后续产物和缓存继续放项目数据盘。
+- 按当前用户进程命令与项目路径匹配，未发现运行中的项目实验进程；未检查或干预其他人的实验。
+
+软件现状（本次实际检查）
+- analysis: Python3.11.5、NumPy1.26.4、pandas2.2.3；pip check通过，CPU导入通过。
+- agent: PhysicalRSI0.2.0；pip check通过，physicalrsi与PhysicalRSI模块实际导入通过。
+- policy: PyTorch2.7.1、JAX0.5.3、OpenPI0.1.0、warp-lang1.17.0；NumPy/Torch CPU导入通过，但rerun-sdk0.26.2声明要求NumPy>=2，与现有1.26.4不一致。未运行真实checkpoint推理，不能因导入通过宣称已可直接运行全部策略。
+- simulator: IsaacSim5.1.0.0、IsaacLab0.54.3、PyTorch2.7.0+cu128、cuRobo已安装；NumPy/Torch CPU导入通过。IsaacLab声明starlette==0.49.1，现有0.45.3，pip check不通过。保留已有记录中的冲突，没有自动升级或修复。
+- 当前PhysicalRSI主工作副本和记录副本均为90b322a3a362aad14125f36d8ed080ca31daaea6；RoboDojo记录副本09bd5f5e762b949f5858ece31347ce62057b3a5e。
+
+资料与运行入口
+- models/recorded_policy_assets/skill-assets/checkpoints/pi05：18文件，12,440,992,402字节。
+- pi05-sparse-memory：23文件，12,440,265,806字节。两者为Orbax/OCDBT分片，元数据与归一化文件在；本次仅目录/大小检查，没有重读24.88GB进行全量哈希或加载。
+- code-skills与openpi实现目录在；RoboDojo-recorded和lab-runtime/RoboDojo的Assets链接均解析到项目内data/simulation_assets。
+- general_pickup、classify_objects、classify_objects_by_language布局0–4共15份JSON均可读取。
+- 正式System2结果、机制诊断表、GPT System2补测目录均存在。
+- configs/lab-runtime内analysis/agent/policy/simulator/robodojo启动脚本存在，本次抽取的绝对路径引用均存在；未执行启动脚本或验证完整运行依赖。
+- 历史迁移凭据为2026-11-01 complete_verified，225,236文件、243,720条目、44,165,282,573唯一字节，记录errors/missing为空。这是历史迁移完整性证据，不是今天重做的全量哈希验收。
+- configs/organization/runtime-portability.json中“simulator未安装”等是迁移前旧记录，已由2026-11-01安装结果和本次实际包检查更新，不能当成当前状态。
+
+下一步可开展程度
+1. 可立即开展：历史RPC/候选/反馈归因、日志结构、CPU逻辑测试和受控错误输入测试。CPU模拟检查不证明真实机器人到位或任务成功。
+2. 有条件开展：API候选生成与离线反馈对照，先提供新的个人凭据并核验连通；本次未访问任何已有密钥或调用共享模型服务。
+3. 有硬件基础、待验收：H100单卡VLA推理或不依赖渲染的CuRobo离线规划。先在项目范围处理/隔离相关依赖问题，再做单卡最小验收，不能替代原生RGB闭环。
+4. 当前这台服务器不可作为受支持执行主机：RoboDojo+IsaacSim5.1+RGB完整闭环及新布局最终得分验证。
+
+硬件限制依据
+NVIDIA Isaac Sim 5.1官方要求明确不支持无RT Cores的A100/H100：
+https://docs.isaacsim.omniverse.nvidia.com/5.1.0/installation/requirements.html
+无窗口headless仍可能需要RGB渲染；安装软件或升级驱动不会增加RT硬件。因此不对共享主机做驱动更改，也不把无相机/替代渲染试验混入原协议成绩。
+
+本地证据
+inventory.json：硬件、目录、映射、项目进程快照。
+runtime-check.json：实际包版本、pip check与CPU导入结果。
+payload-check.json：迁移凭据、权重分片目录、历史结果和框架导入。
+path-check.json：运行脚本路径存在性与15份布局JSON检查。
+
+建议下一动作：在项目内新建独立System2诊断批次，先实现CPU层面的结构化轨迹读取和接口契约检查；真实动作与原生评分在有RTX能力的主机验收。尚未启动这一批次。

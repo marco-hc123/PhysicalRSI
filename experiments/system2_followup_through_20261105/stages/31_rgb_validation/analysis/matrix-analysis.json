@@ -1,0 +1,5225 @@
+{
+  "utc": "2026-11-05T07:33:40.726213+00:00",
+  "qualified_cases": 35,
+  "planned_cases": 35,
+  "complete": true,
+  "cohorts": [
+    {
+      "condition": "pi05",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.0,
+      "cohort_wall_seconds": 904.3132902449997,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {
+        "update_obs_batch": 5500,
+        "get_action_batch": 110,
+        "reset": 10
+      },
+      "candidate_actors": 0,
+      "first_approach_rejections": null,
+      "total_approach_calls": null,
+      "accepted_approach_calls": null,
+      "incomplete_approach_calls": null,
+      "native_step_limit_cancellations": null,
+      "actors_with_post_error_calls": null,
+      "total_trusted_primitive_action_steps": null,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/pi05/completed.json"
+    },
+    {
+      "condition": "baseline_1",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.0,
+      "cohort_wall_seconds": 944.809713613,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 4,
+      "total_approach_calls": 8,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "native_step_limit_cancellations": 0,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 859,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/baseline_1/completed.json"
+    },
+    {
+      "condition": "augmented_1",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.03,
+      "cohort_wall_seconds": 962.7110337739996,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 0,
+      "total_approach_calls": 22,
+      "accepted_approach_calls": 17,
+      "incomplete_approach_calls": 2,
+      "native_step_limit_cancellations": 2,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 3935,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/augmented_1/completed.json"
+    },
+    {
+      "condition": "augmented_2",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.03,
+      "cohort_wall_seconds": 956.6357613079999,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 0,
+      "total_approach_calls": 23,
+      "accepted_approach_calls": 18,
+      "incomplete_approach_calls": 3,
+      "native_step_limit_cancellations": 3,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 4154,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/augmented_2/completed.json"
+    },
+    {
+      "condition": "baseline_2",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.0,
+      "cohort_wall_seconds": 918.5252432039997,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 4,
+      "total_approach_calls": 8,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "native_step_limit_cancellations": 0,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 859,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/baseline_2/completed.json"
+    },
+    {
+      "condition": "baseline_3",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.0,
+      "cohort_wall_seconds": 917.6250592899996,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 4,
+      "total_approach_calls": 8,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "native_step_limit_cancellations": 0,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 859,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/baseline_3/completed.json"
+    },
+    {
+      "condition": "augmented_3",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.0,
+      "cohort_wall_seconds": 955.6440203079983,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 0,
+      "total_approach_calls": 15,
+      "accepted_approach_calls": 15,
+      "incomplete_approach_calls": 0,
+      "native_step_limit_cancellations": 0,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 3195,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/augmented_3/completed.json"
+    }
+  ],
+  "episodes": [
+    {
+      "condition": "pi05",
+      "layout_id": 0,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "receipt": "native-campaign/runs/pi05/attempt-002/episodes/0.json",
+      "result_file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "pi05",
+      "layout_id": 1,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "receipt": "native-campaign/runs/pi05/attempt-002/episodes/1.json",
+      "result_file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "pi05",
+      "layout_id": 2,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "receipt": "native-campaign/runs/pi05/attempt-002/episodes/2.json",
+      "result_file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "pi05",
+      "layout_id": 3,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "receipt": "native-campaign/runs/pi05/attempt-002/episodes/3.json",
+      "result_file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "pi05",
+      "layout_id": 4,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "receipt": "native-campaign/runs/pi05/attempt-002/episodes/4.json",
+      "result_file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_1",
+      "layout_id": 0,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "receipt": "native-campaign/runs/baseline_1/attempt-001/episodes/0.json",
+      "result_file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_1",
+      "layout_id": 1,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "receipt": "native-campaign/runs/baseline_1/attempt-001/episodes/1.json",
+      "result_file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_1",
+      "layout_id": 2,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "receipt": "native-campaign/runs/baseline_1/attempt-001/episodes/2.json",
+      "result_file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_1",
+      "layout_id": 3,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "receipt": "native-campaign/runs/baseline_1/attempt-001/episodes/3.json",
+      "result_file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_1",
+      "layout_id": 4,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "receipt": "native-campaign/runs/baseline_1/attempt-001/episodes/4.json",
+      "result_file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 0,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "receipt": "native-campaign/runs/augmented_1/attempt-001/episodes/0.json",
+      "result_file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 1,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "receipt": "native-campaign/runs/augmented_1/attempt-001/episodes/1.json",
+      "result_file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 2,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "receipt": "native-campaign/runs/augmented_1/attempt-001/episodes/2.json",
+      "result_file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 3,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "receipt": "native-campaign/runs/augmented_1/attempt-001/episodes/3.json",
+      "result_file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_1",
+      "layout_id": 4,
+      "success": false,
+      "normalized_score": 0.15,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "receipt": "native-campaign/runs/augmented_1/attempt-001/episodes/4.json",
+      "result_file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_2",
+      "layout_id": 0,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "receipt": "native-campaign/runs/augmented_2/attempt-001/episodes/0.json",
+      "result_file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_2",
+      "layout_id": 1,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "receipt": "native-campaign/runs/augmented_2/attempt-001/episodes/1.json",
+      "result_file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_2",
+      "layout_id": 2,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "receipt": "native-campaign/runs/augmented_2/attempt-001/episodes/2.json",
+      "result_file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_2",
+      "layout_id": 3,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "receipt": "native-campaign/runs/augmented_2/attempt-001/episodes/3.json",
+      "result_file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_2",
+      "layout_id": 4,
+      "success": false,
+      "normalized_score": 0.15,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "receipt": "native-campaign/runs/augmented_2/attempt-001/episodes/4.json",
+      "result_file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_2",
+      "layout_id": 0,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "receipt": "native-campaign/runs/baseline_2/attempt-001/episodes/0.json",
+      "result_file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_2",
+      "layout_id": 1,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "receipt": "native-campaign/runs/baseline_2/attempt-001/episodes/1.json",
+      "result_file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_2",
+      "layout_id": 2,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "receipt": "native-campaign/runs/baseline_2/attempt-001/episodes/2.json",
+      "result_file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_2",
+      "layout_id": 3,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "receipt": "native-campaign/runs/baseline_2/attempt-001/episodes/3.json",
+      "result_file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_2",
+      "layout_id": 4,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "receipt": "native-campaign/runs/baseline_2/attempt-001/episodes/4.json",
+      "result_file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_3",
+      "layout_id": 0,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "receipt": "native-campaign/runs/baseline_3/attempt-001/episodes/0.json",
+      "result_file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_3",
+      "layout_id": 1,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "receipt": "native-campaign/runs/baseline_3/attempt-001/episodes/1.json",
+      "result_file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_3",
+      "layout_id": 2,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "receipt": "native-campaign/runs/baseline_3/attempt-001/episodes/2.json",
+      "result_file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_3",
+      "layout_id": 3,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "receipt": "native-campaign/runs/baseline_3/attempt-001/episodes/3.json",
+      "result_file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "baseline_3",
+      "layout_id": 4,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "receipt": "native-campaign/runs/baseline_3/attempt-001/episodes/4.json",
+      "result_file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_3",
+      "layout_id": 0,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "receipt": "native-campaign/runs/augmented_3/attempt-001/episodes/0.json",
+      "result_file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_3",
+      "layout_id": 1,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "receipt": "native-campaign/runs/augmented_3/attempt-001/episodes/1.json",
+      "result_file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_3",
+      "layout_id": 2,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "receipt": "native-campaign/runs/augmented_3/attempt-001/episodes/2.json",
+      "result_file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_3",
+      "layout_id": 3,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "receipt": "native-campaign/runs/augmented_3/attempt-001/episodes/3.json",
+      "result_file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/_result.json",
+      "paid_api_calls": 0
+    },
+    {
+      "condition": "augmented_3",
+      "layout_id": 4,
+      "success": false,
+      "normalized_score": 0.0,
+      "native_action_count": 1100,
+      "step_limit": 1100,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "receipt": "native-campaign/runs/augmented_3/attempt-001/episodes/4.json",
+      "result_file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/_result.json",
+      "paid_api_calls": 0
+    }
+  ],
+  "actors": [
+    {
+      "condition": "baseline_1",
+      "actor_episode_id": "ec0a702e306244b4b9d3191de8fc44fe",
+      "actor_index": 0,
+      "mapped_layout_id": 1,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.3517769067297385,
+        0.005979902778560814,
+        0.7680670758650023,
+        0.7626174836356978,
+        0.3466855801173085
+      ],
+      "geometry_mapping_margin_m": 0.3407056773387477,
+      "isolated_pid": 44251,
+      "process_record_mtime_utc": "2026-11-05T06:03:35.898722+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.0072372329750630396,
+            -0.18374751933821942,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "approach": 0,
+        "gripper": 6
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "watch": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/ec0a702e306244b4b9d3191de8fc44fe/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/ec0a702e306244b4b9d3191de8fc44fe/0/binding.json"
+    },
+    {
+      "condition": "baseline_1",
+      "actor_episode_id": "33347edbbc534204b7e0aee55b4ce00e",
+      "actor_index": 0,
+      "mapped_layout_id": 4,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.42851480791969526,
+        0.6728362321402171,
+        0.7153015050854196,
+        0.7513205330299956,
+        0.012364068448017638
+      ],
+      "geometry_mapping_margin_m": 0.41615073947167763,
+      "isolated_pid": 45461,
+      "process_record_mtime_utc": "2026-11-05T06:13:55.490242+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 7,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.2344241557403742,
+            -0.21204837545681243,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.2344241557403742,
+            -0.21204837545681243,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.2344241557403742,
+            -0.21204837545681243,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            7.519984954193164e-05,
+            0.027375008126552025,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 835,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 823,
+        "gripper": 12,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/33347edbbc534204b7e0aee55b4ce00e/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/33347edbbc534204b7e0aee55b4ce00e/0/binding.json"
+    },
+    {
+      "condition": "baseline_1",
+      "actor_episode_id": "142b242792b04316b629d5e3dd61a132",
+      "actor_index": 0,
+      "mapped_layout_id": 3,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.38395633456171147,
+        0.41410592273276814,
+        0.5427974935392287,
+        0.007721888026186595,
+        0.6893979175786237
+      ],
+      "geometry_mapping_margin_m": 0.37623444653552485,
+      "isolated_pid": 44952,
+      "process_record_mtime_utc": "2026-11-05T06:09:15.944654+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            -0.044943911512403005,
+            -0.16003803506581643,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 0,
+        "gripper": 6,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/142b242792b04316b629d5e3dd61a132/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/142b242792b04316b629d5e3dd61a132/0/binding.json"
+    },
+    {
+      "condition": "baseline_1",
+      "actor_episode_id": "acf8e6d12a4345e1a70ae0ac5393d861",
+      "actor_index": 0,
+      "mapped_layout_id": 2,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.5844482265259286,
+        0.4185092861754215,
+        0.025222766700423876,
+        0.06971202291247863,
+        1.0
+      ],
+      "geometry_mapping_margin_m": 0.044489256212054754,
+      "isolated_pid": 44725,
+      "process_record_mtime_utc": "2026-11-05T06:06:26.523692+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.0481210053565737,
+            -0.1217833461072107,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "approach": 0,
+        "gripper": 6
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/acf8e6d12a4345e1a70ae0ac5393d861/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/acf8e6d12a4345e1a70ae0ac5393d861/0/binding.json"
+    },
+    {
+      "condition": "baseline_1",
+      "actor_episode_id": "18adbe7c873c40bfaf7e10812bb2d1ba",
+      "actor_index": 0,
+      "mapped_layout_id": 0,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.00922208741804454,
+        0.49579552445656055,
+        0.5462678797275431,
+        0.09238772549968731,
+        0.79594005179743
+      ],
+      "geometry_mapping_margin_m": 0.08316563808164276,
+      "isolated_pid": 44071,
+      "process_record_mtime_utc": "2026-11-05T06:00:44.501749+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            -0.10240777317149068,
+            -0.1824309131290849,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "gripper": 6,
+        "approach": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "pen": 1,
+        "toy_car": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/18adbe7c873c40bfaf7e10812bb2d1ba/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_1/attempt-001/model/expert/18adbe7c873c40bfaf7e10812bb2d1ba/0/binding.json"
+    },
+    {
+      "condition": "augmented_1",
+      "actor_episode_id": "24aad55f93bf4034b89c5c7b04ce7d00",
+      "actor_index": 0,
+      "mapped_layout_id": 0,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.009257853505424825,
+        0.4957906938092492,
+        0.546256677825762,
+        0.0923754307302321,
+        0.79595000479645
+      ],
+      "geometry_mapping_margin_m": 0.08311757722480728,
+      "isolated_pid": 46415,
+      "process_record_mtime_utc": "2026-11-05T06:17:28.111445+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 7,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.11693359520469745,
+            -0.10702423731092836,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.11693359520469745,
+            -0.10702423731092836,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.11693359520469745,
+            -0.10702423731092836,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.0001119096115800813,
+            0.027571608658430335,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 655,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 643,
+        "gripper": 12,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "pen": 1,
+        "toy_car": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/24aad55f93bf4034b89c5c7b04ce7d00/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/24aad55f93bf4034b89c5c7b04ce7d00/0/binding.json"
+    },
+    {
+      "condition": "augmented_1",
+      "actor_episode_id": "52d43c8ee5af436da51bd17084914d23",
+      "actor_index": 0,
+      "mapped_layout_id": 4,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.42850836329744907,
+        0.672830163298065,
+        0.715287197883617,
+        0.7513192165534286,
+        0.012378748342137117
+      ],
+      "geometry_mapping_margin_m": 0.416129614955312,
+      "isolated_pid": 48593,
+      "process_record_mtime_utc": "2026-11-05T06:30:32.371859+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 12,
+      "scene_calls": 3,
+      "reobserve_calls": 0,
+      "approach_calls": 5,
+      "accepted_approach_calls": 4,
+      "incomplete_approach_calls": 1,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.1826850528972721,
+            -0.15967154200157485,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.1826850528972721,
+            -0.15967154200157485,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.1826850528972721,
+            -0.15967154200157485,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.29398769433555094,
+            0.028092829721823143,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.1718615791409086,
+            -0.1706231500352687,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 948,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": true,
+      "trusted_steps_by_operation": {
+        "approach": 924,
+        "gripper": 24,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": false,
+      "isolated_returncode": null,
+      "isolated_state": "failed",
+      "actor_final_state": "cancelled",
+      "actor_error": "RpcError: request.execute: Actor channel closed: actor stopping",
+      "native_step_limit_cancelled": true,
+      "first_scene_categories": {
+        "basket": 3,
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "scene_sequences": [
+        1,
+        1,
+        943
+      ],
+      "process_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/52d43c8ee5af436da51bd17084914d23/0/binding.json"
+    },
+    {
+      "condition": "augmented_1",
+      "actor_episode_id": "97e9cae98fef4c4880604a178eebcc36",
+      "actor_index": 0,
+      "mapped_layout_id": 3,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.3839559866774193,
+        0.41412744707646104,
+        0.5428116740906316,
+        0.007740976266679803,
+        0.689380519202429
+      ],
+      "geometry_mapping_margin_m": 0.3762150104107395,
+      "isolated_pid": 47937,
+      "process_record_mtime_utc": "2026-11-05T06:27:33.690853+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "scene",
+        "approach"
+      ],
+      "rpc_calls": 11,
+      "scene_calls": 3,
+      "reobserve_calls": 0,
+      "approach_calls": 5,
+      "accepted_approach_calls": 4,
+      "incomplete_approach_calls": 1,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21670995421007647,
+            -0.13019036433639058,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21670995421007647,
+            -0.13019036433639058,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21670995421007647,
+            -0.13019036433639058,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2941202819572668,
+            0.028185297476168603,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.04494987404539898,
+            -0.16014839990063248,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "arm": "left",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 942,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": true,
+      "trusted_steps_by_operation": {
+        "approach": 924,
+        "scene": 0,
+        "gripper": 18
+      },
+      "returned_value": null,
+      "return_record_exists": false,
+      "isolated_returncode": null,
+      "isolated_state": "failed",
+      "actor_final_state": "cancelled",
+      "actor_error": "RpcError: request.execute: Actor channel closed: actor stopping",
+      "native_step_limit_cancelled": true,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1,
+        943
+      ],
+      "process_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/97e9cae98fef4c4880604a178eebcc36/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/97e9cae98fef4c4880604a178eebcc36/0/binding.json"
+    },
+    {
+      "condition": "augmented_1",
+      "actor_episode_id": "3a2ea2ccbd1d43c58fc54c73346fd686",
+      "actor_index": 0,
+      "mapped_layout_id": 1,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.3517665839385605,
+        0.005986632677647134,
+        0.7680531823707772,
+        0.7626259610806143,
+        0.3466725725423441
+      ],
+      "geometry_mapping_margin_m": 0.340685939864697,
+      "isolated_pid": 46816,
+      "process_record_mtime_utc": "2026-11-05T06:20:31.388476+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 7,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.044367587524657345,
+            -0.09616433106000327,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.044367587524657345,
+            -0.09616433106000327,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.044367587524657345,
+            -0.09616433106000327,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.0001225108237807294,
+            0.027531942990717206,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 715,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 703,
+        "scene": 0,
+        "gripper": 12
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "watch": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/3a2ea2ccbd1d43c58fc54c73346fd686/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/3a2ea2ccbd1d43c58fc54c73346fd686/0/binding.json"
+    },
+    {
+      "condition": "augmented_1",
+      "actor_episode_id": "0450367990824975ab6499f662dd8e91",
+      "actor_index": 0,
+      "mapped_layout_id": 2,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.5844296424946954,
+        0.41850476015106,
+        0.025246624271957955,
+        0.06970529821976255,
+        1.0
+      ],
+      "geometry_mapping_margin_m": 0.0444586739478046,
+      "isolated_pid": 47214,
+      "process_record_mtime_utc": "2026-11-05T06:23:25.985459+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 7,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.04814405585500998,
+            -0.12177026087752107,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.04814405585500998,
+            -0.12177026087752107,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.04814405585500998,
+            -0.12177026087752107,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            -5.372087141501734e-06,
+            0.027539147709868983,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 675,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 663,
+        "scene": 0,
+        "gripper": 12
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/0450367990824975ab6499f662dd8e91/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_1/attempt-001/model/expert/0450367990824975ab6499f662dd8e91/0/binding.json"
+    },
+    {
+      "condition": "augmented_2",
+      "actor_episode_id": "e935b247691d4dc7a2a0d4d03b1ea567",
+      "actor_index": 0,
+      "mapped_layout_id": 4,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.4285134089307013,
+        0.6728407489078124,
+        0.7152893947520852,
+        0.7513145729174419,
+        0.012361738519377947
+      ],
+      "geometry_mapping_margin_m": 0.41615167041132334,
+      "isolated_pid": 52678,
+      "process_record_mtime_utc": "2026-11-05T06:46:29.017250+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "method_sequence": [
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 11,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 5,
+      "accepted_approach_calls": 4,
+      "incomplete_approach_calls": 1,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.18270109238284132,
+            -0.15970639028874012,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.18270109238284132,
+            -0.15970639028874012,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.18270109238284132,
+            -0.15970639028874012,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.29397274286363456,
+            0.028069763268471215,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.2346652879813364,
+            -0.2117691172633313,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 948,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": true,
+      "trusted_steps_by_operation": {
+        "gripper": 24,
+        "approach": 924,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": false,
+      "isolated_returncode": null,
+      "isolated_state": "failed",
+      "actor_final_state": "cancelled",
+      "actor_error": "RpcError: request.execute: Actor channel closed: actor stopping",
+      "native_step_limit_cancelled": true,
+      "first_scene_categories": {
+        "basket": 3,
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "scene_sequences": [
+        1,
+        943
+      ],
+      "process_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/e935b247691d4dc7a2a0d4d03b1ea567/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/e935b247691d4dc7a2a0d4d03b1ea567/0/binding.json"
+    },
+    {
+      "condition": "augmented_2",
+      "actor_episode_id": "dd4c49853d524408b1e0c065ecc24bfc",
+      "actor_index": 0,
+      "mapped_layout_id": 3,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.38395228753038474,
+        0.4141237674451615,
+        0.5428284157207084,
+        0.0077201955355481605,
+        0.6894031649036624
+      ],
+      "geometry_mapping_margin_m": 0.3762320919948366,
+      "isolated_pid": 51439,
+      "process_record_mtime_utc": "2026-11-05T06:43:30.636244+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "method_sequence": [
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 11,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 5,
+      "accepted_approach_calls": 4,
+      "incomplete_approach_calls": 1,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21663745806317464,
+            -0.13019969053480968,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21663745806317464,
+            -0.13019969053480968,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21663745806317464,
+            -0.13019969053480968,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2940436083460414,
+            0.02819250934329015,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.004041609410400276,
+            -0.13835295146230575,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 948,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": true,
+      "trusted_steps_by_operation": {
+        "approach": 924,
+        "gripper": 24,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": false,
+      "isolated_returncode": null,
+      "isolated_state": "failed",
+      "actor_final_state": "cancelled",
+      "actor_error": "RpcError: request.execute: Actor channel closed: actor stopping",
+      "native_step_limit_cancelled": true,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        943
+      ],
+      "process_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/dd4c49853d524408b1e0c065ecc24bfc/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/dd4c49853d524408b1e0c065ecc24bfc/0/binding.json"
+    },
+    {
+      "condition": "augmented_2",
+      "actor_episode_id": "e45ab260712f45648ab1327b363568c0",
+      "actor_index": 0,
+      "mapped_layout_id": 2,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.5844377036090488,
+        0.4184883474077283,
+        0.025226504455082704,
+        0.06969474248797237,
+        1.0
+      ],
+      "geometry_mapping_margin_m": 0.04446823803288967,
+      "isolated_pid": 50994,
+      "process_record_mtime_utc": "2026-11-05T06:39:23.698852+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "method_sequence": [
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 7,
+      "scene_calls": 1,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 6,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.048122226404230875,
+            -0.12181209558584011,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.048122226404230875,
+            -0.12181209558584011,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.048122226404230875,
+            -0.12181209558584011,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            -3.488408582692273e-07,
+            0.027554370843362486,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 675,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 663,
+        "gripper": 12,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1
+      ],
+      "process_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/e45ab260712f45648ab1327b363568c0/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/e45ab260712f45648ab1327b363568c0/0/binding.json"
+    },
+    {
+      "condition": "augmented_2",
+      "actor_episode_id": "21599c8b154841ca8ffc767b840c1661",
+      "actor_index": 0,
+      "mapped_layout_id": 1,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.35175834756626645,
+        0.005964167290563693,
+        0.7680517239069178,
+        0.7626256381738206,
+        0.3466654122691726
+      ],
+      "geometry_mapping_margin_m": 0.3407012449786089,
+      "isolated_pid": 50513,
+      "process_record_mtime_utc": "2026-11-05T06:37:33.042228+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "method_sequence": [
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 11,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 5,
+      "accepted_approach_calls": 4,
+      "incomplete_approach_calls": 1,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2686239133014936,
+            -0.09343863407330749,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2686239133014936,
+            -0.09343863407330749,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2686239133014936,
+            -0.09343863407330749,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.29387596535044386,
+            0.027933745764171958,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.0020982877730138546,
+            -0.09370217475373449,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 928,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": true,
+      "trusted_steps_by_operation": {
+        "gripper": 24,
+        "approach": 904,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": false,
+      "isolated_returncode": null,
+      "isolated_state": "failed",
+      "actor_final_state": "cancelled",
+      "actor_error": "RpcError: request.execute: Actor channel closed: actor stopping",
+      "native_step_limit_cancelled": true,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "watch": 3
+      },
+      "scene_sequences": [
+        1,
+        923
+      ],
+      "process_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/21599c8b154841ca8ffc767b840c1661/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/21599c8b154841ca8ffc767b840c1661/0/binding.json"
+    },
+    {
+      "condition": "augmented_2",
+      "actor_episode_id": "378328dd64964fc8a0177960e06f06b7",
+      "actor_index": 0,
+      "mapped_layout_id": 0,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.00923299731081201,
+        0.4957769269773538,
+        0.5462822181548823,
+        0.09239653987716495,
+        0.7959415807146499
+      ],
+      "geometry_mapping_margin_m": 0.08316354256635294,
+      "isolated_pid": 49881,
+      "process_record_mtime_utc": "2026-11-05T06:33:29.080853+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "method_sequence": [
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 7,
+      "scene_calls": 1,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 6,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.1169620547059273,
+            -0.10686571438641324,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.1169620547059273,
+            -0.10686571438641324,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.1169620547059273,
+            -0.10686571438641324,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            8.672247738409149e-05,
+            0.027564093690333025,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 655,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 643,
+        "scene": 0,
+        "gripper": 12
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "pen": 1,
+        "toy_car": 3
+      },
+      "scene_sequences": [
+        1
+      ],
+      "process_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/378328dd64964fc8a0177960e06f06b7/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_2/attempt-001/model/expert/378328dd64964fc8a0177960e06f06b7/0/binding.json"
+    },
+    {
+      "condition": "baseline_2",
+      "actor_episode_id": "f723b945187443e1abc1eb4522469925",
+      "actor_index": 0,
+      "mapped_layout_id": 0,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.009276033059505617,
+        0.4957838173570611,
+        0.5462487874346291,
+        0.09233383456757113,
+        0.7959426969944954
+      ],
+      "geometry_mapping_margin_m": 0.08305780150806552,
+      "isolated_pid": 54422,
+      "process_record_mtime_utc": "2026-11-05T06:48:02.385776+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.11695387587889584,
+            -0.10706770766726359,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 0,
+        "scene": 0,
+        "gripper": 6
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "pen": 1,
+        "toy_car": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/f723b945187443e1abc1eb4522469925/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/f723b945187443e1abc1eb4522469925/0/binding.json"
+    },
+    {
+      "condition": "baseline_2",
+      "actor_episode_id": "ebfb2f942b824eb9b539e13c0e57b0eb",
+      "actor_index": 0,
+      "mapped_layout_id": 1,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.3517583938195396,
+        0.005957583655346297,
+        0.7680611039769698,
+        0.7626197702041433,
+        0.3466590840090331
+      ],
+      "geometry_mapping_margin_m": 0.3407015003536868,
+      "isolated_pid": 55266,
+      "process_record_mtime_utc": "2026-11-05T06:50:53.794741+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.04436862964922505,
+            -0.09622243128482472,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "approach": 0,
+        "gripper": 6
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "watch": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/ebfb2f942b824eb9b539e13c0e57b0eb/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/ebfb2f942b824eb9b539e13c0e57b0eb/0/binding.json"
+    },
+    {
+      "condition": "baseline_2",
+      "actor_episode_id": "cf654a336c4243999efa5942a36ebb11",
+      "actor_index": 0,
+      "mapped_layout_id": 4,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.4285139250530556,
+        0.6728399461717532,
+        0.7152908112532602,
+        0.7513176813975456,
+        0.012364830364659997
+      ],
+      "geometry_mapping_margin_m": 0.41614909468839556,
+      "isolated_pid": 58105,
+      "process_record_mtime_utc": "2026-11-05T07:01:13.202213+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 7,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.23445409886096585,
+            -0.21203484546600385,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.23445409886096585,
+            -0.21203484546600385,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.23445409886096585,
+            -0.21203484546600385,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.26974379046949676,
+            0.010221086173330857,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 835,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "gripper": 12,
+        "scene": 0,
+        "approach": 823
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/cf654a336c4243999efa5942a36ebb11/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/cf654a336c4243999efa5942a36ebb11/0/binding.json"
+    },
+    {
+      "condition": "baseline_2",
+      "actor_episode_id": "df6d8b4daa784716a05e54c737a97e65",
+      "actor_index": 0,
+      "mapped_layout_id": 3,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.3839671309419705,
+        0.41413563369373185,
+        0.5428028076140545,
+        0.007732544941358073,
+        0.6893952526291685
+      ],
+      "geometry_mapping_margin_m": 0.37623458600061244,
+      "isolated_pid": 57276,
+      "process_record_mtime_utc": "2026-11-05T06:56:33.572646+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            -0.04500494970165193,
+            -0.1600525822558398,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "gripper": 6,
+        "scene": 0,
+        "approach": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/df6d8b4daa784716a05e54c737a97e65/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/df6d8b4daa784716a05e54c737a97e65/0/binding.json"
+    },
+    {
+      "condition": "baseline_2",
+      "actor_episode_id": "31ed12b6684d437fa5afa753f6e62d3a",
+      "actor_index": 0,
+      "mapped_layout_id": 2,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.5844319309511748,
+        0.4185231891684687,
+        0.025269230009665192,
+        0.06972237079536915,
+        1.0
+      ],
+      "geometry_mapping_margin_m": 0.04445314078570396,
+      "isolated_pid": 56503,
+      "process_record_mtime_utc": "2026-11-05T06:53:44.287697+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.04816646936733831,
+            -0.12174750005577173,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "approach": 0,
+        "gripper": 6
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/31ed12b6684d437fa5afa753f6e62d3a/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_2/attempt-001/model/expert/31ed12b6684d437fa5afa753f6e62d3a/0/binding.json"
+    },
+    {
+      "condition": "baseline_3",
+      "actor_episode_id": "ba9c8051c55b4eb7863f8ec4e105432b",
+      "actor_index": 0,
+      "mapped_layout_id": 4,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.42851889148039296,
+        0.6728285493582723,
+        0.7153026496365452,
+        0.7513290700643829,
+        0.012360853854202332
+      ],
+      "geometry_mapping_margin_m": 0.41615803762619064,
+      "isolated_pid": 63265,
+      "process_record_mtime_utc": "2026-11-05T07:16:31.539357+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "approach"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 4,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 7,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": false,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.234435539484513,
+            -0.21206932403574805,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.234435539484513,
+            -0.21206932403574805,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.234435539484513,
+            -0.21206932403574805,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.2937444586537909,
+            0.028218759655081138,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 835,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 823,
+        "gripper": 12,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/ba9c8051c55b4eb7863f8ec4e105432b/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/ba9c8051c55b4eb7863f8ec4e105432b/0/binding.json"
+    },
+    {
+      "condition": "baseline_3",
+      "actor_episode_id": "a69d6094bef04cbd9ad861fcee673f6e",
+      "actor_index": 0,
+      "mapped_layout_id": 1,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.3517447661514829,
+        0.005980192801811233,
+        0.7680598801847462,
+        0.762623904531019,
+        0.34667125139272836
+      ],
+      "geometry_mapping_margin_m": 0.34069105859091714,
+      "isolated_pid": 60687,
+      "process_record_mtime_utc": "2026-11-05T07:06:12.383890+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            -0.2685742410258902,
+            -0.093376028287394,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "gripper": 6,
+        "approach": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "watch": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/a69d6094bef04cbd9ad861fcee673f6e/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/a69d6094bef04cbd9ad861fcee673f6e/0/binding.json"
+    },
+    {
+      "condition": "baseline_3",
+      "actor_episode_id": "b603824e15ec472a8b106975613d9d11",
+      "actor_index": 0,
+      "mapped_layout_id": 3,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.3839641641459571,
+        0.4141235594857573,
+        0.5428064620601487,
+        0.0077339218754435965,
+        0.689395655744463
+      ],
+      "geometry_mapping_margin_m": 0.3762302422705135,
+      "isolated_pid": 62309,
+      "process_record_mtime_utc": "2026-11-05T07:11:52.189793+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            -0.04499037803561094,
+            -0.160048770902724,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 0,
+        "scene": 0,
+        "gripper": 6
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/b603824e15ec472a8b106975613d9d11/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/b603824e15ec472a8b106975613d9d11/0/binding.json"
+    },
+    {
+      "condition": "baseline_3",
+      "actor_episode_id": "5bccb40fad014d22a1cd671c82aa8784",
+      "actor_index": 0,
+      "mapped_layout_id": 0,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.009197914797078495,
+        0.4958097845428222,
+        0.5462560119897137,
+        0.09240842406450221,
+        0.7959479216277134
+      ],
+      "geometry_mapping_margin_m": 0.08321050926742371,
+      "isolated_pid": 59837,
+      "process_record_mtime_utc": "2026-11-05T07:03:20.738928+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            -0.25113640714920565,
+            -0.15256979838144114,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "gripper": 6,
+        "scene": 0,
+        "approach": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "pen": 1,
+        "toy_car": 3
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/5bccb40fad014d22a1cd671c82aa8784/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/5bccb40fad014d22a1cd671c82aa8784/0/binding.json"
+    },
+    {
+      "condition": "baseline_3",
+      "actor_episode_id": "f55ec0439c24430e8367ef4d87a715ad",
+      "actor_index": 0,
+      "mapped_layout_id": 2,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.584425606282139,
+        0.41848411852366624,
+        0.02520210852409826,
+        0.069688324919759,
+        1.0
+      ],
+      "geometry_mapping_margin_m": 0.04448621639566074,
+      "isolated_pid": 61213,
+      "process_record_mtime_utc": "2026-11-05T07:09:02.812845+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach"
+      ],
+      "rpc_calls": 4,
+      "scene_calls": 2,
+      "reobserve_calls": 0,
+      "approach_calls": 1,
+      "accepted_approach_calls": 0,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 1,
+      "first_error_call_id": 3,
+      "first_error": "no_collision_free_path",
+      "first_approach_rejected": true,
+      "calls_after_first_error": 0,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.04812137296693661,
+            -0.12178929131544025,
+            1.14
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        }
+      ],
+      "trusted_primitive_action_steps": 6,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 0,
+        "scene": 0,
+        "gripper": 6
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1
+      ],
+      "process_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/f55ec0439c24430e8367ef4d87a715ad/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/baseline_3/attempt-001/model/expert/f55ec0439c24430e8367ef4d87a715ad/0/binding.json"
+    },
+    {
+      "condition": "augmented_3",
+      "actor_episode_id": "b16f7dc840804bf59b88ede9b455f041",
+      "actor_index": 0,
+      "mapped_layout_id": 4,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.4285015981256433,
+        0.6728418711070815,
+        0.7152859719750393,
+        0.7513183301107983,
+        0.01235415437550677
+      ],
+      "geometry_mapping_margin_m": 0.41614744375013657,
+      "isolated_pid": 68109,
+      "process_record_mtime_utc": "2026-11-05T07:31:54.292523+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 3,
+      "reobserve_calls": 0,
+      "approach_calls": 3,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.18266496696180093,
+            -0.15970380129640144,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.18266496696180093,
+            -0.15970380129640144,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.18266496696180093,
+            -0.15970380129640144,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 635,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "approach": 623,
+        "scene": 0,
+        "gripper": 12
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "scene_sequences": [
+        1,
+        1,
+        636
+      ],
+      "process_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/b16f7dc840804bf59b88ede9b455f041/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/b16f7dc840804bf59b88ede9b455f041/0/binding.json"
+    },
+    {
+      "condition": "augmented_3",
+      "actor_episode_id": "eea4f38ec125482ea01cb6ede59bebca",
+      "actor_index": 0,
+      "mapped_layout_id": 1,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.351782050893272,
+        0.005970992273267146,
+        0.7680570585874952,
+        0.7626282815011989,
+        0.34668808010624497
+      ],
+      "geometry_mapping_margin_m": 0.3407170878329778,
+      "isolated_pid": 65677,
+      "process_record_mtime_utc": "2026-11-05T07:22:52.053487+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 3,
+      "reobserve_calls": 0,
+      "approach_calls": 3,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2686701125098123,
+            -0.09334073481235589,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2686701125098123,
+            -0.09334073481235589,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.2686701125098123,
+            -0.09334073481235589,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 635,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "approach": 623,
+        "gripper": 12
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "watch": 3
+      },
+      "scene_sequences": [
+        1,
+        1,
+        636
+      ],
+      "process_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/eea4f38ec125482ea01cb6ede59bebca/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/eea4f38ec125482ea01cb6ede59bebca/0/binding.json"
+    },
+    {
+      "condition": "augmented_3",
+      "actor_episode_id": "2d0e1052f7054782877b4c7b1d538499",
+      "actor_index": 0,
+      "mapped_layout_id": 0,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.009238991295272505,
+        0.4958018985423995,
+        0.54626332612789,
+        0.09238893251751785,
+        0.7959544416848929
+      ],
+      "geometry_mapping_margin_m": 0.08314994122224535,
+      "isolated_pid": 64760,
+      "process_record_mtime_utc": "2026-11-05T07:20:02.880540+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 3,
+      "reobserve_calls": 0,
+      "approach_calls": 3,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.11699070390957259,
+            -0.10686904538545139,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.11699070390957259,
+            -0.10686904538545139,
+            0.93
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.11699070390957259,
+            -0.10686904538545139,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 655,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "approach": 643,
+        "gripper": 12
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "pen": 1,
+        "toy_car": 3
+      },
+      "scene_sequences": [
+        1,
+        1,
+        656
+      ],
+      "process_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/2d0e1052f7054782877b4c7b1d538499/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/2d0e1052f7054782877b4c7b1d538499/0/binding.json"
+    },
+    {
+      "condition": "augmented_3",
+      "actor_episode_id": "f0a7099c349c40f0b98a164538e0d809",
+      "actor_index": 0,
+      "mapped_layout_id": 3,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.38396017324198845,
+        0.41413336951510554,
+        0.5427925618484238,
+        0.007729291051957678,
+        0.689400778241729
+      ],
+      "geometry_mapping_margin_m": 0.37623088219003076,
+      "isolated_pid": 67186,
+      "process_record_mtime_utc": "2026-11-05T07:28:49.231487+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 3,
+      "reobserve_calls": 0,
+      "approach_calls": 3,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21664620154691372,
+            -0.13019438226883034,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21664620154691372,
+            -0.13019438226883034,
+            0.92
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        {
+          "arm": "left",
+          "position_m": [
+            -0.21664620154691372,
+            -0.13019438226883034,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "arm": "left",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 635,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "gripper": 12,
+        "approach": 623,
+        "scene": 0
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1,
+        636
+      ],
+      "process_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/f0a7099c349c40f0b98a164538e0d809/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/f0a7099c349c40f0b98a164538e0d809/0/binding.json"
+    },
+    {
+      "condition": "augmented_3",
+      "actor_episode_id": "58de3c0834dc4c4b9b7eed840a3aa2ed",
+      "actor_index": 0,
+      "mapped_layout_id": 2,
+      "mapping_method": "unique nearest initial RGB scene to recorded layout categories/XY, camera alias to action_camera; offline diagnostic only",
+      "mapping_qualified": true,
+      "geometry_distance_by_layout": [
+        0.5844181694607733,
+        0.4184979166890302,
+        0.025222361982589307,
+        0.06969449759235805,
+        1.0
+      ],
+      "geometry_mapping_margin_m": 0.04447213560976874,
+      "isolated_pid": 66413,
+      "process_record_mtime_utc": "2026-11-05T07:25:49.558481+00:00",
+      "call_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "method_sequence": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "rpc_calls": 8,
+      "scene_calls": 3,
+      "reobserve_calls": 0,
+      "approach_calls": 3,
+      "accepted_approach_calls": 3,
+      "incomplete_approach_calls": 0,
+      "rejected_approach_calls": 0,
+      "first_error_call_id": null,
+      "first_error": null,
+      "first_approach_rejected": false,
+      "calls_after_first_error": null,
+      "approach_targets": [
+        {
+          "arm": "right",
+          "position_m": [
+            0.048134057630915376,
+            -0.12175045894509046,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.048134057630915376,
+            -0.12175045894509046,
+            0.945
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        {
+          "arm": "right",
+          "position_m": [
+            0.048134057630915376,
+            -0.12175045894509046,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      ],
+      "gripper_commands": [
+        {
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "arm": "right",
+          "command": 0
+        }
+      ],
+      "trusted_primitive_action_steps": 635,
+      "primitive_step_scope": "Completed trusted RPCs only; unfinished call may have executed additional steps",
+      "partial_action_steps_unknown": false,
+      "trusted_steps_by_operation": {
+        "scene": 0,
+        "approach": 623,
+        "gripper": 12
+      },
+      "returned_value": null,
+      "return_record_exists": true,
+      "isolated_returncode": 0,
+      "isolated_state": "completed",
+      "actor_final_state": "completed",
+      "actor_error": null,
+      "native_step_limit_cancelled": false,
+      "first_scene_categories": {
+        "basket": 3,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "scene_sequences": [
+        1,
+        1,
+        636
+      ],
+      "process_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/58de3c0834dc4c4b9b7eed840a3aa2ed/0/policy/processes/isolated/process.json",
+      "binding_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/58de3c0834dc4c4b9b7eed840a3aa2ed/0/binding.json"
+    }
+  ],
+  "layouts": [
+    {
+      "layout_id": 0,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "task": "classify_objects",
+      "research_role": "reused diagnostic/development layout",
+      "categories": {
+        "pen": 3,
+        "toy_car": 3,
+        "watch": 2
+      },
+      "objects": 8,
+      "source": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json"
+    },
+    {
+      "layout_id": 1,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "task": "classify_objects",
+      "research_role": "reused diagnostic/development layout",
+      "categories": {
+        "garage": 1,
+        "toy_car": 1,
+        "watch": 3
+      },
+      "objects": 5,
+      "source": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json"
+    },
+    {
+      "layout_id": 2,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "task": "classify_objects",
+      "research_role": "reused diagnostic/development layout",
+      "categories": {
+        "action_camera": 1,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "objects": 3,
+      "source": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json"
+    },
+    {
+      "layout_id": 3,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "task": "classify_objects",
+      "research_role": "reused diagnostic/development layout",
+      "categories": {
+        "garage": 1,
+        "pen": 3,
+        "toy_car": 3
+      },
+      "objects": 7,
+      "source": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json"
+    },
+    {
+      "layout_id": 4,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "task": "classify_objects",
+      "research_role": "reused diagnostic/development layout",
+      "categories": {
+        "action_camera": 3,
+        "pen": 2,
+        "watch": 1
+      },
+      "objects": 6,
+      "source": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json"
+    }
+  ],
+  "videos": [
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000000_cam_head_fail.mp4",
+      "bytes": 1362843,
+      "layout_id": 0,
+      "camera": "head",
+      "sha256": "31dab77aa203374dd7502e451e44a06bc6dba731c9097b5951fc197f29337318"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000000_cam_left_wrist_fail.mp4",
+      "bytes": 4596515,
+      "layout_id": 0,
+      "camera": "left_wrist",
+      "sha256": "80bdb37ac6107ab7ad19efc67fd0747d65a5616fd3c408da89bb38f359f5bb3d"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000000_cam_right_wrist_fail.mp4",
+      "bytes": 2079484,
+      "layout_id": 0,
+      "camera": "right_wrist",
+      "sha256": "6232e9a4ea0c689991e8279efc6f779ad69909357772261116513df023971ae4"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000001_cam_head_fail.mp4",
+      "bytes": 1277459,
+      "layout_id": 1,
+      "camera": "head",
+      "sha256": "14238907fee7a562e784ddc1a1d0ca94ba3d42ee82c012db82bf26d258e470df"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000001_cam_left_wrist_fail.mp4",
+      "bytes": 3830866,
+      "layout_id": 1,
+      "camera": "left_wrist",
+      "sha256": "0a18bf036a8b14d1367930f93a227de64efbc3daa4cebfd5047dc91ce0211eb1"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000001_cam_right_wrist_fail.mp4",
+      "bytes": 1903922,
+      "layout_id": 1,
+      "camera": "right_wrist",
+      "sha256": "f00c38550abef0a89a27ebe73b3786751bbbda0f9e1150b7f2c5a039a32a6110"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000002_cam_head_fail.mp4",
+      "bytes": 1352865,
+      "layout_id": 2,
+      "camera": "head",
+      "sha256": "9f1fad6be99f0673079937a5447ed3b9f7e88396c305b2148b3a74b28b29e2b7"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000002_cam_left_wrist_fail.mp4",
+      "bytes": 4676464,
+      "layout_id": 2,
+      "camera": "left_wrist",
+      "sha256": "5ed31ef9f8b1db961a6592a1891f07c46285761f47d6e660f650a99291f2d80c"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000002_cam_right_wrist_fail.mp4",
+      "bytes": 2012655,
+      "layout_id": 2,
+      "camera": "right_wrist",
+      "sha256": "95ff65601a46d69644d1fb5bbcf803d2f4404bf922fe34ed11b47dc1b1e67a82"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000003_cam_head_fail.mp4",
+      "bytes": 1328884,
+      "layout_id": 3,
+      "camera": "head",
+      "sha256": "5753fbf3cbcb4f437b6a2cb05cbb9dbcfd04c9fa048aa7111e76c458a59f0e98"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000003_cam_left_wrist_fail.mp4",
+      "bytes": 4166157,
+      "layout_id": 3,
+      "camera": "left_wrist",
+      "sha256": "a7201079a7441a7475d71d6058acef69eba5c312a8eb75d810c36fe5580e4fc6"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000003_cam_right_wrist_fail.mp4",
+      "bytes": 2118647,
+      "layout_id": 3,
+      "camera": "right_wrist",
+      "sha256": "f2d98e5294b9ee2bae2ccca1cd3b29aed96b4125c0b54d42b64d1863af3d5b31"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000004_cam_head_fail.mp4",
+      "bytes": 1260735,
+      "layout_id": 4,
+      "camera": "head",
+      "sha256": "0375e1453e4e910776858cb1cb8c11659128e680755205d97a1bf084f53a646b"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000004_cam_left_wrist_fail.mp4",
+      "bytes": 3809167,
+      "layout_id": 4,
+      "camera": "left_wrist",
+      "sha256": "855455d89a28eefc241dfd81064b3515f093c968849adf64dfa31bdab5d2bbcd"
+    },
+    {
+      "condition": "pi05",
+      "file": "native-campaign/runs/pi05/attempt-002/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0eebabc98bf206629c9a13b686fe7aaa/episode_0000004_cam_right_wrist_fail.mp4",
+      "bytes": 1950065,
+      "layout_id": 4,
+      "camera": "right_wrist",
+      "sha256": "6790051d1997fb3b584d4bb996e69de7d09843dd0853215fc59e4175ebe67ea0"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000000_cam_head_fail.mp4",
+      "bytes": 494329,
+      "layout_id": 0,
+      "camera": "head",
+      "sha256": "0ca9669f5396d4c92098c2211313cd468bc2141442a276cac4575d8c915cd8cd"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000000_cam_left_wrist_fail.mp4",
+      "bytes": 396115,
+      "layout_id": 0,
+      "camera": "left_wrist",
+      "sha256": "6b7e605a9147048d4d53f659856ab5972881ebb257bc7bd262b003a327e12750"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000000_cam_right_wrist_fail.mp4",
+      "bytes": 399921,
+      "layout_id": 0,
+      "camera": "right_wrist",
+      "sha256": "1e7622cc78f74dd3a7cddf2a84fe92cec0c755c72e39873dd583c7f0539039b6"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000001_cam_head_fail.mp4",
+      "bytes": 476543,
+      "layout_id": 1,
+      "camera": "head",
+      "sha256": "1d9d17944ff070a075869aeb9db0da2bd4d282c36af5137c78c5f13188a73622"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000001_cam_left_wrist_fail.mp4",
+      "bytes": 387555,
+      "layout_id": 1,
+      "camera": "left_wrist",
+      "sha256": "2ea72d777fcf95358686290f2e2ef9bf5c08912e1ef3b2f7017e96048e0617c8"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000001_cam_right_wrist_fail.mp4",
+      "bytes": 390437,
+      "layout_id": 1,
+      "camera": "right_wrist",
+      "sha256": "fb150a766a727225d671f2c7f5231946ca6dead6d623472f99b917bb5d2ad240"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000002_cam_head_fail.mp4",
+      "bytes": 476654,
+      "layout_id": 2,
+      "camera": "head",
+      "sha256": "d837f6da967231ac4048e4022c8eba03732ad80a167660f6258602cae70dd20a"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000002_cam_left_wrist_fail.mp4",
+      "bytes": 379060,
+      "layout_id": 2,
+      "camera": "left_wrist",
+      "sha256": "762ce334ffbce75985ac4c55ef6a324119cbc2b90e034a834284dae440b6fb42"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000002_cam_right_wrist_fail.mp4",
+      "bytes": 383336,
+      "layout_id": 2,
+      "camera": "right_wrist",
+      "sha256": "2829bcbe2dd8fc903a83732a0bfad62412b1915a269565b226b23ed0467498a4"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000003_cam_head_fail.mp4",
+      "bytes": 476081,
+      "layout_id": 3,
+      "camera": "head",
+      "sha256": "9433a813ab51c675c28b15dbb34f83be1cc25dab1448fc80a563b1e7011172ca"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000003_cam_left_wrist_fail.mp4",
+      "bytes": 385640,
+      "layout_id": 3,
+      "camera": "left_wrist",
+      "sha256": "7ebe3da31b5e55281417b39b3c56e0f07c471e110b4f527f375090e3c5635389"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000003_cam_right_wrist_fail.mp4",
+      "bytes": 389833,
+      "layout_id": 3,
+      "camera": "right_wrist",
+      "sha256": "103cff4742ef0137b481d130f463b51298305d1091727524268844d8c386000e"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000004_cam_head_fail.mp4",
+      "bytes": 808803,
+      "layout_id": 4,
+      "camera": "head",
+      "sha256": "57635d107eafef93804d9c86ff1a32426f186b82ea3318185e3bef3351eb9aaf"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000004_cam_left_wrist_fail.mp4",
+      "bytes": 384697,
+      "layout_id": 4,
+      "camera": "left_wrist",
+      "sha256": "2e3aaa16e26a4aec34f18a917e51f3ffca9bb778660ea3e921f45ff16e68ac6a"
+    },
+    {
+      "condition": "baseline_1",
+      "file": "native-campaign/runs/baseline_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-da612979cf9cec7a8a86c74cb7fa3b95/episode_0000004_cam_right_wrist_fail.mp4",
+      "bytes": 1966989,
+      "layout_id": 4,
+      "camera": "right_wrist",
+      "sha256": "94569dfdee55f3057f1c991c863e3eabbd19e746ee524f1b206ebd7efda847f6"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000000_cam_head_fail.mp4",
+      "bytes": 839136,
+      "layout_id": 0,
+      "camera": "head",
+      "sha256": "6af40095967569eb996d214530589af3c08d9da3d76313817e3c4b27995a7cbe"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000000_cam_left_wrist_fail.mp4",
+      "bytes": 394999,
+      "layout_id": 0,
+      "camera": "left_wrist",
+      "sha256": "d7d7e7c5781815ac6a9ac65074aae59b8f7e08ae305d515301b76bb62d3e6ae1"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000000_cam_right_wrist_fail.mp4",
+      "bytes": 2429108,
+      "layout_id": 0,
+      "camera": "right_wrist",
+      "sha256": "713fbbaa0ad6ec5789b8b25f69a91076f59e6ce9ee44d829009d1d77d845091b"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000001_cam_head_fail.mp4",
+      "bytes": 860762,
+      "layout_id": 1,
+      "camera": "head",
+      "sha256": "f4de73d331bd4aea1b587e2282d8cf0354cf5ff75cf2847fd68024c58405438c"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000001_cam_left_wrist_fail.mp4",
+      "bytes": 392924,
+      "layout_id": 1,
+      "camera": "left_wrist",
+      "sha256": "3616378c05f14e2163e08fc245248040517285aee016ea7e64df76ec2412e9d7"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000001_cam_right_wrist_fail.mp4",
+      "bytes": 1949533,
+      "layout_id": 1,
+      "camera": "right_wrist",
+      "sha256": "700ec30ab5fa124c9f95f00a58c20dc84ca747a74fba4cb97f94f2b3e93d7616"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000002_cam_head_fail.mp4",
+      "bytes": 862392,
+      "layout_id": 2,
+      "camera": "head",
+      "sha256": "59601644ee4f103adce78538cdeeefcb3a4e33a3bbfe3c425223b5ac056ebc25"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000002_cam_left_wrist_fail.mp4",
+      "bytes": 383964,
+      "layout_id": 2,
+      "camera": "left_wrist",
+      "sha256": "db35f26d979f6e1499b4d79780d831a16293babeec2d04805ad458a7a8e7145c"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000002_cam_right_wrist_fail.mp4",
+      "bytes": 1782956,
+      "layout_id": 2,
+      "camera": "right_wrist",
+      "sha256": "210a16563356fafe378ee6e06588f47c72f81a1077a9dd5f0b00d33331097679"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000003_cam_head_fail.mp4",
+      "bytes": 1057508,
+      "layout_id": 3,
+      "camera": "head",
+      "sha256": "39b771b642a6f299b3219f00d3b0e1e6623d2ce7ee89860b4f8f3ceaf22f762f"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000003_cam_left_wrist_fail.mp4",
+      "bytes": 2395666,
+      "layout_id": 3,
+      "camera": "left_wrist",
+      "sha256": "60e945ebaa2ad5277b5358b65b88eb13d4b5288f008afece905d25fe5deb172e"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000003_cam_right_wrist_fail.mp4",
+      "bytes": 390369,
+      "layout_id": 3,
+      "camera": "right_wrist",
+      "sha256": "4398b4eddba2c238a30d751f91142de89e5d9ee16d8db52d02fd9d5f2a0f29ac"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000004_cam_head_fail.mp4",
+      "bytes": 1018805,
+      "layout_id": 4,
+      "camera": "head",
+      "sha256": "0ad12980aae88c1ee9f82cea705036c4567d906ed47942ded49ecb5409feedac"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000004_cam_left_wrist_fail.mp4",
+      "bytes": 1927944,
+      "layout_id": 4,
+      "camera": "left_wrist",
+      "sha256": "841e4068b847adafbdd386f85db6c24a082792df8a55259fccd8e4f414a5708d"
+    },
+    {
+      "condition": "augmented_1",
+      "file": "native-campaign/runs/augmented_1/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-76247b7b0325aa42b6a76cc51b321ea9/episode_0000004_cam_right_wrist_fail.mp4",
+      "bytes": 609086,
+      "layout_id": 4,
+      "camera": "right_wrist",
+      "sha256": "ce054de0b15c60f9da94493cd2d787745b1de829fd6216da0d73436bb1328306"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000000_cam_head_fail.mp4",
+      "bytes": 838772,
+      "layout_id": 0,
+      "camera": "head",
+      "sha256": "8bac190e496617a15be0c97dc8c7d4f12216caef3a097d031c10966985c912a5"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000000_cam_left_wrist_fail.mp4",
+      "bytes": 397928,
+      "layout_id": 0,
+      "camera": "left_wrist",
+      "sha256": "af2f4c8da31fb5f6b6c5af90eb337fbb693ac152167af3761580e8a343400563"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000000_cam_right_wrist_fail.mp4",
+      "bytes": 2447483,
+      "layout_id": 0,
+      "camera": "right_wrist",
+      "sha256": "9de1e0b097bef08901b50bc98c1fe2ef890c34606117588360b9e47a56009b50"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000001_cam_head_fail.mp4",
+      "bytes": 982888,
+      "layout_id": 1,
+      "camera": "head",
+      "sha256": "0de540267c1cbb2be12ff98187c9ae8aca85da44e9b191148b8ede5bf7c6e2f2"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000001_cam_left_wrist_fail.mp4",
+      "bytes": 2067125,
+      "layout_id": 1,
+      "camera": "left_wrist",
+      "sha256": "dd136d5e0c71e607b146102a5a73bec0a68158a18335846228f74524fd5599bd"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000001_cam_right_wrist_fail.mp4",
+      "bytes": 633159,
+      "layout_id": 1,
+      "camera": "right_wrist",
+      "sha256": "65099d6e63136ef44c2dbb03d565780d935690ed0cc5e332bfe85503a669bb8a"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000002_cam_head_fail.mp4",
+      "bytes": 858750,
+      "layout_id": 2,
+      "camera": "head",
+      "sha256": "b927173bc9b81b37704e961d161762a1e895427f40d5d9574ba6c89279b78243"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000002_cam_left_wrist_fail.mp4",
+      "bytes": 381777,
+      "layout_id": 2,
+      "camera": "left_wrist",
+      "sha256": "adfe0a531c8ae530041a665366c67bea8e3d5acea93502565642e5ea3cd8ae2f"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000002_cam_right_wrist_fail.mp4",
+      "bytes": 1790539,
+      "layout_id": 2,
+      "camera": "right_wrist",
+      "sha256": "dd83025988f8374d721b9b1bad266bf815c72775cdbcef854c5e15e212ef4c29"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000003_cam_head_fail.mp4",
+      "bytes": 1035539,
+      "layout_id": 3,
+      "camera": "head",
+      "sha256": "dd9e27c732bd68bf88b7e9c550336d735ce8eeda49cb865b7d8182e91423a974"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000003_cam_left_wrist_fail.mp4",
+      "bytes": 2077679,
+      "layout_id": 3,
+      "camera": "left_wrist",
+      "sha256": "f7b1788541ba637a2b9f42ca9fcd0906fc1aa46c0cd0848fc8cfe0e1344fe616"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000003_cam_right_wrist_fail.mp4",
+      "bytes": 610614,
+      "layout_id": 3,
+      "camera": "right_wrist",
+      "sha256": "e2e118d15090acf53c09d152a283a9236a44947ee278688c26768ac9c754458f"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000004_cam_head_fail.mp4",
+      "bytes": 1023490,
+      "layout_id": 4,
+      "camera": "head",
+      "sha256": "5924d0509eb4217385d9ec8dd628c9fb455a84c660f180af93f231b998e5976b"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000004_cam_left_wrist_fail.mp4",
+      "bytes": 1930048,
+      "layout_id": 4,
+      "camera": "left_wrist",
+      "sha256": "d21780053cdfde90ac4535a7388178eea8d3a42200db0b5b46aed8665c08f0b7"
+    },
+    {
+      "condition": "augmented_2",
+      "file": "native-campaign/runs/augmented_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-0cf4a65b8c314d679e77687875a41be7/episode_0000004_cam_right_wrist_fail.mp4",
+      "bytes": 622937,
+      "layout_id": 4,
+      "camera": "right_wrist",
+      "sha256": "1a8afbceddac89f038702f93d9d10b6cc67265f2fd655bf8fee49858ca6eccf1"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000000_cam_head_fail.mp4",
+      "bytes": 491095,
+      "layout_id": 0,
+      "camera": "head",
+      "sha256": "71348e729156c53c839e8c427a5bc30f065e1a198dbb5ddb82b5bba4cce9aef4"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000000_cam_left_wrist_fail.mp4",
+      "bytes": 400312,
+      "layout_id": 0,
+      "camera": "left_wrist",
+      "sha256": "057d62ed5f85e47947b0e7abd69e3fe84c698ed4eafdc1b1bfa10d4c3441a0c8"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000000_cam_right_wrist_fail.mp4",
+      "bytes": 400706,
+      "layout_id": 0,
+      "camera": "right_wrist",
+      "sha256": "b5489238e52af96ad7794550a5068c257b740676ee3c24d797db48578e7c05dd"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000001_cam_head_fail.mp4",
+      "bytes": 480546,
+      "layout_id": 1,
+      "camera": "head",
+      "sha256": "283377f68d41c4926dc4a5ed836874b068485e1e7c11c56bc38b25c092246777"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000001_cam_left_wrist_fail.mp4",
+      "bytes": 389096,
+      "layout_id": 1,
+      "camera": "left_wrist",
+      "sha256": "4bfd253cd41e5054dab0f0da0e0c26f6d935a9dc6db3d732277a493f767143c3"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000001_cam_right_wrist_fail.mp4",
+      "bytes": 392547,
+      "layout_id": 1,
+      "camera": "right_wrist",
+      "sha256": "4f6546b249c1203c4ccbc9f9f6e934a92864cef07d4e0083da8c1f0553ef930f"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000002_cam_head_fail.mp4",
+      "bytes": 476222,
+      "layout_id": 2,
+      "camera": "head",
+      "sha256": "d400e4fa2232aa3328dcae1d96f903d80b828513edb57b917195368c16f540ad"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000002_cam_left_wrist_fail.mp4",
+      "bytes": 379448,
+      "layout_id": 2,
+      "camera": "left_wrist",
+      "sha256": "f53d30841e4433ca8a5735158e846a2d8f5aa60d5617a57ec897a5af830401e9"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000002_cam_right_wrist_fail.mp4",
+      "bytes": 383902,
+      "layout_id": 2,
+      "camera": "right_wrist",
+      "sha256": "3927444773e2e8eb0225669245b4a558db0b69e36b096c898dcd3a81f299aafb"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000003_cam_head_fail.mp4",
+      "bytes": 477472,
+      "layout_id": 3,
+      "camera": "head",
+      "sha256": "42afc7e96a3ccb3d79add16a2b1090f4a22aa67be67a479a265dca150666944d"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000003_cam_left_wrist_fail.mp4",
+      "bytes": 385284,
+      "layout_id": 3,
+      "camera": "left_wrist",
+      "sha256": "cdd2450ce34671e24e8aa47675e6b6d39cac1892f8d83480930122d5b45b5161"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000003_cam_right_wrist_fail.mp4",
+      "bytes": 390485,
+      "layout_id": 3,
+      "camera": "right_wrist",
+      "sha256": "7c8d035955980c3a3d0414f4618c28076bc072b01236fba7c76fe9ad55893581"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000004_cam_head_fail.mp4",
+      "bytes": 807374,
+      "layout_id": 4,
+      "camera": "head",
+      "sha256": "a0b84b0707c3b1df8b6da79cff5423a347e6ea4e2c36910631493d909eb677a9"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000004_cam_left_wrist_fail.mp4",
+      "bytes": 380517,
+      "layout_id": 4,
+      "camera": "left_wrist",
+      "sha256": "99c46d1b1a0442f1fc62d2802ef86ed27f683c50932be299490e3aa788c46827"
+    },
+    {
+      "condition": "baseline_2",
+      "file": "native-campaign/runs/baseline_2/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-974bbe51c9232f77e18d4d2ec76bd5b0/episode_0000004_cam_right_wrist_fail.mp4",
+      "bytes": 1961452,
+      "layout_id": 4,
+      "camera": "right_wrist",
+      "sha256": "a5658c84e6190a20ee7a45ce34370055c2c2f23d2b926905c2fffe9641d269c9"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000000_cam_head_fail.mp4",
+      "bytes": 493441,
+      "layout_id": 0,
+      "camera": "head",
+      "sha256": "4a157a05ebe70298ae5906b543a6163db52370aa5a59fc89696b893a88c335c1"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000000_cam_left_wrist_fail.mp4",
+      "bytes": 395593,
+      "layout_id": 0,
+      "camera": "left_wrist",
+      "sha256": "e7c7ea7abe2fcdba7e68b61c9dc91079f599dcd50a02f513d6c8b3ee7fd02da1"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000000_cam_right_wrist_fail.mp4",
+      "bytes": 400714,
+      "layout_id": 0,
+      "camera": "right_wrist",
+      "sha256": "17a1f1beb63393e1c7440c1396d661592c397c4f1aca97ca4b2c98d686495de8"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000001_cam_head_fail.mp4",
+      "bytes": 477410,
+      "layout_id": 1,
+      "camera": "head",
+      "sha256": "5408a989aba52d7078eb706edf50fd6135ebd80fa15ef8311d9155b0699b227f"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000001_cam_left_wrist_fail.mp4",
+      "bytes": 389886,
+      "layout_id": 1,
+      "camera": "left_wrist",
+      "sha256": "dce2a1d07252195aca039cca9a544ed5e00c275d83b6c6bc3d4212585976d578"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000001_cam_right_wrist_fail.mp4",
+      "bytes": 394386,
+      "layout_id": 1,
+      "camera": "right_wrist",
+      "sha256": "c9d14afda641227394322fe2911bb6ce85c44bcf5a193272e0850807e72f7d52"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000002_cam_head_fail.mp4",
+      "bytes": 475426,
+      "layout_id": 2,
+      "camera": "head",
+      "sha256": "19daff945c183ecc9dc5b3dc2195e2e6e7bf6fd46a3e20de1a09b03dfc01e89b"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000002_cam_left_wrist_fail.mp4",
+      "bytes": 379885,
+      "layout_id": 2,
+      "camera": "left_wrist",
+      "sha256": "1a090a8ad7f376a90092c994cc69759b65a2bb78450aa88187e062350379101e"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000002_cam_right_wrist_fail.mp4",
+      "bytes": 379819,
+      "layout_id": 2,
+      "camera": "right_wrist",
+      "sha256": "3f4e18e6399f1c5a126dcb953eba6d30589b31da0ef1f0ea3dfb00b9b0873f33"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000003_cam_head_fail.mp4",
+      "bytes": 474727,
+      "layout_id": 3,
+      "camera": "head",
+      "sha256": "d08cdfaf3840379d4d6c96e37dd296081f6aebf6e0d075a91e1d2d85f3409bd1"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000003_cam_left_wrist_fail.mp4",
+      "bytes": 388148,
+      "layout_id": 3,
+      "camera": "left_wrist",
+      "sha256": "93d177752745a1513c163edfcf8e18f092611002edb9340703089cb2440e7a5c"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000003_cam_right_wrist_fail.mp4",
+      "bytes": 390239,
+      "layout_id": 3,
+      "camera": "right_wrist",
+      "sha256": "8e50753090135123c9bc666665a01459a9ee36749f19bf83302406f086b9e738"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000004_cam_head_fail.mp4",
+      "bytes": 807458,
+      "layout_id": 4,
+      "camera": "head",
+      "sha256": "1f55f75ef8ce08bf6b34dc6b99ca16844e2119472d016f6834f247f174cb93fc"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000004_cam_left_wrist_fail.mp4",
+      "bytes": 384319,
+      "layout_id": 4,
+      "camera": "left_wrist",
+      "sha256": "c9c3d37cd6a7b0c0c21a83a55049ccae6f3c9c5068765c7ed8ceb0a05db75bf1"
+    },
+    {
+      "condition": "baseline_3",
+      "file": "native-campaign/runs/baseline_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-f7593f82c17d402a6674c1e6f3d82e57/episode_0000004_cam_right_wrist_fail.mp4",
+      "bytes": 1963650,
+      "layout_id": 4,
+      "camera": "right_wrist",
+      "sha256": "4d6b0bddcd085cbb903f98ea1aba7a654bff6ae04441b1060ac5195be626fdb8"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000000_cam_head_fail.mp4",
+      "bytes": 832177,
+      "layout_id": 0,
+      "camera": "head",
+      "sha256": "05fd21cbddfedd50dc440c44c510cd33990f94ef24276395578e507a900ea3f3"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000000_cam_left_wrist_fail.mp4",
+      "bytes": 398438,
+      "layout_id": 0,
+      "camera": "left_wrist",
+      "sha256": "536a6fa0878bc187b0de6f6a3f33d06b09c1b9226bbe68cf1a81155935e06f8c"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000000_cam_right_wrist_fail.mp4",
+      "bytes": 2147291,
+      "layout_id": 0,
+      "camera": "right_wrist",
+      "sha256": "8f64246fedc7c9a35b6ebae60991cd9b9c13f2eb47e817aa0fd0393897327c23"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000001_cam_head_fail.mp4",
+      "bytes": 765171,
+      "layout_id": 1,
+      "camera": "head",
+      "sha256": "23ec17528f64bc9faec6bae6400b2b39ae234a3536b401119ebbaa1d02ef4dc5"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000001_cam_left_wrist_fail.mp4",
+      "bytes": 1770726,
+      "layout_id": 1,
+      "camera": "left_wrist",
+      "sha256": "9212e30e8a389907a1ba9a719eae3997f04229741d4d03f4c725887082502a45"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000001_cam_right_wrist_fail.mp4",
+      "bytes": 386034,
+      "layout_id": 1,
+      "camera": "right_wrist",
+      "sha256": "df9dc8825b73c66cb2710c11607ac0b75afca3db8248446b1328a02f5258afe8"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000002_cam_head_fail.mp4",
+      "bytes": 828913,
+      "layout_id": 2,
+      "camera": "head",
+      "sha256": "18eccdb25984247b82cc855657f4608fa77c1a4aef5fec4d278ccde5dc99465a"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000002_cam_left_wrist_fail.mp4",
+      "bytes": 385143,
+      "layout_id": 2,
+      "camera": "left_wrist",
+      "sha256": "d6acf302372b892975ce6485019128b5caacda7a943eefa86852def8bf7d7cbe"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000002_cam_right_wrist_fail.mp4",
+      "bytes": 1619663,
+      "layout_id": 2,
+      "camera": "right_wrist",
+      "sha256": "ed6b0e58fbe64a60ebb9f30f811ba296ef71c145248bae3397ede24c5f0ffeec"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000003_cam_head_fail.mp4",
+      "bytes": 786270,
+      "layout_id": 3,
+      "camera": "head",
+      "sha256": "a1d5135a6d0a6968b8a505057bf6e94c7cf836a4d2ad2be61cc4568eab5cf37b"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000003_cam_left_wrist_fail.mp4",
+      "bytes": 1778942,
+      "layout_id": 3,
+      "camera": "left_wrist",
+      "sha256": "b2d357daa2350cb855de841b840d3ef4b77e916563ed2fd96f39044adfbecea4"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000003_cam_right_wrist_fail.mp4",
+      "bytes": 387482,
+      "layout_id": 3,
+      "camera": "right_wrist",
+      "sha256": "ed1aff44eed44190a984661dd94ecb46e43fe4e0adaf16da10a509fa5b0617d7"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000004_cam_head_fail.mp4",
+      "bytes": 782673,
+      "layout_id": 4,
+      "camera": "head",
+      "sha256": "a094ab4485c61968189a7c671b024bd96a7ad9dbf6ce82b2be1ee4dbea9532d2"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000004_cam_left_wrist_fail.mp4",
+      "bytes": 1609538,
+      "layout_id": 4,
+      "camera": "left_wrist",
+      "sha256": "d70c2b8ef4d7ddf309c5ea5d251abfabb4db58cc6e71d3c8a481b99939ad4a86"
+    },
+    {
+      "condition": "augmented_3",
+      "file": "native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000004_cam_right_wrist_fail.mp4",
+      "bytes": 393323,
+      "layout_id": 4,
+      "camera": "right_wrist",
+      "sha256": "52fc93fbd2579505b3761f050d87c7af3358315d1ebfeb1bb7528decb90a77f1"
+    }
+  ],
+  "limitations": [
+    "Five previously exposed layouts; descriptive diagnostics, not independent generalization.",
+    "Saved baseline and augmented generation inputs differ in both feedback content and length.",
+    "Completed RPC and gripper closure do not establish lift or task success.",
+    "Native action_count includes hold steps after candidate return; trusted primitive action_steps are reported separately.",
+    "Completed primitive step totals omit any partially executed call cancelled when the native step limit is reached.",
+    "Actor-layout joins are separately qualified from original evidence; uncertain matches remain null.",
+    "Host CPU/RAM differs from historical host; no cross-host speedup claim.",
+    "This executes saved candidates, not new System2 generation or selection; pi05 remains retained."
+  ]
+}

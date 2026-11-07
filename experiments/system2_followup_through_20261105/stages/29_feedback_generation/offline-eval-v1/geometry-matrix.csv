@@ -1,0 +1,37 @@
+candidate,arm,test,terminal,error,total_rpc,scene_rpc,approach_rpc,gripper_rpc,invalid_rpc,first_action_arm,first_action_z,predicate_true_count,predicate_false_count,native_score,expected_attempt_axis_aligned_center_only,observed_attempt,surrogate_match
+baseline_1,baseline,center,returned,,1,1,0,0,0,,,1,0,,False,False,True
+augmented_1,augmented,center,returned,,1,1,0,0,0,,,2,0,,False,False,True
+augmented_2,augmented,center,returned,,1,1,0,0,0,,,2,0,,False,False,True
+baseline_2,baseline,center,returned,,1,1,0,0,0,,,2,0,,False,False,True
+baseline_3,baseline,center,returned,,1,1,0,0,0,,,2,0,,False,False,True
+augmented_3,augmented,center,returned,,2,2,0,0,0,,,2,0,,False,False,True
+baseline_1,baseline,inside,returned,,1,1,0,0,0,,,1,0,,False,False,True
+augmented_1,augmented,inside,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,3,,False,True,False
+augmented_2,augmented,inside,prefix_observed,First approach observed; no physical action simulated,3,1,1,1,0,right,1.01,0,2,,False,True,False
+baseline_2,baseline,inside,returned,,1,1,0,0,0,,,2,0,,False,False,True
+baseline_3,baseline,inside,returned,,1,1,0,0,0,,,2,0,,False,False,True
+augmented_3,augmented,inside,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,2,,False,True,False
+baseline_1,baseline,outside_x,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,2,,True,True,True
+augmented_1,augmented,outside_x,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,3,,True,True,True
+augmented_2,augmented,outside_x,prefix_observed,First approach observed; no physical action simulated,3,1,1,1,0,right,1.01,0,2,,True,True,True
+baseline_2,baseline,outside_x,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+baseline_3,baseline,outside_x,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+augmented_3,augmented,outside_x,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,2,,True,True,True
+baseline_1,baseline,outside_y,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,2,,True,True,True
+augmented_1,augmented,outside_y,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,3,,True,True,True
+augmented_2,augmented,outside_y,prefix_observed,First approach observed; no physical action simulated,3,1,1,1,0,right,1.01,0,2,,True,True,True
+baseline_2,baseline,outside_y,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+baseline_3,baseline,outside_y,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+augmented_3,augmented,outside_y,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,2,,True,True,True
+baseline_1,baseline,outside_both,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,2,,True,True,True
+augmented_1,augmented,outside_both,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,3,,True,True,True
+augmented_2,augmented,outside_both,prefix_observed,First approach observed; no physical action simulated,3,1,1,1,0,right,1.01,0,2,,True,True,True
+baseline_2,baseline,outside_both,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+baseline_3,baseline,outside_both,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+augmented_3,augmented,outside_both,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,2,,True,True,True
+baseline_1,baseline,far,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,2,,True,True,True
+augmented_1,augmented,far,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,3,,True,True,True
+augmented_2,augmented,far,prefix_observed,First approach observed; no physical action simulated,3,1,1,1,0,right,1.01,0,2,,True,True,True
+baseline_2,baseline,far,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+baseline_3,baseline,far,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,left,1.14,0,3,,True,True,True
+augmented_3,augmented,far,prefix_observed,First approach observed; no physical action simulated,4,2,1,1,0,right,1.01,0,2,,True,True,True

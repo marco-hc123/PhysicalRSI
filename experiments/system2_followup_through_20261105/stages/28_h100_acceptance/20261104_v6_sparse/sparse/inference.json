@@ -1,0 +1,149 @@
+[
+  {
+    "call": 0,
+    "seconds": 9.694971673190594,
+    "shape": {
+      "left_arm_joint_state": [
+        50,
+        6
+      ],
+      "left_ee_joint_state": [
+        50,
+        1
+      ],
+      "right_arm_joint_state": [
+        50,
+        6
+      ],
+      "right_ee_joint_state": [
+        50,
+        1
+      ]
+    },
+    "all_finite": true,
+    "sparse_masks": {
+      "base_0_rgb": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    }
+  },
+  {
+    "call": 1,
+    "seconds": 0.1014363169670105,
+    "shape": {
+      "left_arm_joint_state": [
+        50,
+        6
+      ],
+      "left_ee_joint_state": [
+        50,
+        1
+      ],
+      "right_arm_joint_state": [
+        50,
+        6
+      ],
+      "right_ee_joint_state": [
+        50,
+        1
+      ]
+    },
+    "all_finite": true,
+    "sparse_masks": {
+      "base_0_rgb": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      ]
+    }
+  },
+  {
+    "call": 2,
+    "seconds": 0.08601577393710613,
+    "shape": {
+      "left_arm_joint_state": [
+        50,
+        6
+      ],
+      "left_ee_joint_state": [
+        50,
+        1
+      ],
+      "right_arm_joint_state": [
+        50,
+        6
+      ],
+      "right_ee_joint_state": [
+        50,
+        1
+      ]
+    },
+    "all_finite": true,
+    "sparse_masks": {
+      "base_0_rgb": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true
+        ]
+      ]
+    }
+  }
+]

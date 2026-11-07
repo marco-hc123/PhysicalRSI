@@ -1,0 +1,20 @@
+{
+  "created_beijing": "2026-11-01T20:13:34.353409+08:00",
+  "source": "/mnt/data/joey_tr/physical-RSI/result/实验过程索引.csv",
+  "source_sha256": "000eb6ff9e83048a34484a350dba87d3d5540050c3b0e21bf888e37f95f3e2ae",
+  "historical_batch_rows": 43,
+  "existing_batch_paths": 43,
+  "result_entries": 31,
+  "result_directories": 28,
+  "missing_paths": [],
+  "counting_rule": "Directories and index rows are not independent robot episodes. Recorded statuses are historical snapshots, not running processes.",
+  "supplement_update": {
+    "updated_beijing": "2026-11-02T19:09:24.319666+08:00",
+    "historical_rows_retained": 43,
+    "new_scientific_batches": 2,
+    "combined_scientific_batch_rows": 45,
+    "result_entries": 35,
+    "management_batches_not_episodes": 1,
+    "missing_paths": []
+  }
+}

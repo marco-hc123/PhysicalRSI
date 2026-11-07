@@ -1,0 +1,8 @@
+{
+  "abi": 4,
+  "filesystem_mutation_allowed": [
+    "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1",
+    "/dev/null"
+  ],
+  "no_privileged_operations": true
+}

@@ -1,0 +1,11 @@
+{
+  "state": "generation_complete",
+  "pid": null,
+  "attempts": 6,
+  "reserved_usd": 2.447298,
+  "estimated_standard_usd": 0.1849214,
+  "unknown_cost_requests": [],
+  "new_native_episodes": 0,
+  "candidate_execution": "not run; audit first",
+  "finished_utc": "2026-11-04T12:51:36.539072+00:00"
+}

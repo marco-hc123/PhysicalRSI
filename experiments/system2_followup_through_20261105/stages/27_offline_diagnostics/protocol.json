@@ -1,0 +1,28 @@
+{
+  "version": "cpu-diagnostics/v1",
+  "created_utc": "2026-11-04T11:50:10.120559+00:00",
+  "goal": "Localize candidate failure and verify offline contract semantics before native intervention",
+  "scope": "Existing candidates and supplied synthetic/recorded observations only; zero new native scores",
+  "hypotheses": [
+    "H1 overbroad round2 basket predicate skips outside points",
+    "H2 newly observed categories can trigger round2 KeyError",
+    "H3 static observations can exhaust the admitted RPC prefix budget",
+    "H4 recorded driver converts recoverable no-path but does not publish mutated memory"
+  ],
+  "fixed": [
+    "original candidate hashes",
+    "100 RPC fixture budget",
+    "unchanged historical native score and runtime"
+  ],
+  "treatments": [
+    "Only replace round2 XY predicate with half-dimensions, axis-aligned diagnostic assumption",
+    "Only extend round2 category assignment when a free basket exists",
+    "Only add mutated memory to copied driver result schema"
+  ],
+  "exclusions": [
+    "No hardware motion, perception truth, robot success, task score, generation quality or full isolation-backend claim"
+  ],
+  "future_evaluation": "Historical diagnostic layouts are development evidence; reserve previously unseen layouts before native acceptance",
+  "gpu_permission": "Separate pending user confirmation; this script always CPU only",
+  "write_scope": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1"
+}

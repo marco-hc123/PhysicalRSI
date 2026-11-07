@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-04T13:14:12.025962+00:00",
+  "mode": "sparse-only",
+  "gpu_uuid": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f",
+  "visible_gpu_limit": 1,
+  "worker_source": "/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v5/run_gpu_batch.py",
+  "worker_sha256": "179b9f6099e080fb7b779ebc52132fc5bc6c010be76b3ec761d248cd7bfede3f",
+  "new_api_calls": 0,
+  "new_native_episodes": 0,
+  "training": false,
+  "input_scope": "Deterministic synthetic RGB/state; 3 inference calls, nonempty history and reset checks; not task scores",
+  "previous_completed": [
+    "CUDA basic",
+    "24 planning calls",
+    "pi05 3 calls",
+    "6 API candidate generations"
+  ]
+}

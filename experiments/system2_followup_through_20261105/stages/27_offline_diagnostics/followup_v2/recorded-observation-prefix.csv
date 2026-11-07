@@ -1,0 +1,11 @@
+layout,variant,terminal,approach_requests,native_score,scope
+0,original,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+0,bbox_only,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+1,original,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+1,bbox_only,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+2,original,returned,0,,Ordered historical observations + stop before first mock approach; no physics
+2,bbox_only,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+3,original,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+3,bbox_only,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+4,original,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics
+4,bbox_only,prefix_observed,1,,Ordered historical observations + stop before first mock approach; no physics

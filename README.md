@@ -1,30 +1,29 @@
 # PhysicalRSI 仿真复现与 Token 消耗分析
 
-本仓库记录本人基于 [PhysicalRSI](https://github.com/PhysicalRSI/PhysicalRSI) 开展的仿真复现、Token 用量分析，以及将高层模型由千问替换为 GPT 的补测。数据截至 **2026-11-02**。
+本仓库记录本人基于 [PhysicalRSI](https://github.com/PhysicalRSI/PhysicalRSI) 开展的仿真复现、Token 用量分析，以及将高层模型由千问替换为 GPT 的补测。已完成实验整理至 **2026-11-05**；仓库更新于 **2026-11-07**。
 
 这是个人复现与实验记录仓库。上游原始代码、本人使用的集成程序、模型生成候选和实验输出分别保留出处。原项目的功能与本次实际验证的范围应分开阅读。
 
-## 先看哪些文件
+## 从这里开始
 
-- [全研究阶段原件库及读取方法](experiments/evidence_archive/README.md)
-- [研究计划、讨论与周记](research/README.md)
+- **看结论**：[最新结果](docs/RESULTS.md)、[完整研究总览](docs/RESEARCH_OVERVIEW_ZH.md)。
+- **找实验**：[11月4–5日后续批次](experiments/system2_followup_through_20261105/README.md)、[按问题查证据](docs/EVIDENCE_INDEX.md)。
+- **看过程**：[科研问题、讨论与日志](research/README.md)、[更新记录](CHANGELOG.md)。
+- **核验或复现**：[离线核验与依赖](docs/REPRODUCE.md)。
+- **理解目录**：[仓库地图](docs/REPOSITORY_MAP.md)、[上传范围](docs/SCOPE.md)。
+- **查历史汇报**：[报告、图表与PPT](reports/README.md)，各自保留原日期与统计范围。
 
-- [完整研究总览：机制、全部阶段、结果与下一步](docs/RESEARCH_OVERVIEW_ZH.md)
-- [按研究问题组织的证据导航](docs/EVIDENCE_INDEX.md)
-- [历史详细报告、场景与汇报大纲](reports/research_archive_20261101/README.md)
-- [新增图表、可编辑数据及代表性真实视频](reports/evidence/README.md)
+## 最新进展：11月4–5日
 
-- [汇报 PPT（2026-11-02，6 页）](reports/presentations/PhysicalRSI_report_20261102.pptx)
+11月4日完成旧候选CPU诊断、H100离线验收和基线/增强反馈各3个候选生成，6次请求共64,674 Token。随后完成150项候选CPU检查。离线探针不是机器人任务回合。
 
-- [最新实验结论与限制](docs/RESULTS.md)
-- [实验条件与复现说明](docs/REPRODUCE.md)
-- [上传范围及资料来源](docs/SCOPE.md)
-- [GPT 分类补测详细报告](experiments/system1_gpt/RESULTS_ZH.md)
-- [GPT System 2 补测详细报告](experiments/system2_gpt/RESULTS_ZH.md)
-- [历史任务结果表](experiments/history/task_extension_and_final_test/exports/task-summary.csv)
-- [历史完整阶段报告](experiments/history/task_extension_and_final_test/final-review/report-final-zh.txt)
+11月5日完成7条件×5历史布局的35个有效原生回合：完整成功0；增强候选两例各得15/100，均为layout4。增强组三候选15例均分2/100，基线生成代码15例均分0，神经父pi05另列5例。**局部得分已经出现，稳定改进和独立泛化尚未建立。**
 
-## 当前主要结果
+首次approach拒绝由基线12/15降为增强0/15，完成approach为9与50；候选动作推进改变，但任务仍未完整完成。augmented_3的动态抬升判断与读取器固定名义Z不匹配，是局部机制证据，不能直接断言真实抓取失败或唯一根因。未重跑正式选择器，也没有候选晋升。
+
+[后续实验、逐回合数据与原件](experiments/system2_followup_through_20261105/README.md) · [最新结论和限制](docs/RESULTS.md) · [独立核验](provenance/followup-verification-20261107.json)
+
+## 截至11月2日的基线结果与机制
 
 以下按现有汇报的主线组织：**研究目标与机制 → 原生任务表现 → Token 与缓存 → System 2 → 目录消融与运行时间 → 下一步**。历史实验与 GPT 补测分别标明；整理日期为 2026-11-04，实验数据截至 2026-11-02。
 
@@ -37,7 +36,7 @@
 - **已完成范围**：已有技能与 Agent 的原生任务对照、对应任务的 Token 核算、目录精简消融、历史两轮 System 2、独立最终验收、状态恢复、失败机制诊断，以及 GPT 模型替换补测。这里的 native 指调用 RoboDojo 原生仿真评测；是否产生动作、是否正常完成及是否取得评分分别记录。
 - **条件边界**：固定 PhysicalRSI `90b322a` 及记录在案的集成补丁，使用 RoboDojo、ARX X5、Isaac Sim 5.1、RGB 观测与 L20 GPU。完成的是有限任务和布局的复现，**尚未完成官方完整 RoboDojo 评分复现，也未证明集成层与作者完整系统数值等价**。
 
-阶段结论是：**已观察到较低的语言 Token 用量，并定位了部分失败环节；尚未在当前条件下证明整体任务能力更优，或 System 2 带来得分提升。**
+截至11月2日的阶段结论是：**已观察到较低的语言Token用量，当时的正式System 2选择未测得得分提升。** 后续11月5日候选出现局部部分得分，但完整成功与稳定提升仍未建立，见上方最新进展。
 
 来源：[复现条件](docs/REPRODUCE.md)、[冻结协议](experiments/history/protocol_freeze/protocol.json)、[完整研究总览](docs/RESEARCH_OVERVIEW_ZH.md)。
 
@@ -92,7 +91,7 @@
 
 来源：[历史跨项目复算表](reports/evidence/tables/matched_comparison_recomputed.csv)、[公开尝试与可评分分母](reports/evidence/tables/public-A-per-task-reviewed.csv)、[Token 分项](reports/evidence/tables/matched-token-components.csv)、[GPT 分类补测完整结果](experiments/system1_gpt/RESULTS_ZH.md)。
 
-### 4. System 2：完成了改进流程，但尚无得分收益
+### 4. 历史System 2：完成了改进流程，当时未测得得分收益
 
 System 2 的验证链为“开发反馈 → 生成候选 → 接口检查 → 原生匹配验证 → 选择父策略或候选”。以下是验证集结果，**接口检查通过不等于动作完整执行，更不等于完成任务**。
 

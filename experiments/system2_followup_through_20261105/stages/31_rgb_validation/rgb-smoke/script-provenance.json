@@ -1,0 +1,16 @@
+[
+  {
+    "file": "render_rgb.py",
+    "original_sha256": "8035623790eba0493afc98b5229f552bf00da9f7bc4c1b48804ab342c21d106a",
+    "adapted_sha256": "6f88e20ce076ea908ec40960a3fd2e7efbfa03f670af25ccdaaac4cce0d8533c",
+    "change": "output directory only",
+    "diff": "--- \n+++ \n@@ -1,7 +1,7 @@\n \"\"\"Render a procedural RGB scene in Isaac Sim; no robot or policy claim.\"\"\"\n from pathlib import Path\n import json,time\n-out=Path('/mnt/data/physical-RSI/result/08_isaac_rgb_smoke_20261028')\n+out=Path('/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/rgb-smoke')\n started=time.monotonic()\n from isaacsim import SimulationApp\n app=SimulationApp({'headless':True,'width':640,'height':480,'renderer':'RaytracedLighting','anti_aliasing':0,'multi_gpu':False,'sync_loads':True,'extra_args':['--/app/settings/persistent=false','--/log/file='+str(out/'kit.log'),'--/app/tokens/cache=/mnt/data/physical-RSI/cache/kit','--/app/tokens/data=/mnt/data/physical-RSI/cache/kit-data']})\n"
+  },
+  {
+    "file": "run_smoke.py",
+    "original_sha256": "3c4585d2e39e0bbf5b60fc8577a5196d79d70d55117139030185d8aca09f8847",
+    "adapted_sha256": "c6b0f44fcc7c8c6e9ae950f55dc6411fdda79e446ac4450eb6fa8c109793e7f8",
+    "change": "output directory only",
+    "diff": "--- \n+++ \n@@ -1,7 +1,7 @@\n \n from pathlib import Path\n import subprocess,threading,time,json,datetime\n-root=Path('/mnt/data/physical-RSI');out=root/'result/08_isaac_rgb_smoke_20261028'\n+root=Path('/mnt/data/physical-RSI');out=root/'result/31_rgb_supplement_20261105/rgb-smoke'\n stop=threading.Event();samples=[]\n def monitor():\n  with (out/'gpu_samples.jsonl').open('w') as f:\n"
+  }
+]

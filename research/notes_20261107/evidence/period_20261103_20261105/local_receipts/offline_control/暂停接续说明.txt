@@ -1,0 +1,25 @@
+暂停时间：2026-11-04 20:56（北京时间）。用户要求移动电脑前暂停。
+已核对：本轮没有活动的计算或 API 进程，两张 GPU 均为 1 MiB / 0%。
+
+实验室项目根目录：/mnt/data/joey_tr/physical-RSI
+SSH：physicalrsi-lab。只允许项目文件夹内写入，只允许使用一张空闲 H100。
+
+已完成：
+1. 原 CPU 故障诊断记录保留在 result/27_system2_offline_diagnostics/20261104_cpu_v1。
+2. CUDA 基础运算通过：result/28_h100_offline_acceptance/20261104_v4/basic/completion.json。
+3. 24 次历史目标离线规划完成：同级 20261104_v5/planning。结果重现历史模式，但规划可行不等于抓取成功。
+4. pi05 已有权重成功加载，3 次合成输入推理动作全部有限，reset 验证通过：20261104_v5/pi05。
+5. GPT-6.1-Sol / medium：原反馈 3 次、补全反馈 3 次，6 个候选均已保存，JSON 和 Python 语法有效；尚未执行新候选。
+   API 目录：result/29_system2_feedback_api/20261104_v1。
+   billing-reviewed.json 修正了 cache-write 输入子集的计费，估算合计 0.1932249 美元，实际以账单为准。
+   整批保守预留上界 2.447298 美元，不是实际扣费。本轮预算上限 10 美元。
+
+暂停点：停止本批次调度器后，当前 pi05 工作自然完成；没有启动修正后的 sparse-memory 验收。
+下一步：用户明确恢复后先读取远端 continuation.json 和真实进程/GPU状态，再只运行剩余 sparse 验收；随后进行已保存 6 个候选的离线对照分析，最后形成完整诊断报告。
+不要重新运行 main()，它会重复已完成阶段。不要重新发送已经完成的 6 次 API 请求。
+原始失败尝试 v1–v4 全部保留。它们包括检查脚本隔离配置、复制 YAML 的相邻资产路径、列表字典动作输出读取问题，不得计为机器人任务失败。
+尚无新增机器人任务评分或成功率改善结论。RGB 原生验收仍需支持该仿真路线的设备。
+密钥没有落盘。一天有效的密钥后续可能已过期；只有确实需要新增调用时才重新提供。
+
+远端主接续记录：result/28_h100_offline_acceptance/20261104_v5/continuation.json。
+本地结构化接续记录：PAUSED_20261104.json。

@@ -1,0 +1,11 @@
+{
+  "api_calls": 0,
+  "completed_cases": 35,
+  "elapsed_s": 6591.523740977002,
+  "lab_gpu_used": false,
+  "paid_cost_usd": 0,
+  "pid": 41504,
+  "selection": "pi05 retained; diagnostic comparison only",
+  "state": "diagnostic_matrix_completed",
+  "utc": "2026-11-05T07:33:06.945437+00:00"
+}

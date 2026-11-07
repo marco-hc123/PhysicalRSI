@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-05T05:18:03.549343+00:00",
+  "scope": "Pre-native hypotheses from earlier CPU/offline evidence; no protocol or candidate changes",
+  "source": "reference/result/30_system2_lab_diagnosis/20261104_v1/REPORT.txt",
+  "predictions": [
+    {
+      "question": "Does lower approach height alter native plan/execution outcomes?",
+      "basis": "CPU prefixes showed baseline1.14m versus augmented1.01m first approach",
+      "limitation": "Earlier solver probes used different targets; feasibility must be measured anew"
+    },
+    {
+      "question": "Do arm/orientation changes alter first failure?",
+      "basis": "Augmented selected left in layouts3/4 while baselines selected right",
+      "limitation": "Arm and quaternion differ together; cannot attribute any difference to arm alone"
+    },
+    {
+      "question": "Do candidates continue after failure?",
+      "basis": "All six stopped after first failed approach in CPU error fixtures",
+      "metrics": "Native first failure, further attempts and task outcome; stopping is distinct from successful completion"
+    },
+    {
+      "question": "Is containment actually wrong in the physical task?",
+      "basis": "Center-footprint and true-interior definitions differed; point tests alone insufficient",
+      "metrics": "Original evaluator outcome and retained videos; distinguish initial geometry, perceived geometry and actual object state"
+    }
+  ],
+  "accounting": "7 conditions x5 previously exposed layouts; descriptive diagnostic comparison, no heldout acceptance or autonomous improvement claim",
+  "api_calls": 0
+}

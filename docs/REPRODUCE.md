@@ -5,6 +5,7 @@
 ```bash
 python tools/verify_results.py
 python tools/verify_research_evidence.py
+python3 -B tools/verify_followup_evidence.py
 ```
 
 仅使用 Python 标准库，核验来源清单中的文件 SHA256，并从分类逐回合 CSV 重新计算汇总；核验 System 2 父/候选的布局配对、成绩与选择记录。不会请求模型或启动机器人。
@@ -53,3 +54,10 @@ CPU 演示仅证明项目入口和软件流程可运行，不证明原生仿真�
 ## 新增历史研究材料的核验
 
 第二个离线命令复核新增来源哈希、API80/120 逐次数据及 JSONL 原件、目录消融分母与选定视频。它不重新执行旧 live runner。两个验证脚本检验的材料范围不同，不能把它们的计数相加当作实验次数。完整流程及证据边界见 [研究总览](RESEARCH_OVERVIEW_ZH.md)。
+
+
+## 11月4–5日后续证据
+
+[批次入口](../experiments/system2_followup_through_20261105/README.md)提供生成参数、冻结候选、协议、原生评分和逐例结果。上方第三条命令只读核验；完整原生复跑还需要原依赖、权重、场景与新输出目录，不能原地重跑历史runner覆盖结果。
+
+未重跑正式策略选择器、未训练或晋升候选，未进行新独立布局验收。旧manifest按精确历史版本核对，当前来源清单同步更新。

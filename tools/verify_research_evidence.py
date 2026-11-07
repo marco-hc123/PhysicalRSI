@@ -3,6 +3,7 @@ from pathlib import Path
 from collections import defaultdict
 from statistics import mean
 import csv, hashlib, json, math, runpy
+from evidence_integrity import manifest_bytes
 
 ROOT=Path(__file__).resolve().parents[1]
 def csv_rows(path):
@@ -25,7 +26,7 @@ def verify_manifest():
     rows=csv_rows('provenance/ADDITIONS_20261102.csv')
     assert len({r['path'] for r in rows})==len(rows)
     for r in rows:
-        data=(ROOT/r['path']).read_bytes()
+        data=manifest_bytes(r)
         assert len(data)==int(r['bytes']) and digest(data)==r['sha256'],r['path']
     return len(rows)
 def verify_api():

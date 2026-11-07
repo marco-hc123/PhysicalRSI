@@ -1,0 +1,29 @@
+{
+  "state": "passed",
+  "utc": "2026-11-05T08:02:46.571661+00:00",
+  "reviewer": "assistant visual and data review",
+  "figures": [
+    {
+      "file": "analysis/figures/01_task_outcome.png",
+      "sha256": "cd05220488496c53e9262f54786d0842bfe531eb1ac3e878422262d4e59c8796"
+    },
+    {
+      "file": "analysis/figures/02_stopping_stage.png",
+      "sha256": "5054e680af229e206d1d0c4118ba8b767e8b21339bd19afdb2db54205ade6e80"
+    },
+    {
+      "file": "analysis/figures/03_approach_calls.png",
+      "sha256": "a0855cc0e1374b91780ce73887251cf32b946adfc90d8525a99cc415ccac8700"
+    }
+  ],
+  "checks": [
+    "All3 PNG figures visually inspected; source SVG files preserved",
+    "Task-outcome footnote moved below tick labels and re-inspected",
+    "Plot labels and group counts match matrix-analysis.json",
+    "Score zoom and full-success distinction explicit",
+    "Reused-layout denominator and inferred actor-layout joins disclosed",
+    "augmented_3 post-lift return supported by recorded-value diagnosis and preserved source"
+  ],
+  "report_sha256": "76cc1c95f814edd10dd7f7768bd40bd6860e29b13d19f9492ca2516317683fc3",
+  "native_experiments_rerun": false
+}

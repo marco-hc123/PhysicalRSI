@@ -1,0 +1,11 @@
+{
+  "status": 200,
+  "request_id": "cd27a6c2-c172-4351-a6b5-4c5736be1d47",
+  "body": {
+    "id": "gpt-6.1-sol",
+    "object": "model",
+    "created": 1790552874,
+    "owned_by": "system",
+    "shutdown_date": null
+  }
+}

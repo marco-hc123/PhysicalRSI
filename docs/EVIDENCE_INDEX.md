@@ -1,6 +1,6 @@
-# 研究证据导航（2026-11-02）
+# 研究证据导航（整理至11月5日，2026-11-07更新）
 
-先读 [最新研究总览](RESEARCH_OVERVIEW_ZH.md)。本页按研究问题导航；不是实验启动清单。所列样本均为已记录的历史执行，本次整理新增 API 与机器人回合均为 0。
+先读[最新结论](RESULTS.md)与[研究总览](RESEARCH_OVERVIEW_ZH.md)。下面旧表保留截至11月2日的范围。本页按研究问题导航；不是实验启动清单。所列样本均为已记录的历史执行，本次整理新增 API 与机器人回合均为 0。
 
 | 研究问题 | 数据、分母与统计边界 | 仓库入口 |
 |---|---|---|
@@ -41,3 +41,14 @@
 [原始执行档案与读取方法](../experiments/raw_execution_archive/README.md)补充原生 API 输入/响应、System 2 中间记录、恢复与机制诊断执行文本，以及小型场景图片/兼容性样本。它们是已发生实验的证据补充，新增机器人回合和 API 调用均为 0。
 
 [二次核对报告](../provenance/SECOND_REVIEW_20261102_ZH.md)说明本次补齐范围、逐帧/轨迹外部清单和剩余边界。
+
+
+## 11月4–5日后续证据
+
+| 问题 | 范围 | 入口 |
+|---|---|---|
+| 旧候选失败发生在哪层 | 65 CPU探针、24规划、6合成推理，非机器人样本 | [批次27–30](../experiments/system2_followup_through_20261105/README.md) |
+| 增强反馈改变什么 | 6次生成、150 CPU探针，内容与长度同变 | [生成协议](../experiments/system2_followup_through_20261105/stages/29_feedback_generation/protocol.json) |
+| 原生执行与得分是否改善 | 35有效回合，2例部分15分、0完整成功 | [逐回合表](../experiments/system2_followup_through_20261105/stages/31_rgb_validation/analysis/episode-results.csv) |
+| 如何核对深层过程 | 原响应、receipt、raw result、动作记录、去重文本 | [无损读取方法](../experiments/system2_followup_through_20261105/raw/README.md) |
+| 如何追溯研究过程 | 截至11月5日的75条逐项记录及W44/W45周志 | [科研记录](../research/README.md) |

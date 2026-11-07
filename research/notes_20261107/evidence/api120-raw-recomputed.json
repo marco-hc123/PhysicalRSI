@@ -1,0 +1,43 @@
+{
+  "unprojected": {
+    "n": 60,
+    "input_mean": 27437.3,
+    "output_mean": 161.61666666666667,
+    "total_mean": 27598.916666666668,
+    "http_mean_s": 14.43237250285844,
+    "cached_input_sum": 514816,
+    "cache_hit_calls": 20,
+    "http_median_s": 13.610282060690224,
+    "http_min_s": 7.206026012077928,
+    "http_max_s": 22.597829405218363
+  },
+  "projected": {
+    "n": 60,
+    "input_mean": 8969.3,
+    "output_mean": 175.06666666666666,
+    "total_mean": 9144.366666666667,
+    "http_mean_s": 9.864257193667193,
+    "cached_input_sum": 173184,
+    "cache_hit_calls": 21,
+    "http_median_s": 9.100246081128716,
+    "http_min_s": 7.032920885831118,
+    "http_max_s": 19.87624845840037
+  },
+  "input_mean_reduction_pct": 67.30983004887507,
+  "total_mean_reduction_pct": 66.866936202206,
+  "http_mean_s_reduction_pct": 31.651866720364218,
+  "total_calls": 120,
+  "synthetic_scenes": 20,
+  "repeats_each_condition": 3,
+  "paired_projected_faster": 52,
+  "paired_total": 60,
+  "scene_projected_faster": 20,
+  "scene_total": 20,
+  "descriptive_scene_bootstrap_latency_reduction_percentile95": [
+    25.62407365780299,
+    36.93032724483598
+  ],
+  "bootstrap_seed": 20261101,
+  "bootstrap_draws": 10000,
+  "bootstrap_caveat": "Exploratory interval from these 20 synthetic scenes; provider temporal/cache effects are not isolated; no robot-success claim."
+}

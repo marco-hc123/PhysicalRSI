@@ -1,0 +1,24 @@
+{
+  "terminal": "returned",
+  "error": null,
+  "return_value": null,
+  "calls": [
+    {
+      "index": 0,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "unit": "m",
+        "objects": {}
+      }
+    }
+  ],
+  "counts": {
+    "scene": 1
+  },
+  "invalid_calls": [],
+  "memory_after_in_process": {},
+  "native_score": null,
+  "scope": "CPU fixture only; no physics, no new robot episode"
+}

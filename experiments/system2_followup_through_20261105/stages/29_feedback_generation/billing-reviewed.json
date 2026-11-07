@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "id": "baseline_1",
+      "input": 3138,
+      "cached_subset": 0,
+      "cache_write_subset": 3135,
+      "output_including_reasoning": 2461,
+      "reasoning_subset": 512,
+      "seconds": 53.44346266798675,
+      "estimated_standard_usd": 0.0324535,
+      "json_and_syntax_valid": true
+    },
+    {
+      "id": "augmented_1",
+      "input": 13475,
+      "cached_subset": 0,
+      "cache_write_subset": 13472,
+      "output_including_reasoning": 3168,
+      "reasoning_subset": 949,
+      "seconds": 70.96032946743071,
+      "estimated_standard_usd": 0.065366,
+      "json_and_syntax_valid": true
+    },
+    {
+      "id": "augmented_2",
+      "input": 13475,
+      "cached_subset": 13472,
+      "cache_write_subset": 0,
+      "output_including_reasoning": 2243,
+      "reasoning_subset": 505,
+      "seconds": 49.57846621237695,
+      "estimated_standard_usd": 0.0237832,
+      "json_and_syntax_valid": true
+    },
+    {
+      "id": "baseline_2",
+      "input": 3138,
+      "cached_subset": 3135,
+      "cache_write_subset": 0,
+      "output_including_reasoning": 2299,
+      "reasoning_subset": 501,
+      "seconds": 53.70568718574941,
+      "estimated_standard_usd": 0.0233095,
+      "json_and_syntax_valid": true
+    },
+    {
+      "id": "baseline_3",
+      "input": 3138,
+      "cached_subset": 3135,
+      "cache_write_subset": 0,
+      "output_including_reasoning": 2298,
+      "reasoning_subset": 505,
+      "seconds": 51.27649767138064,
+      "estimated_standard_usd": 0.0232995,
+      "json_and_syntax_valid": true
+    },
+    {
+      "id": "augmented_3",
+      "input": 13475,
+      "cached_subset": 13472,
+      "cache_write_subset": 0,
+      "output_including_reasoning": 2366,
+      "reasoning_subset": 478,
+      "seconds": 47.40184416435659,
+      "estimated_standard_usd": 0.0250132,
+      "json_and_syntax_valid": true
+    }
+  ],
+  "estimated_total_usd": 0.1932249,
+  "user_budget_usd": 10,
+  "conservative_whole_batch_reserve_usd": 2.447298,
+  "pricing": "2 USD uncached input / 0.1 cached input / 2.5 cache-write / 10 output per 1M, standard short context",
+  "pricing_url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "correction": "Initial online ledger treated cache-write tokens as ordinary input. This supplemental record applies returned cache_write_tokens as a mutually exclusive input subset; no double counting. Invoice is authoritative.",
+  "new_generation_calls": 6,
+  "native_episodes": 0
+}

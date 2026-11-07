@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-05T05:02:11.112661+00:00",
+  "stopped_waiting_controller": 31526,
+  "reason": "Recorded isolation.execute requires privileged chroot controller; qualify same mechanism and restart project-only controller with sudo. No episode had started.",
+  "robot_cases": 0,
+  "api_calls": 0
+}

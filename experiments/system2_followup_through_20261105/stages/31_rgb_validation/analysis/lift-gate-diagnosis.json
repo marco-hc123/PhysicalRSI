@@ -1,0 +1,130 @@
+{
+  "scope": "Recorded-value predicate evaluation and source inspection only; no new API/native/CPU candidate execution",
+  "candidate_source": "/mnt/data/physical-RSI/reference/result/29_system2_feedback_api/20261104_v1/candidates/augmented_3/candidate.py",
+  "candidate_sha256": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db",
+  "reader_copies": [
+    "/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_v1_classify_objects/d971ca486c6e4801/rdj_v1_classify_objects/perception.py",
+    "/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_v1_classify_objects/6bb861ace4b706d9/rdj_v1_classify_objects/perception.py"
+  ],
+  "reader_sha256": "1e6b77c65f24340423f7d0662bd467bad3dc25655980fb4312afda711d9420e6",
+  "reader_height_rule": "z = .765 + category HEIGHT / 2; calibrated camera ray receives this plane height, not measured object elevation",
+  "rows": [
+    {
+      "layout_id": 4,
+      "mapping_qualified": true,
+      "category": "watch",
+      "initial_detected_name": "watch_1",
+      "initial_z_m": 0.7775,
+      "required_z_strictly_above_m": 0.8025,
+      "after_lift_same_category_count": 0,
+      "after_lift_same_category_z_m": [],
+      "after_lift_same_category_xy_distance_m": [],
+      "predicate_matching_count": 0,
+      "last_scene_call_id": 7,
+      "last_observation_sequence": 636,
+      "completed_primitive_action_steps": 635,
+      "native_step_limit": 1100,
+      "actor_returned_normally": true,
+      "source_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/b16f7dc840804bf59b88ede9b455f041/0/policy/processes/isolated/process.json",
+      "source_sha256": "f799400a34bcb7644bd060b6ce5e68a0a2c2775ad35b6c930409cf9c5fc666ea"
+    },
+    {
+      "layout_id": 1,
+      "mapping_qualified": true,
+      "category": "watch",
+      "initial_detected_name": "watch_1",
+      "initial_z_m": 0.7775,
+      "required_z_strictly_above_m": 0.8025,
+      "after_lift_same_category_count": 2,
+      "after_lift_same_category_z_m": [
+        0.7775,
+        0.7775
+      ],
+      "after_lift_same_category_xy_distance_m": [
+        0.09504510641839489,
+        0.31287183572286986
+      ],
+      "predicate_matching_count": 0,
+      "last_scene_call_id": 7,
+      "last_observation_sequence": 636,
+      "completed_primitive_action_steps": 635,
+      "native_step_limit": 1100,
+      "actor_returned_normally": true,
+      "source_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/eea4f38ec125482ea01cb6ede59bebca/0/policy/processes/isolated/process.json",
+      "source_sha256": "f6f9594ff67d37e6714d94bbc1e63265f6b3fc9ac64005c3cd5f7eb892ce8b5e"
+    },
+    {
+      "layout_id": 0,
+      "mapping_qualified": true,
+      "category": "toy_car",
+      "initial_detected_name": "toy_car_2",
+      "initial_z_m": 0.785,
+      "required_z_strictly_above_m": 0.81,
+      "after_lift_same_category_count": 2,
+      "after_lift_same_category_z_m": [
+        0.785,
+        0.785
+      ],
+      "after_lift_same_category_xy_distance_m": [
+        0.3709387076671264,
+        0.11500635004624436
+      ],
+      "predicate_matching_count": 0,
+      "last_scene_call_id": 7,
+      "last_observation_sequence": 656,
+      "completed_primitive_action_steps": 655,
+      "native_step_limit": 1100,
+      "actor_returned_normally": true,
+      "source_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/2d0e1052f7054782877b4c7b1d538499/0/policy/processes/isolated/process.json",
+      "source_sha256": "9b60df39336a1e259f8168cd758483672dc6938f7cd12c647e46c18d2f6344cf"
+    },
+    {
+      "layout_id": 3,
+      "mapping_qualified": true,
+      "category": "pen",
+      "initial_detected_name": "pen_1",
+      "initial_z_m": 0.771,
+      "required_z_strictly_above_m": 0.796,
+      "after_lift_same_category_count": 1,
+      "after_lift_same_category_z_m": [
+        0.771
+      ],
+      "after_lift_same_category_xy_distance_m": [
+        0.09748549748645387
+      ],
+      "predicate_matching_count": 0,
+      "last_scene_call_id": 7,
+      "last_observation_sequence": 636,
+      "completed_primitive_action_steps": 635,
+      "native_step_limit": 1100,
+      "actor_returned_normally": true,
+      "source_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/f0a7099c349c40f0b98a164538e0d809/0/policy/processes/isolated/process.json",
+      "source_sha256": "1c444aeddf8491a01d14d3f8433e3b8dc9aecdc3449b307380c7ca8d7ed749b1"
+    },
+    {
+      "layout_id": 2,
+      "mapping_qualified": true,
+      "category": "garage",
+      "initial_detected_name": "garage_1",
+      "initial_z_m": 0.7925,
+      "required_z_strictly_above_m": 0.8175,
+      "after_lift_same_category_count": 0,
+      "after_lift_same_category_z_m": [],
+      "after_lift_same_category_xy_distance_m": [],
+      "predicate_matching_count": 0,
+      "last_scene_call_id": 7,
+      "last_observation_sequence": 636,
+      "completed_primitive_action_steps": 635,
+      "native_step_limit": 1100,
+      "actor_returned_normally": true,
+      "source_record": "native-campaign/runs/augmented_3/attempt-001/model/expert/58de3c0834dc4c4b9b7eed840a3aa2ed/0/policy/processes/isolated/process.json",
+      "source_sha256": "63d520112dc4a631b97ec54a42736bedadb1e80a27660103da5548645735a559"
+    }
+  ],
+  "conclusion": "Candidate lift-verification assumption is incompatible with the current RGB scene height capability. All recorded lift predicates yield zero qualifying detections, consistent with the immediately following return branch. This does not establish whether a physical grasp actually succeeded.",
+  "limitations": [
+    "Branch location inferred from unchanged source and recorded values; no new branch instrumentation was injected.",
+    "Missing detections, occlusion and category-plane heights must be separated.",
+    "This is specific to this saved candidate and pinned observation adapter, not a universal PhysicalRSI core defect."
+  ]
+}

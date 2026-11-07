@@ -1,0 +1,7 @@
+{
+  "state": "failed",
+  "error": "RuntimeError: cuInit failed 304",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v3/run_gpu_batch.py\", line 130, in worker\n    if code:raise RuntimeError('cuInit failed '+str(code))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: cuInit failed 304\n",
+  "elapsed_seconds": 0.0034767091274261475,
+  "finished_utc": "2026-11-04T12:48:31.363782+00:00"
+}

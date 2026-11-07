@@ -1,0 +1,394 @@
+{
+  "stage": "completed_and_archived",
+  "updated_utc": "2026-11-05T08:10:08.236175+00:00",
+  "cloud_host": "59.110.61.80",
+  "cloud_instance": "i-2ze1zdxis0hd5huemnpb",
+  "ssh_options": [
+    "-o",
+    "Hostname=59.110.61.80",
+    "-o",
+    "HostKeyAlias=physicalrsi-supp-20261105"
+  ],
+  "cloud_project": "/mnt/data/physical-RSI",
+  "result": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105",
+  "bootstrap_pid": null,
+  "transfer_sessions": {
+    "sources": 46469,
+    "assets": 9301,
+    "code_skills": 37843,
+    "checkpoints": 84812,
+    "native_protocol": 14718,
+    "isolation": 51104
+  },
+  "lab_writes": true,
+  "lab_gpu_used": false,
+  "api_calls": 0,
+  "native_episodes": 35,
+  "completed": [
+    "SSH new instance authenticated",
+    "blank 200GiB disk checked, initialized and mounted",
+    "original frozen protocol retrieved",
+    "uv and CPython 3.11.17 restored",
+    "267 simulator and 232 policy package versions match frozen record exactly",
+    "source/native protocol/isolation runtime transfers completed",
+    "12 original graphics package hashes verified and extracted project-locally",
+    "source bindings and released OpenPI compatibility overlays restored",
+    "741 pinned runtime/code hashes match archived runtime",
+    "procedural RGB smoke passed and image visually reviewed; 6 frames at640x480",
+    "Official checkpoint parts and 41 frozen files, 15369 scene files, 10691 implementation files SHA256 verified"
+  ],
+  "pending": [],
+  "hardware_difference": "8 cores/64GiB versus original 16cores/128GiB; same L20 46068MiB and driver580.126.09",
+  "credentials": "no API credentials persisted or reused",
+  "delivery": {
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+    "include": [
+      "reports",
+      "raw_results",
+      "logs",
+      "videos",
+      "protocol",
+      "runtime_configuration",
+      "source_diffs",
+      "checksums"
+    ],
+    "summary_host_wording": "server; no emphasized cloud or GPU model",
+    "preserve_original_provenance": true
+  },
+  "security_group": {
+    "temporary_rule_authorized": true,
+    "added": true,
+    "source_cidr": "202.130.59.22/32",
+    "protocol": "TCP",
+    "port": 22,
+    "remove_after_transfer": true,
+    "browser_blocker": "saved permission denies ecs.console.aliyun.com; do not bypass",
+    "next_action": "Temporary direct-transfer ingress no longer needed. User must remove only the manually added 202.130.59.22/32 TCP22 rule through console; browser permission remains blocked.",
+    "added_by": "user_manual_confirmation",
+    "direct_ssh_status": "TCP handshake reached cloud; reset before SSH authentication, route not yet usable"
+  },
+  "resource_downloader_pid": null,
+  "resource_downloader_result": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/resource-download-weights",
+  "latest_environment_stage": "package/source hash verification and RGB smoke passed",
+  "notes": [
+    "Latest verified state supersedes historical relay/download notes.",
+    "Downloads and exact artifact verification complete.",
+    "pi05 attempt002 completed all five layouts and passed strict evidence checks; successes0, mean_score0.",
+    "Attempt001 remains an excluded missing-ffmpeg deployment failure.",
+    "Saved candidate cohorts running; do not mutate active episode sources or environment."
+  ],
+  "bindings_pid": null,
+  "rgb_smoke_pid": null,
+  "environment_caveat": "Frozen policy NumPy metadata conflict retained. Exact historical ffmpeg executable version was not recorded; project-local imageio-ffmpeg0.6.0 bundled ffmpeg7.0.2 is qualified and provenance preserved.",
+  "network_evidence": [
+    "network/inbound-syn-check.txt",
+    "network/lab-handshake-headers.txt"
+  ],
+  "rgb_smoke": {
+    "result": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/rgb-smoke",
+    "elapsed_seconds": 146.17835924699966,
+    "robot_episodes": 0,
+    "api_calls": 0
+  },
+  "transfer_strategy": {
+    "selected_by_user": "local_relay",
+    "direct_ssh_diagnosis": "stopped per user instruction",
+    "data_route": "lab -> existing SSH ProxyJump -> local streaming pipe -> cloud SSH",
+    "jump_host_persistent_writes_by_task": false,
+    "jump_host_logging": "Existing SSH/Tailscale or institutional audit may retain connection metadata; no logs modified or cleared",
+    "preserve_running_relays": true,
+    "weights": "Public release via HTTPS acceleration transport after complete 630MB pilot SHA matched official manifest; 3 workers, mandatory official part SHA, then 41 frozen-file SHA; old direct partials preserved",
+    "other_resources": "existing local relay unchanged"
+  },
+  "relay_progress": {
+    "observed_utc": "2026-11-05T03:27:45.138942+00:00",
+    "local_pids": [
+      17502,
+      17510,
+      17707
+    ],
+    "all_three_growing": true,
+    "interval_s": 8.06561,
+    "growth_bytes": {
+      "scene_assets": 4223673,
+      "implementations": 3962880,
+      "checkpoints": 3665920
+    },
+    "note": "Growth is destination file size growth, not measured network bandwidth. Partial files are not yet qualified for experiment use."
+  },
+  "transfer_monitor": {
+    "pid": null,
+    "session_id": null,
+    "script": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/monitor_relay.py",
+    "latest": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/transfer-monitor/latest.json",
+    "samples": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/transfer-monitor/samples.jsonl",
+    "interval_seconds": 30,
+    "scope": "observe existing transfers only; source inventory deduplicates hardlinks",
+    "stops_after": "scene/code relays finish/fail; checkpoint supersession excluded from failures",
+    "controller_log": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/transfer-monitor/controller.log",
+    "previous_monitor": "24621 exited143; transfers unaffected, new observer launched after confirming old observer absent"
+  },
+  "weight_verification": {
+    "all_41_frozen_files_match": true,
+    "bytes": 24881258208,
+    "local_receipt": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/weight-hash-verification.json",
+    "official_all_24_parts_match_frozen_manifest": true,
+    "release_audit": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/official-weight-release-audit.json",
+    "scope": "Historical lab source and public release verification; destination receipt below is authoritative"
+  },
+  "route_comparison_caveat": "Earlier comparison used stale relay snapshots after03:43:52Z; discard inferred zero relay rate. Recheck current timestamps and live samples.",
+  "protocol": {
+    "path": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/protocol/diagnostic-matrix-v1.json",
+    "sha256": "60816ebccd9fc07bae5e252efb67d8806a941adadbe84d788bbb7695d81d665d",
+    "planned_cases": 35,
+    "executed": 0,
+    "layout_identity": "canonical JSON digests, all five match; raw file digests separately preserved"
+  },
+  "resource_completion_controller": {
+    "pid": null,
+    "script": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/complete_resource_preparation.py",
+    "scope": "resource finalization only"
+  },
+  "code_asset_acceleration": {
+    "pid": 21418,
+    "destination": "/mnt/data/physical-RSI/models/official-v4",
+    "trust": "official v4 archive part hashes plus all 10691 lab implementation file hashes",
+    "original_relay": "preserved until full staged hash comparison matches",
+    "fallback": "if staged file mismatch, preserve original relay; do not activate downloaded code"
+  },
+  "source_hash_manifest": {
+    "path": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/resource-source-sha256.json",
+    "lab_writes": false,
+    "scene_files": 15369,
+    "implementation_files": 10691
+  },
+  "local_relays_active": false,
+  "resource_completion_controller_active": false,
+  "resource_download_schedulers_stopped": [],
+  "pause_boundary_watcher_pid": null,
+  "pause_record": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rgb_supplement_20261105/PAUSED_ARCHIVE_REVIEW.json",
+  "next_action": "Read the archived report; any one-variable repair or independent-layout campaign is a new preregistered experiment, not started here.",
+  "latest_verified": {
+    "resources": {
+      "scene_assets": {
+        "state": "verified",
+        "file_count": 15369,
+        "matched": 15369,
+        "utc": "2026-11-05T04:48:00.947935+00:00"
+      },
+      "implementations": {
+        "state": "verified",
+        "file_count": 10691,
+        "matched": 10691,
+        "utc": "2026-11-05T04:46:36.971009+00:00"
+      }
+    },
+    "weights": {
+      "utc": "2026-11-05T05:22:52.673651+00:00",
+      "state": "verified",
+      "file_count": 41,
+      "matched": 41,
+      "elapsed_s": 335.7565685289992,
+      "bytes": 24881258208,
+      "api_calls": 0,
+      "gpu_used": false
+    }
+  },
+  "paid_api_authorization": {
+    "model": "gpt-6.1-sol",
+    "budget_usd": 10,
+    "credential_reuse": "Yesterday key authorized by user if securely available; never log key",
+    "new_calls": 0
+  },
+  "scene_and_code_qualified": true,
+  "native_campaign_controller": {
+    "pid": null,
+    "last_pid": 41504,
+    "state": "exited"
+  },
+  "isolation_qualification": "passed CPU chroot/seccomp smoke; runtime untouched",
+  "destination_weight_verification": {
+    "utc": "2026-11-05T05:22:52.673651+00:00",
+    "state": "verified",
+    "file_count": 41,
+    "matched": 41,
+    "elapsed_s": 335.7565685289992,
+    "bytes": 24881258208,
+    "api_calls": 0,
+    "gpu_used": false
+  },
+  "latest_native_state": {
+    "api_calls": 0,
+    "completed_cases": 35,
+    "elapsed_s": 6591.523740977002,
+    "lab_gpu_used": false,
+    "paid_cost_usd": 0,
+    "pid": 41504,
+    "selection": "pi05 retained; diagnostic comparison only",
+    "state": "diagnostic_matrix_completed",
+    "utc": "2026-11-05T07:33:06.945437+00:00"
+  },
+  "new_native_valid_cases": 35,
+  "new_paid_api_calls": 0,
+  "active_controller_pid": null,
+  "latest_gpu_observation": "0 MiB, 0 %",
+  "paid_cost_usd": 0,
+  "invalid_deployment_attempts": [
+    {
+      "condition": "pi05",
+      "attempt": "attempt-001",
+      "cause": "Missing ffmpeg command before policy inference",
+      "valid_native_cases": 0,
+      "policy_zero_score": false
+    }
+  ],
+  "ffmpeg_entry_repair": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/native-preparation/ffmpeg-entry-repair/repair.json",
+  "resource_downloads_complete": true,
+  "resource_download_schedulers_active": false,
+  "environment_status": "Pinned packages, source hashes, RGB rendering, frozen video writer and the full pi05 five-case native cohort qualified.",
+  "latest_results": {
+    "qualified_cases": 35,
+    "completed_conditions": [
+      "pi05",
+      "baseline_1",
+      "augmented_1",
+      "augmented_2",
+      "baseline_2",
+      "baseline_3",
+      "augmented_3"
+    ],
+    "active_condition": null,
+    "provisional_active_outcomes": 0,
+    "native_errors": []
+  },
+  "archive_progress": {
+    "state": "final_archive_verified",
+    "final_destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+    "archived": [
+      "pi05",
+      "baseline_1",
+      "augmented_1",
+      "augmented_2",
+      "baseline_2",
+      "baseline_3",
+      "augmented_3"
+    ],
+    "active_transfer_pid": null
+  },
+  "user_scope": "Complete the frozen35 saved-candidate diagnostic cases, analyze, and archive in the authorized lab project. No questions. No new candidate generation or repair experiments in this batch.",
+  "analysis_progress": {
+    "state": "completed_and_reviewed",
+    "active_pid": null,
+    "report": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt"
+  },
+  "source_cloud_state": "Reconnected after user confirmed instance restart",
+  "active_transfer_pid": null,
+  "latest_lab_reverification": {
+    "state": "raw_cohorts_reverified_source_offline",
+    "utc": "2026-11-05T07:55:25.912604+00:00",
+    "verified_files": 28182,
+    "logical_bytes": 1568556702,
+    "mismatches": 0,
+    "valid_native_cases": 35,
+    "videos": 105,
+    "conditions": [
+      {
+        "condition": "augmented_1",
+        "valid_cases": 5,
+        "successes": 0,
+        "mean_score_100": 3.0
+      },
+      {
+        "condition": "augmented_2",
+        "valid_cases": 5,
+        "successes": 0,
+        "mean_score_100": 3.0
+      },
+      {
+        "condition": "augmented_3",
+        "valid_cases": 5,
+        "successes": 0,
+        "mean_score_100": 0.0
+      },
+      {
+        "condition": "baseline_1",
+        "valid_cases": 5,
+        "successes": 0,
+        "mean_score_100": 0.0
+      },
+      {
+        "condition": "baseline_2",
+        "valid_cases": 5,
+        "successes": 0,
+        "mean_score_100": 0.0
+      },
+      {
+        "condition": "baseline_3",
+        "valid_cases": 5,
+        "successes": 0,
+        "mean_score_100": 0.0
+      },
+      {
+        "condition": "pi05",
+        "valid_cases": 5,
+        "successes": 0,
+        "mean_score_100": 0.0
+      }
+    ],
+    "latest_analysis_report_present": false,
+    "final_directory_exists": false,
+    "source_status": "User confirms cloud server is powered off; do not retry SSH or start instance",
+    "pending": "Transfer latest analysis/report/figures/reference metadata after source is available; final manifest verification and directory finalization not completed",
+    "scope": "Read existing evidence; write this checkpoint only inside authorized project; no GPU/API/experiment run"
+  },
+  "final_lab_archive": {
+    "state": "verified",
+    "utc": "2026-11-05T08:02:10.619983+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+    "manifest_sha256": "e6d9dc68f95e778c227a073f5ead0d0a65c9a39d806d24bccc09ef7e54b0a090",
+    "verified_files": 29299,
+    "logical_bytes": 1663174520,
+    "valid_native_cases": 35,
+    "videos": 105,
+    "new_paid_api_calls": 0,
+    "new_paid_cost_usd": 0,
+    "lab_gpu_used": false
+  },
+  "final_results": {
+    "baseline": {
+      "cases": 15,
+      "successes": 0,
+      "positive_score_cases": 0,
+      "mean_score_100": 0.0,
+      "first_approach_rejections": 12,
+      "accepted_approach_calls": 9,
+      "rejected_approach_calls": 15,
+      "incomplete_approach_calls": 0,
+      "step_limit_cancellations": 0,
+      "post_error_calls": 0
+    },
+    "augmented": {
+      "cases": 15,
+      "successes": 0,
+      "positive_score_cases": 2,
+      "mean_score_100": 2.0,
+      "first_approach_rejections": 0,
+      "accepted_approach_calls": 50,
+      "rejected_approach_calls": 5,
+      "incomplete_approach_calls": 5,
+      "step_limit_cancellations": 5,
+      "post_error_calls": 0
+    }
+  },
+  "reports": {
+    "root": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+    "report": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt",
+    "data": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+    "verification": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/migration/ARCHIVE_VERIFIED.json"
+  },
+  "nonblocking_followups": [
+    "Previous temporary TCP22 ingress rule cleanup was not verified or performed; console access remains blocked in the saved permission record.",
+    "Cloud instance was not powered off or released; no authorization to do so."
+  ]
+}

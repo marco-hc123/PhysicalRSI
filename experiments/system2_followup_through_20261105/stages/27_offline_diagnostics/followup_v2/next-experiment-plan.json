@@ -1,0 +1,40 @@
+{
+  "state": "prepared_not_executed",
+  "study": "System2 structured failure-feedback pilot",
+  "treatment": "Baseline messages vs appended rejected-candidate code, ordered observations and attributed native failures",
+  "held_fixed": [
+    "same selected pi05 parent",
+    "same model and generation settings",
+    "same output limit",
+    "same primitive API",
+    "same native budget and scoring",
+    "same allowed edit scope",
+    "same validated executor"
+  ],
+  "suggested_pilot": {
+    "generations_per_arm": 3,
+    "justification": "Exploratory replication; not a powered superiority claim",
+    "no_best_of_unreported_retries": true
+  },
+  "development_data": "Only historical already-inspected layouts; reclassify these as development, do not reuse as new held-out tests",
+  "holdout": "Select unused layouts by auditing actual task/layout use before any model sees them",
+  "acceptance": [
+    "valid bounded candidate",
+    "no contract regression",
+    "native success and normalized partial score",
+    "exceptions counted separately from task failures",
+    "input/output/cache tokens and generation wall time",
+    "validation cost and reset-to-result time"
+  ],
+  "prerequisites": [
+    "user provides fresh API credentials when generation is ready",
+    "untrusted candidate executor must pass real isolation checks; this CPU harness is not a production sandbox",
+    "execution and scoring on RT-capable RGB simulation host",
+    "single H100 use requires pending user confirmation"
+  ],
+  "known_preconditions": [
+    "No need to regenerate original candidates for the CPU batch",
+    "Do not claim all memory mechanisms fail from one driver result schema",
+    "No new independent robot outcome in this batch"
+  ]
+}

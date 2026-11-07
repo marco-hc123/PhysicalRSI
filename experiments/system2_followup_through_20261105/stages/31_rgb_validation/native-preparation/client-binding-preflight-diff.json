@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-05T05:23:49.079888+00:00",
+  "simulator_root": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator",
+  "actual_files": {
+    "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/src/eval_client/main.py": "afda4d4b17be98285fdbe43a4228b1d2d46251d196ff4af17ddcedf8356b7b91",
+    "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab/policy/physicalRSI/__init__.py": "e8f95b8a0c8a89efc346c7116c5f9fe57be4d1a9d0e999ca9e2ebc9efb7e7d6c",
+    "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab/policy/physicalRSI/deploy.py": "6303399ab0a1bf4c1b23270d089f7dee54aa664c9e476d4f939a6ffff9f2e3ab",
+    "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab/policy/physicalRSI/deploy.yml": "0ecf2c01a8e788cf92127c59b090269c4c627bd5c359fa5d740930cd7a7084ca"
+  },
+  "differences": [
+    {
+      "path": "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/src/eval_client/main.py",
+      "actual_sha256": "afda4d4b17be98285fdbe43a4228b1d2d46251d196ff4af17ddcedf8356b7b91",
+      "declared_sha256": null
+    },
+    {
+      "path": "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab/policy/physicalRSI/__init__.py",
+      "actual_sha256": "e8f95b8a0c8a89efc346c7116c5f9fe57be4d1a9d0e999ca9e2ebc9efb7e7d6c",
+      "declared_sha256": null
+    },
+    {
+      "path": "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab/policy/physicalRSI/deploy.py",
+      "actual_sha256": "6303399ab0a1bf4c1b23270d089f7dee54aa664c9e476d4f939a6ffff9f2e3ab",
+      "declared_sha256": null
+    },
+    {
+      "path": "/mnt/data/physical-RSI/reference/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab/policy/physicalRSI/deploy.yml",
+      "actual_sha256": "0ecf2c01a8e788cf92127c59b090269c4c627bd5c359fa5d740930cd7a7084ca",
+      "declared_sha256": null
+    }
+  ]
+}

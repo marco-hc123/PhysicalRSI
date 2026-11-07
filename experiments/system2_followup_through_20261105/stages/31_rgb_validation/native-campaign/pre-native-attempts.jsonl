@@ -1,0 +1,1 @@
+{"utc": "2026-11-05T04:59:04.627899+00:00", "pid": 31056, "script": "/mnt/data/physical-RSI/result/31_rgb_supplement_20261105/run_rgb_campaign.py", "state": "pre-native coordinator failed before resource wait: Path type required; corrected coordinator only", "api_calls": 0, "robot_cases": 0}

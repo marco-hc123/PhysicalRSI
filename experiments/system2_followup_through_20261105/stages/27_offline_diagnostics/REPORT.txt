@@ -1,0 +1,30 @@
+System 2 offline diagnostics — 2026-11-04
+
+Outcome: CPU diagnostic batch completed on gpuserver3. No new model calls, GPU workloads, robot episodes or native task scores. All writes were restricted by Landlock to this new result batch (plus /dev/null). Historical sources and environments were not edited.
+
+Evidence and accounting
+- Reanalyzed 10 historical Qwen candidate episodes and 78 native RPC receipts; these remain old executions, not new samples.
+- Ran 27 candidate/fixture probes (3 original candidates x 9 fixtures), 14 single-variable fixture probes, and 4 exact-driver virtual-IO probes.
+- Initial 10 historical-observation prefix probes used filename order. Review identified this as unsuitable for chronological replay. This followup reran 10 prefixes ordered by recorded observation sequence and checked duplicate-sequence payload equality. The old results are retained; followup_v2 is authoritative for ordered prefixes. No physical replay occurred.
+- Total newly executed CPU probes: 65 (27+14+4+10+10), grouped by their different purposes; never a 65-episode robot success denominator.
+
+Findings
+1. Round2 basket predicate: in six synthetic axis-aligned center-position fixtures, the original predicate matched 3/6 expected decisions and the half-dimension-only diagnostic variant matched 6/6. This assumes the supplied dimensions describe the tested footprint; it does not establish physical basket containment, orientation, Z overlap or grasp success.
+2. Dynamic category: a scene initially containing watch followed by pen reproduces KeyError in the original round2 candidate. A separate free-basket assignment modification reaches the first approach request under the same fixture. It is a manual diagnostic change, not autonomous System2 improvement.
+3. Static-scene loop: the original round2 candidate consumes the 100-RPC probe budget (18 scene, 49 approach, 33 gripper). This shows that valid prefixes are insufficient evidence of completion; a frozen mock scene cannot establish that a real robot will also loop.
+4. Error contract: the exact recorded driver string converts no_collision_free_path into RuntimeError. This existing behavior is confirmed, not a newly repaired defect. Candidate responses to transport errors differ; a graceful return alone does not certify successful completion.
+5. Memory contract: the original driver publishes only policy return value, not mutations to the separate memory object. A copied schema prototype publishes memory and passes counter round-trip 1 -> 2 with an explicit consumer. The candidates' lack of memory reads means this is not established as the cause of their historical zero scores; it does not diagnose VLA sparse-memory or all PhysicalRSI memory.
+6. Higher-than-basket fixtures expose the scope of XY-only completion tests in round2 and GPT code. This is a synthetic geometry concern requiring 3D/pose validation, not a new measured physical failure.
+
+Corrections and limitations
+- Original candidates and historical outcomes are immutable. Modified copies are under candidates/.
+- No nominal score is assigned to empty scenes, aborted probes, mock acknowledgements or API-only preparations.
+- Existing ordinary-user execution cannot use the recorded privileged chroot backend. The unprivileged user namespace probe was denied. No sudo, permission changes or sandbox weakening was attempted; exact-driver virtual IO does not qualify the real isolation backend.
+- H100 lacks the supported RT rendering path for the existing IsaacSim RGB protocol. Actual motion, new task scoring and held-out-layout acceptance remain outstanding.
+- GPU planning/checkpoint acceptance is pending the explicit resource-use question. No key was read from old files or chat; API calls remain zero.
+
+Feedback experiment materials
+followup_v2/feedback/baseline_messages.json preserves the existing chat messages.
+augmented_messages.json appends attributed rejected-candidate source, historical native failures and sequence-ordered initial observations. The chosen parent remains pi05. No manual repair is supplied as an answer.
+This explicit message section avoids the mistake of adding a JSON field that the prompt builder silently ignores. Byte/character sizes are measured; actual token usage is unknown until a provider response. Both arms must use identical model/settings; a length-matched control may be added to isolate content from extra context budget.
+next-experiment-plan.json defines the next pilot and the missing execution prerequisites. It is not a report of improved native scores.

@@ -1,0 +1,19 @@
+{
+  "source": "analysis/matrix-analysis.json",
+  "source_sha256": "d87786cf0950522a3fa334be07a9dc92868beb54ea92bf27a561201f5aada1b8",
+  "figures": [
+    "02_stopping_stage.svg",
+    "03_approach_calls.png",
+    "01_task_outcome.png",
+    "01_task_outcome.svg",
+    "02_stopping_stage.png",
+    "03_approach_calls.svg"
+  ],
+  "editable_data": [
+    "cohort-summary.csv",
+    "episode-results.csv",
+    "actor-diagnostics.csv"
+  ],
+  "denominator": "5 reused layouts per condition;35 native cases;30 code-candidate actors",
+  "plot_script": "build_campaign_report.py"
+}

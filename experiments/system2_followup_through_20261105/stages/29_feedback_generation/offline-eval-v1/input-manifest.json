@@ -1,0 +1,58 @@
+[
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/empty.json",
+    "sha256": "fa0f01a3f9a6d1872d5a13beb5309666b7e8a7f057ac0f3ad8bcd4453d54b4fa"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/named_static.json",
+    "sha256": "f108bafeae303df25efa8a4d6c60f03cf1e943f5fbffbb7f3edc520afd15a8e1"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/named_no_path.json",
+    "sha256": "71dbfef518f93b9aa183ea74206a72b71edec3b8b4cd997da8a36e5046aa22fa"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/named_transport_error.json",
+    "sha256": "fd39fa11501e9b37e6e134ce6f53ec43dda10b5780bbd77453effecc9cdee68b"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/dynamic_category.json",
+    "sha256": "470b71a5d988b3e1bd99834aeddf5d1dbc51cfb19fb0fb3761cd331a824b1405"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/missing_pose.json",
+    "sha256": "2463962e48412254abbf4d9535fcce4a84361d4ca0dcea2afaba0dc67ae5746b"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/underscore_category.json",
+    "sha256": "5816a659d73f6ec90ab520acaf9463a60411cbcd6081a69e366ea62a024c6539"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/above_basket.json",
+    "sha256": "0219454d800e4f2356e649d175a4a52f3c17d33a5013971d19f210b298b0cd2e"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/fixtures/insufficient_baskets.json",
+    "sha256": "f559a86a157083f90b56c77a1bed31d832e29cd4365a2d87ac49e0b12ed06b3e"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/ordered_scenes/layout0.json",
+    "sha256": "736524c484518100760b31649ac45d5a5ca69fab23bdc6ad3d096c0ec753c113"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/ordered_scenes/layout1.json",
+    "sha256": "15618f102d0c6042be7c5cd0df06a505c385cbaf7a431949da6ad80fc5f9ee1f"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/ordered_scenes/layout2.json",
+    "sha256": "275e43c0de19e747e4e45767591f417f6bac60e8e8e25d88e9f2a309a142f5c2"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/ordered_scenes/layout3.json",
+    "sha256": "213c1eccc09ef5f039b40e58765f79f79f768e5dd60c489bb5a507c923c61c44"
+  },
+  {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/ordered_scenes/layout4.json",
+    "sha256": "9294e20fd57ececfb64d245db2f8dea88b6b318e53af7f255ee43345a8556c74"
+  }
+]

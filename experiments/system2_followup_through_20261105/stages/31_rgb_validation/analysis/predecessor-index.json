@@ -1,0 +1,9 @@
+{
+  "prior_report": "/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/REPORT.txt",
+  "prior_report_sha256": "b7c4d177383883f58e433c00e3f76bb9eaa8aab9236ab509e4b5910ccb6b03cb",
+  "prior_generation_batch": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1",
+  "new_native_cases": 35,
+  "candidate_generation_reused": 6,
+  "new_paid_api_calls": 0,
+  "relation": "Execute six saved candidates and retained pi05 on the same five reused diagnostic layouts. Prior CPU/GPU/API counts are not new native episodes."
+}

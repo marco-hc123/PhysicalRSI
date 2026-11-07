@@ -1,0 +1,15 @@
+{
+  "state": "complete_with_failures",
+  "controller_pid": null,
+  "child_pid": null,
+  "results": [
+    {
+      "phase": "basic",
+      "exit_code": 1,
+      "elapsed_seconds": 5.0260821133852005
+    }
+  ],
+  "finished_utc": "2026-11-04T12:46:40.209709+00:00",
+  "native_episodes": 0,
+  "api_calls": 0
+}

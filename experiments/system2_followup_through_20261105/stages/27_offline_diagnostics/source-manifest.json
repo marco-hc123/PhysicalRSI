@@ -1,0 +1,20 @@
+[
+  {
+    "role": "candidate",
+    "path": "/mnt/data/joey_tr/physical-RSI/result/17_system2_iterations/29_system2_api_20261030T101800Z/workspace/rounds/round-000000/candidate/code/classify_objects.py",
+    "sha256": "a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8",
+    "bytes": 2000
+  },
+  {
+    "role": "candidate",
+    "path": "/mnt/data/joey_tr/physical-RSI/result/17_system2_iterations/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/candidate/code/classify_objects.py",
+    "sha256": "3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195",
+    "bytes": 3540
+  },
+  {
+    "role": "candidate",
+    "path": "/mnt/data/joey_tr/physical-RSI/result/25_system2_model_swap/38_system2_gpt61sol_20261102/model-candidate.py",
+    "sha256": "339ddd5d8c4c3f7195e57f297ed99b2579da122f116baac7af365a3421dd1e08",
+    "bytes": 5253
+  }
+]

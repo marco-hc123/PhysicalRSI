@@ -1,0 +1,6 @@
+{
+  "target": "/mnt/data/physical-RSI/reference/models/recorded_policy_assets/skill-assets/checkpoints",
+  "verified_source": "/mnt/data/physical-RSI/models/official-v4/checkpoints",
+  "preserved_partial": "/mnt/data/physical-RSI/reference/models/recorded_policy_assets/skill-assets/checkpoints.relay-partial-20261105T052252Z",
+  "all_41_frozen_hashes_match": true
+}

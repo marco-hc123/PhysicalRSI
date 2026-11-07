@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-05T03:24:36.957121+00:00",
+  "passed": true,
+  "observations": [
+    "red and green cubes, blue sphere visible",
+    "shadows and distinct object boundaries visible"
+  ],
+  "scope": "procedural RGB rendering; no robot episode"
+}

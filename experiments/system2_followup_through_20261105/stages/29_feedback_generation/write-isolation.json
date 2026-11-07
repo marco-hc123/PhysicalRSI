@@ -1,0 +1,8 @@
+{
+  "abi": 4,
+  "filesystem_mutation_allowed": [
+    "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1",
+    "/dev/null"
+  ],
+  "no_privileged_operations": true
+}

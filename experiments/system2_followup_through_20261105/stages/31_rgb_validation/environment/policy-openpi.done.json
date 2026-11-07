@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "/mnt/data/physical-RSI/envs/tools/uv",
+    "pip",
+    "install",
+    "--python",
+    "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python",
+    "--no-deps",
+    "-e",
+    "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi"
+  ],
+  "utc": "2026-11-05T03:13:43.691105+00:00",
+  "returncode": 0
+}

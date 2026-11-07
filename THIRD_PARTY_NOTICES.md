@@ -17,3 +17,8 @@ This personal reproduction repository is not the official upstream project.
 ## Public comparison reference
 
 Selected GPT-as-Policy source files at the recorded 8f3d362 commit are retained only for static audit under `experiments/public_reference/project_a/historical/source/`, with the original MIT license in the adjacent `LICENSE`. They are the reference authors’ work, not newly executed reproduction results. The frozen public dataset and provenance retain their original identities; no training or deployment of project A was performed.
+
+
+## Follow-up evidence through November 5
+
+Generated candidate sources, manual diagnostic copies and runtime/source snapshots are distinguished by batch and source hash under experiments/system2_followup_through_20261105. Existing upstream and dependency licenses remain in their original locations. The update does not assign a blanket new license to models, assets or research additions, and distributes no model checkpoints.

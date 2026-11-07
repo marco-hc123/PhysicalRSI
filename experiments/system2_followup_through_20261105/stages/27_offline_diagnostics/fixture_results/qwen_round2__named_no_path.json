@@ -1,0 +1,172 @@
+{
+  "terminal": "returned",
+  "error": null,
+  "return_value": null,
+  "calls": [
+    {
+      "index": 0,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "unit": "m",
+        "objects": {
+          "basket_1": {
+            "pose": [
+              0,
+              0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ]
+          },
+          "watch_1": {
+            "pose": [
+              0.3,
+              -0.2,
+              0.79,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.05,
+              0.04,
+              0.05
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 1,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "unit": "m",
+        "objects": {
+          "basket_1": {
+            "pose": [
+              0,
+              0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ]
+          },
+          "watch_1": {
+            "pose": [
+              0.3,
+              -0.2,
+              0.79,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.05,
+              0.04,
+              0.05
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 2,
+      "method": "approach",
+      "input": {
+        "arm": "left",
+        "position_m": [
+          0.3,
+          -0.2,
+          0.9400000000000001
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "error": "no_collision_free_path"
+    },
+    {
+      "index": 3,
+      "method": "scene",
+      "input": {},
+      "output": {
+        "frame": "world",
+        "unit": "m",
+        "objects": {
+          "basket_1": {
+            "pose": [
+              0,
+              0,
+              0.8,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.2,
+              0.15,
+              0.07
+            ]
+          },
+          "watch_1": {
+            "pose": [
+              0.3,
+              -0.2,
+              0.79,
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "dims": [
+              0.05,
+              0.04,
+              0.05
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "counts": {
+    "scene": 3,
+    "approach": 1
+  },
+  "invalid_calls": [],
+  "memory_after_in_process": {
+    "grasp_z_offset": 0.125,
+    "basket_release_z": 1.01,
+    "left_quat": [
+      0.613,
+      -0.3593,
+      0.6163,
+      0.3392
+    ]
+  },
+  "native_score": null,
+  "scope": "CPU fixture only; no physics, no new robot episode"
+}

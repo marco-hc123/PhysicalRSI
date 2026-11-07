@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-11-04T13:16:13.983453+00:00",
+  "scope": "Exploratory offline diagnostics on saved candidates; no API, GPU or robot episode",
+  "feedback_generation_protocol": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1/protocol.json",
+  "candidates": 6,
+  "fixture_matrix": {
+    "candidates": 6,
+    "prior_fixture_types": 9,
+    "executions": 54
+  },
+  "geometry_matrix": {
+    "candidates": 6,
+    "axis_aligned_center_cases": 6,
+    "executions": 36
+  },
+  "recorded_prefix_matrix": {
+    "candidates": 6,
+    "previously_inspected_layouts": 5,
+    "executions": 30
+  },
+  "total_planned_cpu_executions": 120,
+  "fixed": [
+    "same original 9 fixtures and 100-RPC budget",
+    "same 6 center-position geometry cases",
+    "same chronologically sorted historical scene streams",
+    "same capability-restricted harness"
+  ],
+  "limitations": [
+    "These layouts and hypotheses are diagnostic development data, not heldout",
+    "No physical dynamics, grasp outcome, perception ground truth or task success measured",
+    "Graceful return is not task completion",
+    "Geometry expectation is only an axis-aligned center-footprint surrogate, not physical containment",
+    "Above-basket action absence can also come from height safety bounds; predicate returns recorded separately",
+    "No production executor security qualification from this restricted diagnostic harness",
+    "Treatment changes feedback content and context length together"
+  ],
+  "execution_controls": [
+    "AST admission",
+    "no imports/private attributes or filesystem/network builtins",
+    "100 RPC cap",
+    "2-second wall timer per probe",
+    "768 MiB address-space limit",
+    "Landlock project output confinement"
+  ]
+}
