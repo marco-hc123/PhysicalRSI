@@ -9,15 +9,15 @@
 ## 研究沿着什么问题推进
 
 ```mermaid
-flowchart LR
-    A[有限范围原生复现] --> B[Token与耗时拆分]
-    B --> C[System 2负结果定位]
-    C --> D[接口与动作链受控干预]
-    D --> E[冻结候选搜索与选择]
-    E --> F[两任务与独立布局验收]
+flowchart TD
+    A[有限范围原生复现与Token耗时分析] --> B[System 2改进机制研究]
+    B --> C[扩展任务：general_pickup与classify_objects]
+    C --> D[聚焦classify_objects细化研究]
+    D --> E[失败反馈、接口与动作链的受控优化]
+    E --> F[冻结候选搜索与选择、独立布局验收]
 ```
 
-这条路线从“能否复现、为何少用Token”，推进到“候选实际执行到哪里、局部修正能否形成任务收益”。[完整研究总览](docs/RESEARCH_OVERVIEW_ZH.md)串联结论与证据；[研究路线图](docs/RESEARCH_ROADMAP.md)区分已完成阶段和仍待回答的问题。
+System 2改进机制的研究先从`general_pickup`与`classify_objects`两个任务展开，分别观察抓取能力、完整分类表现与候选改进收益；再聚焦`classify_objects`，细查失败反馈、接口契约和感知—抓取—运输—放置—循环覆盖链条，检验局部优化能否转化为整任务收益。这里按研究问题组织路线；各实验的实际日期和执行顺序见科研日志与批次记录。[完整研究总览](docs/RESEARCH_OVERVIEW_ZH.md)串联结论与证据；[研究路线图](docs/RESEARCH_ROADMAP.md)区分已完成工作和仍待回答的问题。
 
 ## 目前得到了什么
 

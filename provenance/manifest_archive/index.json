@@ -173,5 +173,40 @@
     "sha256": "9bdd6e54839abb81095f37f2f96b452f70f08980822544185deca4af1b6a1eeb",
     "bytes": 1138,
     "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "CHANGELOG.md@655e86afa507c2e9e40a951114d3e19853caafa68b91cba0ce8273cbc93fc4b7": {
+    "archived_path": "provenance/manifest_archive/655e86afa507c2e9e40a951114d3e19853caafa68b91cba0ce8273cbc93fc4b7.txt",
+    "original_path": "CHANGELOG.md",
+    "sha256": "655e86afa507c2e9e40a951114d3e19853caafa68b91cba0ce8273cbc93fc4b7",
+    "bytes": 2284,
+    "source_commit": "5d6018d7ad49c8347592d6ec1833f004fb6611c2"
+  },
+  "README.md@4e480cc878888c15835cf532f10642e1699a23f87fcd97968b038a893e0eeb70": {
+    "archived_path": "provenance/manifest_archive/4e480cc878888c15835cf532f10642e1699a23f87fcd97968b038a893e0eeb70.txt",
+    "original_path": "README.md",
+    "sha256": "4e480cc878888c15835cf532f10642e1699a23f87fcd97968b038a893e0eeb70",
+    "bytes": 5933,
+    "source_commit": "5d6018d7ad49c8347592d6ec1833f004fb6611c2"
+  },
+  "docs/RESEARCH_OVERVIEW_ZH.md@bebdee1749cc1f21f2b25a5db5910ac418982946ffd82598348627f3ddad55c5": {
+    "archived_path": "provenance/manifest_archive/bebdee1749cc1f21f2b25a5db5910ac418982946ffd82598348627f3ddad55c5.txt",
+    "original_path": "docs/RESEARCH_OVERVIEW_ZH.md",
+    "sha256": "bebdee1749cc1f21f2b25a5db5910ac418982946ffd82598348627f3ddad55c5",
+    "bytes": 10563,
+    "source_commit": "5d6018d7ad49c8347592d6ec1833f004fb6611c2"
+  },
+  "docs/RESEARCH_ROADMAP.md@653d9d69e7540af05c2216eb81c661053300cb7c52bc75e73da308bf511bbb14": {
+    "archived_path": "provenance/manifest_archive/653d9d69e7540af05c2216eb81c661053300cb7c52bc75e73da308bf511bbb14.txt",
+    "original_path": "docs/RESEARCH_ROADMAP.md",
+    "sha256": "653d9d69e7540af05c2216eb81c661053300cb7c52bc75e73da308bf511bbb14",
+    "bytes": 5231,
+    "source_commit": "5d6018d7ad49c8347592d6ec1833f004fb6611c2"
+  },
+  "provenance/manifest_archive/index.json@feefb4dfa8a6c6f556f413cfd1c76e4a9fe10d28c78c21f30e062391afa36994": {
+    "archived_path": "provenance/manifest_archive/feefb4dfa8a6c6f556f413cfd1c76e4a9fe10d28c78c21f30e062391afa36994.txt",
+    "original_path": "provenance/manifest_archive/index.json",
+    "sha256": "feefb4dfa8a6c6f556f413cfd1c76e4a9fe10d28c78c21f30e062391afa36994",
+    "bytes": 10684,
+    "source_commit": "5d6018d7ad49c8347592d6ec1833f004fb6611c2"
   }
 }

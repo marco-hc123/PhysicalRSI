@@ -1,0 +1,177 @@
+{
+  "README.md@3927ad1eb455d8ac43a22f26e5e307222f1bb8804200eb661ffedc9b5209641e": {
+    "archived_path": "provenance/manifest_archive/3927ad1eb455d8ac43a22f26e5e307222f1bb8804200eb661ffedc9b5209641e.txt",
+    "original_path": "README.md",
+    "sha256": "3927ad1eb455d8ac43a22f26e5e307222f1bb8804200eb661ffedc9b5209641e",
+    "bytes": 5852,
+    "source_commit": "dac031cbcd416d9c587877cee68a3045ab6f2f18"
+  },
+  "THIRD_PARTY_NOTICES.md@4eca083e7a9d2e90345384e24974a326080f45d3f311d72783479f9ff6c2227a": {
+    "archived_path": "provenance/manifest_archive/4eca083e7a9d2e90345384e24974a326080f45d3f311d72783479f9ff6c2227a.txt",
+    "original_path": "THIRD_PARTY_NOTICES.md",
+    "sha256": "4eca083e7a9d2e90345384e24974a326080f45d3f311d72783479f9ff6c2227a",
+    "bytes": 1425,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "docs/EVIDENCE_INDEX.md@185cb219b53f8cd71853dd37b7f9cb9912ec2d96a646b9ef1a64b7059099da75": {
+    "archived_path": "provenance/manifest_archive/185cb219b53f8cd71853dd37b7f9cb9912ec2d96a646b9ef1a64b7059099da75.txt",
+    "original_path": "docs/EVIDENCE_INDEX.md",
+    "sha256": "185cb219b53f8cd71853dd37b7f9cb9912ec2d96a646b9ef1a64b7059099da75",
+    "bytes": 5613,
+    "source_commit": "dac031cbcd416d9c587877cee68a3045ab6f2f18"
+  },
+  "docs/REPRODUCE.md@ee4c446069fdaefc9d3cc2e6017b5c1d63975d4258b8c215de21b56dffbcdfae": {
+    "archived_path": "provenance/manifest_archive/ee4c446069fdaefc9d3cc2e6017b5c1d63975d4258b8c215de21b56dffbcdfae.txt",
+    "original_path": "docs/REPRODUCE.md",
+    "sha256": "ee4c446069fdaefc9d3cc2e6017b5c1d63975d4258b8c215de21b56dffbcdfae",
+    "bytes": 3494,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "docs/RESEARCH_OVERVIEW_ZH.md@5876a6d40e7ac210e040911af70abc0c76c5fbc8d5becdf813050974dfb68bf8": {
+    "archived_path": "provenance/manifest_archive/5876a6d40e7ac210e040911af70abc0c76c5fbc8d5becdf813050974dfb68bf8.txt",
+    "original_path": "docs/RESEARCH_OVERVIEW_ZH.md",
+    "sha256": "5876a6d40e7ac210e040911af70abc0c76c5fbc8d5becdf813050974dfb68bf8",
+    "bytes": 16551,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "docs/RESULTS.md@397c4033135b4e17a4cd6eb1c181ea527800cbbac3b9546554bb12cf3f3bc7c4": {
+    "archived_path": "provenance/manifest_archive/397c4033135b4e17a4cd6eb1c181ea527800cbbac3b9546554bb12cf3f3bc7c4.txt",
+    "original_path": "docs/RESULTS.md",
+    "sha256": "397c4033135b4e17a4cd6eb1c181ea527800cbbac3b9546554bb12cf3f3bc7c4",
+    "bytes": 2631,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "docs/SCOPE.md@0764a01270a9639a1c36235f2520e21b01b1ba1021da2598dce0a51992a1c5a0": {
+    "archived_path": "provenance/manifest_archive/0764a01270a9639a1c36235f2520e21b01b1ba1021da2598dce0a51992a1c5a0.txt",
+    "original_path": "docs/SCOPE.md",
+    "sha256": "0764a01270a9639a1c36235f2520e21b01b1ba1021da2598dce0a51992a1c5a0",
+    "bytes": 3517,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "research/README.md@5ee4673c84cc0ca929bc74a41db29c3cd3865dbdadaff6c446b893a9248a63e5": {
+    "archived_path": "provenance/manifest_archive/5ee4673c84cc0ca929bc74a41db29c3cd3865dbdadaff6c446b893a9248a63e5.txt",
+    "original_path": "research/README.md",
+    "sha256": "5ee4673c84cc0ca929bc74a41db29c3cd3865dbdadaff6c446b893a9248a63e5",
+    "bytes": 1188,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "tools/verify_research_evidence.py@3256771f14c1855dd543258a78793ac26b1a78aa0764d2ab936ae9d5ad8522a6": {
+    "archived_path": "provenance/manifest_archive/3256771f14c1855dd543258a78793ac26b1a78aa0764d2ab936ae9d5ad8522a6.txt",
+    "original_path": "tools/verify_research_evidence.py",
+    "sha256": "3256771f14c1855dd543258a78793ac26b1a78aa0764d2ab936ae9d5ad8522a6",
+    "bytes": 7934,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "README.md@b37388ed5972a19343155585caffcde8c62837544b1bf4c95b1c819b3a0dd6e5": {
+    "archived_path": "provenance/manifest_archive/b37388ed5972a19343155585caffcde8c62837544b1bf4c95b1c819b3a0dd6e5.txt",
+    "original_path": "README.md",
+    "sha256": "b37388ed5972a19343155585caffcde8c62837544b1bf4c95b1c819b3a0dd6e5",
+    "bytes": 5622,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "docs/EVIDENCE_INDEX.md@5df94be998179cab717b92f8979915972721711a50751be2d74466e5f9f90c40": {
+    "archived_path": "provenance/manifest_archive/5df94be998179cab717b92f8979915972721711a50751be2d74466e5f9f90c40.txt",
+    "original_path": "docs/EVIDENCE_INDEX.md",
+    "sha256": "5df94be998179cab717b92f8979915972721711a50751be2d74466e5f9f90c40",
+    "bytes": 5130,
+    "source_commit": "cabced62f59db070c254634ae70ed7dd73de8619"
+  },
+  "CHANGELOG.md@2107fb99d30aa139c969949f58f0e3c807bd79170fa9b6ff87bbf0d58acc526c": {
+    "archived_path": "provenance/manifest_archive/2107fb99d30aa139c969949f58f0e3c807bd79170fa9b6ff87bbf0d58acc526c.txt",
+    "original_path": "CHANGELOG.md",
+    "sha256": "2107fb99d30aa139c969949f58f0e3c807bd79170fa9b6ff87bbf0d58acc526c",
+    "bytes": 1038,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "README.md@4f388d8ea62f1117f5be95747d295ae79b54bfdde4d960da7d4119039e701a4e": {
+    "archived_path": "provenance/manifest_archive/4f388d8ea62f1117f5be95747d295ae79b54bfdde4d960da7d4119039e701a4e.txt",
+    "original_path": "README.md",
+    "sha256": "4f388d8ea62f1117f5be95747d295ae79b54bfdde4d960da7d4119039e701a4e",
+    "bytes": 22321,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "THIRD_PARTY_NOTICES.md@757452938a72433487401133789aa17d7bd9cbd3ffdb1f0d0ef13f52e4d53ea7": {
+    "archived_path": "provenance/manifest_archive/757452938a72433487401133789aa17d7bd9cbd3ffdb1f0d0ef13f52e4d53ea7.txt",
+    "original_path": "THIRD_PARTY_NOTICES.md",
+    "sha256": "757452938a72433487401133789aa17d7bd9cbd3ffdb1f0d0ef13f52e4d53ea7",
+    "bytes": 1854,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "docs/EVIDENCE_INDEX.md@916dd72784611b29bc6bfe36cb504006cc486b7caad629267ad0a6dac5600c1c": {
+    "archived_path": "provenance/manifest_archive/916dd72784611b29bc6bfe36cb504006cc486b7caad629267ad0a6dac5600c1c.txt",
+    "original_path": "docs/EVIDENCE_INDEX.md",
+    "sha256": "916dd72784611b29bc6bfe36cb504006cc486b7caad629267ad0a6dac5600c1c",
+    "bytes": 6665,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "docs/REPOSITORY_MAP.md@fe621dde9b20059629d9f6ccd0b3e69af919ed71e276042709a925b18f545a41": {
+    "archived_path": "provenance/manifest_archive/fe621dde9b20059629d9f6ccd0b3e69af919ed71e276042709a925b18f545a41.txt",
+    "original_path": "docs/REPOSITORY_MAP.md",
+    "sha256": "fe621dde9b20059629d9f6ccd0b3e69af919ed71e276042709a925b18f545a41",
+    "bytes": 1734,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "docs/REPRODUCE.md@4f392027dbe55ac3128e71ddf7c199b391dccbb2d719736077275a164c9a3e92": {
+    "archived_path": "provenance/manifest_archive/4f392027dbe55ac3128e71ddf7c199b391dccbb2d719736077275a164c9a3e92.txt",
+    "original_path": "docs/REPRODUCE.md",
+    "sha256": "4f392027dbe55ac3128e71ddf7c199b391dccbb2d719736077275a164c9a3e92",
+    "bytes": 4046,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "docs/RESEARCH_OVERVIEW_ZH.md@29bda3efff9d3272a03fc584cb645fd34d34ed75df567104b02ac9e51f5f4017": {
+    "archived_path": "provenance/manifest_archive/29bda3efff9d3272a03fc584cb645fd34d34ed75df567104b02ac9e51f5f4017.txt",
+    "original_path": "docs/RESEARCH_OVERVIEW_ZH.md",
+    "sha256": "29bda3efff9d3272a03fc584cb645fd34d34ed75df567104b02ac9e51f5f4017",
+    "bytes": 16925,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "docs/RESULTS.md@e7a3e2339966811db9deb2589256ecc51b6f3aa214c16f4ebef66afa511db7a7": {
+    "archived_path": "provenance/manifest_archive/e7a3e2339966811db9deb2589256ecc51b6f3aa214c16f4ebef66afa511db7a7.txt",
+    "original_path": "docs/RESULTS.md",
+    "sha256": "e7a3e2339966811db9deb2589256ecc51b6f3aa214c16f4ebef66afa511db7a7",
+    "bytes": 3522,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "docs/SCOPE.md@14010db567043923fab8011442a80d561f98439476cc96a05c27bd118116a901": {
+    "archived_path": "provenance/manifest_archive/14010db567043923fab8011442a80d561f98439476cc96a05c27bd118116a901.txt",
+    "original_path": "docs/SCOPE.md",
+    "sha256": "14010db567043923fab8011442a80d561f98439476cc96a05c27bd118116a901",
+    "bytes": 4579,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "experiments/README.md@e06088d6b2a5080a8f30f4386b000eac3212849e83cbe80305122b6386917a2b": {
+    "archived_path": "provenance/manifest_archive/e06088d6b2a5080a8f30f4386b000eac3212849e83cbe80305122b6386917a2b.txt",
+    "original_path": "experiments/README.md",
+    "sha256": "e06088d6b2a5080a8f30f4386b000eac3212849e83cbe80305122b6386917a2b",
+    "bytes": 1231,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "provenance/manifest_archive/index.json@a8150e9ad882aab098182979c6557bf2d269690c3085f39190ec93fbd6d41f14": {
+    "archived_path": "provenance/manifest_archive/a8150e9ad882aab098182979c6557bf2d269690c3085f39190ec93fbd6d41f14.txt",
+    "original_path": "provenance/manifest_archive/index.json",
+    "sha256": "a8150e9ad882aab098182979c6557bf2d269690c3085f39190ec93fbd6d41f14",
+    "bytes": 4699,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "reports/README.md@ea3d9d9d3b0a3045edf603222eca215374a099aae81d7eeec4d148858c95bd64": {
+    "archived_path": "provenance/manifest_archive/ea3d9d9d3b0a3045edf603222eca215374a099aae81d7eeec4d148858c95bd64.txt",
+    "original_path": "reports/README.md",
+    "sha256": "ea3d9d9d3b0a3045edf603222eca215374a099aae81d7eeec4d148858c95bd64",
+    "bytes": 809,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "research/README.md@29bd7040d947ccc14846d9234f0339a4bd0dc6148a3f4a20ca37536def6b8c8d": {
+    "archived_path": "provenance/manifest_archive/29bd7040d947ccc14846d9234f0339a4bd0dc6148a3f4a20ca37536def6b8c8d.txt",
+    "original_path": "research/README.md",
+    "sha256": "29bd7040d947ccc14846d9234f0339a4bd0dc6148a3f4a20ca37536def6b8c8d",
+    "bytes": 1307,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  },
+  "tools/README.md@9bdd6e54839abb81095f37f2f96b452f70f08980822544185deca4af1b6a1eeb": {
+    "archived_path": "provenance/manifest_archive/9bdd6e54839abb81095f37f2f96b452f70f08980822544185deca4af1b6a1eeb.txt",
+    "original_path": "tools/README.md",
+    "sha256": "9bdd6e54839abb81095f37f2f96b452f70f08980822544185deca4af1b6a1eeb",
+    "bytes": 1138,
+    "source_commit": "d5c2b8578f8e50d23061e311447a322a97950749"
+  }
+}
