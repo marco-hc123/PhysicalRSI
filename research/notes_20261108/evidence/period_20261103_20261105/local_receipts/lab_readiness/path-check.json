@@ -1,0 +1,398 @@
+{
+  "runtime_entries": [
+    "paths.json",
+    "run-simulator.sh",
+    "run-analysis.sh",
+    "run-robodojo.sh",
+    "README.md",
+    "run-policy.sh",
+    "run-agent.sh"
+  ],
+  "run-agent.sh": {
+    "absolute_references": [
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/cuda",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/home",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/huggingface",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/matplotlib",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/numba",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/tmp",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/torch",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/triton",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/cache",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/config",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/data",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/state",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/envs/agent/bin/python",
+        "exists": true
+      }
+    ]
+  },
+  "run-analysis.sh": {
+    "absolute_references": [
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/cuda",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/home",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/huggingface",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/matplotlib",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/numba",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/tmp",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/torch",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/triton",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/cache",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/config",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/data",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/state",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/envs/analysis/bin/python",
+        "exists": true
+      }
+    ]
+  },
+  "run-policy.sh": {
+    "absolute_references": [
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/cuda",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/home",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/huggingface",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/matplotlib",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/numba",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/tmp",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/torch",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/triton",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/cache",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/config",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/data",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/state",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/envs/policy/bin/python",
+        "exists": true
+      }
+    ]
+  },
+  "run-robodojo.sh": {
+    "absolute_references": [
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/cuda",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/home",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/huggingface",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/matplotlib",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/numba",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/tmp",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/torch",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/triton",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/cache",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/config",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/data",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/state",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/envs/simulator/bin",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/envs/simulator/bin/python",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/repos/lab-runtime/RoboDojo",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/repos/lab-runtime/RoboDojo/XPolicyLab",
+        "exists": true
+      }
+    ]
+  },
+  "run-simulator.sh": {
+    "absolute_references": [
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/cuda",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/home",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/huggingface",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/matplotlib",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/numba",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/tmp",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/torch",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/triton",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/cache",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/config",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/data",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/cache/lab_environment_setup/xdg/state",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/envs/simulator/bin",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/envs/simulator/bin/python",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/repos/lab-runtime/RoboDojo",
+        "exists": true
+      },
+      {
+        "path": "/mnt/data/joey_tr/physical-RSI/repos/lab-runtime/RoboDojo/XPolicyLab",
+        "exists": true
+      }
+    ]
+  },
+  "required_layout_files": {
+    "classify_objects": [
+      {
+        "name": "classify_objects_0.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_1.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_2.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_3.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_4.json",
+        "exists": true,
+        "json_readable": true
+      }
+    ],
+    "classify_objects_by_language": [
+      {
+        "name": "classify_objects_by_language_0.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_by_language_1.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_by_language_2.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_by_language_3.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "classify_objects_by_language_4.json",
+        "exists": true,
+        "json_readable": true
+      }
+    ],
+    "general_pickup": [
+      {
+        "name": "general_pickup_0.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "general_pickup_1.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "general_pickup_2.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "general_pickup_3.json",
+        "exists": true,
+        "json_readable": true
+      },
+      {
+        "name": "general_pickup_4.json",
+        "exists": true,
+        "json_readable": true
+      }
+    ]
+  }
+}

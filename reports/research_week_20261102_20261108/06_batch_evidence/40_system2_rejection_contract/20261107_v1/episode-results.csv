@@ -1,0 +1,6 @@
+condition,layout_id,score_100,success,close_commands,completed_approaches,rejected_approaches,active_budget_cancel,transport_attempts,transport_completed,completed_primitive_action_steps,command_checks,command_mismatches,actor
+structured_rejection,0,0.0,False,5,20,0,False,5,5,210,340,0,50dec6eb2a3a4d5a8bbcacff5196b2f1
+structured_rejection,1,0.0,False,5,19,2,False,5,4,206,286,0,55c6d87acb544e2a9fc19ba3b7c35d12
+structured_rejection,2,0.0,False,3,11,2,False,3,2,128,170,0,e09c9c67804347e28ea41422f013da61
+structured_rejection,3,0.0,False,6,24,0,False,6,6,247,308,0,0f28b59d549d4425aef32b47a821833c
+structured_rejection,4,15.0,False,5,19,2,False,5,4,224,368,0,e6fa8810e42d42e0b914e0e2038b0dae

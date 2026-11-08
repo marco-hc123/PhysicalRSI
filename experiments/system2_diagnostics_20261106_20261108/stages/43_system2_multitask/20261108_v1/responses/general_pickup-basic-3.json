@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "request_id": "req_f1f991f47d5543a280b35e89ff000d99",
+  "body": {
+    "id": "chatcmpl-Ehr9za5E5F1yqRcYokmeWuQAPZ8fn",
+    "object": "chat.completion",
+    "created": 1794121159,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"source\": \"def policy(robot, memory):\\n    quats = {'left': [0.613, -0.3593, 0.6163, 0.3392], 'right': [0.3814, -0.6197, 0.3785, 0.572]}\\n    for arm in quats:\\n        norm = sum(v * v for v in quats[arm]) ** 0.5\\n        quats[arm] = [v / norm for v in quats[arm]]\\n\\n    def move(arm, position):\\n        value = robot.approach(arm=arm, position_m=position, quaternion_wxyz=quats[arm])\\n        error = value.get('primitive_error')\\n        if error == 'no_collision_free_path':\\n            return 'rejected'\\n        if error:\\n            return 'uncertain'\\n        return 'returned'\\n\\n    objects = robot.scene()['objects']\\n    if 'target_1' not in objects:\\n        return {'stop': 'target_not_detected', 'physical_success': 'unknown'}\\n    x, y, z = objects['target_1']['pose'][:3]\\n    preferred = 'left' if x <= 0 else 'right'\\n    for arm in [preferred, 'right' if preferred == 'left' else 'left']:\\n        status = move(arm, [x, y, 1.02])\\n        if status == 'rejected':\\n            continue\\n        if status == 'uncertain':\\n            return {'stop': 'approach_execution_uncertain', 'physical_success': 'unknown'}\\n        robot.gripper(arm=arm, command=1)\\n        status = move(arm, [x, y, 0.93])\\n        if status != 'returned':\\n            return {'stop': 'contact_' + status, 'physical_success': 'unknown'}\\n        robot.gripper(arm=arm, command=0)\\n        for lift_z in [1.10, 1.06]:\\n            status = move(arm, [x, y, lift_z])\\n            if status == 'rejected':\\n                continue\\n            if status == 'uncertain':\\n                return {'stop': 'lift_execution_uncertain', 'physical_success': 'unknown'}\\n            return {'stop': 'program_complete', 'physical_success': 'unknown', 'requested_lift_tool_z': lift_z}\\n        return {'stop': 'lift_plans_rejected', 'physical_success': 'unknown'}\\n    return {'stop': 'approach_plans_rejected', 'physical_success': 'unknown'}\\n\",\n  \"memory\": {},\n  \"rationale\": \"Refine only the lift endpoint: request 1.10 m first, increasing nominal contact-to-lift travel from 13 cm to 17 cm to provide more margin above the required 10 cm pickup. Retain the parent's 1.06 m endpoint only as a fallback after an explicit zero-action no_collision_free_path rejection. Executing paths retain the same motion/gripper structure under the unchanged native 200-step cap. Other reported errors stop execution, and exceptions propagate without retries. Neither returned calls nor requested heights establish attachment or physical success.\"\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1258,
+      "completion_tokens": 2255,
+      "total_tokens": 3513,
+      "prompt_tokens_details": {
+        "cached_tokens": 1255,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1514,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

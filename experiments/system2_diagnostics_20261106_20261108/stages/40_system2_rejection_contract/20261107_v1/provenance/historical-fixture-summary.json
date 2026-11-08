@@ -1,0 +1,54 @@
+{
+  "state": "completed",
+  "cpu_fixture_cases": 24,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "by_condition": {
+    "legacy_feedback": {
+      "explicit_zero_execution_no_path": [
+        1,
+        1,
+        1
+      ],
+      "uncertain_timeout": [
+        1,
+        1,
+        1
+      ],
+      "unknown_error": [
+        1,
+        1,
+        1
+      ],
+      "first_reject_then_boundary": [
+        1,
+        1,
+        1
+      ]
+    },
+    "capability_feedback": {
+      "explicit_zero_execution_no_path": [
+        2,
+        2,
+        2
+      ],
+      "uncertain_timeout": [
+        1,
+        1,
+        1
+      ],
+      "unknown_error": [
+        1,
+        1,
+        1
+      ],
+      "first_reject_then_boundary": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "hypotheses_held": true,
+  "interpretation": "Verifies generated branching under explicit response contracts, not safe recovery, completed movement or improved task score."
+}

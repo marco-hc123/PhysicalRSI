@@ -1,0 +1,14 @@
+{
+  "state": "verified",
+  "utc": "2026-11-07T05:35:10.340609+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/native-validation",
+  "verified_files": 8165,
+  "logical_bytes": 559373234,
+  "manifest_sha256": "574400ff18259f752ed39029ae5dd12af23d31efb4bdbd750a025237a048e9bd",
+  "native_cases": 10,
+  "videos": 30,
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "transfer_verified_in_batches": true
+}

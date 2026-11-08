@@ -1,0 +1,45 @@
+PhysicalRSI search/execution-control campaign reproduction notes
+
+This directory is an immutable evidence snapshot, not an instruction to rerun paid experiments.
+Never overwrite native-campaign output or regenerate a poor candidate in place.
+
+Read protocol.json, budget-contract-addendum.json, execution-final.json,
+selection-final.json and heldout-matched-control-addendum.json first.
+Resolve original absolute source/evidence paths using source-closure/path-map.json
+and reference-path-map.json. Large installed dependencies are pinned references.
+The archive does not include virtualenvs or all pretrained weights; preserve the
+recorded environment/package/source identities when rebuilding on another host.
+
+Chronology:
+1. Freeze the previously verified route1 record; no new route1 episodes.
+2. Evaluate a fresh five-layout full-code parent control.
+3. Generate five identical-request GPT high candidates; preserve all outcomes.
+4. Evaluate admitted candidates on the same five development layouts.
+5. Exact CPU replay of recorded candidate-visible replies locates exits.
+6. Freeze and evaluate matched targetXY control: same code, one memory flag.
+7. Freeze baseline execution and updated feedback; generate three new candidates.
+8. Admit according to the frozen guard, evaluate admitted proposals, select using
+   full successes then mean score; retain ties. Round2 admitted one, rejected two
+   for Nonlocal; rejected proposals have no physical outcome and are NOT score0.
+9. Freeze strategies before creating five previously unexposed qualified layouts.
+10. Evaluate unique source+memory+executor strategies once each on those layouts.
+11. Validate native receipt/result equality, sources, videos and recorded replays.
+12. Summarize, seal per-file SHA256 manifest, relay through laptop, verify archive,
+    then independently recalculate scores on lab CPU.
+
+Read-only/CPU recomputation on the archived lab directory:
+  python3 -B analyze_archived.py
+This writes archive-analysis inside this project only. It uses no GPU or API.
+
+Actual campaign launcher sources are run_phase.py, prepare_phase.py and templates/.
+They are evidence for reconstruction, not portable one-command invocations: original
+runtime binds paths and hashes. A new native replication requires a NEW result root,
+matching pinned environments/assets, explicit budget accounting, a verified idle
+allowed GPU, a new protocol freeze, and fresh credentials supplied outside logs.
+
+Do not rerun the generation worker against this completed ledger; there were eight
+authorized paid requests and no automatic retries. Credential input was memory-only.
+
+Budget-1 and budget-5 strategy views may reuse the fixed parent's heldout evidence.
+Source-reply replay and five layout resets are not new scored task episodes.
+Manual repair is not a generated System2 candidate. Do not tune on heldout outcomes.

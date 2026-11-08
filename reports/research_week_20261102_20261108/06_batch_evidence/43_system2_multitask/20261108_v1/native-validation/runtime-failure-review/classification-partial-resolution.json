@@ -1,0 +1,64 @@
+{
+  "state": "verified_partial",
+  "utc": "2026-11-08T09:14:04.212495+00:00",
+  "completed_layout_ids": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "interrupted_layout_id": 1,
+  "planned_layouts": 5,
+  "valid_native_episodes": 4,
+  "interrupted_attempts": 1,
+  "interrupted_action_count": 214,
+  "interrupted_actor_uuid": "7091eef085404199af31adeae7ed158c",
+  "error": "RpcError: request.execute: Observed robot diverged from planned trajectory",
+  "source_hashes": [
+    {
+      "path": "classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/observed.json",
+      "sha256": "4c5b80cb5270ef724f3886ab653984bc32af7cf6ac48be0dce5146d7aea9cca4"
+    },
+    {
+      "path": "classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/_result.json",
+      "sha256": "2702ae865b97cc7cbcd58867cd2b1eca8b3e9f71cd8f48b8ccac08b7be9c3ba9"
+    },
+    {
+      "path": "classify_objects-heldout/native-campaign/campaign.json",
+      "sha256": "8068e79891e4772b961df45103c009c95cd75dfc63dda9cb513d76459ab808da"
+    },
+    {
+      "path": "classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/039f5ec7dee24a72becc3d158222fe2c/0/policy/processes/isolated/process.json",
+      "sha256": "821da6b4dc42a4af81b307bc59acffb608ec1b78297f30b7e7398a94f772329f"
+    },
+    {
+      "path": "classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/056d1f2753c947c4b1e6ea0fb4ba4b2b/0/policy/processes/isolated/process.json",
+      "sha256": "7e620efcc149969e1448dd9045448350319a46d8480096ab4fceebb9db79e69d"
+    },
+    {
+      "path": "classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/7091eef085404199af31adeae7ed158c/0/policy/processes/isolated/process.json",
+      "sha256": "f53152deedbfa35f66fdee9b6088ef89a4d2096fc58af192b41d2ff758695d0f"
+    },
+    {
+      "path": "classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/c34e0864745a4567a96424819fe2f9c9/0/policy/processes/isolated/process.json",
+      "sha256": "270ee0680043f142651fb5860ea1a6ab926637ed177f30c5bb79db595221b913"
+    },
+    {
+      "path": "classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/e4ee0eba72494b90800880204e3e81a5/0/policy/processes/isolated/process.json",
+      "sha256": "56b8419de9312feefd544151ddf3654481034111206418fe16941c261ea8cb57"
+    },
+    {
+      "path": "classify_objects-heldout/backend-traces/parent/7091eef085404199af31adeae7ed158c/0/primitive-events.jsonl",
+      "sha256": "d3fe0ad2814d8c7cf095cbe83f59ee5fa059956648d69e1baf079ce8f3a25c84"
+    },
+    {
+      "path": "classify_objects-heldout/sim-diagnostics/parent/simulator-64609.jsonl",
+      "sha256": "27ce0a45473eb9613101aae233cc8f9a43bd26d82e4bbdeb9321d28048694ba9"
+    }
+  ],
+  "policy_zero_score": false,
+  "retry_performed": false,
+  "source_policy_modified": false,
+  "native_runtime_modified": false,
+  "interpretation": "Actual execution tracking guard interrupted one layout. Not an infrastructure outage; physical root cause not uniquely established. Preserve native score as unknown, keep other4 natural outcomes, no best-of retry and no heldout tuning."
+}

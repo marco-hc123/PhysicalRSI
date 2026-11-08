@@ -1,0 +1,27 @@
+{
+  "source": "/mnt/data/joey_tr/physical-RSI/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/task/RoboDojo/tasks/classify_objects.py",
+  "sha256": "aef4333c088766375e21a928d53a9a93aaee285fecae41e22385acdc74dd11ac",
+  "native_step_limit": 1100,
+  "score_transition_values": [
+    15,
+    40,
+    100
+  ],
+  "source_lines": {
+    "step_limit": 9,
+    "partial_score_definition": [
+      60,
+      98
+    ],
+    "full_success_definition": [
+      46,
+      58
+    ]
+  },
+  "notes": [
+    "Native reported score is normalized to0..1; report_score_100 multiplies by100.",
+    "Score15 is an intermediate predicate transition, not15percent task success probability or proof of full task completion.",
+    "The score checks involve gripper opening, basket/category containment and height/exclusion predicates; do not translate15points into a number of objects without checking reward predicate evidence.",
+    "Fullsuccess comes from the independent native success flag, not from nonzero partial score."
+  ]
+}

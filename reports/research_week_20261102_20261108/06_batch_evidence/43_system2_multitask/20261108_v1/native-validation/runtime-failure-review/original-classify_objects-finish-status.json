@@ -1,0 +1,8 @@
+{
+  "state": "stopped_for_diagnosis",
+  "task": "classify_objects",
+  "pid": 26621,
+  "utc": "2026-11-08T08:57:34.853928+00:00",
+  "error": "classify_objects-heldout exit 1",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/physical-RSI/result/46_system2_multitask_20261108/finish_task.py\", line 28, in <module>\n    run(phase,['run_phase.py',phase]);save('completed')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/data/physical-RSI/result/46_system2_multitask_20261108/finish_task.py\", line 13, in run\n    if rc:raise RuntimeError(name+' exit '+str(rc))\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: classify_objects-heldout exit 1\n"
+}

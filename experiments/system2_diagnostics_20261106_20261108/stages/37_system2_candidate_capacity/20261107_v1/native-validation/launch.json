@@ -1,0 +1,9 @@
+{
+  "pid": 27426,
+  "script": "/mnt/data/physical-RSI/result/38_candidate_capacity_20261107/run_reference_v2.py",
+  "sha256": "146748b7f465b681ec587d9432570db471a12db7ef43ef8ced94057d85a40eab",
+  "python": "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python",
+  "utc": "2026-11-07T05:33:15.764755+00:00",
+  "planned_cases": 5,
+  "api_calls": 0
+}

@@ -1,0 +1,3983 @@
+{
+  "state": "completed",
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "gpu_used": false,
+  "rows": [
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "expected_object_count": 8,
+      "expected_categories": {
+        "pen": 3,
+        "toy_car": 3,
+        "watch": 2
+      },
+      "first_scene_items": 4,
+      "first_scene_categories": {
+        "pen": 1,
+        "toy_car": 3
+      },
+      "missing_categories_first": [
+        "watch"
+      ],
+      "minimum_count_deficit_first": 4,
+      "frozen_loop_bound": 6,
+      "actual_close_commands": 5,
+      "reached_loop_bound": false,
+      "new_categories_seen_later_but_unassigned": [
+        "watch"
+      ],
+      "categories_never_seen": [],
+      "last_scene_visible_baskets": 2,
+      "native_score_100": 0.0,
+      "process_record": "native-campaign/runs/structured_rejection/attempt-002/model/expert/50dec6eb2a3a4d5a8bbcacff5196b2f1/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "expected_object_count": 5,
+      "expected_categories": {
+        "garage": 1,
+        "toy_car": 1,
+        "watch": 3
+      },
+      "first_scene_items": 4,
+      "first_scene_categories": {
+        "garage": 1,
+        "watch": 3
+      },
+      "missing_categories_first": [
+        "toy_car"
+      ],
+      "minimum_count_deficit_first": 1,
+      "frozen_loop_bound": 6,
+      "actual_close_commands": 5,
+      "reached_loop_bound": false,
+      "new_categories_seen_later_but_unassigned": [],
+      "categories_never_seen": [
+        "toy_car"
+      ],
+      "last_scene_visible_baskets": 2,
+      "native_score_100": 0.0,
+      "process_record": "native-campaign/runs/structured_rejection/attempt-002/model/expert/55c6d87acb544e2a9fc19ba3b7c35d12/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 2,
+      "expected_object_count": 3,
+      "expected_categories": {
+        "camera": 1,
+        "garage": 1,
+        "toy_car": 1
+      },
+      "first_scene_items": 2,
+      "first_scene_categories": {
+        "garage": 1,
+        "toy_car": 1
+      },
+      "missing_categories_first": [
+        "camera"
+      ],
+      "minimum_count_deficit_first": 1,
+      "frozen_loop_bound": 6,
+      "actual_close_commands": 3,
+      "reached_loop_bound": false,
+      "new_categories_seen_later_but_unassigned": [],
+      "categories_never_seen": [
+        "camera"
+      ],
+      "last_scene_visible_baskets": 3,
+      "native_score_100": 0.0,
+      "process_record": "native-campaign/runs/structured_rejection/attempt-002/model/expert/e09c9c67804347e28ea41422f013da61/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "expected_object_count": 7,
+      "expected_categories": {
+        "garage": 1,
+        "pen": 3,
+        "toy_car": 3
+      },
+      "first_scene_items": 3,
+      "first_scene_categories": {
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "missing_categories_first": [],
+      "minimum_count_deficit_first": 4,
+      "frozen_loop_bound": 6,
+      "actual_close_commands": 6,
+      "reached_loop_bound": true,
+      "new_categories_seen_later_but_unassigned": [],
+      "categories_never_seen": [],
+      "last_scene_visible_baskets": 3,
+      "native_score_100": 0.0,
+      "process_record": "native-campaign/runs/structured_rejection/attempt-002/model/expert/0f28b59d549d4425aef32b47a821833c/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "expected_object_count": 6,
+      "expected_categories": {
+        "camera": 3,
+        "pen": 2,
+        "watch": 1
+      },
+      "first_scene_items": 3,
+      "first_scene_categories": {
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "missing_categories_first": [],
+      "minimum_count_deficit_first": 3,
+      "frozen_loop_bound": 6,
+      "actual_close_commands": 5,
+      "reached_loop_bound": false,
+      "new_categories_seen_later_but_unassigned": [],
+      "categories_never_seen": [],
+      "last_scene_visible_baskets": 3,
+      "native_score_100": 15.0,
+      "process_record": "native-campaign/runs/structured_rejection/attempt-002/model/expert/e6fa8810e42d42e0b914e0e2038b0dae/0/policy/processes/isolated/process.json"
+    }
+  ],
+  "scenes": [
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "scene_ordinal": 0,
+      "rpc_call_id": 0,
+      "visible_categories": {
+        "pen": 1,
+        "toy_car": 3
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.293939348254745,
+            0.02795211753447019,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00010130361459347423,
+            0.027557353534145457,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2936110186670683,
+            0.028315704874103342,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.10241947856687514,
+            -0.18239527329947994,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.2510847270206243,
+            -0.1525401905080968,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.11698203275597942,
+            -0.106902415754559,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_3",
+          "category": "toy_car",
+          "pose": [
+            0.16410989897807884,
+            -0.21163350524100116,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "scene_ordinal": 1,
+      "rpc_call_id": 1,
+      "visible_categories": {
+        "pen": 1,
+        "toy_car": 3
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.293939348254745,
+            0.02795211753447019,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00010130361459347423,
+            0.027557353534145457,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2936110186670683,
+            0.028315704874103342,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.10241947856687514,
+            -0.18239527329947994,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.2510847270206243,
+            -0.1525401905080968,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.11698203275597942,
+            -0.106902415754559,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_3",
+          "category": "toy_car",
+          "pose": [
+            0.16410989897807884,
+            -0.21163350524100116,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "scene_ordinal": 2,
+      "rpc_call_id": 9,
+      "visible_categories": {
+        "pen": 1,
+        "toy_car": 2,
+        "watch": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [
+        "watch"
+      ],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.29386241131952784,
+            0.02797452093488456,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            2.316232811815346e-05,
+            0.02751428014168983,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29354984894462094,
+            0.028112524072217038,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.10247558178652581,
+            -0.1824208467620258,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.25107691029824125,
+            -0.15280477438160672,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.1641687961651352,
+            -0.2116743385866528,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.4029917496983973,
+            -0.09348920255268928,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "scene_ordinal": 3,
+      "rpc_call_id": 17,
+      "visible_categories": {
+        "pen": 1,
+        "toy_car": 2,
+        "watch": 1
+      },
+      "visible_baskets": 2,
+      "categories_outside_initial_assignments": [
+        "watch"
+      ],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.0004364829980480234,
+            0.027173510882128715,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.2937080055921497,
+            0.02805925763884165,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.09313497391717396,
+            -0.052220273421118624,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            0.1438967467825003,
+            -0.10151065658698588,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.16396144644371008,
+            -0.2119099559499467,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.40283526391564384,
+            -0.09349531183188758,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "scene_ordinal": 4,
+      "rpc_call_id": 25,
+      "visible_categories": {
+        "pen": 2,
+        "toy_car": 2,
+        "watch": 1
+      },
+      "visible_baskets": 2,
+      "categories_outside_initial_assignments": [
+        "watch"
+      ],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.0009645071799819958,
+            0.027312198183076175,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.2937095496417342,
+            0.02799979350498155,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.06921452305084344,
+            -0.06168553241547381,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            -0.043716024708539206,
+            -0.08051031523662677,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            0.1438389840996609,
+            -0.10167905093263752,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.16390940073862845,
+            -0.21191339704424556,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.4028028865095572,
+            -0.09348516024364578,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "scene_ordinal": 5,
+      "rpc_call_id": 33,
+      "visible_categories": {
+        "pen": 2,
+        "toy_car": 2,
+        "watch": 1
+      },
+      "visible_baskets": 2,
+      "categories_outside_initial_assignments": [
+        "watch"
+      ],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            5.525114146217124e-05,
+            0.02742918748251888,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.29373482289842007,
+            0.0279998322673366,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.08701888222623937,
+            -0.07850543533412985,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            -0.06950352218233355,
+            -0.06161059014965026,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            0.14385912976137508,
+            -0.10163302478007724,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.16390341838422673,
+            -0.21192494535842313,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.40270962806165184,
+            -0.09340949303955481,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "scene_ordinal": 6,
+      "rpc_call_id": 41,
+      "visible_categories": {
+        "pen": 1,
+        "toy_car": 1,
+        "watch": 1
+      },
+      "visible_baskets": 2,
+      "categories_outside_initial_assignments": [
+        "watch"
+      ],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.002268770086109666,
+            0.02653009291447922,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.29355704189427334,
+            0.028141058663379126,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.06927626219628664,
+            -0.06156411711022375,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            0.14374289790642164,
+            -0.10183265159262017,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.40260842489208093,
+            -0.0933625788771163,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "scene_ordinal": 0,
+      "rpc_call_id": 0,
+      "visible_categories": {
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2939796853318212,
+            0.02808399071655021,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            7.129396958068992e-05,
+            0.027386199922774468,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2937398550051965,
+            0.0282172086474774,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "camera_1",
+          "category": "camera",
+          "pose": [
+            0.2344673804705545,
+            -0.212055159953514,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            0.17163788607895017,
+            -0.17053108220484775,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            -0.18266058698636037,
+            -0.15970825625495166,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "scene_ordinal": 1,
+      "rpc_call_id": 1,
+      "visible_categories": {
+        "camera": 1,
+        "pen": 1,
+        "watch": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2939796853318212,
+            0.02808399071655021,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            7.129396958068992e-05,
+            0.027386199922774468,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2937398550051965,
+            0.0282172086474774,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "camera_1",
+          "category": "camera",
+          "pose": [
+            0.2344673804705545,
+            -0.212055159953514,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            0.17163788607895017,
+            -0.17053108220484775,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            -0.18266058698636037,
+            -0.15970825625495166,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "scene_ordinal": 2,
+      "rpc_call_id": 9,
+      "visible_categories": {
+        "camera": 1,
+        "pen": 2
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.29411195830220693,
+            0.02794548968485494,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            -1.4648913074812544e-05,
+            0.027338297271912004,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29379043454242953,
+            0.028132219011200887,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "camera_1",
+          "category": "camera",
+          "pose": [
+            0.23435736019827896,
+            -0.21206982778617142,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.29212972746304694,
+            -0.14471113824754572,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            0.1716403703685311,
+            -0.17055319352394857,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "scene_ordinal": 3,
+      "rpc_call_id": 17,
+      "visible_categories": {
+        "camera": 2,
+        "pen": 2
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.294009421706285,
+            0.027812326669812315,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00011328245672381268,
+            0.027309565098018462,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29377825720221223,
+            0.028041580647434783,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "camera_1",
+          "category": "camera",
+          "pose": [
+            0.234534507981868,
+            -0.21198502106369213,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "camera_2",
+          "category": "camera",
+          "pose": [
+            0.3208777012881812,
+            -0.15566806660575566,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.29205417839716596,
+            -0.14470269251153356,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            0.14765261707034388,
+            -0.18892039589152249,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "scene_ordinal": 4,
+      "rpc_call_id": 25,
+      "visible_categories": {
+        "camera": 1,
+        "pen": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2938792782121059,
+            0.027825153483878262,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00030796579032047,
+            0.026996535342116212,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2963535427424424,
+            0.026943552574797358,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "camera_1",
+          "category": "camera",
+          "pose": [
+            0.4264684692141523,
+            -0.1749193681593065,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.29203908078677,
+            -0.14470557188169286,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "scene_ordinal": 5,
+      "rpc_call_id": 33,
+      "visible_categories": {
+        "camera": 1,
+        "pen": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2937798534469393,
+            0.02780174764249954,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.0006594787581735174,
+            0.027335586635920783,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29608962524331656,
+            0.024753400520977742,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "camera_1",
+          "category": "camera",
+          "pose": [
+            0.4475804215930314,
+            -0.16074438916521938,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.2920459388277363,
+            -0.1446993963982134,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "scene_ordinal": 0,
+      "rpc_call_id": 0,
+      "visible_categories": {
+        "garage": 1,
+        "watch": 3
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2939631113001853,
+            0.027943512970683315,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00011867352102971237,
+            0.02753062600756323,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29379127165288293,
+            0.028246833523668635,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.007287050913601879,
+            -0.18374678249792398,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            -0.2686144868096287,
+            -0.0932887543115768,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        },
+        {
+          "key": "watch_2",
+          "category": "watch",
+          "pose": [
+            -0.18367008825069064,
+            -0.13560871434686483,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        },
+        {
+          "key": "watch_3",
+          "category": "watch",
+          "pose": [
+            0.04438657671481313,
+            -0.09625290903230488,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "scene_ordinal": 1,
+      "rpc_call_id": 1,
+      "visible_categories": {
+        "garage": 1,
+        "watch": 3
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2939631113001853,
+            0.027943512970683315,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00011867352102971237,
+            0.02753062600756323,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29379127165288293,
+            0.028246833523668635,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.007287050913601879,
+            -0.18374678249792398,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            -0.2686144868096287,
+            -0.0932887543115768,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        },
+        {
+          "key": "watch_2",
+          "category": "watch",
+          "pose": [
+            -0.18367008825069064,
+            -0.13560871434686483,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        },
+        {
+          "key": "watch_3",
+          "category": "watch",
+          "pose": [
+            0.04438657671481313,
+            -0.09625290903230488,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "scene_ordinal": 2,
+      "rpc_call_id": 9,
+      "visible_categories": {
+        "garage": 1,
+        "watch": 2
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2941700396584928,
+            0.027742849204163145,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.0001353374556279295,
+            0.027429807143532492,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29382206656026444,
+            0.028171416792763637,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.007273442248212446,
+            -0.18368403733208566,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            -0.18378498750459804,
+            -0.13540240113164304,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        },
+        {
+          "key": "watch_2",
+          "category": "watch",
+          "pose": [
+            0.04432940635733397,
+            -0.09625714227181215,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "scene_ordinal": 3,
+      "rpc_call_id": 17,
+      "visible_categories": {
+        "garage": 2,
+        "watch": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.29412927030609715,
+            0.027854993262229344,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00016324874255805758,
+            0.027483526223454735,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.293845061519783,
+            0.02816936185609875,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.0,
+            -0.09159109513582403,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "garage_2",
+          "category": "garage",
+          "pose": [
+            0.007214980738426581,
+            -0.18370811079340207,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.044365338242261736,
+            -0.09625810824185338,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "scene_ordinal": 4,
+      "rpc_call_id": 25,
+      "visible_categories": {
+        "garage": 1,
+        "watch": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2939792091460131,
+            0.02769709030223616,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.001564360907777861,
+            0.02733535429621209,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2953752469349146,
+            0.026932174801027275,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.007308147462712051,
+            -0.18382198685124676,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.04524423298342106,
+            -0.0968212078167332,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "scene_ordinal": 5,
+      "rpc_call_id": 33,
+      "visible_categories": {
+        "watch": 1
+      },
+      "visible_baskets": 2,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2938030188237918,
+            0.027638704853678586,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.1542270489664527,
+            0.02667564659341748,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "watch_1",
+          "category": "watch",
+          "pose": [
+            0.044786289073921855,
+            -0.09687423665368489,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.03,
+            0.025
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "scene_ordinal": 0,
+      "rpc_call_id": 0,
+      "visible_categories": {
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2940740183855619,
+            0.02816847009312462,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00015878046782982696,
+            0.027455717241464506,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2937205929826125,
+            0.028339090195603323,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            -0.044999023878071275,
+            -0.1600416902998249,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.2167427717258164,
+            -0.1302019699069255,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            0.1494198048158719,
+            -0.1851732180264776,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "scene_ordinal": 1,
+      "rpc_call_id": 1,
+      "visible_categories": {
+        "garage": 1,
+        "pen": 1,
+        "toy_car": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2940740183855619,
+            0.02816847009312462,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00015878046782982696,
+            0.027455717241464506,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2937205929826125,
+            0.028339090195603323,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            -0.044999023878071275,
+            -0.1600416902998249,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.2167427717258164,
+            -0.1302019699069255,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            0.1494198048158719,
+            -0.1851732180264776,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "scene_ordinal": 2,
+      "rpc_call_id": 9,
+      "visible_categories": {
+        "garage": 1,
+        "pen": 2,
+        "toy_car": 2
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.293400474420459,
+            0.026932910093389495,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00014258779244385734,
+            0.02738484450480616,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29381405178435155,
+            0.028293289872110716,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            -0.04506978825835122,
+            -0.16005090727429974,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.39639141457830057,
+            -0.048234505767773606,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            -0.23855041052994008,
+            -0.22274735879855967,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.37536939892707405,
+            -0.15735087241998919,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.1493467678502956,
+            -0.18507880440400354,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "scene_ordinal": 3,
+      "rpc_call_id": 17,
+      "visible_categories": {
+        "garage": 2,
+        "pen": 2,
+        "toy_car": 2
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2942131796159628,
+            0.027867937170753976,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00021890725953694064,
+            0.02740234897430427,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2937726655257964,
+            0.02826858771655899,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            -0.04506870122213869,
+            -0.1600297460718095,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "garage_2",
+          "category": "garage",
+          "pose": [
+            -0.001010402352600069,
+            -0.13835295146230575,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.2702527696402439,
+            -0.10825352464855453,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            -0.23828546453486438,
+            -0.22300926400373974,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.37585309130184286,
+            -0.15714509335373344,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.14942772757568848,
+            -0.1850897013536581,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "scene_ordinal": 4,
+      "rpc_call_id": 25,
+      "visible_categories": {
+        "garage": 2,
+        "pen": 2,
+        "toy_car": 2
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.294288431539205,
+            0.02783945315707298,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00021918189890987534,
+            0.027375898816171917,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2937652152568399,
+            0.028239543509143206,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            -0.04507655769959871,
+            -0.16003463833427503,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "garage_2",
+          "category": "garage",
+          "pose": [
+            0.0,
+            -0.13835295146230575,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.3225534376275647,
+            -0.11376980143296933,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            -0.23820827403602624,
+            -0.22299356751340202,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.37548171874956326,
+            -0.15730836288633554,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.1493000382327326,
+            -0.18380463240588732,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "scene_ordinal": 5,
+      "rpc_call_id": 33,
+      "visible_categories": {
+        "garage": 2,
+        "pen": 2,
+        "toy_car": 2
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.29412631710584225,
+            0.02805689292611352,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.00020006758020533263,
+            0.02737307184892518,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2938024069807187,
+            0.028233843394386282,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            -0.04506818145926137,
+            -0.16008973219198025,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "garage_2",
+          "category": "garage",
+          "pose": [
+            0.0,
+            -0.13835295146230575,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.32783484896470944,
+            -0.09943861929274428,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            -0.23847049402124623,
+            -0.22297606570297657,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.37548098628909743,
+            -0.15723831427776225,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        },
+        {
+          "key": "toy_car_2",
+          "category": "toy_car",
+          "pose": [
+            0.1493266230890093,
+            -0.1850633404230628,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "scene_ordinal": 6,
+      "rpc_call_id": 41,
+      "visible_categories": {
+        "garage": 1,
+        "pen": 2,
+        "toy_car": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.29385332733392183,
+            0.027829571235962913,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.0015640248676615982,
+            0.027287339181854775,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.2960491780889359,
+            0.027300194498355634,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            -0.019482445863330037,
+            -0.1626430242234956,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "pen_1",
+          "category": "pen",
+          "pose": [
+            -0.32775398904243486,
+            -0.0994285934737617,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "pen_2",
+          "category": "pen",
+          "pose": [
+            -0.23853984111588428,
+            -0.22301857761701627,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.12,
+            0.012,
+            0.012
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.3753215425716263,
+            -0.15732261309300327,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 2,
+      "scene_ordinal": 0,
+      "rpc_call_id": 0,
+      "visible_categories": {
+        "garage": 1,
+        "toy_car": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.293962604979308,
+            0.02806546020434958,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            -2.7348847471843966e-05,
+            0.027541084475768196,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.293708229617247,
+            0.028358171371120566,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.048135945739534156,
+            -0.12177703171472098,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.4205654829939385,
+            -0.1631540902844238,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 2,
+      "scene_ordinal": 1,
+      "rpc_call_id": 1,
+      "visible_categories": {
+        "garage": 1,
+        "toy_car": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.293962604979308,
+            0.02806546020434958,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            -2.7348847471843966e-05,
+            0.027541084475768196,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.293708229617247,
+            0.028358171371120566,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.048135945739534156,
+            -0.12177703171472098,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.4205654829939385,
+            -0.1631540902844238,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 2,
+      "scene_ordinal": 2,
+      "rpc_call_id": 9,
+      "visible_categories": {
+        "toy_car": 1
+      },
+      "visible_baskets": 2,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2939213706258666,
+            0.028015453682046776,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.15400260034711546,
+            0.026800106393748968,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.420748787635884,
+            -0.16305819257327603,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 2,
+      "scene_ordinal": 3,
+      "rpc_call_id": 17,
+      "visible_categories": {
+        "garage": 2,
+        "toy_car": 1
+      },
+      "visible_baskets": 3,
+      "categories_outside_initial_assignments": [],
+      "objects": [
+        {
+          "key": "basket_1",
+          "category": "basket",
+          "pose": [
+            -0.2940327342634647,
+            0.02769790393827526,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_2",
+          "category": "basket",
+          "pose": [
+            0.021039032379429754,
+            0.027433408934716186,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "basket_3",
+          "category": "basket",
+          "pose": [
+            0.29628249353949426,
+            0.026293979941596768,
+            0.8,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.2,
+            0.15,
+            0.07
+          ]
+        },
+        {
+          "key": "garage_1",
+          "category": "garage",
+          "pose": [
+            0.002126078528116278,
+            -0.07768733647159293,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "garage_2",
+          "category": "garage",
+          "pose": [
+            0.028258032888695214,
+            -0.14659988112403316,
+            0.7925,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.06,
+            0.04,
+            0.055
+          ]
+        },
+        {
+          "key": "toy_car_1",
+          "category": "toy_car",
+          "pose": [
+            -0.42048379026145305,
+            -0.1620098615433176,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dims": [
+            0.08,
+            0.05,
+            0.04
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "Actual isolated process scene responses passed through the exact candidate input-validation rules; category counts compared with frozen layout, camera alias normalized. Program source freezes initial assignments, but loop bound is6 regardless of initial item count.",
+  "limits": [
+    "Object-count deficit does not prove an individual detection false negative without image/identity review.",
+    "Returned object numeric suffixes are not assumed persistent identities.",
+    "This is an analysis-only comparison to layout truth, never a policy input.",
+    "Latent coverage limits may not explain a run that already stops on an earlier planning failure.",
+    "Missing first-view categories do not prove the underlying vision model cannot detect them in another view."
+  ]
+}

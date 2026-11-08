@@ -1,0 +1,71 @@
+{
+  "state": "paused_after_completed_stage",
+  "goal": "Does returning a structured zero-action planner rejection enable the unchanged candidate fallback and improve outcomes?",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/40_system2_rejection_contract/20261107_v1",
+  "cloud_root": "/mnt/data/physical-RSI/result/43_rejection_contract_20261107",
+  "new_native_cases_planned": 5,
+  "reused_controls": 5,
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "next": "Paused at user request. On explicit resume inspectactualstate,thenverify full post-fallback grasp-transport chain;bounded-retry candidate isCPU-tested only,not RGB-tested.",
+  "launch": {
+    "pid": 59859,
+    "script": "/mnt/data/physical-RSI/result/43_rejection_contract_20261107/run_native.py",
+    "sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a",
+    "utc": "2026-11-07T07:06:28.933816+00:00",
+    "planned_cases": 5,
+    "reused_control_cases": 5,
+    "api_calls": 0,
+    "lab_gpu_used": false,
+    "attempt": "v2_after_zero_outcome_startup_repair"
+  },
+  "watcher_pid": 48587,
+  "updated_utc": "2026-11-07T07:28:35.444865+00:00",
+  "invalid_setup_cases": 0,
+  "failed_setup_starts": 5,
+  "analysis_controller": {
+    "pid": 48641,
+    "script": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/rejection_contract_20261107/finish_analysis.py",
+    "utc": "2026-11-07T07:07:52.607535+00:00"
+  },
+  "milestones": [
+    "Actual-wrapper mismatch reproduced andpinnedupstreamsourcecompared",
+    "Historicalprompt incorrectly described host error dictionary as candidate-visible;correction documented",
+    "12offline probes archivedin39:recordedarm0/6,fallback6/6",
+    "Currentcandidate idealcapacity10fixtures;boundedretry8fixtures completedonlabCPU",
+    "Oneinvaliddeployment preserved;onlyloggingdirectory repaired;5casev2running"
+  ],
+  "lab_gpu_limit": 1,
+  "unresolved": [
+    "Threepost-fallback transport rejections",
+    "Six-turn coverage limit and attempted-position/category exclusions",
+    "Grasp/placement reliability",
+    "Historical feedback comparison needsconsistentcandidate-visiblecontract"
+  ],
+  "reports": [
+    "HISTORICAL_CONTRACT_CORRECTION.txt",
+    "current-symbolic-capacity.json",
+    "bounded-retry-fixtures.json"
+  ],
+  "user_requested_stop": "Finish current5case experiment,analysis andverifiedlabarchive;thenpause. Do not launch next experiment.",
+  "pause_finalizer_pid": 49856,
+  "completed": {
+    "native_cases": 5,
+    "raw_videos": 15,
+    "archive_files": 4730,
+    "archive_bytes": 292839680,
+    "archive_manifest_sha256": "6dd700cb23de08410978f90b6bbadf2269e13363ad4b953bec194cf8acf769a6",
+    "scores_100": [
+      0,
+      0,
+      0,
+      0,
+      15
+    ],
+    "full_successes": 0,
+    "alternate_arm_requests_completed": 3
+  },
+  "active_processes": [],
+  "execution_gpu_idle_verified": true,
+  "instance_power_state_unchanged": true
+}

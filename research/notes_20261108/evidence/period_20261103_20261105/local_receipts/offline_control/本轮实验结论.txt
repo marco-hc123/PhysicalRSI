@@ -1,0 +1,20 @@
+2026-11-04 实验室 System 2 离线诊断已完成本轮计划。
+
+已完成：24 次历史目标离线规划；pi05、sparse-memory 各3次已有权重推理；此前6次 GPT-6.1-Sol 候选生成；本次对这6个候选的150次CPU诊断。没有新增机器人任务回合。所有原始日志和数据仍保存在实验室服务器。
+
+主要认识：
+1. H100 可以完成离线规划和这两种策略的推理。不能据此认定 IsaacSim RGB 原生闭环可用。
+2. 原历史失败目标的规划模式在 H100 重现：降低抬升高度、改变机械臂及其姿态可改变规划可行性；可行不等于抓取成功。
+3. 补全失败反馈改变了生成策略的高度与方向判断，但并非所有情况都改善。三个增强候选都避免了原测试的“悬在篮筐上方却判为已入筐”；其中一个仍依赖固定世界高度，无法应对篮筐高度变化。它们还引入了更保守的边界，不能单凭中心点测试判定物理上优劣。
+4. 所有六个候选在真正收到新类别场景后都停止，没有继续处理新物体。因此“没有异常”不代表完成任务或具备恢复能力。
+5. 现有错误转换契约能传递规划失败；目前不能把全部问题归咎于接口，也不能宣称 System 2 已提高真实任务分数。
+
+下一步应聚焦：统一可检验的几何/动作完成契约，记录明确的停止原因，再以单变量修改做对照。正式任务改善仍需支持 RGB 仿真的主机和经验证的候选隔离执行器。独立新布局需要先审计历史暴露，再冻结选择。
+
+费用：6次API调用合计估算0.1932249美元，实际以账单为准。本次恢复后没有新增API调用。密钥没有落盘。
+
+服务器详细报告：
+/mnt/data/joey_tr/physical-RSI/result/30_system2_lab_diagnosis/20261104_v1/REPORT.txt
+同目录包含 candidate-diagnostics.csv、planning-feasibility.csv、policy-acceptance.csv、api-usage.csv、phase-accounting.csv、findings.json、next-experiment-plan.json、evidence-index.json 和 REPRODUCE.txt。
+
+最新接续记录是 status.json / LAB_STUDY_COMPLETE_20261104.json；PAUSED_20261104.json 和暂停接续说明.txt保留为历史暂停记录。

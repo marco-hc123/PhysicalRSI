@@ -1,0 +1,521 @@
+{
+  "completed_utc": "2026-11-06T02:35:48.564106+00:00",
+  "host": "gpuserver3",
+  "python": "3.12.3",
+  "totals": {
+    "original": {
+      "replays": 5,
+      "returned": 5,
+      "next_call_requests": 0
+    },
+    "remove_z_only": {
+      "replays": 5,
+      "returned": 5,
+      "next_call_requests": 0
+    },
+    "remove_xy_only": {
+      "replays": 5,
+      "returned": 5,
+      "next_call_requests": 0
+    },
+    "remove_xy_and_z": {
+      "replays": 5,
+      "returned": 4,
+      "next_call_requests": 1
+    },
+    "bypass_lift_guard": {
+      "replays": 5,
+      "returned": 0,
+      "next_call_requests": 5
+    }
+  },
+  "gate_rows": [
+    {
+      "layout_id": 0,
+      "category": "toy_car",
+      "target_xyz": [
+        0.11699070390957259,
+        -0.10686904538545139,
+        0.785
+      ],
+      "same_category_count": 2,
+      "xy_passing_count": 0,
+      "z_passing_count": 0,
+      "combined_passing_count": 0,
+      "remove_z_only_eligible_count": 0,
+      "remove_xy_only_eligible_count": 0,
+      "remove_both_eligible_count": 2,
+      "objects": [
+        {
+          "pose": [
+            -0.2511253236313681,
+            -0.15254305455078837,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "xy_distance_m": 0.3709387076671264,
+          "xy_pass": false,
+          "z_change_m": 0.0,
+          "z_pass": false
+        },
+        {
+          "pose": [
+            0.164091883143503,
+            -0.21178777329297252,
+            0.785,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "xy_distance_m": 0.11500635004624436,
+          "xy_pass": false,
+          "z_change_m": 0.0,
+          "z_pass": false
+        }
+      ],
+      "observation_failure": "all_same_category_outside_xy_radius"
+    },
+    {
+      "layout_id": 1,
+      "category": "watch",
+      "target_xyz": [
+        -0.2686701125098123,
+        -0.09334073481235589,
+        0.7775
+      ],
+      "same_category_count": 2,
+      "xy_passing_count": 0,
+      "z_passing_count": 0,
+      "combined_passing_count": 0,
+      "remove_z_only_eligible_count": 0,
+      "remove_xy_only_eligible_count": 0,
+      "remove_both_eligible_count": 2,
+      "objects": [
+        {
+          "pose": [
+            -0.18347928404058522,
+            -0.13548447691970483,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "xy_distance_m": 0.09504510641839489,
+          "xy_pass": false,
+          "z_change_m": 0.0,
+          "z_pass": false
+        },
+        {
+          "pose": [
+            0.044186906437421056,
+            -0.0963856131430797,
+            0.7775,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "xy_distance_m": 0.31287183572286986,
+          "xy_pass": false,
+          "z_change_m": 0.0,
+          "z_pass": false
+        }
+      ],
+      "observation_failure": "all_same_category_outside_xy_radius"
+    },
+    {
+      "layout_id": 2,
+      "category": "garage",
+      "target_xyz": [
+        0.048134057630915376,
+        -0.12175045894509046,
+        0.7925
+      ],
+      "same_category_count": 0,
+      "xy_passing_count": 0,
+      "z_passing_count": 0,
+      "combined_passing_count": 0,
+      "remove_z_only_eligible_count": 0,
+      "remove_xy_only_eligible_count": 0,
+      "remove_both_eligible_count": 0,
+      "objects": [],
+      "observation_failure": "same_category_absent"
+    },
+    {
+      "layout_id": 3,
+      "category": "pen",
+      "target_xyz": [
+        -0.21664620154691372,
+        -0.13019438226883034,
+        0.771
+      ],
+      "same_category_count": 1,
+      "xy_passing_count": 0,
+      "z_passing_count": 0,
+      "combined_passing_count": 0,
+      "remove_z_only_eligible_count": 0,
+      "remove_xy_only_eligible_count": 0,
+      "remove_both_eligible_count": 1,
+      "objects": [
+        {
+          "pose": [
+            -0.2600754114588201,
+            -0.21747167568818984,
+            0.771,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "xy_distance_m": 0.09748549748645387,
+          "xy_pass": false,
+          "z_change_m": 0.0,
+          "z_pass": false
+        }
+      ],
+      "observation_failure": "all_same_category_outside_xy_radius"
+    },
+    {
+      "layout_id": 4,
+      "category": "watch",
+      "target_xyz": [
+        -0.18266496696180093,
+        -0.15970380129640144,
+        0.7775
+      ],
+      "same_category_count": 0,
+      "xy_passing_count": 0,
+      "z_passing_count": 0,
+      "combined_passing_count": 0,
+      "remove_z_only_eligible_count": 0,
+      "remove_xy_only_eligible_count": 0,
+      "remove_both_eligible_count": 0,
+      "objects": [],
+      "observation_failure": "same_category_absent"
+    }
+  ],
+  "replays": [
+    {
+      "layout_id": 0,
+      "variant": "original",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 0,
+      "variant": "remove_z_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 0,
+      "variant": "remove_xy_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 0,
+      "variant": "remove_xy_and_z",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 0,
+      "variant": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "matched_recorded_calls": 8,
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            0.29366708596743746,
+            0.028302907288245582,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      },
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 1,
+      "variant": "original",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 1,
+      "variant": "remove_z_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 1,
+      "variant": "remove_xy_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 1,
+      "variant": "remove_xy_and_z",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 1,
+      "variant": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "matched_recorded_calls": 8,
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29387413117859296,
+            0.027951652420041384,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 2,
+      "variant": "original",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 2,
+      "variant": "remove_z_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 2,
+      "variant": "remove_xy_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 2,
+      "variant": "remove_xy_and_z",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 2,
+      "variant": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "matched_recorded_calls": 8,
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            -1.4930250013246042e-05,
+            0.027542130331721593,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      },
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 3,
+      "variant": "original",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 3,
+      "variant": "remove_z_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 3,
+      "variant": "remove_xy_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 3,
+      "variant": "remove_xy_and_z",
+      "state": "next_unobserved_call_requested",
+      "matched_recorded_calls": 8,
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29402796647733404,
+            0.028182311941372273,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 3,
+      "variant": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "matched_recorded_calls": 8,
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29402796647733404,
+            0.028182311941372273,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 4,
+      "variant": "original",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 4,
+      "variant": "remove_z_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 4,
+      "variant": "remove_xy_only",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 4,
+      "variant": "remove_xy_and_z",
+      "state": "returned",
+      "matched_recorded_calls": 8,
+      "next_call": null,
+      "next_call_executed": false
+    },
+    {
+      "layout_id": 4,
+      "variant": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "matched_recorded_calls": 8,
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29394750453156204,
+            0.02811229145834454,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "next_call_executed": false
+    }
+  ],
+  "accounting": {
+    "new_cpu_replays": 25,
+    "reused_native_cases": 5,
+    "new_native_cases": 0,
+    "new_api_calls": 0,
+    "gpu_used": false,
+    "new_task_scores": null
+  },
+  "z_only_branch_changes": [],
+  "limitations": [
+    "These are counterfactual prefix replays on saved observations, not new physical outcomes.",
+    "Multiple predicates fail simultaneously; height is not established as the sole cause.",
+    "After the first new call no observations or success results are invented.",
+    "Bypassing the guard does not establish grasp or placement."
+  ]
+}

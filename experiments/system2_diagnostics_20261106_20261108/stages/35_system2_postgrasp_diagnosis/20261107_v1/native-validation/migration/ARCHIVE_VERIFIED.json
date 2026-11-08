@@ -1,0 +1,14 @@
+{
+  "state": "verified",
+  "utc": "2026-11-07T04:52:29.696005+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/native-validation",
+  "verified_files": 4769,
+  "logical_bytes": 311586313,
+  "manifest_sha256": "d8fb2d403c310893be4b42c109390dbb5f09a75dd99cd248de939331a4d0569a",
+  "native_cases": 3,
+  "videos": 9,
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "transfer_verified_in_batches": true
+}

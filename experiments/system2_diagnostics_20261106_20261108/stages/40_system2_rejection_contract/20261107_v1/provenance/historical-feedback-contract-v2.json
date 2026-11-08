@@ -1,0 +1,35 @@
+{
+  "schema": "physicalrsi.feedback-capabilities-draft/v2",
+  "status": "draft_not_applied_to_active_runtime",
+  "scene": {
+    "coordinates": "World-frame metre estimates derived from calibrated head RGB rays intersected with category-specific nominal planes.",
+    "z_is_measured_dynamic_height": false,
+    "z_rule": "0.765 + nominal category HEIGHT / 2, not the current vertical position of a lifted object.",
+    "persistent_instance_tracking": false,
+    "absence": "No returned object is not proof of failed grasp: detector, crop, proposal filtering, CLIP semantics, or occlusion can remove a physically present object.",
+    "forbidden_inference": "Do not use scene Z increase, unchanged instance suffix, or disappearance alone as a grasp-success test."
+  },
+  "approach": {
+    "current_failure_mode": "This deployed compatibility adapter returns primitive_error=no_collision_free_path plus observed state when planning rejects BEFORE any trajectory execution. Other exceptions remain exceptions.",
+    "documented_legacy_mode": "robot.approach(arm=\"left\" or \"right\", position_m=[x,y,z], quaternion_wxyz=[w,x,y,z]); collision-aware released CuRobo joint trajectory, other arm/gripper preserved; raises RuntimeError if no path. No pose success claim.",
+    "current_success": "Observed joints after bounded trajectory execution; not a grasp, pose-accuracy, or task-success assertion.",
+    "projected_action_steps_available": false,
+    "recovery": "A zero-execution planning rejection can be considered separately from uncertain partial physical execution. A recovery policy still requires frozen limits and native validation; no unlimited retry."
+  },
+  "gripper": {
+    "current_output": "Observed joint state after six setpoint steps",
+    "grasp_success_observable": false
+  },
+  "budget": {
+    "native_steps": 1100,
+    "max_waypoints_per_approach": 500,
+    "gripper_setpoint_steps": 6,
+    "public_remaining_steps_available": false,
+    "proposed_interface_change_not_implemented": "Consider exposing executed primitive steps and remaining task budget with explicit semantics; test zero-action rejection versus partial cancellation."
+  },
+  "provenance": {
+    "source_request": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1/requests/augmented_3.json",
+    "request_sha256": "0f3ecfb09cc282fa438da4f23ea7e5db751c6199fb90bb40f91dc56b28524f50",
+    "native_protocol_sha256": "e92897222614340eba7784eb368f2e87b9d50a57bde9c86a94b4e34ab4a64a94"
+  }
+}

@@ -1,0 +1,320 @@
+[
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "explicit_zero_execution_no_path",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_1__explicit_zero_execution_no_path.json"
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "uncertain_timeout",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_1__uncertain_timeout.json"
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "unknown_error",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_1__unknown_error.json"
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "first_reject_then_boundary",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_1__first_reject_then_boundary.json"
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "explicit_zero_execution_no_path",
+    "terminal": "returned",
+    "approach_requests": 2,
+    "approach_arms": [
+      "right",
+      "left"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_1__explicit_zero_execution_no_path.json"
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "uncertain_timeout",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_1__uncertain_timeout.json"
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "unknown_error",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_1__unknown_error.json"
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "first_reject_then_boundary",
+    "terminal": "prefix_observed",
+    "approach_requests": 2,
+    "approach_arms": [
+      "right",
+      "left"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_1__first_reject_then_boundary.json"
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "explicit_zero_execution_no_path",
+    "terminal": "returned",
+    "approach_requests": 2,
+    "approach_arms": [
+      "right",
+      "left"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_2__explicit_zero_execution_no_path.json"
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "uncertain_timeout",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_2__uncertain_timeout.json"
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "unknown_error",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_2__unknown_error.json"
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "first_reject_then_boundary",
+    "terminal": "prefix_observed",
+    "approach_requests": 2,
+    "approach_arms": [
+      "right",
+      "left"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_2__first_reject_then_boundary.json"
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "explicit_zero_execution_no_path",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_2__explicit_zero_execution_no_path.json"
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "uncertain_timeout",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_2__uncertain_timeout.json"
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "unknown_error",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_2__unknown_error.json"
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "first_reject_then_boundary",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_2__first_reject_then_boundary.json"
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "explicit_zero_execution_no_path",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_3__explicit_zero_execution_no_path.json"
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "uncertain_timeout",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_3__uncertain_timeout.json"
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "unknown_error",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_3__unknown_error.json"
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "first_reject_then_boundary",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/legacy_feedback_3__first_reject_then_boundary.json"
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "explicit_zero_execution_no_path",
+    "terminal": "returned",
+    "approach_requests": 2,
+    "approach_arms": [
+      "right",
+      "left"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_3__explicit_zero_execution_no_path.json"
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "uncertain_timeout",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_3__uncertain_timeout.json"
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "unknown_error",
+    "terminal": "returned",
+    "approach_requests": 1,
+    "approach_arms": [
+      "right"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_3__unknown_error.json"
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "first_reject_then_boundary",
+    "terminal": "prefix_observed",
+    "approach_requests": 2,
+    "approach_arms": [
+      "right",
+      "left"
+    ],
+    "invalid_requests": 0,
+    "physical_execution_count": 0,
+    "full_trace": "cases/capability_feedback_3__first_reject_then_boundary.json"
+  }
+]

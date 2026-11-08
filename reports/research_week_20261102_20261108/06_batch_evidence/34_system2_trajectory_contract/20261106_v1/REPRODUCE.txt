@@ -1,0 +1,31 @@
+PhysicalRSI trajectory-execution diagnostic: evidence and reproduction notes
+
+Scope
+- One saved System2 candidate: capability_feedback_2 from stage33; exact generated code and proposed memory.
+- Two fresh conditions x the same five previously exposed classify_objects layouts: 10 native cases,30 original videos.
+- Dense execution vs exact released thin_native_path(.12rad maximum selected joint step,.01rad chord tolerance).
+- Native1100action-command limit and scoring unchanged. No new API calls, training, policy promotion or independent heldout acceptance.
+
+Read in order
+1. protocol.json and inputs/DESIGN.json: frozen treatment, selection rationale, unchanged conditions and limitations.
+2. FINAL_SUMMARY.json and REPORT.txt: outcomes, accounting and interpretation.
+3. episode-results.csv and paired-layout-results.csv: editable outcome data; one row per native case or matched layout.
+4. trajectory-events.csv/json, trajectory-diagnostics.json, execution-analysis/: planned vs completed commands and error context.
+5. native-validation/analysis/independent-validation.json and video-decode-validation.json: receipts and complete video decoding.
+6. native-validation/migration/source-manifest.json and ARCHIVE_VERIFIED.json: source SHA256 manifest and full returned-file verification.
+7. EVIDENCE_INDEX.json: sealed derived evidence plus native manifest identity.
+8. video-review/frame-index.json: selected stills with task/layout/condition/candidate hash and encoded timestamps; all30original videos remain under native-validation/native-campaign/runs/.
+
+Resource/source provenance
+The run uses existing frozen resources from the prior deployment; installed environments,weights and scene assets are referenced by runtime/resource manifests rather than copied again. Original runtime SHA256:264b13eea4bc17a7505df43b868711eaba04f4f085117eade195e1e3eb341067.
+The new variants and source identities are in native-validation/runtimes/ and native-validation/native-preparation/comparison-audit.json. The only behavior configuration difference between variants is trajectory_mode; output paths differ for separate logs. references/ retains the released selector,motion code,old compatibility backend,and simulator action-clock sources.
+The unchanged candidate SHA256 is recorded in protocol.json and checked against all10actual isolated actor inputs. Both new variants add the same logging wrapper. The prior dense-control consistency check is descriptive and does not add5historical cases to the10new cases.
+
+Execution order for a NEW rerun
+Create a fresh project result directory; do not rerun scripts into this sealed batch. Map archived absolute paths to the existing project resource roots,verify all source/resource hashes,run CPU contract checks,freeze a new protocol,prepare and preflight both runtimes,then run cohorts sequentially. Reuse saved candidate/source/memory; no API key is needed. Run independent receipt validation and full video decoding before snapshot/return/analysis/seal. Native scripts deliberately reject duplicate or completed runs.
+The report directory is evidence,not a self-contained environment installer. Native RGB simulation needs a compatible graphics-enabled execution environment; lab-side analysis and saved-trajectory checks are CPU-only.
+
+Accounting and interpretation
+48selection checks on24previously saved paths plus5invalid-input checks are CPU checks,not53robot episodes. Completed-primitive step totals omit partial cancelled actions. Planned waypoint counts may include paths that never finish. All1100native commands may include post-return holds. The simulator expands commands internally; do not treat1100commands as1100physics microsteps. Encoded video time is not wall time. Use per-host monotonic durations,not subtraction across hosts with known clock offset.
+The released skill also uses endpoint convergence handling and cone IK not adopted in this single-variable experiment. Reduced points or additional completed moves do not establish task success. The existing integration projects multiple solver failures into no_collision_free_path; that name alone does not prove collision failure.
+Preparation attempt01 failed module import in controller preflight before any physical cases. Its files are preserved under native-validation/preparation-attempts/. Adding the batch code import path fixed preparation; this is not a failed task episode.

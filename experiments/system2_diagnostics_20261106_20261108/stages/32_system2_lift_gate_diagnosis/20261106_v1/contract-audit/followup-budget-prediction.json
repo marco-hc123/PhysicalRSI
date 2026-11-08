@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-06T03:31:07.626944+00:00",
+  "before_treatment_cohort_result": true,
+  "predictions": [
+    {
+      "layout": 1,
+      "historical_completed_primitive_steps": 922,
+      "return_trajectory_waypoints": [
+        281,
+        281,
+        281
+      ],
+      "min_required_steps": 1203,
+      "budget": 1100,
+      "exceeds_budget": true,
+      "prediction": "Planning may accept the new retreat but unchanged native budget may terminate before it completes.",
+      "scope": "Historical state-based prediction, not the new native result; within-host counts, not timestamps."
+    },
+    {
+      "layout": 3,
+      "historical_completed_primitive_steps": 942,
+      "return_trajectory_waypoints": [
+        301,
+        301,
+        301
+      ],
+      "min_required_steps": 1243,
+      "budget": 1100,
+      "exceeds_budget": true,
+      "prediction": "Planning may accept the new retreat but unchanged native budget may terminate before it completes.",
+      "scope": "Historical state-based prediction, not the new native result; within-host counts, not timestamps."
+    },
+    {
+      "layout": 4,
+      "historical_completed_primitive_steps": 942,
+      "return_trajectory_waypoints": [
+        301,
+        301,
+        301
+      ],
+      "min_required_steps": 1243,
+      "budget": 1100,
+      "exceeds_budget": true,
+      "prediction": "Planning may accept the new retreat but unchanged native budget may terminate before it completes.",
+      "scope": "Historical state-based prediction, not the new native result; within-host counts, not timestamps."
+    }
+  ]
+}

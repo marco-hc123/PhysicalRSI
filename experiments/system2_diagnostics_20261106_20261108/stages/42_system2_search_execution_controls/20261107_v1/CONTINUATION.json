@@ -1,0 +1,94 @@
+{
+  "state": "completed_archived_and_recalculated",
+  "active_processes": [],
+  "goal": [
+    "freeze route1",
+    "five repeated generations with identical feedback/model/runtime",
+    "one evidence-supported execution repair with unchanged candidate",
+    "freeze execution; three feedback-informed round2 candidates",
+    "freeze selected strategies; five previously unexposed layouts"
+  ],
+  "roots": {
+    "lab": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1",
+    "cloud": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107"
+  },
+  "api_calls": 8,
+  "next": "This campaign is complete. Do not rerun or modify sealed sources, requests, policies, layouts or scores. Future work needs a new result/protocol: disclose the complete admission grammar, then isolate subsequent transport, filtering or cycle-cap failures. Never tune on these five heldout outcomes.",
+  "updated_utc": "2026-11-07T14:04:37.173794+00:00",
+  "result_paths": [
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/REPORT.txt",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/archive-analysis/verified-summary.json"
+  ],
+  "log_paths": [
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/ledger.json",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/parent",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/sampling",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/repair",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/round2",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/heldout",
+    "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/transfer-hardlink-resume"
+  ],
+  "completed": [
+    "route1 frozen and archive verified",
+    "five new GPT high candidates generated and relayed; all AST admitted",
+    "fresh parent5 native cases completed;15videos decoded; scores[0,0,0,0,15]",
+    "sampling25nativecasescompleted;75videosdecoded;allfivecandidates[0,0,0,0,0]",
+    "sourceandmemoryverifiedrecordedreplay25/25qualified; allintentionalreturns,no100RPCcap",
+    "budget1andbudget5bothretainfixed_parent",
+    "targetXYmanualcontrolfrozenafterfullpilot; control5replaysmatch original;2groupssourceidentical, onlymemoryflagdiffers",
+    "repair10casesvalidated;30videosdecoded; control[0,0,0,0,0],offset[0,0,0,0,15],bothfullsuccess0/5",
+    "manualrepairfirstrelease3/5vs0; stablefirstobjectdelivery2/5vs0; samefirstarm5/5 andinitialtargetdifferences<=.000143m",
+    "round2frozen63083byteidenticalrequests; baselineexecutor preserved; selectedparent remainsfixed_parent",
+    "pre-heldoutaddendumincludesmatchedtarget_control alongsidetarget_offsetifmanualreferenceeligible;max20heldoutcases",
+    "Round2generated3;1admitted/5nativecases scores[0,0,0,0,15];2Nonlocaladmissionrejections(no native outcomes,not0scores)",
+    "PosthoccontractauditconfirmedrequestomittedNonlocalban;study-specificadmissioncontractgapdocumented, nofrozenpolicyorfilterchanges",
+    "Round2tiesparent;selectionfrozenretainsfixed_parent;heldout3unique strategies(parent+manualmatchedpair),6logicalviews",
+    "5heldoutnativeinitializationchecks passed;5unique prior file+geometryidentities checked, no missing references",
+    "Heldoutfixed_parentrawreceipts scores[0,15,0,15,0],0fullsuccess;entireheldoutphase independentvalidationpending",
+    "All60nativecasesand180videosvalidated;allsource-recordedreplayscompleted",
+    "Heldoutparent[0,15,0,15,0],control[0,0,0,0,0],offset[0,15,0,0,0];all0fullsuccess",
+    "Heldoutmanualmatchedpairfirstreleaseandfirstobjectdelivery0/5->4/5;1positive15pointpair,4ties",
+    "Generatedfinalreport,CSVtables,admissioncontractaudit,layoutdistributionaudit;sealedsourceclosure;credentialscanpassed"
+  ],
+  "unresolved": [
+    "Scientific: no generated candidate exceeded the initial code parent; no full task success.",
+    "Scientific: two second-round candidates were not executed because this study Nonlocal guard was absent from the prompt.",
+    "Scientific: manual XY repair has limited paired transfer evidence, but does not outperform the initial parent and is not autonomous System2 improvement.",
+    "Scientific: public-config research sampler has not been qualified as official benchmark-distribution equivalent."
+  ],
+  "estimated_api_usd": 0.8154218,
+  "latest_native_status": {
+    "phase": "heldout",
+    "state": "completed",
+    "completed": 15
+  },
+  "prepared_followups": [],
+  "confirmed_findings": [
+    "Sampling5candidatesx5dev:all0;parentmean3/100;budget1and5retainparent.",
+    "ManualXYdev:mean0->3;firststableobjectdelivery0/5->2/5.",
+    "Round2:3generated,1admittedand5nativecasesmean3;2admissionrejectionsnot0scores;retainparent.",
+    "Heldoutparentmean6,manualcontrol0,manualoffset3;manualfirststableobjectdelivery0/5->4/5;allfullsuccess0.",
+    "Actual60nativeepisodes,180videos,8APIcalls;completeSHA256archiveandlabCPUrecalculationpassed."
+  ],
+  "api_calls_scope": "8 completed generation requests; worker exited; no planned additional requests",
+  "planned_total_native_cases": 60,
+  "completed_native_cases": 60,
+  "archive_manifest_sha256": "95d9f46d01a760b7a868f71ea54f9ba55c706d3abd091e55c0edb3039adff16a",
+  "archive_files": 50982,
+  "archive_bytes": 3438764850,
+  "transfer_optimization": {
+    "old_driver_stopped_after_existing_streams_finished": true,
+    "manifest_unchanged": true,
+    "source_unique_inode_bytes": 642839987,
+    "remaining_unique_bytes_at_resume": 557682685,
+    "records": "transfer-hardlink-resume/"
+  },
+  "pending_operations": [],
+  "lab_gpu_used": false,
+  "archive_verified_files": 50982,
+  "lab_archive": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation",
+  "lab_reanalysis": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/archive-analysis",
+  "local_report": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/system2_search_control_20261107/REPORT.txt"
+}

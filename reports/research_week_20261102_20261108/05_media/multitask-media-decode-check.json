@@ -1,0 +1,23 @@
+[
+  {
+    "file": "M08_pickup_success.mp4",
+    "frames_decoded": 40,
+    "fps": 25.0,
+    "duration_seconds": 1.6,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M09_pickup_failure.mp4",
+    "frames_decoded": 201,
+    "fps": 25.0,
+    "duration_seconds": 8.04,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M10_classify_heldout.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  }
+]

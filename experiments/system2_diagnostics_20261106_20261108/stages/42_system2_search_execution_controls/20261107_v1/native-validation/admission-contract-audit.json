@@ -1,0 +1,126 @@
+{
+  "state": "audited",
+  "utc": "2026-11-07T12:49:55.299663+00:00",
+  "candidate_rows": [
+    {
+      "phase": "sampling",
+      "candidate": "sample_01",
+      "admitted": true,
+      "errors": [],
+      "nonlocal_statements": [],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "43ec7316d8ddfdf4a3e67c349caba3437b787b4b6bd8924bc6c22466f917108b",
+      "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+      "native_outcome": "evaluated"
+    },
+    {
+      "phase": "sampling",
+      "candidate": "sample_02",
+      "admitted": true,
+      "errors": [],
+      "nonlocal_statements": [],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "fbbbd5cc6b0162f3ee76d30cc60df5e7d60c21a9ddf8343f8856c4ceb091c571",
+      "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+      "native_outcome": "evaluated"
+    },
+    {
+      "phase": "sampling",
+      "candidate": "sample_03",
+      "admitted": true,
+      "errors": [],
+      "nonlocal_statements": [],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "c68a2a59e65bcdb1aea058c6b5695103b3fdaed8c3c3d113fdbd4d82b89c04ac",
+      "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+      "native_outcome": "evaluated"
+    },
+    {
+      "phase": "sampling",
+      "candidate": "sample_04",
+      "admitted": true,
+      "errors": [],
+      "nonlocal_statements": [],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "7c37ae512cdbf98ea1834b381fd93d2a65a5d2bf73480cfc968890184f27a0fc",
+      "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+      "native_outcome": "evaluated"
+    },
+    {
+      "phase": "sampling",
+      "candidate": "sample_05",
+      "admitted": true,
+      "errors": [],
+      "nonlocal_statements": [],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "a3a33597011f37a2a061941db81a769b3422294efaefba6dfeadaedf6821331a",
+      "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+      "native_outcome": "evaluated"
+    },
+    {
+      "phase": "round2",
+      "candidate": "round2_01",
+      "admitted": true,
+      "errors": [],
+      "nonlocal_statements": [],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "25af155d4556172ebcb74e9a1425d033aa0ef58d6cd4c29cdc9927af4198ba46",
+      "request_sha256": "65ccac1b83d5716d418ba60e73baee1f8730bda1cc92e8d4aac1dd1e296961c0",
+      "native_outcome": "evaluated"
+    },
+    {
+      "phase": "round2",
+      "candidate": "round2_02",
+      "admitted": false,
+      "errors": [
+        "Nonlocal"
+      ],
+      "nonlocal_statements": [
+        {
+          "line": 15,
+          "text": "        nonlocal calls"
+        }
+      ],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "8ce9ee215ab9eb917dbd35e9ea9e0057dbb4a410f26a2b4d1c679ee131d33ab8",
+      "request_sha256": "65ccac1b83d5716d418ba60e73baee1f8730bda1cc92e8d4aac1dd1e296961c0",
+      "native_outcome": "not_evaluated_not_zero_score"
+    },
+    {
+      "phase": "round2",
+      "candidate": "round2_03",
+      "admitted": false,
+      "errors": [
+        "Nonlocal"
+      ],
+      "nonlocal_statements": [
+        {
+          "line": 5,
+          "text": "        nonlocal calls"
+        }
+      ],
+      "nonlocal_mentioned_in_request": false,
+      "source_sha256": "fb3cd2b6406bf3997a5ad7d9dcc9243d24948f1453327ef7cfc1e9a4cd79e723",
+      "request_sha256": "65ccac1b83d5716d418ba60e73baee1f8730bda1cc92e8d4aac1dd1e296961c0",
+      "native_outcome": "not_evaluated_not_zero_score"
+    }
+  ],
+  "frozen_admission_source": {
+    "path": "round2/native-preparation/candidate-audit.json",
+    "sha256": "4417a71fa371875fa43633681dcd5fd4334becc5f10115f45b7ac764567f7f1f"
+  },
+  "study_guard_source": {
+    "path": "prepare_phase.py",
+    "sha256": "8da09db00584251717033374f6fb47c9856a709c754f0e3d2a18543fff181733"
+  },
+  "finding": "The study-specific preparation guard rejects ast.Nonlocal. Both rejected round2 candidates use it only for a nested call counter. The serialized model-visible requests do not mention nonlocal. This is a disclosed generation/admission contract gap in this campaign; it is not a demonstrated upstream PhysicalRSI defect and it supplies no physical outcome for those candidates.",
+  "consequences": [
+    "Preserve frozen candidates, admission decisions, selection and heldout protocol unchanged.",
+    "Do not treat syntactic parse success as native admission.",
+    "Do not fabricate two five-layout groups or assign them score0.",
+    "Future study should make the full frozen grammar/allowed builtins explicit and preflight it before paying for generation; any relaxation or semantics-preserving counter rewrite is a separately labeled intervention, not this round."
+  ],
+  "new_api_calls": 0,
+  "new_native_episodes": 0,
+  "gpu_used": false
+}

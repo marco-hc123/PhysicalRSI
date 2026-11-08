@@ -1,0 +1,3 @@
+condition,cases,scores_by_layout_100,mean_score_100,successes,cohort_wall_seconds,completed_approaches,rejected_approaches,incomplete_approaches,active_budget_cancel,transport_attempts,transport_completed,transport_rejected,close_commands,closed_checks,closed_mismatches,completed_primitive_action_steps
+original_transport,5,"[0.0, 0.0, 0.0, 0.0, 15.0]",3.0,0,946.3125442649998,35,5,0,0,10,5,5,10,152,0,418
+offset_transport,5,"[0.0, 0.0, 0.0, 0.0, 15.0]",3.0,0,985.3597181100004,64,0,0,0,16,16,0,16,265,0,715

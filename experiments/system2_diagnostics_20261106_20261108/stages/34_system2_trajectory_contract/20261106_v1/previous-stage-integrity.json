@@ -1,0 +1,9 @@
+{
+  "state": "passed",
+  "utc": "2026-11-06T06:56:10.776548+00:00",
+  "source_index_sha256": "0b8f3d870735c27eca7e5337e477bd3f3e6aad676514fc8f7821977f4fd9979d",
+  "derived_files_checked": 228,
+  "native_manifest_identity_verified": true,
+  "native_payload_was_separately_verified_on_return": true,
+  "source_changed": false
+}

@@ -1,0 +1,11 @@
+{
+  "state": "verified",
+  "utc": "2026-11-06T02:58:55.787888+00:00",
+  "route": "lab -> local memory -> cloud",
+  "files": {
+    "analyze_native.py": "7a153fc5e94ac86d6b36a20b31be299178bc1036101fef4d3a9f408aec1eedc0",
+    "validate_native.py": "7e68f992f6eeb073ec757178274395c62d80dde9fbb7d33656dabb7e4559e4d5",
+    "package_native.py": "69f103498f13ea43f531e61cfd352faee1afe17c8e8e38790d0e5f4a22a2412a"
+  },
+  "prior_pipe_attempt": "Failed archive extraction preserved in analysis-relay.log; bounded buffered retry succeeded; no experiment restarted"
+}

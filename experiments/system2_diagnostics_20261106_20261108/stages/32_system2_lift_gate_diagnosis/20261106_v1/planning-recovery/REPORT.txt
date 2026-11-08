@@ -1,0 +1,27 @@
+失败目标高度对照
+
+输入来自本批原生失败调用的实际起始关节状态和目标位姿；没有用成功状态替换失败状态。
+每次只在已冻结的规划器、几何和碰撞场景下改变协议指定的目标变量。使用三个随机种子检查重复性；种子不算三个独立布局。没有训练、付费API、RGB渲染或新增机器人回合。
+共45次求解。环境记录见runtime.json，配置仅做路径迁移，原始YAML及规划代码SHA保存。
+
+layout 0 / transport / 0.0: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 0 / transport / -0.04: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+layout 0 / transport / -0.08: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+layout 1 / retreat / 0.0: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 1 / retreat / -0.04: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 1 / retreat / -0.08: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+layout 2 / transport / 0.0: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 2 / transport / -0.04: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 2 / transport / -0.08: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 3 / retreat / 0.0: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 3 / retreat / -0.04: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 3 / retreat / -0.08: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+layout 4 / retreat / 0.0: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 4 / retreat / -0.04: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 4 / retreat / -0.08: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+
+原目标15次均未返回轨迹。下降4cm只让layout0搬运目标可行；下降8cm让layout0及三个撤离目标可行，layout2仍不可行。说明高度对部分失败有影响，但不是全部失败的共同解释。未把下降8cm直接部署为正式撤离：向下移动虽然可规划，却不等于完成安全撤离。
+
+局限：规划器使用冻结的机器人/桌面碰撞模型，非完整动态物体碰撞。Fail不是不可达的数学证明；Success只表示给定模型下返回轨迹。实际执行、步数、物体接触及得分必须另看原生仿真。求解顺序和常驻规划器可能影响随机性，不能把重复种子看成独立成功率估计。
+配置与环境：实验室只使用一张启动前确认空闲的GPU，写入限制在本实验目录。完成后gpu-after.json记录无计算进程。无需修改系统环境。
+完整证据：protocol.json、runtime.json、results.json、summary.json、probes/、trajectories/、worker.log、write-isolation.json和GPU采样。

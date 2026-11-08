@@ -1,0 +1,18 @@
+放置后撤离目标对照
+
+输入来自本批原生失败调用的实际起始关节状态和目标位姿；没有用成功状态替换失败状态。
+每次只在已冻结的规划器、几何和碰撞场景下改变协议指定的目标变量。使用三个随机种子检查重复性；种子不算三个独立布局。没有训练、付费API、RGB渲染或新增机器人回合。
+共18次求解。环境记录见runtime.json，配置仅做路径迁移，原始YAML及规划代码SHA保存。
+
+layout 1 / retreat / original_retreat: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 1 / retreat / previous_clearance: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+layout 3 / retreat / original_retreat: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 3 / retreat / previous_clearance: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+layout 4 / retreat / original_retreat: 返回有限轨迹0/3，状态['Fail', 'Fail', 'Fail']
+layout 4 / retreat / previous_clearance: 返回有限轨迹3/3，状态['Success', 'Success', 'Success']
+
+三个放置后撤离状态，原垂直上抬目标0/9可行，返回此前已到达的抬升位置9/9可行。因此后续原生实验只更改这一撤离目标，保留原评分和1100步预算，并重新执行同批布局的对照组。该干预依然位于人工旁路抬升检查的诊断策略上，不是有效抓取验证器。
+
+局限：规划器使用冻结的机器人/桌面碰撞模型，非完整动态物体碰撞。Fail不是不可达的数学证明；Success只表示给定模型下返回轨迹。实际执行、步数、物体接触及得分必须另看原生仿真。求解顺序和常驻规划器可能影响随机性，不能把重复种子看成独立成功率估计。
+配置与环境：实验室只使用一张启动前确认空闲的GPU，写入限制在本实验目录。完成后gpu-after.json记录无计算进程。无需修改系统环境。
+完整证据：protocol.json、runtime.json、results.json、summary.json、probes/、trajectories/、worker.log、write-isolation.json和GPU采样。

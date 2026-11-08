@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-07 12:17:57.326925+00:00",
+  "files": [
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/REPORT.txt",
+      "copy": "route1-freeze/REPORT.txt",
+      "sha256": "f1d0e1c0be08de3c6b8ca53c7511e95cb370aa3a1165292b3a742029d0239fba"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/REPRODUCE.txt",
+      "copy": "route1-freeze/REPRODUCE.txt",
+      "sha256": "351c0030344cc75ba7f59bb43d441546bd08fc8c49121a3b5a37c02b2740cd8f"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/chain-analysis.json",
+      "copy": "route1-freeze/chain-analysis.json",
+      "sha256": "258d8132c8eb28ad1e85e36c06862672079513e006cdaa24aef9d517d8ced5ef"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/candidate-chain-analysis.json",
+      "copy": "route1-freeze/candidate-chain-analysis.json",
+      "sha256": "e324fc5b7967e0f35e80784f00d050079acfe804e19bb9cd182f864b14bac9a5"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/analysis-release-accounting.json",
+      "copy": "route1-freeze/analysis-release-accounting.json",
+      "sha256": "fa1f4262cad959d2a656fb4c0d051381a2adbee940bf29a75a0ce1ac6a4cf084"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/route-completed.json",
+      "copy": "route1-freeze/route-completed.json",
+      "sha256": "d721200aaf0bfd2650cdf92c089ac331ccac713ef7cc4b7221fe6e51e23b1f49"
+    }
+  ],
+  "native_episodes_added": 0,
+  "scope": "Existing archived route1 result documents copied for standalone interpretation; raw prior cases remain in the verified lab route1archive. No rerun or new outcome."
+}

@@ -1,0 +1,86 @@
+{
+  "files": [
+    {
+      "path": "protocol.json",
+      "bytes": 5980,
+      "sha256": "803f851be1245b2f16c8d2c293ec791983de556f683f42ae7a1a7f47b445c8bb"
+    },
+    {
+      "path": "ledger.json",
+      "bytes": 8124,
+      "sha256": "b7f4d659cbd7171a76ff4113f1b68a522ef597e25e8f69d1730754796ecc6ab3"
+    },
+    {
+      "path": "offline-validation/candidate-audit.json",
+      "bytes": 1611,
+      "sha256": "31df311fca78a134fb0d5543d335e4d7e866cd31add5bf294917ad429b831ffb"
+    },
+    {
+      "path": "offline-validation/completion.json",
+      "bytes": 169,
+      "sha256": "03d74c605892e58e4e9f0d432b5100f0791e83fe12a3952c135e8dc70ae8604d"
+    },
+    {
+      "path": "candidates/capability_feedback_1/candidate.py",
+      "bytes": 6600,
+      "sha256": "fc765e21f17cf47507f257dd5c85b6f16d756afbd14888988b7dd0526ec137aa"
+    },
+    {
+      "path": "candidates/capability_feedback_1/proposal.json",
+      "bytes": 8423,
+      "sha256": "b7434cae57b6e921d064c6152438100786d84a661b32d3a4624017657bf93386"
+    },
+    {
+      "path": "candidates/capability_feedback_2/candidate.py",
+      "bytes": 5779,
+      "sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a"
+    },
+    {
+      "path": "candidates/capability_feedback_2/proposal.json",
+      "bytes": 7484,
+      "sha256": "968292620e91432520874705e2d5acdef17d153810b06d95a0880afbabb752ea"
+    },
+    {
+      "path": "candidates/capability_feedback_3/candidate.py",
+      "bytes": 5333,
+      "sha256": "94cf67fe69216640e3169253016f6fe17db34d3ae9d909acab493f09fb4a8ca9"
+    },
+    {
+      "path": "candidates/capability_feedback_3/proposal.json",
+      "bytes": 6924,
+      "sha256": "b438ef35c4c8a02fc8285db949e9bc9f735d19b9570df26add0ee2f5608bcd41"
+    },
+    {
+      "path": "candidates/legacy_feedback_1/candidate.py",
+      "bytes": 5405,
+      "sha256": "c4cea1da01a6a1ff3b7242218a654c1afdba8e97e1c663fc276f6a8a22316200"
+    },
+    {
+      "path": "candidates/legacy_feedback_1/proposal.json",
+      "bytes": 7109,
+      "sha256": "326bde659c85fb877074b6b9f4ed9438073961773c2be49c52d95ee8ba9f098d"
+    },
+    {
+      "path": "candidates/legacy_feedback_2/candidate.py",
+      "bytes": 5585,
+      "sha256": "0ec6faade09681c3c551da3e092f655a13852f188a95c8daafb5bcbe0f014676"
+    },
+    {
+      "path": "candidates/legacy_feedback_2/proposal.json",
+      "bytes": 7157,
+      "sha256": "575b683ce2f7903e73d391d986ad2952267c1070b53a022fd429cad5e67fc4c6"
+    },
+    {
+      "path": "candidates/legacy_feedback_3/candidate.py",
+      "bytes": 5063,
+      "sha256": "1cee292e2b9afaa51b583ed36a3dedb98ef8519c9e8f83551332b490e217388a"
+    },
+    {
+      "path": "candidates/legacy_feedback_3/proposal.json",
+      "bytes": 6971,
+      "sha256": "b0694f425ad2e5f6c38f500b5f469b830c8918fad0d1732d61e6c9577e77de94"
+    }
+  ],
+  "count": 16,
+  "utc": "2026-11-06T04:34:55.568298+00:00"
+}

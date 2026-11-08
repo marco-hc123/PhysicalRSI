@@ -1,0 +1,9 @@
+{
+  "frozen_at": "2026-11-07T12:23:30.810333+00:00",
+  "heldout_seen": false,
+  "rule": "When the development target repair qualifies for a separate heldout reference, also evaluate its matched target_control source/memory condition on exactly the same five fresh layouts.",
+  "reason": "Comparing target_offset only with the different fixed_parent code would not identify target-rule transfer. Preserve the original within-candidate comparison on heldout layouts.",
+  "case_cap": 20,
+  "maximum_unique_strategies_given_completed_round1": 4,
+  "scope": "Pre-test protocol clarification; no heldout layouts exist. No change to candidate selection, API requests, native scoring or execution conditions. Source+memory+executor deduplication still applies."
+}

@@ -1,0 +1,11 @@
+condition,layout_id,snapshots,native_score_100,native_success,max_complete_pure_groups_while_open,first_sampled_complete_group_actions,final_complete_pure_groups,final_all_grippers_open,final_groups
+offset_transport,0,1101,0.0,False,0,{},0,False,[]
+offset_transport,1,1101,0.0,False,0,{},0,True,[]
+offset_transport,2,1101,0.0,False,0,{},0,True,[]
+offset_transport,3,1101,0.0,False,0,{},0,True,[]
+offset_transport,4,1101,15.0,False,1,"{""1"": 44}",1,True,"[{""basket"": ""basket0"", ""category"": 1}]"
+original_transport,0,1101,0.0,False,0,{},0,False,[]
+original_transport,1,1101,0.0,False,0,{},0,False,[]
+original_transport,2,1101,0.0,False,0,{},0,False,[]
+original_transport,3,1101,0.0,False,0,{},0,False,[]
+original_transport,4,1101,15.0,False,1,"{""1"": 48}",1,False,"[{""basket"": ""basket0"", ""category"": 1}]"

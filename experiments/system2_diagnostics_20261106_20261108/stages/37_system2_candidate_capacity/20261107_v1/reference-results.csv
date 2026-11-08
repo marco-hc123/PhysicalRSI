@@ -1,0 +1,6 @@
+layout_id,score_100,success,last_model_stage,last_model_failure,completed_basket_transfers,source_traces
+0,0.0,False,failure_hold,RuntimeError('motion endpoint did not converge before next stage'),0,"[""model-traces/1794029677320809247/trace.jsonl""]"
+1,15.0,False,failure_hold,RuntimeError('motion endpoint did not converge before next stage'),2,"[""model-traces/1794029821104708720/trace.jsonl""]"
+2,15.0,False,failure_hold,RuntimeError('motion endpoint did not converge before next stage'),3,"[""model-traces/1794029981464258281/trace.jsonl""]"
+3,15.0,False,failure_hold,RuntimeError('motion endpoint did not converge before next stage'),0,"[""model-traces/1794030148264784220/trace.jsonl""]"
+4,40.0,False,complete_hold,,10,"[""model-traces/1794030315539278787/trace.jsonl""]"

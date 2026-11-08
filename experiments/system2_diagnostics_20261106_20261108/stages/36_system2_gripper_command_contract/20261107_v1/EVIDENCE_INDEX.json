@@ -1,0 +1,262 @@
+{
+  "schema": "physicalrsi.stage-evidence-index/v1",
+  "state": "sealed",
+  "utc": "2026-11-07T05:36:07.923919+00:00",
+  "accounting": {
+    "new_native_cases": 10,
+    "new_raw_videos": 30,
+    "new_api_calls": 0,
+    "new_generated_candidates": 0,
+    "lab_gpu_used": false,
+    "policy_promotions": 0
+  },
+  "main_report": "REPORT.txt",
+  "main_summary": "FINAL_SUMMARY.json",
+  "native_archive": {
+    "root": "native-validation",
+    "source_manifest": "native-validation/migration/source-manifest.json",
+    "manifest_sha256": "574400ff18259f752ed39029ae5dd12af23d31efb4bdbd750a025237a048e9bd",
+    "files": 8165,
+    "logical_bytes": 559373234,
+    "native_cases": 10,
+    "videos": 30
+  },
+  "derived_files": [
+    {
+      "path": "FINAL_SUMMARY.json",
+      "bytes": 15324,
+      "sha256": "c388aa94430cacaa8badb97fd6218e0f2af1745f865517627e8eceefc35fac22"
+    },
+    {
+      "path": "INTERPRETATION.txt",
+      "bytes": 2036,
+      "sha256": "9c2b952af4e16f5c9d99dc75aeccc7ce19df96d72b39304a3a50b5ba4763ce7b"
+    },
+    {
+      "path": "REPORT.txt",
+      "bytes": 3350,
+      "sha256": "6db6ecfde8752888418a1fb8ad8589713ca04f40fc17b6daa8c2cd565d1c8d43"
+    },
+    {
+      "path": "analyze_first_grasp.py",
+      "bytes": 3587,
+      "sha256": "58402490c04b2087a3d155d3924ce5060f50d1efede4e1eb0bef3b4d8ce9229e"
+    },
+    {
+      "path": "analyze_native.py",
+      "bytes": 14045,
+      "sha256": "60c322338e365c7d2c91ee5f8452608ce1fa17ac35cc1a518c7606c879fec909"
+    },
+    {
+      "path": "analyze_sidecar.py",
+      "bytes": 5556,
+      "sha256": "4a9cdaccef72a6eb2eeaba335dc5a1594ce5975dc582f9c06601250fda5e0dee"
+    },
+    {
+      "path": "code/diagnostic_common.py",
+      "bytes": 1121,
+      "sha256": "b47ab907695f2b2b6d1e04f845ade548a38ccbe5d102425b4f5a49182cfb7a80"
+    },
+    {
+      "path": "code/gripper_contract.py",
+      "bytes": 2356,
+      "sha256": "96d8f2a3cf514ee8b13a4e02dbd3b369ef6268f595d9c43e1e1c36822a109862"
+    },
+    {
+      "path": "code/postgrasp_contract.py",
+      "bytes": 3142,
+      "sha256": "a8438befff187efb015064eb79e10f8b79187744d19d4cb9228bcc14d615ddb5"
+    },
+    {
+      "path": "code/released_waypoints.py",
+      "bytes": 1718,
+      "sha256": "21639d3c67656d12c0ad038b26113a1cd6fc64fb8810ab061afad7bab7f59ac0"
+    },
+    {
+      "path": "code/simulator_sidecar.py",
+      "bytes": 3694,
+      "sha256": "77b63362b6c3e0664a0676d72ac4ff9c717aac55e6a7267d6af6ce78d19f9e18"
+    },
+    {
+      "path": "code/sitecustomize.py",
+      "bytes": 216,
+      "sha256": "d6adc747cb7b959a3bc5452a124b5b4dc0715e9b703a77a4196ec8daea495adb"
+    },
+    {
+      "path": "code/trajectory_contract.py",
+      "bytes": 5507,
+      "sha256": "48480b640be2c786d4e99e087bb801c32b2cb339eb75a5c4479192a97e26b76e"
+    },
+    {
+      "path": "episode-results.csv",
+      "bytes": 3457,
+      "sha256": "d9ee381cfee02f19e02c351339529b0959ed4f42e500501a86457b8a41808a82"
+    },
+    {
+      "path": "extract_review_frames.py",
+      "bytes": 2282,
+      "sha256": "f640ca058d29baac4763d96460f41f07aecf92899aad374fbaf0ead991480ca3"
+    },
+    {
+      "path": "figures/first_lift_height.png",
+      "bytes": 40011,
+      "sha256": "4fddc4ff17c5ffe60b7be4aa044ade968871bc722d280096f043c31cd8c9f900"
+    },
+    {
+      "path": "figures/first_lift_height.svg",
+      "bytes": 32036,
+      "sha256": "0da57ad294ec68edaaccfa7fe06ffc4310b96dfa074c1d23dbffa1b61d52a0a1"
+    },
+    {
+      "path": "figures/paired_scores.png",
+      "bytes": 38720,
+      "sha256": "7e21b640f5338305961c4577be4c46cc4fb9ba90fab891f103940c5b10e2d7f6"
+    },
+    {
+      "path": "figures/paired_scores.svg",
+      "bytes": 30496,
+      "sha256": "18f9ba589927854f42b304fe1a980ad61c142776e3a0ef1a1d3bc6fbbcd4bcaa"
+    },
+    {
+      "path": "finalize_gripper.py",
+      "bytes": 7871,
+      "sha256": "f66b8ca8f99883621e12a5dcaec0c2e91eb1e7507519b224d5d5a4fe0418c640"
+    },
+    {
+      "path": "first-grasp-comparison.csv",
+      "bytes": 1963,
+      "sha256": "1901a5705636612b7e7aef3ba4fd86d80d549977332b39954b4912282bd75afe"
+    },
+    {
+      "path": "first-grasp-comparison.json",
+      "bytes": 5842,
+      "sha256": "e6541d599d9ab851760d5cf2672222b357b576ee9201c6a176a7d23e01649348"
+    },
+    {
+      "path": "group-summary.csv",
+      "bytes": 321,
+      "sha256": "3dc4e9fc43b1905006055bb2220c927155f5712bef52b32206b8c68bcbdd4c9e"
+    },
+    {
+      "path": "native_cpu_contract.py",
+      "bytes": 1909,
+      "sha256": "3fda9bdd6955ef99855cf8a5967d0f7a3d0ffb1e3ae97b6cbf44f1fa03447881"
+    },
+    {
+      "path": "offline-validation.json",
+      "bytes": 678,
+      "sha256": "5be1899eec08cb336f01aa30cd98507853c37af0561b120cc7cd64c41939b7f1"
+    },
+    {
+      "path": "offline_contract.py",
+      "bytes": 2715,
+      "sha256": "545654e76b91aac14cbb5dc1ea508485732a8a517df245effe12e927c75af09f"
+    },
+    {
+      "path": "package_native.py",
+      "bytes": 4512,
+      "sha256": "f4d39a946136a9cd9f6314043a95aca4e5e9e7a97bd01a87d335473cdca7ee6f"
+    },
+    {
+      "path": "paired-layouts.csv",
+      "bytes": 390,
+      "sha256": "e57eca37322cf7970442ba0d186b441038880352f7a064a9207912fc00e19826"
+    },
+    {
+      "path": "prepare_native.py",
+      "bytes": 3344,
+      "sha256": "742f12e15cb5af57518a54d7d6f618fc46a5c342b2a4f602fe4bfffb5e7ca24d"
+    },
+    {
+      "path": "protocol.json",
+      "bytes": 2454,
+      "sha256": "5454b05c4e437949a3754ecafa9e35be2735e2a359964b4bea8f8bcb284e1e52"
+    },
+    {
+      "path": "run_native.py",
+      "bytes": 8112,
+      "sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81"
+    },
+    {
+      "path": "transfer-recovery/recovery-report.json",
+      "bytes": 3784,
+      "sha256": "fb27d9496b1a1d1c0f4daea1986b743c7eb1276518d4bc8a2c354044b0861182"
+    },
+    {
+      "path": "validate_native.py",
+      "bytes": 4272,
+      "sha256": "dbadf16b64ce9002ef03e2207bfa21cb616de5ef905f39cb0a9681a6f5e7959a"
+    },
+    {
+      "path": "video-review/frame-index.json",
+      "bytes": 10709,
+      "sha256": "a6cb0adbd2837413aad4538d009a12f39739c928423c65dc2ea6f999bec2c4f5"
+    },
+    {
+      "path": "video-review/latched_command_layout0_first_close.png",
+      "bytes": 403725,
+      "sha256": "0d158a0beaa1a53321967a88992ceaa41ab88f82497ae07ed17d65f867121b06"
+    },
+    {
+      "path": "video-review/latched_command_layout0_first_lift.png",
+      "bytes": 405692,
+      "sha256": "eeb3d58b5bed78a925a4da98d78bc6a47e82e2ed6e9b371d9ab8f1f90e3383c9"
+    },
+    {
+      "path": "video-review/latched_command_layout0_rejected_transport.png",
+      "bytes": 405692,
+      "sha256": "eeb3d58b5bed78a925a4da98d78bc6a47e82e2ed6e9b371d9ab8f1f90e3383c9"
+    },
+    {
+      "path": "video-review/latched_command_layout4_first_close.png",
+      "bytes": 400643,
+      "sha256": "9f7c8d0abd1e5f6559c6a6970b1105307a561833c9d73a5cd27934936cc920fd"
+    },
+    {
+      "path": "video-review/latched_command_layout4_first_lift.png",
+      "bytes": 409159,
+      "sha256": "a22860edba3ab57d51c31782e19cc012399cffb48c837ec04ef31f1355796e4e"
+    },
+    {
+      "path": "video-review/latched_command_layout4_rejected_transport.png",
+      "bytes": 433868,
+      "sha256": "d63b797b1daf1232d5c608adf5095729892968936dca7afb27a35b42d0946d0b"
+    },
+    {
+      "path": "video-review/measured_state_control_layout0_first_close.png",
+      "bytes": 404659,
+      "sha256": "e5bf2f2ac3b963662148fa8ae99b798702efb95cb2fe630fece3f69ea7740b4b"
+    },
+    {
+      "path": "video-review/measured_state_control_layout0_first_lift.png",
+      "bytes": 412043,
+      "sha256": "9f34f5e0d57a00977fd1adc3cac5d1dfcc0aabeb66e74f884efc022d591fd19e"
+    },
+    {
+      "path": "video-review/measured_state_control_layout0_rejected_transport.png",
+      "bytes": 412043,
+      "sha256": "9f34f5e0d57a00977fd1adc3cac5d1dfcc0aabeb66e74f884efc022d591fd19e"
+    },
+    {
+      "path": "video-review/measured_state_control_layout4_first_close.png",
+      "bytes": 401307,
+      "sha256": "99a87358a24c84cd8b12259efeef8eca7d8dd42027bb1a1437310f2d542fb221"
+    },
+    {
+      "path": "video-review/measured_state_control_layout4_first_lift.png",
+      "bytes": 408735,
+      "sha256": "c2df9424f9e3964b7e3a94a082574f0f09bec85c43860506d73714c5c430b09f"
+    },
+    {
+      "path": "video-review/measured_state_control_layout4_rejected_transport.png",
+      "bytes": 433259,
+      "sha256": "0c73d3a815b88cd3cc340ac72eb9405e19f7377b724173ea86a732caed6f1608"
+    }
+  ],
+  "derived_file_count": 46,
+  "symlinks": [],
+  "exclusions": [
+    "Already verified native files referenced by manifest; no resnapshot.",
+    "Mutable continuation and caches excluded."
+  ]
+}

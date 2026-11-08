@@ -1,0 +1,6 @@
+{
+  "controller_pid": 1771570,
+  "lab_gpu_limit": 1,
+  "selected_gpu_uuid": "GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1",
+  "planned_solver_calls": 81
+}

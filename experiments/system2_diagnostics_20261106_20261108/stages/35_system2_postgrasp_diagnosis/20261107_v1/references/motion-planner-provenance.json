@@ -1,0 +1,5 @@
+{
+  "path": "/mnt/data/physical-RSI/code/RoboDojo/third_party/curobo/curobo/_src/motion/motion_planner.py",
+  "sha256": "66557e0e9a99bba789437397b4274abd1687e75ed7459b4a499b475ff86a25d3",
+  "interpretation": "For single goal and disabled graph, None means no TrajOpt result was produced; source branch continues when IK has zero successes. Direct IK-call logging is planned for offline corroboration."
+}

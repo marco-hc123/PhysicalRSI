@@ -1,0 +1,13 @@
+phase,condition,n,successes,mean_score_100,scores_100
+parent,fixed_parent,5,0,3.0,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+sampling,sample_01,5,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+sampling,sample_02,5,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+sampling,sample_03,5,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+sampling,sample_04,5,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+sampling,sample_05,5,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+repair,target_control,5,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+repair,target_offset,5,0,3.0,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+round2,round2_01,5,0,3.0,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+heldout,fixed_parent,5,0,6.0,"[0.0, 15.0, 0.0, 15.0, 0.0]"
+heldout,target_control,5,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+heldout,target_offset,5,0,3.0,"[0.0, 15.0, 0.0, 0.0, 0.0]"

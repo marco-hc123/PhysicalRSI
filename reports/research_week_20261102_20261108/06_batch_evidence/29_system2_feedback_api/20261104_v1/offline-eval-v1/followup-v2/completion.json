@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "finished_utc": "2026-11-04T13:21:04.845492+00:00",
+  "geometry_probes": 24,
+  "dynamic_followthrough_probes": 6,
+  "cpu_probes_total": 30,
+  "native_episodes": 0,
+  "api_calls": 0
+}

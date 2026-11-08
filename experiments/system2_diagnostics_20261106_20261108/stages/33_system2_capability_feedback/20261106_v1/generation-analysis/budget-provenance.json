@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-06T04:52:00.091825+00:00",
+  "source": "/mnt/data/joey_tr/physical-RSI/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/task/RoboDojo/tasks/classify_objects.py",
+  "sha256": "aef4333c088766375e21a928d53a9a93aaee285fecae41e22385acdc74dd11ac",
+  "excerpts": [
+    {
+      "line": 9,
+      "text": "        self.step_lim = 1100"
+    }
+  ],
+  "task_native_step_limit": 1100,
+  "completion_hold_steps": 1100,
+  "scope": "Frozen task source used by this study. No claim about the latest upstream branch; no active task configuration changed.",
+  "interpretation": "1100 is defined in the frozen classify_objects task, not a newly lowered limit in this feedback comparison. Completion hold steps separately let a returned candidate wait for native evaluation termination."
+}

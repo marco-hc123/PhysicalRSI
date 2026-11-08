@@ -1,0 +1,32 @@
+{
+  "state": "passed",
+  "utc": "2026-11-08T06:12:53.580838+00:00",
+  "ast_admission": {
+    "valid_parent": {
+      "admitted": true,
+      "errors": []
+    },
+    "forbidden_nonlocal": {
+      "admitted": false,
+      "errors": [
+        "Nonlocal"
+      ]
+    },
+    "invented_capability": {
+      "admitted": false,
+      "errors": [
+        "robot capability home"
+      ]
+    },
+    "module_import": {
+      "admitted": false,
+      "errors": [
+        "Expected only policy function at module scope",
+        "Import"
+      ]
+    }
+  },
+  "driver_original_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+  "driver_expected_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+  "scope": "Static admission and exact wrapper transformation, not a native success claim"
+}

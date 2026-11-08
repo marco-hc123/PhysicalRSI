@@ -1,0 +1,804 @@
+{
+  "checked_utc": "2026-11-04T11:09:23.886995+00:00",
+  "records": {
+    "configs/organization/transfer_20261031T125619Z/completion-receipt.json": {
+      "state": "complete_verified",
+      "completed_utc": "2026-11-01T04:47:13.076868+00:00",
+      "destination_root": "/mnt/data/joey_tr/physical-RSI",
+      "verification": "verification.json",
+      "impact_audit": "lab-impact-audit.json",
+      "metadata_archives": [
+        {
+          "file": "expected-manifest.json.gz",
+          "uncompressed_sha256": "953edc091a6894a7559dc2aa8b722497966724cbdb61b4b2a385ba8ec89baa6f",
+          "uncompressed_bytes": 139458091,
+          "compressed_bytes": 10936284
+        },
+        {
+          "file": "lab-before.json.gz",
+          "uncompressed_sha256": "d247ec6dd50724429429416f46e0b05bcd3aa49aa115d2f205711dc99aafb218",
+          "uncompressed_bytes": 641876471,
+          "compressed_bytes": 53759027
+        }
+      ],
+      "original_experiment_times_preserved": true,
+      "source_data_deleted": false,
+      "preexisting_target_files_overwritten": false
+    },
+    "configs/organization/transfer_20261031T125619Z/verification.json": {
+      "state": "verified",
+      "completed_utc": "2026-11-01T04:45:04.779247+00:00",
+      "entries": 243720,
+      "files": 225236,
+      "unique_file_inodes": 126418,
+      "expected_unique_bytes": 44165282573,
+      "errors": [],
+      "extra_paths": [],
+      "missing_paths": [],
+      "hardlinks_preserved": true,
+      "sha256_size_mtime_mode_owner_checked": true
+    },
+    "configs/organization/transfer_20261031T125619Z/final-location-check.json": {
+      "state": "verified",
+      "checked_utc": "2026-11-01T04:47:28.358859+00:00",
+      "destination_root": "/mnt/data/joey_tr/physical-RSI",
+      "category_destinations": [
+        "configs/organization",
+        "configs/recorded-agent.template.json",
+        "configs/迁移准备说明.txt",
+        "configs/项目目录说明.txt",
+        "data/simulation_assets",
+        "envs/recorded_runtime",
+        "experiments/recorded_procedures",
+        "models/recorded_policy_assets",
+        "repos/PhysicalRSI-recorded",
+        "repos/RoboDojo-recorded",
+        "result/08_simulation_setup",
+        "result/09_single_task_validation",
+        "result/10_general_pickup_comparison",
+        "result/11_catalogue_ablation",
+        "result/12_cross_project_measurement",
+        "result/13_failure_consistency",
+        "result/14_protocol_freeze",
+        "result/15_system1_diagnostics_memory",
+        "result/16_system2_integration",
+        "result/17_system2_iterations",
+        "result/18_state_recovery",
+        "result/19_extended_tasks_final_acceptance",
+        "result/20_targeted_timing",
+        "result/21_system2_failure_mechanisms",
+        "result/22_workflow_records",
+        "result/实验过程索引.csv"
+      ],
+      "checked_entries": 243720,
+      "files": 225236,
+      "directories": 18419,
+      "symlinks": 65,
+      "unique_inodes": 126418,
+      "unique_bytes": 44165282573,
+      "all_transferred_entry_mtime_ns_preserved": true,
+      "existing_shared_category_roots_checked_by_baseline_audit": [
+        "configs",
+        "data",
+        "envs",
+        "experiments",
+        "models",
+        "repos",
+        "result"
+      ],
+      "hardlink_relationships_preserved": true,
+      "content_sha256_previously_verified": true,
+      "published_without_overwriting_existing_paths": true,
+      "preexisting_project_changes": [],
+      "outside_scope_changes": [
+        {
+          "path": "/home/joey_tr/.claude.json",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns",
+            "inode"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793414504635",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793416596091",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793430821954",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793436108570",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793438195535",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793479309382",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793481392210",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793495623106",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793500909703",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/backups/.claude.json.backup.1793502992178",
+          "scope": "home metadata",
+          "fields": [
+            "mode",
+            "size",
+            "mtime_ns",
+            "ctime_ns",
+            "uid",
+            "gid",
+            "inode",
+            "device"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/projects/-mnt-data-joey-tr-zhixuan/410f18a7-a292-4c82-afa2-c6719faa9c77.jsonl",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.claude/projects/-mnt-data-joey-tr-zhixuan/f889c3fa-4f39-4a62-a9dc-b8e183d56687.jsonl",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.codex/logs_2.sqlite",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.codex/logs_2.sqlite-shm",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.codex/logs_2.sqlite-wal",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.codex/models_cache.json",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.vscode-server.bak/cli/agent-host-stable.log",
+          "scope": "home metadata",
+          "fields": [
+            "size",
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.vscode-server/cli/agent-host-stable.log",
+          "scope": "home metadata",
+          "fields": [
+            "size",
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        },
+        {
+          "path": "/home/joey_tr/.vscode-server/cli/servers/lru.json",
+          "scope": "home metadata",
+          "fields": [
+            "mtime_ns",
+            "ctime_ns"
+          ]
+        }
+      ],
+      "private_migration_stage_removed": true,
+      "errors": []
+    },
+    "result/23_lab_environment_setup/20261101T111000Z/status.json": {
+      "completed_steps": [
+        "create_analysis",
+        "create_agent",
+        "create_simulator",
+        "analysis_packages",
+        "analysis_smoke",
+        "agent_packages",
+        "agent_cli_help",
+        "agent_demo",
+        "simulator_torch",
+        "isaacsim_5_1",
+        "simulator_runtime_dependencies",
+        "isaaclab_isaaclab",
+        "isaaclab_isaaclab_assets",
+        "isaaclab_isaaclab_contrib",
+        "isaaclab_isaaclab_mimic",
+        "isaaclab_isaaclab_rl",
+        "isaaclab_isaaclab_tasks",
+        "curobo_runtime",
+        "simulator_physicalrsi",
+        "analysis_pip_list",
+        "analysis_pip_check",
+        "analysis_freeze",
+        "agent_pip_list",
+        "agent_pip_check",
+        "agent_freeze",
+        "simulator_pip_list",
+        "simulator_freeze",
+        "simulator_import_smoke",
+        "portable_vulkan_download",
+        "portable_vulkan_extract",
+        "portable_vulkan_link_check",
+        "agent_skill_memory",
+        "preserved_policy_imports"
+      ],
+      "attempts": {
+        "create_analysis": 1,
+        "create_agent": 1,
+        "create_simulator": 1,
+        "analysis_packages": 1,
+        "analysis_smoke": 1,
+        "agent_packages": 1,
+        "agent_cli_help": 1,
+        "agent_demo": 1,
+        "simulator_torch": 1,
+        "isaacsim_5_1": 1,
+        "simulator_runtime_dependencies": 1,
+        "isaaclab_isaaclab": 1,
+        "isaaclab_isaaclab_assets": 1,
+        "isaaclab_isaaclab_contrib": 1,
+        "isaaclab_isaaclab_mimic": 1,
+        "isaaclab_isaaclab_rl": 1,
+        "isaaclab_isaaclab_tasks": 1,
+        "curobo_runtime": 1,
+        "simulator_physicalrsi": 1,
+        "analysis_pip_list": 1,
+        "analysis_pip_check": 1,
+        "analysis_freeze": 1,
+        "agent_pip_list": 1,
+        "agent_pip_check": 1,
+        "agent_freeze": 1,
+        "simulator_pip_list": 1,
+        "simulator_pip_check": 1,
+        "simulator_freeze": 1,
+        "simulator_import_smoke": 1,
+        "portable_vulkan_download": 1,
+        "portable_vulkan_extract": 1,
+        "portable_vulkan_link_check": 1,
+        "agent_skill_memory": 1,
+        "preserved_policy_imports": 1
+      },
+      "pid": 3311754,
+      "host": "gpuserver3",
+      "scope": "/mnt/data/joey_tr/physical-RSI",
+      "gpu_jobs": false,
+      "paid_api_calls": false,
+      "phase": "finalized",
+      "updated_utc": "2026-11-01T11:29:07.673832+00:00",
+      "state": "complete_with_documented_limitations",
+      "active_log": null,
+      "active_command": null,
+      "child_pid": null,
+      "last_returncode": 0,
+      "limitations": [
+        "H100 RTX simulation not supported; no renderer test",
+        "Actual checkpoint inference and paid API not run",
+        "Recorded IsaacLab Starlette dependency disagreement retained transparently; see pip check logs"
+      ],
+      "error": null
+    },
+    "result/23_lab_environment_setup/20261101T111000Z/acceptance-summary.json": {
+      "utc": "2026-11-01T11:29:07.673686+00:00",
+      "package_checks": {
+        "analysis": "No broken requirements found.",
+        "agent": "No broken requirements found.",
+        "simulator": "isaaclab 0.54.3 has requirement starlette==0.49.1, but you have starlette 0.45.3."
+      },
+      "completed_steps": [
+        "create_analysis",
+        "create_agent",
+        "create_simulator",
+        "analysis_packages",
+        "analysis_smoke",
+        "agent_packages",
+        "agent_cli_help",
+        "agent_demo",
+        "simulator_torch",
+        "isaacsim_5_1",
+        "simulator_runtime_dependencies",
+        "isaaclab_isaaclab",
+        "isaaclab_isaaclab_assets",
+        "isaaclab_isaaclab_contrib",
+        "isaaclab_isaaclab_mimic",
+        "isaaclab_isaaclab_rl",
+        "isaaclab_isaaclab_tasks",
+        "curobo_runtime",
+        "simulator_physicalrsi",
+        "analysis_pip_list",
+        "analysis_pip_check",
+        "analysis_freeze",
+        "agent_pip_list",
+        "agent_pip_check",
+        "agent_freeze",
+        "simulator_pip_list",
+        "simulator_freeze",
+        "simulator_import_smoke",
+        "portable_vulkan_download",
+        "portable_vulkan_extract",
+        "portable_vulkan_link_check",
+        "agent_skill_memory",
+        "preserved_policy_imports"
+      ],
+      "impact_audit": {
+        "utc": "2026-11-01T11:29:07.672853+00:00",
+        "checked_changes": {
+          "configs": [],
+          "environments": [],
+          "recorded_sources": []
+        },
+        "scope": "Selected outside configs; base/research/policy/policy-tools/szxnzero/llmserve package inventories; existing project environment tree metadata and Python hashes; complete recorded source tree metadata. Not a full-server snapshot; routine SSH/system logs excluded.",
+        "landlock_enforced": true,
+        "outside_write_probe_denied": true,
+        "intentional_project_prefix": "/mnt/data/joey_tr/physical-RSI",
+        "no_sudo_or_global_install_or_driver_change": true
+      },
+      "limitations": [
+        "H100 RTX simulation not supported; no renderer test",
+        "Actual checkpoint inference and paid API not run",
+        "Recorded IsaacLab Starlette dependency disagreement retained transparently; see pip check logs"
+      ],
+      "scope": "installation and bounded offline acceptance only"
+    }
+  },
+  "checkpoint_files": [
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/_CHECKPOINT_METADATA",
+      "bytes": 426
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/assets/arx_x5_sim/norm_stats.json",
+      "bytes": 3407
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/_METADATA",
+      "bytes": 23491
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/_sharding",
+      "bytes": 18258
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/array_metadatas/process_0",
+      "bytes": 9058
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/d/e9268d0868cc79dc08071adee3ba67f5",
+      "bytes": 42398
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/manifest.ocdbt",
+      "bytes": 120
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/0a05b3b4870f64154af3641ef1c1eecf",
+      "bytes": 2284789865
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/1fbec215d6341f33f041c6145ee3756f",
+      "bytes": 1200
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/3749fcdb2abf24595f8ca06ee208e773",
+      "bytes": 560077054
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/42eb48ef345d0e30b95bc9e2a194adc8",
+      "bytes": 2520305970
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/5dd44e9e6c20354d58016a470210b404",
+      "bytes": 109402
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/a66e531837010ca0fb32ecd927335e53",
+      "bytes": 2343282541
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/ce1637cf430319dc033526f7e32d833e",
+      "bytes": 2165726013
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/d7a5b27d8a8c4f63cc9dfe9d12d5e2d3",
+      "bytes": 232
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/d931aec2d1d586717a28915e6c710676",
+      "bytes": 2240108427
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/d/fbf78c71d75f5d3cb7ef11cd9cde9ab0",
+      "bytes": 326494172
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05/params/ocdbt.process_0/manifest.ocdbt",
+      "bytes": 368
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/_CHECKPOINT_METADATA",
+      "bytes": 426
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/assets/robodojo_arx_x5_all35/norm_stats.json",
+      "bytes": 3426
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/_METADATA",
+      "bytes": 23458
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/_sharding",
+      "bytes": 23664
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/array_metadatas/process_0",
+      "bytes": 8992
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/array_metadatas/process_1",
+      "bytes": 8992
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/d/442b24a871c231f75b988b5879fa44a2",
+      "bytes": 56808
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/manifest.ocdbt",
+      "bytes": 120
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/0dcb0bbd9ae862b6578e4fb346d1a496",
+      "bytes": 1979302
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/1691f2526b8a2ab39937f9d583a63e9f",
+      "bytes": 1960593317
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/1b55aa2a868a92190dfdd00a161c3ca6",
+      "bytes": 336781032
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/38d551e3adfda6a17277b286934d68df",
+      "bytes": 216
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/60f5fd13b459e792c409a8bcab341c49",
+      "bytes": 872005095
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/7ffe1f6cbaa0ed6abe8729f826806fdc",
+      "bytes": 2256587525
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/8925568669461262bbd7252aba5d92c1",
+      "bytes": 1097
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/d/b5294094e4cd501b89d66b3cb1ccd38e",
+      "bytes": 792507678
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_0/manifest.ocdbt",
+      "bytes": 418
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_1/d/2ec56b4d19d2fb921eaa68574b12f992",
+      "bytes": 2098717965
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_1/d/35eaf660c92d80a615a24e6075a88c5e",
+      "bytes": 741697762
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_1/d/39536ef91f5acfcb67ff7f30217a4078",
+      "bytes": 26055
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_1/d/d0e364fb8cfce55d8dce335dabd366f4",
+      "bytes": 1139170739
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_1/d/d92b86f29b33c331fe0cd5e9d73e87e3",
+      "bytes": 2240071414
+    },
+    {
+      "path": "models/recorded_policy_assets/skill-assets/checkpoints/pi05-sparse-memory/params/ocdbt.process_1/manifest.ocdbt",
+      "bytes": 305
+    }
+  ],
+  "paths": {
+    "repos/RoboDojo-recorded/Assets": {
+      "exists": true,
+      "is_symlink": true,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/data/simulation_assets/robodojo-complete-source/Assets",
+      "children": [
+        "Background",
+        "Eval_Layout",
+        "Material",
+        "Object",
+        "Robots",
+        "Room",
+        "Sensor",
+        "Traj"
+      ]
+    },
+    "repos/lab-runtime/RoboDojo/Assets": {
+      "exists": true,
+      "is_symlink": true,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/data/simulation_assets/robodojo-complete-source/Assets",
+      "children": [
+        "Background",
+        "Eval_Layout",
+        "Material",
+        "Object",
+        "Robots",
+        "Room",
+        "Sensor",
+        "Traj"
+      ]
+    },
+    "models/recorded_policy_assets/skill-assets/implementations/openpi": {
+      "exists": true,
+      "is_symlink": false,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/models/recorded_policy_assets/skill-assets/implementations/openpi",
+      "children": [
+        "LICENSE",
+        "README.md",
+        "packages",
+        "pyproject.toml",
+        "src",
+        "uv.lock"
+      ]
+    },
+    "models/recorded_policy_assets/skill-assets/implementations/code-skills": {
+      "exists": true,
+      "is_symlink": false,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/models/recorded_policy_assets/skill-assets/implementations/code-skills",
+      "children": [
+        "assets",
+        "dependencies",
+        "implementations",
+        "memory",
+        "physicalrsi_skill_library",
+        "program-templates.json",
+        "programs.json",
+        "resources",
+        "runtime",
+        "shared"
+      ]
+    },
+    "data/simulation_assets/robodojo-complete-source/Assets/Eval_Layout/RoboDojo/arx_x5/0": {
+      "exists": true,
+      "is_symlink": false,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/data/simulation_assets/robodojo-complete-source/Assets/Eval_Layout/RoboDojo/arx_x5/0",
+      "children": [
+        "align_blocks_0.json",
+        "align_blocks_1.json",
+        "align_blocks_10.json",
+        "align_blocks_11.json",
+        "align_blocks_12.json",
+        "align_blocks_13.json",
+        "align_blocks_14.json",
+        "align_blocks_15.json",
+        "align_blocks_16.json",
+        "align_blocks_17.json",
+        "align_blocks_18.json",
+        "align_blocks_19.json",
+        "align_blocks_2.json",
+        "align_blocks_20.json",
+        "align_blocks_21.json",
+        "align_blocks_22.json",
+        "align_blocks_23.json",
+        "align_blocks_24.json",
+        "align_blocks_25.json",
+        "align_blocks_26.json",
+        "align_blocks_27.json",
+        "align_blocks_28.json",
+        "align_blocks_29.json",
+        "align_blocks_3.json",
+        "align_blocks_30.json",
+        "align_blocks_31.json",
+        "align_blocks_32.json",
+        "align_blocks_33.json",
+        "align_blocks_34.json",
+        "align_blocks_35.json",
+        "align_blocks_36.json",
+        "align_blocks_37.json",
+        "align_blocks_38.json",
+        "align_blocks_39.json",
+        "align_blocks_4.json",
+        "align_blocks_40.json",
+        "align_blocks_41.json",
+        "align_blocks_42.json",
+        "align_blocks_43.json",
+        "align_blocks_44.json",
+        "align_blocks_45.json",
+        "align_blocks_46.json",
+        "align_blocks_47.json",
+        "align_blocks_48.json",
+        "align_blocks_49.json"
+      ]
+    },
+    "result/17_system2_iterations/31_system2_final_validation_20261030T121000Z/step5-results.json": {
+      "exists": true,
+      "is_symlink": false,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/result/17_system2_iterations/31_system2_final_validation_20261030T121000Z/step5-results.json"
+    },
+    "result/21_system2_failure_mechanisms/36_system2_mechanism_20261031T010000Z_v3/verified-control-results.csv": {
+      "exists": true,
+      "is_symlink": false,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/result/21_system2_failure_mechanisms/36_system2_mechanism_20261031T010000Z_v3/verified-control-results.csv"
+    },
+    "result/25_system2_model_swap": {
+      "exists": true,
+      "is_symlink": false,
+      "resolved": "/mnt/data/joey_tr/physical-RSI/result/25_system2_model_swap",
+      "children": [
+        "38_system2_gpt61sol_20261102",
+        "阶段说明.txt"
+      ]
+    }
+  },
+  "gpu_computation_tests": 0,
+  "remote_writes": 0,
+  "config_names": [
+    "activate-policy.sh",
+    "activate-research.sh",
+    "agent.example.json",
+    "experiment.offline.json",
+    "lab-runtime",
+    "organization",
+    "recorded-agent.template.json",
+    "requirements-research.lock.txt",
+    "server-preparation.json",
+    "迁移准备说明.txt",
+    "项目目录说明.txt"
+  ],
+  "runtime_scripts": {},
+  "framework_cpu_import": {
+    "rc": 0,
+    "stdout": "{\"physicalrsi\": \"/mnt/data/joey_tr/physical-RSI/envs/agent/lib/python3.11/site-packages/physicalrsi/__init__.py\", \"PhysicalRSI\": \"/mnt/data/joey_tr/physical-RSI/envs/agent/lib/python3.11/site-packages/PhysicalRSI/__init__.py\"}\n",
+    "stderr": ""
+  },
+  "setup_readme": "PhysicalRSI 独立研究工作区\n\n先阅读 result/00_第一步完成情况.txt。\n\n进入环境：\n  cd /mnt/data/joey_tr/physical-RSI\n  source configs/activate-research.sh\n\n所有新实验写入 result 的新子目录，保留原始日志。\n\n\n2026-11-02 补充实验入口：\n  research/evidence/model_swap_20261102/README.md\n  research/evidence/model_swap_20261102/REPORT_INTEGRATION.md\n  result/补充实验索引_2026-11-02.csv\n原始结果按System 1/System 2模型替换归档；不重复累计工作副本、历史参考与复用证据。\n"
+}

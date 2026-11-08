@@ -1,0 +1,38 @@
+{
+  "lab": {
+    "checked_utc": "2026-11-06T06:35:44.840671+00:00",
+    "host": "gpuserver3",
+    "owned_experiment_processes": [],
+    "project_processes": [],
+    "gpu_processes": {
+      "exit_code": 0,
+      "output": "GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 754624, 1890 MiB\nGPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 759184, 63668 MiB",
+      "stderr": ""
+    },
+    "gpu_devices": {
+      "exit_code": 0,
+      "output": "0, GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1, 1900 MiB, 0 %\n1, GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f, 63710 MiB, 100 %",
+      "stderr": ""
+    },
+    "note": "Read-only /proc and GPU audit; no signals, shutdown, environment edits or GPU allocation."
+  },
+  "execution_server": {
+    "checked_utc": "2026-11-06T06:37:23.043897+00:00",
+    "host": "iZ2ze1zdxis0hd5huemnpbZ",
+    "owned_experiment_processes": [],
+    "project_processes": [],
+    "gpu_processes": {
+      "exit_code": 0,
+      "output": "",
+      "stderr": ""
+    },
+    "gpu_devices": {
+      "exit_code": 0,
+      "output": "0, GPU-7e4f17ed-9cdd-9be9-8a38-bac91a3e221d, 0 MiB, 0 %",
+      "stderr": ""
+    },
+    "note": "Read-only /proc and GPU audit; no signals, shutdown, environment edits or GPU allocation."
+  },
+  "recorded_local_utc": "2026-11-06T06:37:22.716264+00:00",
+  "scope": "This stage only. Do not alter other jobs or power off the execution instance."
+}

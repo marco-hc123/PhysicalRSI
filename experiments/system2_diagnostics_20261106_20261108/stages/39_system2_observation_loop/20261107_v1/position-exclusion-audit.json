@@ -1,0 +1,189 @@
+{
+  "state": "completed",
+  "exploratory_symbolic_cases": 2,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "gpu_used": false,
+  "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+  "rows": [
+    {
+      "separation_m": 0.03,
+      "objects": 2,
+      "distinct_ideal_deliveries": 1,
+      "remaining_objects": [
+        "toy_car_1"
+      ],
+      "close_commands": 1,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "separation_m": 0.08,
+      "objects": 2,
+      "distinct_ideal_deliveries": 2,
+      "remaining_objects": [],
+      "close_commands": 2,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.020000000000000004,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.020000000000000004,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.020000000000000004,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    }
+  ],
+  "interpretation": "With ideal grasp/delivery and complete perception, the category+4cm attempted-position rule can suppress an unhandled nearby object. Loop6 correction alone does not fix this behavior.",
+  "limits": [
+    "Constructed CPU fixture, not an observed failure rate or native performance.",
+    "The second fixture changes only separation, with all solver/perception/grasp effects idealized.",
+    "A stable object tracker would require its own validation; raw detector suffixes are not guaranteed persistent identities."
+  ]
+}

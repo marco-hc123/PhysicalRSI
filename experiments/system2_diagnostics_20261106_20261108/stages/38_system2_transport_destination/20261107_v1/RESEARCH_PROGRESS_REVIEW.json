@@ -1,0 +1,120 @@
+{
+  "state": "completed",
+  "updated_utc": "2026-11-07T06:27:53.887013+00:00",
+  "scope": "Stages31 through38: feedback generation, manual mechanism diagnosis and released-skill reference. Earlier reproduction studies remain separate.",
+  "actual_new_native_executions": 123,
+  "unique_previously_exposed_layouts": 5,
+  "full_successes": 0,
+  "current_stage": {
+    "any_positive_score_delta": false,
+    "mean_score_delta": 0.0,
+    "success_delta": 0,
+    "transport_completed_delta": 11
+  },
+  "key_distinctions": [
+    "Repeated executions/candidates are not independent layouts.",
+    "Manual changes and different-controller references are not automatic System2 gains.",
+    "No_path is a solver outcome, not a certificate of geometric impossibility.",
+    "Offline solver, symbolic fixture, native execution and evidence reuse are separate accounts."
+  ],
+  "current_retained_policy": "pi05",
+  "new_api_calls_this_stage": 0,
+  "failure_attribution": [
+    {
+      "issue": "Dynamic height used to gate lift",
+      "scope": "Generated candidate assumption versus frozen reproduction perception contract",
+      "evidence": "32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+      "established": "Bypassing guard changed one of five scores0to15; dynamicZ is unavailable in current interface",
+      "not_established": "All PhysicalRSI versions have this fault"
+    },
+    {
+      "issue": "Dense trajectory consumes budget",
+      "scope": "Frozen primitive execution adaptation",
+      "evidence": "34_system2_trajectory_contract/20261106_v1/FINAL_SUMMARY.json",
+      "established": "Completed approaches18to35 and active cancels3to0,scoreunchanged",
+      "not_established": "Task success or overall wall-clock speedup"
+    },
+    {
+      "issue": "Explicit gripper command not retained",
+      "scope": "Frozen primitive adaptation; measured observations distinct from actuator targets",
+      "evidence": "36_system2_gripper_command_contract/20261107_v1/FINAL_SUMMARY.json",
+      "established": "Closed-command mismatch72of152to0of152,scoreunchanged",
+      "not_established": "Stable grasp or later manipulation success"
+    },
+    {
+      "issue": "Postgrasp transport destination",
+      "scope": "Specific generated candidate target choice in current robot/task configuration",
+      "evidence": "38_system2_transport_destination/20261107_v1/FINAL_SUMMARY.json",
+      "established": {
+        "any_positive_score_delta": false,
+        "mean_score_delta": 0.0,
+        "success_delta": 0,
+        "transport_completed_delta": 11
+      },
+      "not_established": "Global optimal target or independent generalization"
+    },
+    {
+      "issue": "Candidate coverage and capability gap",
+      "scope": "Specific saved program and exposed primitive interfaces",
+      "evidence": "37_system2_candidate_capacity/20261107_v1/CAPABILITY_GAP_AUDIT.txt",
+      "established": "Six-turn ceiling, no explicit home, smaller sensory/action interface than complete released controller",
+      "not_established": "LLM or general System2 algorithm intrinsically cannot improve"
+    },
+    {
+      "issue": "Released complete skill endpoint/attempt failure",
+      "scope": "Observed reference behavior under frozen reproduction conditions",
+      "evidence": "37_system2_candidate_capacity/20261107_v1/reference-stop-details.csv",
+      "established": "Four endpoint gates stop; remaininglayoutendsretrylimitedwith40/100;0/5fullsuccess",
+      "not_established": "Upstream algorithm inherently defective or physics cause isolated"
+    }
+  ],
+  "latest_mechanism_review": {
+    "offset_stop_reasons": [
+      "initial_observation_loop_bound_exhausted",
+      "initial_observation_loop_bound_exhausted",
+      "initial_observation_loop_bound_exhausted",
+      "initial_observation_loop_bound_exhausted",
+      "initial_observation_loop_bound_exhausted"
+    ],
+    "initial_detected_items": [
+      4,
+      4,
+      2,
+      3,
+      3
+    ],
+    "actual_layout_items": [
+      8,
+      5,
+      3,
+      7,
+      6
+    ],
+    "layouts_missing_initial_categories": [
+      0,
+      1,
+      2
+    ],
+    "new_categories_ignored": [
+      {
+        "layout": 0,
+        "categories": [
+          "watch"
+        ]
+      }
+    ],
+    "offset_close_cycles": 16,
+    "qualified_object_associations": 15,
+    "low_lift_under_1cm": 4,
+    "large_relative_translation_over_5cm": 6,
+    "lift_over_2cm_then_relative_change_over_5cm": 2,
+    "tracking_thresholds_are_diagnostic_not_success_criteria": true
+  },
+  "next_stage": {
+    "root": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1",
+    "variable": "Only initial-count loop limit -> fixed6",
+    "new_native_cases_planned": 5,
+    "prior_control_cases_reused": 5,
+    "api_calls": 0
+  }
+}

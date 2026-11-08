@@ -1,0 +1,8 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T13:48:24.452067+00:00",
+  "files_scanned": 48182,
+  "bytes_scanned": 1027947660,
+  "findings": [],
+  "scope": "Credential-shaped strings in project text evidence only; no contents or secrets printed. Does not inspect binary videos, weights, or external files."
+}

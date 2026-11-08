@@ -1,0 +1,409 @@
+{
+  "download": {
+    "state": "verified_complete",
+    "pid": 35450,
+    "utc": "2026-11-05T05:15:34.419244+00:00",
+    "elapsed_s": 130.44826047300012,
+    "bytes_present": 24881305600,
+    "total_bytes": 24881305600,
+    "part_bytes": {
+      "pi05-weights.tar.part000": 1073741824,
+      "pi05-weights.tar.part001": 1073741824,
+      "pi05-weights.tar.part002": 1073741824,
+      "pi05-weights.tar.part003": 1073741824,
+      "pi05-weights.tar.part004": 1073741824,
+      "pi05-weights.tar.part005": 1073741824,
+      "pi05-weights.tar.part006": 1073741824,
+      "pi05-weights.tar.part007": 1073741824,
+      "pi05-weights.tar.part008": 1073741824,
+      "pi05-weights.tar.part009": 1073741824,
+      "pi05-weights.tar.part010": 1073741824,
+      "pi05-weights.tar.part011": 629856256,
+      "sparse-memory-weights.tar.part000": 1073741824,
+      "sparse-memory-weights.tar.part001": 1073741824,
+      "sparse-memory-weights.tar.part002": 1073741824,
+      "sparse-memory-weights.tar.part003": 1073741824,
+      "sparse-memory-weights.tar.part004": 1073741824,
+      "sparse-memory-weights.tar.part005": 1073741824,
+      "sparse-memory-weights.tar.part006": 1073741824,
+      "sparse-memory-weights.tar.part007": 1073741824,
+      "sparse-memory-weights.tar.part008": 1073741824,
+      "sparse-memory-weights.tar.part009": 1073741824,
+      "sparse-memory-weights.tar.part010": 1073741824,
+      "sparse-memory-weights.tar.part011": 629129216
+    },
+    "verified_parts": 24,
+    "total_parts": 24,
+    "results": [
+      {
+        "name": "pi05-weights.tar.part000",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part002",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part003",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part004",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part001",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part005",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part009",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part010",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part008",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part006",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part006",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part004",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part002",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part000",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part010",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part011",
+        "ok": true,
+        "cached": true,
+        "bytes": 629129216
+      },
+      {
+        "name": "sparse-memory-weights.tar.part009",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part007",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part008",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part005",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part003",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "sparse-memory-weights.tar.part001",
+        "ok": true,
+        "cached": true,
+        "bytes": 1073741824
+      },
+      {
+        "name": "pi05-weights.tar.part011",
+        "ok": true,
+        "cached": true,
+        "bytes": 629856256
+      },
+      {
+        "name": "pi05-weights.tar.part007",
+        "ok": true,
+        "bytes": 1073741824,
+        "sha256": "4a447354a4b8f786c5def3e861a292cbaa85239cdc88adffcd0b1dcbf5155034",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 33,
+            "bytes_before": 122851552,
+            "bytes_after": 122851552,
+            "elapsed_s": 1.432163502999174
+          },
+          {
+            "attempt": 2,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 1073741824,
+            "elapsed_s": 98.32870355199884
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/yanming03/XPolicyLab/releases/download/physicalrsi-skill-assets-v1/pi05-weights.tar.part007"
+      }
+    ],
+    "transport": "https://gh-proxy.com/",
+    "trust_root": "previously verified official v4 manifest; each part mandatory size and SHA256",
+    "old_direct_partials_preserved": true,
+    "credentials_sent": false,
+    "api_calls": 0,
+    "model_versions_changed": false
+  },
+  "refresh": [],
+  "verification": {
+    "weights": {
+      "utc": "2026-11-05T05:22:52.673651+00:00",
+      "state": "verified",
+      "file_count": 41,
+      "matched": 41,
+      "elapsed_s": 335.7565685289992,
+      "bytes": 24881258208,
+      "api_calls": 0,
+      "gpu_used": false
+    },
+    "scene_assets": {
+      "utc": "2026-11-05T04:48:00.947935+00:00",
+      "state": "verified",
+      "file_count": 15369,
+      "matched": 15369,
+      "unique_files_hashed": 13595,
+      "unique_bytes": 4148186953,
+      "elapsed_s": 3.2915149309992557,
+      "api_calls": 0,
+      "gpu_used": false,
+      "verified_root": "/mnt/data/physical-RSI/reference/data/simulation_assets/robodojo-complete-source"
+    },
+    "implementations": {
+      "utc": "2026-11-05T04:46:36.971009+00:00",
+      "state": "verified",
+      "file_count": 10691,
+      "matched": 10691,
+      "unique_files_hashed": 2258,
+      "unique_bytes": 7011238943,
+      "elapsed_s": 4.614396037000006,
+      "api_calls": 0,
+      "gpu_used": false,
+      "verified_root": "/mnt/data/physical-RSI/reference/models/recorded_policy_assets/skill-assets/implementations"
+    }
+  },
+  "code_download": {
+    "state": "verified_complete",
+    "pid": 21418,
+    "utc": "2026-11-05T04:42:01.083757+00:00",
+    "elapsed_s": 1761.7133155339998,
+    "bytes_present": 7012997120,
+    "total_bytes": 7012997120,
+    "part_bytes": {
+      "code-skills.tar.part000": 1073741824,
+      "code-skills.tar.part001": 1073741824,
+      "code-skills.tar.part002": 1073741824,
+      "code-skills.tar.part003": 1073741824,
+      "code-skills.tar.part004": 1073741824,
+      "code-skills.tar.part005": 1073741824,
+      "code-skills.tar.part006": 570546176
+    },
+    "verified_parts": 7,
+    "total_parts": 7,
+    "results": [
+      {
+        "name": "code-skills.tar.part000",
+        "ok": true,
+        "bytes": 1073741824,
+        "sha256": "179454be574728da79701d6bd526fd037fa1b3bc07d0b317c81f4d98ce0cc87f",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 1073741824,
+            "elapsed_s": 261.20502376399963
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/PhysicalRSI/XPolicyLab/releases/download/physicalrsi-skill-assets-v4/code-skills.tar.part000"
+      },
+      {
+        "name": "code-skills.tar.part001",
+        "ok": true,
+        "bytes": 1073741824,
+        "sha256": "167715cfd169851c982b523b1dc46b779b5e541d905351972605ee8143c20405",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 1073741824,
+            "elapsed_s": 1257.8472491510001
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/PhysicalRSI/XPolicyLab/releases/download/physicalrsi-skill-assets-v4/code-skills.tar.part001"
+      },
+      {
+        "name": "code-skills.tar.part002",
+        "ok": true,
+        "bytes": 1073741824,
+        "sha256": "269a4ecb5557ad2d3d3be7d84598c5f0317373dacf6737690d9a73f94d53840a",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 1073741824,
+            "elapsed_s": 1257.8463867090004
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/PhysicalRSI/XPolicyLab/releases/download/physicalrsi-skill-assets-v4/code-skills.tar.part002"
+      },
+      {
+        "name": "code-skills.tar.part003",
+        "ok": true,
+        "bytes": 1073741824,
+        "sha256": "eb9caef1b466a472cacc320ed60e68af5648dd9b624624e63b7c0b74df278045",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 1073741824,
+            "elapsed_s": 995.9577997349998
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/PhysicalRSI/XPolicyLab/releases/download/physicalrsi-skill-assets-v4/code-skills.tar.part003"
+      },
+      {
+        "name": "code-skills.tar.part004",
+        "ok": true,
+        "bytes": 1073741824,
+        "sha256": "23b60039349a32f79ef261edd2efdb51b62d173d6d0c52924f29f76a27d94547",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 1073741824,
+            "elapsed_s": 225.21501501399962
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/PhysicalRSI/XPolicyLab/releases/download/physicalrsi-skill-assets-v4/code-skills.tar.part004"
+      },
+      {
+        "name": "code-skills.tar.part006",
+        "ok": true,
+        "bytes": 570546176,
+        "sha256": "419da39f5d5d5e4b761a152235f1f99e21f7cf22d676fdbcc82c31dd80f1da13",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 570546176,
+            "elapsed_s": 244.11197476899997
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/PhysicalRSI/XPolicyLab/releases/download/physicalrsi-skill-assets-v4/code-skills.tar.part006"
+      },
+      {
+        "name": "code-skills.tar.part005",
+        "ok": true,
+        "bytes": 1073741824,
+        "sha256": "4d668949917b8438452df2d20ed5be9be5ffa1e99a074d5bb63731edc07831c1",
+        "attempts": [
+          {
+            "attempt": 1,
+            "curl_exit": 0,
+            "bytes_before": 0,
+            "bytes_after": 1073741824,
+            "elapsed_s": 502.4380220410003
+          }
+        ],
+        "transport": "https://gh-proxy.com/",
+        "original_url": "https://github.com/PhysicalRSI/XPolicyLab/releases/download/physicalrsi-skill-assets-v4/code-skills.tar.part005"
+      }
+    ],
+    "transport": "https://gh-proxy.com/",
+    "trust_root": "previously verified official v4 manifest; each part mandatory size and SHA256",
+    "old_direct_partials_preserved": true,
+    "credentials_sent": false,
+    "api_calls": 0,
+    "model_versions_changed": false
+  },
+  "staged_implementations": {
+    "utc": "2026-11-05T04:46:12.154574+00:00",
+    "state": "verified",
+    "file_count": 10691,
+    "matched": 10691,
+    "unique_files_hashed": 2258,
+    "unique_bytes": 7011238943,
+    "elapsed_s": 4.751739982999425,
+    "api_calls": 0,
+    "gpu_used": false,
+    "verified_root": "/mnt/data/physical-RSI/models/official-v4/implementations"
+  },
+  "utc": "2026-11-05T05:23:07.152387+00:00",
+  "controller_pid": 9135,
+  "native_episodes": 0,
+  "api_calls": 0,
+  "verification_processes": {},
+  "state": "all_resources_sha256_verified"
+}

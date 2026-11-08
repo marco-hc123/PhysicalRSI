@@ -1,0 +1,565 @@
+{
+  "state": "passed",
+  "native_replays": 10,
+  "counterfactual_prefixes": 10,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "gpu_used": false,
+  "rows": [
+    {
+      "condition": "original_transport",
+      "layout_id": 0,
+      "actor": "585b309e5faa4388853e941dccc90e4d",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 8,
+      "exact_native_termination_reproduced": true,
+      "reason": "wrapper_converts_rejection_to_exception_candidate_catches_and_returns",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 130,
+          "source_line": "if not move(arm, [bx, by, 1.01]):",
+          "turn": 0,
+          "attempted": 1,
+          "choices": 4,
+          "exception": "RuntimeError",
+          "message": "No collision-free path; no action executed by this call"
+        },
+        {
+          "event": "return",
+          "line": 135,
+          "source_line": "return",
+          "turn": 0,
+          "attempted": 1,
+          "choices": 4,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 0,
+      "actor": "4192a3601a864681a4e9d891ee90c4d9",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 33,
+      "exact_native_termination_reproduced": true,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 3,
+          "attempted": 4,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 0,
+      "actor": "585b309e5faa4388853e941dccc90e4d",
+      "mode": "structured_rejection_return",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 8,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 131,
+          "source_line": "return",
+          "turn": 0,
+          "attempted": 1,
+          "choices": 4,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 0,
+      "actor": "4192a3601a864681a4e9d891ee90c4d9",
+      "mode": "structured_rejection_return",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 33,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 3,
+          "attempted": 4,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 1,
+      "actor": "b60bdbcd5f7e40ba8a97d6a9ce187373",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 24,
+      "exact_native_termination_reproduced": true,
+      "reason": "wrapper_converts_rejection_to_exception_candidate_catches_and_returns",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 130,
+          "source_line": "if not move(arm, [bx, by, 1.01]):",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": "RuntimeError",
+          "message": "No collision-free path; no action executed by this call"
+        },
+        {
+          "event": "return",
+          "line": 135,
+          "source_line": "return",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 1,
+      "actor": "30ca408eeb82458e93c8531ceb1195cc",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 33,
+      "exact_native_termination_reproduced": true,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 3,
+          "attempted": 4,
+          "choices": 2,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 1,
+      "actor": "b60bdbcd5f7e40ba8a97d6a9ce187373",
+      "mode": "structured_rejection_return",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 24,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 131,
+          "source_line": "return",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 1,
+      "actor": "30ca408eeb82458e93c8531ceb1195cc",
+      "mode": "structured_rejection_return",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 33,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 3,
+          "attempted": 4,
+          "choices": 2,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 2,
+      "actor": "eab0c79e6f7846dab42fae3b8166dd40",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 8,
+      "exact_native_termination_reproduced": true,
+      "reason": "wrapper_converts_rejection_to_exception_candidate_catches_and_returns",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 130,
+          "source_line": "if not move(arm, [bx, by, 1.01]):",
+          "turn": 0,
+          "attempted": 1,
+          "choices": 2,
+          "exception": "RuntimeError",
+          "message": "No collision-free path; no action executed by this call"
+        },
+        {
+          "event": "return",
+          "line": 135,
+          "source_line": "return",
+          "turn": 0,
+          "attempted": 1,
+          "choices": 2,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 2,
+      "actor": "9958bf355d9b431f805a2e09c7fa6577",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 17,
+      "exact_native_termination_reproduced": true,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 1,
+          "attempted": 2,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 2,
+      "actor": "eab0c79e6f7846dab42fae3b8166dd40",
+      "mode": "structured_rejection_return",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 8,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 131,
+          "source_line": "return",
+          "turn": 0,
+          "attempted": 1,
+          "choices": 2,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 2,
+      "actor": "9958bf355d9b431f805a2e09c7fa6577",
+      "mode": "structured_rejection_return",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 17,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 1,
+          "attempted": 2,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 3,
+      "actor": "fc1dbc4e465f4532ab9ffe009bb0a3c3",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 16,
+      "exact_native_termination_reproduced": true,
+      "reason": "wrapper_converts_rejection_to_exception_candidate_catches_and_returns",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 130,
+          "source_line": "if not move(arm, [bx, by, 1.01]):",
+          "turn": 1,
+          "attempted": 2,
+          "choices": 3,
+          "exception": "RuntimeError",
+          "message": "No collision-free path; no action executed by this call"
+        },
+        {
+          "event": "return",
+          "line": 135,
+          "source_line": "return",
+          "turn": 1,
+          "attempted": 2,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 3,
+      "actor": "7b35b92a85b940799d04e8841acd964f",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 25,
+      "exact_native_termination_reproduced": true,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 6,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 3,
+      "actor": "fc1dbc4e465f4532ab9ffe009bb0a3c3",
+      "mode": "structured_rejection_return",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 16,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 131,
+          "source_line": "return",
+          "turn": 1,
+          "attempted": 2,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 3,
+      "actor": "7b35b92a85b940799d04e8841acd964f",
+      "mode": "structured_rejection_return",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 25,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 6,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 4,
+      "actor": "f20dea29f9584677a3df06ee351c397b",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 24,
+      "exact_native_termination_reproduced": true,
+      "reason": "wrapper_converts_rejection_to_exception_candidate_catches_and_returns",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 130,
+          "source_line": "if not move(arm, [bx, by, 1.01]):",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": "RuntimeError",
+          "message": "No collision-free path; no action executed by this call"
+        },
+        {
+          "event": "return",
+          "line": 135,
+          "source_line": "return",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 4,
+      "actor": "a2d2b55b23ee496ca2d597e462628f1f",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 25,
+      "exact_native_termination_reproduced": true,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 4,
+      "actor": "f20dea29f9584677a3df06ee351c397b",
+      "mode": "structured_rejection_return",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 24,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 131,
+          "source_line": "return",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 4,
+      "actor": "a2d2b55b23ee496ca2d597e462628f1f",
+      "mode": "structured_rejection_return",
+      "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 25,
+      "exact_native_termination_reproduced": false,
+      "reason": "other_return_review_source",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(min(6, len(items))):",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 3,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    }
+  ],
+  "correction": "Stage38 original-target termination was actually wrapper RuntimeError caught by the candidate,not its explicit return-False rejection branch. Both paths end at the same call,so original scores/counts remain unchanged. Stage38 offset loop-bound findings remain valid.",
+  "limits": [
+    "Counterfactual next call has no response; no trajectory or score is inferred.",
+    "This diagnoses the saved experiment integration contract, not all upstream PhysicalRSI versions."
+  ]
+}

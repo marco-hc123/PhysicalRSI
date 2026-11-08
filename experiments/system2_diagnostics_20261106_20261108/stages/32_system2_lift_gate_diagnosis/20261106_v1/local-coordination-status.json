@@ -1,0 +1,47 @@
+{
+  "state": "completed",
+  "stage": "completed_and_verified_on_lab",
+  "updated_utc": "2026-11-06T04:08:37.960674+00:00",
+  "active_pid": null,
+  "active_experiment_processes": [],
+  "pending": [],
+  "accounting": {
+    "new_native_cases": 20,
+    "new_native_cohorts": 4,
+    "unique_exposed_layouts": 5,
+    "new_raw_videos": 60,
+    "historical_35_native_cases_reused_for_context": 35,
+    "historical_cases_not_counted_as_new": true,
+    "cpu_recorded_prefix_replays": 45,
+    "solver_probes": 63,
+    "saved_trajectories_static_checks": 24,
+    "perception_reader_calls": 4,
+    "additional_full_frame_detector_probes": 2,
+    "new_paid_api_calls": 0,
+    "new_paid_api_cost_usd": 0,
+    "new_generated_candidates": 0,
+    "training_steps": 0,
+    "policy_promotions": 0,
+    "note": "Do not add offline replays, model inference probes, historical reuse or video count to robot sample count."
+  },
+  "main_report": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/REPORT.txt",
+  "main_summary": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+  "native_archives": [
+    "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation",
+    "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation"
+  ],
+  "lab_gpu_active": false,
+  "execution_gpu_active": false,
+  "resource_receipt": "completion-resource-check.json",
+  "next_action": "Preserve completed studies. Next research: explicit capability feedback and budget-aware action tests under a separately frozen protocol; existing proposal remains unexecuted.",
+  "retained_policy": "pi05",
+  "new_policy_promotions": 0,
+  "updated_local_utc": "2026-11-06T04:10:55.127198+00:00",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1",
+  "local_root": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/lift_gate_20261106",
+  "cloud_roots": [
+    "/mnt/data/physical-RSI/result/32_lift_gate_validation_20261106",
+    "/mnt/data/physical-RSI/result/33_retreat_recovery_20261106"
+  ],
+  "route": "lab -> local SSH relay -> execution server -> local SSH relay -> lab"
+}

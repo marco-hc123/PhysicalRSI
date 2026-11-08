@@ -1,0 +1,11 @@
+--- bypass_lift_guard.py
++++ return_to_clearance.py
+@@ -127,7 +127,7 @@
+                 return
+             move(arm, bx, by, 1.01)
+             robot.gripper(arm=arm, command=1)
+-            move(arm, bx, by, 1.07)
++            move(arm, x, y, clearance_z)
+     except Exception:
+         # Do not release a possibly held object at an arbitrary failure location.
+         return

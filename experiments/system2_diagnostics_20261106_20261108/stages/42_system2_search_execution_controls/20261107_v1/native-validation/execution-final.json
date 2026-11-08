@@ -1,0 +1,84 @@
+{
+  "frozen_at": "2026-11-07T12:21:53.071795+00:00",
+  "heldout_seen": false,
+  "selected_parent": "fixed_parent",
+  "parent_entry": {
+    "expert": {
+      "name": "code.classify_objects",
+      "revision": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88"
+    },
+    "harness": {
+      "components": {
+        "assets": {
+          "assets.json": "88d34b7679e0cc1094ca28cf43cab3e65f1d5d5704d7086a397fbe6aaf675dcd"
+        },
+        "configuration": {
+          "configuration.json": "aab36100c8f90da032c5dd09d2e6c91d7c6e04c0c0c1a5a994effd649e363df8"
+        },
+        "control": {
+          "control.json": "7ee6775a0581fc44f41f06e353876f3dc826e2463a4ba3dafd1a3ec25f36d273"
+        },
+        "dependencies": {
+          "dependencies.json": "321713c411fa189d856034b343ba0b04bdb625c8d5771cd2aa278023157db9a1"
+        },
+        "foundation": {
+          "foundation.json": "a53a8d73a2d2804cc5889368bd84f6f7540dee2da5b0ab1726511d256b7394b7"
+        },
+        "memory_rules": {
+          "memory_rules.json": "ee1a10e057e6b2daf09a3d2117d92458097bf66ae043362dc797e545ee5a5f8c"
+        },
+        "prompts": {
+          "prompts.json": "2629216b1881998d656a6d725dd8832b3c1d53659e7612e63a7474c606022d5b"
+        },
+        "skill_selection": {
+          "skill_selection.json": "380fba06ae0ab95351414b50766aad21308423f0f2e658aaf758cbfb7adb63a7"
+        },
+        "skills": {
+          "code/classify_objects.py": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+          "skills.json": "3eb786fd49801065e5a522134c0808ea738077c80b01734df77c1b1240666966"
+        },
+        "tools": {
+          "tools.json": "e764f987ae0c684640215d9f92f251460e1ece4c81bf4d9a2aa01f4b59e5c84e"
+        },
+        "weights": {
+          "weights.json": "a53a8d73a2d2804cc5889368bd84f6f7540dee2da5b0ab1726511d256b7394b7"
+        }
+      },
+      "id": "search_controls_parent_fixed_parent",
+      "root": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/native-campaign/harnesses/fixed_parent"
+    },
+    "harness_sha256": "3410c5b59a2579a7fd8d34db8eb3fbb6ec3784f20983aaba938b7d53a1396623",
+    "name": "fixed_parent",
+    "origin": {
+      "name": "fixed_parent",
+      "parent": true
+    },
+    "runtime": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/runtimes/fixed_parent.json",
+    "runtime_sha256": "599b49b7b0eb9b73094896b3162ba2395b52d711db7fea65bd8fa3677e3888d7",
+    "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88"
+  },
+  "baseline_executor_preserved": true,
+  "manual_target_control_not_promoted": true,
+  "scope": "Current generated-candidate pool remains under its original executor. Manual target control is separately reported, and only contributes development feedback. This is a feedback-informed second search round, not an isolated estimate of round count.",
+  "feedback_sha256": "613e48e5b20c7e54c3f25edcb4efa86465d078ed6d26708af232eeab8d13fc86",
+  "request_bytes": 63083,
+  "request_sha256": "65ccac1b83d5716d418ba60e73baee1f8730bda1cc92e8d4aac1dd1e296961c0",
+  "evidence": [
+    {
+      "path": "sampling-selection.json",
+      "sha256": "efebd3ed4d4ad01c7541a8414bd86d500504b28dc0b76c13930b00402b93e274"
+    },
+    {
+      "path": "sampling/analysis/matrix-analysis.json",
+      "sha256": "ae10baf064c77783881b2400a0d2343cd5e0df6bf28149b425cf43d1e2ab8e91"
+    },
+    {
+      "path": "repair/analysis/matrix-analysis.json",
+      "sha256": "487529fe94337e6b899bdb3dbd5e5be6423fd2a496505aa1422ab2ea72ec7f15"
+    },
+    {
+      "path": "manual-target-control/design-final.json",
+      "sha256": "54a32e703dbb39e3307da0486025006f10ad51ce1c2568cf50f7b0888140dd2a"
+    }
+  ]
+}

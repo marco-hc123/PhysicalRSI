@@ -1,0 +1,7 @@
+label,selected,evaluated_as,development_metric,heldout_cases,heldout_scores_100,heldout_successes,heldout_mean_score_100,evidence_group,scope
+fixed_initial_parent,fixed_parent,fixed_parent,"[0, 0.03]",5,"[0.0, 15.0, 0.0, 15.0, 0.0]",0,6.0,fixed_parent,
+budget1,fixed_parent,fixed_parent,"[0, 0.03]",5,"[0.0, 15.0, 0.0, 15.0, 0.0]",0,6.0,fixed_parent,
+budget5,fixed_parent,fixed_parent,"[0, 0.03]",5,"[0.0, 15.0, 0.0, 15.0, 0.0]",0,6.0,fixed_parent,
+two_round_feedback_search,fixed_parent,fixed_parent,"[0, 0.03]",5,"[0.0, 15.0, 0.0, 15.0, 0.0]",0,6.0,fixed_parent,
+manual_matched_control_reference,target_control,target_control,"[0, 0.0]",5,"[0.0, 0.0, 0.0, 0.0, 0.0]",0,0.0,target_control,Matched source/control memory for the manual repair; needed to assess target-rule transfer on the same fresh layouts
+manual_target_repair_reference,target_offset,target_offset,"[0, 0.03]",5,"[0.0, 15.0, 0.0, 0.0, 0.0]",0,3.0,target_offset,"Separate human-designed repair, not a System2 candidate-count or autonomous-improvement claim"

@@ -1,0 +1,19 @@
+{
+  "requests": [
+    {
+      "id": "round2_01",
+      "file": "requests/round2_01.json",
+      "sha256": "65ccac1b83d5716d418ba60e73baee1f8730bda1cc92e8d4aac1dd1e296961c0"
+    },
+    {
+      "id": "round2_02",
+      "file": "requests/round2_02.json",
+      "sha256": "65ccac1b83d5716d418ba60e73baee1f8730bda1cc92e8d4aac1dd1e296961c0"
+    },
+    {
+      "id": "round2_03",
+      "file": "requests/round2_03.json",
+      "sha256": "65ccac1b83d5716d418ba60e73baee1f8730bda1cc92e8d4aac1dd1e296961c0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+stage,condition,cases,successes,mean_score_100,source,role,scores_100
+31,pi05,5,0,0.0,31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json,Feedback generation and parent reference,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+31,baseline_1,5,0,0.0,31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json,Feedback generation and parent reference,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+31,augmented_1,5,0,3.0,31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json,Feedback generation and parent reference,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+31,augmented_2,5,0,3.0,31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json,Feedback generation and parent reference,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+31,baseline_2,5,0,0.0,31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json,Feedback generation and parent reference,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+31,baseline_3,5,0,0.0,31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json,Feedback generation and parent reference,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+31,augmented_3,5,0,0.0,31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json,Feedback generation and parent reference,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+32,lift_guard/original,5,0,0.0,32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json,Manual perception gate or retreat diagnosis,"[0.0, 0.0, 0.0, 0.0, 0.0]"
+32,lift_guard/bypass_lift_guard,5,0,3.0,32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json,Manual perception gate or retreat diagnosis,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+32,retreat_destination/bypass_lift_guard,5,0,3.0,32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json,Manual perception gate or retreat diagnosis,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+32,retreat_destination/return_to_clearance,5,0,3.0,32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json,Manual perception gate or retreat diagnosis,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+33,legacy_feedback,15,0,3.0,33_system2_capability_feedback/20261106_v1/FINAL_SUMMARY.json,New generation feedback comparison;3candidates x5layouts,
+33,capability_feedback,15,0,3.0,33_system2_capability_feedback/20261106_v1/FINAL_SUMMARY.json,New generation feedback comparison;3candidates x5layouts,
+34,dense,5,0,3.0,34_system2_trajectory_contract/20261106_v1/FINAL_SUMMARY.json,Manual waypoint execution correction,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+34,released_waypoint_thinning,5,0,3.0,34_system2_trajectory_contract/20261106_v1/FINAL_SUMMARY.json,Manual waypoint execution correction,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+35,logging_only,3,0,5.0,35_system2_postgrasp_diagnosis/20261107_v1/FINAL_SUMMARY.json,"Subset layouts0,1,4; no treatment,81offlineprobes separate","[0.0, 0.0, 15.0]"
+36,measured_state_control,5,0,3.0,36_system2_gripper_command_contract/20261107_v1/FINAL_SUMMARY.json,Manual gripper command retention correction,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+36,latched_command,5,0,3.0,36_system2_gripper_command_contract/20261107_v1/FINAL_SUMMARY.json,Manual gripper command retention correction,"[0.0, 0.0, 0.0, 0.0, 15.0]"
+37,released_complete_controller,5,0,17.0,37_system2_candidate_capacity/20261107_v1/native-validation/analysis/independent-validation.json,Different complete existing controller; not System2 improvement,"[0.0, 15.0, 15.0, 15.0, 40.0]"

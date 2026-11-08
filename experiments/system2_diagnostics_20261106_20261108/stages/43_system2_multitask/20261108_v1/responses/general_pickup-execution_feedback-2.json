@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "request_id": "req_a9d606e0dd6143708801d504aeac5ead",
+  "body": {
+    "id": "chatcmpl-Ehr9RhqTNGgZ5yMYCGjtAP70DerwR",
+    "object": "chat.completion",
+    "created": 1794121125,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"source\": \"def policy(robot, memory):\\n    quats = {'left': [0.613, -0.3593, 0.6163, 0.3392], 'right': [0.3814, -0.6197, 0.3785, 0.572]}\\n    for arm in quats:\\n        norm = sum(v * v for v in quats[arm]) ** 0.5\\n        quats[arm] = [v / norm for v in quats[arm]]\\n\\n    def move(arm, position):\\n        result = robot.approach(arm=arm, position_m=position, quaternion_wxyz=quats[arm])\\n        return result.get('primitive_error')\\n\\n    objects = robot.scene()['objects']\\n    if 'target_1' not in objects:\\n        return {'stop': 'target_not_detected', 'physical_success': 'unknown'}\\n    x, y, z = objects['target_1']['pose'][:3]\\n    preferred = 'left' if x <= 0 else 'right'\\n    for arm in [preferred, 'right' if preferred == 'left' else 'left']:\\n        error = move(arm, [x, y, 1.02])\\n        if error == 'no_collision_free_path':\\n            continue\\n        if error:\\n            return {'stop': 'primitive_error_uncertain', 'stage': 'approach', 'physical_success': 'unknown'}\\n\\n        result = robot.gripper(arm=arm, command=1)\\n        if result.get('primitive_error'):\\n            return {'stop': 'primitive_error_uncertain', 'stage': 'open', 'physical_success': 'unknown'}\\n        error = move(arm, [x, y, 0.93])\\n        if error:\\n            reason = 'contact_plan_rejected' if error == 'no_collision_free_path' else 'primitive_error_uncertain'\\n            return {'stop': reason, 'stage': 'contact', 'physical_success': 'unknown'}\\n        result = robot.gripper(arm=arm, command=0)\\n        if result.get('primitive_error'):\\n            return {'stop': 'primitive_error_uncertain', 'stage': 'close', 'physical_success': 'unknown'}\\n\\n        for stage, height in [('lift_clearance', 0.995), ('lift_final', 1.06)]:\\n            error = move(arm, [x, y, height])\\n            if error == 'no_collision_free_path':\\n                if stage == 'lift_clearance':\\n                    continue\\n                return {'stop': 'lift_plan_rejected', 'stage': stage, 'physical_success': 'unknown'}\\n            if error:\\n                return {'stop': 'primitive_error_uncertain', 'stage': stage, 'physical_success': 'unknown'}\\n        return {'stop': 'motion_sequence_returned', 'physical_success': 'unknown'}\\n    return {'stop': 'approach_plans_rejected', 'physical_success': 'unknown'}\\n\",\n  \"memory\": {\n    \"refinement\": \"split_vertical_lift\",\n    \"contact_tool_z_m\": 0.93,\n    \"intermediate_lift_tool_z_m\": 0.995,\n    \"final_lift_tool_z_m\": 1.06,\n    \"unchanged_action_limit\": 200\n  },\n  \"rationale\": \"Several parent traces terminate during the final lift, without establishing a safe planning rejection. This refinement splits the commanded 13 cm lift into two 6.5 cm segments while preserving detection, arm preference, grasp pose, final height, and persistent closure. It adds at most one action-executing approach relative to the parent. Only an explicit no_collision_free_path at the intermediate waypoint permits falling back to the original final target; other errors terminate, and exceptions propagate without retries. The native 200-step budget remains unchanged. This tests whether shorter lift segments improve planning reliability, without inferring attachment, actual height, or success from returned calls.\"\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8801,
+      "completion_tokens": 2277,
+      "total_tokens": 11078,
+      "prompt_tokens_details": {
+        "cached_tokens": 8798,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1365,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

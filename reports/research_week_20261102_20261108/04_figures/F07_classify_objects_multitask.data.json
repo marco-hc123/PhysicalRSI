@@ -1,0 +1,213 @@
+{
+  "task": "classify_objects",
+  "rows": [
+    {
+      "split": "development",
+      "condition": "parent",
+      "label": "Frozen code parent",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "source": "classify_objects-parent/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "classify_objects-basic-1",
+      "label": "Basic 1",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "3282d0578eff75630ddeec43897c913eee7c14da29b676ed7e69e832c8a47237",
+      "source": "classify_objects-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "classify_objects-execution_feedback-1",
+      "label": "Feedback 1",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "e795e6b4cfa55996a62e4de425e5502fb74c85b2744a1b3c4cf6d13d1ee95cfb",
+      "source": "classify_objects-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "classify_objects-basic-2",
+      "label": "Basic 2",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "a98690fcf8afc61b2858c4e641ad6e8d97a2a2790bb4f6977f217e9f0f6801b2",
+      "source": "classify_objects-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "classify_objects-execution_feedback-2",
+      "label": "Feedback 2",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "b93aded6c8c66fea4cef7748ec48300848366c82f00281b73735fc4b0d384b5b",
+      "source": "classify_objects-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "classify_objects-basic-3",
+      "label": "Basic 3",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "4a08b7775533b66e2c779ae73f9a14f1c84089f56d72f6006abea5c5da6a5c26",
+      "source": "classify_objects-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "classify_objects-execution_feedback-3",
+      "label": "Feedback 3",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "1648878342a68f9665e97b72b1b5fc0d51be286d0ac323a407fb7e0e9f079c8e",
+      "source": "classify_objects-candidates/analysis/summary.json"
+    },
+    {
+      "split": "heldout",
+      "condition": "parent",
+      "label": "Frozen code parent",
+      "scores_100": [
+        15.0,
+        null,
+        15.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 4,
+      "planned_n": 5,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "source": "classify_objects-heldout/analysis/summary.json"
+    }
+  ],
+  "selection": [
+    {
+      "condition": "basic",
+      "decision": "retain_parent",
+      "admitted_evaluated": 3,
+      "eligible": 0
+    },
+    {
+      "condition": "execution_feedback",
+      "decision": "retain_parent",
+      "admitted_evaluated": 3,
+      "eligible": 0
+    }
+  ],
+  "heldout_views": {
+    "basic": {
+      "selected_source": "parent",
+      "reuses_parent_evidence": true,
+      "scores": [
+        0.15,
+        null,
+        0.15,
+        0.0,
+        0.0
+      ],
+      "complete_successes": 0,
+      "mean_score": 0.075,
+      "paired_score_differences": [
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_difference": 0.0,
+      "improved": 0,
+      "worse": 0,
+      "equal": 4,
+      "n": 4,
+      "planned_n": 5,
+      "missing_pairs": 1
+    },
+    "execution_feedback": {
+      "selected_source": "parent",
+      "reuses_parent_evidence": true,
+      "scores": [
+        0.15,
+        null,
+        0.15,
+        0.0,
+        0.0
+      ],
+      "complete_successes": 0,
+      "mean_score": 0.075,
+      "paired_score_differences": [
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_difference": 0.0,
+      "improved": 0,
+      "worse": 0,
+      "equal": 4,
+      "n": 4,
+      "planned_n": 5,
+      "missing_pairs": 1
+    }
+  },
+  "score_unit": "native per-episode score multiplied by100; full success is separately shown",
+  "limitation": "Small single-round two-task feedback pilot; different tasks and split distributions are not pooled."
+}

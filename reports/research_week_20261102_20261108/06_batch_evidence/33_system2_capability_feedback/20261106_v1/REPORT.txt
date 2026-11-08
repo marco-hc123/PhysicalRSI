@@ -1,0 +1,112 @@
+PhysicalRSI：明确接口能力反馈的候选生成与原生验证报告
+
+一、研究问题
+此前发现候选对名义高度、漏检、规划错误和预算可见性的假设与当前部署不一致。本轮检查：明确这些能力边界后，模型是否改变候选行为，原生任务表现是否改善。
+这次是新模型生成候选的对照，未手工修改生成代码。它仍是受控的System2候选生成—验证阶段实验，没有把任何候选提升为正式策略。
+
+二、实验设计与公平性
+对照使用历史增强反馈，并加入相同的最新失败源码和停止事实；处理组在完全相同的信息之后，仅附加已核实的接口能力说明。两组各生成3个候选，模型gpt-6.1-sol、medium、最大输出12000、JSON格式和调用模式相同。生成顺序为对照、处理、处理、对照、对照、处理；不是配对固定随机种子。
+相较前一份草案，本轮把最新失败源码与停止事实同时提供给两组，以避免把这部分信息与接口说明混为一个处理变量。修改在生成前冻结，见protocol.json。
+每个候选都用原来的5个已暴露布局、同一冻结运行器、原生评分和1100步预算测试；完整生成代码与proposal记忆均原样绑定。30个回合不是30个独立布局，也不是完整RoboDojo榜单。
+
+三、模型生成与接口检查
+6次生成均得到有效JSON和Python源码，6个候选通过代码准入。120项通用CPU检查另加24项当前错误返回契约检查，均不包含真实物理任务得分。
+两个组均去掉此前的抬升高度门槛，因此不能把去掉门槛单独归功于处理组。处理组3个候选都显式识别零执行的no_collision_free_path，并允许一次接触前换臂；对照3个候选均结束。遇到未知错误或执行状态不确定的异常，两组均停止。
+旧通用named_no_path测试抛异常，和当前兼容层返回错误字典不完全相同，因此额外加入24项明确区分两者的检查，旧测试保留。CPU验证证明分支行为，不能证明恢复动作安全或任务成功。
+所有生成记忆均已绑定，但6个候选本身不读取memory参数，见source-features.json。
+
+四、原生任务结果
+候选 | 布局0..4得分/100 | 完整成功 | 平均分/100
+legacy_feedback_1 | [0.0, 0.0, 0.0, 0.0, 15.0] | 0/5 | 3.00
+capability_feedback_1 | [0.0, 0.0, 0.0, 0.0, 15.0] | 0/5 | 3.00
+capability_feedback_2 | [0.0, 0.0, 0.0, 0.0, 15.0] | 0/5 | 3.00
+legacy_feedback_2 | [0.0, 0.0, 0.0, 0.0, 15.0] | 0/5 | 3.00
+legacy_feedback_3 | [0.0, 0.0, 0.0, 0.0, 15.0] | 0/5 | 3.00
+capability_feedback_3 | [0.0, 0.0, 0.0, 0.0, 15.0] | 0/5 | 3.00
+
+分组描述（每组3候选×同5布局）：
+legacy_feedback：完整成功0/15，平均分3.00；候选平均分分别[3.0, 3.0, 3.0]；停止原因{'returned_after_planning_rejection': 12, 'native_step_limit_cancelled_active_execution': 3}。
+capability_feedback：完整成功0/15，平均分3.00；候选平均分分别[3.0, 3.0, 3.0]；停止原因{'returned_after_planning_rejection': 12, 'native_step_limit_cancelled_active_execution': 3}。
+
+处理组减对照组的描述性平均分差为0.00/100。样本少、布局重复暴露、生成随机性和多项代码行为差异限制解释，不报告统计显著提升或独立泛化。
+
+五、动作与失败阶段逐例核查
+capability_feedback_1/layout0：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_1/layout1：score=0，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_1/layout2：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_1/layout3：score=0，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_1/layout4：score=15，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_2/layout0：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_2/layout1：score=0，success=False，停止=native_step_limit_cancelled_active_execution，完成approach=4，规划拒绝=0，未完成approach=1，首次错误后调用=None。
+capability_feedback_2/layout2：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_2/layout3：score=0，success=False，停止=native_step_limit_cancelled_active_execution，完成approach=4，规划拒绝=0，未完成approach=1，首次错误后调用=None。
+capability_feedback_2/layout4：score=15，success=False，停止=native_step_limit_cancelled_active_execution，完成approach=4，规划拒绝=0，未完成approach=1，首次错误后调用=None。
+capability_feedback_3/layout0：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_3/layout1：score=0，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_3/layout2：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_3/layout3：score=0，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+capability_feedback_3/layout4：score=15，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_1/layout0：score=0，success=False，停止=returned_after_planning_rejection，完成approach=2，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_1/layout1：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_1/layout2：score=0，success=False，停止=returned_after_planning_rejection，完成approach=2，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_1/layout3：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_1/layout4：score=15，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_2/layout0：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_2/layout1：score=0，success=False，停止=native_step_limit_cancelled_active_execution，完成approach=4，规划拒绝=0，未完成approach=1，首次错误后调用=None。
+legacy_feedback_2/layout2：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_2/layout3：score=0，success=False，停止=native_step_limit_cancelled_active_execution，完成approach=4，规划拒绝=0，未完成approach=1，首次错误后调用=None。
+legacy_feedback_2/layout4：score=15，success=False，停止=native_step_limit_cancelled_active_execution，完成approach=4，规划拒绝=0，未完成approach=1，首次错误后调用=None。
+legacy_feedback_3/layout0：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_3/layout1：score=0，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_3/layout2：score=0，success=False，停止=returned_after_planning_rejection，完成approach=3，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_3/layout3：score=0，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+legacy_feedback_3/layout4：score=15，success=False，停止=returned_after_planning_rejection，完成approach=4，规划拒绝=1，未完成approach=0，首次错误后调用=0。
+
+所有回合到1100步不意味着候选都耗尽预算：候选提前return后，原生评估仍可能保持姿态至上限。只有活动调用、取消记录与自然步数终止一起满足时，才归入执行预算终止。额外动作或错误后重试也不等于完成搬运。
+
+六、Token、费用与速度口径
+对照每次输入15316Token，处理15755Token，增加439（2.87%）。平均总Token分别17509与18144。此处是生成成本，不是两个项目的执行Token节省比例。
+本轮API估算0.1846203美元，连同此前已核查费用约0.3778452美元；两批保守预留合计5.659308美元，低于10美元上限，发票为准。
+缓存读和缓存写是输入的互斥子集，reasoning是输出子集，没有重复累加。处理组费用较低可能源于缓存命中和调用顺序，不能解释成输入更少。原生执行保存代码时无语言模型API调用，不能与生成费用混算。
+每个候选的native_cohort_full_wall_s含策略启动、执行、清理与证据验证。API时间另记，未从视频编码时间推导物理时间；没有跨项目加速倍数。
+
+七、结论边界与下一步
+当前结果可用于判断反馈是否改变行为及在这5个布局上的表现，不能证明完整系统所有任务的效果。pi05仍为此前保留策略，尚未进行本轮候选的正式父策略替换或独立布局验收。
+下一轮应先依据逐例停止原因选择一个处理变量：若失败仍在搬运规划，则固定候选与感知，比较有界目标调整/恢复；若明确耗尽步数，则固定评分和候选，先做单独预算诊断，或在原预算下比较动作效率。不要把放宽预算的分数作为原基准提升。
+只有开发结果稳定改善后，再冻结选择并使用未参与反馈和调参的新布局验证。新反馈内容、动作修改与步数放宽应分别建组，保留所有失败候选。
+
+八、完整账目与资料入口
+{
+  "new_generation_api_calls": 6,
+  "new_generated_candidates": 6,
+  "cpu_general_fixture_checks": 120,
+  "cpu_error_contract_checks": 24,
+  "new_native_cases": 30,
+  "unique_exposed_native_layouts": 5,
+  "new_raw_videos": 90,
+  "offline_gpu_calls": 0,
+  "training_steps": 0,
+  "policy_promotions": 0,
+  "new_paid_api_estimate_usd": 0.1846203,
+  "cumulative_reviewed_api_estimate_usd": 0.3778452,
+  "conservative_combined_reserve_usd": 5.659308,
+  "user_cap_usd": 10
+}
+protocol.json、requests/、responses/、ledger.json：生成方案、每次请求响应和费用；不含API密钥。
+candidates/：原始生成代码、记忆和理由；offline-validation/与error-contract-check/：CPU准入和接口实验。
+generation-analysis/：逐请求Token和代码特征行号。
+native-validation/：30个原生回合、90段原始视频、全部回执与动作记录。
+native-validation/analysis/：可编辑CSV/JSON总表、原始视频索引、完整解码验证、布局与运行版本。
+native-validation/migration/ARCHIVE_VERIFIED.json：逐文件回传校验；FINAL_SUMMARY.json：最终机器可读统计。
+历史20个诊断回合、此前35个补测回合以及更早研究均只作引用，不在本轮30个回合内重复累计。
+
+九、已核实的机制解释
+逐动作核查后的结论（补充主报告）
+1. 6个新生成候选在同5个布局的得分均为[0,0,0,0,15]/100，均无完整成功。明确接口能力反馈没有在本轮带来分数改善。两组都收到相同的最新失败源码和停止事实；这里的对照并非旧的原始简短反馈baseline。
+2. 24次明确的规划错误中，12次位于已完成闭爪命令后、下一次开爪命令前；12次位于闭爪再开爪之后。没有一次位于首次闭爪之前，且24次错误后都没有继续调用approach。处理组增加的接触前换臂分支没有覆盖实际失败阶段。命令上下文不等于真实接触或抓取状态。
+3. 两组各3次、共6次在活动动作未完成时被1100步上限终止；其余24次为候选遇到规划拒绝后返回。候选返回后评估器仍可能保持姿态至步数上限，不能把所有1100步回合都称为执行预算耗尽。
+4. 当前兼容层把规划器非Success统一投影为no_collision_free_path，因此仅凭这个名称无法区分IK失败、碰撞约束或其他规划失败。不得据此断言全部是碰撞，更不能断言PhysicalRSI核心框架有错误。
+5. 代码对照发现，发布技能使用thin_native_path筛选规划waypoint，当前兼容执行逐点发送全部采样。接下来的10个回合将固定capability_feedback_2、同5布局、1100步、评分和感知，比较全部点与发布的有界筛选函数；不增加API调用。筛选同时改变控制时序和插值，保留端点不等于连续运动完全相同；这属于人工兼容层诊断，不是System2自动改进结果。
+6. 抽查layout4的legacy_feedback_1与capability_feedback_2末帧，画面完整、物体仍散布桌面；权威回执均是15/100且success=false。静态图只作现象展示，不能推断完整搬运轨迹。6个候选同布局末帧与时间/版本索引保存在video-review，90段原视频已完整解码。
+7. 本轮6次API估算0.1846203美元，累计已核查0.3778452美元；费用非发票实扣。原生30回合无语言模型API调用。仍保留pi05，未做新候选晋升或独立布局验收。
+8. 回传时一次SSH流中断，保留部分文件并按哈希补传，最终23146个文件全部匹配；此为迁移事件，不是实验失败，不重复计算实验回合。记录见transfer-recovery/recovery-report.json。

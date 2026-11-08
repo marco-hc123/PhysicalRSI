@@ -1,0 +1,47 @@
+{
+  "schema": "physicalrsi.multitask-feedback-pilot/v1",
+  "created_at": "2026-11-08T05:59:27.259911+00:00",
+  "state": "adapter_qualification",
+  "tasks": [
+    "classify_objects",
+    "general_pickup"
+  ],
+  "candidate_conditions": [
+    "basic",
+    "execution_feedback"
+  ],
+  "candidates_per_condition_per_task": 3,
+  "development_layouts_per_task": 5,
+  "heldout_layouts_per_task": 5,
+  "smoke_layouts_per_task": 1,
+  "baseline_origin": {
+    "classify_objects": "Previous frozen structured-rejection code parent, unmodified source",
+    "general_pickup": "Study-authored single-pick transfer scaffold from the frozen parent; not a released official code skill"
+  },
+  "additional_reference": {
+    "general_pickup": "Frozen pretrained pi05, 5 development layouts, not eligible System2 candidate"
+  },
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "generation_calls_max": 12,
+  "max_completion_tokens": 16000,
+  "max_request_bytes": 70000,
+  "reserve_per_call_usd": 0.75,
+  "maximum_reserved_usd": 9,
+  "api_cap_usd": 10,
+  "prior_conservative_allowance_usd": 0,
+  "selection": "Within task and condition: maximum development mean score, then full successes, then fewer nonterminal execution errors; only strictly higher mean than parent and no fewer complete successes can replace parent; ties retain parent; deterministic source digest tie break among candidates",
+  "heldout": "Freeze selections before generating fresh native-qualified layouts; evaluate unique selected sources plus parent; do not tune on heldout; report paired scores and uncertainty, no claim of cross-task skill transfer",
+  "admission": "Only policy(robot,memory) at module scope; imports, class, global, nonlocal, async, await, yield, private attributes and unlisted capabilities forbidden; all rejected outputs retained with native score unknown",
+  "execution": "Frozen corrected gripper/trajectory/rejection contract; unchanged native task scores and action limits; per-task RGB adapter frozen before candidate generation; one GPU, sequential native execution",
+  "budget": {
+    "classify_objects": 1100,
+    "general_pickup": 200
+  },
+  "accounting": "Separate preparation smoke, parent, pretrained reference, candidates, rejected outputs, heldout unique execution and reused selections; logical selections are not extra native episodes",
+  "scope": "Two-task one-round matched-feedback pilot, not full multi-round official System2 reproduction",
+  "deferred": {
+    "cover_blocks": "Requires explicit home-joint capability qualification; generator flags finite canonical arrangements as insufficient for unseen semantic coverage; no forced admission"
+  },
+  "paid_requests_so_far": 0
+}

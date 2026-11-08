@@ -1,0 +1,11 @@
+{
+  "state": "completed_with_runtime_failure",
+  "task": "general_pickup",
+  "phase": "general_pickup-heldout",
+  "pid": 93344,
+  "utc": "2026-11-08T10:08:17.390430+00:00",
+  "native_completed": 9,
+  "native_interrupted": 1,
+  "verification": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/general_pickup-heldout/analysis/partial-evidence-verification.json",
+  "no_retry": true
+}

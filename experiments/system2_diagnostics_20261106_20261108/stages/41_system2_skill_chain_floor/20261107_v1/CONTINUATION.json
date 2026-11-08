@@ -1,0 +1,55 @@
+{
+  "state": "completed_archived",
+  "goal": "Can the deployed generated-candidate primitive interface and the complete released skill execute a first pick-lift-transport-release chain on unchanged original layouts?",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1",
+  "cloud_root": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107",
+  "planned_native_cases": 10,
+  "lab_gpu_used": false,
+  "api_calls": 0,
+  "active_processes": [],
+  "next": "Current-condition repeated generation, then isolated execution repair and heldout validation",
+  "updated_utc": "2026-11-07T09:55:55.506232+00:00",
+  "launch": {
+    "pid": 68344,
+    "script": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/run_route.py",
+    "utc": "2026-11-07T09:09:44.034960+00:00",
+    "planned_cases": 10,
+    "api_calls": 0,
+    "lab_gpu_used": false
+  },
+  "result_paths": [
+    "native-campaign",
+    "reference",
+    "chain-analysis.json"
+  ],
+  "log_paths": [
+    "route-controller.log",
+    "run_native.py.stdout.log",
+    "reference_run_reference.py.stdout.log"
+  ],
+  "unresolved": [
+    "Descriptive reference uses richer APIs and different selected objects; not causal comparison",
+    "Delivery reliability and full task remain unresolved"
+  ],
+  "completed": {
+    "candidate_native_cases": 5,
+    "reference_native_cases": 5,
+    "native_videos": 30,
+    "candidate_deliveries": 2,
+    "reference_deliveries": 5,
+    "reference_normal_returns": 3,
+    "reference_failure_cleanup_deliveries": 2,
+    "full_task_successes": 0,
+    "archive_files": 4386,
+    "archive_manifest_sha256": "6d874f49a30bfb83077043dc38d6aac9a9c2dc9e89f388465d12cf4117020c9b"
+  },
+  "deployment_issues": [
+    {
+      "condition": "reference",
+      "valid_native_cases": 0,
+      "issue": "Parent-death stdin EOF before model startup",
+      "repair": "Parent-owned stdin pipe",
+      "status": "Repaired and reference completed; zero invalid-deployment cases included in task denominator"
+    }
+  ]
+}

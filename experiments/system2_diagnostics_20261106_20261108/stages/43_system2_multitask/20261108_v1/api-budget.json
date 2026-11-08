@@ -1,0 +1,18 @@
+{
+  "maximum_reserved_usd": 9,
+  "prior_conservative_allowance_usd": 0,
+  "generation_calls_max": 12,
+  "reserve_per_call_usd": 0.75,
+  "api_cap_usd": 10,
+  "max_request_bytes": 70000,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "max_completion_tokens": 16000,
+  "standard_rates_per_million": {
+    "input": 2,
+    "cached_input": 0.1,
+    "output": 10
+  },
+  "reservation_basis": "70000 UTF8 request bytes conservatively bounded by70000 input tokens plus role framing, reserved input at$6/M and output at$20/M; .75 per request; at most12 calls=$9, below$10. No automatic HTTP retries. Official invoice authoritative.",
+  "source": "https://developers.openai.com/api/docs/pricing?latest-pricing-expanded=true"
+}

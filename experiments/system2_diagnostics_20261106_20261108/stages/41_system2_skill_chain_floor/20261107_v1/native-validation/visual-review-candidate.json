@@ -1,0 +1,24 @@
+{
+  "state": "candidate_examples_reviewed_reference_pending",
+  "method": "Unmodified native frames; compare kinematic diagnostics, no contact-force inference",
+  "findings": [
+    {
+      "condition": "single_cycle",
+      "layout_id": 1,
+      "frames": [
+        "keyframes-candidate/single_cycle_layout1_lift_head_0035.png",
+        "keyframes-candidate/single_cycle_layout1_final_head_1100.png"
+      ],
+      "observation": "Selected watch appears lifted and then within white basket; other watches remain on table. Consistent with completed single-object chain but native task score0."
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 0,
+      "frames": [
+        "keyframes-candidate/single_cycle_layout0_transport_head_0040.png",
+        "keyframes-candidate/single_cycle_layout0_final_head_1100.png"
+      ],
+      "observation": "Selected yellow car lies outside red basket at transport end, before deliberate release. Consistent with loss of carry during transport; no contact-force proof."
+    }
+  ]
+}

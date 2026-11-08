@@ -1,0 +1,182 @@
+[
+  {
+    "task": "classify_objects",
+    "condition": "basic",
+    "candidate": "classify_objects-basic-1",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "classify_objects",
+    "condition": "basic",
+    "candidate": "classify_objects-basic-2",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "classify_objects",
+    "condition": "basic",
+    "candidate": "classify_objects-basic-3",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "classify_objects",
+    "condition": "execution_feedback",
+    "candidate": "classify_objects-execution_feedback-1",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "classify_objects",
+    "condition": "execution_feedback",
+    "candidate": "classify_objects-execution_feedback-2",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "classify_objects",
+    "condition": "execution_feedback",
+    "candidate": "classify_objects-execution_feedback-3",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "general_pickup",
+    "condition": "basic",
+    "candidate": "general_pickup-basic-1",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "general_pickup",
+    "condition": "basic",
+    "candidate": "general_pickup-basic-2",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "general_pickup",
+    "condition": "basic",
+    "candidate": "general_pickup-basic-3",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "general_pickup",
+    "condition": "execution_feedback",
+    "candidate": "general_pickup-execution_feedback-1",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "general_pickup",
+    "condition": "execution_feedback",
+    "candidate": "general_pickup-execution_feedback-2",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "native_episodes": 5
+  },
+  {
+    "task": "general_pickup",
+    "condition": "execution_feedback",
+    "candidate": "general_pickup-execution_feedback-3",
+    "admitted": true,
+    "errors": [],
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "native_episodes": 5
+  }
+]

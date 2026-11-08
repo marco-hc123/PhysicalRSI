@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "terminal_outcome_recorded": true,
+  "original_messages_identical": true,
+  "model_response_bound_to_candidate": true,
+  "model_usage_complete": true,
+  "output_truncated": false,
+  "original_native_dependency_hashes_verified": true,
+  "native_receipts_verified": 10,
+  "official_selector_recomputed": true,
+  "matched_layouts_verified": true,
+  "manual_code_edits": false
+}

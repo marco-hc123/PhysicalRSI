@@ -1,0 +1,75 @@
+{
+  "registered_at_beijing": "2026-11-05 11:40",
+  "historical_cutoff_inclusive": "2026-11-02T23:59:59+08:00",
+  "server_root": "/mnt/data/joey_tr/physical-RSI",
+  "scanned_scopes": [
+    "result",
+    "research",
+    "experiments",
+    "configs",
+    "tools"
+  ],
+  "inventory_entries": 188691,
+  "ordinary_files_in_inventory": 188593,
+  "ordinary_files_read": 187909,
+  "unique_contents_read": 24213,
+  "exact_duplicate_aliases": 163696,
+  "bytes_read": 11172133002,
+  "read_states": {
+    "full_bytes_read": 24207,
+    "full_bytes_read_exact_duplicate": 163637,
+    "outside_historical_period": 684,
+    "full_bytes_read_supplement": 65,
+    "link_or_generated_directory_recorded": 98
+  },
+  "distinct_content_types": {
+    "json": 7292,
+    "table": 82,
+    "text": 1027,
+    "python_source": 1334,
+    "video": 763,
+    "jsonl": 355,
+    "binary": 69,
+    "zip_container": 1539,
+    "png": 3852,
+    "jpeg": 7739,
+    "numpy_array": 159,
+    "pickle": 2
+  },
+  "post_cutoff_ordinary_files_excluded": {
+    "29_system2_feedback_api": 207,
+    "30_system2_lab_diagnosis": 19,
+    "27_system2_offline_diagnostics": 121,
+    "28_h100_offline_acceptance": 337
+  },
+  "media_and_arrays": {
+    "completed": 14046,
+    "planned": 14046,
+    "counts": {
+      "video": 763,
+      "zip_container": 1533,
+      "png": 3852,
+      "jpeg": 7739,
+      "numpy_array": 159
+    },
+    "errors": [],
+    "utc": "2026-11-05T03:23:59.495717+00:00",
+    "claim": "All selected image pixels, video frames, and non-pickle arrays were decoded/inspected programmatically; this is not an assertion of manual visual review."
+  },
+  "tar_gz_unique": 13,
+  "tar_members_stream_read": 17733,
+  "pickle_unique_static_review": 2,
+  "manual_line_by_line_all_files": false,
+  "manual_all_video_visual_review": false,
+  "limits": [
+    "Project result and recorded source scopes, not all unrelated files on the server.",
+    "Runtime environment trees, model weights, repository VCS objects and unrelated projects not exhaustively re-audited; result-embedded source copies were read.",
+    "Identical files are full-byte hashed individually and content analysis is reused by SHA256.",
+    "Media decoding validates content/readability, not physical success; native scores and retained traces are authoritative.",
+    "Nov2 supplementary packages do not contain execution videos; unavailable originals cannot be reviewed.",
+    "Present files cannot reconstruct unrecorded historical actions or prove deleted files never existed."
+  ],
+  "new_experiments": 0,
+  "new_paid_api_calls": 0,
+  "new_gpu_jobs": 0
+}

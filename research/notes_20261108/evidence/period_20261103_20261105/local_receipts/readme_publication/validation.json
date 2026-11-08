@@ -1,0 +1,12 @@
+{
+  "base_matches_live_blob": true,
+  "outside_section_unchanged": true,
+  "missing_links": [],
+  "relative_link_count": 30,
+  "results_subsections": 8,
+  "contains_credential_pattern": false,
+  "new_blob_sha": "e5f88b2573428bb3fd615c96fa1b174837bde37f",
+  "README_utf8_bytes": 21548,
+  "checked_at": "2026-11-04T10:46:20.267506+00:00",
+  "fact_review": "Two independent read-only reviews plus source-table checks; corrected A unscored attempt, native definition and ablation semantic changes."
+}

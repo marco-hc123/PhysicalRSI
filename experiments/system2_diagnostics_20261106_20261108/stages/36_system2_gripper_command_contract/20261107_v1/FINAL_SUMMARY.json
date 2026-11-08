@@ -1,0 +1,514 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T05:35:17.464743+00:00",
+  "accounting": {
+    "new_native_cases": 10,
+    "new_raw_videos": 30,
+    "new_api_calls": 0,
+    "new_generated_candidates": 0,
+    "lab_gpu_used": false,
+    "policy_promotions": 0
+  },
+  "groups": [
+    {
+      "condition": "measured_state_control",
+      "cases": 5,
+      "successes": 0,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "mean_score_100": 3.0,
+      "completed_approaches": 35,
+      "rejected_approaches": 5,
+      "active_budget_cancels": 0,
+      "closed_command_mismatches": 72,
+      "closed_command_comparisons": 152
+    },
+    {
+      "condition": "latched_command",
+      "cases": 5,
+      "successes": 0,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "mean_score_100": 3.0,
+      "completed_approaches": 35,
+      "rejected_approaches": 5,
+      "active_budget_cancels": 0,
+      "closed_command_mismatches": 0,
+      "closed_command_comparisons": 152
+    }
+  ],
+  "cases": [
+    {
+      "condition": "latched_command",
+      "layout_id": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 3,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 36,
+      "command_comparisons": 18,
+      "command_mismatches": 0,
+      "closed_command_comparisons": 9,
+      "closed_command_mismatches": 0,
+      "actions_changed": 3,
+      "maximum_any_object_root_lift_m": 0.033811867237091064,
+      "last_failed_target": {
+        "arm": "right",
+        "position_m": [
+          0.29362199293014124,
+          0.028301666323439167,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      },
+      "actor": "63cc7938e2f04b52ac006bd19c5b616e"
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 11,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 126,
+      "command_comparisons": 109,
+      "command_mismatches": 0,
+      "closed_command_comparisons": 51,
+      "closed_command_mismatches": 0,
+      "actions_changed": 29,
+      "maximum_any_object_root_lift_m": 0.10318136215209961,
+      "last_failed_target": {
+        "arm": "left",
+        "position_m": [
+          0.00014775518540523298,
+          0.027431317569695413,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "actor": "dc05093206314b5cb44e7d98cad7d69c"
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 3,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 37,
+      "command_comparisons": 18,
+      "command_mismatches": 0,
+      "closed_command_comparisons": 9,
+      "closed_command_mismatches": 0,
+      "actions_changed": 3,
+      "maximum_any_object_root_lift_m": 0.06241065263748169,
+      "last_failed_target": {
+        "arm": "right",
+        "position_m": [
+          -9.627888509107812e-06,
+          0.027538063123452805,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      },
+      "actor": "3f7057ba31624a53a56a5981fa85c757"
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 7,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 80,
+      "command_comparisons": 64,
+      "command_mismatches": 0,
+      "closed_command_comparisons": 30,
+      "closed_command_mismatches": 0,
+      "actions_changed": 18,
+      "maximum_any_object_root_lift_m": 0.10515785217285156,
+      "last_failed_target": {
+        "arm": "left",
+        "position_m": [
+          0.00027268472895341806,
+          0.027365714045857248,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "actor": "a2c900bf142b4632b1ec0edef3ade484"
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 11,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 139,
+      "command_comparisons": 193,
+      "command_mismatches": 0,
+      "closed_command_comparisons": 53,
+      "closed_command_mismatches": 0,
+      "actions_changed": 17,
+      "maximum_any_object_root_lift_m": 0.10476607084274292,
+      "last_failed_target": {
+        "arm": "right",
+        "position_m": [
+          9.05377344814652e-05,
+          0.027243741392721676,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      },
+      "actor": "54ccba4d3b2d438a8243b28295e65139"
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 3,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 36,
+      "command_comparisons": 18,
+      "command_mismatches": 3,
+      "closed_command_comparisons": 9,
+      "closed_command_mismatches": 3,
+      "actions_changed": 0,
+      "maximum_any_object_root_lift_m": 0.021336615085601807,
+      "last_failed_target": {
+        "arm": "right",
+        "position_m": [
+          0.2936353000021085,
+          0.02828619323970455,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      },
+      "actor": "1cbce4e1206b4ce5a2b9969aaf9867dd"
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 11,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 126,
+      "command_comparisons": 109,
+      "command_mismatches": 29,
+      "closed_command_comparisons": 51,
+      "closed_command_mismatches": 29,
+      "actions_changed": 0,
+      "maximum_any_object_root_lift_m": 0.10395205020904541,
+      "last_failed_target": {
+        "arm": "left",
+        "position_m": [
+          0.00014035719416622704,
+          0.027400761160319143,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "actor": "e0b6d2ecb1eb49a89ae5bfd96c63ac5a"
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 3,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 37,
+      "command_comparisons": 18,
+      "command_mismatches": 3,
+      "closed_command_comparisons": 9,
+      "closed_command_mismatches": 3,
+      "actions_changed": 0,
+      "maximum_any_object_root_lift_m": 0.06236279010772705,
+      "last_failed_target": {
+        "arm": "right",
+        "position_m": [
+          -6.376649647210685e-05,
+          0.027521058591343683,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      },
+      "actor": "797c1c6152bf4f60bc46d73bceb35a8d"
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 7,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 80,
+      "command_comparisons": 64,
+      "command_mismatches": 18,
+      "closed_command_comparisons": 30,
+      "closed_command_mismatches": 18,
+      "actions_changed": 0,
+      "maximum_any_object_root_lift_m": 0.11250853538513184,
+      "last_failed_target": {
+        "arm": "left",
+        "position_m": [
+          0.00025252986345039997,
+          0.02739309323446454,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.6130773077919165,
+          -0.35934531270739906,
+          0.6163777239676316,
+          0.33924277781895285
+        ]
+      },
+      "actor": "d49b0f33a3d34442bf7cffba9f45bd63"
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_actions": 1100,
+      "completed_approaches": 11,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "completed_applied_actions": 139,
+      "command_comparisons": 193,
+      "command_mismatches": 19,
+      "closed_command_comparisons": 53,
+      "closed_command_mismatches": 19,
+      "actions_changed": 0,
+      "maximum_any_object_root_lift_m": 0.10524022579193115,
+      "last_failed_target": {
+        "arm": "right",
+        "position_m": [
+          2.8738578541094746e-05,
+          0.027283583308436277,
+          1.01
+        ],
+        "quaternion_wxyz": [
+          0.38141138529977936,
+          -0.6197184988732912,
+          0.37851129873090317,
+          0.5720170749645352
+        ]
+      },
+      "actor": "5d521ce0da224b7681a2f37d3867cbe8"
+    }
+  ],
+  "pairs": [
+    {
+      "layout_id": 0,
+      "control_score": 0.0,
+      "treatment_score": 0.0,
+      "score_delta": 0.0,
+      "control_max_any_object_lift": 0.021336615085601807,
+      "treatment_max_any_object_lift": 0.033811867237091064
+    },
+    {
+      "layout_id": 1,
+      "control_score": 0.0,
+      "treatment_score": 0.0,
+      "score_delta": 0.0,
+      "control_max_any_object_lift": 0.10395205020904541,
+      "treatment_max_any_object_lift": 0.10318136215209961
+    },
+    {
+      "layout_id": 2,
+      "control_score": 0.0,
+      "treatment_score": 0.0,
+      "score_delta": 0.0,
+      "control_max_any_object_lift": 0.06236279010772705,
+      "treatment_max_any_object_lift": 0.06241065263748169
+    },
+    {
+      "layout_id": 3,
+      "control_score": 0.0,
+      "treatment_score": 0.0,
+      "score_delta": 0.0,
+      "control_max_any_object_lift": 0.11250853538513184,
+      "treatment_max_any_object_lift": 0.10515785217285156
+    },
+    {
+      "layout_id": 4,
+      "control_score": 15.0,
+      "treatment_score": 15.0,
+      "score_delta": 0.0,
+      "control_max_any_object_lift": 0.10524022579193115,
+      "treatment_max_any_object_lift": 0.10476607084274292
+    }
+  ],
+  "source_memory_bindings": [
+    {
+      "condition": "measured_state_control",
+      "actor": "d49b0f33a3d34442bf7cffba9f45bd63",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "measured_state_control",
+      "actor": "797c1c6152bf4f60bc46d73bceb35a8d",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "measured_state_control",
+      "actor": "5d521ce0da224b7681a2f37d3867cbe8",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "measured_state_control",
+      "actor": "e0b6d2ecb1eb49a89ae5bfd96c63ac5a",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "measured_state_control",
+      "actor": "1cbce4e1206b4ce5a2b9969aaf9867dd",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "latched_command",
+      "actor": "63cc7938e2f04b52ac006bd19c5b616e",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "latched_command",
+      "actor": "a2c900bf142b4632b1ec0edef3ade484",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "latched_command",
+      "actor": "54ccba4d3b2d438a8243b28295e65139",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "latched_command",
+      "actor": "dc05093206314b5cb44e7d98cad7d69c",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    },
+    {
+      "condition": "latched_command",
+      "actor": "3f7057ba31624a53a56a5981fa85c757",
+      "source_exact": true,
+      "memory_exact": true,
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7"
+    }
+  ],
+  "archive": {
+    "state": "verified",
+    "utc": "2026-11-07T05:35:10.340609+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/native-validation",
+    "verified_files": 8165,
+    "logical_bytes": 559373234,
+    "manifest_sha256": "574400ff18259f752ed39029ae5dd12af23d31efb4bdbd750a025237a048e9bd",
+    "native_cases": 10,
+    "videos": 30,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "transfer_verified_in_batches": true
+  },
+  "retained_policy": "pi05",
+  "interpretation": {
+    "command_retention_verified": true,
+    "score_improved_in_any_pair": false,
+    "mean_score_delta": 0.0,
+    "full_success_delta": 0
+  },
+  "limits": [
+    "Manual primitive contract correction, not newly generated System2 self-improvement.",
+    "Five previously exposed layouts; no independent generalization.",
+    "Maximum height of any object is descriptive and does not prove selected-object stable grasp or task success.",
+    "Both conditions retain measured observations; only explicit command retention changes.",
+    "Native action count includes idle hold after candidate return; completed primitive actions exclude unfinished calls."
+  ]
+}

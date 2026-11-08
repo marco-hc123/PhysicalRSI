@@ -1,0 +1,48 @@
+{
+  "state": "completed",
+  "utc": "2026-11-06T07:17:09.879458+00:00",
+  "groups": [
+    {
+      "condition": "dense",
+      "approach_trace_count": 23,
+      "completed_approaches": 18,
+      "planned_dense_waypoints": 5161,
+      "planned_selected_waypoints": 5161,
+      "completed_approach_steps": 4018,
+      "completed_joint_error_rad": {
+        "n": 18,
+        "median": 2.9921531677246094e-05,
+        "maximum": 0.022439122200012207
+      },
+      "backend_rejections": {
+        "PlanningRejected:Released CuRobo found no path": 2
+      },
+      "execution_exceptions": {
+        "RuntimeError:Actor channel closed: actor stopping": 3
+      }
+    },
+    {
+      "condition": "released_waypoint_thinning",
+      "approach_trace_count": 40,
+      "completed_approaches": 35,
+      "planned_dense_waypoints": 7435,
+      "planned_selected_waypoints": 268,
+      "completed_approach_steps": 268,
+      "completed_joint_error_rad": {
+        "n": 35,
+        "median": 0.011399984359741211,
+        "maximum": 0.0571591854095459
+      },
+      "backend_rejections": {
+        "PlanningRejected:Released CuRobo found no path": 5
+      },
+      "execution_exceptions": {}
+    }
+  ],
+  "limitations": [
+    "Planned points can include later-cancelled paths; completed steps omit partial cancelled commands.",
+    "Tracking errors are per completed approach and differ by visited trajectory; no matched-trajectory causal precision estimate.",
+    "Joint error is not object grasp or Cartesian pose error.",
+    "Backend PlanningRejected projects multiple possible solver failures into one error, not proven collision failure."
+  ]
+}

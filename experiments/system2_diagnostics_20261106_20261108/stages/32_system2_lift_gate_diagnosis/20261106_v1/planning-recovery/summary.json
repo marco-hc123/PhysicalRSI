@@ -1,0 +1,189 @@
+{
+  "utc": "2026-11-06T03:22:15.861314+00:00",
+  "state": "completed",
+  "solver_calls": 45,
+  "new_native_episodes": 0,
+  "api_calls": 0,
+  "groups": [
+    {
+      "layout": 0,
+      "phase": "transport",
+      "delta_z_m": 0.0,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 0,
+      "phase": "transport",
+      "delta_z_m": -0.04,
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    },
+    {
+      "layout": 0,
+      "phase": "transport",
+      "delta_z_m": -0.08,
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    },
+    {
+      "layout": 1,
+      "phase": "retreat",
+      "delta_z_m": 0.0,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 1,
+      "phase": "retreat",
+      "delta_z_m": -0.04,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 1,
+      "phase": "retreat",
+      "delta_z_m": -0.08,
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    },
+    {
+      "layout": 2,
+      "phase": "transport",
+      "delta_z_m": 0.0,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 2,
+      "phase": "transport",
+      "delta_z_m": -0.04,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 2,
+      "phase": "transport",
+      "delta_z_m": -0.08,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 3,
+      "phase": "retreat",
+      "delta_z_m": 0.0,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 3,
+      "phase": "retreat",
+      "delta_z_m": -0.04,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 3,
+      "phase": "retreat",
+      "delta_z_m": -0.08,
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    },
+    {
+      "layout": 4,
+      "phase": "retreat",
+      "delta_z_m": 0.0,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 4,
+      "phase": "retreat",
+      "delta_z_m": -0.04,
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 4,
+      "phase": "retreat",
+      "delta_z_m": -0.08,
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    }
+  ]
+}

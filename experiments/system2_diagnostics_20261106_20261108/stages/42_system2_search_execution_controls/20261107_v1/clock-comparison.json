@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-07 12:24:34.206496+00:00",
+  "measurements": [
+    {
+      "host": "lab",
+      "remote": {
+        "unix_ns": 1794054174277817822,
+        "utc": "2026-11-07 12:22:54.277822+00:00"
+      },
+      "local_before_unix_ns": 1794054273373490926,
+      "local_after_unix_ns": 1794054273629916305,
+      "roundtrip_seconds": 0.256425379,
+      "estimated_remote_minus_local_seconds": -99.223885824,
+      "estimator_uncertainty_bound_seconds": 0.1282126895
+    },
+    {
+      "host": "execution",
+      "remote": {
+        "unix_ns": 1794054272581579541,
+        "utc": "2026-11-07 12:24:32.581582+00:00"
+      },
+      "local_before_unix_ns": 1794054273373617160,
+      "local_after_unix_ns": 1794054274206360507,
+      "roundtrip_seconds": 0.832743347,
+      "estimated_remote_minus_local_seconds": -1.208409344,
+      "estimator_uncertainty_bound_seconds": 0.4163716735
+    }
+  ],
+  "scope": "Read-only clock comparison. No clock/configuration changes. Use per-host monotonic durations for measured latencies; do not subtract raw UTC timestamps across hosts."
+}

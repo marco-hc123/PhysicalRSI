@@ -1,0 +1,7 @@
+{
+  "reason": "Validator returns projected receipt; exit-code fields verified from the original raw receipt",
+  "original_sha256": "0ec52f0ad1ea111f97f8b50781b0c75c811e07c3ec83f1efc907971fc814aa54",
+  "new_sha256": "4106478210d2558c15c0f72eeb9c86b9e8a08b3d5effaa52e730b493c8b389b0",
+  "new_native_executions": 0,
+  "raw_evidence_unchanged": true
+}

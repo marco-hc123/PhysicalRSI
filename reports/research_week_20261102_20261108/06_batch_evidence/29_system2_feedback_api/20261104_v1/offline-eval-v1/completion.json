@@ -1,0 +1,11 @@
+{
+  "state": "complete",
+  "finished_utc": "2026-11-04T13:16:14.853878+00:00",
+  "executions": 120,
+  "sources_unchanged": true,
+  "scene_inputs_unchanged": true,
+  "new_api_calls": 0,
+  "new_gpu_calls": 0,
+  "new_native_episodes": 0,
+  "new_task_scores": 0
+}

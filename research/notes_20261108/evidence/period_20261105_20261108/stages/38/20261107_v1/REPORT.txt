@@ -1,0 +1,20 @@
+运输目标点对照：最终分析
+
+问题：此前候选多次在闭爪、抬升之后的运输规划被拒绝。18次离线检查提示目标偏移可恢复轨迹，故本轮用10个新原生回合检验其是否转化为真实任务表现。
+变量：仅修改运输目标。两组都固定同一候选其余代码与记忆、RGB感知、姿态、抓手目标保持、轨迹精简、1100步和原生评分；6次循环上限与缺少显式归位仍不改。
+
+{"condition": "original_transport", "cases": 5, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "successes": 0, "cohort_wall_seconds": 946.3125442649998, "completed_approaches": 35, "rejected_approaches": 5, "incomplete_approaches": 0, "active_budget_cancel": 0, "transport_attempts": 10, "transport_completed": 5, "transport_rejected": 5, "close_commands": 10, "closed_checks": 152, "closed_mismatches": 0, "completed_primitive_action_steps": 418}
+{"condition": "offset_transport", "cases": 5, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "successes": 0, "cohort_wall_seconds": 985.3597181100004, "completed_approaches": 64, "rejected_approaches": 0, "incomplete_approaches": 0, "active_budget_cancel": 0, "transport_attempts": 16, "transport_completed": 16, "transport_rejected": 0, "close_commands": 16, "closed_checks": 265, "closed_mismatches": 0, "completed_primitive_action_steps": 715}
+
+逐布局配对：[{"layout_id": 0, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 0, "offset_transport_completed": 4, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 1, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 2, "offset_transport_completed": 4, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 2, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 0, "offset_transport_completed": 2, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 3, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 1, "offset_transport_completed": 3, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 4, "original_score": 15.0, "offset_score": 15.0, "score_delta": 0.0, "original_transport_completed": 2, "offset_transport_completed": 3, "original_active_cancel": false, "offset_active_cancel": false}]
+
+得分判断：{"any_positive_score_delta": false, "mean_score_delta": 0.0, "success_delta": 0, "transport_completed_delta": 11}
+
+本轮是人工单变量机制诊断，不是重新生成候选，也不是System2自动获得改进。轨迹返回、动作完成与物体成功分类分别核查。完整成功以原始结果文件为准，不按控制器是否报错判断。
+全5个布局已在此前暴露，只能用于开发诊断。完整独立布局验证仍应在确定修正与选择规则后进行。
+本轮无API调用、无模型训练、无实验室GPU使用、无策略晋升。
+证据：native-validation/（原生回执、30视频、RPC、执行动作与分析侧真值日志）；protocol.json；episode-results.csv；approach-phases.csv；paired-layouts.csv；figures/。
+
+首个抓持动作的对象关联分析另见first-grasp-comparison.json/csv和figures/first_lift_height.svg。该表只在最近XY匹配距离<5cm且与第二候选间隔>1cm时给出对象抬升，未知项留空；它与原生分类得分分别报告。
+
+最终机制复核见INTERPRETATION.txt及4项audit/replay文件。固定6次循环验证已进入下一阶段；本阶段成绩没有提升。

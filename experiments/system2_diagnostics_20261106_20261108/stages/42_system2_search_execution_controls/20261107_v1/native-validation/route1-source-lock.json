@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-11-07T10:11:37.947454+00:00",
+  "files": [
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/environment-current.json",
+      "copy": "route1-freeze/environment-current.json",
+      "sha256": "4b0a5756d5c04f164be6cccec44fa71fc0520afca61833569ca9910b086729ed"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/preflight-binding.json",
+      "copy": "route1-freeze/preflight-binding.json",
+      "sha256": "f5743bd647fef09b66d0a4850471d9e67306974cb06fbcc35a255ec46dc21f38"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/protocol.json",
+      "copy": "route1-freeze/protocol.json",
+      "sha256": "b78df85684a6450ceb80eee14a1cbd51206275e4b3faf0af8ca6a3d5ecf754a2"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/analysis-criteria.json",
+      "copy": "route1-freeze/analysis-criteria.json",
+      "sha256": "b79645518a518c2103cf4d1a98d6d6cfdccc2398b8e3c64425e089dd15b718ec"
+    },
+    {
+      "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/migration/LAB_ARCHIVE_VERIFIED.json",
+      "copy": "route1-freeze/migration/LAB_ARCHIVE_VERIFIED.json",
+      "sha256": "634df1ed975cd3b49cbccd7698f4e88dd82dadf649cf72bb78c020176ba87f06"
+    }
+  ],
+  "scope": "Verified archived route1 plus current six-cycle baseline; no route1 rerun"
+}

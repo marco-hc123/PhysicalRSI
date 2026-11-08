@@ -1,0 +1,59 @@
+{
+  "state": "reviewed",
+  "method": "Unmodified native frames; compare kinematic diagnostics, no contact-force inference",
+  "findings": [
+    {
+      "condition": "single_cycle",
+      "layout_id": 1,
+      "frames": [
+        "keyframes-candidate/single_cycle_layout1_lift_head_0035.png",
+        "keyframes-candidate/single_cycle_layout1_final_head_1100.png"
+      ],
+      "observation": "Selected watch appears lifted and then within white basket; other watches remain on table. Consistent with completed single-object chain but native task score0."
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 0,
+      "frames": [
+        "keyframes-candidate/single_cycle_layout0_transport_head_0040.png",
+        "keyframes-candidate/single_cycle_layout0_final_head_1100.png"
+      ],
+      "observation": "Selected yellow car lies outside red basket at transport end, before deliberate release. Consistent with loss of carry during transport; no contact-force proof."
+    },
+    {
+      "condition": "released_first_basket_cycle",
+      "layout_id": 0,
+      "frames": [
+        "keyframes/released_first_basket_cycle_layout0_lift_head_0074.png",
+        "keyframes/released_first_basket_cycle_layout0_final_head_1100.png"
+      ],
+      "observation": "Watch is lifted on right and finally inside red basket. Logged basket_lower endpoint error triggers failure_cleanup opening, so distinguish delivery from normal controller completion."
+    },
+    {
+      "condition": "released_first_basket_cycle",
+      "layout_id": 1,
+      "frames": [
+        "keyframes-extra/released_first_basket_cycle_layout1_final.png"
+      ],
+      "observation": "Selected figurine is visibly inside red basket, arms retracted. Matches normal transfer return and native partial score15."
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 2,
+      "frames": [
+        "keyframes-extra/single_cycle_layout2_final.png"
+      ],
+      "observation": "Selected figurine rests on tabletop in front of blue basket. Not delivered under native membership."
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 3,
+      "frames": [
+        "keyframes-extra/single_cycle_layout3_final.png"
+      ],
+      "observation": "Pen extends below/front of white basket near gripper; does not meet settled root membership. Image alone does not establish contact or whether mechanically caught."
+    }
+  ],
+  "utc": "2026-11-07T09:46:58.985903+00:00",
+  "scope": "Representative native frames visually inspected; all30 native videos fully decoded separately. Kinematic membership checks cover all10 episodes; not all videos watched manually."
+}

@@ -1,0 +1,1182 @@
+{
+  "utc": "2026-11-06T03:20:23.276934+00:00",
+  "native_cases": 10,
+  "new_cpu_replays": 20,
+  "native_cases_reused_for_replay": 10,
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "cohorts": [
+    {
+      "condition": "original",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.0,
+      "cohort_wall_seconds": 1041.656390518,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 0,
+      "total_approach_calls": 15,
+      "accepted_approach_calls": 15,
+      "incomplete_approach_calls": 0,
+      "native_step_limit_cancellations": 0,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 3195,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/original/completed.json"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "cases": 5,
+      "successes": 0,
+      "mean_normalized_score": 0.03,
+      "cohort_wall_seconds": 1026.192879172,
+      "videos": 15,
+      "api_calls": 0,
+      "paid_cost_usd": 0,
+      "internal_service_calls_by_method": {},
+      "candidate_actors": 5,
+      "first_approach_rejections": 0,
+      "total_approach_calls": 23,
+      "accepted_approach_calls": 18,
+      "incomplete_approach_calls": 0,
+      "native_step_limit_cancellations": 0,
+      "actors_with_post_error_calls": 0,
+      "total_trusted_primitive_action_steps": 4096,
+      "scope": "Reused diagnostic layouts; no policy promotion",
+      "completed_record": "native-campaign/runs/bypass_lift_guard/completed.json"
+    }
+  ],
+  "paired_outcomes": [
+    {
+      "layout_id": 0,
+      "original_score_100": 0.0,
+      "bypass_score_100": 0.0,
+      "original_success": false,
+      "bypass_success": false,
+      "score_difference_100": 0.0,
+      "diagnostics": {
+        "original": {
+          "condition": "original",
+          "layout_id": 0,
+          "record": "native-campaign/runs/original/attempt-001/model/expert/41f71906eed64cb39f92cbb31e65ee72/0/policy/processes/isolated/process.json",
+          "record_sha256": "b2e0c7ae8541399a388b25a525389bc7aa38acaf7105ba4e4ca6177a4dc91258",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene"
+          ],
+          "call_count": 8,
+          "accepted_approaches": 3,
+          "rejected_approaches": 0,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 655,
+          "next_call_after_first_lift": null,
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        },
+        "bypass_lift_guard": {
+          "condition": "bypass_lift_guard",
+          "layout_id": 0,
+          "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/dd95cb2544f143af8a81cd99efa3729a/0/policy/processes/isolated/process.json",
+          "record_sha256": "faac42f43d273632ae7b9e3514524e5f11256aa92bedd2aaa651e330d216c6d7",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene",
+            "approach"
+          ],
+          "call_count": 9,
+          "accepted_approaches": 3,
+          "rejected_approaches": 1,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 655,
+          "next_call_after_first_lift": {
+            "args": [],
+            "id": 8,
+            "kind": "call",
+            "kwargs": {
+              "arm": "right",
+              "position_m": [
+                0.29367386294856457,
+                0.02833176037869356,
+                1.01
+              ],
+              "quaternion_wxyz": [
+                0.38141138529977936,
+                -0.6197184988732912,
+                0.37851129873090317,
+                0.5720170749645352
+              ]
+            },
+            "method": "approach"
+          },
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        }
+      },
+      "first_targets_equal": false,
+      "first_target_position_distance_m": 4.8633680713462086e-05,
+      "first_target_arm_equal": true,
+      "initial_scene_objects_exactly_equal": false,
+      "pre_guard_request_prefix_equal": false
+    },
+    {
+      "layout_id": 1,
+      "original_score_100": 0.0,
+      "bypass_score_100": 0.0,
+      "original_success": false,
+      "bypass_success": false,
+      "score_difference_100": 0.0,
+      "diagnostics": {
+        "original": {
+          "condition": "original",
+          "layout_id": 1,
+          "record": "native-campaign/runs/original/attempt-001/model/expert/1c7df7207d0542aca054dff39ec83fe3/0/policy/processes/isolated/process.json",
+          "record_sha256": "4927e95ee16e94994f34dfcebf4a9dfc3d6e48ca1a589a46f44a57eeac36b793",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene"
+          ],
+          "call_count": 8,
+          "accepted_approaches": 3,
+          "rejected_approaches": 0,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 635,
+          "next_call_after_first_lift": null,
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        },
+        "bypass_lift_guard": {
+          "condition": "bypass_lift_guard",
+          "layout_id": 1,
+          "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/3d7760eb9407469595e198e71061fe38/0/policy/processes/isolated/process.json",
+          "record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene",
+            "approach",
+            "gripper",
+            "approach"
+          ],
+          "call_count": 11,
+          "accepted_approaches": 4,
+          "rejected_approaches": 1,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 922,
+          "next_call_after_first_lift": {
+            "args": [],
+            "id": 8,
+            "kind": "call",
+            "kwargs": {
+              "arm": "left",
+              "position_m": [
+                -0.2939126493474134,
+                0.027950063281553583,
+                1.01
+              ],
+              "quaternion_wxyz": [
+                0.6130773077919165,
+                -0.35934531270739906,
+                0.6163777239676316,
+                0.33924277781895285
+              ]
+            },
+            "method": "approach"
+          },
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        }
+      },
+      "first_targets_equal": false,
+      "first_target_position_distance_m": 9.733780263624223e-05,
+      "first_target_arm_equal": true,
+      "initial_scene_objects_exactly_equal": false,
+      "pre_guard_request_prefix_equal": false
+    },
+    {
+      "layout_id": 2,
+      "original_score_100": 0.0,
+      "bypass_score_100": 0.0,
+      "original_success": false,
+      "bypass_success": false,
+      "score_difference_100": 0.0,
+      "diagnostics": {
+        "original": {
+          "condition": "original",
+          "layout_id": 2,
+          "record": "native-campaign/runs/original/attempt-001/model/expert/6c56dd5cdaf54f099145f69709ce9e87/0/policy/processes/isolated/process.json",
+          "record_sha256": "19a990958a468f67d66c747513db4167206b8fbbe4a73f3b26aff4250b7901d0",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene"
+          ],
+          "call_count": 8,
+          "accepted_approaches": 3,
+          "rejected_approaches": 0,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 635,
+          "next_call_after_first_lift": null,
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        },
+        "bypass_lift_guard": {
+          "condition": "bypass_lift_guard",
+          "layout_id": 2,
+          "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/b3a994d62428424a99e5915c667777ac/0/policy/processes/isolated/process.json",
+          "record_sha256": "0320cadf1f1a829b31a44d9044a13ad611541c55e15e9415c3c3f3867cb58a19",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene",
+            "approach"
+          ],
+          "call_count": 9,
+          "accepted_approaches": 3,
+          "rejected_approaches": 1,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 635,
+          "next_call_after_first_lift": {
+            "args": [],
+            "id": 8,
+            "kind": "call",
+            "kwargs": {
+              "arm": "right",
+              "position_m": [
+                -2.4558507623418998e-05,
+                0.027560336238434235,
+                1.01
+              ],
+              "quaternion_wxyz": [
+                0.38141138529977936,
+                -0.6197184988732912,
+                0.37851129873090317,
+                0.5720170749645352
+              ]
+            },
+            "method": "approach"
+          },
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        }
+      },
+      "first_targets_equal": false,
+      "first_target_position_distance_m": 4.717130573027373e-05,
+      "first_target_arm_equal": true,
+      "initial_scene_objects_exactly_equal": false,
+      "pre_guard_request_prefix_equal": false
+    },
+    {
+      "layout_id": 3,
+      "original_score_100": 0.0,
+      "bypass_score_100": 0.0,
+      "original_success": false,
+      "bypass_success": false,
+      "score_difference_100": 0.0,
+      "diagnostics": {
+        "original": {
+          "condition": "original",
+          "layout_id": 3,
+          "record": "native-campaign/runs/original/attempt-001/model/expert/c34dee3cee6948dd868557bce26a7270/0/policy/processes/isolated/process.json",
+          "record_sha256": "0d18b70974450ebf31397532c30e27a81979361c4a091146329e932173e026ea",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene"
+          ],
+          "call_count": 8,
+          "accepted_approaches": 3,
+          "rejected_approaches": 0,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 635,
+          "next_call_after_first_lift": null,
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        },
+        "bypass_lift_guard": {
+          "condition": "bypass_lift_guard",
+          "layout_id": 3,
+          "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/ecbeb3c4283e4ea5a1934a2c77846ca9/0/policy/processes/isolated/process.json",
+          "record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene",
+            "approach",
+            "gripper",
+            "approach"
+          ],
+          "call_count": 11,
+          "accepted_approaches": 4,
+          "rejected_approaches": 1,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 942,
+          "next_call_after_first_lift": {
+            "args": [],
+            "id": 8,
+            "kind": "call",
+            "kwargs": {
+              "arm": "left",
+              "position_m": [
+                -0.29401685014323153,
+                0.0281825445799615,
+                1.01
+              ],
+              "quaternion_wxyz": [
+                0.6130773077919165,
+                -0.35934531270739906,
+                0.6163777239676316,
+                0.33924277781895285
+              ]
+            },
+            "method": "approach"
+          },
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        }
+      },
+      "first_targets_equal": false,
+      "first_target_position_distance_m": 4.005737739927287e-05,
+      "first_target_arm_equal": true,
+      "initial_scene_objects_exactly_equal": false,
+      "pre_guard_request_prefix_equal": false
+    },
+    {
+      "layout_id": 4,
+      "original_score_100": 0.0,
+      "bypass_score_100": 15.0,
+      "original_success": false,
+      "bypass_success": false,
+      "score_difference_100": 15.0,
+      "diagnostics": {
+        "original": {
+          "condition": "original",
+          "layout_id": 4,
+          "record": "native-campaign/runs/original/attempt-001/model/expert/08a71b4144e14a91affdcdc487eb2bdf/0/policy/processes/isolated/process.json",
+          "record_sha256": "db378ca96af34375900acc91dd351e33425894433e6d93b4212daf1848ed608e",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene"
+          ],
+          "call_count": 8,
+          "accepted_approaches": 3,
+          "rejected_approaches": 0,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 635,
+          "next_call_after_first_lift": null,
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        },
+        "bypass_lift_guard": {
+          "condition": "bypass_lift_guard",
+          "layout_id": 4,
+          "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/71c413365eae42e58f0935e3777d58af/0/policy/processes/isolated/process.json",
+          "record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+          "methods": [
+            "scene",
+            "scene",
+            "gripper",
+            "approach",
+            "approach",
+            "gripper",
+            "approach",
+            "scene",
+            "approach",
+            "gripper",
+            "approach"
+          ],
+          "call_count": 11,
+          "accepted_approaches": 4,
+          "rejected_approaches": 1,
+          "incomplete_approaches": 0,
+          "native_step_limit_cancelled": false,
+          "completed_primitive_action_steps": 942,
+          "next_call_after_first_lift": {
+            "args": [],
+            "id": 8,
+            "kind": "call",
+            "kwargs": {
+              "arm": "left",
+              "position_m": [
+                -0.29394745096641844,
+                0.028069646969071493,
+                1.01
+              ],
+              "quaternion_wxyz": [
+                0.6130773077919165,
+                -0.35934531270739906,
+                0.6163777239676316,
+                0.33924277781895285
+              ]
+            },
+            "method": "approach"
+          },
+          "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+          "prefix_replay_eligible": true
+        }
+      },
+      "first_targets_equal": false,
+      "first_target_position_distance_m": 3.4859521594432264e-05,
+      "first_target_arm_equal": true,
+      "initial_scene_objects_exactly_equal": false,
+      "pre_guard_request_prefix_equal": false
+    }
+  ],
+  "actor_diagnostics": [
+    {
+      "condition": "original",
+      "layout_id": 1,
+      "record": "native-campaign/runs/original/attempt-001/model/expert/1c7df7207d0542aca054dff39ec83fe3/0/policy/processes/isolated/process.json",
+      "record_sha256": "4927e95ee16e94994f34dfcebf4a9dfc3d6e48ca1a589a46f44a57eeac36b793",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "call_count": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 635,
+      "next_call_after_first_lift": null,
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "original",
+      "layout_id": 0,
+      "record": "native-campaign/runs/original/attempt-001/model/expert/41f71906eed64cb39f92cbb31e65ee72/0/policy/processes/isolated/process.json",
+      "record_sha256": "b2e0c7ae8541399a388b25a525389bc7aa38acaf7105ba4e4ca6177a4dc91258",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "call_count": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 655,
+      "next_call_after_first_lift": null,
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "original",
+      "layout_id": 4,
+      "record": "native-campaign/runs/original/attempt-001/model/expert/08a71b4144e14a91affdcdc487eb2bdf/0/policy/processes/isolated/process.json",
+      "record_sha256": "db378ca96af34375900acc91dd351e33425894433e6d93b4212daf1848ed608e",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "call_count": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 635,
+      "next_call_after_first_lift": null,
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "original",
+      "layout_id": 2,
+      "record": "native-campaign/runs/original/attempt-001/model/expert/6c56dd5cdaf54f099145f69709ce9e87/0/policy/processes/isolated/process.json",
+      "record_sha256": "19a990958a468f67d66c747513db4167206b8fbbe4a73f3b26aff4250b7901d0",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "call_count": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 635,
+      "next_call_after_first_lift": null,
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "original",
+      "layout_id": 3,
+      "record": "native-campaign/runs/original/attempt-001/model/expert/c34dee3cee6948dd868557bce26a7270/0/policy/processes/isolated/process.json",
+      "record_sha256": "0d18b70974450ebf31397532c30e27a81979361c4a091146329e932173e026ea",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene"
+      ],
+      "call_count": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 635,
+      "next_call_after_first_lift": null,
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout_id": 0,
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/dd95cb2544f143af8a81cd99efa3729a/0/policy/processes/isolated/process.json",
+      "record_sha256": "faac42f43d273632ae7b9e3514524e5f11256aa92bedd2aaa651e330d216c6d7",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene",
+        "approach"
+      ],
+      "call_count": 9,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 655,
+      "next_call_after_first_lift": {
+        "args": [],
+        "id": 8,
+        "kind": "call",
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            0.29367386294856457,
+            0.02833176037869356,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        "method": "approach"
+      },
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout_id": 1,
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/3d7760eb9407469595e198e71061fe38/0/policy/processes/isolated/process.json",
+      "record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene",
+        "approach",
+        "gripper",
+        "approach"
+      ],
+      "call_count": 11,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 922,
+      "next_call_after_first_lift": {
+        "args": [],
+        "id": 8,
+        "kind": "call",
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.2939126493474134,
+            0.027950063281553583,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        "method": "approach"
+      },
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout_id": 2,
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/b3a994d62428424a99e5915c667777ac/0/policy/processes/isolated/process.json",
+      "record_sha256": "0320cadf1f1a829b31a44d9044a13ad611541c55e15e9415c3c3f3867cb58a19",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene",
+        "approach"
+      ],
+      "call_count": 9,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 635,
+      "next_call_after_first_lift": {
+        "args": [],
+        "id": 8,
+        "kind": "call",
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            -2.4558507623418998e-05,
+            0.027560336238434235,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        "method": "approach"
+      },
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout_id": 4,
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/71c413365eae42e58f0935e3777d58af/0/policy/processes/isolated/process.json",
+      "record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene",
+        "approach",
+        "gripper",
+        "approach"
+      ],
+      "call_count": 11,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 942,
+      "next_call_after_first_lift": {
+        "args": [],
+        "id": 8,
+        "kind": "call",
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29394745096641844,
+            0.028069646969071493,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        "method": "approach"
+      },
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout_id": 3,
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/ecbeb3c4283e4ea5a1934a2c77846ca9/0/policy/processes/isolated/process.json",
+      "record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+      "methods": [
+        "scene",
+        "scene",
+        "gripper",
+        "approach",
+        "approach",
+        "gripper",
+        "approach",
+        "scene",
+        "approach",
+        "gripper",
+        "approach"
+      ],
+      "call_count": 11,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_action_steps": 942,
+      "next_call_after_first_lift": {
+        "args": [],
+        "id": 8,
+        "kind": "call",
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29401685014323153,
+            0.0281825445799615,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        "method": "approach"
+      },
+      "physical_grasp": "unknown_without_video_or_independent_physical_measurement",
+      "prefix_replay_eligible": true
+    }
+  ],
+  "counterfactual_replays": [
+    {
+      "observation_condition": "original",
+      "layout_id": 1,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/original_layout_1_as_original.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 1,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29389503196227157,
+            0.02797762181156166,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "path": "replays/original_layout_1_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 0,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/original_layout_0_as_original.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 0,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            0.2936337225476239,
+            0.028320164697258288,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      },
+      "path": "replays/original_layout_0_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 4,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/original_layout_4_as_original.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 4,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29394335432702956,
+            0.028102289139499192,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "path": "replays/original_layout_4_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 2,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/original_layout_2_as_original.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 2,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            -1.5837252031768672e-05,
+            0.027544144577495655,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      },
+      "path": "replays/original_layout_2_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 3,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/original_layout_3_as_original.json"
+    },
+    {
+      "observation_condition": "original",
+      "layout_id": 3,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.2940687582365394,
+            0.028190570661576653,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "path": "replays/original_layout_3_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 0,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/bypass_lift_guard_layout_0_as_original.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 0,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            0.29367386294856457,
+            0.02833176037869356,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      },
+      "path": "replays/bypass_lift_guard_layout_0_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 1,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/bypass_lift_guard_layout_1_as_original.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 1,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.2939126493474134,
+            0.027950063281553583,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "path": "replays/bypass_lift_guard_layout_1_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 2,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/bypass_lift_guard_layout_2_as_original.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 2,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            -2.4558507623418998e-05,
+            0.027560336238434235,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        }
+      },
+      "path": "replays/bypass_lift_guard_layout_2_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 4,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/bypass_lift_guard_layout_4_as_original.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 4,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29394745096641844,
+            0.028069646969071493,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "path": "replays/bypass_lift_guard_layout_4_as_bypass_lift_guard.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 3,
+      "candidate": "original",
+      "state": "returned",
+      "next_call": null,
+      "path": "replays/bypass_lift_guard_layout_3_as_original.json"
+    },
+    {
+      "observation_condition": "bypass_lift_guard",
+      "layout_id": 3,
+      "candidate": "bypass_lift_guard",
+      "state": "next_unobserved_call_requested",
+      "next_call": {
+        "method": "approach",
+        "args": [],
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.29401685014323153,
+            0.0281825445799615,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        }
+      },
+      "path": "replays/bypass_lift_guard_layout_3_as_bypass_lift_guard.json"
+    }
+  ],
+  "skipped_replay_inputs": [],
+  "interpretation_limits": [
+    "Native outcomes are measured; replay next-call requests are not physical outcomes.",
+    "Physical grasp remains unknown unless supported by separately reviewed video or an independent physical observer.",
+    "One diagnostic guard bypass, no generated-policy promotion; same five historical layouts.",
+    "Use paired initial scene/target comparisons to assess runtime variation; do not assume identical observations."
+  ]
+}

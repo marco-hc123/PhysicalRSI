@@ -1,0 +1,11 @@
+--- original.py
++++ remove_xy_only.py
+@@ -122,7 +122,7 @@
+ 
+             # Joint settling is not grasp evidence. Require visible upward motion.
+             lifted_scene = read_scene()
+-            lifted = [o for o in lifted_scene if o['category'] == category and (o['p'][0]-x)**2 + (o['p'][1]-y)**2 < 0.0036 and o['p'][2] > z + 0.025]
++            lifted = [o for o in lifted_scene if o['category'] == category and o['p'][2] > z + 0.025]
+             if len(lifted) != 1:
+                 return
+             move(arm, bx, by, 1.01)

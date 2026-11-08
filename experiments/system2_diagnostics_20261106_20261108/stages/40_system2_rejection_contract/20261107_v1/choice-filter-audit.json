@@ -1,0 +1,195 @@
+{
+  "state": "passed",
+  "native_replays": 5,
+  "counterfactual_prefixes": 0,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "gpu_used": false,
+  "rows": [
+    {
+      "layout_id": 0,
+      "actor": "50dec6eb2a3a4d5a8bbcacff5196b2f1",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 42,
+      "exact_native_termination_reproduced": true,
+      "reason": "no_eligible_visible_choice",
+      "trace": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 5,
+          "attempted": 5,
+          "choices": 0,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "terminal_choice_filters": [
+        {
+          "category": "pen",
+          "position": [
+            -0.06927626219628664,
+            -0.06156411711022375,
+            0.771
+          ],
+          "reason": "near_previous_attempt",
+          "near": [
+            {
+              "category": "pen",
+              "position": [
+                -0.09313497391717396,
+                -0.052220273421118624
+              ],
+              "distance_m": 0.025623144613158535
+            },
+            {
+              "category": "pen",
+              "position": [
+                -0.043716024708539206,
+                -0.08051031523662677
+              ],
+              "distance_m": 0.03181641343512758
+            }
+          ]
+        },
+        {
+          "category": "toy_car",
+          "position": [
+            0.14374289790642164,
+            -0.10183265159262017,
+            0.785
+          ],
+          "reason": "near_previous_attempt",
+          "near": [
+            {
+              "category": "toy_car",
+              "position": [
+                0.11698203275597942,
+                -0.106902415754559
+              ],
+              "distance_m": 0.027236857606152593
+            }
+          ]
+        },
+        {
+          "category": "watch",
+          "position": [
+            0.40260842489208093,
+            -0.0933625788771163,
+            0.7775
+          ],
+          "reason": "category_not_assigned"
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 1,
+      "actor": "55c6d87acb544e2a9fc19ba3b7c35d12",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 41,
+      "exact_native_termination_reproduced": true,
+      "reason": "explicit_planning_rejection_after_structured_feedback",
+      "trace": [
+        {
+          "event": "return",
+          "line": 134,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "terminal_choice_filters": [],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 2,
+      "actor": "e09c9c67804347e28ea41422f013da61",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 25,
+      "exact_native_termination_reproduced": true,
+      "reason": "explicit_planning_rejection_after_structured_feedback",
+      "trace": [
+        {
+          "event": "return",
+          "line": 134,
+          "source_line": "return",
+          "turn": 2,
+          "attempted": 3,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "terminal_choice_filters": [],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 3,
+      "actor": "0f28b59d549d4425aef32b47a821833c",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 49,
+      "exact_native_termination_reproduced": true,
+      "reason": "six_turn_limit",
+      "trace": [
+        {
+          "event": "return",
+          "line": 82,
+          "source_line": "for turn in range(6):",
+          "turn": 5,
+          "attempted": 6,
+          "choices": 2,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "terminal_choice_filters": [],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 4,
+      "actor": "e6fa8810e42d42e0b914e0e2038b0dae",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 41,
+      "exact_native_termination_reproduced": true,
+      "reason": "explicit_planning_rejection_after_structured_feedback",
+      "trace": [
+        {
+          "event": "return",
+          "line": 134,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "terminal_choice_filters": [],
+      "next_unrecorded_request": []
+    }
+  ],
+  "limits": [
+    "Counterfactual next call has no response; no trajectory or score is inferred.",
+    "This diagnoses the saved experiment integration contract, not all upstream PhysicalRSI versions."
+  ]
+}

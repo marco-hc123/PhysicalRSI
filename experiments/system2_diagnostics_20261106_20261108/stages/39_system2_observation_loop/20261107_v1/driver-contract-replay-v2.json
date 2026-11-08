@@ -1,0 +1,337 @@
+{
+  "state": "passed",
+  "native_replays": 5,
+  "counterfactual_prefixes": 5,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "gpu_used": false,
+  "rows": [
+    {
+      "layout_id": 0,
+      "actor": "26be61916bb543539e89eddc0e2a420b",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 34,
+      "exact_native_termination_reproduced": true,
+      "reason": "no_eligible_visible_choice",
+      "trace": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 4,
+          "choices": 0,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 0,
+      "actor": "26be61916bb543539e89eddc0e2a420b",
+      "mode": "structured_rejection_return",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 34,
+      "exact_native_termination_reproduced": false,
+      "reason": "no_eligible_visible_choice",
+      "trace": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 4,
+          "choices": 0,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 1,
+      "actor": "40d775a955ce412eb76b73cd12e68906",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 35,
+      "exact_native_termination_reproduced": true,
+      "reason": "wrapper_converts_rejection_to_exception_candidate_catches_and_returns",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 118,
+          "source_line": "if move(candidate, [x, y, clearance_z]):",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": "RuntimeError",
+          "message": "No collision-free path; no action executed by this call"
+        },
+        {
+          "event": "return",
+          "line": 138,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 1,
+      "actor": "40d775a955ce412eb76b73cd12e68906",
+      "mode": "structured_rejection_return",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 35,
+      "exact_native_termination_reproduced": false,
+      "reason": "unrecorded_next_call_no_counterfactual_outcome",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 118,
+          "source_line": "if move(candidate, [x, y, clearance_z]):",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": "TapeBoundary",
+          "message": "No saved response; no outcome inferred"
+        },
+        {
+          "event": "return",
+          "line": 136,
+          "source_line": "except Exception:",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": [
+        {
+          "kind": "call",
+          "id": 35,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "position_m": [
+              0.04471197376613735,
+              -0.09699388145228977,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.38141138529977936,
+              -0.6197184988732912,
+              0.37851129873090317,
+              0.5720170749645352
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "layout_id": 2,
+      "actor": "4c8faa4b91d04af0bbbab50182c0c676",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 18,
+      "exact_native_termination_reproduced": true,
+      "reason": "no_eligible_visible_choice",
+      "trace": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 2,
+          "attempted": 2,
+          "choices": 0,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 2,
+      "actor": "4c8faa4b91d04af0bbbab50182c0c676",
+      "mode": "structured_rejection_return",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 18,
+      "exact_native_termination_reproduced": false,
+      "reason": "no_eligible_visible_choice",
+      "trace": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 2,
+          "attempted": 2,
+          "choices": 0,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 3,
+      "actor": "92047decefde4813ac8c45b1c749f011",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 34,
+      "exact_native_termination_reproduced": true,
+      "reason": "no_eligible_visible_choice",
+      "trace": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 4,
+          "choices": 0,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 3,
+      "actor": "92047decefde4813ac8c45b1c749f011",
+      "mode": "structured_rejection_return",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 34,
+      "exact_native_termination_reproduced": false,
+      "reason": "no_eligible_visible_choice",
+      "trace": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 4,
+          "choices": 0,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 4,
+      "actor": "ffce37937b674cda8e1b7d1064ce63ca",
+      "mode": "recorded_native_wrapper",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "matched_recorded_calls": 35,
+      "exact_native_termination_reproduced": true,
+      "reason": "wrapper_converts_rejection_to_exception_candidate_catches_and_returns",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 118,
+          "source_line": "if move(candidate, [x, y, clearance_z]):",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": "RuntimeError",
+          "message": "No collision-free path; no action executed by this call"
+        },
+        {
+          "event": "return",
+          "line": 138,
+          "source_line": "return",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": []
+    },
+    {
+      "layout_id": 4,
+      "actor": "ffce37937b674cda8e1b7d1064ce63ca",
+      "mode": "structured_rejection_return",
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "wrapper_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+      "tested_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "matched_recorded_calls": 35,
+      "exact_native_termination_reproduced": false,
+      "reason": "unrecorded_next_call_no_counterfactual_outcome",
+      "trace": [
+        {
+          "event": "exception",
+          "line": 118,
+          "source_line": "if move(candidate, [x, y, clearance_z]):",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": "TapeBoundary",
+          "message": "No saved response; no outcome inferred"
+        },
+        {
+          "event": "return",
+          "line": 136,
+          "source_line": "except Exception:",
+          "turn": 4,
+          "attempted": 5,
+          "choices": 1,
+          "exception": null,
+          "message": null
+        }
+      ],
+      "next_unrecorded_request": [
+        {
+          "kind": "call",
+          "id": 35,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.2920345381977703,
+              -0.14470123302195104,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "correction": "terminal-replay.json v1 omitted the saved child-wrapper exception semantics and used a catchable AssertionError at the tape boundary. Its claimed exact termination for layouts1,4 is superseded. Scores and original records are unchanged.",
+  "limits": [
+    "Counterfactual next call has no response; no trajectory or score is inferred.",
+    "This diagnoses the saved experiment integration contract, not all upstream PhysicalRSI versions."
+  ]
+}

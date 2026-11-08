@@ -1,0 +1,11 @@
+结构化规划拒绝：5个新增原生回合
+
+仅更改子进程包装层的零动作规划拒绝返回约定；候选源码和memory与阶段39完全相同。布局、评分、1100步保持不变。阶段39的5个对照明确复用，不重复累计。
+新组：{"condition": "structured_rejection", "cases": 5, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "successes": 0, "cohort_wall_seconds": 1009.6068401560005, "close_commands": 24, "completed_approaches": 93, "rejected_approaches": 6, "active_budget_cancel": 0, "transport_attempts": 24, "transport_completed": 21, "completed_primitive_action_steps": 1015}
+已有对照：{"condition": "fixed_six_turns", "cases": 5, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "successes": 0, "cohort_wall_seconds": 995.492565462001, "close_commands": 18, "completed_approaches": 72, "rejected_approaches": 2, "active_budget_cancel": 0, "transport_attempts": 18, "transport_completed": 18, "transport_rejected": 0, "completed_primitive_action_steps": 826}
+差异：{"mean_score_delta": 0.0, "success_delta": 0, "any_positive_score_delta": false, "alternate_arm_requests": 3, "completed_alternate_approaches": 3}
+
+此前一次部署在日志目录创建前失败，5次初始化没有候选执行、没有有效回合，不能计作5个策略0分。已保留原始错误与仅创建日志目录的修复。
+本轮API调用0，未重新生成候选或训练，也没有策略晋升。人工修复接口后发生的变化不能直接归功于System2自动改进。详细机制分析见INTERPRETATION.txt。
+
+完整判断与下一步变量设计：INTERPRETATION.txt。历史能力反馈更正：HISTORICAL_CONTRACT_CORRECTION.txt。

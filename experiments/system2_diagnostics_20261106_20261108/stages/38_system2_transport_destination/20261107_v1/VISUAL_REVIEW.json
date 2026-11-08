@@ -1,0 +1,12 @@
+{
+  "reviewed_utc": "2026-11-07T06:34:58.033400+00:00",
+  "task": "classify_objects",
+  "layout_id": 2,
+  "condition": "offset_transport",
+  "reviewed_frames": [
+    "transport-video-review/offset_layout2_first_release.png",
+    "transport-video-review/offset_layout2_final.png"
+  ],
+  "finding": "At release and final frame, objects remain on table/in front of basket. Do not interpret completed transport as successful placement.",
+  "limits": "One illustrative case; object identity/coordinates rely on qualified sidecar association. Images do not independently prove grasp-force failure."
+}

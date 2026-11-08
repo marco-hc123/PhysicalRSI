@@ -1,0 +1,112 @@
+[
+  {
+    "condition": "original",
+    "task": "classify_objects",
+    "layout": 4,
+    "frame": 1100,
+    "camera": "head",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/new_original_layout4_head_frame1100.png",
+    "image_sha256": "eccb5d6209cb93503f0bcb95196153ec015a45959706ae33798b2f52cca8044f",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/native-campaign/runs/original/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-314deda14ac446dcc7527becf8521240/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "26f5c0a435dc249f7411854f34091ff5ec278149e6a1c4b4eea1a14487877038",
+    "video_metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "avg_frame_rate": "25/1",
+          "duration": "44.040000",
+          "nb_frames": "1101"
+        }
+      ]
+    },
+    "note": "Encoded frame index; selection near primitive step count is approximate, not separately calibrated physical time. Native official scoring unchanged."
+  },
+  {
+    "condition": "bypass_lift_guard",
+    "task": "classify_objects",
+    "layout": 4,
+    "frame": 635,
+    "camera": "head",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/new_bypass_lift_guard_layout4_head_frame0635.png",
+    "image_sha256": "1a0a91f3e0804103ae67f8d557c2ed5f6bfa83c26bef6ba4d6a625a9c87f91ee",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3ac89ce305bc1fae71201f0005963116/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "1f48ed5016062968387d2caf49f6580d5c5a2bdeaf2b1508ad33989fa2e1c652",
+    "video_metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "avg_frame_rate": "25/1",
+          "duration": "44.040000",
+          "nb_frames": "1101"
+        }
+      ]
+    },
+    "note": "Encoded frame index; selection near primitive step count is approximate, not separately calibrated physical time. Native official scoring unchanged."
+  },
+  {
+    "condition": "bypass_lift_guard",
+    "task": "classify_objects",
+    "layout": 4,
+    "frame": 942,
+    "camera": "head",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/new_bypass_lift_guard_layout4_head_frame0942.png",
+    "image_sha256": "894947bfe844dc756c943c699ffcfe52d0a16944c66c197320441945dea50751",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3ac89ce305bc1fae71201f0005963116/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "1f48ed5016062968387d2caf49f6580d5c5a2bdeaf2b1508ad33989fa2e1c652",
+    "video_metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "avg_frame_rate": "25/1",
+          "duration": "44.040000",
+          "nb_frames": "1101"
+        }
+      ]
+    },
+    "note": "Encoded frame index; selection near primitive step count is approximate, not separately calibrated physical time. Native official scoring unchanged."
+  },
+  {
+    "condition": "bypass_lift_guard",
+    "task": "classify_objects",
+    "layout": 4,
+    "frame": 1100,
+    "camera": "head",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/new_bypass_lift_guard_layout4_head_frame1100.png",
+    "image_sha256": "447e4a4afbb9667572a54bbff200d9082b9e896c1e1cb059daaad7a112074d95",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3ac89ce305bc1fae71201f0005963116/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "1f48ed5016062968387d2caf49f6580d5c5a2bdeaf2b1508ad33989fa2e1c652",
+    "video_metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "avg_frame_rate": "25/1",
+          "duration": "44.040000",
+          "nb_frames": "1101"
+        }
+      ]
+    },
+    "note": "Encoded frame index; selection near primitive step count is approximate, not separately calibrated physical time. Native official scoring unchanged."
+  },
+  {
+    "condition": "bypass_lift_guard",
+    "task": "classify_objects",
+    "layout": 0,
+    "frame": 1100,
+    "camera": "head",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/new_bypass_lift_guard_layout0_head_frame1100.png",
+    "image_sha256": "eaf1751fe28c6fd9229323b7bd183c4f6e4e737969a0d4f473a7ef9e2c361672",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3ac89ce305bc1fae71201f0005963116/episode_0000000_cam_head_fail.mp4",
+    "video_sha256": "87c0f8e5f274ca6f0cea05cbdb69113aaf9e0b9f44c29a6c89767b8aa079e5fd",
+    "video_metadata": {
+      "programs": [],
+      "streams": [
+        {
+          "avg_frame_rate": "25/1",
+          "duration": "44.040000",
+          "nb_frames": "1101"
+        }
+      ]
+    },
+    "note": "Encoded frame index; selection near primitive step count is approximate, not separately calibrated physical time. Native official scoring unchanged."
+  }
+]

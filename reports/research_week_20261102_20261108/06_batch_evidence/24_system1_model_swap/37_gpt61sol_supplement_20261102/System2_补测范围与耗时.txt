@@ -1,0 +1,46 @@
+# System 2 补测范围与耗时评估
+
+## Material Passport
+- Origin Skill: academic-research-suite / experiment-agent
+- Origin Mode: plan
+- Origin Date: 2026-11-02（北京时间）
+- Verification Status: UNVERIFIED（后续实验方案尚未执行；历史日志已核对）
+- Version Label: system2_scope_timing_v1
+
+## 已完成的证据
+旧 System 2 使用 qwen3.7-plus / thinking，已完成两轮。每轮父策略和候选各验证5例，均0成功、0分，保留父pi05。
+本次 GPT-6.1 Sol 补测为 System 1：高层选择已有技能。它没有替换或检验 System 2 的候选生成器。
+
+## 时间依据
+云端 Run31 的 iteration-result.json 记录 elapsed_s=2645.9034，约44.10分钟；native-budget.json 显示新增10个原生验证回合。该续接已经复用开发证据及提案，不包括重新生成候选的全成本。
+本轮 GPT System1 两任务的组级墙钟为1282.881秒和1106.992秒，共约39.83分钟，10个回合。
+历史两轮完整流程的原生批次计时约9920.78秒；两份正式提案HTTP合计约741.56秒。范围和重叠不完全相同，不能直接相加冒充精确完整墙钟。
+因此按当前L20串行运行，以约4分钟/回合估计，再预留生成、CPU门禁、模型加载和归档时间。
+
+## 可选择的范围（估计，不是已启动任务）
+1. 最小模型替换补测：复用冻结开发证据；一个任务生成一个GPT候选；父策略和候选在相同5个验证布局各运行一次，共10个新原生回合。预计60–90分钟。
+2. 完整一轮：从头重跑两个VLA的开发评估各5例，再做父策略与候选验证各5例，共约20个新原生回合。预计1.5–2.5小时。
+3. 从头完整两轮：约40个新原生回合。预计3–4小时。
+以上以依赖和执行接口可用为条件；生成/契约失败时保留失败，不承诺一定运行到全部回合，更不承诺提升。
+
+## 最小补测的控制条件
+问题：在已有工作流内，仅将候选生成模型由千问换为GPT，是否改变候选有效性和验证表现？
+处理变量：生成模型/供应商及必要的兼容参数；计划继续使用GPT-6.1 Sol。
+保持条件：冻结开发证据、父策略、技能和primitive接口、候选数量、提示词语义、验证布局、评分、1100步上限、0.04秒控制间隔及选择规则。
+指标：候选有效性、原生成功与Score、异常、实际HTTP、input/output/cached/reasoning Token及完整墙钟。以布局为单位报告全部成功与失败，不重跑挑最好。
+候选先经语法和接口门禁；验证结果平分保留父策略。仅5个验证布局属于pilot，不作总体显著优越的推断。
+具体启动命令与冻结配置尚未生成；本文件不作为已派发或已完成实验的证明。
+
+## 对是否继续的判断
+若目标是说明已完成的复现，现有两轮负结果足以汇报，无需为补齐流程重跑。
+若目标是补齐GPT对System2的影响，可选择最小模型替换补测。
+若目标是检验自主改进能力，则优先补当前代码、前次失败候选和结构化执行反馈，并检查动作完成/错误回传；这属于另一个干预，不能与单纯换模型混在同一对照里。相应开发时间不包含在上述仿真估时内。
+
+## 证据来源
+PhysicalRSI_report/tables/system2_rounds.csv
+PhysicalRSI_report/tables/system2-proposal-details.csv
+PhysicalRSI_report/report/05_逐阶段完整复核与补充分析.md，第11节
+PhysicalRSI_report/report/08_证据链与失败机制逐项分析.md，第7–8节
+云端 /mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/iteration-result.json
+云端同目录 native-budget.json、protocol.json
+补充实验_GPT61Sol_2026-11-02/group-results.csv

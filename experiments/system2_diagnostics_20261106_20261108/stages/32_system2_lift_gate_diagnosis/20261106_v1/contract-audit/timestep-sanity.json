@@ -1,0 +1,89 @@
+{
+  "state": "static_configuration_check_completed",
+  "recorded_utc": "2026-11-06T04:08:37.960674+00:00",
+  "sources": [
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env_cfg/arx_x5.yml",
+      "sha256": "7691350159fdeca92fd1b0b2da36913464ccdea3f3251eefb0176aa51db0807f",
+      "excerpts": [
+        {
+          "line": 4,
+          "text": "  sim: sim_config"
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env_cfg/sim/sim_config.yml",
+      "sha256": "e442ede1c3d90fcfb50b9461c854d31b22dad9bfbb23397db228b27a6a486963",
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "decimation: 1"
+        },
+        {
+          "line": 2,
+          "text": "dt: 0.004"
+        },
+        {
+          "line": 3,
+          "text": "render_interval: 10"
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env/environment/base_env.py",
+      "sha256": "ade58ebc19c79bdbf720def30786a0c397b1c7d2141fb6a1bfd63c80f8a3db8e",
+      "excerpts": [
+        {
+          "line": 123,
+          "text": "        self.sim_cfg.decimation = config.decimation"
+        },
+        {
+          "line": 124,
+          "text": "        self.sim_cfg.sim.dt = config.get(\"dt\", 1 / 60)"
+        },
+        {
+          "line": 125,
+          "text": "        self.sim_cfg.sim.render_interval = config.get(\"render_interval\", 1)"
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env/environment/isaac/direct_rl_env.py",
+      "sha256": "151096897a8da352aed474dc840a74a02164af422af7fa9cae38a9681871b0ca",
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "    def sim_step(self, render: bool = True):"
+        },
+        {
+          "line": 8,
+          "text": "        for _ in range(self.cfg.decimation):"
+        },
+        {
+          "line": 11,
+          "text": "            self.sim.step(render=False)"
+        }
+      ]
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/16_system2_integration/25_system2_integration_20261030T050100Z/integration-sources/step4_native_primitives_v3.py",
+      "sha256": "e34a6244a8497c5a08d5cbaad7f51b3f9889f907934209f35f5121445fa7ff49",
+      "excerpts": [
+        {
+          "line": 34,
+          "text": "            all_joints=['joint'+str(i) for i in range(1,7)],dt=.004,"
+        }
+      ]
+    }
+  ],
+  "simulator_dt_seconds": 0.004,
+  "simulator_decimation": 1,
+  "native_planner_dt_seconds": 0.004,
+  "conclusion": "No timestep mismatch is apparent in these frozen configuration and adapter sources. This does not establish full dynamic correctness or explain all large trajectory lengths.",
+  "limits": [
+    "Read-only source check, zero new simulation or solver calls.",
+    "No claim that encoded video time equals physical or wall-clock time.",
+    "Episode warmup/reset/substeps and actual runtime overrides were not independently reconstructed here; do not derive total physical duration from this check."
+  ]
+}

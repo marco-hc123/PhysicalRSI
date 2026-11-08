@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source_entries": 232045,
+  "columns": [
+    "source_path",
+    "sha256",
+    "bytes",
+    "source_mtime_ns",
+    "publication_kind",
+    "repository_path",
+    "hash_basis",
+    "reason"
+  ],
+  "shards": [
+    {
+      "path": "provenance/week-source-index-20261108/index-001.csv.gz",
+      "sha256": "ee77d3dfe79a8a312767a660f9f19aee8003e08cc5f86d7de2557d7d9bb87c48",
+      "bytes": 1074487,
+      "decoded_bytes": 8888917,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-002.csv.gz",
+      "sha256": "ec9aa0458175e7cfb7b4a77bf6569cb53db29d3c76bbe8e24ab95857a3198510",
+      "bytes": 805305,
+      "decoded_bytes": 8431656,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-003.csv.gz",
+      "sha256": "6ea60768978726826f38026369748c4bb7c9e67d4299f464aa2e2c5ea65077c2",
+      "bytes": 1088405,
+      "decoded_bytes": 9784581,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-004.csv.gz",
+      "sha256": "35d4a358d882ea38dadc9e6c2854f4c36d9cee535d2d5051a9bd1669de7e9f97",
+      "bytes": 1088939,
+      "decoded_bytes": 9540770,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-005.csv.gz",
+      "sha256": "f97324e405185de3a1bb082f5c092a32a85e66e4bc2d2e88299a143fa75ef0d3",
+      "bytes": 1070622,
+      "decoded_bytes": 9464041,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-006.csv.gz",
+      "sha256": "4135395b8d1e4e3a59d235f81f3f74281933281d4a5a70a1dfdac5efffae9b26",
+      "bytes": 1116810,
+      "decoded_bytes": 9343431,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-007.csv.gz",
+      "sha256": "74cf11adb251b80dea317d9c7654d1530c089b7204e9dc2188329bfbb258d108",
+      "bytes": 1129309,
+      "decoded_bytes": 9757782,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-008.csv.gz",
+      "sha256": "cbdfdc895f79e5c582aefc01f1f7397ba83d76c818cd6e8d0eac3417d7b055cd",
+      "bytes": 1125435,
+      "decoded_bytes": 9668005,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-009.csv.gz",
+      "sha256": "ec038105272777ee0237a47752d7496e790cbc8a320f14dcc7cc3d9d6f6aa27e",
+      "bytes": 1104628,
+      "decoded_bytes": 9957056,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-010.csv.gz",
+      "sha256": "6b433688a80d1df1c15da3e7faca04a52582c94703fbc99bffc95125de5b29ff",
+      "bytes": 1106115,
+      "decoded_bytes": 10006781,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-011.csv.gz",
+      "sha256": "a091b756e0c667f36734ae24a8d6e58dcce6e46ce4c3fd064da5081fd9fad56e",
+      "bytes": 1094612,
+      "decoded_bytes": 10269653,
+      "rows": 20000
+    },
+    {
+      "path": "provenance/week-source-index-20261108/index-012.csv.gz",
+      "sha256": "f6f846c301c424396825b83d6ca9a1b4b721a833bf8b49c04c3a881e23f69d4a",
+      "bytes": 557182,
+      "decoded_bytes": 5407258,
+      "rows": 12045
+    }
+  ],
+  "scope": "Exact-path publication disposition; original text hashes and external binary metadata remain distinct."
+}

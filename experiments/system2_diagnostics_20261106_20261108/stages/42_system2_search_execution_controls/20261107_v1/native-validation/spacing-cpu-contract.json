@@ -1,0 +1,1310 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T10:32:22.863724+00:00",
+  "candidate_module_sha256": "600635b541a97272cd261db39f35f6a72246be02f1c38a993e07d37965c3bf54",
+  "paths": 81,
+  "passed": 81,
+  "rejected": 0,
+  "native_episodes": 0,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Tests all stored successful parent paths, including open-gripper moves; actual intervention would apply only while commanded closed. Path fidelity check, not physical efficacy.",
+  "rows": [
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0001.json",
+      "source_sha256": "8088ca3c28a1480595014d52fc815dc9acf04341378169e4453b97c2491314d3",
+      "baseline_waypoints": 16,
+      "state": "passed",
+      "new_waypoints": 33,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05989580601453781,
+        "max_chord_deviation_rad": 1.5302212390835845e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0002.json",
+      "source_sha256": "852083e9fed6ae557b4eda65b1060bcb9b9dfcf023e28b5a52907382fe9ecffd",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05883944034576416,
+        "max_chord_deviation_rad": 8.110890016634238e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0003.json",
+      "source_sha256": "c0bc0af5894defa033e8c4526f11ac773d7b8e3e01e075062cfc22bca56cd687",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05929160118103027,
+        "max_chord_deviation_rad": 7.530157549840875e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0004.json",
+      "source_sha256": "500dad53ad865627a0d6a908b998aaab509d6b38f8333acd170ddd3ee28f01b4",
+      "baseline_waypoints": 7,
+      "state": "passed",
+      "new_waypoints": 14,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059731483459472656,
+        "max_chord_deviation_rad": 7.266381726522483e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0005.json",
+      "source_sha256": "9a85df686dfc1a95c575e314f8262f3b5d4ee40c5f610e41fe0f68658f1c2efb",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059372782707214355,
+        "max_chord_deviation_rad": 6.535890914301928e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0006.json",
+      "source_sha256": "17f6ae2be77fd4f09c08d42d52db93d6634c0738180319e8eee1a6d6948e0c38",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05877840518951416,
+        "max_chord_deviation_rad": 4.76892752008691e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0007.json",
+      "source_sha256": "d899c6c7d2f832fc011940355cee9feb321d48356129a413457ecf9b4258d309",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.0593876838684082,
+        "max_chord_deviation_rad": 2.6593425483808228e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0008.json",
+      "source_sha256": "d1efea9c1c2c5d1222fabb2e5da504427a5b9618abb8388422c896f12ac2d1b7",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059764862060546875,
+        "max_chord_deviation_rad": 6.721108973710421e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0009.json",
+      "source_sha256": "0b792ff2e9c5660db0118807018b735b238e535ae950f75fa01836cb35885788",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05974936485290527,
+        "max_chord_deviation_rad": 6.561101572068531e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0010.json",
+      "source_sha256": "a7573c918f3ceea9f8d0d1a62a3bc05723051d292148e972118faae5eab7ef08",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05914270877838135,
+        "max_chord_deviation_rad": 4.935165296911974e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0011.json",
+      "source_sha256": "7b2ed848d21ded78f6b9a20bdf8e4bf69a2d1101a619864d1e211eab8b20cbeb",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05991709232330322,
+        "max_chord_deviation_rad": 7.073608827621973e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0012.json",
+      "source_sha256": "d484887bb5240f4b7dc58f1890cc06de2613277ad1fda487b619b93f8ed1c436",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 8,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059578895568847656,
+        "max_chord_deviation_rad": 6.187427275145853e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0013.json",
+      "source_sha256": "359103342f05829c8408001a744e26e96b389e7f0123ca5c0f81e7690c06ebf6",
+      "baseline_waypoints": 20,
+      "state": "passed",
+      "new_waypoints": 42,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.0597531795501709,
+        "max_chord_deviation_rad": 1.7486582913995435e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0014.json",
+      "source_sha256": "b9d8dac80c5442ab7c089772bdc686451857404c4857b83ae907a6102f2c03da",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059873104095458984,
+        "max_chord_deviation_rad": 9.029229728991389e-06,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0015.json",
+      "source_sha256": "2f2bf3a717de61a783225aa570a03f9b90c65797b03881163245385bcd98f7bc",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05926477909088135,
+        "max_chord_deviation_rad": 8.348784466303584e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0016.json",
+      "source_sha256": "0a24cd7a6868483bd403afa8ab53e058c3ed8d4263c8c07f67f81129f13eef88",
+      "baseline_waypoints": 7,
+      "state": "passed",
+      "new_waypoints": 13,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05992913246154785,
+        "max_chord_deviation_rad": 7.523008851830285e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0017.json",
+      "source_sha256": "7bd248102694bbf1b26b1aed361e6ca3547d4c49c521f2bf459cafaa8be1ddb7",
+      "baseline_waypoints": 10,
+      "state": "passed",
+      "new_waypoints": 21,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05953168869018555,
+        "max_chord_deviation_rad": 4.5128968207731185e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0018.json",
+      "source_sha256": "8f02b88171fa6d39b8e1750c020395a2a4b0150eb6712c4a38895fdb393ebea6",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05993163585662842,
+        "max_chord_deviation_rad": 7.826676607621333e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0019.json",
+      "source_sha256": "8e1bb1d2c436766366cdecde4a6f740810220841dc6540fec9ff8926fefa7243",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05942261219024658,
+        "max_chord_deviation_rad": 8.359356772549061e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0020.json",
+      "source_sha256": "20b9142832977d359a1bca1cc6042a49506abe279be7af9c9ca2c19f363b49a6",
+      "baseline_waypoints": 11,
+      "state": "passed",
+      "new_waypoints": 21,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05999302864074707,
+        "max_chord_deviation_rad": 4.4725960468032164e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0021.json",
+      "source_sha256": "15ddbdb8757b380973f7dffbfbafa1c42e78f2c7dd5b655360daf181467c73ae",
+      "baseline_waypoints": 8,
+      "state": "passed",
+      "new_waypoints": 16,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.0599207878112793,
+        "max_chord_deviation_rad": 5.685718404633156e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0022.json",
+      "source_sha256": "5d50980864e7691db4c408b4d551e921c7d78292373a0536dc88b8b97748b344",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059815168380737305,
+        "max_chord_deviation_rad": 7.888662303515495e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/12be685a34cd4cabae60ccf87e4da834/0/trajectory-0023.json",
+      "source_sha256": "28992b1e51274405b7d519cf58fdb48f6f47822faeeab7e8d73bc0dd95f6d6a5",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05993521213531494,
+        "max_chord_deviation_rad": 8.541389073483691e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0001.json",
+      "source_sha256": "a3a09515b9a3cb4e2642ef4533a4a9fca9b93cb17f79cee348e5a4ea9dad8d38",
+      "baseline_waypoints": 16,
+      "state": "passed",
+      "new_waypoints": 31,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05980032682418823,
+        "max_chord_deviation_rad": 1.700515161973462e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0002.json",
+      "source_sha256": "26b6a8edc58a4d75c16e9f081af405da265fade2d6fbc978185f059a19896a84",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05990356206893921,
+        "max_chord_deviation_rad": 8.477294582274163e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0003.json",
+      "source_sha256": "cdc43f43146a7ada706f2a02e804e50b0c3b4a4f1449e877c1004909f14d2de0",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05971968173980713,
+        "max_chord_deviation_rad": 8.686494958847716e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0004.json",
+      "source_sha256": "0743d0ef1cc5a3e486e25c393f23566f616816f627880b55c76e98d025942ea1",
+      "baseline_waypoints": 8,
+      "state": "passed",
+      "new_waypoints": 15,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05910921096801758,
+        "max_chord_deviation_rad": 6.214056801168849e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0005.json",
+      "source_sha256": "6b975d0a821d405d15b146f97e72fcc61c925124a790b684c94369dc2e714d2b",
+      "baseline_waypoints": 16,
+      "state": "passed",
+      "new_waypoints": 31,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05991220474243164,
+        "max_chord_deviation_rad": 1.7586696220987103e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0006.json",
+      "source_sha256": "51336a88ec10de23790fcc33b3781da353239de6f737367cdd08011d342706ca",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059720516204833984,
+        "max_chord_deviation_rad": 8.513727139260272e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0007.json",
+      "source_sha256": "00fc59f9d5455025cef893995dac2c566d2aa1e590c0b541afb0e7df850b6c48",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05975884199142456,
+        "max_chord_deviation_rad": 5.6285349140020816e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0008.json",
+      "source_sha256": "17d35f15a323e6122bd0e74737fc9aca2df19588b84383367e701b53b612b2f4",
+      "baseline_waypoints": 8,
+      "state": "passed",
+      "new_waypoints": 16,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059857964515686035,
+        "max_chord_deviation_rad": 6.515338401729201e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0009.json",
+      "source_sha256": "64cffe65bd7d0e53bb80e9312cc71013c87b1785aab52c4ad05e827ac886e2d9",
+      "baseline_waypoints": 10,
+      "state": "passed",
+      "new_waypoints": 20,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059900760650634766,
+        "max_chord_deviation_rad": 3.826146608310304e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0010.json",
+      "source_sha256": "3a574ad31385713898efae7e164e25c143949cc77226ae4521823c8c5e5fb6c9",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05981111526489258,
+        "max_chord_deviation_rad": 7.230114834407865e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0011.json",
+      "source_sha256": "bd1904358934f07d63e9f81515eb7edf6e4e511282bc534efc0f0c436b60088f",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05981576442718506,
+        "max_chord_deviation_rad": 3.592894627996515e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0012.json",
+      "source_sha256": "704fc239b0489974c883127b0a57597c3ab2452af22000bfa61dc98bc78c5aea",
+      "baseline_waypoints": 16,
+      "state": "passed",
+      "new_waypoints": 31,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05998539924621582,
+        "max_chord_deviation_rad": 2.078109697970995e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0013.json",
+      "source_sha256": "495ba30fde8fd29052e19a681916e6a8c70a5b1afee0bc2993ec599f69c233cf",
+      "baseline_waypoints": 14,
+      "state": "passed",
+      "new_waypoints": 27,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059937238693237305,
+        "max_chord_deviation_rad": 4.129308108330454e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0014.json",
+      "source_sha256": "7c3b2a4e405cea0df1f15ab2138f932243b22a15b95b858e78a871c22d2c54d3",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05908763408660889,
+        "max_chord_deviation_rad": 7.532926840871177e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0015.json",
+      "source_sha256": "ce3eddd2cebae75cb26f6a9f1889bd4442a96ea7475139a6296bd013049b8a78",
+      "baseline_waypoints": 2,
+      "state": "passed",
+      "new_waypoints": 4,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.058885812759399414,
+        "max_chord_deviation_rad": 6.198277195510176e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0016.json",
+      "source_sha256": "21bacc085a1fab53584fcb32bacd1b81e713286a40d7d4a0b2f67149171c0d2b",
+      "baseline_waypoints": 14,
+      "state": "passed",
+      "new_waypoints": 27,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05991017818450928,
+        "max_chord_deviation_rad": 4.1959842831222616e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0018.json",
+      "source_sha256": "4010a4f3a3364f915b61374a3a55151f78b1a300281dddb17fd483cedc604976",
+      "baseline_waypoints": 8,
+      "state": "passed",
+      "new_waypoints": 16,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059604525566101074,
+        "max_chord_deviation_rad": 6.24565047338448e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0019.json",
+      "source_sha256": "f9d20a2ef07a238c99440765463fd63d06e685358b7225d7bc11e0dea253643f",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05953162908554077,
+        "max_chord_deviation_rad": 8.153602208232262e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/5f0012789eb743e7918c72c7d3af29e6/0/trajectory-0020.json",
+      "source_sha256": "c1a5bcec8804ef78d39acba3b626cd13f14b292d7e666757f7c9836579c7c8a3",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05990898609161377,
+        "max_chord_deviation_rad": 8.243604036176425e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0001.json",
+      "source_sha256": "a9fe178b608d296fadc58140902c610262b7a8af7506fe046d32fa4fb341aab1",
+      "baseline_waypoints": 18,
+      "state": "passed",
+      "new_waypoints": 37,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05980563163757324,
+        "max_chord_deviation_rad": 1.7808063624651788e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0002.json",
+      "source_sha256": "9ee6b77d0507694a47e2159c2831223efa844f23e3f6f54a01185407d7eef9b8",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05959451198577881,
+        "max_chord_deviation_rad": 7.314931888872771e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0003.json",
+      "source_sha256": "6e47b108921d6fae1c17af31c113531df2bfc8394ec73af6aed1cac4e23c992d",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05964529514312744,
+        "max_chord_deviation_rad": 4.9325259870575816e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0004.json",
+      "source_sha256": "27e2259139b435befa6669db3d0b65e7956fa16455f9ef482faceda1dbc1213f",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 8,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05874991416931152,
+        "max_chord_deviation_rad": 7.868704389078773e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0005.json",
+      "source_sha256": "e6ad78212de00fe3cdaecbd21b14ef4a8295be44ec2d716b36fd0d2fa3b023fe",
+      "baseline_waypoints": 22,
+      "state": "passed",
+      "new_waypoints": 46,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05993616580963135,
+        "max_chord_deviation_rad": 1.3932733165602368e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0006.json",
+      "source_sha256": "4888c69bd68452549459dda29b65331e342364586f9471975909a77a394849a3",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 8,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059595346450805664,
+        "max_chord_deviation_rad": 3.2295190229076525e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0007.json",
+      "source_sha256": "4ec3905be243a00a927fb4017d0f272188df63b634817d779a188544d4d6733b",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 8,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05873608589172363,
+        "max_chord_deviation_rad": 5.2302463618605476e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0008.json",
+      "source_sha256": "1e05c181450b957544860aefed66664477fb27871ebc4c222d39a63259d2c33d",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05941891670227051,
+        "max_chord_deviation_rad": 6.135219548625975e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0009.json",
+      "source_sha256": "cbe426cf8c91e7825c29691124f44fe243d4898ae846292b06798c3c31a0883e",
+      "baseline_waypoints": 12,
+      "state": "passed",
+      "new_waypoints": 24,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05997180938720703,
+        "max_chord_deviation_rad": 3.5805070653507215e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0010.json",
+      "source_sha256": "f5c162ae5550817f2a896e934491ddcec4908e4fc0b3278c46d5e902ef72fde4",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059888243675231934,
+        "max_chord_deviation_rad": 7.681951484443889e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0011.json",
+      "source_sha256": "d2d7be019f8ea188aa013cff046d81287910bfbbd0684eda50e49cc396980ff7",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059467196464538574,
+        "max_chord_deviation_rad": 6.282506432856837e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0012.json",
+      "source_sha256": "c095229685e68666a0271a699d2f41c5b4a25fea2dad3ebd9c83469ced1c949e",
+      "baseline_waypoints": 12,
+      "state": "passed",
+      "new_waypoints": 25,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05975937843322754,
+        "max_chord_deviation_rad": 3.549491072386661e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0013.json",
+      "source_sha256": "a277577ee018026306a4af72bc5923eeab96bc6e1aac824cc630b6c2ac318094",
+      "baseline_waypoints": 9,
+      "state": "passed",
+      "new_waypoints": 18,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05973649024963379,
+        "max_chord_deviation_rad": 5.3973086418569044e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0014.json",
+      "source_sha256": "8390deb2a806e826bd0343e821fa21281503f74995e2c80d966a310b02554da4",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059039950370788574,
+        "max_chord_deviation_rad": 8.01087546625479e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0015.json",
+      "source_sha256": "4b08187e508cc695e7805aaf8e03f02edd1392bffb22c44be9cbe09ad7cc3d3c",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05960416793823242,
+        "max_chord_deviation_rad": 7.617209092000612e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/ae3d34750e1d44af80fc6a9e5372c552/0/trajectory-0016.json",
+      "source_sha256": "07d0d722d3c1c8c57eacf8ec9d050e907787dcfb2d844bb1a4409e5c23560f16",
+      "baseline_waypoints": 9,
+      "state": "passed",
+      "new_waypoints": 18,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05998849868774414,
+        "max_chord_deviation_rad": 5.539429669466911e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0001.json",
+      "source_sha256": "6aa779a45981ee95161328da0bb0203fde8e3c7ea12a2e7a91d0ccba13332549",
+      "baseline_waypoints": 17,
+      "state": "passed",
+      "new_waypoints": 34,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05958876013755798,
+        "max_chord_deviation_rad": 1.624027511852935e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0002.json",
+      "source_sha256": "172e9e38e4fea63d6f43badee7aaa660121b626714b41cde0e3f9bc107a09e6f",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059906005859375,
+        "max_chord_deviation_rad": 8.563857019121442e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0003.json",
+      "source_sha256": "880d205dd9861cbe1340ebb55ce0e4c4dddf310c58146946602b6c40b647fe13",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05978953838348389,
+        "max_chord_deviation_rad": 5.701161147539553e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0004.json",
+      "source_sha256": "fe31c1a26dd095e6be3392334c866fbca838f25aefacce6aff85c6989886126e",
+      "baseline_waypoints": 6,
+      "state": "passed",
+      "new_waypoints": 11,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05933880805969238,
+        "max_chord_deviation_rad": 6.94224772228736e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0005.json",
+      "source_sha256": "1fad0b5c23ebef75fa0fff4f1325a52c51cc7410f445a9f84961a12d669c0535",
+      "baseline_waypoints": 7,
+      "state": "passed",
+      "new_waypoints": 13,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059622883796691895,
+        "max_chord_deviation_rad": 7.039216250286084e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0006.json",
+      "source_sha256": "85d2656ef3756145004bf0da92e6058d3bae33a83edc4c7af661a6ed74694d64",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05940544605255127,
+        "max_chord_deviation_rad": 7.834952804453617e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0007.json",
+      "source_sha256": "4005047aa1f54567213e9383875a6a787858d9f11640aad92172d4599c141671",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05946910381317139,
+        "max_chord_deviation_rad": 8.270239221850034e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0008.json",
+      "source_sha256": "e1fef97f8bbfd6d230017f7d1f615eb85f47d683cfa0d0d94899fa0f0c3d5fc7",
+      "baseline_waypoints": 7,
+      "state": "passed",
+      "new_waypoints": 13,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.058164000511169434,
+        "max_chord_deviation_rad": 6.839237992468591e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0009.json",
+      "source_sha256": "1d9aafaaa548bffeba9b81191bf5381a13c8de41ef0afafaba095201ccc603cb",
+      "baseline_waypoints": 18,
+      "state": "passed",
+      "new_waypoints": 37,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.0598812997341156,
+        "max_chord_deviation_rad": 1.554527523170944e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0010.json",
+      "source_sha256": "bf8dc3a79d6d59d1807146777e0292502ea51fb7645213d5a3f4cf33aff41bed",
+      "baseline_waypoints": 2,
+      "state": "passed",
+      "new_waypoints": 4,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059172749519348145,
+        "max_chord_deviation_rad": 7.052556144884325e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0011.json",
+      "source_sha256": "47e43f295b943c1b92952bd9200f35f4f1955e715e6507f822e08689079ee906",
+      "baseline_waypoints": 2,
+      "state": "passed",
+      "new_waypoints": 4,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05816149711608887,
+        "max_chord_deviation_rad": 2.3296575920904732e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0012.json",
+      "source_sha256": "a10234bb074812aebffa967609a4a44fab34645c037804df1de9ce8a9161686e",
+      "baseline_waypoints": 9,
+      "state": "passed",
+      "new_waypoints": 18,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05983567237854004,
+        "max_chord_deviation_rad": 6.077453377269226e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0014.json",
+      "source_sha256": "862f878ca6d3685ad94f0d05a84d4b6d9847ed709e465567a2b2094ad1b9ab2e",
+      "baseline_waypoints": 6,
+      "state": "passed",
+      "new_waypoints": 12,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059549808502197266,
+        "max_chord_deviation_rad": 5.627147703829091e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0015.json",
+      "source_sha256": "08c7bf6c0f94391f6a27205790d0c2931d275d462c317103a453a84eb70b75b5",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05947256088256836,
+        "max_chord_deviation_rad": 5.649611119917271e-06,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/beebd3db32ce4143b128f8df11492251/0/trajectory-0016.json",
+      "source_sha256": "3f6e32219d4e9be450a0ac2ff50e4316a685346f023aa143aeef414077a07389",
+      "baseline_waypoints": 4,
+      "state": "passed",
+      "new_waypoints": 7,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059934020042419434,
+        "max_chord_deviation_rad": 5.130998122057206e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0001.json",
+      "source_sha256": "2be16e0d5ae13355ebaf6892779f8ec80d5801f7ceb6df544db798cfd1703af5",
+      "baseline_waypoints": 19,
+      "state": "passed",
+      "new_waypoints": 39,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059560637921094894,
+        "max_chord_deviation_rad": 1.6594122723145865e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0002.json",
+      "source_sha256": "288144f059dcd196420c6f99a813214e912c5f795a34c83f24a72a745732a4b6",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.058728814125061035,
+        "max_chord_deviation_rad": 4.108658664052291e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0003.json",
+      "source_sha256": "ebe8f9749c15a648eda4d02b36f7e2f4c9cef77b85a72ad15bb814eb2289595e",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 5,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05943036079406738,
+        "max_chord_deviation_rad": 1.4234342999480502e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0004.json",
+      "source_sha256": "56221d2a63d42e09b83c1cfd561597976e332c652b274336f801065ae3ac53e0",
+      "baseline_waypoints": 8,
+      "state": "passed",
+      "new_waypoints": 16,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059874534606933594,
+        "max_chord_deviation_rad": 6.84102233312802e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0005.json",
+      "source_sha256": "e2304bb1408d8429726df07d5092a87c12f19e95da6986abe3105a1b89c17a03",
+      "baseline_waypoints": 16,
+      "state": "passed",
+      "new_waypoints": 31,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059970855712890625,
+        "max_chord_deviation_rad": 3.01686698744065e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0006.json",
+      "source_sha256": "0051fe7073ce6a4218ff8a930f651d599648ece143e9433b4b97ba860a77cc59",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.059103965759277344,
+        "max_chord_deviation_rad": 8.340270682572707e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0007.json",
+      "source_sha256": "d369f66c6d35fde29f9e0e838baade3ded91a7a88dbed2a93036a856867de7cd",
+      "baseline_waypoints": 3,
+      "state": "passed",
+      "new_waypoints": 6,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.0593641996383667,
+        "max_chord_deviation_rad": 3.418254293263722e-05,
+        "native_adjacent_over_bound": 0
+      }
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/backend-traces/fixed_parent/eb2f53cdc7be4f7d877aeea177bca254/0/trajectory-0008.json",
+      "source_sha256": "92cd322785f2e148f1f7585ce137f56a5b4594bfcc6ea57c738e46732bf4b078",
+      "baseline_waypoints": 8,
+      "state": "passed",
+      "new_waypoints": 15,
+      "endpoint_preserved": true,
+      "only_original_samples": true,
+      "diagnostic": {
+        "max_joint_step_rad": 0.06,
+        "chord_tolerance_rad": 0.01,
+        "max_selected_joint_delta_rad": 0.05916237831115723,
+        "max_chord_deviation_rad": 6.338631047208068e-05,
+        "native_adjacent_over_bound": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "state": "completed",
+  "utc": "2026-11-06T03:16:14.903218+00:00",
+  "new_native_episodes": 0,
+  "api_calls": 0,
+  "frozen_reader_calls": 4,
+  "full_image_detector_probes": 2,
+  "paired_frames": 2,
+  "single_gpu": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f",
+  "results": [
+    {
+      "frame": 0,
+      "treatment": "original_filter",
+      "record": "frame0000_original_filter.json",
+      "stage_categories": {
+        "after_dino_geometry": [
+          [
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "camera",
+            "camera",
+            "pen",
+            "pen",
+            "garage",
+            "garage",
+            "garage"
+          ]
+        ],
+        "before_robot_mask": [
+          [
+            "pen",
+            "pen",
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "camera",
+            "camera",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_robot_mask": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_clip": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "camera",
+            "table",
+            "table"
+          ]
+        ]
+      },
+      "final_categories": [
+        [
+          "pen",
+          "basket",
+          "basket",
+          "basket",
+          "watch",
+          "camera"
+        ]
+      ],
+      "robot_exclusions": [
+        [
+          {
+            "category": "pen",
+            "box": [
+              162.40966796875,
+              225.50530242919922,
+              215.6436309814453,
+              282.6988220214844
+            ],
+            "robot_fraction": 0.019476372924648787
+          },
+          {
+            "category": "camera",
+            "box": [
+              513.2377319335938,
+              259.9442329406738,
+              547.4739685058594,
+              286.54541015625
+            ],
+            "robot_fraction": 0.036734693877551024
+          },
+          {
+            "category": "camera",
+            "box": [
+              464.0,
+              244.0,
+              557.0,
+              327.0
+            ],
+            "robot_fraction": 0.5666537116206762
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 0,
+      "treatment": "no_robot_overlap_filter",
+      "record": "frame0000_no_robot_overlap_filter.json",
+      "stage_categories": {
+        "after_dino_geometry": [
+          [
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "camera",
+            "camera",
+            "pen",
+            "pen",
+            "garage",
+            "garage",
+            "garage"
+          ]
+        ],
+        "before_robot_mask": [
+          [
+            "pen",
+            "pen",
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "camera",
+            "camera",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_robot_mask": [
+          [
+            "pen",
+            "pen",
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "camera",
+            "camera",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_clip": [
+          [
+            "pen",
+            "pen",
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "camera",
+            "robot",
+            "table",
+            "table",
+            "robot"
+          ]
+        ]
+      },
+      "final_categories": [
+        [
+          "pen",
+          "pen",
+          "basket",
+          "basket",
+          "basket",
+          "watch",
+          "camera"
+        ]
+      ],
+      "robot_exclusions": [
+        []
+      ]
+    },
+    {
+      "frame": 635,
+      "treatment": "original_filter",
+      "record": "frame0635_original_filter.json",
+      "stage_categories": {
+        "after_dino_geometry": [
+          [
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "toy_car",
+            "camera",
+            "camera",
+            "pen",
+            "pen",
+            "pen",
+            "garage",
+            "garage"
+          ]
+        ],
+        "before_robot_mask": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "pen",
+            "watch",
+            "camera",
+            "basket",
+            "camera",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_robot_mask": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "watch",
+            "basket",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_clip": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "camera",
+            "basket",
+            "table",
+            "table"
+          ]
+        ]
+      },
+      "final_categories": [
+        [
+          "pen",
+          "basket",
+          "basket",
+          "camera",
+          "basket"
+        ]
+      ],
+      "robot_exclusions": [
+        [
+          {
+            "category": "pen",
+            "box": [
+              142.87765502929688,
+              239.3999900817871,
+              201.79672241210938,
+              298.04356384277344
+            ],
+            "robot_fraction": 0.005555555555555556
+          },
+          {
+            "category": "camera",
+            "box": [
+              161.65515899658203,
+              205.04996240139008,
+              251.9546661376953,
+              263.590145111084
+            ],
+            "robot_fraction": 0.5718010802756566
+          },
+          {
+            "category": "camera",
+            "box": [
+              464.0,
+              244.0,
+              557.0,
+              327.0
+            ],
+            "robot_fraction": 0.5666537116206762
+          }
+        ]
+      ]
+    },
+    {
+      "frame": 635,
+      "treatment": "no_robot_overlap_filter",
+      "record": "frame0635_no_robot_overlap_filter.json",
+      "stage_categories": {
+        "after_dino_geometry": [
+          [
+            "basket",
+            "basket",
+            "basket",
+            "watch",
+            "watch",
+            "toy_car",
+            "camera",
+            "camera",
+            "pen",
+            "pen",
+            "pen",
+            "garage",
+            "garage"
+          ]
+        ],
+        "before_robot_mask": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "pen",
+            "watch",
+            "camera",
+            "basket",
+            "camera",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_robot_mask": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "pen",
+            "watch",
+            "camera",
+            "basket",
+            "camera",
+            "camera",
+            "camera"
+          ]
+        ],
+        "after_clip": [
+          [
+            "pen",
+            "basket",
+            "basket",
+            "pen",
+            "camera",
+            "robot",
+            "basket",
+            "table",
+            "table",
+            "robot"
+          ]
+        ]
+      },
+      "final_categories": [
+        [
+          "pen",
+          "basket",
+          "basket",
+          "pen",
+          "camera",
+          "basket"
+        ]
+      ],
+      "robot_exclusions": [
+        []
+      ]
+    }
+  ],
+  "limits": [
+    "Lossy decoded historical video and approximate joint-state alignment; not exact native sensor replay.",
+    "One diagnostic layout, no independent generalization test.",
+    "Mask-filter ablation does not estimate true 3D object height or verify grasp."
+  ]
+}

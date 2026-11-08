@@ -1,0 +1,8 @@
+{
+  "kind": "replay_harness_allowlist_omission",
+  "missing_builtin": "enumerate",
+  "new_native_cases": 0,
+  "candidate_failure": false,
+  "completed_replays": 0,
+  "repair": "Allow enumerate used by reviewed frozen candidate; source and input observations unchanged"
+}

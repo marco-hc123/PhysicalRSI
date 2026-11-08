@@ -1,0 +1,441 @@
+{
+  "utc": "2026-11-06T03:41:03.678321+00:00",
+  "saved_trajectories_checked": 24,
+  "passed": 24,
+  "rows": [
+    {
+      "study": "planning-recovery",
+      "job_id": 1,
+      "layout": 0,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job01.npy",
+      "sha256": "3dd9b232545946f49a7745d91e32be45d300a7053a82d4ab9bd48b84ee1d44aa",
+      "waypoints": 201,
+      "max_abs_joint_step": 0.005401134490966797,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 2,
+      "layout": 0,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job02.npy",
+      "sha256": "22a9d1b37d533fc5b9603f198626c2b2201f4c9d250a9ffe97d2ce8fb3b2f9c7",
+      "waypoints": 181,
+      "max_abs_joint_step": 0.004570186138153076,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 4,
+      "layout": 0,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job04.npy",
+      "sha256": "3dd9b232545946f49a7745d91e32be45d300a7053a82d4ab9bd48b84ee1d44aa",
+      "waypoints": 201,
+      "max_abs_joint_step": 0.005401134490966797,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 5,
+      "layout": 0,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job05.npy",
+      "sha256": "22a9d1b37d533fc5b9603f198626c2b2201f4c9d250a9ffe97d2ce8fb3b2f9c7",
+      "waypoints": 181,
+      "max_abs_joint_step": 0.004570186138153076,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 7,
+      "layout": 0,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job07.npy",
+      "sha256": "3dd9b232545946f49a7745d91e32be45d300a7053a82d4ab9bd48b84ee1d44aa",
+      "waypoints": 201,
+      "max_abs_joint_step": 0.005401134490966797,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 8,
+      "layout": 0,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job08.npy",
+      "sha256": "22a9d1b37d533fc5b9603f198626c2b2201f4c9d250a9ffe97d2ce8fb3b2f9c7",
+      "waypoints": 181,
+      "max_abs_joint_step": 0.004570186138153076,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 11,
+      "layout": 1,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job11.npy",
+      "sha256": "5c05798695bd009ec6bc6ff2d96ad0fb110674d84eb51c0549292d9f73c79d5e",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.00359344482421875,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 14,
+      "layout": 1,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job14.npy",
+      "sha256": "5c05798695bd009ec6bc6ff2d96ad0fb110674d84eb51c0549292d9f73c79d5e",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.00359344482421875,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 17,
+      "layout": 1,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job17.npy",
+      "sha256": "5c05798695bd009ec6bc6ff2d96ad0fb110674d84eb51c0549292d9f73c79d5e",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.00359344482421875,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 29,
+      "layout": 3,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job29.npy",
+      "sha256": "082cae98ce4afb77551b7c41c4452b13b5509076f07244783305ec1a7b4c6b46",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.003471851348876953,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 32,
+      "layout": 3,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job32.npy",
+      "sha256": "082cae98ce4afb77551b7c41c4452b13b5509076f07244783305ec1a7b4c6b46",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.003471851348876953,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 35,
+      "layout": 3,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job35.npy",
+      "sha256": "082cae98ce4afb77551b7c41c4452b13b5509076f07244783305ec1a7b4c6b46",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.003471851348876953,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 38,
+      "layout": 4,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job38.npy",
+      "sha256": "b08e7679f2b12499dcb9c05391a058253c313ed3d9aae6826f792dc48e7f4e9a",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.0035271644592285156,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 41,
+      "layout": 4,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job41.npy",
+      "sha256": "b08e7679f2b12499dcb9c05391a058253c313ed3d9aae6826f792dc48e7f4e9a",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.0035271644592285156,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-recovery",
+      "job_id": 44,
+      "layout": 4,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery/trajectories/job44.npy",
+      "sha256": "b08e7679f2b12499dcb9c05391a058253c313ed3d9aae6826f792dc48e7f4e9a",
+      "waypoints": 121,
+      "max_abs_joint_step": 0.0035271644592285156,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 1,
+      "layout": 1,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job01.npy",
+      "sha256": "ef51598521b6355e1f51111a2d7159682d1424851d178011d7a49de7221deefe",
+      "waypoints": 281,
+      "max_abs_joint_step": 0.0075871944427490234,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 3,
+      "layout": 1,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job03.npy",
+      "sha256": "ef51598521b6355e1f51111a2d7159682d1424851d178011d7a49de7221deefe",
+      "waypoints": 281,
+      "max_abs_joint_step": 0.0075871944427490234,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 5,
+      "layout": 1,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job05.npy",
+      "sha256": "ef51598521b6355e1f51111a2d7159682d1424851d178011d7a49de7221deefe",
+      "waypoints": 281,
+      "max_abs_joint_step": 0.0075871944427490234,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 7,
+      "layout": 3,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job07.npy",
+      "sha256": "0808830d0b1f6dcbdedb4bdf8e7672a0b44a2591a015d8dbf09a3833779828fb",
+      "waypoints": 301,
+      "max_abs_joint_step": 0.007868766784667969,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 9,
+      "layout": 3,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job09.npy",
+      "sha256": "0808830d0b1f6dcbdedb4bdf8e7672a0b44a2591a015d8dbf09a3833779828fb",
+      "waypoints": 301,
+      "max_abs_joint_step": 0.007868766784667969,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 11,
+      "layout": 3,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job11.npy",
+      "sha256": "0808830d0b1f6dcbdedb4bdf8e7672a0b44a2591a015d8dbf09a3833779828fb",
+      "waypoints": 301,
+      "max_abs_joint_step": 0.007868766784667969,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 13,
+      "layout": 4,
+      "seed": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job13.npy",
+      "sha256": "a184107c0f47d7335facc138377ca9f265f615c978881f8b70f47a88af447be2",
+      "waypoints": 301,
+      "max_abs_joint_step": 0.008330583572387695,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 15,
+      "layout": 4,
+      "seed": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job15.npy",
+      "sha256": "a184107c0f47d7335facc138377ca9f265f615c978881f8b70f47a88af447be2",
+      "waypoints": 301,
+      "max_abs_joint_step": 0.008330583572387695,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    },
+    {
+      "study": "planning-return",
+      "job_id": 17,
+      "layout": 4,
+      "seed": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-return/trajectories/job17.npy",
+      "sha256": "a184107c0f47d7335facc138377ca9f265f615c978881f8b70f47a88af447be2",
+      "waypoints": 301,
+      "max_abs_joint_step": 0.008330583572387695,
+      "checks": {
+        "shape": true,
+        "waypoints": true,
+        "finite": true,
+        "joint_limits": true,
+        "max_joint_step": true
+      },
+      "passed": true
+    }
+  ],
+  "scope": "Static pre-execution shape, joint limit, step bound and finite-value checks using logged initial joints. No simulation, no additional solver calls, no GPU, no success assertion.",
+  "unresolved": "Online observed-state divergence, scene collisions beyond robot/table and remaining native steps still require execution evidence."
+}

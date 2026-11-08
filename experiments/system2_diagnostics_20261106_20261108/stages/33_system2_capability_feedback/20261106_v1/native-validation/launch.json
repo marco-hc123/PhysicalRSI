@@ -1,0 +1,8 @@
+{
+  "pid": 24966,
+  "launched_utc": "2026-11-06T04:38:01.922157+00:00",
+  "script": "/mnt/data/physical-RSI/result/34_capability_feedback_20261106/run_native.py",
+  "script_sha256": "245722a6b742e0a9ea8baafbbb9a13b87946fc9b0f807f40b3015c8fbf142d5c",
+  "planned_cases": 30,
+  "api_calls": 0
+}

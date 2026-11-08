@@ -1,0 +1,190 @@
+{
+  "read_only": true,
+  "pdf_visual_review": {
+    "figures/request_latency.pdf": "两面板清晰，composition均值近乎不变略增，schema组延迟下降；HTTP wall time不是模型纯推理耗时。",
+    "figures/input_tokens.pdf": "两组均为合成输入，图示均值3752→2616与27425→8957；图注明无robot execution。"
+  },
+  "xlsx": {
+    "Sheet1": [
+      [
+        "tokens",
+        "seconds"
+      ],
+      [
+        12,
+        1.2
+      ],
+      [
+        30,
+        2.5
+      ]
+    ]
+  },
+  "parquet": [
+    {
+      "path": "result/07_rerun_compatibility_20261029/synthetic_v21/data/chunk-000/episode_000000.parquet",
+      "rows": 3,
+      "columns": [
+        "observation.state",
+        "action",
+        "observation.images.cam_high",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "result/07_rerun_compatibility_20261029/post_fix/synthetic_v3/data/chunk-000/file-000.parquet",
+      "rows": 3,
+      "columns": [
+        "observation.state",
+        "action",
+        "observation.images.cam_high",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "result/07_rerun_compatibility_20261029/synthetic_v3/data/chunk-000/file-000.parquet",
+      "rows": 3,
+      "columns": [
+        "observation.state",
+        "action",
+        "observation.images.cam_high",
+        "timestamp",
+        "frame_index",
+        "episode_index",
+        "index",
+        "task_index"
+      ]
+    },
+    {
+      "path": "result/07_rerun_compatibility_20261029/post_fix/synthetic_v3/meta/episodes/chunk-000/file-000.parquet",
+      "rows": 1,
+      "columns": [
+        "episode_index",
+        "tasks",
+        "length",
+        "data/chunk_index",
+        "data/file_index",
+        "dataset_from_index",
+        "dataset_to_index",
+        "stats/observation.state/min",
+        "stats/observation.state/max",
+        "stats/observation.state/mean",
+        "stats/observation.state/std",
+        "stats/observation.state/count",
+        "stats/observation.state/q01",
+        "stats/observation.state/q10",
+        "stats/observation.state/q50",
+        "stats/observation.state/q90",
+        "stats/observation.state/q99",
+        "stats/action/min",
+        "stats/action/max",
+        "stats/action/mean",
+        "stats/action/std",
+        "stats/action/count",
+        "stats/action/q01",
+        "stats/action/q10",
+        "stats/action/q50",
+        "stats/action/q90",
+        "stats/action/q99",
+        "stats/observation.images.cam_high/min",
+        "stats/observation.images.cam_high/max",
+        "stats/observation.images.cam_high/mean",
+        "stats/observation.images.cam_high/std",
+        "stats/observation.images.cam_high/count",
+        "stats/observation.images.cam_high/q01",
+        "stats/observation.images.cam_high/q10",
+        "stats/observation.images.cam_high/q50",
+        "stats/observation.images.cam_high/q90",
+        "stats/observation.images.cam_high/q99",
+        "stats/timestamp/min",
+        "stats/timestamp/max",
+        "stats/timestamp/mean",
+        "stats/timestamp/std",
+        "stats/timestamp/count",
+        "stats/timestamp/q01",
+        "stats/timestamp/q10",
+        "stats/timestamp/q50",
+        "stats/timestamp/q90",
+        "stats/timestamp/q99",
+        "stats/frame_index/min",
+        "stats/frame_index/max",
+        "stats/frame_index/mean",
+        "stats/frame_index/std",
+        "stats/frame_index/count",
+        "stats/frame_index/q01",
+        "stats/frame_index/q10",
+        "stats/frame_index/q50",
+        "stats/frame_index/q90",
+        "stats/frame_index/q99",
+        "stats/episode_index/min",
+        "stats/episode_index/max",
+        "stats/episode_index/mean",
+        "stats/episode_index/std",
+        "stats/episode_index/count",
+        "stats/episode_index/q01",
+        "stats/episode_index/q10",
+        "stats/episode_index/q50",
+        "stats/episode_index/q90",
+        "stats/episode_index/q99",
+        "stats/index/min",
+        "stats/index/max",
+        "stats/index/mean",
+        "stats/index/std",
+        "stats/index/count",
+        "stats/index/q01",
+        "stats/index/q10",
+        "stats/index/q50",
+        "stats/index/q90",
+        "stats/index/q99",
+        "stats/task_index/min",
+        "stats/task_index/max",
+        "stats/task_index/mean",
+        "stats/task_index/std",
+        "stats/task_index/count",
+        "stats/task_index/q01",
+        "stats/task_index/q10",
+        "stats/task_index/q50",
+        "stats/task_index/q90",
+        "stats/task_index/q99",
+        "meta/episodes/chunk_index",
+        "meta/episodes/file_index"
+      ]
+    },
+    {
+      "path": "result/07_rerun_compatibility_20261029/post_fix/synthetic_v3/meta/tasks.parquet",
+      "rows": 1,
+      "columns": [
+        "task_index",
+        "__index_level_0__"
+      ]
+    }
+  ],
+  "hdf5": {
+    "environment": "simulator",
+    "datasets": {
+      "image": {
+        "shape": [
+          32,
+          32,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      "state": {
+        "shape": [
+          14
+        ],
+        "dtype": "float32"
+      }
+    }
+  },
+  "scope": "All spreadsheet/Parquet/HDF5 entries here are environment or synthetic fixtures, not native scientific outcomes."
+}

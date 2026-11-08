@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "name": "sample_01",
+      "source": "candidates/sample_01/candidate.py",
+      "proposal": "candidates/sample_01/proposal.json"
+    },
+    {
+      "name": "sample_02",
+      "source": "candidates/sample_02/candidate.py",
+      "proposal": "candidates/sample_02/proposal.json"
+    },
+    {
+      "name": "sample_03",
+      "source": "candidates/sample_03/candidate.py",
+      "proposal": "candidates/sample_03/proposal.json"
+    },
+    {
+      "name": "sample_04",
+      "source": "candidates/sample_04/candidate.py",
+      "proposal": "candidates/sample_04/proposal.json"
+    },
+    {
+      "name": "sample_05",
+      "source": "candidates/sample_05/candidate.py",
+      "proposal": "candidates/sample_05/proposal.json"
+    }
+  ],
+  "selection": "Development selection only; compare first candidate vs best of five under identical executor; retain incumbent on tie",
+  "research_role": "five previously exposed development layouts"
+}

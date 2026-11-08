@@ -1,0 +1,216 @@
+{
+  "state": "verified",
+  "utc": "2026-11-07T13:59:42.152617+00:00",
+  "native_episodes": 60,
+  "phase_counts": {
+    "parent": 5,
+    "sampling": 25,
+    "repair": 10,
+    "round2": 5,
+    "heldout": 15
+  },
+  "groups": [
+    {
+      "phase": "parent",
+      "condition": "fixed_parent",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "phase": "sampling",
+      "condition": "sample_01",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "sampling",
+      "condition": "sample_02",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "sampling",
+      "condition": "sample_03",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "sampling",
+      "condition": "sample_04",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "sampling",
+      "condition": "sample_05",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "repair",
+      "condition": "target_control",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "repair",
+      "condition": "target_offset",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "phase": "round2",
+      "condition": "round2_01",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "phase": "heldout",
+      "condition": "fixed_parent",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 6.0,
+      "scores_100": [
+        0.0,
+        15.0,
+        0.0,
+        15.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "heldout",
+      "condition": "target_control",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "phase": "heldout",
+      "condition": "target_offset",
+      "n": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "scores_100": [
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "paid_api_requests": 8,
+  "estimated_api_usd": 0.8154218,
+  "heldout_disjoint_from_development": true,
+  "lab_gpu_used": false,
+  "api_calls_during_reanalysis": 0,
+  "source_archive_manifest": "95d9f46d01a760b7a868f71ea54f9ba55c706d3abd091e55c0edb3039adff16a",
+  "evidence": [
+    {
+      "phase": "parent",
+      "matrix_sha256": "da673f1e1a862d90ae3b5eedd448a691256af635ac3d986fea73de126b11d222",
+      "validation_sha256": "c7d42f8cd28032bedc77e024ec0a010488ec5bafbd4354055bf26472b7192480"
+    },
+    {
+      "phase": "sampling",
+      "matrix_sha256": "ae10baf064c77783881b2400a0d2343cd5e0df6bf28149b425cf43d1e2ab8e91",
+      "validation_sha256": "ed50f7334629aeb308f9073b8dbcc737c5d6696c4edb234ef796174883de008a"
+    },
+    {
+      "phase": "repair",
+      "matrix_sha256": "487529fe94337e6b899bdb3dbd5e5be6423fd2a496505aa1422ab2ea72ec7f15",
+      "validation_sha256": "e7f4a03aacebd0f63242a77fb289bd612ca69cb0a2302fe0b63476e4f6b79995"
+    },
+    {
+      "phase": "round2",
+      "matrix_sha256": "191d2e25884cb06352c9161791878e5fbed46279e964b457c591635547f87e6b",
+      "validation_sha256": "71857c058f58c0a6edef44e477ee65c15cf359edaa798bb373b9aff183cdaa82"
+    },
+    {
+      "phase": "heldout",
+      "matrix_sha256": "62338e98cca1f0da9c93b25dfdc39e9043d1cbbd6538ac71d8351f8e3b37f6bf",
+      "validation_sha256": "92580598ef5f8d752dac667cbae1fe196662e3d3bcf39dca74ccc9b00fa66410"
+    }
+  ],
+  "scope": "Lab CPU recalculation from archived raw native result files and qualified receipt hashes. No rerun, no new task episodes, no System2 selection from heldout results."
+}

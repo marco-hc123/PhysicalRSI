@@ -1,0 +1,8 @@
+{
+  "batch": 40,
+  "recovery_approaches": 3,
+  "score_before": 3,
+  "score_after": 3,
+  "full_success_before": 0,
+  "full_success_after": 0
+}

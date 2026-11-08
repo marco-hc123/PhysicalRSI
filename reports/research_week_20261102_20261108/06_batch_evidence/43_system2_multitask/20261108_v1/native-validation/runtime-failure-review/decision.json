@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-08T09:10:14.709440+00:00",
+  "state": "diagnosis_in_progress",
+  "phase": "classify_objects-heldout",
+  "native_completed": 4,
+  "native_interrupted": 1,
+  "interrupted_layout": 1,
+  "interrupted_action_count": 214,
+  "observed_error": "Observed robot diverged from planned trajectory",
+  "causal_scope": "Execution monitoring failure; do not call infrastructure outage or policy zero score. Root physical cause not yet established.",
+  "decision": "Preserve original4 completed outcomes and one interrupted outcome. No score imputation, no best-of retry, no policy/runtime changes. Continue independent pickup experiment; finalize classification as a partial heldout with missing native score.",
+  "writes": "project folders only",
+  "new_api_calls": 0
+}

@@ -1,0 +1,10 @@
+{
+  "state": "native_and_validation_completed",
+  "pid": 71731,
+  "utc": "2026-11-07T09:42:02.581902+00:00",
+  "api_calls": 0,
+  "paid_cost_usd": 0,
+  "lab_gpu_used": false,
+  "native_cases": 10,
+  "next": "Chain analysis and verified lab archive"
+}

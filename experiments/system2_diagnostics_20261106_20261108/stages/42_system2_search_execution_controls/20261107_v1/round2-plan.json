@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "name": "round2_01",
+      "source": "candidates/round2_01/candidate.py",
+      "proposal": "candidates/round2_01/proposal.json"
+    },
+    {
+      "name": "round2_02",
+      "source": "candidates/round2_02/candidate.py",
+      "proposal": "candidates/round2_02/proposal.json"
+    },
+    {
+      "name": "round2_03",
+      "source": "candidates/round2_03/candidate.py",
+      "proposal": "candidates/round2_03/proposal.json"
+    }
+  ],
+  "selection": "Strict improvement over selected round1 parent on the same exposed five layouts; incumbent wins ties",
+  "research_role": "Three unchanged model-generated round2 candidates, same frozen baseline executor; updated fixed development feedback includes separate manual-control evidence"
+}

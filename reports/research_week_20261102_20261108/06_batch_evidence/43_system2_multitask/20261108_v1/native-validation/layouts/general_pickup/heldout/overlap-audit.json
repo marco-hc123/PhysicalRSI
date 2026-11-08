@@ -1,0 +1,60 @@
+{
+  "state": "passed",
+  "task": "general_pickup",
+  "new_geometry_sha256": [
+    "5386a36a1befb54a2d45d6004dc90125b35a36491a842138997c9f0b792fbe69",
+    "8d385c2cb26ab6002014f0bf2250983dfff3cfe7d3ef41caa309de0e26601def",
+    "a198aab3c2346c23e29f04a147799b001c68e003291bdcea83fe24f95cd242f1",
+    "dca4b0d32b6f113c4ab20d519b758844202edf8306a990c76861f1b476686718",
+    "6821c36358dc3cebcb2c514bfb086ad538fae2d43b8bef067071062d19949a29"
+  ],
+  "prior_unique_geometries": 6,
+  "missing_prior_references": [],
+  "sources": [
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/0/layout.json",
+      "geometry_sha256": "ef0dd6de63f3d9f356bb33fe1a3842a88eb0192b13aa0638353782227dec1572"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/1/layout.json",
+      "geometry_sha256": "4ca08a31ab7eff557518826dac69b8e81bfaf3400d6bebeb675bce5af784f0bb"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/2/layout.json",
+      "geometry_sha256": "2b8d4b6f4aa12288203cedbb7e3d4787803e240a5194b5d4a25783321028700c"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/3/layout.json",
+      "geometry_sha256": "5905ef556e4e7e624b72433332079858f5b157fcd81bdea581839c3e79e154ae"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/4/layout.json",
+      "geometry_sha256": "5f763fdfe92d0832f07989fc8c49769484bde3b3347137f1c890de7d2ad68b8a"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/0/layout.json",
+      "geometry_sha256": "ef0dd6de63f3d9f356bb33fe1a3842a88eb0192b13aa0638353782227dec1572"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/1/layout.json",
+      "geometry_sha256": "4ca08a31ab7eff557518826dac69b8e81bfaf3400d6bebeb675bce5af784f0bb"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/2/layout.json",
+      "geometry_sha256": "2b8d4b6f4aa12288203cedbb7e3d4787803e240a5194b5d4a25783321028700c"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/3/layout.json",
+      "geometry_sha256": "5905ef556e4e7e624b72433332079858f5b157fcd81bdea581839c3e79e154ae"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/4/layout.json",
+      "geometry_sha256": "5f763fdfe92d0832f07989fc8c49769484bde3b3347137f1c890de7d2ad68b8a"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/smoke/generated/general_pickup/0/layout.json",
+      "geometry_sha256": "49e07c847812e3e631d27dfbf5af51679084549279453eba9af177f3d9d997bb"
+    }
+  ],
+  "scope": "Fresh same-sampler layouts; no identical geometry among available prior native campaigns. Not a new-object-category or official benchmark distribution claim. Unavailable prior references remain unknown."
+}

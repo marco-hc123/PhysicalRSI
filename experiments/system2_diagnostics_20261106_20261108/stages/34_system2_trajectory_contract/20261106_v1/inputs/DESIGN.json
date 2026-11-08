@@ -1,0 +1,34 @@
+{
+  "stage": "design_preparation_only",
+  "utc": "2026-11-06T05:48:46.732077+00:00",
+  "user_steering": "Finish current30then analyze and complete next experiment.",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1",
+  "cloud_root": "/mnt/data/physical-RSI/result/35_trajectory_contract_20261106",
+  "candidate": "capability_feedback_2",
+  "selection_reason": "Observed3active-budget cancellations in5layouts, no fullsuccess. Mechanistic choice before remainingstage33candidatesfinish, notbestscoreselection.",
+  "planned_native_cases": 10,
+  "groups": [
+    "dense",
+    "released_waypoint_thinning"
+  ],
+  "treatment": "Use exact released thin_native_path default max_joint_step.12 and chord_tolerance.01 to choose a subset of native planned samples. Keep all current primitive guards; reject invalid output. Same candidate sourceandmemory, no newgeneration.",
+  "unchanged": [
+    "native1100budget",
+    "taskscoring",
+    "5exposedlayouts",
+    "perception",
+    "fixedgoalpositionandquaternion",
+    "plannerparameters",
+    "gripper6steps",
+    "APIsemantics",
+    "endpoint/state divergence guard.25"
+  ],
+  "limits": [
+    "This is manual compatibility-adapter diagnosis, notautomaticSystem2policyimprovement.",
+    "Thinning retains native samples andboundedchorddeviation, but static checks do not certify all collision safety or actualgrasp.",
+    "Full releasedskill also hasendpointgates andconeIK; notaddingtheseinthissingle-variabletest."
+  ],
+  "api_calls": 0,
+  "lab_gpu_needed": false,
+  "launch_gate": "Waitstage33nativecompleteandverifiedarchive before launchingnextRGB. FirstcompleteCPUstaticchecks andpinnewruntimeidentity withouteditingexistingruntime."
+}

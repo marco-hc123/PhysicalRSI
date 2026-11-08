@@ -1,0 +1,11 @@
+{
+  "scope": "CPU fixtures and recorded-scene first-action checks only, not native scores or unobserved dynamics",
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "cases_per_candidate": 20,
+  "prior_fixture_types": 9,
+  "axis_aligned_geometry_cases": 6,
+  "recorded_initial_scenes": 5,
+  "generated_memory_passed": true,
+  "selection": "No performance filtering; admitted candidates continue to native, including behaviorally unsuccessful ones."
+}

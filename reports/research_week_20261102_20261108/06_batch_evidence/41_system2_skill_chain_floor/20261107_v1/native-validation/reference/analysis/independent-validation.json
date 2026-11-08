@@ -1,0 +1,246 @@
+{
+  "state": "passed",
+  "native_cases": 5,
+  "videos": 15,
+  "receipt_checks": [
+    {
+      "layout": 0,
+      "sha256": "63d7acb445fd3c0103bdd25e8286357c45eec12c5424661d2c3d0ae642128405",
+      "score": 0.0,
+      "success": false
+    },
+    {
+      "layout": 1,
+      "sha256": "797443101ed66ceeebcc215bcd5ee113445c9b3f75325bd9f7925f9fd33f5ac6",
+      "score": 0.15,
+      "success": false
+    },
+    {
+      "layout": 2,
+      "sha256": "3c3ce93e2d1fddf97adf54a33524d7beb733d3dadcfa88514d12d17d7f617bcb",
+      "score": 0.15,
+      "success": false
+    },
+    {
+      "layout": 3,
+      "sha256": "954dee47667a8c0748aae10f6cc2ed90d1fefab2c336210dd467e6a195a096b6",
+      "score": 0.15,
+      "success": false
+    },
+    {
+      "layout": 4,
+      "sha256": "30157cadebc4a9fc8b07bd68f663d2b50cb178edd8ad662e75d773ad6317a565",
+      "score": 0.15,
+      "success": false
+    }
+  ],
+  "episodes": [
+    {
+      "diagnostics": {
+        "action_count": 1100,
+        "step_limit": 1100
+      },
+      "episode_score": 0.0,
+      "layout_id": 0,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "success": false,
+      "last_model_stage": "failure_hold",
+      "last_model_failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "contact",
+        "failure_hold",
+        "lift",
+        "open",
+        "transport"
+      ],
+      "source_traces": [
+        "model-traces/1794043749744387736/trace.jsonl"
+      ],
+      "completed_basket_transfers": 0,
+      "incomplete_reasons": [],
+      "terminal_error_evidence": [
+        {
+          "time_ns": 1794043768625705625,
+          "action_index": 120,
+          "stage": "basket_lower",
+          "endpoint_wait": 40,
+          "arm": "right",
+          "joint_error_rad": 0.018535614013671875,
+          "position_error_m": 0.010464577675798423,
+          "rotation_error_rad": 0.025615745453265205
+        },
+        {
+          "time_ns": 1794043768630163190,
+          "action_index": 120,
+          "stage": "failure_hold",
+          "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+          "physical_release": true
+        }
+      ],
+      "note": "Transfer events are controller reports, not native success or object-count ground truth."
+    },
+    {
+      "diagnostics": {
+        "action_count": 1100,
+        "step_limit": 1100
+      },
+      "episode_score": 0.15,
+      "layout_id": 1,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "success": false,
+      "last_model_stage": "complete_hold",
+      "last_model_failure": null,
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "complete_hold",
+        "contact",
+        "lift",
+        "observe_retract",
+        "open",
+        "release",
+        "retreat",
+        "transport"
+      ],
+      "source_traces": [
+        "model-traces/1794043897198190379/trace.jsonl"
+      ],
+      "completed_basket_transfers": 1,
+      "incomplete_reasons": [],
+      "terminal_error_evidence": [],
+      "note": "Transfer events are controller reports, not native success or object-count ground truth."
+    },
+    {
+      "diagnostics": {
+        "action_count": 1100,
+        "step_limit": 1100
+      },
+      "episode_score": 0.15,
+      "layout_id": 2,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "success": false,
+      "last_model_stage": "complete_hold",
+      "last_model_failure": null,
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "complete_hold",
+        "contact",
+        "lift",
+        "observe_retract",
+        "open",
+        "release",
+        "retreat",
+        "transport"
+      ],
+      "source_traces": [
+        "model-traces/1794044045055973846/trace.jsonl"
+      ],
+      "completed_basket_transfers": 1,
+      "incomplete_reasons": [],
+      "terminal_error_evidence": [],
+      "note": "Transfer events are controller reports, not native success or object-count ground truth."
+    },
+    {
+      "diagnostics": {
+        "action_count": 1100,
+        "step_limit": 1100
+      },
+      "episode_score": 0.15,
+      "layout_id": 3,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "success": false,
+      "last_model_stage": "failure_hold",
+      "last_model_failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "contact",
+        "failure_hold",
+        "lift",
+        "open",
+        "transport"
+      ],
+      "source_traces": [
+        "model-traces/1794044191124488492/trace.jsonl"
+      ],
+      "completed_basket_transfers": 0,
+      "incomplete_reasons": [],
+      "terminal_error_evidence": [
+        {
+          "time_ns": 1794044210239178782,
+          "action_index": 128,
+          "stage": "basket_lower",
+          "endpoint_wait": 40,
+          "arm": "left",
+          "joint_error_rad": 0.018855810165405273,
+          "position_error_m": 0.010305110946109896,
+          "rotation_error_rad": 0.022195804214852725
+        },
+        {
+          "time_ns": 1794044210242507647,
+          "action_index": 128,
+          "stage": "failure_hold",
+          "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+          "physical_release": true
+        }
+      ],
+      "note": "Transfer events are controller reports, not native success or object-count ground truth."
+    },
+    {
+      "diagnostics": {
+        "action_count": 1100,
+        "step_limit": 1100
+      },
+      "episode_score": 0.15,
+      "layout_id": 4,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "success": false,
+      "last_model_stage": "complete_hold",
+      "last_model_failure": null,
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "complete_hold",
+        "contact",
+        "lift",
+        "observe_retract",
+        "open",
+        "release",
+        "retreat",
+        "transport"
+      ],
+      "source_traces": [
+        "model-traces/1794044362326754733/trace.jsonl"
+      ],
+      "completed_basket_transfers": 1,
+      "incomplete_reasons": [],
+      "terminal_error_evidence": [],
+      "note": "Transfer events are controller reports, not native success or object-count ground truth."
+    }
+  ],
+  "api_calls": 0,
+  "scope": "Released controller reference, not a System2 candidate or new independent validation"
+}

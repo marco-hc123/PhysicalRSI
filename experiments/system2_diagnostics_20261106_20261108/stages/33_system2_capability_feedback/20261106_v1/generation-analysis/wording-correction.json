@@ -1,0 +1,6 @@
+{
+  "utc": "2026-11-06T04:47:41.972826+00:00",
+  "before_sha256": "e267876d26e6dbd9ff206ced74fe71530cae988e33d30b82a15db1173fd32b7d",
+  "after_sha256": "8e7d40fc2731ccd895357c9b74cf765bb9313550562dc79c4a8025c78f9cc8c9",
+  "change": "Corrected randomized-object wording to experimental-treatment: order was fixed balanced, no randomized seed pairing. No source, outcome, request or runtime changed."
+}

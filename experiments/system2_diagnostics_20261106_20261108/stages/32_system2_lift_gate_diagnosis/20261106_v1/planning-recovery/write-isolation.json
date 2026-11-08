@@ -1,0 +1,13 @@
+{
+  "abi": 4,
+  "disk_write_root": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/planning-recovery",
+  "device_io": [
+    "/proc/self/task",
+    "/dev/null",
+    "/dev/nvidiactl",
+    "/dev/nvidia-uvm",
+    "/dev/nvidia-uvm-tools",
+    "/dev/nvidia1"
+  ],
+  "gpu_uuid": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f"
+}

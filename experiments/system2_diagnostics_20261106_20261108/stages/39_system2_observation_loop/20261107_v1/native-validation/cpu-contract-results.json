@@ -1,0 +1,111 @@
+{
+  "state": "passed",
+  "fixture_cases": 10,
+  "new_native_cases": 0,
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "source_only_loop_bound_changed": true,
+  "rows": [
+    {
+      "condition": "saved_control",
+      "layout_id": 1,
+      "matched_existing_calls": 33,
+      "first_unrecorded_call": [],
+      "source_record_sha256": "e87e38ac71a26631301948ac0ef4267e10393b135eb69d84b7cfd197dad7e5b3"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 1,
+      "matched_existing_calls": 33,
+      "first_unrecorded_call": [
+        {
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        }
+      ],
+      "source_record_sha256": "e87e38ac71a26631301948ac0ef4267e10393b135eb69d84b7cfd197dad7e5b3"
+    },
+    {
+      "condition": "saved_control",
+      "layout_id": 3,
+      "matched_existing_calls": 25,
+      "first_unrecorded_call": [],
+      "source_record_sha256": "5019306c780d7041dd27f9b2bf9957ddacac742415aae4c9c55b5f63c91dfd54"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 3,
+      "matched_existing_calls": 25,
+      "first_unrecorded_call": [
+        {
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        }
+      ],
+      "source_record_sha256": "5019306c780d7041dd27f9b2bf9957ddacac742415aae4c9c55b5f63c91dfd54"
+    },
+    {
+      "condition": "saved_control",
+      "layout_id": 4,
+      "matched_existing_calls": 25,
+      "first_unrecorded_call": [],
+      "source_record_sha256": "64f728bc8b6c507c33c4cb6e1ea182da75ac8f4f9482206974d62c2789241cf9"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 4,
+      "matched_existing_calls": 25,
+      "first_unrecorded_call": [
+        {
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        }
+      ],
+      "source_record_sha256": "64f728bc8b6c507c33c4cb6e1ea182da75ac8f4f9482206974d62c2789241cf9"
+    },
+    {
+      "condition": "saved_control",
+      "layout_id": 0,
+      "matched_existing_calls": 33,
+      "first_unrecorded_call": [],
+      "source_record_sha256": "5e50caa32a9759fb23d4b35c871f60e49cc9b4fcb0071cfd9f272d37565b96fd"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 0,
+      "matched_existing_calls": 33,
+      "first_unrecorded_call": [
+        {
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        }
+      ],
+      "source_record_sha256": "5e50caa32a9759fb23d4b35c871f60e49cc9b4fcb0071cfd9f272d37565b96fd"
+    },
+    {
+      "condition": "saved_control",
+      "layout_id": 2,
+      "matched_existing_calls": 17,
+      "first_unrecorded_call": [],
+      "source_record_sha256": "8f39375f998ab30bbb813a88330df97ddad42fe151a237dc162e7f26b1f23511"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 2,
+      "matched_existing_calls": 17,
+      "first_unrecorded_call": [
+        {
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        }
+      ],
+      "source_record_sha256": "8f39375f998ab30bbb813a88330df97ddad42fe151a237dc162e7f26b1f23511"
+    }
+  ],
+  "scope": "Exact historical-response prefix replay. No future physical response is invented; treatment stops at its first additional scene request."
+}

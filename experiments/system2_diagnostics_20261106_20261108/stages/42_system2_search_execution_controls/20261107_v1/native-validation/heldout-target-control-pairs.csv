@@ -1,0 +1,6 @@
+layout_id,layout_sha256,control_score_100,treatment_score_100,score_delta_100,control_success,treatment_success
+0,cba97dc876d9d5db582012fb6f1a6cd9f60146455340f7b00c38b5bcb401e04e,0.0,0.0,0.0,False,False
+1,4b81286db5cc583fd53eae1e71aa791c071c89e3a06116d7890ab7ba9b5580dc,0.0,15.0,15.0,False,False
+2,87a9ca44e8ab102442ae11d51c918f294010e630a46d6069d55fd20b1a0fff69,0.0,0.0,0.0,False,False
+3,b1400576d9f23ae842964fed2cbbd35e8038c196d2afef2b22f1a226fa900ea6,0.0,0.0,0.0,False,False
+4,32a36ac28b8e8da9c126513427e9e785edfd1261ec760726ad83ee426f025853,0.0,0.0,0.0,False,False

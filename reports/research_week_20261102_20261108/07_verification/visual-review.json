@@ -1,0 +1,28 @@
+{
+  "reviewed": [
+    "F02_process_vs_score (panel-title overlap identified and fixed)",
+    "F03_nov7_score_matrix",
+    "F05_system2_evidence_chain",
+    "F06_wrapper_correction",
+    "M03 final frame (pens remain outside baskets)",
+    "M05 frame74 (holding object before later cleanup)",
+    "Excel Results preview: formulas and cohort denominators visible",
+    "Excel API usage preview: input subsets and estimate columns visible",
+    "F02 revised rendering: panel-title overlap removed",
+    "F01 feedback plot: six candidates and denominator30 clear",
+    "F04 generation-input plot: values, scopes, conditions legible",
+    "M04 final frame: object remains outside target basket",
+    "M05 final frame: released object in red basket; normal return vs cleanup must come from traces",
+    "M07 heldout offset final frame: ongoing manipulation, not standalone proof of native stage score",
+    "F07 classification matrix: all30 candidate scores0, heldout missing layout1 explicitly N/A; validn4",
+    "F08 pickup matrix: parent3/5, candidate2or3/5, heldout1/4+1unknown; pi05reference0/5",
+    "Final Excel Results batch43 ranges:64cohorts, formula values match independent mean; interruptions sheet preserves unknown at214/31steps",
+    "M08 frame38: target lifted; native10cm lift receipt determines success, not visual transport inference",
+    "M09 frame199: task scene visible, raw score0 authoritative",
+    "M10 frame1099: objects remain outside baskets; partial15score not fullsuccess",
+    "F09 development stop pattern plot:4conditions×15native attempts, all segment counts/legend legible"
+  ],
+  "pending": [],
+  "note": "Image review supports illustrative scene content, not replacing native scoring or full-video inspection.",
+  "utc": "2026-11-08T10:46:05.615264+00:00"
+}

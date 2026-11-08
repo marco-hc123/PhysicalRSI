@@ -1,0 +1,10 @@
+{
+  "pid": 49685,
+  "script": "/mnt/data/physical-RSI/result/41_observation_loop_20261107/run_native.py",
+  "sha256": "5edaf5677ccc67b504c8fc231ec04e3778d4e9a226f4d669063ca83daf20e5c5",
+  "utc": "2026-11-07T06:33:32.282563+00:00",
+  "planned_cases": 5,
+  "reused_control_cases": 5,
+  "api_calls": 0,
+  "lab_gpu_used": false
+}

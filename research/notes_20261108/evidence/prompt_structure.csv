@@ -1,0 +1,11 @@
+﻿task,call,model,system_text_chars,user_text_chars,images,provider_input_tokens,provider_image_tokens,provider_cached_tokens,provider_output_tokens,provider_reasoning_subset,provider_total_tokens,instruction_canonical_utf8_bytes,observation_canonical_utf8_bytes,task_specific_policy_memory_canonical_utf8_bytes,previous_plan_canonical_utf8_bytes,available_compositions_canonical_utf8_bytes,operation_program_canonical_utf8_bytes
+classify_objects,call-001-request.json,qwen3.7-plus,1296,46263,3,11546,906,0,1017,924,12563,54,980,7168,4,3086,33185
+classify_objects,call-002-request.json,qwen3.7-plus,1296,46263,3,11546,906,0,756,654,12302,54,980,7168,4,3086,33185
+classify_objects,call-003-request.json,qwen3.7-plus,1296,46263,3,11546,906,10368,2026,1924,13572,54,980,7168,4,3086,33185
+classify_objects,call-004-request.json,qwen3.7-plus,1296,46263,3,11546,906,10368,800,689,12346,54,980,7168,4,3086,33185
+classify_objects,call-005-request.json,qwen3.7-plus,1296,46263,3,11546,906,0,691,585,12237,54,980,7168,4,3086,33185
+classify_objects_by_language,call-001-request.json,qwen3.7-plus,1296,46455,3,11588,906,0,491,394,12079,150,1076,7168,4,3086,33185
+classify_objects_by_language,call-002-request.json,qwen3.7-plus,1296,46473,3,11590,906,0,835,719,12425,159,1085,7168,4,3086,33185
+classify_objects_by_language,call-003-request.json,qwen3.7-plus,1296,46453,3,11588,906,0,896,761,12484,149,1075,7168,4,3086,33185
+classify_objects_by_language,call-004-request.json,qwen3.7-plus,1296,46469,3,11590,906,0,709,594,12299,157,1083,7168,4,3086,33185
+classify_objects_by_language,call-005-request.json,qwen3.7-plus,1296,46459,3,11588,906,0,787,667,12375,152,1078,7168,4,3086,33185

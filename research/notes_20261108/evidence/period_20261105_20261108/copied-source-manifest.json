@@ -1,0 +1,734 @@
+[
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/github_update_20261108/science-audit/independent-recomputation.json",
+    "published_copy": "evidence/period_20261105_20261108/audit/independent-recomputation.json",
+    "bytes": 70876,
+    "sha256": "1fc3fcbb7ceb6ccaa8ef1cdc6e71d5ff6dab5e9ddde10b257a2951ea9b7e0016"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/github_update_20261108/science-audit/SCIENCE_REVIEW_ZH.md",
+    "published_copy": "evidence/period_20261105_20261108/audit/SCIENCE_REVIEW_ZH.md",
+    "bytes": 8852,
+    "sha256": "dd0908b70340fced13b10307e4ed2a2bc065d15a0fab4407fc94c118764797e7"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/github_update_20261108/science-audit/verify_weekly_receipts.py",
+    "published_copy": "evidence/period_20261105_20261108/audit/verify_weekly_receipts.py",
+    "bytes": 9151,
+    "sha256": "2625a0a314d28c7088ec4c3beb10a57c3e6a3129f47115a1351c1c57636c0385"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/derived/native_episodes_all.json",
+    "published_copy": "evidence/period_20261105_20261108/tables/native_episodes_all.json",
+    "bytes": 185982,
+    "sha256": "b24b4f2fddfa8211a1e6a985ab143058b254465d73c496d1a52776901e5d5838"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/derived/cohort_results_all.json",
+    "published_copy": "evidence/period_20261105_20261108/tables/cohort_results_all.json",
+    "bytes": 46756,
+    "sha256": "f51f19ce9c6c5fafee79a567f8037f3240a1d30c5e438915468a3e887ff25fee"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/derived/api_requests.json",
+    "published_copy": "evidence/period_20261105_20261108/tables/api_requests.json",
+    "bytes": 28566,
+    "sha256": "aa75a5a65dc57b1441066c9ab734576d12f7878e2da151e62082b31dc82a963c"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/derived/interrupted_native_attempts_batch43.json",
+    "published_copy": "evidence/period_20261105_20261108/tables/interrupted_native_attempts_batch43.json",
+    "bytes": 1382,
+    "sha256": "3f0fc02ba4847eb84f52b175f6f727bc6ce0f23fb7252fbb33e6c78e29b00187"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/32_system2_lift_gate_diagnosis/20261106_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/32/20261106_v1/protocol.json",
+    "bytes": 4076,
+    "sha256": "8253029899c6c8c084c7700693dbdc0304dfddbdf54e210a6efed74efd7ba9b6"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/32/20261106_v1/FINAL_SUMMARY.json",
+    "bytes": 22271,
+    "sha256": "aa618f551a9c843cd4a2b2e82af6def6b337615732dae288177ecc2ee805db00"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/32_system2_lift_gate_diagnosis/20261106_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/32/20261106_v1/REPORT.txt",
+    "bytes": 13162,
+    "sha256": "e0f2c59a597b6864e6abbfff9b35911299487b7063be14553fc9d8500f57d95b"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/33_system2_capability_feedback/20261106_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/33/20261106_v1/protocol.json",
+    "bytes": 5980,
+    "sha256": "803f851be1245b2f16c8d2c293ec791983de556f683f42ae7a1a7f47b445c8bb"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/33_system2_capability_feedback/20261106_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/33/20261106_v1/FINAL_SUMMARY.json",
+    "bytes": 45858,
+    "sha256": "71b851466dfe4fc25cefdb3e4db1c32890ecf05aa3686704e61d09db1fbbc2aa"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/33_system2_capability_feedback/20261106_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/33/20261106_v1/REPORT.txt",
+    "bytes": 14582,
+    "sha256": "5e2fc5e1bffe1e14b8daf00daab04d89d0b32dcc46e7e03fb56953b6ed130e1a"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/34_system2_trajectory_contract/20261106_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/34/20261106_v1/protocol.json",
+    "bytes": 3683,
+    "sha256": "64150745266c14c1406b842ad592576a461f8c6f228cb7af94461d958eaf4d32"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/34_system2_trajectory_contract/20261106_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/34/20261106_v1/FINAL_SUMMARY.json",
+    "bytes": 20134,
+    "sha256": "de68c4ab8989da27c8fa645d6bd103f912bb6e4e335e46c0e947a74c805360ee"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/34_system2_trajectory_contract/20261106_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/34/20261106_v1/REPORT.txt",
+    "bytes": 11126,
+    "sha256": "01a2b58916b2c2943b4b42e6e54f055d359c3120055c2ba341db87fd737a6276"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/35_system2_postgrasp_diagnosis/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/35/20261107_v1/protocol.json",
+    "bytes": 1686,
+    "sha256": "8503189c0f5d731718f6c16140a9c35fd9fc55aa2dc18642bd95e5ca45e4a56d"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/35_system2_postgrasp_diagnosis/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/35/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 46499,
+    "sha256": "fc0bcafbcaf8ad1c8c8cd918ef8dccb4708c819d7a03ec3315b9ac65bf3aa5ae"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/35_system2_postgrasp_diagnosis/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/35/20261107_v1/REPORT.txt",
+    "bytes": 23126,
+    "sha256": "86a213efdbd886c8252697c0a91828126d211cc88ba4f0c488a803d5ec4b948e"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/36_system2_gripper_command_contract/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/36/20261107_v1/protocol.json",
+    "bytes": 2454,
+    "sha256": "5454b05c4e437949a3754ecafa9e35be2735e2a359964b4bea8f8bcb284e1e52"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/36_system2_gripper_command_contract/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/36/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 15324,
+    "sha256": "c388aa94430cacaa8badb97fd6218e0f2af1745f865517627e8eceefc35fac22"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/36_system2_gripper_command_contract/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/36/20261107_v1/REPORT.txt",
+    "bytes": 3350,
+    "sha256": "6db6ecfde8752888418a1fb8ad8589713ca04f40fc17b6daa8c2cd565d1c8d43"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/37_system2_candidate_capacity/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/37/20261107_v1/protocol.json",
+    "bytes": 11415,
+    "sha256": "2a6ac7a23af45dfe2db53b8b0371d3fe863af5f3549eb6e2891367d8ccf918f1"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/37_system2_candidate_capacity/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/37/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 16871,
+    "sha256": "dd4ec941fecf9ddb23a9819ef2d5c7b0cb8328ebe483b318f5fe0f17b9ce37c5"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/37_system2_candidate_capacity/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/37/20261107_v1/REPORT.txt",
+    "bytes": 6361,
+    "sha256": "ad3ac382760091dd6c1fc9e3384bd10c87d5d62242d1399a1b20c8ba1680e043"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/38_system2_transport_destination/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/38/20261107_v1/protocol.json",
+    "bytes": 11601,
+    "sha256": "a18a49f0197b75740613631f9ee221c05b0bbd1d3ad4d8c424597af4559437bc"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/38_system2_transport_destination/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/38/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 19285,
+    "sha256": "e84d7ab4291391c565b7c9847687a186196be8061b3f29f76a9688c51ca2a677"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/38_system2_transport_destination/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/38/20261107_v1/REPORT.txt",
+    "bytes": 3699,
+    "sha256": "97405fd39d8f2113175fb21dbd034c2d23163d05eefaca0a6a35104ac3269d25"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/39_system2_observation_loop/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/39/20261107_v1/protocol.json",
+    "bytes": 11574,
+    "sha256": "180cf1e785aad457507bc0b9447755bc68f19f9918a2f0bc04c74224aa5d411e"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/39_system2_observation_loop/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/39/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 10656,
+    "sha256": "515614e75fe8b1988a578b783f1cfb654174e2724a2f7a4800bc575e00ee0867"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/39_system2_observation_loop/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/39/20261107_v1/REPORT.txt",
+    "bytes": 3204,
+    "sha256": "17b5afb43b67e471b080e9b75836448ca050ff4ef35239a22164c4e7afe1870a"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/39_system2_observation_loop/20261107_v1/driver-contract-replay-v2.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/39/20261107_v1/driver-contract-replay-v2.json",
+    "bytes": 11474,
+    "sha256": "e4d36f04c9f3547b0d0ce0ada54ac11ece7344b93af9b7e84429cb9f0cf0744a"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/40_system2_rejection_contract/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/40/20261107_v1/protocol.json",
+    "bytes": 12056,
+    "sha256": "5c674832fe746802b3c517abd9a4a61256d163070116482d8d555f9ae9a2c5de"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/40_system2_rejection_contract/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/40/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 15842,
+    "sha256": "177f1072fe5aa918d891da70ba2db6ec2b4a0d9e63ca206decf9540f25be1e48"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/40_system2_rejection_contract/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/40/20261107_v1/REPORT.txt",
+    "bytes": 1735,
+    "sha256": "580905d7a4a7cae533a7dc0a4e1a0ad7b8268d79f733decbbeb44f943e01a01d"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/40_system2_rejection_contract/20261107_v1/HISTORICAL_CONTRACT_CORRECTION.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/40/20261107_v1/HISTORICAL_CONTRACT_CORRECTION.txt",
+    "bytes": 4369,
+    "sha256": "d9c88c6e53fdc31c3033ced86f82ccb404b5a7e2bba5ce15543c22268d61ae83"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/41_system2_skill_chain_floor/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/41/20261107_v1/protocol.json",
+    "bytes": 12519,
+    "sha256": "b78df85684a6450ceb80eee14a1cbd51206275e4b3faf0af8ca6a3d5ecf754a2"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/41_system2_skill_chain_floor/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/41/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 87944,
+    "sha256": "258d8132c8eb28ad1e85e36c06862672079513e006cdaa24aef9d517d8ced5ef"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/41_system2_skill_chain_floor/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/41/20261107_v1/REPORT.txt",
+    "bytes": 11895,
+    "sha256": "f1d0e1c0be08de3c6b8ca53c7511e95cb370aa3a1165292b3a742029d0239fba"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/42_system2_search_execution_controls/20261107_v1/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/42/20261107_v1/protocol.json",
+    "bytes": 4147,
+    "sha256": "9aa00cde30fcc9ca4a3d020d334b07c0569bf3c58829937c02d582ed6a3838bf"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/42/20261107_v1/FINAL_SUMMARY.json",
+    "bytes": 23161,
+    "sha256": "8c245cd521155f8cca4a61d8f8c49284c638f4ef55ff4a3acb13ad2135c1cf4c"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/42_system2_search_execution_controls/20261107_v1/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/42/20261107_v1/REPORT.txt",
+    "bytes": 27035,
+    "sha256": "07154f76c653f8a7159cdffb0e552379e8bc5b4889516c4dbb58fbe76ba33caa"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/43_system2_multitask/20261108_v1/native-validation/protocol.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/protocol.json",
+    "bytes": 6981,
+    "sha256": "55c2ea848f3031b4b773c1a65eda99de7f8ec98a42a118651acb44f6470d033d"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/43_system2_multitask/20261108_v1/native-validation/FINAL_SUMMARY.json",
+    "published_copy": "evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/FINAL_SUMMARY.json",
+    "bytes": 47616,
+    "sha256": "7d74bae0ca3bd6e9ab5511d8d2b8dfa7c59a66a665213901e56b65dc162731ea"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/evidence/result/43_system2_multitask/20261108_v1/native-validation/REPORT.txt",
+    "published_copy": "evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/REPORT.txt",
+    "bytes": 5168,
+    "sha256": "aca64a6bbfbdc6df9d3f4a35dc69fc6992eb5f9d68c2ee1bfe661c84b31486be"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/PhysicalRSI_Research_20261102_20261108/08_methods/environment/version-comparison.json",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/environment/version-comparison.json",
+    "bytes": 429,
+    "sha256": "07f57dd0ad26b8b81e99df36a3f75bdcb488f4c69cb63099819beace813e042a"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/PhysicalRSI_Research_20261102_20261108/08_methods/environment/simulator-installed-packages.json",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/environment/simulator-installed-packages.json",
+    "bytes": 7658,
+    "sha256": "53af8eb6ba3af4d469c0ff4ecb0ed8e17edb0065ee5a759656a62947fbb4a964"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/PhysicalRSI_Research_20261102_20261108/08_methods/environment/policy-installed-packages.json",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/environment/policy-installed-packages.json",
+    "bytes": 6520,
+    "sha256": "45483e47e4e2cddf2afd18400be5ac3c2e98dbb4caec48ca7224785a2d7b1341"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/PhysicalRSI_Research_20261102_20261108/08_methods/environment/simulator-pip-check.txt",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/environment/simulator-pip-check.txt",
+    "bytes": 141,
+    "sha256": "5603b6cfe90bec0a35f350403bafba00f95f0537ce7c687b64878bf1453b1801"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/PhysicalRSI_Research_20261102_20261108/08_methods/environment/policy-pip-check.txt",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/environment/policy-pip-check.txt",
+    "bytes": 232,
+    "sha256": "72130aa9434a02f0a61f7e0ca4242ad47bed7ee819e44db8fdd71c26a88c2264"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/PhysicalRSI_Research_20261102_20261108/08_methods/environment/sources.json",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/environment/sources.json",
+    "bytes": 2149,
+    "sha256": "f32c5d854f07f810954472e3edd8a52e01cf861decb7c64e0ceace90525e62ed"
+  },
+  {
+    "local_source": "/home/marco/workspace/PhysicalRSI/current/result/research_week_20261102_20261108/PhysicalRSI_Research_20261102_20261108/08_methods/环境与版本说明.txt",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/environment/环境与版本说明.txt",
+    "bytes": 2563,
+    "sha256": "b2f1e10006683e239ec65352593f53c22e895427dc7282cd97acc8c9d5b23688"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/inputs/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/native-validation/inputs/prepare_native.py",
+    "bytes": 3493,
+    "sha256": "9ba6f9152ad3b69000bb47db667b7f7f5d9f2928d8b838c79acde01fb2ab6824"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/inputs/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/native-validation/inputs/run_native.py",
+    "bytes": 7882,
+    "sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/native-validation/prepare_native.py",
+    "bytes": 3682,
+    "sha256": "ef5f02c1e082af1f1accde47ae84c141876f31917b83f1f940d4eeca81c11bd0"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/native-validation/run_native.py",
+    "bytes": 7882,
+    "sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/prepare_native.py",
+    "bytes": 3682,
+    "sha256": "ef5f02c1e082af1f1accde47ae84c141876f31917b83f1f940d4eeca81c11bd0"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/native-validation/prepare_native.py",
+    "bytes": 3730,
+    "sha256": "094e093e713bdf1573f56fe9b8bd755658e3a6899057eebb2f700a024c5f7d38"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/native-validation/run_native.py",
+    "bytes": 7878,
+    "sha256": "80f07f9ebdc1f2421672b8062f0874a6a628638a3f2c8477796386a6dbdcb7b5"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/prepare_native.py",
+    "bytes": 3730,
+    "sha256": "094e093e713bdf1573f56fe9b8bd755658e3a6899057eebb2f700a024c5f7d38"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/run_native.py",
+    "bytes": 7878,
+    "sha256": "80f07f9ebdc1f2421672b8062f0874a6a628638a3f2c8477796386a6dbdcb7b5"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/32/run_native.py",
+    "bytes": 7882,
+    "sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/evaluate_candidates.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/33/evaluate_candidates.py",
+    "bytes": 5432,
+    "sha256": "daf7a20165d300d02f87d3316042a2baf55a90c2988e1bff548e14f4097110c0"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/33/native-validation/prepare_native.py",
+    "bytes": 4208,
+    "sha256": "43665775127906646d39797a9eb20eb9e82ab507ae94708dc4ce983b1052049b"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/33/native-validation/run_native.py",
+    "bytes": 7928,
+    "sha256": "245722a6b742e0a9ea8baafbbb9a13b87946fc9b0f807f40b3015c8fbf142d5c"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/run_generation.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/33/run_generation.py",
+    "bytes": 5397,
+    "sha256": "bbf02ca56b6be2481ca8ad878736c80fc646bda2e2661e24fabc396ae2967bf7"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/34/native-validation/prepare_native.py",
+    "bytes": 4353,
+    "sha256": "3200d7777e3d7f9bca4d964c773782f27791a79ec97bef0fff7bb167c6a0de68"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/34/native-validation/run_native.py",
+    "bytes": 8086,
+    "sha256": "a9a69800b96785779c796e91b72e1cdbdd3874ea8d1a197afea8f023422cb14b"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1/offline_contract.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/34/offline_contract.py",
+    "bytes": 3612,
+    "sha256": "40789bbdf0b156e4da6ecb27238b434204284de3bd5d3a007d916d689bdef28d"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/native-validation/offline_contract.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/35/native-validation/offline_contract.py",
+    "bytes": 2680,
+    "sha256": "9e2ec11de145cfc1b4b5e0d68c2dd1a53d0716da86618bb5406402ce05295a4a"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/35/native-validation/prepare_native.py",
+    "bytes": 3708,
+    "sha256": "de8097af035e0ab13944b846c4af7c92b9b52cb014aabcecde22c5c1dc0c8c8f"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/35/native-validation/run_native.py",
+    "bytes": 8107,
+    "sha256": "c69d1a1fe3cca048a96d0af266f4c834bed6ce591493c930e921858dc58e7e2d"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/offline_contract.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/35/offline_contract.py",
+    "bytes": 2680,
+    "sha256": "9e2ec11de145cfc1b4b5e0d68c2dd1a53d0716da86618bb5406402ce05295a4a"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/offline_goal_probe.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/35/offline_goal_probe.py",
+    "bytes": 5957,
+    "sha256": "440e5a47e345297a10f3a591b7ef7331eac864ff96f43ea5cd0f78a157380056"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/native-validation/offline_contract.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/36/native-validation/offline_contract.py",
+    "bytes": 2715,
+    "sha256": "545654e76b91aac14cbb5dc1ea508485732a8a517df245effe12e927c75af09f"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/36/native-validation/prepare_native.py",
+    "bytes": 3344,
+    "sha256": "742f12e15cb5af57518a54d7d6f618fc46a5c342b2a4f602fe4bfffb5e7ca24d"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/36/native-validation/run_native.py",
+    "bytes": 8112,
+    "sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/offline_contract.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/36/offline_contract.py",
+    "bytes": 2715,
+    "sha256": "545654e76b91aac14cbb5dc1ea508485732a8a517df245effe12e927c75af09f"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/36/prepare_native.py",
+    "bytes": 3344,
+    "sha256": "742f12e15cb5af57518a54d7d6f618fc46a5c342b2a4f602fe4bfffb5e7ca24d"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/36/run_native.py",
+    "bytes": 8112,
+    "sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/37_system2_candidate_capacity/20261107_v1/native-validation/run_reference.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/37/native-validation/run_reference.py",
+    "bytes": 4594,
+    "sha256": "d6f25f9a2e4686f1f237f9dc7612f749e40518c13d27778d91ec90749d7936b8"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/37_system2_candidate_capacity/20261107_v1/native-validation/run_reference_v2.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/37/native-validation/run_reference_v2.py",
+    "bytes": 4668,
+    "sha256": "146748b7f465b681ec587d9432570db471a12db7ef43ef8ced94057d85a40eab"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/37_system2_candidate_capacity/20261107_v1/run_reference.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/37/run_reference.py",
+    "bytes": 4594,
+    "sha256": "d6f25f9a2e4686f1f237f9dc7612f749e40518c13d27778d91ec90749d7936b8"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/38/native-validation/prepare_native.py",
+    "bytes": 3729,
+    "sha256": "27946a97d223bf0c41e2fafebee8df917d70ca51df0e2232ac0b535e3309dd78"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/38/native-validation/run_native.py",
+    "bytes": 8109,
+    "sha256": "b05b2cff73d702d25c9950371c2fbd81ab3b6cbb5e2d7a9376130259f50fdf32"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/38/prepare_native.py",
+    "bytes": 3729,
+    "sha256": "27946a97d223bf0c41e2fafebee8df917d70ca51df0e2232ac0b535e3309dd78"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/38/run_native.py",
+    "bytes": 8109,
+    "sha256": "b05b2cff73d702d25c9950371c2fbd81ab3b6cbb5e2d7a9376130259f50fdf32"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/39/native-validation/prepare_native.py",
+    "bytes": 3731,
+    "sha256": "426d1e2ebf55bfd1ae328655981ece5dc2d907f7efd717cfd2fca2e446d3d217"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/39/native-validation/run_native.py",
+    "bytes": 8104,
+    "sha256": "5edaf5677ccc67b504c8fc231ec04e3778d4e9a226f4d669063ca83daf20e5c5"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/39/prepare_native.py",
+    "bytes": 3731,
+    "sha256": "426d1e2ebf55bfd1ae328655981ece5dc2d907f7efd717cfd2fca2e446d3d217"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/39/run_native.py",
+    "bytes": 8104,
+    "sha256": "5edaf5677ccc67b504c8fc231ec04e3778d4e9a226f4d669063ca83daf20e5c5"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/40_system2_rejection_contract/20261107_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/40/native-validation/prepare_native.py",
+    "bytes": 3697,
+    "sha256": "48412a1d201abedc8b7fe6455ca47870ded1048277272663c1efe9272484cf2c"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/40_system2_rejection_contract/20261107_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/40/native-validation/run_native.py",
+    "bytes": 8106,
+    "sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/40_system2_rejection_contract/20261107_v1/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/40/prepare_native.py",
+    "bytes": 3697,
+    "sha256": "48412a1d201abedc8b7fe6455ca47870ded1048277272663c1efe9272484cf2c"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/40_system2_rejection_contract/20261107_v1/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/40/run_native.py",
+    "bytes": 8106,
+    "sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1/native-validation/prepare_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/41/native-validation/prepare_native.py",
+    "bytes": 3800,
+    "sha256": "113dead45979006dbbf0b0514c482ad13c66c3393281431391ca8cb7728762f3"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1/native-validation/reference/run_reference.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/41/native-validation/reference/run_reference.py",
+    "bytes": 4510,
+    "sha256": "70a26d2a1e1e2ec036c1154c534d05b48a9f8e39635b05a49e55c534c0218199"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1/native-validation/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/41/native-validation/run_native.py",
+    "bytes": 8105,
+    "sha256": "7ef7975229bf6c15add45c70f404d53f9808d0893ae5147d4674f74b87d13ca7"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1/native-validation/run_route.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/41/native-validation/run_route.py",
+    "bytes": 1961,
+    "sha256": "ee5c2088299503d4de3e269212eb0438e0258d7586336c4ed5f69e65ecab31ca"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/heldout/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/heldout/run_native.py",
+    "bytes": 8068,
+    "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/parent/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/parent/run_native.py",
+    "bytes": 8068,
+    "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/prepare_phase.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/prepare_phase.py",
+    "bytes": 6265,
+    "sha256": "8da09db00584251717033374f6fb47c9856a709c754f0e3d2a18543fff181733"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/repair/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/repair/run_native.py",
+    "bytes": 8068,
+    "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/round2/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/round2/run_native.py",
+    "bytes": 8068,
+    "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/run_generation.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/run_generation.py",
+    "bytes": 5778,
+    "sha256": "aa8c7cdfd1895f64ef5e0ec6c70f8aec6d64212adb91e2e318628f097209d853"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/run_phase.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/run_phase.py",
+    "bytes": 1781,
+    "sha256": "ff458b38da207e38963223849a1f9e274e17ac0ff4dc520bd531e18688b69aa5"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/sampling/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/sampling/run_native.py",
+    "bytes": 8068,
+    "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation/templates/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/native-validation/templates/run_native.py",
+    "bytes": 8068,
+    "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/run_generation.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/42/run_generation.py",
+    "bytes": 5778,
+    "sha256": "aa8c7cdfd1895f64ef5e0ec6c70f8aec6d64212adb91e2e318628f097209d853"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/classify_objects-candidates/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-candidates/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/classify_objects-heldout/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-heldout/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/classify_objects-parent/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-parent/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/general_pickup-candidates/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-candidates/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/general_pickup-heldout/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-heldout/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/general_pickup-parent/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-parent/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/general_pickup-smoke/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-smoke/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/preparation-source-history/a831cf293ec756daa40e87b231b5285c9d9f3d705ea1e5d183cc960cd4ae9598/run_phase.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/preparation-source-history/a831cf293ec756daa40e87b231b5285c9d9f3d705ea1e5d183cc960cd4ae9598/run_phase.py",
+    "bytes": 1608,
+    "sha256": "a831cf293ec756daa40e87b231b5285c9d9f3d705ea1e5d183cc960cd4ae9598"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/preparation-source-history/ff62118945a13f27fe750c2ee677ea716ea3dc7ce230141c73f825b8afbcc8f4/prepare_phase.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/preparation-source-history/ff62118945a13f27fe750c2ee677ea716ea3dc7ce230141c73f825b8afbcc8f4/prepare_phase.py",
+    "bytes": 7061,
+    "sha256": "ff62118945a13f27fe750c2ee677ea716ea3dc7ce230141c73f825b8afbcc8f4"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/prepare_phase.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/prepare_phase.py",
+    "bytes": 7069,
+    "sha256": "3a2954bf45205b00cbed601db3e99b498d48ad49aba52299a7dd461544ef3188"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/run_phase.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/run_phase.py",
+    "bytes": 1823,
+    "sha256": "eccdd79636e8c3b5435ab82218b0bdb717b4deb5b3177c3f73c3cf3080ca73c8"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation/templates/run_native.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/native-validation/templates/run_native.py",
+    "bytes": 8071,
+    "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702"
+  },
+  {
+    "local_source": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/run_generation.py",
+    "published_copy": "evidence/period_20261105_20261108/reproduction/sources/43/run_generation.py",
+    "bytes": 5882,
+    "sha256": "c516c1a84cb65ea02082a94cdd5d591ede12b3e0609b1e31ea7fa7e6172af748"
+  }
+]

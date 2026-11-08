@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "cases": 15,
+    "successes": 0,
+    "positive_score_cases": 0,
+    "mean_score_100": 0.0,
+    "first_approach_rejections": 12,
+    "accepted_approach_calls": 9,
+    "rejected_approach_calls": 15,
+    "incomplete_approach_calls": 0,
+    "step_limit_cancellations": 0,
+    "post_error_calls": 0
+  },
+  "augmented": {
+    "cases": 15,
+    "successes": 0,
+    "positive_score_cases": 2,
+    "mean_score_100": 2.0,
+    "first_approach_rejections": 0,
+    "accepted_approach_calls": 50,
+    "rejected_approach_calls": 5,
+    "incomplete_approach_calls": 5,
+    "step_limit_cancellations": 5,
+    "post_error_calls": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "state": "reviewed",
+  "utc": "2026-11-07T07:25:58.133577+00:00",
+  "task": "classify_objects",
+  "layout_id": 4,
+  "condition": "structured_rejection",
+  "frame": 1100,
+  "image": "transport-video-review/structured_layout4_final.png",
+  "sha256": "183d326a2543ca05740014d7b8867440427e2504630a30beb5acf007c33dc8e6",
+  "observations": [
+    "Final frame shows remaining objects outside baskets;not full task completion.",
+    "Native15partial points and0fullsuccess remain authoritative."
+  ],
+  "limits": [
+    "Single frame does not prove grasp force or slip mechanism.",
+    "No image edits used for evidence;chat preview wasJPEG only."
+  ]
+}

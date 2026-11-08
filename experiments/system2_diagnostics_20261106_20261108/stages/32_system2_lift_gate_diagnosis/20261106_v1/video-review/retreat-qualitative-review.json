@@ -1,0 +1,45 @@
+{
+  "state": "visually_reviewed",
+  "recorded_utc": "2026-11-06T04:08:37.960674+00:00",
+  "task": "classify_objects",
+  "layout": 4,
+  "source_index": "retreat-frame-index.json",
+  "reviewed_frames": [
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 4,
+      "task": "classify_objects",
+      "camera": "head",
+      "encoded_frame": 1100,
+      "encoded_time_s": 44.0,
+      "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/retreat_bypass_lift_guard_layout4_head_frame1100.png",
+      "image_sha256": "980c3e534c3adfac723f5233a5ec6ed2854407893b5443b7f0145d21e4e9a791",
+      "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-d9f1b65052661acc02e0e014b91bbb92/episode_0000004_cam_head_fail.mp4",
+      "video_sha256": "ace15bc7187a34bfe37bcb6ed04a37a53f2b84cae523fcc8d7decba9afda9b1a",
+      "note": "Final encoded frame at25fps. Encoded time is not wall-clock or calibrated physical time. Native score remains the authoritative outcome."
+    },
+    {
+      "condition": "return_to_clearance",
+      "layout": 4,
+      "task": "classify_objects",
+      "camera": "head",
+      "encoded_frame": 1100,
+      "encoded_time_s": 44.0,
+      "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/retreat_return_to_clearance_layout4_head_frame1100.png",
+      "image_sha256": "3af3059d82d7285d1876bbde228373c4b5b43cbc1444dd79a6862f2ca523f98b",
+      "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-5ec0781679d2b14da57810cdb275b031/episode_0000004_cam_head_fail.mp4",
+      "video_sha256": "fd51d46fef9f3ff01279fbafed24b361af78de810ffb056031b859a6f25ba976",
+      "note": "Final encoded frame at25fps. Encoded time is not wall-clock or calibrated physical time. Native score remains the authoritative outcome."
+    }
+  ],
+  "observations": [
+    "The control final frame shows the left gripper over the white basket; other objects remain on the table.",
+    "The return_to_clearance final frame shows a different left arm/gripper configuration, still near/over the white basket in the head view; remaining table objects are visible.",
+    "Both recorded native scores are15/100 and full success isfalse. Images do not override these outcomes."
+  ],
+  "interpretation": "Visible arm configuration differs consistently with a changed action, but these final frames alone cannot prove completion of retreat, precise displacement, stable grasp or correct placement. The actual pending-call and step-limit cancellation records establish that the new retreat was incomplete.",
+  "limitations": [
+    "Two final head-camera frames, not a metric pose/contact reconstruction.",
+    "Encoded frame1100 at25fps means44s in the video, not measured wall-clock time or a calibrated physical duration."
+  ]
+}

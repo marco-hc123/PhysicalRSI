@@ -1,0 +1,13 @@
+{
+  "state": "native_integration_qualified_with_planning_failure",
+  "native_episodes": 1,
+  "score": 0,
+  "complete_success": false,
+  "paid_requests": 0,
+  "manipulation_actions": 0,
+  "approach_requests": 2,
+  "explicit_zero_action_rejections": 2,
+  "observation_binding": "public instruction -> Grounding DINO target query",
+  "scope": "Not proof of grasp capability; separate from formal comparison",
+  "analysis_repair": "Only postprocessing receipt-field projection corrected, no native rerun or evidence alteration"
+}

@@ -1,0 +1,50 @@
+"""Write evidence-based lab report without changing the historical archive."""
+import datetime
+import json
+from pathlib import Path
+R=Path('/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1')
+d=json.loads((R/'summary.json').read_text())
+lines=[
+'System 2 抬升检查：离线回放与后续原生验证',
+'本报告第一部分仅分析已记录观测，不包含新的机器人任务评分。',
+'',
+'研究问题与历史关系',
+'上一批 35 次 RGB 测试中，augmented_3 在 5 个布局完成 3 次 approach 后读取场景并返回。此前分析识别出动态高度判断与固定类别高度输出不匹配。',
+'本次进一步分解条件，检验“只移除高度判断是否足以继续”。源码、感知接口和 5 份原始调用记录先进行 SHA-256 核对。',
+'该研究是基于已查看日志的探索性机制分析；不能称为盲测或独立确认集。',
+'',
+'执行方法',
+'每个变体执行真实候选 Python 代码，逐条核对方法、参数和已记录的 8 次调用，并返回原记录中的响应。',
+'候选只能使用经过审查的内置操作和回放对象，不具备文件、网络或 GPU 访问能力。执行到第一条没有记录的新调用时立即截断，绝不补造后续观测或动作成功。',
+'一次控制脚本白名单遗漏 enumerate 的准备失败已单独保存在 excluded-harness-attempt-001；未计为候选错误或任务失败。',
+'',
+'25 次 CPU 回放结果（5 个变体 × 5 份历史观测）',
+'variant | 提前返回 | 请求下一条未执行动作',
+]
+for name,row in d['totals'].items():lines.append(f"{name} | {row['returned']}/5 | {row['next_call_requests']}/5")
+lines += ['', '逐布局条件分解（XY 判据为距离小于 0.06m）', 'layout | 类别 | 同类别检测数 | XY通过数 | Z通过数 | 最近同类别XY距离m']
+for row in sorted(d['gate_rows'],key=lambda x:x['layout_id']):
+    dist=min([o['xy_distance_m'] for o in row['objects']],default=None)
+    lines.append(f"{row['layout_id']} | {row['category']} | {row['same_category_count']} | {row['xy_passing_count']} | {row['z_passing_count']} | {dist if dist is not None else '未知：无同类别检测'}")
+lines += [
+'',
+'结论与对上一阶段解释的细化',
+'1. 动态高度信息与候选要求确实不匹配，但不是当前 5 份观测中唯一的阻挡条件。两个布局缺失同类别检测，另外三个布局的所有同类检测都不在原目标 6cm 范围内。',
+'2. 只移除 Z、或只移除 XY，均未改变任何一份回放的停止决定。不能继续把下一轮简单描述为“删除高度检查即可修复”。',
+'3. 同时移除 XY 和 Z 后，仅 layout3 的同类别对象恰好为一个，因而请求下一动作。其他布局仍因零个或多个对象而停止。',
+'4. 整项 return guard 的诊断性旁路让 5/5 回放都请求后续动作。这验证了该检查的控制流作用，尚未证明抓取、放置或任何得分改善。',
+'5. RGB Reader 的坐标是平面投影估计，目标名称也不保证跨帧稳定。因此观测缺失/XY偏移可能涉及遮挡、误识别、投影、真实位移等，现有回放不能唯一判定原因。',
+'',
+'后续原生方案',
+'已固定 original 与 bypass_lift_guard 各 5 个历史诊断布局，共 10 次新原生测试。只改变 guard 是否触发 return，其他代码、运行配置、评分及 1100 步预算保持不变。',
+'这是完整检查机制的消融，不是 Z 单因素修复；也不是自动生成的新策略或已获准替换 pi05 的正式技能。',
+'必须分别报告：检查后是否继续、动作是否完成、视频是否支持实际抓取、原生得分、完整 success、规划拒绝和预算终止。无法确定真实抓取时标为未知。',
+'测试材料由实验室经本机 SSH 中转；原始结果与视频完成后回传本目录 native-validation。',
+'',
+'账目与位置',
+'新 CPU 回放 25；复用历史原生观测 5；本离线阶段新增 native 0、API 0、GPU 0。',
+'protocol.json：离线实验定义；protocol/native-protocol.json：执行前固定的原生方案。',
+'inputs/：原始调用及哈希；candidates/：每个变体及最小 diff；replays/：逐调用配对和分支记录；summary.json：完整结构化结果。',
+]
+(R/'OFFLINE_REPORT.txt').write_text('\n'.join(lines)+'\n')
+print(json.dumps({'report':str(R/'OFFLINE_REPORT.txt'),'lines':len(lines)}))

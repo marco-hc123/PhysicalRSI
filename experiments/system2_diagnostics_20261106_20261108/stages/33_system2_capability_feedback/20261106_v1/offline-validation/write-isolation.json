@@ -1,0 +1,8 @@
+{
+  "abi": 4,
+  "filesystem_mutation_allowed": [
+    "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/offline-validation",
+    "/dev/null"
+  ],
+  "no_privileged_operations": true
+}

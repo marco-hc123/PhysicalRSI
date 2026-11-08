@@ -1,0 +1,62 @@
+{
+  "state": "complete",
+  "started_utc": "2026-11-05T03:48:59.490080+00:00",
+  "historical_cutoff": "2026-11-02T23:59:59+08:00",
+  "new_experiments": 0,
+  "new_api_requests": 0,
+  "new_gpu_jobs": 0,
+  "host": "gpuserver3",
+  "records": 60,
+  "checks": [
+    {
+      "name": "cutoff-user-prompt",
+      "exit_code": 0,
+      "stdout": "[ok] logged to LOGS/2026-W45-activity.md  【User】[prompt] 目前阶段先把科研日志的时间记录到11.2的时间段，后续的科研日志后面再重新记录\n",
+      "stderr": ""
+    },
+    {
+      "name": "archive-operation",
+      "exit_code": 0,
+      "stdout": "[ok] logged to LOGS/2026-W45-activity.md  【Agent】[op] 回溯补录科学结果至2026-11-02结束：187909文件、24213种内容、60条逐批记录，保留6条原EXP并补28\n",
+      "stderr": ""
+    },
+    {
+      "name": "timeline-archive-note",
+      "exit_code": 0,
+      "stdout": "[ok] T-2026W45-002 📝备注 [stage-evidence-review] 截至11月2日的历史原件复核和60条记录补录完成；11月5日是归档日期，新实验0，后续结果另记。\n",
+      "stderr": ""
+    },
+    {
+      "name": "protocol-lint-final",
+      "exit_code": 0,
+      "stdout": "[ok] scanned 69 file(s), no issues\n",
+      "stderr": ""
+    },
+    {
+      "name": "timeline-check-final",
+      "exit_code": 0,
+      "stdout": "[ok] 无绕圈迹象（5 个节点 / 3 个主题）\n",
+      "stderr": ""
+    },
+    {
+      "name": "session-check-final",
+      "exit_code": 0,
+      "stdout": "[会话简报] mode = expert（策略见 MODE.md / AGENTS.md § 3）\n- active 议题：DISC-2026W44-001 [Open] 整理已完成阶段的证据，明确下一阶段要验证的问题\n- 当周日志：LOGS/2026-W45.md 已存在\n- 本周流水：LOGS/2026-W45-activity.md（11 条）\n  · 【User】【2026-11-05 11:11】[intent] 用户要求逐份精读实验室 PhysicalRSI 原始科研文件，补齐截至北京时间 2026-11-02 当日结束的科研记录；本次为 11 月 5 日回溯核验，实验发生日期与补录…\n  · 【User】【2026-11-05 11:48】[prompt] 目前阶段先把科研日志的时间记录到11.2的时间段，后续的科研日志后面再重新记录  ↪ `DISC-2026W44-001`\n  · 【Agent】【2026-11-05 11:48】[op] 回溯补录科学结果至2026-11-02结束：187909文件、24213种内容、60条逐批记录，保留6条原EXP并补28条历史EXP和1条档案审计。9组核心复算通过；原件、失败和缺…\n- 主线 Timeline：5 节点，最新 T-2026W45-002 📝备注 [stage-evidence-review] 2026-11-05 截至11月2日的历史原件复核和60条记录补录完成；11月5日是归档日期，新实验0\n- Weekly Retro：无欠账\n- Plan 前必读：idea.md + Discussion.md（AGENTS.md § 4.2 前置检查）\n",
+      "stderr": ""
+    }
+  ],
+  "source_links_verified": 812,
+  "core_sources_rehashed": 210,
+  "local_validation": {
+    "markdown_local_links_ok": true,
+    "unique_exp_count": 35,
+    "history_record_count": 60,
+    "historical_dates_within_cutoff": true
+  },
+  "backup_path": "/mnt/data/joey_tr/physical-RSI/result/research_readthrough_20261105_cutoff_20261102/before-final-write",
+  "completed_utc": "2026-11-05T03:48:59.881585+00:00",
+  "written_files": 92,
+  "installed_hashes_match": true,
+  "active_task_processes": [],
+  "next_action": "Keep scientific archive cutoff at Nov 2; record later research only in a later task."
+}

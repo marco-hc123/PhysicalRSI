@@ -1,0 +1,104 @@
+{
+  "schema": "physicalrsi.search-execution-controls/v1",
+  "created_utc": "2026-11-07T09:57:54.102591+00:00",
+  "sequence": [
+    "freeze route1",
+    "five repeated generations with identical feedback/model/runtime",
+    "one evidence-supported execution repair with unchanged candidate",
+    "freeze execution; three feedback-informed round2 candidates",
+    "freeze selected strategies; five previously unexposed layouts"
+  ],
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "generation_calls_max": 8,
+  "api_cap_usd": 10,
+  "prior_conservative_allowance_usd": 1,
+  "reserve_rates_per_million": {
+    "input": 6,
+    "output": 20
+  },
+  "standard_rates_per_million": {
+    "input": 2,
+    "cached_input": 0.1,
+    "cache_write": 2.5,
+    "output": 10
+  },
+  "max_completion_tokens": 16000,
+  "max_request_bytes": 80000,
+  "reserve_per_call_usd": 0.83,
+  "maximum_reserved_usd": 7.64,
+  "no_automatic_api_retries": true,
+  "source_urls": [
+    "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "https://developers.openai.com/api/docs/pricing"
+  ],
+  "stage1": {
+    "candidate_count": 5,
+    "identical_request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+    "dev_layouts": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "fresh_parent_control": true,
+    "native_planned": 30,
+    "selection_metrics": [
+      "number of full native successes",
+      "mean native score"
+    ],
+    "tie_break": "retain incumbent when tied; among strictly improved ties use earliest generation order",
+    "rejected_candidates": "report as rejected/no native outcome, never score0 or replace"
+  },
+  "stage2": {
+    "design": "fixed candidate paired control; one changed execution factor, five exposed layouts per condition",
+    "variable_selection": "use earliest common transport/placement failure with supporting raw events; document intervention before execution",
+    "acceptance": "mechanistic change and native score separately; if no native benefit preserve baseline executor for confirmatory comparisons",
+    "planned_max_native": 10
+  },
+  "stage3": {
+    "new_candidates": 3,
+    "feedback": "one fixed packet of stage1 selected-parent execution evidence under frozen final execution",
+    "candidate_budget_comparison": "first candidate vs best of first five, same dev selection rule and executor; best across round2 separately labeled feedback+additional search",
+    "continuous_rounds": "two generation/validation/selection rounds; parent retained on non-improvement",
+    "native_max_for_rebinding_and_round2": 45
+  },
+  "heldout": {
+    "n_layouts": 5,
+    "preferred_layouts": [
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "eligibility": "not in previous task-specific diagnostic/validation manifests or feedback; provenance audit before use",
+    "strategies": [
+      "fixed initial parent",
+      "budget1 selected strategy",
+      "budget5 selected strategy",
+      "two-round selected strategy"
+    ],
+    "deduplicate_identical_sources_and_memory": true,
+    "do_not_select_or_tune_on_test": true,
+    "max_native": 20
+  },
+  "fixed": [
+    "upstream/version/environment and weights",
+    "RGB perception and allowed APIs",
+    "native scoring,1100steps, original layouts",
+    "candidate source and generated memory immutable after generation",
+    "no training; no privileged simulator state in policy"
+  ],
+  "limitations": [
+    "small exploratory pilot; five exposed layouts per candidate are not independent candidate×layout observations",
+    "current GPT high and corrected executor do not isolate historical Qwen candidate scarcity",
+    "no causal credit for candidate count if execution changed; compare candidate budgets after same-runtime revalidation",
+    "success/scoring and single-object delivery distinct; cleanup release distinct from normal completion"
+  ],
+  "lab_scope": "/mnt/data/joey_tr/physical-RSI only",
+  "cloud_root": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1",
+  "lab_gpu_used": false
+}

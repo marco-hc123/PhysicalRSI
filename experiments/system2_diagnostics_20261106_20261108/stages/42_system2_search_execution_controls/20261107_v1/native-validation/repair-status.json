@@ -1,0 +1,7 @@
+{
+  "state": "completed",
+  "phase": "repair",
+  "pid": 104536,
+  "utc": "2026-11-07T12:21:06.419012+00:00",
+  "validation": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/repair/analysis/independent-validation.json"
+}

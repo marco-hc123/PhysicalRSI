@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "request_id": "req_5b0c40f7b9594f78b8bcecc158d3b9a2",
+  "body": {
+    "id": "chatcmpl-Ehr8tCWgAPIz8upqNh9tCU1ruW7hr",
+    "object": "chat.completion",
+    "created": 1794121091,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"source\": \"def policy(robot, memory):\\n    quats = {'left': [0.613, -0.3593, 0.6163, 0.3392], 'right': [0.3814, -0.6197, 0.3785, 0.572]}\\n    for arm in quats:\\n        norm = sum(v * v for v in quats[arm]) ** 0.5\\n        quats[arm] = [v / norm for v in quats[arm]]\\n    def move(arm, position):\\n        value = robot.approach(arm=arm, position_m=position, quaternion_wxyz=quats[arm])\\n        if 'primitive_error' not in value:\\n            return 'issued'\\n        if value['primitive_error'] == 'no_collision_free_path':\\n            return 'rejected'\\n        return 'uncertain'\\n    objects = robot.scene()['objects']\\n    if 'target_1' not in objects:\\n        return {'stop': 'target_not_detected', 'physical_success': 'unknown'}\\n    x, y = objects['target_1']['pose'][:2]\\n    preferred = 'left' if x <= 0 else 'right'\\n    alternate = 'right' if preferred == 'left' else 'left'\\n    for arm in [preferred, alternate]:\\n        status = move(arm, [x, y, 1.02])\\n        if status == 'rejected':\\n            continue\\n        if status == 'uncertain':\\n            return {'stop': 'approach_execution_uncertain', 'physical_success': 'unknown'}\\n        robot.gripper(arm=arm, command=1)\\n        status = move(arm, [x, y, 0.93])\\n        if status != 'issued':\\n            return {'stop': 'contact_' + status, 'physical_success': 'unknown'}\\n        robot.gripper(arm=arm, command=0)\\n        for height in [1.12, 1.06]:\\n            status = move(arm, [x, y, height])\\n            if status == 'rejected':\\n                continue\\n            if status == 'uncertain':\\n                return {'stop': 'lift_execution_uncertain', 'physical_success': 'unknown'}\\n            return {'stop': 'sequence_issued', 'physical_success': 'unknown'}\\n        return {'stop': 'lift_plans_rejected', 'physical_success': 'unknown'}\\n    return {'stop': 'approach_plans_rejected', 'physical_success': 'unknown'}\\n\",\n  \"memory\": {},\n  \"rationale\": \"Refine only the terminal lift: request 1.12 m instead of 1.06 m, increasing commanded vertical displacement from 13 cm to 19 cm to provide margin above the task's 10 cm requirement. Retain the parent's lift endpoint as a fallback only after an explicit zero-action no_collision_free_path rejection. This preserves the parent's maximum of three executed approach calls and two gripper calls; additional planning rejections execute no actions. Other reported errors stop the sequence, and exceptions propagate without retries. Detection, grasp position, and arm selection remain unchanged. Commanded displacement and returned calls do not establish attachment, achieved height, or success.\"\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1258,
+      "completion_tokens": 2092,
+      "total_tokens": 3350,
+      "prompt_tokens_details": {
+        "cached_tokens": 1255,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1338,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

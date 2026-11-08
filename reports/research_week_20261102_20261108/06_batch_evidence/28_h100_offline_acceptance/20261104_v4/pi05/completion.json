@@ -1,0 +1,7 @@
+{
+  "state": "failed",
+  "error": "TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v4/run_gpu_batch.py\", line 131, in worker\n    result=basic() if mode=='basic' else planning() if mode=='planning' else policy(mode)\n                                                                             ^^^^^^^^^^^^\n  File \"/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v4/run_gpu_batch.py\", line 118, in policy\n    assert all(np.isfinite(a).all() for a in arrays.values())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v4/run_gpu_batch.py\", line 118, in <genexpr>\n    assert all(np.isfinite(a).all() for a in arrays.values())\n               ^^^^^^^^^^^^^^\nTypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''\n",
+  "elapsed_seconds": 61.47923839278519,
+  "finished_utc": "2026-11-04T12:50:56.269185+00:00"
+}

@@ -1,0 +1,113 @@
+{
+  "budget1": {
+    "selected": "fixed_parent",
+    "metric": [
+      0,
+      0.03
+    ],
+    "trace": [
+      {
+        "candidate": "sample_01",
+        "metric": [
+          0,
+          0.0
+        ],
+        "incumbent": "fixed_parent",
+        "incumbent_metric": [
+          0,
+          0.03
+        ],
+        "selected": false
+      }
+    ]
+  },
+  "budget5": {
+    "selected": "fixed_parent",
+    "metric": [
+      0,
+      0.03
+    ],
+    "trace": [
+      {
+        "candidate": "sample_01",
+        "metric": [
+          0,
+          0.0
+        ],
+        "incumbent": "fixed_parent",
+        "incumbent_metric": [
+          0,
+          0.03
+        ],
+        "selected": false
+      },
+      {
+        "candidate": "sample_02",
+        "metric": [
+          0,
+          0.0
+        ],
+        "incumbent": "fixed_parent",
+        "incumbent_metric": [
+          0,
+          0.03
+        ],
+        "selected": false
+      },
+      {
+        "candidate": "sample_03",
+        "metric": [
+          0,
+          0.0
+        ],
+        "incumbent": "fixed_parent",
+        "incumbent_metric": [
+          0,
+          0.03
+        ],
+        "selected": false
+      },
+      {
+        "candidate": "sample_04",
+        "metric": [
+          0,
+          0.0
+        ],
+        "incumbent": "fixed_parent",
+        "incumbent_metric": [
+          0,
+          0.03
+        ],
+        "selected": false
+      },
+      {
+        "candidate": "sample_05",
+        "metric": [
+          0,
+          0.0
+        ],
+        "incumbent": "fixed_parent",
+        "incumbent_metric": [
+          0,
+          0.03
+        ],
+        "selected": false
+      }
+    ]
+  },
+  "phase": "sampling",
+  "utc": "2026-11-07T11:47:14.682408+00:00",
+  "heldout_seen": false,
+  "rule": "Full-success count then mean native score; retain incumbent on tie; increasing generation order",
+  "sources": [
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/analysis/matrix-analysis.json",
+      "sha256": "da673f1e1a862d90ae3b5eedd448a691256af635ac3d986fea73de126b11d222"
+    },
+    {
+      "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/sampling/analysis/matrix-analysis.json",
+      "sha256": "ae10baf064c77783881b2400a0d2343cd5e0df6bf28149b425cf43d1e2ab8e91"
+    }
+  ],
+  "scope": "One nested candidate pool, not replicated search budgets; development choice is subject to selection bias and needs independent validation."
+}

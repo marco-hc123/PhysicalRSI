@@ -1,0 +1,85 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T06:26:02.529560+00:00",
+  "valid_native_cases": 10,
+  "receipt_checks": [
+    {
+      "condition": "original_transport",
+      "layout_id": 0,
+      "receipt_sha256": "665f01f18a62e22e5c0ba5b69dde24e21bfe18bee17ebefe9e018732f6e4aca0",
+      "harness_sha256": "4c7e2296d24d24e6c32fb8751bd5ce5c2ea47d580ce563897dd378c9aeee9fd5",
+      "state": "passed"
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 1,
+      "receipt_sha256": "3353e5e1ffd35a9a393f314979330e9058f35109abf7c1a6bf11725f41a44ff3",
+      "harness_sha256": "4c7e2296d24d24e6c32fb8751bd5ce5c2ea47d580ce563897dd378c9aeee9fd5",
+      "state": "passed"
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 2,
+      "receipt_sha256": "5087a978079edfc6ef4d7aded2d27a7cfad055bd8c22e39add17e2d4c0a9dbfa",
+      "harness_sha256": "4c7e2296d24d24e6c32fb8751bd5ce5c2ea47d580ce563897dd378c9aeee9fd5",
+      "state": "passed"
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 3,
+      "receipt_sha256": "50f98f30976585aa27e7c3c4730ba8e305d6df4cd73f6cfc0bb0880930fa7627",
+      "harness_sha256": "4c7e2296d24d24e6c32fb8751bd5ce5c2ea47d580ce563897dd378c9aeee9fd5",
+      "state": "passed"
+    },
+    {
+      "condition": "original_transport",
+      "layout_id": 4,
+      "receipt_sha256": "fe12812881ccc8c344850b252746378238e4d1dff35d0f3495a6cfb34e6d683b",
+      "harness_sha256": "4c7e2296d24d24e6c32fb8751bd5ce5c2ea47d580ce563897dd378c9aeee9fd5",
+      "state": "passed"
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 0,
+      "receipt_sha256": "81fc33ee45925e3dd3fee53aeb533fb9dd489ef1b3a2a1db3f749c258f4138e9",
+      "harness_sha256": "20a6e48a4a38382d86e484d4ac7bed4dbaa55981ef0cd1c59477cdf30e3833ab",
+      "state": "passed"
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 1,
+      "receipt_sha256": "1a3b98a7b9f19958457a43ccb1acbc1e0c8866aa3e58be9c0edd5aa9df217e97",
+      "harness_sha256": "20a6e48a4a38382d86e484d4ac7bed4dbaa55981ef0cd1c59477cdf30e3833ab",
+      "state": "passed"
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 2,
+      "receipt_sha256": "2ee5c53e39408c92cd9493a5d8b15d10ffef3350246c1019580cde7a8c15f2ae",
+      "harness_sha256": "20a6e48a4a38382d86e484d4ac7bed4dbaa55981ef0cd1c59477cdf30e3833ab",
+      "state": "passed"
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 3,
+      "receipt_sha256": "226209809d32bf1ddcd39d522ce78c3843b5cb69292bcc995185d537b9426fe5",
+      "harness_sha256": "20a6e48a4a38382d86e484d4ac7bed4dbaa55981ef0cd1c59477cdf30e3833ab",
+      "state": "passed"
+    },
+    {
+      "condition": "offset_transport",
+      "layout_id": 4,
+      "receipt_sha256": "1c9b7849e8bf52a95db6a8aa9a7055b75c16aee8321a061f1e70ef4167e1f801",
+      "harness_sha256": "20a6e48a4a38382d86e484d4ac7bed4dbaa55981ef0cd1c59477cdf30e3833ab",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 30,
+  "failed_videos": 0,
+  "protocol_sha256": "a18a49f0197b75740613631f9ee221c05b0bbd1d3ad4d8c424597af4559437bc",
+  "runtime_sha256": "0d3e6fe0be99a4df9dd4a180676457cafd50e5df81c56c37b2b1bd38125dd038",
+  "elapsed_seconds": 9.646473050000168,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

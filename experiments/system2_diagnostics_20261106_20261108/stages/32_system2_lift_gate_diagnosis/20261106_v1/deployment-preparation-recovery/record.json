@@ -1,0 +1,9 @@
+{
+  "scope": "Controller preparation only, no native run started",
+  "initial_issue": "System interpreter lacked numpy; use existing policy interpreter",
+  "second_issue": "Trusted module search path omitted frozen integration root",
+  "repair": "Include existing frozen integration root in controller sys.path; permit rechecking already prepared matching harnesses",
+  "policy_code_changed": false,
+  "runtime_config_changed": false,
+  "valid_native_cases": 0
+}

@@ -1,0 +1,242 @@
+{
+  "state": "passed",
+  "replayed_episodes": 5,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "gpu_used": false,
+  "rows": [
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 0,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "recorded_rpc_calls": 34,
+      "exact_request_response_replay": true,
+      "pending_call": false,
+      "terminal_reason": "no_eligible_visible_choice",
+      "terminal": {
+        "event": "return",
+        "line": 103,
+        "source_line": "return",
+        "turn": 4,
+        "initial_item_count": 4,
+        "attempted": 4,
+        "choices": 0,
+        "assignments": {
+          "pen": 1,
+          "toy_car": 2
+        },
+        "exception": null
+      },
+      "trace_events": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 4,
+          "initial_item_count": 4,
+          "attempted": 4,
+          "choices": 0,
+          "assignments": {
+            "pen": 1,
+            "toy_car": 2
+          },
+          "exception": null
+        }
+      ]
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 1,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "recorded_rpc_calls": 35,
+      "exact_request_response_replay": true,
+      "pending_call": false,
+      "terminal_reason": "explicit_return_review_source",
+      "terminal": {
+        "event": "return",
+        "line": 138,
+        "source_line": "return",
+        "turn": 4,
+        "initial_item_count": 4,
+        "attempted": 5,
+        "choices": 1,
+        "assignments": {
+          "garage": 1,
+          "watch": 0
+        },
+        "exception": null
+      },
+      "trace_events": [
+        {
+          "event": "exception",
+          "line": 118,
+          "source_line": "if move(candidate, [x, y, clearance_z]):",
+          "turn": 4,
+          "initial_item_count": 4,
+          "attempted": 5,
+          "choices": 1,
+          "assignments": {
+            "garage": 1,
+            "watch": 0
+          },
+          "exception": "AssertionError"
+        },
+        {
+          "event": "return",
+          "line": 138,
+          "source_line": "return",
+          "turn": 4,
+          "initial_item_count": 4,
+          "attempted": 5,
+          "choices": 1,
+          "assignments": {
+            "garage": 1,
+            "watch": 0
+          },
+          "exception": null
+        }
+      ]
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 2,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "recorded_rpc_calls": 18,
+      "exact_request_response_replay": true,
+      "pending_call": false,
+      "terminal_reason": "no_eligible_visible_choice",
+      "terminal": {
+        "event": "return",
+        "line": 103,
+        "source_line": "return",
+        "turn": 2,
+        "initial_item_count": 2,
+        "attempted": 2,
+        "choices": 0,
+        "assignments": {
+          "garage": 1,
+          "toy_car": 0
+        },
+        "exception": null
+      },
+      "trace_events": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 2,
+          "initial_item_count": 2,
+          "attempted": 2,
+          "choices": 0,
+          "assignments": {
+            "garage": 1,
+            "toy_car": 0
+          },
+          "exception": null
+        }
+      ]
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 3,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "recorded_rpc_calls": 34,
+      "exact_request_response_replay": true,
+      "pending_call": false,
+      "terminal_reason": "no_eligible_visible_choice",
+      "terminal": {
+        "event": "return",
+        "line": 103,
+        "source_line": "return",
+        "turn": 4,
+        "initial_item_count": 3,
+        "attempted": 4,
+        "choices": 0,
+        "assignments": {
+          "pen": 0,
+          "garage": 1,
+          "toy_car": 2
+        },
+        "exception": null
+      },
+      "trace_events": [
+        {
+          "event": "return",
+          "line": 103,
+          "source_line": "return",
+          "turn": 4,
+          "initial_item_count": 3,
+          "attempted": 4,
+          "choices": 0,
+          "assignments": {
+            "pen": 0,
+            "garage": 1,
+            "toy_car": 2
+          },
+          "exception": null
+        }
+      ]
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 4,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "recorded_rpc_calls": 35,
+      "exact_request_response_replay": true,
+      "pending_call": false,
+      "terminal_reason": "explicit_return_review_source",
+      "terminal": {
+        "event": "return",
+        "line": 138,
+        "source_line": "return",
+        "turn": 4,
+        "initial_item_count": 3,
+        "attempted": 5,
+        "choices": 1,
+        "assignments": {
+          "watch": 0,
+          "pen": 2,
+          "camera": 1
+        },
+        "exception": null
+      },
+      "trace_events": [
+        {
+          "event": "exception",
+          "line": 118,
+          "source_line": "if move(candidate, [x, y, clearance_z]):",
+          "turn": 4,
+          "initial_item_count": 3,
+          "attempted": 5,
+          "choices": 1,
+          "assignments": {
+            "watch": 0,
+            "pen": 2,
+            "camera": 1
+          },
+          "exception": "AssertionError"
+        },
+        {
+          "event": "return",
+          "line": 138,
+          "source_line": "return",
+          "turn": 4,
+          "initial_item_count": 3,
+          "attempted": 5,
+          "choices": 1,
+          "assignments": {
+            "watch": 0,
+            "pen": 2,
+            "camera": 1
+          },
+          "exception": null
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Exact fixed-response replay explains existing code decisions only; no new physical outcome or counterfactual improvement.",
+    "Pending native calls stop the replay without inventing their result.",
+    "Original source and memory are unchanged; recorded method/arguments and call counts must match exactly."
+  ]
+}

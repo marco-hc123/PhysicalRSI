@@ -1,0 +1,167 @@
+[
+  {
+    "id": "sample_01",
+    "batch": "sampling",
+    "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+    "state": "received",
+    "reserve_usd": 0.83,
+    "started_utc": "2026-11-07T09:59:50.674682+00:00",
+    "http_status": 200,
+    "seconds": 151.07144743204117,
+    "finished_utc": "2026-11-07T10:02:21.746535+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 3010,
+      "completion_tokens": 8822,
+      "total_tokens": 11832,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3007,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5633,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0957435,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "43ec7316d8ddfdf4a3e67c349caba3437b787b4b6bd8924bc6c22466f917108b"
+  },
+  {
+    "id": "sample_02",
+    "batch": "sampling",
+    "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+    "state": "received",
+    "reserve_usd": 0.83,
+    "started_utc": "2026-11-07T10:02:21.755148+00:00",
+    "http_status": 200,
+    "seconds": 162.17054336331785,
+    "finished_utc": "2026-11-07T10:05:03.926504+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 3010,
+      "completion_tokens": 9936,
+      "total_tokens": 12946,
+      "prompt_tokens_details": {
+        "cached_tokens": 3007,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 6656,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0996667,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "fbbbd5cc6b0162f3ee76d30cc60df5e7d60c21a9ddf8343f8856c4ceb091c571"
+  },
+  {
+    "id": "sample_03",
+    "batch": "sampling",
+    "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+    "state": "received",
+    "reserve_usd": 0.83,
+    "started_utc": "2026-11-07T10:05:03.934110+00:00",
+    "http_status": 200,
+    "seconds": 161.53108782693744,
+    "finished_utc": "2026-11-07T10:07:45.465984+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 3010,
+      "completion_tokens": 9397,
+      "total_tokens": 12407,
+      "prompt_tokens_details": {
+        "cached_tokens": 3007,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 6147,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.09427669999999999,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "c68a2a59e65bcdb1aea058c6b5695103b3fdaed8c3c3d113fdbd4d82b89c04ac"
+  },
+  {
+    "id": "sample_04",
+    "batch": "sampling",
+    "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+    "state": "received",
+    "reserve_usd": 0.83,
+    "started_utc": "2026-11-07T10:07:45.474022+00:00",
+    "http_status": 200,
+    "seconds": 142.08112462423742,
+    "finished_utc": "2026-11-07T10:10:07.556067+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 3010,
+      "completion_tokens": 8303,
+      "total_tokens": 11313,
+      "prompt_tokens_details": {
+        "cached_tokens": 3007,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5052,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0833367,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "7c37ae512cdbf98ea1834b381fd93d2a65a5d2bf73480cfc968890184f27a0fc"
+  },
+  {
+    "id": "sample_05",
+    "batch": "sampling",
+    "request_sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3",
+    "state": "received",
+    "reserve_usd": 0.83,
+    "started_utc": "2026-11-07T10:10:07.564252+00:00",
+    "http_status": 200,
+    "seconds": 134.09159144759178,
+    "finished_utc": "2026-11-07T10:12:21.656787+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 3010,
+      "completion_tokens": 7917,
+      "total_tokens": 10927,
+      "prompt_tokens_details": {
+        "cached_tokens": 3007,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5120,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0794767,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "a3a33597011f37a2a061941db81a769b3422294efaefba6dfeadaedf6821331a"
+  }
+]

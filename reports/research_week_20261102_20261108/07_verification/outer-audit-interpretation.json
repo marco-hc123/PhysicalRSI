@@ -1,0 +1,12 @@
+{
+  "artifact_checks": 150751,
+  "available_hash_checks_passed": 150621,
+  "hash_mismatches": 0,
+  "missing_references": 130,
+  "all_missing_are_empty_runtime_locks": true,
+  "names": {
+    ".actor.lock": 65,
+    ".claims.lock": 65
+  },
+  "interpretation": "Missing references are empty process coordination lock files omitted from archival copies. Original receipts remain unchanged; do not recreate runtime locks or relabel this as lost scoring/trajectory evidence."
+}

@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "request_id": "req_210ac3f3ecba40f38f86b06c93923d25",
+  "body": {
+    "id": "chatcmpl-Eh5wefUdXug47u7cPStTHTWXsx7Uz",
+    "object": "chat.completion",
+    "created": 1793939664,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"source\": \"def policy(robot, memory):\\n    def normalized(q):\\n        n = sum(v*v for v in q) ** 0.5\\n        return [v/n for v in q]\\n\\n    quats = {\\n        'left': normalized([0.613, -0.3593, 0.6163, 0.3392]),\\n        'right': normalized([0.3814, -0.6197, 0.3785, 0.572])\\n    }\\n\\n    def observe():\\n        data = robot.scene()\\n        if not isinstance(data, dict) or not isinstance(data.get('objects'), dict):\\n            raise ValueError('Perception unavailable')\\n        result = []\\n        for key, value in list(data['objects'].items())[:64]:\\n            if not isinstance(key, str) or '_' not in key or not isinstance(value, dict):\\n                continue\\n            category, suffix = key.rsplit('_', 1)\\n            if not category or not suffix.isdigit() or int(suffix) < 1:\\n                continue\\n            p, d = value.get('pose', []), value.get('dims', [])\\n            if not isinstance(p, (list, tuple)) or not isinstance(d, (list, tuple)):\\n                continue\\n            if len(p) != 7 or len(d) != 3:\\n                continue\\n            if not all(isinstance(v, (int, float)) and v == v and abs(v) < 10 for v in list(p) + list(d)):\\n                continue\\n            if not all(v > 0 for v in d):\\n                continue\\n            result.append({'c': category, 'p': list(p), 'd': list(d)})\\n        return result\\n\\n    def inside(item, basket):\\n        p, b, d = item['p'], basket['p'], basket['d']\\n        q = b[3:7]\\n        n = sum(v*v for v in q) ** 0.5\\n        if n < 0.000001:\\n            return False\\n        w, x, y, z = [v/n for v in q]\\n        dx, dy = p[0]-b[0], p[1]-b[1]\\n        lx = (1-2*(y*y+z*z))*dx + 2*(x*y+w*z)*dy\\n        ly = 2*(x*y-w*z)*dx + (1-2*(x*x+z*z))*dy\\n        return abs(lx) < d[0]/2-0.012 and abs(ly) < d[1]/2-0.012\\n\\n    def move(arm, x, y, z):\\n        result = robot.approach(arm=arm, position_m=[x, y, z], quaternion_wxyz=quats[arm])\\n        if isinstance(result, dict) and result.get('primitive_error'):\\n            if result['primitive_error'] == 'no_collision_free_path':\\n                return False\\n            raise RuntimeError('Uncertain primitive outcome')\\n        return True\\n\\n    try:\\n        initial = observe()\\n        baskets = sorted([o for o in initial if o['c'] == 'basket'], key=lambda o: o['p'][0])\\n        items = [o for o in initial if o['c'] != 'basket']\\n        categories = sorted(set(o['c'] for o in items))\\n        if not baskets or not categories or len(categories) > len(baskets):\\n            return\\n\\n        assignment, used = {}, set()\\n        for i, basket in enumerate(baskets):\\n            occupants = set(o['c'] for o in items if inside(o, basket))\\n            if len(occupants) == 1:\\n                category = next(iter(occupants))\\n                if category not in assignment:\\n                    assignment[category] = i\\n                    used.add(i)\\n        for category in categories:\\n            if category in assignment:\\n                continue\\n            group = [o for o in items if o['c'] == category]\\n            available = [i for i in range(len(baskets)) if i not in used]\\n            i = min(available, key=lambda j: sum((o['p'][0]-baskets[j]['p'][0])**2 + (o['p'][1]-baskets[j]['p'][1])**2 for o in group))\\n            assignment[category] = i\\n            used.add(i)\\n\\n        work = [o for o in items if not inside(o, baskets[assignment[o['c']]])]\\n        work.sort(key=lambda o: (o['p'][0]-baskets[assignment[o['c']]]['p'][0])**2 + (o['p'][1]-baskets[assignment[o['c']]]['p'][1])**2)\\n        for original in work[:6]:\\n            current = observe()\\n            matches = [o for o in current if o['c'] == original['c'] and (o['p'][0]-original['p'][0])**2 + (o['p'][1]-original['p'][1])**2 < 0.0025]\\n            if len(matches) != 1:\\n                continue\\n            item = matches[0]\\n            basket = baskets[assignment[item['c']]]\\n            if inside(item, basket):\\n                continue\\n            x, y, z = item['p'][:3]\\n            bx, by = basket['p'][:2]\\n            contact = max(0.92, z + item['d'][2]/2 + 0.125)\\n            clearance = max(1.01, contact + 0.045)\\n            if clearance > 1.08:\\n                continue\\n            preferred = 'left' if x + bx < 0 else 'right'\\n            other = 'right' if preferred == 'left' else 'left'\\n            selected = None\\n            # Only explicit zero-execution rejection permits this bounded fallback.\\n            for arm in [preferred, other]:\\n                robot.gripper(arm=arm, command=1)\\n                if not move(arm, x, y, clearance):\\n                    continue\\n                if not move(arm, x, y, contact):\\n                    return\\n                selected = arm\\n                break\\n            if selected is None:\\n                return\\n            robot.gripper(arm=selected, command=0)\\n            if not move(selected, x, y, clearance):\\n                return\\n            # RGB Z is nominal, not dynamic height: do not gate transport on it.\\n            # This is a single open-loop transfer, not a verified grasp.\\n            if not move(selected, bx, by, 1.01):\\n                return\\n            robot.gripper(arm=selected, command=1)\\n            if not move(selected, bx, by, 1.055):\\n                return\\n    except Exception:\\n        # No uncertain manipulation retries or arbitrary emergency releases.\\n        return\\n\",\n  \"memory\": {\n    \"lessons\": [\n      \"Scene height is category-nominal; upward Z, disappearance, and instance suffixes cannot verify grasp success.\",\n      \"Use category strings parsed at the final underscore; visible instance keys are not persistent identities.\",\n      \"Explicit no_collision_free_path returns indicate zero execution; other failures do not justify manipulation retries.\",\n      \"Use basket dimensions rather than a broad fixed proximity threshold, and assign distinct baskets to distinct categories.\",\n      \"Avoid unnecessarily high lifts; normalize arm-specific downward quaternions.\",\n      \"Primitive completion and gripper joint observations do not establish task success.\"\n    ],\n    \"limits\": {\n      \"maximum_source_objects\": 6,\n      \"maximum_precontact_arm_candidates\": 2,\n      \"maximum_grasp_attempts_per_source_object\": 1\n    }\n  },\n  \"rationale\": \"Removes the post-lift height guard that stopped the previous candidate before transport. It uses live RGB geometry for category grouping and source localization without treating nominal Z or instance suffixes as grasp evidence. Modest clearances and side-dependent arms address unnecessary high lifts and cross-workspace planning failures. Recovery is limited to explicit zero-execution rejection before contact; uncertain execution ends the policy without retries or arbitrary release. Transfers remain unverified, and independent evaluation determines the outcome.\"\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 15755,
+      "completion_tokens": 2117,
+      "total_tokens": 17872,
+      "prompt_tokens_details": {
+        "cached_tokens": 15752,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 271,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

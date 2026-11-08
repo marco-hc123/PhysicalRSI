@@ -1,0 +1,5 @@
+task,condition,requests,input_tokens,output_tokens,cached_input_subset,reasoning_output_subset,api_seconds,estimated_standard_usd
+classify_objects,basic,3,8136,15130,5418,7989,205.77592338200338,0.1586323
+classify_objects,execution_feedback,3,44769,10708,29840,5120,137.47808196800543,0.147382
+general_pickup,basic,3,3774,6328,2510,4128,98.87436277499728,0.06668650000000001
+general_pickup,execution_feedback,3,26403,6497,17596,4199,104.433539139005,0.08874259999999999

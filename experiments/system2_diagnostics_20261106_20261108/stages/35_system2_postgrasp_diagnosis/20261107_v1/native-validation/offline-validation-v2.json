@@ -1,0 +1,14 @@
+{
+  "state": "passed",
+  "checks": [
+    "same object and keys; one original observation call",
+    "side-file state and frame index captured",
+    "logging exception does not alter observation or propagate",
+    "solver args and return identity unchanged",
+    "solver original exception propagated",
+    "explicit RPC parameter signatures preserved"
+  ],
+  "gpu_used": false,
+  "paid_api_calls": 0,
+  "scope": "CPU mocks verify logging transparency; does not prove simulator integration"
+}

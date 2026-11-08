@@ -1,0 +1,9 @@
+﻿task,route,episodes,native_completed,successes,mean_partial_score,mean_reset_to_result_seconds,total_tokens
+classify_objects,pi05,5,5,0,0.0,153.53083037979997,0
+classify_objects,pi05-sparse-memory,5,5,0,0.17,173.65057165680008,0
+classify_objects,code,5,5,2,0.51,196.56168671220001,0
+classify_objects,agent,5,5,1,0.32,236.53175448939982,63020
+classify_objects_by_language,pi05,5,5,0,0.0,151.01928724980007,0
+classify_objects_by_language,pi05-sparse-memory,5,5,0,0.02,162.0075606796003,0
+classify_objects_by_language,code,5,5,1,0.4,199.31067689119953,0
+classify_objects_by_language,agent,5,5,1,0.3,214.75510789399996,61662

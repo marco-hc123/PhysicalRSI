@@ -1,0 +1,82 @@
+Skill-chain capacity floor, 2026-11-07
+
+Purpose
+Evaluate physical capability before attributing stagnant classification scores to
+System 2 candidate generation. This is a bounded diagnostic, not a new System 2
+generation round, policy promotion, or complete RoboDojo benchmark.
+
+Experiment identity
+- Execution root: /mnt/data/physical-RSI/result/44_skill_chain_floor_20261107
+- Archive root: /mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1
+- Two conditions, five previously exposed original layouts each; ten new native
+  episodes in total. CPU fixtures and failed service startup are not episodes.
+- Candidate: stage40 source with ONLY range(6) changed to range(1). Use the
+  corrected child rejection contract and existing gripper-command retention.
+- Reference: pinned released controller 6bb861ace4b706d9 through the first basket
+  transfer return. Internal retries/handoffs are retained. This has richer APIs
+  and can select a different object, so it is not a matched causal comparison.
+- Original scene, objects, native scoring and 1100-step budget are unchanged.
+- No training, API calls, new model-generated candidates or lab GPU use.
+
+Source and environment bindings
+protocol.json, reference/protocol.json, environment-current.json,
+preflight-binding.json, runtimes/, reference/reference-spec.json,
+native-campaign/campaign.json, driver-contract-provenance/.
+The frozen runtime inherits the previous deployment. Installed dependencies,
+weights and full scene assets are referenced rather than redundantly copied.
+The simulator and policy environments intentionally have different versions.
+
+Raw evidence
+native-campaign/runs/single_cycle/attempt-001/: five candidate episodes and
+15 original native videos, isolation source, exact input memory and RPC records.
+reference/native/: five reference episodes and15 original native videos.
+backend-traces/, sim-diagnostics/, reference/model-traces/,
+reference/service-events.jsonl and reference/sim-diagnostics/: execution details.
+Privileged object/robot state is recorded only for analysis. It is never fed
+back to either controller. Candidate scene information remains RGB-derived.
+
+Accounting and outcome definitions
+analysis-criteria.json defines diagnostic thresholds before outcome tables were
+read. These are separate from native success and score. Stable containment uses
+the frozen native object-root and basket-bbox predicates, not a new reward.
+Frame inspection corroborates selected examples; no force/contact certificate
+is claimed. Association failures remain unknown. All five layouts stay in each
+condition's denominator. Released failure-cleanup opening is reported separately
+from normal planned release and normal transfer return.
+
+Validation
+analysis/independent-validation.json and reference/analysis/independent-validation.json
+bind layout, controller identity, receipts, raw scores and full video decoding.
+keyframes*/frame-index.json maps each unmodified frame to its original video,
+action-frame index and hash. video-review.json or visual-review.json records review.
+migration/source-manifest.json contains the transfer hashes; the lab copy adds
+migration/ARCHIVE_VERIFIED.json after every archived file is verified.
+
+CPU reanalysis
+Work on a separate analysis copy if preserving a sealed archive. Use Python with
+the recorded numpy, transforms3d and shapely packages, CUDA_VISIBLE_DEVICES empty:
+    python -B analyze_chain.py
+This reads archived reference layouts when available. It writes derived tables,
+not native outcomes. Original native validation scripts retain execution-host
+absolute dependency bindings and need the frozen deployment for re-execution.
+
+Native repeat
+Do not rerun run_route.py or prepare_native.py in a populated result directory.
+Create a new explicitly versioned experiment, restore matching runtime/assets,
+rebind output paths, preflight source hashes and check actual processes first.
+run_native.py runs only the five candidate cases. reference/run_reference.py
+runs only the five reference cases. The repaired reference launcher maintains
+the parent-owned stdin pipe needed by watch_parent_death.
+
+Deployment failure
+reference/deployment-attempt01/ preserves the startup EOF incident. No reference
+model episode or simulator was started. The initial service exit code was not
+persisted; EOF behavior was reproduced in a CPU watchdog fixture. Only launcher
+pipe ownership changed. The five completed candidate episodes were not rerun.
+
+Interpretation limits
+Single-object chain completion is not full multi-object task success. These
+development layouts do not establish generalization or stable success rates.
+Descriptive differences between the richer reference and candidate cannot isolate
+LLM quality, API capability or task selection. No claim of System 2 improvement,
+cross-project Token savings or speedup is made by this experiment.

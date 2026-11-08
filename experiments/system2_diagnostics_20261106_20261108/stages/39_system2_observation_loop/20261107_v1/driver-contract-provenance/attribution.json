@@ -1,0 +1,9 @@
+{
+  "upstream_commit": "90b322a3a362aad14125f36d8ed080ca31daaea6",
+  "upstream_blob_git": "86703dbc0436ebaf8f55931996c87b0ed450bc7c",
+  "upstream_sha256": "511df8359fa368368a77b0c6d86839f7ff512edf1c5e667a57c8aa5ea442a6f6",
+  "frozen_sha256": "f9c8c15465fea537878d62c5d59530be524216b6d5a214c74d46e8c1671fef47",
+  "worktree_file_unmodified": true,
+  "finding": "Explicit no_collision_free_path RuntimeError conversion is present in recorded integration,absent in pinned upstream file;do not attribute it to upstream framework as shipped.",
+  "scope": "Pinned historical source comparison,not statement about current remote main branch"
+}

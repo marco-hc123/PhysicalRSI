@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-07T13:55:46.800943+00:00",
+  "state": "old_streams_finished_driver_terminated_for_verified_resume",
+  "paused_pid": 69279,
+  "children_allowed_to_finish": [
+    69568,
+    69569
+  ],
+  "logical_bytes": 3438764850,
+  "unique_content_bytes": 637136711,
+  "unique_contents": 7188,
+  "files": 50982,
+  "scope": "Only the local transfer driver is paused; existing SSH copy children may finish. Native experiments are complete. No source result is modified.",
+  "children_states": {
+    "69568": "Z",
+    "69569": "Z"
+  }
+}

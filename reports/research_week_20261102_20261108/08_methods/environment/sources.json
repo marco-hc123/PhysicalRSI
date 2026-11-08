@@ -1,0 +1,42 @@
+[
+  {
+    "name": "version-comparison.json",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/version-comparison.json",
+    "sha256": "07f57dd0ad26b8b81e99df36a3f75bdcb488f4c69cb63099819beace813e042a"
+  },
+  {
+    "name": "simulator-installed-packages.json",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/simulator-installed-packages.json",
+    "sha256": "53af8eb6ba3af4d469c0ff4ecb0ed8e17edb0065ee5a759656a62947fbb4a964"
+  },
+  {
+    "name": "policy-installed-packages.json",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/policy-installed-packages.json",
+    "sha256": "45483e47e4e2cddf2afd18400be5ac3c2e98dbb4caec48ca7224785a2d7b1341"
+  },
+  {
+    "name": "simulator-pip-check.txt",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/simulator-pip-check.txt",
+    "sha256": "5603b6cfe90bec0a35f350403bafba00f95f0537ce7c687b64878bf1453b1801"
+  },
+  {
+    "name": "policy-pip-check.txt",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/policy-pip-check.txt",
+    "sha256": "72130aa9434a02f0a61f7e0ca4242ad47bed7ee819e44db8fdd71c26a88c2264"
+  },
+  {
+    "name": "lab-weight-hash-verification.json",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/lab-weight-hash-verification.json",
+    "sha256": "a1af9f8904a3228df21739c1f64b387d157d930297e0471eec70a5649d7627ad"
+  },
+  {
+    "name": "graphics-pinned-restoration.json",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/graphics-pinned-restoration.json",
+    "sha256": "3a5b28d359a173df88cbe84da8f58026026ecfab04d6683bedf18ad106dba673"
+  },
+  {
+    "name": "transformers-compatibility.json",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/environment/transformers-compatibility.json",
+    "sha256": "9eed92976f6eb928ea64e6dd9fb0f7fd9f007ddeb644e1a2ad0a0071bc773543"
+  }
+]

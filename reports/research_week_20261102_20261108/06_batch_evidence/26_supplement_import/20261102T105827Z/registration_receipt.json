@@ -1,0 +1,35 @@
+{
+  "state": "registered_verified",
+  "updated_beijing": "2026-11-02T19:09:24.319666+08:00",
+  "research_records": [
+    "EXP-2026W45-001",
+    "EXP-2026W45-002"
+  ],
+  "scientific_batches": 2,
+  "all_original_archive_files_verified": 486,
+  "payload_files_verified": 505,
+  "old_index_rows_preserved": 43,
+  "combined_index_rows": 45,
+  "result_entries": 35,
+  "new_source_native_episodes": 20,
+  "source_infrastructure_interruptions": 1,
+  "historical_reference_rows_not_new": 10,
+  "reused_development_episodes_not_new": 10,
+  "new_api_calls_started_by_import": 0,
+  "new_native_experiments_started_by_import": 0,
+  "training_jobs_started": 0,
+  "original_videos_in_supplied_packages": 0,
+  "original_stage_index_unchanged": true,
+  "strict_protocol_lint_passed": true,
+  "timeline_check": "[ok] 无绕圈迹象（4 个节点 / 3 个主题）",
+  "research_entry": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/README.md",
+  "integration_report": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/REPORT_INTEGRATION.md",
+  "continuation": "/mnt/data/joey_tr/physical-RSI/research/CONTINUATION.md",
+  "existing_experiments_or_services_modified": false,
+  "local_old_complete_zip_modified": false,
+  "remaining_gaps": [
+    "New native videos not supplied",
+    "Per-step artifacts absent from provided packages not fully reverified",
+    "Prior complete ZIP not updated with this new import"
+  ]
+}

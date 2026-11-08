@@ -1,0 +1,3197 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T09:42:08.968281+00:00",
+  "new_native_cases": 10,
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "unique_exposed_layouts": 5,
+  "groups": [
+    {
+      "condition": "released_first_basket_cycle",
+      "cases": 5,
+      "qualified_source_associations": 5,
+      "completed_lift_proxies": 5,
+      "release_observed": 5,
+      "delivered_proxies": 5,
+      "complete_chain_proxies": 5,
+      "unknown_chain_cases": 0,
+      "native_scores_100": [
+        0.0,
+        15.0,
+        15.0,
+        15.0,
+        15.0
+      ],
+      "native_full_successes": 0
+    },
+    {
+      "condition": "single_cycle",
+      "cases": 5,
+      "qualified_source_associations": 5,
+      "completed_lift_proxies": 5,
+      "release_observed": 5,
+      "delivered_proxies": 2,
+      "complete_chain_proxies": 2,
+      "unknown_chain_cases": 0,
+      "native_scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "native_full_successes": 0
+    }
+  ],
+  "cases": [
+    {
+      "condition": "released_first_basket_cycle",
+      "layout_id": 0,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "last_stage": "failure_hold",
+      "first_error": "RuntimeError('motion endpoint did not converge before next stage')",
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "contact",
+        "failure_hold",
+        "lift",
+        "open",
+        "transport"
+      ],
+      "transfer_attempts": 1,
+      "basket_boundary_reached": false,
+      "release_kind": "failure_cleanup",
+      "source_traces": [
+        "model-traces/1794043749744387736/trace.jsonl"
+      ],
+      "runtime_scope": "Complete released controller; richer perception/IK/joint/endpoint/recovery interface",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat2_1",
+        "distance_m": 0.002358142878556997,
+        "margin_m": 0.10482328798877713
+      },
+      "source_label": "cat2_1",
+      "arm": "right",
+      "phase_action_indices": {
+        "selection": 36,
+        "close": 64,
+        "lift": 74,
+        "transport": 79,
+        "release": 121
+      },
+      "source_instance": "watch_0_13",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            0.40066131949424744,
+            -0.09428562968969345,
+            0.7786681056022644
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.41966888308525085,
+            -0.3200281858444214,
+            1.1198720932006836
+          ],
+          "object_minus_ee_xyz": [
+            -0.019007563591003418,
+            0.22574255615472794,
+            -0.3412039875984192
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            0.38840264081954956,
+            -0.08572383970022202,
+            0.7792901396751404
+          ],
+          "root_rise_m": 0.0006220340728759766,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.40275031328201294,
+            -0.09370001405477524,
+            0.9227622747421265
+          ],
+          "object_minus_ee_xyz": [
+            -0.014347672462463379,
+            0.007976174354553223,
+            -0.14347213506698608
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            0.3845676779747009,
+            -0.08483131229877472,
+            0.8590916991233826
+          ],
+          "root_rise_m": 0.08042359352111816,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.40272200107574463,
+            -0.09339423477649689,
+            1.0006150007247925
+          ],
+          "object_minus_ee_xyz": [
+            -0.0181543231010437,
+            0.008562922477722168,
+            -0.1415233016014099
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            0.2601246237754822,
+            -0.005255762487649918,
+            0.8685712814331055
+          ],
+          "root_rise_m": 0.08990317583084106,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.28008967638015747,
+            -0.007858983241021633,
+            1.0102040767669678
+          ],
+          "object_minus_ee_xyz": [
+            -0.019965052604675293,
+            0.0026032207533717155,
+            -0.1416327953338623
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            0.257773220539093,
+            -0.0038652189541608095,
+            0.8570817112922668
+          ],
+          "root_rise_m": 0.07841360569000244,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.2767125368118286,
+            -0.008645826019346714,
+            1.000699520111084
+          ],
+          "object_minus_ee_xyz": [
+            -0.018939316272735596,
+            0.0047806070651859045,
+            -0.14361780881881714
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            0.2839305102825165,
+            0.01809678040444851,
+            0.7974996566772461
+          ],
+          "root_rise_m": 0.01883155107498169,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": true
+            }
+          },
+          "ee_xyz": [
+            0.2766672372817993,
+            -0.008634296245872974,
+            1.0002676248550415
+          ],
+          "object_minus_ee_xyz": [
+            0.007263273000717163,
+            0.026731076650321484,
+            -0.2027679681777954
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.08042359352111816,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.09050583839416504,
+      "final_displacement_xy_m": 0.16203668695018864,
+      "object_transport_xy_m": 0.1477103309392153,
+      "object_ee_comotion_residual_m": 0.006229668920255235,
+      "target_basket": "basket2",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket2",
+        "distance_m": 0.05683274104939846,
+        "margin_m": 0.22503265873594996
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": true,
+          "settled_inside": true
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": true
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        0.40066131949424744,
+        -0.09428562968969345,
+        0.7786681056022644
+      ],
+      "final_root_xyz": [
+        0.2839305102825165,
+        0.01809678040444851,
+        0.7974996566772461
+      ]
+    },
+    {
+      "condition": "released_first_basket_cycle",
+      "layout_id": 1,
+      "native_score_100": 15.0,
+      "native_full_success": false,
+      "last_stage": "complete_hold",
+      "first_error": null,
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "complete_hold",
+        "contact",
+        "lift",
+        "observe_retract",
+        "open",
+        "release",
+        "retreat",
+        "transport"
+      ],
+      "transfer_attempts": 1,
+      "basket_boundary_reached": true,
+      "release_kind": "planned",
+      "source_traces": [
+        "model-traces/1794043897198190379/trace.jsonl"
+      ],
+      "runtime_scope": "Complete released controller; richer perception/IK/joint/endpoint/recovery interface",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat2_0",
+        "distance_m": 0.011477603596753453,
+        "margin_m": 0.08023655227589234
+      },
+      "source_label": "cat2_0",
+      "arm": "right",
+      "phase_action_indices": {
+        "selection": 36,
+        "close": 71,
+        "lift": 81,
+        "transport": 88,
+        "release": 101
+      },
+      "source_instance": "garage_15_21",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            0.004146632272750139,
+            -0.19468054175376892,
+            0.7941291332244873
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.41966888308525085,
+            -0.3200281858444214,
+            1.1198720932006836
+          ],
+          "object_minus_ee_xyz": [
+            -0.4155222508125007,
+            0.12534764409065247,
+            -0.3257429599761963
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            0.010395552963018417,
+            -0.18942280113697052,
+            0.7941868901252747
+          ],
+          "root_rise_m": 5.7756900787353516e-05,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.005985952913761139,
+            -0.18464186787605286,
+            0.9257733821868896
+          ],
+          "object_minus_ee_xyz": [
+            0.0044096000492572784,
+            -0.004780933260917664,
+            -0.131586492061615
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            0.01024460606276989,
+            -0.18943573534488678,
+            0.8720540404319763
+          ],
+          "root_rise_m": 0.07792490720748901,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.005680721253156662,
+            -0.18452800810337067,
+            1.0036207437515259
+          ],
+          "object_minus_ee_xyz": [
+            0.004563884809613228,
+            -0.004907727241516113,
+            -0.13156670331954956
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            0.2700488269329071,
+            -0.014143646694719791,
+            0.8783722519874573
+          ],
+          "root_rise_m": 0.08424311876296997,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.27022427320480347,
+            -0.007638143375515938,
+            1.0099536180496216
+          ],
+          "object_minus_ee_xyz": [
+            -0.0001754462718963623,
+            -0.006505503319203854,
+            -0.1315813660621643
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            0.27808427810668945,
+            0.07404842972755432,
+            0.8171356916427612
+          ],
+          "root_rise_m": 0.023006558418273926,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": true
+            }
+          },
+          "ee_xyz": [
+            0.2760985493659973,
+            -0.006760740652680397,
+            0.9900006055831909
+          ],
+          "object_minus_ee_xyz": [
+            0.0019857287406921387,
+            0.08080917038023472,
+            -0.1728649139404297
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            0.27694347500801086,
+            0.07419373095035553,
+            0.8166067600250244
+          ],
+          "root_rise_m": 0.02247762680053711,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": true
+            }
+          },
+          "ee_xyz": [
+            0.4196692109107971,
+            -0.3200274705886841,
+            1.1198713779449463
+          ],
+          "object_minus_ee_xyz": [
+            -0.14272573590278625,
+            0.3942212015390396,
+            -0.3032646179199219
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.07792490720748901,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.08424311876296997,
+      "final_displacement_xy_m": 0.3830293617054683,
+      "object_transport_xy_m": 0.3134095555742949,
+      "object_ee_comotion_residual_m": 0.005001436042839603,
+      "target_basket": "basket2",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket2",
+        "distance_m": 0.056877912308827466,
+        "margin_m": 0.22512401019606024
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": true,
+          "settled_inside": true
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": true
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        0.004146632272750139,
+        -0.19468054175376892,
+        0.7941291332244873
+      ],
+      "final_root_xyz": [
+        0.27694347500801086,
+        0.07419373095035553,
+        0.8166067600250244
+      ]
+    },
+    {
+      "condition": "released_first_basket_cycle",
+      "layout_id": 2,
+      "native_score_100": 15.0,
+      "native_full_success": false,
+      "last_stage": "complete_hold",
+      "first_error": null,
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "complete_hold",
+        "contact",
+        "lift",
+        "observe_retract",
+        "open",
+        "release",
+        "retreat",
+        "transport"
+      ],
+      "transfer_attempts": 1,
+      "basket_boundary_reached": true,
+      "release_kind": "planned",
+      "source_traces": [
+        "model-traces/1794044045055973846/trace.jsonl"
+      ],
+      "runtime_scope": "Complete released controller; richer perception/IK/joint/endpoint/recovery interface",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.0027536216200739877,
+        "margin_m": 0.303843030724585
+      },
+      "source_label": "cat1_0",
+      "arm": "right",
+      "phase_action_indices": {
+        "selection": 36,
+        "close": 63,
+        "lift": 73,
+        "transport": 80,
+        "release": 93
+      },
+      "source_instance": "action_camera_1_33",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            0.35124650597572327,
+            -0.12466222047805786,
+            0.767139732837677
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.41966888308525085,
+            -0.3200281858444214,
+            1.1198720932006836
+          ],
+          "object_minus_ee_xyz": [
+            -0.06842237710952759,
+            0.19536596536636353,
+            -0.3527323603630066
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            0.35110506415367126,
+            -0.12280229479074478,
+            0.7673085927963257
+          ],
+          "root_rise_m": 0.00016885995864868164,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.35087788105010986,
+            -0.12322387099266052,
+            0.9257529973983765
+          ],
+          "object_minus_ee_xyz": [
+            0.00022718310356140137,
+            0.00042157620191574097,
+            -0.15844440460205078
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            0.3551081418991089,
+            -0.12395395338535309,
+            0.8426260352134705
+          ],
+          "root_rise_m": 0.07548630237579346,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.3508409261703491,
+            -0.12290764600038528,
+            1.0032762289047241
+          ],
+          "object_minus_ee_xyz": [
+            0.004267215728759766,
+            -0.001046307384967804,
+            -0.16065019369125366
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            0.28194254636764526,
+            -0.0070002758875489235,
+            0.8498471975326538
+          ],
+          "root_rise_m": 0.0827074646949768,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": true
+            }
+          },
+          "ee_xyz": [
+            0.27754583954811096,
+            -0.007549496367573738,
+            1.0099953413009644
+          ],
+          "object_minus_ee_xyz": [
+            0.004396706819534302,
+            0.0005492204800248146,
+            -0.16014814376831055
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            0.31422993540763855,
+            0.008163420483469963,
+            0.7876908779144287
+          ],
+          "root_rise_m": 0.02055114507675171,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": true
+            }
+          },
+          "ee_xyz": [
+            0.2765454947948456,
+            -0.008142361417412758,
+            0.9999502301216125
+          ],
+          "object_minus_ee_xyz": [
+            0.03768444061279297,
+            0.01630578190088272,
+            -0.21225935220718384
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            0.32249951362609863,
+            0.014623623341321945,
+            0.7766785621643066
+          ],
+          "root_rise_m": 0.009538829326629639,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": true,
+              "settled_inside": true
+            }
+          },
+          "ee_xyz": [
+            0.4196692407131195,
+            -0.3200274705886841,
+            1.119871735572815
+          ],
+          "object_minus_ee_xyz": [
+            -0.09716972708702087,
+            0.334651093930006,
+            -0.3431931734085083
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.07548630237579346,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.08685046434402466,
+      "final_displacement_xy_m": 0.142221432483385,
+      "object_transport_xy_m": 0.1379542208478382,
+      "object_ee_comotion_residual_m": 0.0016776564712971099,
+      "target_basket": "basket2",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket2",
+        "distance_m": 0.056806506195769234,
+        "margin_m": 0.225192869798468
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": true,
+          "settled_inside": true
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": true
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        0.35124650597572327,
+        -0.12466222047805786,
+        0.767139732837677
+      ],
+      "final_root_xyz": [
+        0.32249951362609863,
+        0.014623623341321945,
+        0.7766785621643066
+      ]
+    },
+    {
+      "condition": "released_first_basket_cycle",
+      "layout_id": 3,
+      "native_score_100": 15.0,
+      "native_full_success": false,
+      "last_stage": "failure_hold",
+      "first_error": "RuntimeError('motion endpoint did not converge before next stage')",
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "contact",
+        "failure_hold",
+        "lift",
+        "open",
+        "transport"
+      ],
+      "transfer_attempts": 1,
+      "basket_boundary_reached": false,
+      "release_kind": "failure_cleanup",
+      "source_traces": [
+        "model-traces/1794044191124488492/trace.jsonl"
+      ],
+      "runtime_scope": "Complete released controller; richer perception/IK/joint/endpoint/recovery interface",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat0_0",
+        "distance_m": 0.006325443584442239,
+        "margin_m": 0.16785356447169633
+      },
+      "source_label": "cat0_0",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 36,
+        "close": 70,
+        "lift": 80,
+        "transport": 87,
+        "release": 129
+      },
+      "source_instance": "garage_14_43",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            -0.04314635321497917,
+            -0.1660604327917099,
+            0.7924543619155884
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.4200388491153717,
+            -0.3200362026691437,
+            1.119999647140503
+          ],
+          "object_minus_ee_xyz": [
+            0.37689249590039253,
+            0.15397576987743378,
+            -0.32754528522491455
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            -0.04557955637574196,
+            -0.16653145849704742,
+            0.7926284670829773
+          ],
+          "root_rise_m": 0.00017410516738891602,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.0466054230928421,
+            -0.16847753524780273,
+            0.9257331490516663
+          ],
+          "object_minus_ee_xyz": [
+            0.0010258667171001434,
+            0.00194607675075531,
+            -0.13310468196868896
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            -0.0456383116543293,
+            -0.1668933629989624,
+            0.8707389831542969
+          ],
+          "root_rise_m": 0.0782846212387085,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.04648240655660629,
+            -0.1681900918483734,
+            1.0034691095352173
+          ],
+          "object_minus_ee_xyz": [
+            0.0008440949022769928,
+            0.0012967288494110107,
+            -0.1327301263809204
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            -0.3080466389656067,
+            -0.00431988388299942,
+            0.8779115676879883
+          ],
+          "root_rise_m": 0.0854572057723999,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.30675584077835083,
+            -0.007281780242919922,
+            1.0098719596862793
+          ],
+          "object_minus_ee_xyz": [
+            -0.0012907981872558594,
+            0.0029618963599205017,
+            -0.13196039199829102
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            -0.3131578862667084,
+            -0.0038215804379433393,
+            0.8660367727279663
+          ],
+          "root_rise_m": 0.07358241081237793,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.31051453948020935,
+            -0.009165862575173378,
+            0.9999903440475464
+          ],
+          "object_minus_ee_xyz": [
+            -0.0026433467864990234,
+            0.005344282137230039,
+            -0.13395357131958008
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            -0.291753351688385,
+            0.014660211279988289,
+            0.8183015584945679
+          ],
+          "root_rise_m": 0.025847196578979492,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": true
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.31051111221313477,
+            -0.009164432995021343,
+            0.9999915957450867
+          ],
+          "object_minus_ee_xyz": [
+            0.018757760524749756,
+            0.023824644275009632,
+            -0.1816900372505188
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.0782846212387085,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.08554315567016602,
+      "final_displacement_xy_m": 0.3073522260918984,
+      "object_transport_xy_m": 0.3086879757200966,
+      "object_ee_comotion_residual_m": 0.002814789932054141,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06504053498637159,
+        "margin_m": 0.25167896623271135
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": true,
+          "settled_inside": true
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": true,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        -0.04314635321497917,
+        -0.1660604327917099,
+        0.7924543619155884
+      ],
+      "final_root_xyz": [
+        -0.291753351688385,
+        0.014660211279988289,
+        0.8183015584945679
+      ]
+    },
+    {
+      "condition": "released_first_basket_cycle",
+      "layout_id": 4,
+      "native_score_100": 15.0,
+      "native_full_success": false,
+      "last_stage": "complete_hold",
+      "first_error": null,
+      "observed_stages": [
+        "approach",
+        "basket_lower",
+        "capture_lift",
+        "capture_settle",
+        "clear_view",
+        "close",
+        "complete_hold",
+        "contact",
+        "lift",
+        "observe_retract",
+        "open",
+        "release",
+        "retreat",
+        "transport"
+      ],
+      "transfer_attempts": 1,
+      "basket_boundary_reached": true,
+      "release_kind": "planned",
+      "source_traces": [
+        "model-traces/1794044362326754733/trace.jsonl"
+      ],
+      "runtime_scope": "Complete released controller; richer perception/IK/joint/endpoint/recovery interface",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.009280311683516982,
+        "margin_m": 0.09151710851664292
+      },
+      "source_label": "cat1_0",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 36,
+        "close": 67,
+        "lift": 77,
+        "transport": 85,
+        "release": 98
+      },
+      "source_instance": "watch_0_62",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            -0.18223218619823456,
+            -0.16878671944141388,
+            0.7786681056022644
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.4200388491153717,
+            -0.3200362026691437,
+            1.119999647140503
+          ],
+          "object_minus_ee_xyz": [
+            0.23780666291713715,
+            0.1512494832277298,
+            -0.3413315415382385
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            -0.18596746027469635,
+            -0.1663779765367508,
+            0.7787144184112549
+          ],
+          "root_rise_m": 4.6312808990478516e-05,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.1841447949409485,
+            -0.1590895652770996,
+            0.9226085543632507
+          ],
+          "object_minus_ee_xyz": [
+            -0.0018226653337478638,
+            -0.007288411259651184,
+            -0.14389413595199585
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            -0.1883852779865265,
+            -0.16746005415916443,
+            0.8556331992149353
+          ],
+          "root_rise_m": 0.0769650936126709,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.1841176301240921,
+            -0.1587660312652588,
+            1.0002763271331787
+          ],
+          "object_minus_ee_xyz": [
+            -0.004267647862434387,
+            -0.00869402289390564,
+            -0.1446431279182434
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            -0.3100649118423462,
+            -0.018544716760516167,
+            0.8646285533905029
+          ],
+          "root_rise_m": 0.08596044778823853,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.30984827876091003,
+            -0.007584076374769211,
+            1.0102981328964233
+          ],
+          "object_minus_ee_xyz": [
+            -0.00021663308143615723,
+            -0.010960640385746956,
+            -0.1456695795059204
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            -0.3289565443992615,
+            0.08004305511713028,
+            0.7876866459846497
+          ],
+          "root_rise_m": 0.009018540382385254,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": true
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.31160181760787964,
+            -0.006932973861694336,
+            0.9899997115135193
+          ],
+          "object_minus_ee_xyz": [
+            -0.017354726791381836,
+            0.08697602897882462,
+            -0.20231306552886963
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            -0.3297670781612396,
+            0.08015777915716171,
+            0.787507951259613
+          ],
+          "root_rise_m": 0.008839845657348633,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": true
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.41974523663520813,
+            -0.32009783387184143,
+            1.1198718547821045
+          ],
+          "object_minus_ee_xyz": [
+            0.0899781584739685,
+            0.40025561302900314,
+            -0.33236390352249146
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.0769650936126709,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.0911475419998169,
+      "final_displacement_xy_m": 0.2893784852559564,
+      "object_transport_xy_m": 0.192306294769151,
+      "object_ee_comotion_residual_m": 0.0047541432952774776,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06504811523535067,
+        "margin_m": 0.25158022538487645
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": true,
+          "settled_inside": true
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": true,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        -0.18223218619823456,
+        -0.16878671944141388,
+        0.7786681056022644
+      ],
+      "final_root_xyz": [
+        -0.3297670781612396,
+        0.08015777915716171,
+        0.787507951259613
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 0,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0032478225270866235,
+          "start_action": 0,
+          "end_action": 18
+        },
+        {
+          "stage": "contact",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003005351175838004,
+          "start_action": 24,
+          "end_action": 27
+        },
+        {
+          "stage": "lift",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0030736208084996878,
+          "start_action": 33,
+          "end_action": 36
+        },
+        {
+          "stage": "transport",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.006499557467090008,
+          "start_action": 36,
+          "end_action": 40
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.002584321147032623,
+        "margin_m": 0.12359879011304585
+      },
+      "source_label": "cat1_0",
+      "arm": "right",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 33,
+        "lift": 36,
+        "transport": 40,
+        "release": 46
+      },
+      "source_instance": "toy_car_0_9",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            0.11656441539525986,
+            -0.1044212356209755,
+            0.7869925498962402
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.3004709482192993,
+            -0.35229986906051636,
+            0.921500027179718
+          ],
+          "object_minus_ee_xyz": [
+            -0.18390653282403946,
+            0.24787863343954086,
+            -0.13450747728347778
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            0.10610175132751465,
+            -0.09461475163698196,
+            0.7870852947235107
+          ],
+          "root_rise_m": 9.274482727050781e-05,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.11689886450767517,
+            -0.1066603884100914,
+            0.9331375956535339
+          ],
+          "object_minus_ee_xyz": [
+            -0.010797113180160522,
+            0.012045636773109436,
+            -0.1460523009300232
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            0.10995914787054062,
+            -0.0965677797794342,
+            0.831845760345459
+          ],
+          "root_rise_m": 0.04485321044921875,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.11673720180988312,
+            -0.10655611753463745,
+            1.0069626569747925
+          ],
+          "object_minus_ee_xyz": [
+            -0.006778053939342499,
+            0.009988337755203247,
+            -0.1751168966293335
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            0.1642339527606964,
+            -0.08426761627197266,
+            0.7872673273086548
+          ],
+          "root_rise_m": 0.0002747774124145508,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.2698630094528198,
+            -0.00834742747247219,
+            1.0102142095565796
+          ],
+          "object_minus_ee_xyz": [
+            -0.10562905669212341,
+            -0.07592018879950047,
+            -0.2229468822479248
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            0.1648823320865631,
+            -0.08344172686338425,
+            0.7868258953094482
+          ],
+          "root_rise_m": -0.0001666545867919922,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.2691672742366791,
+            -0.008390815928578377,
+            1.0102087259292603
+          ],
+          "object_minus_ee_xyz": [
+            -0.10428494215011597,
+            -0.07505091093480587,
+            -0.223382830619812
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            0.1648740917444229,
+            -0.08344566076993942,
+            0.7868220806121826
+          ],
+          "root_rise_m": -0.0001704692840576172,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.2691672742366791,
+            -0.008390819653868675,
+            1.0102087259292603
+          ],
+          "object_minus_ee_xyz": [
+            -0.10429318249225616,
+            -0.07505484111607075,
+            -0.22338664531707764
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.04485321044921875,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.04485321044921875,
+      "final_displacement_xy_m": 0.05266687354772733,
+      "object_transport_xy_m": 0.05565113177802198,
+      "object_ee_comotion_residual_m": 0.13942561889518434,
+      "target_basket": "basket2",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket2",
+        "distance_m": 0.056835195797717133,
+        "margin_m": 0.22507442148107742
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": false,
+      "complete_chain_proxy": false,
+      "physical_diagnosis": "not_stably_in_target_basket",
+      "initial_root_xyz": [
+        0.11656441539525986,
+        -0.1044212356209755,
+        0.7869925498962402
+      ],
+      "final_root_xyz": [
+        0.1648740917444229,
+        -0.08344566076993942,
+        0.7868220806121826
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 1,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0023549202726135536,
+          "start_action": 0,
+          "end_action": 17
+        },
+        {
+          "stage": "contact",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.01025838579366487,
+          "start_action": 23,
+          "end_action": 26
+        },
+        {
+          "stage": "lift",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003635970869425545,
+          "start_action": 32,
+          "end_action": 35
+        },
+        {
+          "stage": "transport",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0010949553108080589,
+          "start_action": 35,
+          "end_action": 41
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.0030895096970959563,
+        "margin_m": 0.09274290853678606
+      },
+      "source_label": "cat1_0",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 32,
+        "lift": 35,
+        "transport": 41,
+        "release": 47
+      },
+      "source_instance": "watch_1_23",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            -0.2690690755844116,
+            -0.09642532467842102,
+            0.7783200144767761
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.2995290756225586,
+            -0.35229986906051636,
+            0.921500027179718
+          ],
+          "object_minus_ee_xyz": [
+            0.030460000038146973,
+            0.25587454438209534,
+            -0.1431800127029419
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            -0.26801443099975586,
+            -0.096825510263443,
+            0.7784308195114136
+          ],
+          "root_rise_m": 0.00011080503463745117,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.26861223578453064,
+            -0.09333541244268417,
+            0.9302796125411987
+          ],
+          "object_minus_ee_xyz": [
+            0.0005978047847747803,
+            -0.0034900978207588196,
+            -0.15184879302978516
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            -0.2680017352104187,
+            -0.09898915886878967,
+            0.8543315529823303
+          ],
+          "root_rise_m": 0.0760115385055542,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.2685535252094269,
+            -0.09283905476331711,
+            1.0064035654067993
+          ],
+          "object_minus_ee_xyz": [
+            0.0005517899990081787,
+            -0.006150104105472565,
+            -0.152072012424469
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            -0.30972471833229065,
+            -0.013921345584094524,
+            0.8581178188323975
+          ],
+          "root_rise_m": 0.07979780435562134,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.31066417694091797,
+            -0.007787490263581276,
+            1.0101900100708008
+          ],
+          "object_minus_ee_xyz": [
+            0.0009394586086273193,
+            -0.0061338553205132484,
+            -0.15207219123840332
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            -0.26464489102363586,
+            0.022124845534563065,
+            0.8049017190933228
+          ],
+          "root_rise_m": 0.02658170461654663,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": true
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.31060791015625,
+            -0.007784981280565262,
+            1.0101897716522217
+          ],
+          "object_minus_ee_xyz": [
+            0.045963019132614136,
+            0.029909826815128326,
+            -0.20528805255889893
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            -0.2992812693119049,
+            0.009112517349421978,
+            0.8062512278556824
+          ],
+          "root_rise_m": 0.02793121337890625,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": true
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.31060791015625,
+            -0.007784975692629814,
+            1.0101897716522217
+          ],
+          "object_minus_ee_xyz": [
+            0.011326640844345093,
+            0.016897493042051792,
+            -0.2039385437965393
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.0760115385055542,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.08236545324325562,
+      "final_displacement_xy_m": 0.10977710485215726,
+      "object_transport_xy_m": 0.09474882678760602,
+      "object_ee_comotion_residual_m": 0.0003880090280793926,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06513342175121213,
+        "margin_m": 0.2514898336046485
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": true,
+          "settled_inside": true
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": true,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        -0.2690690755844116,
+        -0.09642532467842102,
+        0.7783200144767761
+      ],
+      "final_root_xyz": [
+        -0.2992812693119049,
+        0.009112517349421978,
+        0.8062512278556824
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 2,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003734833285206542,
+          "start_action": 0,
+          "end_action": 19
+        },
+        {
+          "stage": "contact",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0012418767617683544,
+          "start_action": 25,
+          "end_action": 28
+        },
+        {
+          "stage": "lift",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0013679643197759602,
+          "start_action": 34,
+          "end_action": 37
+        },
+        {
+          "stage": "transport",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.011383994277783593,
+          "start_action": 37,
+          "end_action": 45
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat2_0",
+        "distance_m": 0.0031532333551793582,
+        "margin_m": 0.29993013000248553
+      },
+      "source_label": "cat2_0",
+      "arm": "right",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 34,
+        "lift": 37,
+        "transport": 45,
+        "release": 51
+      },
+      "source_instance": "garage_15_34",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            0.04550470784306526,
+            -0.12344370037317276,
+            0.794125497341156
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.3004709482192993,
+            -0.35229986906051636,
+            0.921500027179718
+          ],
+          "object_minus_ee_xyz": [
+            -0.25496624037623405,
+            0.2288561686873436,
+            -0.127374529838562
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            0.057130973786115646,
+            -0.12244372814893723,
+            0.7942649126052856
+          ],
+          "root_rise_m": 0.00013941526412963867,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.04817250370979309,
+            -0.12167754769325256,
+            0.9463728070259094
+          ],
+          "object_minus_ee_xyz": [
+            0.008958470076322556,
+            -0.0007661804556846619,
+            -0.15210789442062378
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            0.05728251487016678,
+            -0.12270049005746841,
+            0.8565233945846558
+          ],
+          "root_rise_m": 0.062397897243499756,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.048050761222839355,
+            -0.12160460650920868,
+            1.0086479187011719
+          ],
+          "object_minus_ee_xyz": [
+            0.009231753647327423,
+            -0.001095883548259735,
+            -0.1521245241165161
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            0.0718751922249794,
+            -0.061550796031951904,
+            0.854442834854126
+          ],
+          "root_rise_m": 0.06031733751296997,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.06451652944087982,
+            -0.0366697832942009,
+            0.9966562390327454
+          ],
+          "object_minus_ee_xyz": [
+            0.007358662784099579,
+            -0.024881012737751007,
+            -0.14221340417861938
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            0.06341494619846344,
+            -0.07473426312208176,
+            0.8045053482055664
+          ],
+          "root_rise_m": 0.0103798508644104,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.059003256261348724,
+            -0.04119528830051422,
+            0.9984760880470276
+          ],
+          "object_minus_ee_xyz": [
+            0.004411689937114716,
+            -0.033538974821567535,
+            -0.19397073984146118
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            0.030646074563264847,
+            -0.0968523621559143,
+            0.7958816885948181
+          ],
+          "root_rise_m": 0.0017561912536621094,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            0.059003591537475586,
+            -0.04119468852877617,
+            0.998474657535553
+          ],
+          "object_minus_ee_xyz": [
+            -0.02835751697421074,
+            -0.05565767362713814,
+            -0.20259296894073486
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.062397897243499756,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.06301093101501465,
+      "final_displacement_xy_m": 0.03046109405665237,
+      "object_transport_xy_m": 0.06286677430722806,
+      "object_ee_comotion_residual_m": 0.02583546280533932,
+      "target_basket": "basket1",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket1",
+        "distance_m": 0.10111839719265955,
+        "margin_m": 0.1273928503039767
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": false,
+      "complete_chain_proxy": false,
+      "physical_diagnosis": "not_stably_in_target_basket",
+      "initial_root_xyz": [
+        0.04550470784306526,
+        -0.12344370037317276,
+        0.794125497341156
+      ],
+      "final_root_xyz": [
+        0.030646074563264847,
+        -0.0968523621559143,
+        0.7958816885948181
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 3,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0019069775336733232,
+          "start_action": 0,
+          "end_action": 16
+        },
+        {
+          "stage": "contact",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.007764917198736157,
+          "start_action": 22,
+          "end_action": 25
+        },
+        {
+          "stage": "lift",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0035953870605541054,
+          "start_action": 31,
+          "end_action": 34
+        },
+        {
+          "stage": "transport",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0021288104203723785,
+          "start_action": 34,
+          "end_action": 41
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat2_2",
+        "distance_m": 0.006725976394925546,
+        "margin_m": 0.10533872758010472
+      },
+      "source_label": "cat2_2",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 31,
+        "lift": 34,
+        "transport": 41,
+        "release": 47
+      },
+      "source_instance": "pen_4_46",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            -0.21755672991275787,
+            -0.13687729835510254,
+            0.765964150428772
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.2995290756225586,
+            -0.35229986906051636,
+            0.921500027179718
+          ],
+          "object_minus_ee_xyz": [
+            0.08197234570980072,
+            0.21542257070541382,
+            -0.15553587675094604
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            -0.23234222829341888,
+            -0.15033920109272003,
+            0.7795616984367371
+          ],
+          "root_rise_m": 0.013597548007965088,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.2164529412984848,
+            -0.13000896573066711,
+            0.9280523061752319
+          ],
+          "object_minus_ee_xyz": [
+            -0.015889286994934082,
+            -0.020330235362052917,
+            -0.14849060773849487
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            -0.2332308441400528,
+            -0.15158455073833466,
+            0.8582488298416138
+          ],
+          "root_rise_m": 0.0922846794128418,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.21655574440956116,
+            -0.1296696662902832,
+            1.0064477920532227
+          ],
+          "object_minus_ee_xyz": [
+            -0.016675099730491638,
+            -0.021914884448051453,
+            -0.1481989622116089
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            -0.32667776942253113,
+            -0.02957361936569214,
+            0.8619407415390015
+          ],
+          "root_rise_m": 0.09597659111022949,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.3097545802593231,
+            -0.007804369553923607,
+            1.0104714632034302
+          ],
+          "object_minus_ee_xyz": [
+            -0.016923189163208008,
+            -0.021769249811768532,
+            -0.1485307216644287
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            -0.33522680401802063,
+            -0.04518796503543854,
+            0.8411315679550171
+          ],
+          "root_rise_m": 0.07516741752624512,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.3095819056034088,
+            -0.0077987611293792725,
+            1.010469675064087
+          ],
+          "object_minus_ee_xyz": [
+            -0.025644898414611816,
+            -0.037389203906059265,
+            -0.16933810710906982
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            -0.31951355934143066,
+            -0.05403529852628708,
+            0.8318638205528259
+          ],
+          "root_rise_m": 0.06589967012405396,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.309581995010376,
+            -0.007799701765179634,
+            1.0104694366455078
+          ],
+          "object_minus_ee_xyz": [
+            -0.009931564331054688,
+            -0.046235596761107445,
+            -0.17860561609268188
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.0922846794128418,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.10173368453979492,
+      "final_displacement_xy_m": 0.1313696768770668,
+      "object_transport_xy_m": 0.15368472669451824,
+      "object_ee_comotion_residual_m": 0.00043911518812960446,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06502308819975083,
+        "margin_m": 0.25170746747857
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": false,
+      "complete_chain_proxy": false,
+      "physical_diagnosis": "not_stably_in_target_basket",
+      "initial_root_xyz": [
+        -0.21755672991275787,
+        -0.13687729835510254,
+        0.765964150428772
+      ],
+      "final_root_xyz": [
+        -0.31951355934143066,
+        -0.05403529852628708,
+        0.8318638205528259
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 4,
+      "native_score_100": 15.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.000691064298601036,
+          "start_action": 0,
+          "end_action": 16
+        },
+        {
+          "stage": "contact",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003938229885295778,
+          "start_action": 22,
+          "end_action": 25
+        },
+        {
+          "stage": "lift",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003893960514640701,
+          "start_action": 31,
+          "end_action": 34
+        },
+        {
+          "stage": "transport",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0022956626289849695,
+          "start_action": 34,
+          "end_action": 42
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.00912615571909848,
+        "margin_m": 0.09168141712529437
+      },
+      "source_label": "cat1_0",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 31,
+        "lift": 34,
+        "transport": 42,
+        "release": 48
+      },
+      "source_instance": "watch_0_62",
+      "phase_object_states": {
+        "selection": {
+          "root_xyz": [
+            -0.18223218619823456,
+            -0.16878671944141388,
+            0.7786681056022644
+          ],
+          "root_rise_m": 0.0,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.2995290756225586,
+            -0.35229986906051636,
+            0.921500027179718
+          ],
+          "object_minus_ee_xyz": [
+            0.11729688942432404,
+            0.18351314961910248,
+            -0.1428319215774536
+          ]
+        },
+        "close": {
+          "root_xyz": [
+            -0.1836065798997879,
+            -0.16836333274841309,
+            0.7792242169380188
+          ],
+          "root_rise_m": 0.0005561113357543945,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.18243339657783508,
+            -0.1589987725019455,
+            0.9240579009056091
+          ],
+          "object_minus_ee_xyz": [
+            -0.0011731833219528198,
+            -0.00936456024646759,
+            -0.14483368396759033
+          ]
+        },
+        "lift": {
+          "root_xyz": [
+            -0.18555384874343872,
+            -0.1728779673576355,
+            0.8590482473373413
+          ],
+          "root_rise_m": 0.0803801417350769,
+          "basket_membership": {
+            "basket0": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.1824568659067154,
+            -0.15906743705272675,
+            1.0061609745025635
+          ],
+          "object_minus_ee_xyz": [
+            -0.0030969828367233276,
+            -0.013810530304908752,
+            -0.14711272716522217
+          ]
+        },
+        "transport": {
+          "root_xyz": [
+            -0.31243014335632324,
+            -0.02153709903359413,
+            0.8715832829475403
+          ],
+          "root_rise_m": 0.09291517734527588,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": false
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.30947521328926086,
+            -0.007735997438430786,
+            1.0108646154403687
+          ],
+          "object_minus_ee_xyz": [
+            -0.002954930067062378,
+            -0.013801101595163345,
+            -0.13928133249282837
+          ]
+        },
+        "release": {
+          "root_xyz": [
+            -0.31238704919815063,
+            0.028377460315823555,
+            0.7977024912834167
+          ],
+          "root_rise_m": 0.019034385681152344,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": true
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.3093309700489044,
+            -0.007731728255748749,
+            1.010865330696106
+          ],
+          "object_minus_ee_xyz": [
+            -0.003056079149246216,
+            0.036109188571572304,
+            -0.2131628394126892
+          ]
+        },
+        "final": {
+          "root_xyz": [
+            -0.31447482109069824,
+            0.0867447778582573,
+            0.7881773114204407
+          ],
+          "root_rise_m": 0.00950920581817627,
+          "basket_membership": {
+            "basket0": {
+              "inside": true,
+              "settled_inside": true
+            },
+            "basket1": {
+              "inside": false,
+              "settled_inside": false
+            },
+            "basket2": {
+              "inside": false,
+              "settled_inside": false
+            }
+          },
+          "ee_xyz": [
+            -0.3093309700489044,
+            -0.007731730118393898,
+            1.010865330696106
+          ],
+          "object_minus_ee_xyz": [
+            -0.005143851041793823,
+            0.09447650797665119,
+            -0.22268801927566528
+          ]
+        }
+      },
+      "lift_root_rise_m": 0.0803801417350769,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.09333008527755737,
+      "final_displacement_xy_m": 0.2877228885499263,
+      "object_transport_xy_m": 0.1974883605678327,
+      "object_ee_comotion_residual_m": 0.007832688580859946,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06504311884840337,
+        "margin_m": 0.25156432463785916
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": true,
+          "settled_inside": true
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": true,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "final_gripper_normalized": 1.0,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        -0.18223218619823456,
+        -0.16878671944141388,
+        0.7786681056022644
+      ],
+      "final_root_xyz": [
+        -0.31447482109069824,
+        0.0867447778582573,
+        0.7881773114204407
+      ]
+    }
+  ],
+  "analysis_criteria": {
+    "created_utc": "2026-11-07T09:11:43.398402+00:00",
+    "timing": "Declared before reading current outcome tables",
+    "source_association": {
+      "max_xy_distance_m": 0.05,
+      "min_runnerup_margin_m": 0.01
+    },
+    "lift_proxy": {
+      "min_root_rise_m": 0.02,
+      "scope": "Necessary kinematic evidence, not contact-force proof"
+    },
+    "transport_proxy": {
+      "min_xy_displacement_m": 0.05,
+      "max_object_vs_ee_delta_residual_m": 0.04,
+      "scope": "Kinematic co-motion, affected by object rotation"
+    },
+    "delivery": {
+      "method": "Frozen native object-root inside basket plus original bbox height predicate",
+      "settle_z_threshold_m": 0.01,
+      "last_snapshots": 10,
+      "source_initially_inside": false,
+      "release_required": true
+    },
+    "complete_chain_proxy": "Qualified selected source, lift proxy, executed transport, commanded release, matching target basket final settled containment. Separately report co-motion; unknown associations remain unknown.",
+    "limitations": [
+      "Thresholds are diagnostic definitions, not official task score.",
+      "Native full success stays taken from original episode receipt.",
+      "Reference may fail before first transfer; keep denominator five layouts.",
+      "Same-interface causality is not established by richer reference skill."
+    ]
+  },
+  "limitations": [
+    "Not an equal-interface causal comparison between conditions.",
+    "Different native selectors may choose different objects; no paired score superiority inference.",
+    "One cycle cannot establish full multi-object task success.",
+    "Simulator state is analysis-only and is never supplied to a controller.",
+    "Same five exposed layouts; no independent generalization.",
+    "Object root rise and co-motion are kinematic proxies, not force/contact proofs."
+  ],
+  "no_policy_promotion": true
+}

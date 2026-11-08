@@ -1,0 +1,574 @@
+[
+  {
+    "id": "C01",
+    "question_zh": "换高层模型是否提高机器人表现？",
+    "conclusion_zh": "GPT补测普通分类1/5、Score47；语言分类2/5、Score46。对应技能选择与历史千问相同。",
+    "batches": [
+      24
+    ],
+    "task": "see source",
+    "sample": 10,
+    "denominator": "两个任务各5个新原生回合；旧千问10回合为复用参照",
+    "source_files": [
+      "06_batch_evidence/24_system1_model_swap/37_gpt61sol_supplement_20261102/analysis-summary.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "初始RGB非逐像素相同，不能把得分变化全部归因于模型决策。"
+  },
+  {
+    "id": "C02",
+    "question_zh": "模型替换能降低多少Token？",
+    "conclusion_zh": "System1平均total在普通/语言分类分别下降约7.48%/4.97%；System2单次生成5476对26363。",
+    "batches": [
+      24,
+      25
+    ],
+    "task": "see source",
+    "sample": 11,
+    "denominator": "10次技能选择与1次System2生成分开比较",
+    "source_files": [
+      "06_batch_evidence/24_system1_model_swap/37_gpt61sol_supplement_20261102/analysis-summary.json",
+      "06_batch_evidence/25_system2_model_swap/38_system2_gpt61sol_20261102/analysis-summary.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "模型、提示词或执行条件不同；单次System2降幅不是全流程或跨项目降幅。"
+  },
+  {
+    "id": "C03",
+    "question_zh": "最初的System2补测是否晋升候选？",
+    "conclusion_zh": "父策略和1个候选各5次验证均0分，保留pi05。",
+    "batches": [
+      25
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "父策略5+候选5，另有1次中断尝试不计有效得分",
+    "source_files": [
+      "06_batch_evidence/25_system2_model_swap/38_system2_gpt61sol_20261102/analysis-summary.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "复用开发反馈；没有新增两轮改进或20布局最终验收。"
+  },
+  {
+    "id": "C04",
+    "question_zh": "篮筐范围错误属于什么？",
+    "conclusion_zh": "特定历史生成候选的固定±0.2m中心点判据与篮筐半尺寸不符；构造点一致数3/6→6/6。",
+    "batches": [
+      27,
+      30
+    ],
+    "task": "classify_objects",
+    "sample": 6,
+    "denominator": "同6个构造点的几何谓词检查",
+    "source_files": [
+      "06_batch_evidence/27_system2_offline_diagnostics/20261104_cpu_v1/REPORT.txt",
+      "06_batch_evidence/30_system2_lab_diagnosis/20261104_v1/REPORT.txt"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "不是物理任务成功率；不证明所有System2失败都有同一错误。"
+  },
+  {
+    "id": "C05",
+    "question_zh": "离线检查证明了哪些能力？",
+    "conclusion_zh": "24次规划和6次合成预训练推理验证局部求解、权重和reset通路。",
+    "batches": [
+      28,
+      30
+    ],
+    "task": "classify_objects",
+    "sample": "24+6",
+    "denominator": "规划seed重复与合成推理样例分别统计",
+    "source_files": [
+      "06_batch_evidence/30_system2_lab_diagnosis/20261104_v1/REPORT.txt"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "没有RGB任务效果，也没有训练或泛化验证。"
+  },
+  {
+    "id": "C06",
+    "question_zh": "给更多反馈是否有效？",
+    "conclusion_zh": "3个增强候选中2个在同一布局各得15分，增强平均2/100；基线平均0。",
+    "batches": [
+      29,
+      31
+    ],
+    "task": "classify_objects",
+    "sample": 30,
+    "denominator": "每条件3候选×5个相同暴露布局；另有5次pi05参照",
+    "source_files": [
+      "06_batch_evidence/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt"
+    ],
+    "figure_ids": "F01_feedback_partial",
+    "media_ids": "M01_feedback_partial",
+    "limitation_zh": "0/30完整成功，只有一个不同的正分布局；反馈内容和长度同时变化。"
+  },
+  {
+    "id": "C07",
+    "question_zh": "增强反馈改变了什么过程？",
+    "conclusion_zh": "首次approach拒绝12/15→0/15，完成approach9→50；部分回合仍耗尽预算。",
+    "batches": [
+      31
+    ],
+    "task": "classify_objects",
+    "sample": 30,
+    "denominator": "候选×布局层面的首调用，以及累计动作调用分开",
+    "source_files": [
+      "06_batch_evidence/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt"
+    ],
+    "figure_ids": "F01_feedback_partial",
+    "media_ids": "",
+    "limitation_zh": "动作推进不等于物体稳定送达。"
+  },
+  {
+    "id": "C08",
+    "question_zh": "动态高度判断为什么会停止？",
+    "conclusion_zh": "RGB Reader提供名义Z，augmented_3却要求动态抬升证据；整项guard旁路让5例都继续动作。",
+    "batches": [
+      31,
+      32
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "固定候选，原guard和整项旁路各5个新原生回合",
+    "source_files": [
+      "06_batch_evidence/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt",
+      "06_batch_evidence/32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "M02_lift_gate_stop",
+    "limitation_zh": "多个guard条件共同作用；旁路不是可靠抓取检测，只有一布局得15。"
+  },
+  {
+    "id": "C09",
+    "question_zh": "有可行轨迹就能完成吗？",
+    "conclusion_zh": "撤离探针0/9→9/9可求解；原生得分仍相同，3回合达到动作预算。",
+    "batches": [
+      32
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "撤离规则匹配对照各5；离线9对求解不作原生分母",
+    "source_files": [
+      "06_batch_evidence/32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "不能把规划可行直接等同任务成功或安全。"
+  },
+  {
+    "id": "C10",
+    "question_zh": "能力说明实验为何要更正解释？",
+    "conclusion_zh": "6候选30回合均仅布局4得15；后来确认提示词描述的错误字典并非实际候选端接口。",
+    "batches": [
+      33,
+      40
+    ],
+    "task": "classify_objects",
+    "sample": 30,
+    "denominator": "两组3候选，每候选5布局",
+    "source_files": [
+      "06_batch_evidence/33_system2_capability_feedback/20261106_v1/FINAL_SUMMARY.json",
+      "06_batch_evidence/40_system2_rejection_contract/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "保留分数；不能称为部署一致的能力反馈无效。"
+  },
+  {
+    "id": "C11",
+    "question_zh": "轨迹采样修正有什么作用？",
+    "conclusion_zh": "完成approach18→35，活动预算中止3→0；得分均值3→3。",
+    "batches": [
+      34
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "各5个新原生回合；4096→418仅已完成primitive步数",
+    "source_files": [
+      "06_batch_evidence/34_system2_trajectory_contract/20261106_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "F02_process_vs_score",
+    "media_ids": "",
+    "limitation_zh": "墙钟约1029→1013秒，不是十倍整任务加速。"
+  },
+  {
+    "id": "C12",
+    "question_zh": "闭爪后运输为什么仍失败？",
+    "conclusion_zh": "81个离线目标探针仅部分变体可求解；旁路位姿显示抓持保持存在差异。",
+    "batches": [
+      35
+    ],
+    "task": "classify_objects",
+    "sample": 3,
+    "denominator": "3个新原生回合；81个离线目标/yaw/seed探针分列",
+    "source_files": [
+      "06_batch_evidence/35_system2_postgrasp_diagnosis/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "未返回轨迹不证明绝对不可达，也未唯一确定为碰撞。"
+  },
+  {
+    "id": "C13",
+    "question_zh": "保持闭爪命令是否提高分数？",
+    "conclusion_zh": "152个手臂—动作检查的命令偏差72→0；任务均分仍3，完整成功0/5。",
+    "batches": [
+      36
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "原方式和命令保持各5回合；152是动作检查项",
+    "source_files": [
+      "06_batch_evidence/36_system2_gripper_command_contract/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "F02_process_vs_score",
+    "media_ids": "",
+    "limitation_zh": "语义修正成立，稳定抓持和得分提升未成立。"
+  },
+  {
+    "id": "C14",
+    "question_zh": "发布技能能否完成整任务？",
+    "conclusion_zh": "发布完整控制器五布局[0,15,15,15,40]，均分17，完整成功0。",
+    "batches": [
+      37
+    ],
+    "task": "classify_objects",
+    "sample": 5,
+    "denominator": "发布完整技能5个原生回合",
+    "source_files": [
+      "06_batch_evidence/37_system2_candidate_capacity/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "M03_released_skill_partial",
+    "limitation_zh": "更丰富接口与目标选择不同，不能和四primitive候选作公平单因素对照。"
+  },
+  {
+    "id": "C15",
+    "question_zh": "运输目标修正是否通畅？",
+    "conclusion_zh": "规划拒绝5→0，完成approach35→64，得分均值仍3。",
+    "batches": [
+      38
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "同候选两个目标规则各5个新原生回合",
+    "source_files": [
+      "06_batch_evidence/38_system2_transport_destination/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "不同运输尝试数不是独立任务样本；部分对象覆盖和物理送达仍未完成。"
+  },
+  {
+    "id": "C16",
+    "question_zh": "增加循环上限有什么结果？",
+    "conclusion_zh": "固定六周期使完成运输18对16，得分不变；还存在无可选目标及包装异常。",
+    "batches": [
+      39
+    ],
+    "task": "classify_objects",
+    "sample": 5,
+    "denominator": "5个新原生回合；对照复用B38五回合",
+    "source_files": [
+      "06_batch_evidence/39_system2_observation_loop/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "循环次数增加不能替代对象跟踪、类别分配或稳定抓放。"
+  },
+  {
+    "id": "C17",
+    "question_zh": "已确认哪个错误来自研究适配层？",
+    "conclusion_zh": "包装将零动作拒绝字典变RuntimeError；修复后触发3次换臂恢复，分数不变。",
+    "batches": [
+      40
+    ],
+    "task": "classify_objects",
+    "sample": 5,
+    "denominator": "5个新原生回合，对照复用B39五回合",
+    "source_files": [
+      "06_batch_evidence/40_system2_rejection_contract/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "F06_wrapper_correction;F02_process_vs_score",
+    "media_ids": "",
+    "limitation_zh": "不是固定官方code_execution.py的原生转换；只证明部分恢复受阻及其修复。"
+  },
+  {
+    "id": "C18",
+    "question_zh": "最小搬运链有能力吗？",
+    "conclusion_zh": "候选2/5满足稳定送达代理；发布参照5/5中仅3次正常、2次异常清理送达。",
+    "batches": [
+      41
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "候选首周期5+发布首篮筐周期5；代理与原生评分分开",
+    "source_files": [
+      "06_batch_evidence/41_system2_skill_chain_floor/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "M04_carry_loss;M05_cleanup_delivery",
+    "limitation_zh": "物体和接口不同，不能用2/5与5/5作策略优劣因果结论。"
+  },
+  {
+    "id": "C19",
+    "question_zh": "增加生成机会是否改善？",
+    "conclusion_zh": "11月7日5个独立候选均0分；候选预算1和5都保留开发均分3的代码父策略。",
+    "batches": [
+      42
+    ],
+    "task": "classify_objects",
+    "sample": 30,
+    "denominator": "新父策略5+5候选×5布局；生成仅5次",
+    "source_files": [
+      "06_batch_evidence/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "F03_nov7_score_matrix",
+    "media_ids": "",
+    "limitation_zh": "同一固定候选池的小规模结果，不是重新复测最早千问两轮。"
+  },
+  {
+    "id": "C20",
+    "question_zh": "人工目标修正是否提高？",
+    "conclusion_zh": "同sample_01，开发原目标均0，偏移组[0,0,0,0,15]；提高到父策略水平。",
+    "batches": [
+      42
+    ],
+    "task": "classify_objects",
+    "sample": 10,
+    "denominator": "匹配人工对照各5回合",
+    "source_files": [
+      "06_batch_evidence/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "F03_nov7_score_matrix",
+    "media_ids": "",
+    "limitation_zh": "收益来自人工单因素修正，不是System2自主学得。"
+  },
+  {
+    "id": "C21",
+    "question_zh": "第二轮与独立验收结果如何？",
+    "conclusion_zh": "3份生成中2份nonlocal未准入；唯一准入者与父策略打平。独立父策略均分6、人工对照0、偏移3。",
+    "batches": [
+      42
+    ],
+    "task": "classify_objects",
+    "sample": 20,
+    "denominator": "第二轮实际5回合+独立3策略×5；未准入者得分未知",
+    "source_files": [
+      "06_batch_evidence/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "F03_nov7_score_matrix",
+    "media_ids": "M06_heldout_control;M07_heldout_offset",
+    "limitation_zh": "独立五布局分布未证明等价官方；选择视图复用父策略，不重复计数。"
+  },
+  {
+    "id": "C22",
+    "question_zh": "本周Token成本意味着什么？",
+    "conclusion_zh": "反馈输入一般增加；保存代码的原生验证无需新高层API，但仍有本地模型和仿真开销。",
+    "batches": [
+      29,
+      33,
+      42
+    ],
+    "task": "see source",
+    "sample": 20,
+    "denominator": "6+6+8次历史System2生成；新多任务12次单列",
+    "source_files": [
+      "06_batch_evidence/33_system2_capability_feedback/20261106_v1/FINAL_SUMMARY.json",
+      "06_batch_evidence/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "F04_generation_input",
+    "media_ids": "",
+    "limitation_zh": "cache为输入子集，reasoning为输出子集；费用仅usage估算。"
+  },
+  {
+    "id": "C23",
+    "question_zh": "怎样证明结果可追溯？",
+    "conclusion_zh": "已核对203历史原生回执与978关键哈希；外层150621已存在引用哈希均一致。",
+    "batches": [
+      31,
+      42
+    ],
+    "task": "see source",
+    "sample": 203,
+    "denominator": "B31–B42原生审计；Nov2额外20回合单列",
+    "source_files": [
+      "06_batch_evidence/31_system2_rgb_validation/20261105_v1/analysis/REPORT.txt",
+      "06_batch_evidence/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "130个空锁文件引用按归档规则省略，非丢失评分或视频；没有宣称看完所有帧。"
+  },
+  {
+    "id": "C24",
+    "question_zh": "还需要验证什么？",
+    "conclusion_zh": "后续分别检验真实契约、抓持与运输、任务覆盖，以及独立新布局的稳定收益。",
+    "batches": [
+      40,
+      41,
+      42
+    ],
+    "task": "see source",
+    "sample": "not applicable",
+    "denominator": "提出未来实验，不计为已执行工作",
+    "source_files": [
+      "06_batch_evidence/40_system2_rejection_contract/20261107_v1/FINAL_SUMMARY.json",
+      "06_batch_evidence/41_system2_skill_chain_floor/20261107_v1/FINAL_SUMMARY.json",
+      "06_batch_evidence/42_system2_search_execution_controls/20261107_v1/FINAL_SUMMARY.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "不得在已看过的独立布局继续挑赢家后宣称独立泛化。"
+  },
+  {
+    "id": "C25",
+    "question_zh": "memory返回语义是否是旧失败根因？",
+    "conclusion_zh": "原driver发布policy返回值，不自动发布独立memory就地修改；schema原型通过1→2往返。",
+    "batches": [
+      27,
+      30
+    ],
+    "task": "code contract",
+    "sample": "one counter roundtrip",
+    "denominator": "虚拟IO契约检查，不是机器人任务",
+    "source_files": [
+      "06_batch_evidence/27_system2_offline_diagnostics/20261104_cpu_v1/REPORT.txt"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "历史候选未读取该memory，因此未确认为历史零分原因；不是sparse visual memory问题。"
+  },
+  {
+    "id": "C26",
+    "question_zh": "增强反馈后的几何逻辑有何变化？",
+    "conclusion_zh": "首目标高度1.14→1.01m，部分布局换手；旋转/高度补查暴露绝对Z和类别变化后的停止限制。",
+    "batches": [
+      27,
+      30
+    ],
+    "task": "classify_objects",
+    "sample": 150,
+    "denominator": "120主要CPU夹具+30事后探索补查，不能按机器人成功率解释",
+    "source_files": [
+      "06_batch_evidence/30_system2_lab_diagnosis/20261104_v1/REPORT.txt"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "中心点、名义尺寸与真实物理包含不同；补查不属于独立验收。"
+  },
+  {
+    "id": "C27",
+    "question_zh": "多任务扩展实际做了多少？",
+    "conclusion_zh": "两任务各两种反馈×三个候选；本批原生尝试91次，完整评分89次，正式完整评分88次，API生成12次。",
+    "batches": [
+      43
+    ],
+    "task": "classify_objects + general_pickup",
+    "sample": 89,
+    "denominator": "准备smoke、正式执行、逻辑选择视图分别计数",
+    "source_files": [
+      "06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/FINAL_SUMMARY.json",
+      "06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/protocol.json",
+      "06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/stage-accounting.csv"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "单轮反馈pilot，不是完整官方多轮benchmark，也不是跨任务技能迁移。"
+  },
+  {
+    "id": "C28",
+    "question_zh": "分类任务能否观察到自主晋升？",
+    "conclusion_zh": "basic选择parent，独立平均7.5/100、完整成功0/4，对父策略平均差0分（共享父策略证据）；另有1个计划布局缺失终态评分，不能称为全部验收通过；execution_feedback选择parent，独立平均7.5/100、完整成功0/4，对父策略平均差0分（共享父策略证据）；另有1个计划布局缺失终态评分，不能称为全部验收通过",
+    "batches": [
+      43
+    ],
+    "task": "classify_objects",
+    "sample": "3 candidates/condition; 5 layouts/split",
+    "denominator": "候选生成、开发选择、独立验收三层样本分别报告",
+    "source_files": [
+      "06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/FINAL_SUMMARY.json",
+      "06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/selection/classify_objects.json"
+    ],
+    "figure_ids": "F07_classify_objects_multitask",
+    "media_ids": "",
+    "limitation_zh": "抓取父代码由研究编写，pi05单列参照；同源码视图不重复执行；五布局单次运行不足以证明稳定收益。"
+  },
+  {
+    "id": "C29",
+    "question_zh": "抓取任务能否观察到自主晋升？",
+    "conclusion_zh": "basic选择parent，独立平均25/100、完整成功1/4，对父策略平均差0分（共享父策略证据）；另有1个计划布局缺失终态评分，不能称为全部验收通过；execution_feedback选择parent，独立平均25/100、完整成功1/4，对父策略平均差0分（共享父策略证据）；另有1个计划布局缺失终态评分，不能称为全部验收通过",
+    "batches": [
+      43
+    ],
+    "task": "general_pickup",
+    "sample": "3 candidates/condition; 5 layouts/split",
+    "denominator": "候选生成、开发选择、独立验收三层样本分别报告",
+    "source_files": [
+      "06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/FINAL_SUMMARY.json",
+      "06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/selection/general_pickup.json"
+    ],
+    "figure_ids": "F08_general_pickup_multitask",
+    "media_ids": "",
+    "limitation_zh": "抓取父代码由研究编写，pi05单列参照；同源码视图不重复执行；五布局单次运行不足以证明稳定收益。"
+  },
+  {
+    "id": "C30",
+    "question_zh": "日志的actor失败一定表示任务失败吗？",
+    "conclusion_zh": "不一定。原生成功也会终止活动动作；必须将调用日志与原生评分、步数和同主机时间对应。",
+    "batches": [
+      43
+    ],
+    "task": "two tasks",
+    "sample": 81,
+    "denominator": "actor日志条数与native回合数不同；无法唯一对应者保留未知",
+    "source_files": [
+      "07_verification/multitask/mechanism-audit.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "停止类别是观测模式，未完成因果归因；物体高度代理不代替reward。"
+  },
+  {
+    "id": "C31",
+    "question_zh": "最终账目与材料范围是什么？",
+    "conclusion_zh": "本周记录312次获得终态评分的原生执行（中断尝试另列）、44次付费请求，usage估算$1.9298219。",
+    "batches": [
+      43
+    ],
+    "task": "heterogeneous research ledger",
+    "sample": 312,
+    "denominator": "不同批次、任务、父策略和重复布局的工作量总账，不是benchmark成功率",
+    "source_files": [
+      "03_data/recomputation_summary.json",
+      "03_data/api_requests.json",
+      "07_verification/batch43-archive-gate.json"
+    ],
+    "figure_ids": "",
+    "media_ids": "",
+    "limitation_zh": "费用估算不是供应方实扣；ZIP是研究汇报整理包，不含所有权重、资产、逐帧观测和视频。"
+  },
+  {
+    "id": "C32",
+    "question_zh": "新分类增强反馈到底停在哪一步？",
+    "conclusion_zh": "15/15回合在第四次approach请求可见篮筐中心XY、Z=1.06m时收到明确规划拒绝，随后返回。前三次调用返回不证明抓持成功。",
+    "batches": [
+      43
+    ],
+    "task": "classify_objects",
+    "sample": 15,
+    "denominator": "3候选×相同5开发布局；15个回合不是15个独立生成样本",
+    "source_files": [
+      "07_verification/multitask/feedback-transport-detail.json",
+      "07_verification/multitask/mechanism-audit.json"
+    ],
+    "figure_ids": "F09_multitask_stop_patterns",
+    "media_ids": "",
+    "limitation_zh": "已确认失败返回到达候选和停止位置，尚未证明物理根因或反馈普遍无效。"
+  }
+]

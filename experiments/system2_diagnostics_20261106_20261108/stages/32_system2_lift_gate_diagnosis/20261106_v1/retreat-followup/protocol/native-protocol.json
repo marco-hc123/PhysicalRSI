@@ -1,0 +1,69 @@
+{
+  "schema": "physicalrsi.retreat-native-ablation/v1",
+  "created_utc": "2026-11-06T03:25:56.444927+00:00",
+  "question": "Does retreating to the previously achieved clearance position remove the post-release planner stop, and does this change score or reveal another stop?",
+  "conditions": [
+    {
+      "name": "bypass_lift_guard",
+      "candidate_sha256": "d4a47a3899224bec9d88ff8e9090b640768aca2c12b9211b4c45585294742b8d"
+    },
+    {
+      "name": "return_to_clearance",
+      "candidate_sha256": "c3946cdf474493471379195c8b370a513092c5eb114603d5dbd0b18cd1ed5a24"
+    }
+  ],
+  "execution_order": [
+    "bypass_lift_guard",
+    "return_to_clearance"
+  ],
+  "cases_per_condition": 5,
+  "planned_native_cases": 10,
+  "task": "classify_objects",
+  "robot": "ARX X5",
+  "native_step_limit": 1100,
+  "runtime_sha256": "264b13eea4bc17a7505df43b868711eaba04f4f085117eade195e1e3eb341067",
+  "layout_sha256": [
+    "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+    "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+    "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+    "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+    "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde"
+  ],
+  "primary_variable": "Single post-release retreat destination: basket XY/Z1.07 versus previous object XY/clearance_z. Quaternion and arm unchanged.",
+  "fixed": [
+    "All other candidate code including diagnostic lift guard bypass",
+    "Same frozen runtime, planner, perception, geometry, layout identities, task scoring and 1100-step budget"
+  ],
+  "justification": {
+    "actual_prior_native_cases": 10,
+    "failed_retreat_layouts": [
+      1,
+      3,
+      4
+    ],
+    "transport_failure_control_layouts": [
+      0,
+      2
+    ],
+    "offline_return_probes": 18,
+    "offline_height_probes": 45,
+    "return_probe_summary_sha256": "ecf38630907828f17e1263717277afa9f380e7ca9d7f7e48b1558d225a0bf3a1"
+  },
+  "metrics": [
+    "Strict native outcome and 0-100 score",
+    "Retreat request completion",
+    "Next scene or second object attempt",
+    "New planner rejection or step limit",
+    "Raw three-camera videos",
+    "Full cohort wall time"
+  ],
+  "limitations": [
+    "Manual diagnostic intervention; both conditions bypass unsupported grasp guard. No autonomous System2 success or valid grasp-verifier claim.",
+    "All layouts previously exposed; no independent generalization.",
+    "Fresh repeated control reduces chronology mismatch but does not guarantee identical observations.",
+    "Planning acceptance is not physical task success.",
+    "No new selector; pi05 retained."
+  ],
+  "api_calls": 0,
+  "archive_destination": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation"
+}

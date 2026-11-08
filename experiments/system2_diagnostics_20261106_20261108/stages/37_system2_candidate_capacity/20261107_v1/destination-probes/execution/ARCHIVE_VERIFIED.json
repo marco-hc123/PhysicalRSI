@@ -1,0 +1,12 @@
+{
+  "state": "verified",
+  "source_root": "/mnt/data/physical-RSI/result/39_destination_feasibility_20261107",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/37_system2_candidate_capacity/20261107_v1/destination-probes/execution",
+  "files": 25,
+  "bytes": 106100,
+  "solver_calls": 18,
+  "native_cases": 0,
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "utc": "2026-11-07T05:47:06.317970+00:00"
+}

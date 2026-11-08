@@ -1,4 +1,6 @@
-# 研究证据导航（整理至11月5日，2026-11-07更新）
+# 研究证据导航（2026-11-08更新）
+
+[完整研究总览](RESEARCH_OVERVIEW_ZH.md) · [研究路线图](RESEARCH_ROADMAP.md) · [代码导览](CODE_GUIDE.md)
 
 先读[最新结论](RESULTS.md)与[研究总览](RESEARCH_OVERVIEW_ZH.md)。下面旧表保留截至11月2日的范围。本页按研究问题导航；不是实验启动清单。所列样本均为已记录的历史执行，本次整理新增 API 与机器人回合均为 0。
 
@@ -7,7 +9,7 @@
 | 调用粒度如何影响语言开销 | 旧版 28 调度配置、512 CPU 代理回合；非机器人结果 | [版本化机制证据](../experiments/mechanism_audit/README.md) |
 | 单次提示目录有多大 | 静态字符/tokenizer 估算与供应商 usage 分开 | [当前提示审计](../experiments/mechanism_audit/current/prompt_audit/prompt_sizes.csv) |
 | 减少目录是否减少 API 消耗 | 80 次探索与 20 场景×2条件×3次=120 次；保留契约失败 | [API 数据、协议与原件](../experiments/fixed_input_api/README.md) |
-| 原生任务中目录精简的作用 | 每条件 15 个尝试；完成 native 15/14，成功 5/6 | [30 例明细](../experiments/history/catalogue_ablation/cases.csv) |
+| 原生任务中目录精简的作用 | 每条件15次尝试；精简15/15完成、5/15成功；完整14/15完成、6/15成功 | [30 例明细](../experiments/history/catalogue_ablation/cases.csv) |
 | 正式原生路线效果 | 2任务×4路线×5布局=40 正式回合 | [逐例与冻结协议](../experiments/history/classification_reference/episode-metrics.csv) |
 | 如何固定比较条件 | 布局分割、指标词典、模型与技能条件 | [协议冻结](../experiments/history/protocol_freeze/protocol.json) |
 | 项目 A 的公开依据是什么 | 公共数据与历史源码审计，未运行 A | [公开参考快照](../experiments/public_reference/project_a/project-a-current-data.json)、[来源](../experiments/public_reference/project_a/retrieval-manifest.json) |
@@ -52,3 +54,19 @@
 | 原生执行与得分是否改善 | 35有效回合，2例部分15分、0完整成功 | [逐回合表](../experiments/system2_followup_through_20261105/stages/31_rgb_validation/analysis/episode-results.csv) |
 | 如何核对深层过程 | 原响应、receipt、raw result、动作记录、去重文本 | [无损读取方法](../experiments/system2_followup_through_20261105/raw/README.md) |
 | 如何追溯研究过程 | 截至11月5日的75条逐项记录及W44/W45周志 | [科研记录](../research/README.md) |
+
+
+## 11月6–8日新增证据与历史更正
+
+| 问题 | 范围与分母 | 入口 |
+|---|---|---|
+| 执行障碍来自哪里 | guard、轨迹采样、闭爪命令、运输目标、循环与包装分别干预 | [批次32–43总览](../experiments/system2_diagnostics_20261106_20261108/README.md) |
+| 早期能力反馈结论为何需收窄 | 后台字典与候选实际收到的异常不同；保留原分数 | [历史契约更正原件](../reports/research_week_20261102_20261108/06_batch_evidence/40_system2_rejection_contract/20261107_v1/HISTORICAL_CONTRACT_CORRECTION.txt) |
+| 更多候选、第二轮和人工修复的差别 | 批次42生成8份、6份准入；60个有评分执行，含15个独立布局执行 | [冻结选择原件](../reports/research_week_20261102_20261108/06_batch_evidence/42_system2_search_execution_controls/20261107_v1/native-validation/selection-final.json) |
+| 两个任务下执行反馈是否改善 | 批次43：两任务×两条件×3候选；89评分含1smoke，另2中断 | [最终汇总](../reports/research_week_20261102_20261108/06_batch_evidence/43_system2_multitask/20261108_v1/native-validation/FINAL_SUMMARY.json) |
+| 每次原生执行到底得多少分 | 整周312评分执行账目；不合成总体成功率 | [逐例表](../reports/research_week_20261102_20261108/03_data/native_episodes_all.csv)、[中断另表](../reports/research_week_20261102_20261108/03_data/interrupted_native_attempts_batch43.csv) |
+| 真实语言开销多少 | 整周44次请求含1接入预检；缓存/reasoning为子集 | [API逐次账目](../reports/research_week_20261102_20261108/03_data/api_requests.csv) |
+| 哪些代码和深层原件已补齐 | 按源路径、内容哈希、原件/去重对象/外部保留区分 | [覆盖清单](../provenance/week-coverage-20261108.json)、[核验结果](../provenance/week-verification-20261108.json) |
+| 科研记录如何接续 | 保留原11月5日16:15观察快照，新证据追加且不重复编号 | [11月5–8日按模板记录](../research/notes_20261108/HISTORY_2026-11-05_to_2026-11-08.md) |
+
+新包的HTML入口可下载后本地打开；GitHub阅读从[报告导航](../reports/README.md)进入文本和数据。旧PPT、旧报告与新包各有日期，不能据旧快照判断最新实验覆盖。新源文件读取工具为`tools/read_week_evidence.py`，不执行归档代码。

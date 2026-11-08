@@ -1,0 +1,9 @@
+{
+  "state": "reviewed",
+  "utc": "2026-11-06T06:36:47.775667+00:00",
+  "frames": [
+    "legacy_feedback_1_layout4_head_final.png",
+    "capability_feedback_2_layout4_head_final.png"
+  ],
+  "finding": "Intact frames; several objects remain on table. Receipts show15/100 and false success; no complete manipulation inferred from single frames."
+}

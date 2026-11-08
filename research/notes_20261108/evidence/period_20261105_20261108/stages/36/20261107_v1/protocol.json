@@ -1,0 +1,62 @@
+{
+  "schema": "physicalrsi.gripper-command-contract/v1",
+  "frozen_utc": "2026-11-07T04:58:50.837831+00:00",
+  "question": "Does retaining the last explicit gripper target during subsequent arm movements reduce slip and improve task execution?",
+  "rationale": "Stage35 true-state logs show transient lift/slip. Frozen approach uses each measured gripper opening as its next action. Released Motion holds self.grip commands; distinguish persistent command from measured opening. 81 goal probes show limited target-pose recovery; no goal changes in this experiment.",
+  "conditions": [
+    "measured_state_control",
+    "latched_command"
+  ],
+  "planned_native_cases": 10,
+  "source_layout_ids": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "order": [
+    "measured_state_control",
+    "latched_command"
+  ],
+  "candidate": "capability_feedback_2",
+  "candidate_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+  "treatment": "At each issued action retain the last explicitly commanded gripper target independently for each arm until the next gripper command. Before any command leave measured-state behavior unchanged. Observed/provided state remains measured.",
+  "unchanged": [
+    "candidate code and memory",
+    "target position and quaternion",
+    "6 gripper command steps",
+    "planner/source/geometry",
+    "RGB policy observation",
+    "released waypoint thinning",
+    "1100 native action budget",
+    "task scoring",
+    "no privileged state to policy"
+  ],
+  "diagnostics": [
+    "applied action targets before/after latch",
+    "object trajectory and EE sidecar",
+    "raw planner returns",
+    "primitive event timings"
+  ],
+  "endpoints": [
+    "task success and native score",
+    "held object displacement around lift and transport",
+    "returned after planner failure or budget",
+    "number of completed transports",
+    "actual target hold contract"
+  ],
+  "accounting": {
+    "new_api_calls": 0,
+    "new_generated_candidates": 0,
+    "policy_promotions": 0,
+    "lab_gpu_needed": false
+  },
+  "limits": [
+    "Manual compatibility-interface correction, not autonomous System2 generation",
+    "All five layouts previously exposed; exploratory mechanism evidence, not generalization",
+    "Persistent command alone cannot solve infeasible transport poses",
+    "New side logging in both conditions; no cross-stage speed claims",
+    "Fresh controls; historical stage35 cases are not counted again"
+  ]
+}

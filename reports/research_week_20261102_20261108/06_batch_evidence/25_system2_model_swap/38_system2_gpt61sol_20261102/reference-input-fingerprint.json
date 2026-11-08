@@ -1,0 +1,7 @@
+{
+  "messages_sha256": "4ed288d0a1ac8c7ca240b1f9e8c4324683f5844fe8d3118355e492c29b632fa8",
+  "new_model": "gpt-6.1-sol",
+  "original_chat_sha256": "97f432995a6321a47e573c420a6214c97390029b1b69ce341ca3590554a244b9",
+  "reference_model": "qwen3.7-plus",
+  "structured_request_sha256": "88c8bfb4b56a23ebdce446bc7df804b5c4f0088dc7521c6c4cb0ada33b686a81"
+}

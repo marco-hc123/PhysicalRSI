@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "name": "target_control",
+      "source": "manual-target-control/candidate.py",
+      "proposal": "manual-target-control/target_control.json",
+      "research_origin": "manual_single_factor_control",
+      "target_rule": "generated"
+    },
+    {
+      "name": "target_offset",
+      "source": "manual-target-control/candidate.py",
+      "proposal": "manual-target-control/target_offset.json",
+      "research_origin": "manual_single_factor_control",
+      "target_rule": "incumbent_offset"
+    }
+  ],
+  "selection": "Manual target-rule diagnostic only; no promotion into the generated-candidate pool",
+  "research_role": "One fixed sample_01-derived source; only memory target-rule flag differs. Five exposed layouts per group. Manual repair evidence is separate from System2 search efficacy."
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "released_waypoints.py",
+    "source": "/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_v1_classify_objects/6bb861ace4b706d9/rdj_v1_classify_objects/waypoints.py",
+    "sha256": "21639d3c67656d12c0ad038b26113a1cd6fc64fb8810ab061afad7bab7f59ac0"
+  },
+  {
+    "name": "released_motion.py",
+    "source": "/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_v1_classify_objects/6bb861ace4b706d9/rdj_v1_classify_objects/motion.py",
+    "sha256": "4c2ae641c55d60e1b650b6b6d3b5090da48e22480a8f6dba5d37619c6af06855"
+  },
+  {
+    "name": "compatibility_backend.py",
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/step4_native_primitives_v3.py",
+    "sha256": "e34a6244a8497c5a08d5cbaad7f51b3f9889f907934209f35f5121445fa7ff49"
+  },
+  {
+    "name": "native_eval_env.py",
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/src/eval_client/eval_env.py",
+    "sha256": "7186fb5b23615bca71af83ae7a380a8d7684d8fe2a46995b1f84ece57817e3d9"
+  },
+  {
+    "name": "native_obs_manager.py",
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env/observation_manager/obs_manager.py",
+    "sha256": "771d6cda443b591f3e7850b901a06b4e653a2feefcbabd23608042377fe9be4b"
+  },
+  {
+    "name": "native_sim_config.yml",
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env_cfg/sim/sim_config.yml",
+    "sha256": "e442ede1c3d90fcfb50b9461c854d31b22dad9bfbb23397db228b27a6a486963"
+  },
+  {
+    "name": "native_arx_x5.yml",
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env_cfg/arx_x5.yml",
+    "sha256": "7691350159fdeca92fd1b0b2da36913464ccdea3f3251eefb0176aa51db0807f"
+  }
+]

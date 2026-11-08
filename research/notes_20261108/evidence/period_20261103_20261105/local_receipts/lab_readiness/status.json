@@ -1,0 +1,36 @@
+{
+  "state": "complete_readonly_check",
+  "checked_utc": "2026-11-04T11:13:33.621319+00:00",
+  "host": "physicalrsi-lab / gpuserver3",
+  "project_root": "/mnt/data/joey_tr/physical-RSI",
+  "goal": "Determine readiness for System 2 improvement experiments without modifying server contents",
+  "completed": [
+    "SSH connection",
+    "GPU RAM disk process snapshot",
+    "project environment metadata and pip check",
+    "CPU imports only",
+    "migration record and asset path checks"
+  ],
+  "remote_application_writes": 0,
+  "gpu_compute_jobs_started": 0,
+  "api_calls": 0,
+  "active_check_sessions": [],
+  "user_write_scope": "Only /mnt/data/joey_tr/physical-RSI/ for any subsequent server modifications",
+  "unresolved": [
+    "H100 is unsupported for Isaac Sim RTX RGB route",
+    "Policy rerun/NumPy and simulator IsaacLab/Starlette metadata conflicts",
+    "Real checkpoint inference and offline CuRobo planning not revalidated",
+    "New API credentials and connectivity needed before model experiments"
+  ],
+  "next_action": "CPU contract and failure-feedback work can proceed; obtain an RT-capable host before native RGB evaluation",
+  "evidence": {
+    "check_payload_remote.py": "166b768e47cb5306a2b3faae1f3b420fe2bc85973bdcec8affae1e2c066ea929",
+    "inspect_remote.py": "d5f98027c3c14b40ee05a6f75b67f22185c8fd1934cbbd97a0f1617e8ca127e2",
+    "payload-check.json": "f2a1bf16506c507f0e8d98cf140ac4e6df9e0c4055f03966d5f1d20f3d08f922",
+    "runtime-check.json": "3cf371f3cc0f94c51f828426172ac0bbd5216d54f678ea3b991f14f6cc13caea",
+    "inventory.json": "712d07a7a96cc4088cdba8923ac7701e919a7b3211e54c2f850f4f13d45c7961",
+    "check_runtime_remote.py": "a9308eabeff328013859f0927a034266f4b93404f2f3a91a8f0dfb4cecac4d3a",
+    "检查结论.txt": "ae1448c88d5600b53cda0f917a3da1892bb8b5c83e95f470403aaea220d9b874",
+    "path-check.json": "aaf85b2c974a1e180e21efc8e69ea7a87bd936f3b84ff148230838ab9353f3a0"
+  }
+}

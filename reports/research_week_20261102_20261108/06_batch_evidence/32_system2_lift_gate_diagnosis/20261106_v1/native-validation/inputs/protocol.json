@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-11-06T02:35:48.425342+00:00",
+  "kind": "Exploratory recorded-prefix CPU mechanism study",
+  "prior_inspection": "The archived lift diagnosis and original source were inspected before specifying these probes; this is not heldout confirmation.",
+  "goal": "Decompose the lift gate, test the proposed Z-only ablation, and stop before any unobserved action.",
+  "source_archive": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1",
+  "original_sha256": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db",
+  "variants": [
+    {
+      "name": "original",
+      "path": "candidates/original/candidate.py",
+      "sha256": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db"
+    },
+    {
+      "name": "remove_z_only",
+      "path": "candidates/remove_z_only/candidate.py",
+      "sha256": "fdabbb27d8a7a3907fe28250d373f30f235fc0873f83e6ddb3ab95e2d58f122f"
+    },
+    {
+      "name": "remove_xy_only",
+      "path": "candidates/remove_xy_only/candidate.py",
+      "sha256": "a986408cb2e1c5a297227e977399d888bc68b2f8be533cdf94106b80d692811d"
+    },
+    {
+      "name": "remove_xy_and_z",
+      "path": "candidates/remove_xy_and_z/candidate.py",
+      "sha256": "1e910047a7e56c427f8225d45619f462858f769a3c94e11cf7431fbff6bf9046"
+    },
+    {
+      "name": "bypass_lift_guard",
+      "path": "candidates/bypass_lift_guard/candidate.py",
+      "sha256": "d4a47a3899224bec9d88ff8e9090b640768aca2c12b9211b4c45585294742b8d"
+    }
+  ],
+  "inputs": [
+    {
+      "layout_id": 0,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/2d0e1052f7054782877b4c7b1d538499/0/policy/processes/isolated/process.json",
+      "sha256": "9b60df39336a1e259f8168cd758483672dc6938f7cd12c647e46c18d2f6344cf"
+    },
+    {
+      "layout_id": 1,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/eea4f38ec125482ea01cb6ede59bebca/0/policy/processes/isolated/process.json",
+      "sha256": "f6f9594ff67d37e6714d94bbc1e63265f6b3fc9ac64005c3cd5f7eb892ce8b5e"
+    },
+    {
+      "layout_id": 2,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/58de3c0834dc4c4b9b7eed840a3aa2ed/0/policy/processes/isolated/process.json",
+      "sha256": "63d520112dc4a631b97ec54a42736bedadb1e80a27660103da5548645735a559"
+    },
+    {
+      "layout_id": 3,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/f0a7099c349c40f0b98a164538e0d809/0/policy/processes/isolated/process.json",
+      "sha256": "1c444aeddf8491a01d14d3f8433e3b8dc9aecdc3449b307380c7ca8d7ed749b1"
+    },
+    {
+      "layout_id": 4,
+      "path": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/model/expert/b16f7dc840804bf59b88ede9b455f041/0/policy/processes/isolated/process.json",
+      "sha256": "f799400a34bcb7644bd060b6ce5e68a0a2c2775ad35b6c930409cf9c5fc666ea"
+    }
+  ],
+  "fixed": [
+    "All recorded responses and pre-gate code",
+    "Target, arm, quaternions, budget, scoring unchanged"
+  ],
+  "interventions": {
+    "remove_z_only": "Remove Z predicate only; retain category, XY and exact-one guard",
+    "remove_xy_only": "Remove XY predicate only",
+    "remove_xy_and_z": "Factorial diagnostic; retain category and exact-one guard",
+    "bypass_lift_guard": "Positive control of the stopping branch only, not a deployable grasp verifier"
+  },
+  "accounting": {
+    "recorded_native_cases_reused": 5,
+    "new_native_cases": 0,
+    "planned_cpu_replays": 25,
+    "new_api_calls": 0,
+    "gpu_used": false
+  },
+  "boundaries": [
+    "No scene edits or synthetic action success",
+    "No GT passed to candidate",
+    "No execution after recorded prefix",
+    "No automatic promotion or native launch"
+  ]
+}

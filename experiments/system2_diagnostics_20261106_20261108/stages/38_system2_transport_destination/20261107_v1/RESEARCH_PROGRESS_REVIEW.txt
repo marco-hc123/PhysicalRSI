@@ -1,0 +1,103 @@
+PhysicalRSI System2：近期改进实验整体审查
+
+一、先回答有没有进展
+有局部得分变化，也有多项执行层面的修复；截至本轮的完整任务成功数应以文末账目为准。不能写成“一点改进都没有”，也不能写成“已经验证System2稳定自改进”。生成、执行、评分和选择是不同环节。
+
+二、这些实验在回答什么
+System2依据旧执行反馈生成候选程序；候选调用感知和动作接口进入原生仿真；原生评估器给分；只有依据冻结的选择规则胜过父策略且通过独立验收，才有理由晋升。本阶段先诊断为什么候选不能完成任务，人工修正不是System2本身的新能力。
+
+三、按问题递进解释已有结果
+1. 反馈是否充分（阶段31，35个回合）。父pi05及三条baseline候选各5布局全部0分；三条augmented候选中，两条在同一个布局各15分，另一条仍全0。增强信息出现局部部分分，但没有完整成功，不能仅凭一次布局结果宣布稳定提升。
+2. 是否存在错误的终止判断（阶段32，20个新回合）。一个候选使用当前接口无法给出的真实动态高度来判断抓起，导致提前退出；原版5布局全0，绕过该判断后为0、0、0、0、15。另一组回撤目标修正得分不变，并出现3次活动执行中的预算耗尽。绕过错误判断不是获得了可靠抓取判据。
+3. 把能力/错误契约告诉模型是否足够（阶段33，6次生成、30个新回合）。legacy和capability反馈各3候选，各跑5布局，每条都是0、0、0、0、15。增强反馈确实生成了初始规划拒绝后的有限替代手臂逻辑，但真实拒绝多出现在闭爪后，恢复分支没有覆盖该阶段。提示词改变了代码行为，未改变成绩。
+4. 动作执行是否浪费步数（阶段34，10个新回合）。固定候选，稠密轨迹与发布技能的轨迹精简方式比较，完成approach从18到35，活动执行的预算取消从3到0，已完成动作数4096到418；两组成绩同为0、0、0、0、15。完整墙钟仍约1029秒和1013秒，不能把动作数下降直接写成整体十倍加速。
+5. 具体停在什么位置（阶段35，3个新回合、81次离线求解）。记录闭爪、抬升、运输和求解器输出，发现三例最后的运输调用在产生轨迹前即返回None，失败调用自身执行0步。None只说明此配置下没返回路径，不能编造碰撞原因。81次局部高度/姿态探查仅12次返回路径，不计为机器人成功。
+6. 抓手命令是否持续生效（阶段36，10个新回合）。原执行方式把实测开度带入后续动作；保持最近显式命令后，闭爪目标不一致检查从72/152到0/152，两组仍都是0、0、0、0、15。修复目标命令并未证明物体一直抓稳。152是动作×手臂检查次数，不是样本数。
+7. 起始对象本身是否太弱（阶段37，5个新回合、10个理想接口检查、18次离线求解）。完整已有分类控制器在同5布局得0、15、15、15、40，平均17分，但完整成功0/5。与平均3分的生成候选相比，它有更多RGB形状、实际末端状态和规划/恢复能力，因此是能力参照，不能归因于单一修复或模型推理差异。四个布局在末端到位门槛停止；最后一个布局因笔未分类且达到重试上限而停在40分。理想接口检查另确认6次循环对8/7物体布局存在覆盖上限，候选也缺少显式归位。
+8. 运输目标点是否不合适（阶段38，本轮10个新回合）。固定已修正抓手与轨迹方式，原目标与偏移目标各5。偏移取发布技能的第一放置点惯例，先在3个历史失败状态×3seed中将离线路径0/9变9/9，再进行本轮原生对照；两层证据分别报告。
+[
+  {
+    "condition": "original_transport",
+    "cases": 5,
+    "scores_by_layout_100": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      15.0
+    ],
+    "mean_score_100": 3.0,
+    "successes": 0,
+    "cohort_wall_seconds": 946.3125442649998,
+    "completed_approaches": 35,
+    "rejected_approaches": 5,
+    "incomplete_approaches": 0,
+    "active_budget_cancel": 0,
+    "transport_attempts": 10,
+    "transport_completed": 5,
+    "transport_rejected": 5,
+    "close_commands": 10,
+    "closed_checks": 152,
+    "closed_mismatches": 0,
+    "completed_primitive_action_steps": 418
+  },
+  {
+    "condition": "offset_transport",
+    "cases": 5,
+    "scores_by_layout_100": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      15.0
+    ],
+    "mean_score_100": 3.0,
+    "successes": 0,
+    "cohort_wall_seconds": 985.3597181100004,
+    "completed_approaches": 64,
+    "rejected_approaches": 0,
+    "incomplete_approaches": 0,
+    "active_budget_cancel": 0,
+    "transport_attempts": 16,
+    "transport_completed": 16,
+    "transport_rejected": 0,
+    "close_commands": 16,
+    "closed_checks": 265,
+    "closed_mismatches": 0,
+    "completed_primitive_action_steps": 715
+  }
+]
+逐布局得分变化：[{"layout_id": 0, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 0, "offset_transport_completed": 4, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 1, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 2, "offset_transport_completed": 4, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 2, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 0, "offset_transport_completed": 2, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 3, "original_score": 0.0, "offset_score": 0.0, "score_delta": 0.0, "original_transport_completed": 1, "offset_transport_completed": 3, "original_active_cancel": false, "offset_active_cancel": false}, {"layout_id": 4, "original_score": 15.0, "offset_score": 15.0, "score_delta": 0.0, "original_transport_completed": 2, "offset_transport_completed": 3, "original_active_cancel": false, "offset_active_cancel": false}]
+
+四、现在能否归咎于PhysicalRSI本身
+不能把所有问题归于官方通用框架，也不能把一切归为个人操作错误。需要区分本次复现接口的执行契约、某一生成程序的具体选择、完整已有技能的环境表现、以及System2生成与选择机制。上面每项都有对应证据范围。没有在相同能力接口和任务条件下排除这些因素前，不能断言LLM太弱或System2机制不成立。
+
+五、当前结论与后续判据
+{"any_positive_score_delta": false, "mean_score_delta": 0.0, "success_delta": 0, "transport_completed_delta": 11}
+下一轮应由本轮真实失败阶段决定：若运输拒绝解除却仍低分，优先核查搬运后的物体位置、放置和重试；若仍拒绝，检查实际起始关节与离线状态是否相同、失败是否移到另一子阶段。只有最小搬运契约稳定后，再让System2使用同一能力接口，比较反馈/改写机制。最后单独使用未暴露布局验收，不把这5个开发布局的多次复跑称为泛化。
+
+六、账目及证据
+阶段31至38累计123个实际原生执行回合；完整成功合计0。主要重复使用5个开发布局，并非123个独立场景。离线求解、理想接口检查、API生成和历史复用不混入此分母。无新策略晋升，保留pi05。
+本轮无API调用、无训练、无实验室GPU使用；此前离线GPU仅在空闲卡上运行一张。最新忙碌检查未启动CUDA，不影响他人进程。
+逐组入口见recent-experiment-ledger.csv；问题归因表见RESEARCH_PROGRESS_REVIEW.json。每阶段FINAL_SUMMARY.json、原始native-validation/和EVIDENCE_INDEX.json提供原始回执、视频、执行日志和归档校验。
+
+七、本轮追加的确定性诊断
+运输目标修正：机制复核与结论
+
+10个新原生回合已完成，30段视频完整解码通过，8409份文件已逐项校验并归档。原目标和偏移目标各5回合，分数均为0、0、0、0、15/100，完整成功均0/5。没有策略晋升。
+
+执行层面确有改善：完成approach从35到64，规划拒绝从5到0；运输动作由5/10完成变成16/16完成。两个分母不同，后者执行了更多循环，不能当成16个独立场景。两组1100步和评分均未改。
+
+新的停止位置已经核实：用完整记录的接口响应回放原候选，10个回合的请求方法、参数、顺序和数量均逐项一致。原组5回合均在运输规划拒绝后返回；偏移组5回合均耗尽初始观测决定的循环次数，没有未完成的活动调用，也没有异常被吞掉的证据。实际次数只有4、4、2、3、3；真实布局有8、5、3、7、6个对象。这不是到1100步才停，而是候选更早返回后原生保持到终止。
+
+为什么仍不涨分，至少有两层证据：
+1. 候选把第一帧当成完整任务清单。布局0、1、2首次分别没有watch、toy_car、camera类别；布局0后来看到watch，但初始assignments不再更新，仍然忽略。布局3、4虽然首次看到了三类，但各只识别到3个物体，循环也被固定为3次。它们并不是都触发了“最多6次”的上限，而是先触发了更小的首次数量上限。
+2. 完成运动不等于搬运正确。16次闭爪/搬运中15次对象关联满足预定距离/间隔门槛；其中4次抬升不足1cm，6次对象与末端的相对平移变化超过5cm（这6次包含未成功抬升的情况）。两次对象先抬升超过2cm、随后相对平移变化超过5cm。这些是分析线索，不是接触力证明，不能全部直接命名为滑落。另查看布局2的首次松爪帧和终帧，物体停在篮筐前方，符合保存的对象状态与几何检查；不能把控制器完成运输当成成功放入。
+
+因此，当前瓶颈已从“无法执行下一段轨迹”推进到“起始感知不完整、程序覆盖有限、抓取/放置并不可靠”。这支持检查起始候选及其可用能力，而非继续只增加System2提示词。仍不能据此判断PhysicalRSI通用框架或LLM普遍无效；完整已有控制器的能力接口和这些候选并不等价。
+
+已经继续的新实验：只把range(min(6,len(items)))改为range(6)，开展5个新回合，复用本阶段偏移组5个结果作已有对照。初始类别分配、运输点、抓手、规划、评分、步数和缺少归位全部不改。CPU检查已证实新程序逐项复现旧动作前缀，只在旧结束点多请求一个scene。这个实验只验证循环覆盖假设，不会同时解决新增类别、失抓或放置偏差；不得预先宣称提高得分。
+
+计时与Token：两个完整5回合cohort墙钟分别946.31秒、985.36秒，后者做了更多动作，没有跨项目加速结论。本轮直接执行保存的候选代码，新增API调用0；历史候选生成成本仍属于System2账目，不能把本轮0调用写成生成免费。
+
+证据：FINAL_SUMMARY.json、terminal-replay.json/csv、observation-coverage-audit.json/csv、transport-tracking-audit.json/csv、scoring-condition-audit.json/csv、transport-video-review/frame-index.json、native-validation/。评分几何核查使用冻结源码与元数据，但采样时序可能不同，原生回执仍是成绩唯一依据。

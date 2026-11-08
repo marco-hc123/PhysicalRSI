@@ -1,0 +1,71 @@
+{
+  "schema": "physicalrsi.lift-gate-native-ablation/v1",
+  "created_utc": "2026-11-06T02:38:07.162779+00:00",
+  "title": "Lift verification guard enabled versus diagnostic bypass",
+  "question": "Does the post-lift guard prevent later actions, and does bypassing it improve native outcome or only continue a failed grasp?",
+  "protocol_type": "Exploratory adaptive mechanism experiment, frozen before new native execution",
+  "adaptation": {
+    "prior_plan": "Original versus remove_z_only",
+    "reason": "Exact CPU replay showed zero branch changes across all five saved observations.",
+    "decision": "Do not spend a native matrix on Z-only removal. Compare original against one-line bypass of the whole return guard.",
+    "evidence_sha256": "37b9dc4c9a0dd3f6d46124139fa008a8293e36444fcd69227faef953104c0c8b",
+    "offline_replays": 25,
+    "existing_native_cases_reused": 5
+  },
+  "conditions": [
+    {
+      "name": "original",
+      "candidate_sha256": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db"
+    },
+    {
+      "name": "bypass_lift_guard",
+      "candidate_sha256": "d4a47a3899224bec9d88ff8e9090b640768aca2c12b9211b4c45585294742b8d"
+    }
+  ],
+  "execution_order": [
+    "original",
+    "bypass_lift_guard"
+  ],
+  "cases_per_condition": 5,
+  "planned_native_cases": 10,
+  "task": "classify_objects",
+  "robot": "ARX X5",
+  "native_step_limit": 1100,
+  "runtime_sha256": "264b13eea4bc17a7505df43b868711eaba04f4f085117eade195e1e3eb341067",
+  "layout_sha256": [
+    "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+    "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+    "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+    "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+    "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde"
+  ],
+  "fixed": [
+    "All code except one post-lift conditional",
+    "Same five historical layouts",
+    "Original scoring and step budget",
+    "Perception, primitives, planning configuration and runtime",
+    "Simulator seed from frozen runtime"
+  ],
+  "metrics": [
+    "Valid native receipts and full success",
+    "Score on 0-100 scale",
+    "First post-lift basket approach requested/completed",
+    "Planner rejection and step-limit termination",
+    "Primitive action steps",
+    "Three-camera video evidence",
+    "Full cohort wall time"
+  ],
+  "physical_evidence": "Use original scoring and videos. Physical lift/grasp remains unknown where video does not establish it; no hidden GT is fed to actor.",
+  "limitations": [
+    "Manual diagnostic bypass is not an autonomous System 2 improvement or reliable grasp verifier.",
+    "Historical layouts already exposed; no generalization claim.",
+    "Same-layout pairing does not ensure identical rendered pixels or stochastic execution.",
+    "No new policy selection; pi05 stays retained.",
+    "Whole guard intervention does not isolate Z alone."
+  ],
+  "paid_api_calls_planned": 0,
+  "lab_gpu_used": false,
+  "transport": "Lab to cloud through local SSH relay; results returned to project-only lab path.",
+  "archive_destination": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation",
+  "stop_policy": "Stop and preserve any deployment failure before retry; task failures remain valid outcomes."
+}

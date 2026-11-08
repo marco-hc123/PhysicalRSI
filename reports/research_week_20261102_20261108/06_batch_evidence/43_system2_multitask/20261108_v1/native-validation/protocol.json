@@ -1,0 +1,97 @@
+{
+  "schema": "physicalrsi.multitask-feedback-pilot/v1",
+  "created_at": "2026-11-08T05:59:27.259911+00:00",
+  "state": "frozen",
+  "tasks": [
+    "classify_objects",
+    "general_pickup"
+  ],
+  "candidate_conditions": [
+    "basic",
+    "execution_feedback"
+  ],
+  "candidates_per_condition_per_task": 3,
+  "development_layouts_per_task": 5,
+  "heldout_layouts_per_task": 5,
+  "smoke_layouts_per_task": {
+    "general_pickup": 1,
+    "classify_objects": 0
+  },
+  "baseline_origin": {
+    "classify_objects": "Previous frozen structured-rejection code parent, unmodified source",
+    "general_pickup": "Study-authored single-pick transfer scaffold from the frozen parent; not a released official code skill"
+  },
+  "additional_reference": {
+    "general_pickup": "Frozen pretrained pi05, 5 development layouts, not eligible System2 candidate"
+  },
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "generation_calls_max": 12,
+  "max_completion_tokens": 16000,
+  "max_request_bytes": 70000,
+  "reserve_per_call_usd": 0.75,
+  "maximum_reserved_usd": 9,
+  "api_cap_usd": 10,
+  "prior_conservative_allowance_usd": 0,
+  "selection": "Within task and condition: maximum mean development score, then complete successes, then source SHA256; a candidate replaces parent only with strictly higher mean and no reduction in complete successes. Ties retain parent.",
+  "heldout": "Freeze selections before generating fresh native-qualified layouts; evaluate unique selected sources plus parent; do not tune on heldout; report paired scores and uncertainty, no claim of cross-task skill transfer",
+  "admission": "Only policy(robot,memory) at module scope; imports, class, global, nonlocal, async, await, yield, private attributes and unlisted capabilities forbidden; all rejected outputs retained with native score unknown",
+  "execution": "Frozen corrected gripper/trajectory/rejection contract; unchanged native task scores and action limits; per-task RGB adapter frozen before candidate generation; one GPU, sequential native execution",
+  "budget": {
+    "classify_objects": 1100,
+    "general_pickup": 200
+  },
+  "accounting": "Separate preparation smoke, parent, pretrained reference, candidates, rejected outputs, heldout unique execution and reused selections; logical selections are not extra native episodes",
+  "scope": "Two-task one-round matched-feedback pilot, not full multi-round official System2 reproduction",
+  "deferred": {
+    "cover_blocks": "Requires explicit home-joint capability qualification; generator flags finite canonical arrangements as insufficient for unseen semantic coverage; no forced admission"
+  },
+  "paid_requests_so_far": 0,
+  "frozen_at": "2026-11-08T06:18:30.299061+00:00",
+  "smoke_scope": "One general_pickup preparation episode verified natural terminal, accurate instruction binding, RGB target XY within~2.2cm of analysis-only initial target reference, and two explicit zero-action planning rejections; no successful manipulation demonstrated. Existing classification contract already qualified in prior campaigns. No smoke layout reused in development.",
+  "task_allowlist_extension": "Process-local add general_pickup already implemented by frozen catalog; task physics, reward and sampler code unchanged. Data are generated public-config layouts, not official full benchmark distribution.",
+  "environment_changes": "Only materialize public Git LFS pointers with SHA256 verification; existing installed environments/weights/drivers unchanged.",
+  "generation_host": "Local ephemeral-key worker after lab interactive SSH ended before model-access or paid requests; requests and outputs archived to lab and execution server. No API credentials in artifacts.",
+  "planned_native_cases": {
+    "preparation": 1,
+    "code_parents": 10,
+    "pi05_reference": 5,
+    "candidates_max": 60,
+    "heldout_unique_policies_max": 30,
+    "total_max": 106
+  },
+  "api_requests_so_far": 0,
+  "source_hashes": {
+    "build_requests.py": "bb659c7ef4e480cefb6ffbf87695bb9f5a1b3b13f9c0a76c36538c621c8a6297",
+    "prepare_layouts.py": "1e3d3b4355c83012eb47319175e96d5eb9f0cbc7ce1273bbc8fbd0c4ec7ab487",
+    "finish_task.py": "fa073f3ec9bcff091b747e05669728b64c49401e753bf7eb181dd6bce48b0861",
+    "relay_candidates.py": "b0a93ffa6412d6a41bc00ac24877fb58f7f852712c520fa9869888b65e7a65a8",
+    "prepare_layouts_v2.py": "c8b406bc8fd20ac793030517cd410091dae4e3de76d9fed2111b961d0fbd1f10",
+    "run_generation.py": "c516c1a84cb65ea02082a94cdd5d591ede12b3e0609b1e31ea7fa7e6172af748",
+    "bootstrap.py": "ca8242c0a4da394152f790c7e6046f3593385f604d34857f2494db1b813ca71a",
+    "select_task.py": "3e2bdf5464d36525517a308959350e30aca322e22bd43243f1979179e15d8265",
+    "run_phase.py": "eccdd79636e8c3b5435ab82218b0bdb717b4deb5b3177c3f73c3cf3080ca73c8",
+    "fetch_task_assets.py": "fbb36d49aa777c3d138319720d820545fa9e5491bc5dd6c7a9a61bf0465d13d1",
+    "prepare_phase.py": "3a2954bf45205b00cbed601db3e99b498d48ad49aba52299a7dd461544ef3188",
+    "prepare_layouts_v3.py": "2824d2a167d66acada0d32c41a41bef13682bd8dd7ebfe96868581b83f8725d2",
+    "audit_heldout.py": "4a55aa2708c7ea030b34877f3664c87337a41f97f28dc4f6cac4d4ea548548af",
+    "development.py": "3f6084122535e6fdbfc3b59611bcf4503ac86c31979ea5e83a9a620243192118",
+    "code/released_waypoints.py": "21639d3c67656d12c0ad038b26113a1cd6fc64fb8810ab061afad7bab7f59ac0",
+    "code/gripper_contract.py": "96d8f2a3cf514ee8b13a4e02dbd3b369ef6268f595d9c43e1e1c36822a109862",
+    "code/postgrasp_contract.py": "a8438befff187efb015064eb79e10f8b79187744d19d4cb9228bcc14d615ddb5",
+    "code/diagnostic_common.py": "b47ab907695f2b2b6d1e04f845ade548a38ccbe5d102425b4f5a49182cfb7a80",
+    "code/simulator_sidecar.py": "a400779cb006e5fe7ecbb7189eb445ffe032c6b615bf5aa1a84d22fbd94a05d7",
+    "code/pickup_adapter.py": "e2cf5ba55fa9fd8ec118e5e768acc73afa57f83695641fdc0c5a0a7644898e2e",
+    "code/trajectory_contract.py": "48480b640be2c786d4e99e087bb801c32b2cb339eb75a5c4479192a97e26b76e",
+    "code/closed_gripper_spacing.py": "600635b541a97272cd261db39f35f6a72246be02f1c38a993e07d37965c3bf54",
+    "code/structured_feedback.py": "bc821255044d4452e2d3c393e71a067ae4f42f0da65e82a956c4091df8671ff0",
+    "code/sitecustomize.py": "d6adc747cb7b959a3bc5452a124b5b4dc0715e9b703a77a4196ec8daea495adb",
+    "parents/classify_objects.py": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+    "parents/general_pickup.py": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+    "interfaces/general_pickup.json": "51c1000551f0f47b13df27bb8e265d1a4b16e2d570d85cd2ed3d0466e6b63244",
+    "interfaces/classify_objects.json": "c06a2d4d28a72568933d3187ea425513b40cdc62e4c67c1ae3dc44e27fafe9bf",
+    "templates/validate_native.py": "b3e93a4c5d9b8ac4a5289256baa8a39d34ff1a4751178d241a0a35a361d39cd2",
+    "templates/run_native.py": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+    "templates/analyze_native.py": "4106478210d2558c15c0f72eeb9c86b9e8a08b3d5effaa52e730b493c8b389b0"
+  }
+}

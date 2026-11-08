@@ -1,0 +1,16 @@
+{
+  "state": "completed_sealed_verified",
+  "utc": "2026-11-06T07:23:09.913327+00:00",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1",
+  "native_cases": 10,
+  "videos": 30,
+  "source_payload_files": 7996,
+  "derived_files_verified": 64,
+  "index_sha256": "93e8a0e64ec75bbe45ada033f20d080eb6d3e250bfc9ac285aa2e13fa67ea5a2",
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "active_experiment_processes": [],
+  "interpretation": "Budget cancellations3to0;completed approaches18to35;scoreunchanged[0,0,0,0,15]each;no fullsuccess orpolicy promotion",
+  "next_action": "This batch is fully complete. Next diagnostic plan in NEXT_EXPERIMENT.txt is not launched.",
+  "main_report": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1/REPORT.txt"
+}

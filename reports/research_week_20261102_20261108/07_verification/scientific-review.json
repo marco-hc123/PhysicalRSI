@@ -1,0 +1,31 @@
+{
+  "state": "passed_with_explicit_limitations",
+  "utc": "2026-11-08T10:46:51.635033+00:00",
+  "narrative_characters": 18437,
+  "reviewed": [
+    "Historical reports and corrections across batches24–42",
+    "Batch43:12 API generations,60 candidate trials,19cohorts,89terminal-score native episodes+2runtime interruptions",
+    "Both tasks retain parent; selected views are reused evidence, not new independent rollout groups",
+    "Classification feedback15/15 fourth-approach basket-overhead rejection reviewed against original calls and source",
+    "Pickup16/30candidate native successes vs14non-success; early-success cancellation not strategy failure",
+    "Both heldout missing scores remain null; conditional means use4scored layouts and interruptionrate1/5 disclosed",
+    "Frozen usage accounting includes cachedinput/reasoning subsets once; costs estimates not invoices",
+    "Native outcomes distinct from object-root-lift/stable-delivery proxies and program return",
+    "Original historical artifacts retained, interpretation narrowed where experiment adapter or prompt caused mismatch"
+  ],
+  "unresolved": [
+    "Physical cause of tracking divergence",
+    "Planner failure internal cause beyond no-path status",
+    "Generative and physical execution variance from only3candidates/condition and1trial/policy-layout",
+    "No official full benchmark or stable multi-round System2 improvement proof"
+  ],
+  "claims_not_made": [
+    "All low scores caused by one adapter defect",
+    "System2 universally ineffective",
+    "Conditional heldout means represent fully completed five-layout acceptance",
+    "Study code parent fairly outperforms pi05 across official distribution"
+  ],
+  "raw_data_modified": false,
+  "new_api_requests": 0,
+  "new_native_experiments": 0
+}

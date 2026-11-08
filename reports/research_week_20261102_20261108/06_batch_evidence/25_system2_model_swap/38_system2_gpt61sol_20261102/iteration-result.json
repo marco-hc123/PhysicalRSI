@@ -1,0 +1,247 @@
+{
+  "utc": "2026-11-02T03:09:27.641844+00:00",
+  "logical_round_index": 0,
+  "rounds": [
+    {
+      "index": 0,
+      "finished_utc": "2026-11-02T03:09:27.037861+00:00",
+      "elapsed_s": 1447.086542081,
+      "result": {
+        "revision": "769f38faa166b71b6506dad9fb52901c57855082918d92288d4203fc865a3c8d",
+        "harness": "initial",
+        "action": "assessment",
+        "round": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000",
+        "qualification": null,
+        "scope": "native_robodojo; qualification requires native evidence"
+      },
+      "task_status": {
+        "state": "assessment",
+        "revision": "769f38faa166b71b6506dad9fb52901c57855082918d92288d4203fc865a3c8d",
+        "skill_selection": {
+          "skill_choices": {
+            "classify_objects": {
+              "name": "pi05",
+              "revision": "c70c9a59e650d484c8b921d8e17181cacd8e24b20c4cbae8277a1dffe9b69ee9"
+            }
+          }
+        },
+        "rsi_scheme": "hybrid",
+        "custom_harness": null,
+        "qualification": null
+      },
+      "recovered_after_power_loss": true,
+      "recovery_protocol": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/recovery-01/protocol.json"
+    }
+  ],
+  "recovery_elapsed_s": 1447.086542081,
+  "task_status": {
+    "state": "assessment",
+    "revision": "769f38faa166b71b6506dad9fb52901c57855082918d92288d4203fc865a3c8d",
+    "skill_selection": {
+      "skill_choices": {
+        "classify_objects": {
+          "name": "pi05",
+          "revision": "c70c9a59e650d484c8b921d8e17181cacd8e24b20c4cbae8277a1dffe9b69ee9"
+        }
+      }
+    },
+    "rsi_scheme": "hybrid",
+    "custom_harness": null,
+    "qualification": null
+  },
+  "native_budget": {
+    "batches": [
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T02:23:33.819227+00:00",
+        "harness_id": "initial",
+        "index": 0,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000000",
+        "requested_utc": "2026-11-02T02:19:22.469602+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T02:27:31.622817+00:00",
+        "harness_id": "initial",
+        "index": 1,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000001",
+        "requested_utc": "2026-11-02T02:23:33.821437+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T02:31:30.353822+00:00",
+        "harness_id": "initial",
+        "index": 2,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000002",
+        "requested_utc": "2026-11-02T02:27:31.624494+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T02:35:27.993840+00:00",
+        "harness_id": "initial",
+        "index": 3,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000003",
+        "requested_utc": "2026-11-02T02:31:30.355746+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "harness_id": "initial",
+        "index": 4,
+        "interruption_recorded_utc": "2026-11-02T02:45:19.948474+00:00",
+        "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/batch-000004",
+        "reason": "User confirmed ECS arrears shutdown; instance rebooted; partial native attempt retained without score",
+        "requested_utc": "2026-11-02T02:35:27.995557+00:00",
+        "score": null,
+        "split": "validation",
+        "state": "interrupted_power_loss",
+        "success": null
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T02:50:50.434307+00:00",
+        "harness_id": "initial",
+        "index": 5,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/initial/recovery-01-batch-000004",
+        "recovery_of_batch_index": 4,
+        "requested_utc": "2026-11-02T02:46:36.404101+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T02:54:37.854785+00:00",
+        "harness_id": "candidate_round-000000",
+        "index": 6,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000000",
+        "requested_utc": "2026-11-02T02:50:51.079023+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T02:58:12.106395+00:00",
+        "harness_id": "candidate_round-000000",
+        "index": 7,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000001",
+        "requested_utc": "2026-11-02T02:54:37.856470+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T03:01:43.420668+00:00",
+        "harness_id": "candidate_round-000000",
+        "index": 8,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000002",
+        "requested_utc": "2026-11-02T02:58:12.108141+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T03:05:23.644194+00:00",
+        "harness_id": "candidate_round-000000",
+        "index": 9,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000003",
+        "requested_utc": "2026-11-02T03:01:43.422428+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      },
+      {
+        "count": 1,
+        "expert": null,
+        "finished_utc": "2026-11-02T03:08:58.816760+00:00",
+        "harness_id": "candidate_round-000000",
+        "index": 10,
+        "output": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/workspace/rounds/round-000000/evaluation/candidate_round-000000/batch-000004",
+        "requested_utc": "2026-11-02T03:05:23.645974+00:00",
+        "scores": [
+          0.0
+        ],
+        "split": "validation",
+        "state": "completed",
+        "successes": [
+          false
+        ]
+      }
+    ],
+    "completed": 10,
+    "maximum": 11,
+    "recovery_amendment": "/mnt/data/physical-RSI/result/38_system2_gpt61sol_20261102/recovery-01/protocol.json",
+    "requested": 11
+  },
+  "qualification": "One GPT model-swap pilot with explicit infrastructure recovery; interrupted attempt retained"
+}

@@ -1,0 +1,29 @@
+{
+  "requests": [
+    {
+      "id": "sample_01",
+      "file": "requests/sample_01.json",
+      "sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3"
+    },
+    {
+      "id": "sample_02",
+      "file": "requests/sample_02.json",
+      "sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3"
+    },
+    {
+      "id": "sample_03",
+      "file": "requests/sample_03.json",
+      "sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3"
+    },
+    {
+      "id": "sample_04",
+      "file": "requests/sample_04.json",
+      "sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3"
+    },
+    {
+      "id": "sample_05",
+      "file": "requests/sample_05.json",
+      "sha256": "a4e98cd4a5972db1cf093feb53f9cb0423d839b7c9120b05e7848a5d44a625a3"
+    }
+  ]
+}

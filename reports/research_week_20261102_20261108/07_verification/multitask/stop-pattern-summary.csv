@@ -1,0 +1,18 @@
+﻿phase,condition,actors,mapped_actors,stop_counts,approach_requests,explicit_rejections
+classify_objects-candidates,classify_objects-basic-1,5,5,"{""program_returned_after_explicit_rejection"": 4, ""program_returned_after_observation"": 1}",20,4
+classify_objects-candidates,classify_objects-basic-2,5,5,"{""program_returned_after_observation"": 5}",46,2
+classify_objects-candidates,classify_objects-basic-3,5,5,"{""program_returned_after_explicit_rejection"": 4, ""program_returned_after_observation"": 1}",44,24
+classify_objects-candidates,classify_objects-execution_feedback-1,5,5,"{""program_returned_after_explicit_rejection"": 5}",20,5
+classify_objects-candidates,classify_objects-execution_feedback-2,5,5,"{""program_returned_after_explicit_rejection"": 5}",20,5
+classify_objects-candidates,classify_objects-execution_feedback-3,5,5,"{""program_returned_after_explicit_rejection"": 5}",20,5
+classify_objects-heldout,parent,5,5,"{""program_returned_after_observation"": 3, ""execution_tracking_divergence_missing_terminal_score"": 1, ""program_returned_other"": 1}",87,2
+classify_objects-parent,parent,5,5,"{""program_returned_after_observation"": 5}",46,2
+general_pickup-candidates,general_pickup-basic-1,5,5,"{""native_success_terminated_active_call"": 3, ""program_returned_other"": 2}",16,1
+general_pickup-candidates,general_pickup-basic-2,5,5,"{""native_success_terminated_active_call"": 3, ""program_returned_other"": 2}",18,3
+general_pickup-candidates,general_pickup-basic-3,5,5,"{""native_success_terminated_active_call"": 2, ""program_returned_other"": 2, ""program_returned_after_explicit_rejection"": 1}",17,3
+general_pickup-candidates,general_pickup-execution_feedback-1,5,5,"{""program_returned_other"": 2, ""native_success_terminated_active_call"": 2, ""program_returned_after_explicit_rejection"": 1}",20,1
+general_pickup-candidates,general_pickup-execution_feedback-2,5,5,"{""native_success_terminated_active_call"": 3, ""program_returned_other"": 2}",20,0
+general_pickup-candidates,general_pickup-execution_feedback-3,5,5,"{""native_success_terminated_active_call"": 3, ""program_returned_other"": 2}",20,0
+general_pickup-heldout,parent,5,5,"{""execution_tracking_divergence_missing_terminal_score"": 1, ""program_returned_other"": 3, ""native_success_terminated_active_call"": 1}",14,0
+general_pickup-parent,parent,5,5,"{""program_returned_other"": 2, ""native_success_terminated_active_call"": 3}",15,0
+general_pickup-smoke,parent,1,1,"{""program_returned_after_explicit_rejection"": 1}",2,2

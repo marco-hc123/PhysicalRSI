@@ -1,0 +1,6 @@
+{
+  "reason": "Released controller explicitly opens grippers in failure handler; distinguish that command from planned release and from transfer-return success",
+  "thresholds_unchanged": true,
+  "policy_unchanged": true,
+  "criterion": "Report failure_cleanup separately; physical delivery alone never establishes planned control-flow or full task success"
+}

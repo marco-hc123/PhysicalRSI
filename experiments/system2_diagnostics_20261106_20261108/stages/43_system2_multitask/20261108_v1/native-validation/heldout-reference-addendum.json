@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-08T06:31:41.138599+00:00",
+  "reason": "A study-authored pickup code scaffold is not equivalent to an existing pretrained skill; independently evaluate the fixed pi05 reference too, so a code-parent gain is not misreported as beating available skills.",
+  "change": "Add frozen pi05 reference to the SAME5 pickup heldout layouts, regardless of development results. No change to code candidate selection, models, prompts, counts, scoring or action budgets.",
+  "basis": "Prospective methodological addition before pickup development results or any candidate/API generation exist.",
+  "additional_native_episodes": 5,
+  "new_maximum_native_episodes": 111,
+  "additional_api_requests": 0,
+  "pi05_used_for_code_candidate_selection": false,
+  "finish_script_sha256": "f0ec015286bfc1845ee827cccc8440d39bff0b9d91c9ed4baaa711252c466073"
+}

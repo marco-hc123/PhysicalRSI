@@ -1,0 +1,44 @@
+MULTI-TASK SYSTEM 2 FEEDBACK PILOT
+
+Two-task, one-round System2 feedback pilot; study code parents and task-specific observable RGB adapters; not official full benchmark, multi-round self-improvement, or cross-task transfer proof.
+
+All planned evaluations attempted; 2 heldout executions interrupted and have no native terminal score. No retry or score imputation.
+
+Sequence: resource qualification -> frozen protocol -> development -> proposals -> admission -> matched evaluation -> selection -> heldout attempt -> evidence verification.
+
+Native executions with terminal scores: 89 (including one preparation smoke); formal scored executions: 88; runtime-interrupted attempts: 2; all native attempts: 91; videos: 267. Logical selected views reusing the parent are not extra executions. Missing terminal scores are null, never zero.
+API: 12 paid requests; estimated USD 0.461443; conservative reservation USD 9.00 / USD10 cap.
+
+classify_objects
+Development parent scores: [0.0, 0.0, 0.0, 0.0, 0.0]
+  basic: admitted 3/3; candidate mean scores [0.0, 0.0, 0.0]; native full successes 0/15.
+  execution_feedback: admitted 3/3; candidate mean scores [0.0, 0.0, 0.0]; native full successes 0/15.
+Selection: [{"condition": "basic", "decision": "retain_parent", "admitted_evaluated": 3, "eligible": 0}, {"condition": "execution_feedback", "decision": "retain_parent", "admitted_evaluated": 3, "eligible": 0}]
+Heldout parent scores: [0.15, None, 0.15, 0.0, 0.0]; conditional mean uses only completed layouts; missing terminal score does not imply successful acceptance.
+  basic: source parent; scores [0.15, None, 0.15, 0.0, 0.0]; paired differences [0.0, None, 0.0, 0.0, 0.0]; improved/worse/equal 0/0/4; parent evidence reused=True.
+  execution_feedback: source parent; scores [0.15, None, 0.15, 0.0, 0.0]; paired differences [0.0, None, 0.0, 0.0, 0.0]; improved/worse/equal 0/0/4; parent evidence reused=True.
+
+general_pickup
+Development parent scores: [1.0, 1.0, 0.0, 1.0, 0.0]
+  basic: admitted 3/3; candidate mean scores [0.6, 0.6, 0.4]; native full successes 8/15.
+  execution_feedback: admitted 3/3; candidate mean scores [0.4, 0.6, 0.6]; native full successes 8/15.
+Selection: [{"condition": "basic", "decision": "retain_parent", "admitted_evaluated": 3, "eligible": 0}, {"condition": "execution_feedback", "decision": "retain_parent", "admitted_evaluated": 3, "eligible": 0}]
+Heldout parent scores: [0.0, None, 1.0, 0.0, 0.0]; conditional mean uses only completed layouts; missing terminal score does not imply successful acceptance.
+Heldout pretrained pi05 reference scores: [0.0, 0.0, 0.0, 0.0, 0.0]. Improvement over the study code parent does NOT by itself establish improvement over this released pretrained skill.
+  basic: source parent; scores [0.0, None, 1.0, 0.0, 0.0]; paired differences [0.0, None, 0.0, 0.0, 0.0]; improved/worse/equal 0/0/4; parent evidence reused=True.
+  execution_feedback: source parent; scores [0.0, None, 1.0, 0.0, 0.0]; paired differences [0.0, None, 0.0, 0.0, 0.0]; improved/worse/equal 0/0/4; parent evidence reused=True.
+
+Interpretation limits:
+- Candidate generation and admission are separate from physical execution; rejected source has unknown native score, not zero.
+- These API totals cover System2 proposal generation only. Native evaluations use fixed routes, without high-level System1 API calls. Local DINO/pi05 inference uses compute time, not zero overall resource cost. Do not interpret this pilot as whole-Agent or cross-project token savings.
+- The pickup parent was authored for this study; pi05 is a separate pretrained capacity reference, not an editable parent or equivalent action API.
+- RGB pickup geometry uses an assumed table height and nominal object dimensions. Classification also has task-specific perception assumptions. Zero improvement does not identify System2 itself as the cause.
+- Five development and five heldout layouts per task are a small pilot; selecting a best development candidate is optimistic and requires the reported heldout check. Each policy-layout pair has one native rollout, so simulator/planner variation is not independently estimated.
+- No automatic claim of cross-task skill reuse or complete multi-round self-improvement. Only within-task feedback conditions were controlled.
+- Scoring, action budgets and native task physics were preserved. Native steps include terminal hold; completed API calls do not prove delivery/lift.
+- Preparation failures and the postprocessing repair are preserved separately. No task score was invented or changed.
+- Generated public-configuration layouts are not a claim of matching the entire official benchmark distribution.
+
+Next decision: use actual common failure types in execution-feedback.json and primitive traces to choose one correction; freeze it within each task and rerun a matched control. Do not add interfaces, change model and enlarge candidate count together.
+
+Evidence: protocol.json, qualification.json, parents/, interfaces/, requests/, responses/, candidates/, generation-snapshots/, each phase/native-campaign and analysis/, selection/, layouts/*/heldout/overlap-audit.json, asset-downloads/, preparation-failures/.

@@ -1,0 +1,13 @@
+{
+  "state": "verified",
+  "utc": "2026-11-06T04:02:24.081283+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/33_retreat_recovery_20261106",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation",
+  "verified_files": 7793,
+  "logical_bytes": 519282682,
+  "manifest_sha256": "eb81e076cf6f12b0d9793362d2abd68f908ea4a17f6ea48516222538fa2b26cf",
+  "native_cases": 10,
+  "videos": 30,
+  "new_api_calls": 0,
+  "lab_gpu_used": false
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "task": "classify_objects",
+    "phase": "classify_objects-heldout",
+    "condition": "parent",
+    "layout_id": 0,
+    "layout_sha256": "d9fbebbec0dfc8a79d09028cc4bc841067f84bb874b3806a0b8146b1b59880aa",
+    "score": 0.15,
+    "score_100": 15.0,
+    "success": false,
+    "native_action_count": 1100,
+    "step_limit": 1100,
+    "receipt": "",
+    "raw_result": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/_result.json",
+    "api_calls": 0
+  },
+  {
+    "task": "classify_objects",
+    "phase": "classify_objects-heldout",
+    "condition": "parent",
+    "layout_id": 2,
+    "layout_sha256": "de55600976bab32cf22508fcbf79e6c2963d49cd207c8d0a87a2b429e2ce69ca",
+    "score": 0.15,
+    "score_100": 15.0,
+    "success": false,
+    "native_action_count": 1100,
+    "step_limit": 1100,
+    "receipt": "",
+    "raw_result": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/_result.json",
+    "api_calls": 0
+  },
+  {
+    "task": "classify_objects",
+    "phase": "classify_objects-heldout",
+    "condition": "parent",
+    "layout_id": 3,
+    "layout_sha256": "934d0dabedd4b082e1da2b408c91c00a40d670caec9a4ffa1cfb350da96382bf",
+    "score": 0.0,
+    "score_100": 0.0,
+    "success": false,
+    "native_action_count": 1100,
+    "step_limit": 1100,
+    "receipt": "",
+    "raw_result": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/_result.json",
+    "api_calls": 0
+  },
+  {
+    "task": "classify_objects",
+    "phase": "classify_objects-heldout",
+    "condition": "parent",
+    "layout_id": 4,
+    "layout_sha256": "411439f3511018ff86618cc918f5551d6575c8ff886a569252879859a4b6c84d",
+    "score": 0.0,
+    "score_100": 0.0,
+    "success": false,
+    "native_action_count": 1100,
+    "step_limit": 1100,
+    "receipt": "",
+    "raw_result": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/_result.json",
+    "api_calls": 0
+  }
+]

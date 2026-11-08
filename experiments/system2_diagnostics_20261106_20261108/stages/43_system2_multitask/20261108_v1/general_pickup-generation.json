@@ -1,0 +1,54 @@
+{
+  "task": "general_pickup",
+  "requests": [
+    {
+      "id": "general_pickup-basic-1",
+      "file": "requests/general_pickup-basic-1.json",
+      "sha256": "3162e0f87403377adcb6392324db9cb171b5c584458ca65384738b372846d090",
+      "condition": "basic",
+      "repeat": 1
+    },
+    {
+      "id": "general_pickup-execution_feedback-1",
+      "file": "requests/general_pickup-execution_feedback-1.json",
+      "sha256": "612c8123d92adafa222943c3ff06b0c224d8aabc32bf538c2dfcf3c76f134e96",
+      "condition": "execution_feedback",
+      "repeat": 1
+    },
+    {
+      "id": "general_pickup-basic-2",
+      "file": "requests/general_pickup-basic-2.json",
+      "sha256": "3162e0f87403377adcb6392324db9cb171b5c584458ca65384738b372846d090",
+      "condition": "basic",
+      "repeat": 2
+    },
+    {
+      "id": "general_pickup-execution_feedback-2",
+      "file": "requests/general_pickup-execution_feedback-2.json",
+      "sha256": "612c8123d92adafa222943c3ff06b0c224d8aabc32bf538c2dfcf3c76f134e96",
+      "condition": "execution_feedback",
+      "repeat": 2
+    },
+    {
+      "id": "general_pickup-basic-3",
+      "file": "requests/general_pickup-basic-3.json",
+      "sha256": "3162e0f87403377adcb6392324db9cb171b5c584458ca65384738b372846d090",
+      "condition": "basic",
+      "repeat": 3
+    },
+    {
+      "id": "general_pickup-execution_feedback-3",
+      "file": "requests/general_pickup-execution_feedback-3.json",
+      "sha256": "612c8123d92adafa222943c3ff06b0c224d8aabc32bf538c2dfcf3c76f134e96",
+      "condition": "execution_feedback",
+      "repeat": 3
+    }
+  ],
+  "protocol_sha256": "55c2ea848f3031b4b773c1a65eda99de7f8ec98a42a118651acb44f6470d033d",
+  "parent_evidence_sha256": "dbfbaf8476924ecb0879a9bdc36ff78f449ec74b652c0d1b9b468370e06d1075",
+  "prompt_bytes": {
+    "basic": 5788,
+    "execution_feedback": 27551
+  },
+  "contrast": "Execution feedback presence; parent code, task API, model/reasoning, candidate counts and rollout budgets fixed within task"
+}

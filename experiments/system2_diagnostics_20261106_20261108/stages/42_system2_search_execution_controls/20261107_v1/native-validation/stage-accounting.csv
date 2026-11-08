@@ -1,0 +1,10 @@
+stage,actual_native_episodes,unique_layouts,strategies,original_videos,paid_api_requests,evidence_reused_as_new_episodes,note
+route1_evidence_freeze,0,0,0,0,0,0,"Previously archived10capability-diagnostic episodes referenced, not rerun or added to this campaign total; environment/source and result references are frozen separately"
+parent,5,5,1,15,0,0,Fresh native evaluations; phase-specific rows and receipts are authoritative
+sampling,25,5,5,75,0,0,Fresh native evaluations; phase-specific rows and receipts are authoritative
+repair,10,5,2,30,0,0,Fresh native evaluations; phase-specific rows and receipts are authoritative
+round2,5,5,1,15,0,0,Fresh native evaluations; phase-specific rows and receipts are authoritative
+heldout,15,5,3,45,0,0,Fresh native evaluations; phase-specific rows and receipts are authoritative
+sampling_generation,0,0,0,0,5,0,"API-only candidate generation; cache subset of input, reasoning subset of output"
+round2_generation,0,0,0,0,3,0,"API-only candidate generation; cache subset of input, reasoning subset of output"
+heldout_layout_qualification,0,5,0,0,0,0,Five native reset checks with zero policy actions; not scored task episodes

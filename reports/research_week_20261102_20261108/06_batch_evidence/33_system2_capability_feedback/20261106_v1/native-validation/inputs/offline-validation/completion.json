@@ -1,0 +1,9 @@
+{
+  "state": "completed",
+  "generated_candidates": 6,
+  "admitted": 6,
+  "cpu_cases": 120,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "sources_unchanged": true
+}

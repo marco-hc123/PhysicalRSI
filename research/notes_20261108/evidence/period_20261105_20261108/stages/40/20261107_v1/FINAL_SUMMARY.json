@@ -1,0 +1,577 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T07:24:15.570726+00:00",
+  "accounting": {
+    "new_native_cases": 5,
+    "new_raw_videos": 15,
+    "reused_control_native_cases": 5,
+    "invalid_deployment_attempts": 1,
+    "invalid_setup_starts": 5,
+    "new_api_calls": 0,
+    "new_generated_candidates": 0,
+    "cpu_contract_unique_fixtures": 6,
+    "cpu_assembly_unique_fixtures": 1,
+    "lab_gpu_used": false,
+    "policy_promotions": 0,
+    "symbolic_capacity_unique_fixtures": 10,
+    "bounded_retry_unique_fixtures": 8,
+    "actual_wrapper_saved_episode_replays": 5,
+    "fixture_validation_hosts": [
+      "local",
+      "lab",
+      "execution_server"
+    ],
+    "fixture_host_repetition_is_not_new_native_sample": true
+  },
+  "new_group": {
+    "condition": "structured_rejection",
+    "cases": 5,
+    "scores_by_layout_100": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      15.0
+    ],
+    "mean_score_100": 3.0,
+    "successes": 0,
+    "cohort_wall_seconds": 1009.6068401560005,
+    "close_commands": 24,
+    "completed_approaches": 93,
+    "rejected_approaches": 6,
+    "active_budget_cancel": 0,
+    "transport_attempts": 24,
+    "transport_completed": 21,
+    "completed_primitive_action_steps": 1015
+  },
+  "reused_control": {
+    "condition": "fixed_six_turns",
+    "cases": 5,
+    "scores_by_layout_100": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      15.0
+    ],
+    "mean_score_100": 3.0,
+    "successes": 0,
+    "cohort_wall_seconds": 995.492565462001,
+    "close_commands": 18,
+    "completed_approaches": 72,
+    "rejected_approaches": 2,
+    "active_budget_cancel": 0,
+    "transport_attempts": 18,
+    "transport_completed": 18,
+    "transport_rejected": 0,
+    "completed_primitive_action_steps": 826
+  },
+  "cases": [
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 5,
+      "completed_approaches": 20,
+      "rejected_approaches": 0,
+      "active_budget_cancel": false,
+      "transport_attempts": 5,
+      "transport_completed": 5,
+      "completed_primitive_action_steps": 210,
+      "command_checks": 340,
+      "command_mismatches": 0,
+      "actor": "50dec6eb2a3a4d5a8bbcacff5196b2f1"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 5,
+      "completed_approaches": 19,
+      "rejected_approaches": 2,
+      "active_budget_cancel": false,
+      "transport_attempts": 5,
+      "transport_completed": 4,
+      "completed_primitive_action_steps": 206,
+      "command_checks": 286,
+      "command_mismatches": 0,
+      "actor": "55c6d87acb544e2a9fc19ba3b7c35d12"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 2,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 3,
+      "completed_approaches": 11,
+      "rejected_approaches": 2,
+      "active_budget_cancel": false,
+      "transport_attempts": 3,
+      "transport_completed": 2,
+      "completed_primitive_action_steps": 128,
+      "command_checks": 170,
+      "command_mismatches": 0,
+      "actor": "e09c9c67804347e28ea41422f013da61"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 6,
+      "completed_approaches": 24,
+      "rejected_approaches": 0,
+      "active_budget_cancel": false,
+      "transport_attempts": 6,
+      "transport_completed": 6,
+      "completed_primitive_action_steps": 247,
+      "command_checks": 308,
+      "command_mismatches": 0,
+      "actor": "0f28b59d549d4425aef32b47a821833c"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "score_100": 15.0,
+      "success": false,
+      "close_commands": 5,
+      "completed_approaches": 19,
+      "rejected_approaches": 2,
+      "active_budget_cancel": false,
+      "transport_attempts": 5,
+      "transport_completed": 4,
+      "completed_primitive_action_steps": 224,
+      "command_checks": 368,
+      "command_mismatches": 0,
+      "actor": "e6fa8810e42d42e0b914e0e2038b0dae"
+    }
+  ],
+  "pairs": [
+    {
+      "layout_id": 0,
+      "control_score": 0.0,
+      "new_score": 0.0,
+      "score_delta": 0.0,
+      "control_close_commands": 4,
+      "new_close_commands": 5
+    },
+    {
+      "layout_id": 1,
+      "control_score": 0.0,
+      "new_score": 0.0,
+      "score_delta": 0.0,
+      "control_close_commands": 4,
+      "new_close_commands": 5
+    },
+    {
+      "layout_id": 2,
+      "control_score": 0.0,
+      "new_score": 0.0,
+      "score_delta": 0.0,
+      "control_close_commands": 2,
+      "new_close_commands": 3
+    },
+    {
+      "layout_id": 3,
+      "control_score": 0.0,
+      "new_score": 0.0,
+      "score_delta": 0.0,
+      "control_close_commands": 4,
+      "new_close_commands": 6
+    },
+    {
+      "layout_id": 4,
+      "control_score": 15.0,
+      "new_score": 15.0,
+      "score_delta": 0.0,
+      "control_close_commands": 4,
+      "new_close_commands": 5
+    }
+  ],
+  "source_memory_bindings": [
+    {
+      "layout_id": 0,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "memory_exact": true,
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22"
+    },
+    {
+      "layout_id": 4,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "memory_exact": true,
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde"
+    },
+    {
+      "layout_id": 1,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "memory_exact": true,
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4"
+    },
+    {
+      "layout_id": 3,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "memory_exact": true,
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770"
+    },
+    {
+      "layout_id": 2,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+      "memory_exact": true,
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f"
+    }
+  ],
+  "fallback_events": [
+    {
+      "layout_id": 4,
+      "rejected_call_id": 34,
+      "arm": "right",
+      "position": [
+        -0.2920459388277363,
+        -0.1446993963982134,
+        1.01
+      ],
+      "alternate_arm_requested": true,
+      "next_request": {
+        "args": [],
+        "id": 35,
+        "kind": "call",
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            -0.2920459388277363,
+            -0.1446993963982134,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        "method": "approach"
+      },
+      "next_response": {
+        "id": 35,
+        "value": {
+          "state": {
+            "left_arm_joint_state": [
+              -0.023321228101849556,
+              1.7182952165603638,
+              1.415481448173523,
+              -1.2954564094543457,
+              0.010610178112983704,
+              0.5145663022994995
+            ],
+            "left_ee_joint_state": [
+              1.0
+            ],
+            "right_arm_joint_state": [
+              0.49138954281806946,
+              2.671725273132324,
+              2.9064395427703857,
+              -1.8398387432098389,
+              0.045617327094078064,
+              0.073797307908535
+            ],
+            "right_ee_joint_state": [
+              1.0
+            ]
+          }
+        }
+      },
+      "alternate_trajectory_completed": true
+    },
+    {
+      "layout_id": 4,
+      "rejected_call_id": 40,
+      "arm": "left",
+      "position": [
+        0.27858962524331654,
+        -0.010246599479022261,
+        1.01
+      ],
+      "alternate_arm_requested": false,
+      "next_request": {},
+      "next_response": null,
+      "alternate_trajectory_completed": false
+    },
+    {
+      "layout_id": 1,
+      "rejected_call_id": 34,
+      "arm": "left",
+      "position": [
+        0.044786289073921855,
+        -0.09687423665368489,
+        1.01
+      ],
+      "alternate_arm_requested": true,
+      "next_request": {
+        "args": [],
+        "id": 35,
+        "kind": "call",
+        "kwargs": {
+          "arm": "right",
+          "position_m": [
+            0.044786289073921855,
+            -0.09687423665368489,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.38141138529977936,
+            -0.6197184988732912,
+            0.37851129873090317,
+            0.5720170749645352
+          ]
+        },
+        "method": "approach"
+      },
+      "next_response": {
+        "id": 35,
+        "value": {
+          "state": {
+            "left_arm_joint_state": [
+              0.022937551140785217,
+              2.309248924255371,
+              2.2695865631103516,
+              -1.557651400566101,
+              0.009401560761034489,
+              0.561957597732544
+            ],
+            "left_ee_joint_state": [
+              1.0
+            ],
+            "right_arm_joint_state": [
+              0.6269513964653015,
+              2.2963948249816895,
+              2.245500326156616,
+              -1.5820239782333374,
+              0.028257418423891068,
+              0.19225119054317474
+            ],
+            "right_ee_joint_state": [
+              1.0
+            ]
+          }
+        }
+      },
+      "alternate_trajectory_completed": true
+    },
+    {
+      "layout_id": 1,
+      "rejected_call_id": 40,
+      "arm": "right",
+      "position": [
+        -0.3113030188237918,
+        -0.007361295146321417,
+        1.01
+      ],
+      "alternate_arm_requested": false,
+      "next_request": {},
+      "next_response": null,
+      "alternate_trajectory_completed": false
+    },
+    {
+      "layout_id": 2,
+      "rejected_call_id": 18,
+      "arm": "right",
+      "position": [
+        0.002126078528116278,
+        -0.07768733647159293,
+        1.01
+      ],
+      "alternate_arm_requested": true,
+      "next_request": {
+        "args": [],
+        "id": 19,
+        "kind": "call",
+        "kwargs": {
+          "arm": "left",
+          "position_m": [
+            0.002126078528116278,
+            -0.07768733647159293,
+            1.01
+          ],
+          "quaternion_wxyz": [
+            0.6130773077919165,
+            -0.35934531270739906,
+            0.6163777239676316,
+            0.33924277781895285
+          ]
+        },
+        "method": "approach"
+      },
+      "next_response": {
+        "id": 19,
+        "value": {
+          "state": {
+            "left_arm_joint_state": [
+              -0.49694716930389404,
+              2.6478054523468018,
+              2.9026505947113037,
+              -1.8346004486083984,
+              0.01987624540925026,
+              -0.13894400000572205
+            ],
+            "left_ee_joint_state": [
+              1.0
+            ],
+            "right_arm_joint_state": [
+              0.48743054270744324,
+              2.6712474822998047,
+              2.8895423412323,
+              -1.889032244682312,
+              0.03349898383021355,
+              0.07451693713665009
+            ],
+            "right_ee_joint_state": [
+              1.0
+            ]
+          }
+        }
+      },
+      "alternate_trajectory_completed": true
+    },
+    {
+      "layout_id": 2,
+      "rejected_call_id": 24,
+      "arm": "left",
+      "position": [
+        -0.04396096762057025,
+        -0.027566591065283814,
+        0.99
+      ],
+      "alternate_arm_requested": false,
+      "next_request": {},
+      "next_response": null,
+      "alternate_trajectory_completed": false
+    }
+  ],
+  "archive": {
+    "state": "verified",
+    "utc": "2026-11-07T07:23:58.112976+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/43_rejection_contract_20261107",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/40_system2_rejection_contract/20261107_v1/native-validation",
+    "verified_files": 4730,
+    "logical_bytes": 292839680,
+    "manifest_sha256": "6dd700cb23de08410978f90b6bbadf2269e13363ad4b953bec194cf8acf769a6",
+    "native_cases": 5,
+    "videos": 15,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "transfer_verified_in_batches": true
+  },
+  "retained_policy": "pi05",
+  "interpretation": {
+    "mean_score_delta": 0.0,
+    "success_delta": 0,
+    "any_positive_score_delta": false,
+    "alternate_arm_requests": 3,
+    "completed_alternate_approaches": 3
+  },
+  "limits": [
+    "5 new treatment episodes;5 prior control episodes reused,not10new executions.",
+    "Different run times and reused development layouts limit causal/generalization claims.",
+    "Six attempts remain a limit; initial category assignments still frozen.",
+    "More attempts,absence of error or successful trajectory is not task completion.",
+    "Original scoring and1100steps unchanged."
+  ],
+  "mechanism_review": {
+    "terminal_reasons": {
+      "no_eligible_visible_choice": 1,
+      "explicit_planning_rejection_after_structured_feedback": 3,
+      "six_turn_limit": 1
+    },
+    "terminal_item_filter_counts": {
+      "near_previous_attempt": 2,
+      "category_not_assigned": 1
+    },
+    "rejection_phases": {
+      "pregrasp_clearance": 3,
+      "transport": 3
+    },
+    "post_fallback_rejections": [
+      {
+        "layout_id": 4,
+        "actor": "e6fa8810e42d42e0b914e0e2038b0dae",
+        "scene_ordinal": 5,
+        "call_id": 40,
+        "phase": "transport",
+        "arm": "left",
+        "target": [
+          0.27858962524331654,
+          -0.010246599479022261,
+          1.01
+        ],
+        "primitive_error": "no_collision_free_path",
+        "alternate_arm_requested": false,
+        "earlier_fallback_in_this_cycle": true,
+        "final_recorded_call": true
+      },
+      {
+        "layout_id": 1,
+        "actor": "55c6d87acb544e2a9fc19ba3b7c35d12",
+        "scene_ordinal": 5,
+        "call_id": 40,
+        "phase": "transport",
+        "arm": "right",
+        "target": [
+          -0.3113030188237918,
+          -0.007361295146321417,
+          1.01
+        ],
+        "primitive_error": "no_collision_free_path",
+        "alternate_arm_requested": false,
+        "earlier_fallback_in_this_cycle": true,
+        "final_recorded_call": true
+      },
+      {
+        "layout_id": 2,
+        "actor": "e09c9c67804347e28ea41422f013da61",
+        "scene_ordinal": 3,
+        "call_id": 24,
+        "phase": "transport",
+        "arm": "left",
+        "target": [
+          -0.04396096762057025,
+          -0.027566591065283814,
+          0.99
+        ],
+        "primitive_error": "no_collision_free_path",
+        "alternate_arm_requested": false,
+        "earlier_fallback_in_this_cycle": true,
+        "final_recorded_call": true
+      }
+    ],
+    "qualified_object_associations": 21,
+    "close_cycles": 24,
+    "lift_under_1cm": 9,
+    "missing_categories_first": [
+      {
+        "layout": 0,
+        "categories": [
+          "watch"
+        ]
+      },
+      {
+        "layout": 1,
+        "categories": [
+          "toy_car"
+        ]
+      },
+      {
+        "layout": 2,
+        "categories": [
+          "camera"
+        ]
+      }
+    ]
+  }
+}

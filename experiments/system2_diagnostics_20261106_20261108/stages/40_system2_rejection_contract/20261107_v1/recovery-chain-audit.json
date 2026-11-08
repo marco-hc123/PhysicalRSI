@@ -1,0 +1,243 @@
+{
+  "state": "completed",
+  "new_native_cases": 0,
+  "api_calls": 0,
+  "gpu_used": false,
+  "rows": [
+    {
+      "layout_id": 4,
+      "actor": "e6fa8810e42d42e0b914e0e2038b0dae",
+      "scene_ordinal": 5,
+      "call_id": 34,
+      "phase": "pregrasp_clearance",
+      "arm": "right",
+      "target": [
+        -0.2920459388277363,
+        -0.1446993963982134,
+        1.01
+      ],
+      "primitive_error": "no_collision_free_path",
+      "alternate_arm_requested": true,
+      "earlier_fallback_in_this_cycle": false,
+      "final_recorded_call": false
+    },
+    {
+      "layout_id": 4,
+      "actor": "e6fa8810e42d42e0b914e0e2038b0dae",
+      "scene_ordinal": 5,
+      "call_id": 40,
+      "phase": "transport",
+      "arm": "left",
+      "target": [
+        0.27858962524331654,
+        -0.010246599479022261,
+        1.01
+      ],
+      "primitive_error": "no_collision_free_path",
+      "alternate_arm_requested": false,
+      "earlier_fallback_in_this_cycle": true,
+      "final_recorded_call": true
+    },
+    {
+      "layout_id": 1,
+      "actor": "55c6d87acb544e2a9fc19ba3b7c35d12",
+      "scene_ordinal": 5,
+      "call_id": 34,
+      "phase": "pregrasp_clearance",
+      "arm": "left",
+      "target": [
+        0.044786289073921855,
+        -0.09687423665368489,
+        1.01
+      ],
+      "primitive_error": "no_collision_free_path",
+      "alternate_arm_requested": true,
+      "earlier_fallback_in_this_cycle": false,
+      "final_recorded_call": false
+    },
+    {
+      "layout_id": 1,
+      "actor": "55c6d87acb544e2a9fc19ba3b7c35d12",
+      "scene_ordinal": 5,
+      "call_id": 40,
+      "phase": "transport",
+      "arm": "right",
+      "target": [
+        -0.3113030188237918,
+        -0.007361295146321417,
+        1.01
+      ],
+      "primitive_error": "no_collision_free_path",
+      "alternate_arm_requested": false,
+      "earlier_fallback_in_this_cycle": true,
+      "final_recorded_call": true
+    },
+    {
+      "layout_id": 2,
+      "actor": "e09c9c67804347e28ea41422f013da61",
+      "scene_ordinal": 3,
+      "call_id": 18,
+      "phase": "pregrasp_clearance",
+      "arm": "right",
+      "target": [
+        0.002126078528116278,
+        -0.07768733647159293,
+        1.01
+      ],
+      "primitive_error": "no_collision_free_path",
+      "alternate_arm_requested": true,
+      "earlier_fallback_in_this_cycle": false,
+      "final_recorded_call": false
+    },
+    {
+      "layout_id": 2,
+      "actor": "e09c9c67804347e28ea41422f013da61",
+      "scene_ordinal": 3,
+      "call_id": 24,
+      "phase": "transport",
+      "arm": "left",
+      "target": [
+        -0.04396096762057025,
+        -0.027566591065283814,
+        0.99
+      ],
+      "primitive_error": "no_collision_free_path",
+      "alternate_arm_requested": false,
+      "earlier_fallback_in_this_cycle": true,
+      "final_recorded_call": true
+    }
+  ],
+  "episodes": [
+    {
+      "layout_id": 0,
+      "final_phase": "pregrasp_clearance",
+      "explicit_rejections": []
+    },
+    {
+      "layout_id": 4,
+      "final_phase": "transport",
+      "explicit_rejections": [
+        {
+          "layout_id": 4,
+          "actor": "e6fa8810e42d42e0b914e0e2038b0dae",
+          "scene_ordinal": 5,
+          "call_id": 34,
+          "phase": "pregrasp_clearance",
+          "arm": "right",
+          "target": [
+            -0.2920459388277363,
+            -0.1446993963982134,
+            1.01
+          ],
+          "primitive_error": "no_collision_free_path",
+          "alternate_arm_requested": true,
+          "earlier_fallback_in_this_cycle": false,
+          "final_recorded_call": false
+        },
+        {
+          "layout_id": 4,
+          "actor": "e6fa8810e42d42e0b914e0e2038b0dae",
+          "scene_ordinal": 5,
+          "call_id": 40,
+          "phase": "transport",
+          "arm": "left",
+          "target": [
+            0.27858962524331654,
+            -0.010246599479022261,
+            1.01
+          ],
+          "primitive_error": "no_collision_free_path",
+          "alternate_arm_requested": false,
+          "earlier_fallback_in_this_cycle": true,
+          "final_recorded_call": true
+        }
+      ]
+    },
+    {
+      "layout_id": 1,
+      "final_phase": "transport",
+      "explicit_rejections": [
+        {
+          "layout_id": 1,
+          "actor": "55c6d87acb544e2a9fc19ba3b7c35d12",
+          "scene_ordinal": 5,
+          "call_id": 34,
+          "phase": "pregrasp_clearance",
+          "arm": "left",
+          "target": [
+            0.044786289073921855,
+            -0.09687423665368489,
+            1.01
+          ],
+          "primitive_error": "no_collision_free_path",
+          "alternate_arm_requested": true,
+          "earlier_fallback_in_this_cycle": false,
+          "final_recorded_call": false
+        },
+        {
+          "layout_id": 1,
+          "actor": "55c6d87acb544e2a9fc19ba3b7c35d12",
+          "scene_ordinal": 5,
+          "call_id": 40,
+          "phase": "transport",
+          "arm": "right",
+          "target": [
+            -0.3113030188237918,
+            -0.007361295146321417,
+            1.01
+          ],
+          "primitive_error": "no_collision_free_path",
+          "alternate_arm_requested": false,
+          "earlier_fallback_in_this_cycle": true,
+          "final_recorded_call": true
+        }
+      ]
+    },
+    {
+      "layout_id": 3,
+      "final_phase": "released",
+      "explicit_rejections": []
+    },
+    {
+      "layout_id": 2,
+      "final_phase": "transport",
+      "explicit_rejections": [
+        {
+          "layout_id": 2,
+          "actor": "e09c9c67804347e28ea41422f013da61",
+          "scene_ordinal": 3,
+          "call_id": 18,
+          "phase": "pregrasp_clearance",
+          "arm": "right",
+          "target": [
+            0.002126078528116278,
+            -0.07768733647159293,
+            1.01
+          ],
+          "primitive_error": "no_collision_free_path",
+          "alternate_arm_requested": true,
+          "earlier_fallback_in_this_cycle": false,
+          "final_recorded_call": false
+        },
+        {
+          "layout_id": 2,
+          "actor": "e09c9c67804347e28ea41422f013da61",
+          "scene_ordinal": 3,
+          "call_id": 24,
+          "phase": "transport",
+          "arm": "left",
+          "target": [
+            -0.04396096762057025,
+            -0.027566591065283814,
+            0.99
+          ],
+          "primitive_error": "no_collision_free_path",
+          "alternate_arm_requested": false,
+          "earlier_fallback_in_this_cycle": true,
+          "final_recorded_call": true
+        }
+      ]
+    }
+  ],
+  "scope": "Action-sequence phases of this fixed candidate only; a phase label is not proof of grasp success or a collision-free path."
+}

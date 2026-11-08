@@ -1,0 +1,890 @@
+[
+  {
+    "condition": "parent",
+    "scores": [
+      0.15,
+      null,
+      0.15,
+      0.0,
+      0.0
+    ],
+    "complete_successes": 0,
+    "actors": [
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/039f5ec7dee24a72becc3d158222fe2c/0/policy/processes/isolated/process.json",
+        "process_state": "completed",
+        "error": null,
+        "calls": 34,
+        "method_counts": {
+          "scene": 6,
+          "approach": 16,
+          "gripper": 12
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 31,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.06406658739527968,
+                  -0.027960038056547072,
+                  0.99
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 31,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.4896465837955475,
+                    2.6213786602020264,
+                    2.8032267093658447,
+                    -1.7663874626159668,
+                    0.017015108838677406,
+                    0.03625565767288208
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.4794257879257202,
+                    2.672024726867676,
+                    2.905416965484619,
+                    -1.848222255706787,
+                    0.042989809066057205,
+                    0.07391630858182907
+                  ],
+                  "right_ee_joint_state": [
+                    0.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 32,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "command": 1
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 32,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.4900529086589813,
+                    2.6211905479431152,
+                    2.803341865539551,
+                    -1.7663432359695435,
+                    0.01721196249127388,
+                    0.036265067756175995
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.47055989503860474,
+                    2.670549154281616,
+                    2.905395984649658,
+                    -1.8494676351547241,
+                    0.048374198377132416,
+                    0.07393000274896622
+                  ],
+                  "right_ee_joint_state": [
+                    0.7086923266450564
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 33,
+              "kind": "call",
+              "kwargs": {},
+              "method": "scene"
+            },
+            "response": {
+              "id": 33,
+              "value": {
+                "frame": "world",
+                "objects": {
+                  "basket_1": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      -0.0009099539200176384,
+                      -0.14543596167236755,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "observation": {
+                  "channel_id": "d9504f5f453148348a42efb88df3d0fa",
+                  "sequence": 184
+                },
+                "unit": "m"
+              }
+            },
+            "state": "completed"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/056d1f2753c947c4b1e6ea0fb4ba4b2b/0/policy/processes/isolated/process.json",
+        "process_state": "completed",
+        "error": null,
+        "calls": 18,
+        "method_counts": {
+          "scene": 4,
+          "approach": 8,
+          "gripper": 6
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 15,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.06522790059323956,
+                  -0.02763072323871108,
+                  0.99
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 15,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    1.1885990802706914e-10,
+                    -1.2605533479016773e-13,
+                    3.899983295834429e-14,
+                    7.196297729808801e-14,
+                    -1.3988225855410263e-10,
+                    -1.0026203201007888e-09
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.5129346251487732,
+                    2.6751930713653564,
+                    2.899531602859497,
+                    -1.854378342628479,
+                    0.034423526376485825,
+                    0.07733495533466339
+                  ],
+                  "right_ee_joint_state": [
+                    0.23311908703159404
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 16,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "command": 1
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 16,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    1.2711670605014547e-10,
+                    -1.347701518526062e-13,
+                    4.172292868728604e-14,
+                    7.692984297551567e-14,
+                    -1.495719381683358e-10,
+                    -1.0727448929159777e-09
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.529292643070221,
+                    2.670123338699341,
+                    2.8976094722747803,
+                    -1.8618801832199097,
+                    0.024378331378102303,
+                    0.07825993001461029
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 17,
+              "kind": "call",
+              "kwargs": {},
+              "method": "scene"
+            },
+            "response": {
+              "id": 17,
+              "value": {
+                "frame": "world",
+                "objects": {
+                  "basket_1": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      -0.2937492371471525,
+                      0.027894174555871065,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "basket_2": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      0.01769680600411668,
+                      0.027874215445512218,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "basket_3": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      0.29592024308555404,
+                      0.027019757767296315,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "observation": {
+                  "channel_id": "438039e39980426dbe7ba2467d73e75f",
+                  "sequence": 93
+                },
+                "unit": "m"
+              }
+            },
+            "state": "completed"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/7091eef085404199af31adeae7ed158c/0/policy/processes/isolated/process.json",
+        "process_state": "failed",
+        "error": "RpcError: request.execute: Observed robot diverged from planned trajectory",
+        "calls": 43,
+        "method_counts": {
+          "scene": 7,
+          "approach": 21,
+          "gripper": 15
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 40,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "command": 1
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 40,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    0.027765197679400444,
+                    2.306422472000122,
+                    2.2651631832122803,
+                    -1.5558457374572754,
+                    0.009203228168189526,
+                    0.5653334259986877
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.5354925990104675,
+                    2.5786566734313965,
+                    2.7152926921844482,
+                    -1.7824342250823975,
+                    0.008953975513577461,
+                    0.05720891058444977
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 41,
+              "kind": "call",
+              "kwargs": {},
+              "method": "scene"
+            },
+            "response": {
+              "id": 41,
+              "value": {
+                "frame": "world",
+                "objects": {
+                  "basket_1": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      -0.29417787913183985,
+                      0.027748583820725703,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "basket_2": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      0.1538101266987376,
+                      0.027051844765697608,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "camera_1": {
+                    "dims": [
+                      0.06,
+                      0.04,
+                      0.055
+                    ],
+                    "pose": [
+                      -0.3363225212238453,
+                      -0.10147259922503665,
+                      0.7925,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "camera_2": {
+                    "dims": [
+                      0.06,
+                      0.04,
+                      0.055
+                    ],
+                    "pose": [
+                      0.0620422672799231,
+                      -0.19360656595818337,
+                      0.7925,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "toy_car_1": {
+                    "dims": [
+                      0.08,
+                      0.05,
+                      0.04
+                    ],
+                    "pose": [
+                      0.08470974369832777,
+                      -0.07376026508278921,
+                      0.785,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "watch_1": {
+                    "dims": [
+                      0.08,
+                      0.03,
+                      0.025
+                    ],
+                    "pose": [
+                      -0.29248906071877534,
+                      -0.17655963199100694,
+                      0.7775,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "watch_2": {
+                    "dims": [
+                      0.08,
+                      0.03,
+                      0.025
+                    ],
+                    "pose": [
+                      -0.11383521671046208,
+                      -0.10043905444377105,
+                      0.7775,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "observation": {
+                  "channel_id": "21495fc09456429282b17c97d2b7d964",
+                  "sequence": 208
+                },
+                "unit": "m"
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 42,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "position_m": [
+                  0.0620422672799231,
+                  -0.19360656595818337,
+                  1.01
+                ],
+                "quaternion_wxyz": [
+                  0.6130773077919165,
+                  -0.35934531270739906,
+                  0.6163777239676316,
+                  0.33924277781895285
+                ]
+              },
+              "method": "approach"
+            },
+            "state": "started"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/c34e0864745a4567a96424819fe2f9c9/0/policy/processes/isolated/process.json",
+        "process_state": "completed",
+        "error": null,
+        "calls": 44,
+        "method_counts": {
+          "scene": 7,
+          "approach": 22,
+          "gripper": 15
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 41,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "position_m": [
+                  -0.028295193208971257,
+                  -0.1762232130188095,
+                  1.01
+                ],
+                "quaternion_wxyz": [
+                  0.6130773077919165,
+                  -0.35934531270739906,
+                  0.6163777239676316,
+                  0.33924277781895285
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 41,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.778757631778717,
+                    2.0273683071136475,
+                    1.8029102087020874,
+                    -1.3605347871780396,
+                    0.02616225928068161,
+                    -0.24074074625968933
+                  ],
+                  "left_ee_joint_state": [
+                    0.10873697320068323
+                  ],
+                  "right_arm_joint_state": [
+                    0.5452662706375122,
+                    2.668647050857544,
+                    2.899278163909912,
+                    -1.87195885181427,
+                    0.00930756889283657,
+                    0.07996248453855515
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 42,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "position_m": [
+                  -0.06400486218112757,
+                  -0.027861795123133866,
+                  0.99
+                ],
+                "quaternion_wxyz": [
+                  0.6130773077919165,
+                  -0.35934531270739906,
+                  0.6163777239676316,
+                  0.33924277781895285
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 42,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.5138782262802124,
+                    2.661850690841675,
+                    2.867215156555176,
+                    -1.795964241027832,
+                    0.02563948556780815,
+                    0.028871506452560425
+                  ],
+                  "left_ee_joint_state": [
+                    0.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.39571240544319153,
+                    2.6759438514709473,
+                    2.9146645069122314,
+                    -1.8560101985931396,
+                    -0.0019272859208285809,
+                    0.1130424216389656
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 43,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "command": 1
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 43,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.5256019830703735,
+                    2.6586737632751465,
+                    2.865617513656616,
+                    -1.8012316226959229,
+                    0.03219078108668327,
+                    0.028770379722118378
+                  ],
+                  "left_ee_joint_state": [
+                    0.5611496691074637
+                  ],
+                  "right_arm_joint_state": [
+                    0.39570823311805725,
+                    2.675941228866577,
+                    2.9146645069122314,
+                    -1.8560101985931396,
+                    -0.0019266912713646889,
+                    0.1130424216389656
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/model/expert/e4ee0eba72494b90800880204e3e81a5/0/policy/processes/isolated/process.json",
+        "process_state": "completed",
+        "error": null,
+        "calls": 42,
+        "method_counts": {
+          "scene": 7,
+          "approach": 20,
+          "gripper": 15
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 39,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.06456235835328497,
+                  -0.028117784456608348,
+                  0.99
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 39,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.5606008172035217,
+                    2.628039836883545,
+                    2.8230364322662354,
+                    -1.818170428276062,
+                    0.05315189063549042,
+                    0.03338954597711563
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.45318666100502014,
+                    2.6788666248321533,
+                    2.9184563159942627,
+                    -1.8434568643569946,
+                    0.04477773234248161,
+                    0.07493282854557037
+                  ],
+                  "right_ee_joint_state": [
+                    0.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 40,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "command": 1
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 40,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.5606281757354736,
+                    2.628028392791748,
+                    2.823045253753662,
+                    -1.8181676864624023,
+                    0.053159333765506744,
+                    0.033389028161764145
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.445651113986969,
+                    2.676306962966919,
+                    2.919001579284668,
+                    -1.8447166681289673,
+                    0.04956202954053879,
+                    0.07483749091625214
+                  ],
+                  "right_ee_joint_state": [
+                    0.7777369950104644
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 41,
+              "kind": "call",
+              "kwargs": {},
+              "method": "scene"
+            },
+            "response": {
+              "id": 41,
+              "value": {
+                "frame": "world",
+                "objects": {
+                  "basket_1": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      -0.0014363937320095088,
+                      0.02832877418035895,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "basket_2": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      0.000682171707789574,
+                      -0.14404602373040853,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  },
+                  "basket_3": {
+                    "dims": [
+                      0.2,
+                      0.15,
+                      0.07
+                    ],
+                    "pose": [
+                      0.2962189403158204,
+                      0.028676854340601188,
+                      0.8,
+                      1.0,
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  }
+                },
+                "observation": {
+                  "channel_id": "344e091cc0274384af032c2a2e6b6c85",
+                  "sequence": 207
+                },
+                "unit": "m"
+              }
+            },
+            "state": "completed"
+          }
+        ]
+      }
+    ],
+    "notice": "Partial heldout, missing layout1 terminal score; failed actor error is a real execution guard, not a success-triggered cancellation."
+  }
+]

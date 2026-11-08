@@ -1,0 +1,224 @@
+[
+  {
+    "arm": "baseline",
+    "replicate": 1,
+    "id": "baseline_1",
+    "input_file": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/feedback/baseline_messages.json",
+    "input_sha256": "31ccfba87592eeaf9f3ab8fa1bf5653edb2591bf4009a037eb663cf685138e0e",
+    "request_sha256": "e251c488e462294695cfde0631ac38e34ebe4b465f106e561af941e41e64dfd0",
+    "input_token_conservative_bound": 14633,
+    "reserved_usd": 0.327798,
+    "state": "received",
+    "started_utc": "2026-11-04T12:46:10.134434+00:00",
+    "http_status": 200,
+    "seconds": 53.44346266798675,
+    "finished_utc": "2026-11-04T12:47:03.579308+00:00",
+    "request_id": "req_1b92387d84a04f60bfc5bec47968cdcd",
+    "usage": {
+      "prompt_tokens": 3138,
+      "completion_tokens": 2461,
+      "total_tokens": 5599,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 3135,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 512,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.030886,
+    "cost_qualification": "Estimate from returned usage, standard pricing; account invoice authoritative. Cached input subset; reasoning included in completion.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "0771f9cb503c9702b779d9ff5fe0996219e5e879af9377ea78f21158e6cbdf27"
+  },
+  {
+    "arm": "augmented",
+    "replicate": 1,
+    "id": "augmented_1",
+    "input_file": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/feedback/augmented_messages.json",
+    "input_sha256": "15c50c1a436e2f205d48d14e976a4990ac0cee72fcd1976dcedd8e6179238747",
+    "request_sha256": "71deacabb4588af3d369ddc54f36e12968d36dda34bcbe9ec3e10c3bbcd533e0",
+    "input_token_conservative_bound": 41328,
+    "reserved_usd": 0.487968,
+    "state": "received",
+    "started_utc": "2026-11-04T12:47:03.584540+00:00",
+    "http_status": 200,
+    "seconds": 70.96032946743071,
+    "finished_utc": "2026-11-04T12:48:14.546236+00:00",
+    "request_id": "req_7549d6f68e154472bc6139eb215949b0",
+    "usage": {
+      "prompt_tokens": 13475,
+      "completion_tokens": 3168,
+      "total_tokens": 16643,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 13472,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 949,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.05863,
+    "cost_qualification": "Estimate from returned usage, standard pricing; account invoice authoritative. Cached input subset; reasoning included in completion.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "7cac17e53aab9b2af44a4bdf63b8da4058df44410e03cb616fca26c9486bb655"
+  },
+  {
+    "arm": "augmented",
+    "replicate": 2,
+    "id": "augmented_2",
+    "input_file": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/feedback/augmented_messages.json",
+    "input_sha256": "15c50c1a436e2f205d48d14e976a4990ac0cee72fcd1976dcedd8e6179238747",
+    "request_sha256": "71deacabb4588af3d369ddc54f36e12968d36dda34bcbe9ec3e10c3bbcd533e0",
+    "input_token_conservative_bound": 41328,
+    "reserved_usd": 0.487968,
+    "state": "received",
+    "started_utc": "2026-11-04T12:48:14.551780+00:00",
+    "http_status": 200,
+    "seconds": 49.57846621237695,
+    "finished_utc": "2026-11-04T12:49:04.131511+00:00",
+    "request_id": "req_09375dc4bda745f0ab1b462bb5a29fad",
+    "usage": {
+      "prompt_tokens": 13475,
+      "completion_tokens": 2243,
+      "total_tokens": 15718,
+      "prompt_tokens_details": {
+        "cached_tokens": 13472,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 505,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0237832,
+    "cost_qualification": "Estimate from returned usage, standard pricing; account invoice authoritative. Cached input subset; reasoning included in completion.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "d793e1d9c62b68175d0160f0a84acd2af3ea8e8e15529bfa6d8ec602cc4b64b0"
+  },
+  {
+    "arm": "baseline",
+    "replicate": 2,
+    "id": "baseline_2",
+    "input_file": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/feedback/baseline_messages.json",
+    "input_sha256": "31ccfba87592eeaf9f3ab8fa1bf5653edb2591bf4009a037eb663cf685138e0e",
+    "request_sha256": "e251c488e462294695cfde0631ac38e34ebe4b465f106e561af941e41e64dfd0",
+    "input_token_conservative_bound": 14633,
+    "reserved_usd": 0.327798,
+    "state": "received",
+    "started_utc": "2026-11-04T12:49:04.135948+00:00",
+    "http_status": 200,
+    "seconds": 53.70568718574941,
+    "finished_utc": "2026-11-04T12:49:57.843066+00:00",
+    "request_id": "req_0ecf7c15d8b1491bb2dc8a08c8dbeb1c",
+    "usage": {
+      "prompt_tokens": 3138,
+      "completion_tokens": 2299,
+      "total_tokens": 5437,
+      "prompt_tokens_details": {
+        "cached_tokens": 3135,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 501,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0233095,
+    "cost_qualification": "Estimate from returned usage, standard pricing; account invoice authoritative. Cached input subset; reasoning included in completion.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "4863b29962e05a503e05464e3347b499a86da4ea3f273213023b31c853d8105d"
+  },
+  {
+    "arm": "baseline",
+    "replicate": 3,
+    "id": "baseline_3",
+    "input_file": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/feedback/baseline_messages.json",
+    "input_sha256": "31ccfba87592eeaf9f3ab8fa1bf5653edb2591bf4009a037eb663cf685138e0e",
+    "request_sha256": "e251c488e462294695cfde0631ac38e34ebe4b465f106e561af941e41e64dfd0",
+    "input_token_conservative_bound": 14633,
+    "reserved_usd": 0.327798,
+    "state": "received",
+    "started_utc": "2026-11-04T12:49:57.847486+00:00",
+    "http_status": 200,
+    "seconds": 51.27649767138064,
+    "finished_utc": "2026-11-04T12:50:49.125394+00:00",
+    "request_id": "req_d225d0c2f7304c68b49e3a962cbb668e",
+    "usage": {
+      "prompt_tokens": 3138,
+      "completion_tokens": 2298,
+      "total_tokens": 5436,
+      "prompt_tokens_details": {
+        "cached_tokens": 3135,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 505,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0232995,
+    "cost_qualification": "Estimate from returned usage, standard pricing; account invoice authoritative. Cached input subset; reasoning included in completion.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "a627d9fdf1fe333b2c5195a46b844cbd04dd6ee5d1405ac63c8c72e4a6b716eb"
+  },
+  {
+    "arm": "augmented",
+    "replicate": 3,
+    "id": "augmented_3",
+    "input_file": "/mnt/data/joey_tr/physical-RSI/result/27_system2_offline_diagnostics/20261104_cpu_v1/followup_v2/feedback/augmented_messages.json",
+    "input_sha256": "15c50c1a436e2f205d48d14e976a4990ac0cee72fcd1976dcedd8e6179238747",
+    "request_sha256": "71deacabb4588af3d369ddc54f36e12968d36dda34bcbe9ec3e10c3bbcd533e0",
+    "input_token_conservative_bound": 41328,
+    "reserved_usd": 0.487968,
+    "state": "received",
+    "started_utc": "2026-11-04T12:50:49.130010+00:00",
+    "http_status": 200,
+    "seconds": 47.40184416435659,
+    "finished_utc": "2026-11-04T12:51:36.533336+00:00",
+    "request_id": "req_c3b1786684f64bb29723c2d23414d68f",
+    "usage": {
+      "prompt_tokens": 13475,
+      "completion_tokens": 2366,
+      "total_tokens": 15841,
+      "prompt_tokens_details": {
+        "cached_tokens": 13472,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 478,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0250132,
+    "cost_qualification": "Estimate from returned usage, standard pricing; account invoice authoritative. Cached input subset; reasoning included in completion.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db"
+  }
+]

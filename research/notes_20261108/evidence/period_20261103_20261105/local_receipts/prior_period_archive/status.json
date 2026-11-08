@@ -1,0 +1,24 @@
+{
+  "state": "complete",
+  "cutoff_exclusive": "2026-11-03T00:00:00+08:00",
+  "completed_utc": "2026-11-05T03:48:59.881585+00:00",
+  "read_count": 187909,
+  "unique_contents": 24213,
+  "bytes_read": 11172133002,
+  "history_records": 60,
+  "new_historical_exp_blocks": 28,
+  "existing_exp_preserved": 6,
+  "administrative_audit_exp": "EXP-2026W45-003",
+  "new_experiments": 0,
+  "new_api_calls": 0,
+  "pid": null,
+  "active_sessions": [],
+  "research_dir": "/mnt/data/joey_tr/physical-RSI/research",
+  "receipt": "/mnt/data/joey_tr/physical-RSI/result/research_readthrough_20261105_cutoff_20261102/install-receipt.json",
+  "remaining_evidence_gaps": [
+    "Nov2 execution videos absent from supplied packages",
+    "Not a claim of manual all-line/all-frame review",
+    "Historical auxiliary script syntax error preserved"
+  ],
+  "next_action": "Keep scientific archive cutoff at Nov 2; record later research only in a later task."
+}

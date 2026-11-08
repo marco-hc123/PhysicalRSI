@@ -1,0 +1,54 @@
+[
+  {
+    "condition": "bypass_lift_guard",
+    "layout": 1,
+    "task": "classify_objects",
+    "camera": "head",
+    "encoded_frame": 1100,
+    "encoded_time_s": 44.0,
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/retreat_bypass_lift_guard_layout1_head_frame1100.png",
+    "image_sha256": "ecaaf42969d1760511fccb9a6b667161f5d4612841b87684c992b118952eeceb",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-d9f1b65052661acc02e0e014b91bbb92/episode_0000001_cam_head_fail.mp4",
+    "video_sha256": "0fb96b34fc0af2d888892b67ffbd1ef16ef1d539807005752b1072220f718dc4",
+    "note": "Final encoded frame at25fps. Encoded time is not wall-clock or calibrated physical time. Native score remains the authoritative outcome."
+  },
+  {
+    "condition": "bypass_lift_guard",
+    "layout": 4,
+    "task": "classify_objects",
+    "camera": "head",
+    "encoded_frame": 1100,
+    "encoded_time_s": 44.0,
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/retreat_bypass_lift_guard_layout4_head_frame1100.png",
+    "image_sha256": "980c3e534c3adfac723f5233a5ec6ed2854407893b5443b7f0145d21e4e9a791",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-d9f1b65052661acc02e0e014b91bbb92/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "ace15bc7187a34bfe37bcb6ed04a37a53f2b84cae523fcc8d7decba9afda9b1a",
+    "note": "Final encoded frame at25fps. Encoded time is not wall-clock or calibrated physical time. Native score remains the authoritative outcome."
+  },
+  {
+    "condition": "return_to_clearance",
+    "layout": 1,
+    "task": "classify_objects",
+    "camera": "head",
+    "encoded_frame": 1100,
+    "encoded_time_s": 44.0,
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/retreat_return_to_clearance_layout1_head_frame1100.png",
+    "image_sha256": "497bb82719073eda14a93c15ae86fd3a1336954a4db388767162b4d49513a248",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-5ec0781679d2b14da57810cdb275b031/episode_0000001_cam_head_fail.mp4",
+    "video_sha256": "cf01253e51281b99f9506183f75999c728699830cb43dc238bc18d3086378f3f",
+    "note": "Final encoded frame at25fps. Encoded time is not wall-clock or calibrated physical time. Native score remains the authoritative outcome."
+  },
+  {
+    "condition": "return_to_clearance",
+    "layout": 4,
+    "task": "classify_objects",
+    "camera": "head",
+    "encoded_frame": 1100,
+    "encoded_time_s": 44.0,
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/retreat_return_to_clearance_layout4_head_frame1100.png",
+    "image_sha256": "3af3059d82d7285d1876bbde228373c4b5b43cbc1444dd79a6862f2ca523f98b",
+    "video": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-5ec0781679d2b14da57810cdb275b031/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "fd51d46fef9f3ff01279fbafed24b361af78de810ffb056031b859a6f25ba976",
+    "note": "Final encoded frame at25fps. Encoded time is not wall-clock or calibrated physical time. Native score remains the authoritative outcome."
+  }
+]

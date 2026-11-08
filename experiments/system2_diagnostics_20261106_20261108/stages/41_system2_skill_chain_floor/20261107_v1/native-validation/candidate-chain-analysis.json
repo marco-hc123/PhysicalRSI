@@ -1,0 +1,637 @@
+{
+  "state": "candidate_cohort_only",
+  "native_cases": 5,
+  "cases": [
+    {
+      "condition": "single_cycle",
+      "layout_id": 4,
+      "native_score_100": 15.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.000691064298601036,
+          "start_action": 0,
+          "end_action": 16
+        },
+        {
+          "stage": "contact",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003938229885295778,
+          "start_action": 22,
+          "end_action": 25
+        },
+        {
+          "stage": "lift",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003893960514640701,
+          "start_action": 31,
+          "end_action": 34
+        },
+        {
+          "stage": "transport",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0022956626289849695,
+          "start_action": 34,
+          "end_action": 42
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.00912615571909848,
+        "margin_m": 0.09168141712529437
+      },
+      "source_label": "cat1_0",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 31,
+        "lift": 34,
+        "transport": 42,
+        "release": 48
+      },
+      "source_instance": "watch_0_62",
+      "lift_root_rise_m": 0.0803801417350769,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.09333008527755737,
+      "final_displacement_xy_m": 0.2877228885499263,
+      "object_transport_xy_m": 0.1974883605678327,
+      "object_ee_comotion_residual_m": 0.007832688580859946,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06504311884840337,
+        "margin_m": 0.25156432463785916
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": true,
+          "settled_inside": true
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": true,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        -0.18223218619823456,
+        -0.16878671944141388,
+        0.7786681056022644
+      ],
+      "final_root_xyz": [
+        -0.31447482109069824,
+        0.0867447778582573,
+        0.7881773114204407
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 1,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0023549202726135536,
+          "start_action": 0,
+          "end_action": 17
+        },
+        {
+          "stage": "contact",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.01025838579366487,
+          "start_action": 23,
+          "end_action": 26
+        },
+        {
+          "stage": "lift",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003635970869425545,
+          "start_action": 32,
+          "end_action": 35
+        },
+        {
+          "stage": "transport",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0010949553108080589,
+          "start_action": 35,
+          "end_action": 41
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.0030895096970959563,
+        "margin_m": 0.09274290853678606
+      },
+      "source_label": "cat1_0",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 32,
+        "lift": 35,
+        "transport": 41,
+        "release": 47
+      },
+      "source_instance": "watch_1_23",
+      "lift_root_rise_m": 0.0760115385055542,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.08236545324325562,
+      "final_displacement_xy_m": 0.10977710485215726,
+      "object_transport_xy_m": 0.09474882678760602,
+      "object_ee_comotion_residual_m": 0.0003880090280793926,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06513342175121213,
+        "margin_m": 0.2514898336046485
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": true,
+          "settled_inside": true
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": true,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "selected_object_delivered_proxy": true,
+      "complete_chain_proxy": true,
+      "physical_diagnosis": "complete_chain_kinematic_evidence",
+      "initial_root_xyz": [
+        -0.2690690755844116,
+        -0.09642532467842102,
+        0.7783200144767761
+      ],
+      "final_root_xyz": [
+        -0.2992812693119049,
+        0.009112517349421978,
+        0.8062512278556824
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 3,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0019069775336733232,
+          "start_action": 0,
+          "end_action": 16
+        },
+        {
+          "stage": "contact",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.007764917198736157,
+          "start_action": 22,
+          "end_action": 25
+        },
+        {
+          "stage": "lift",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0035953870605541054,
+          "start_action": 31,
+          "end_action": 34
+        },
+        {
+          "stage": "transport",
+          "arm": "left",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0021288104203723785,
+          "start_action": 34,
+          "end_action": 41
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat2_2",
+        "distance_m": 0.006725976394925546,
+        "margin_m": 0.10533872758010472
+      },
+      "source_label": "cat2_2",
+      "arm": "left",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 31,
+        "lift": 34,
+        "transport": 41,
+        "release": 47
+      },
+      "source_instance": "pen_4_46",
+      "lift_root_rise_m": 0.0922846794128418,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.10173368453979492,
+      "final_displacement_xy_m": 0.1313696768770668,
+      "object_transport_xy_m": 0.15368472669451824,
+      "object_ee_comotion_residual_m": 0.00043911518812960446,
+      "target_basket": "basket0",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket0",
+        "distance_m": 0.06502308819975083,
+        "margin_m": 0.25170746747857
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "selected_object_delivered_proxy": false,
+      "complete_chain_proxy": false,
+      "physical_diagnosis": "not_stably_in_target_basket",
+      "initial_root_xyz": [
+        -0.21755672991275787,
+        -0.13687729835510254,
+        0.765964150428772
+      ],
+      "final_root_xyz": [
+        -0.31951355934143066,
+        -0.05403529852628708,
+        0.8318638205528259
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 0,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0032478225270866235,
+          "start_action": 0,
+          "end_action": 18
+        },
+        {
+          "stage": "contact",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003005351175838004,
+          "start_action": 24,
+          "end_action": 27
+        },
+        {
+          "stage": "lift",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0030736208084996878,
+          "start_action": 33,
+          "end_action": 36
+        },
+        {
+          "stage": "transport",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.006499557467090008,
+          "start_action": 36,
+          "end_action": 40
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat1_0",
+        "distance_m": 0.002584321147032623,
+        "margin_m": 0.12359879011304585
+      },
+      "source_label": "cat1_0",
+      "arm": "right",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 33,
+        "lift": 36,
+        "transport": 40,
+        "release": 46
+      },
+      "source_instance": "toy_car_0_9",
+      "lift_root_rise_m": 0.04485321044921875,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.04485321044921875,
+      "final_displacement_xy_m": 0.05266687354772733,
+      "object_transport_xy_m": 0.05565113177802198,
+      "object_ee_comotion_residual_m": 0.13942561889518434,
+      "target_basket": "basket2",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket2",
+        "distance_m": 0.056835195797717133,
+        "margin_m": 0.22507442148107742
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "selected_object_delivered_proxy": false,
+      "complete_chain_proxy": false,
+      "physical_diagnosis": "not_stably_in_target_basket",
+      "initial_root_xyz": [
+        0.11656441539525986,
+        -0.1044212356209755,
+        0.7869925498962402
+      ],
+      "final_root_xyz": [
+        0.1648740917444229,
+        -0.08344566076993942,
+        0.7868220806121826
+      ]
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 2,
+      "native_score_100": 0.0,
+      "native_full_success": false,
+      "motion_calls": 4,
+      "closed": true,
+      "completed_motion_calls": 4,
+      "first_error": null,
+      "motion_endpoints": [
+        {
+          "stage": "pregrasp",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.003734833285206542,
+          "start_action": 0,
+          "end_action": 19
+        },
+        {
+          "stage": "contact",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0012418767617683544,
+          "start_action": 25,
+          "end_action": 28
+        },
+        {
+          "stage": "lift",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.0013679643197759602,
+          "start_action": 34,
+          "end_action": 37
+        },
+        {
+          "stage": "transport",
+          "arm": "right",
+          "accepted": true,
+          "error": null,
+          "ee_translation_error_m": 0.011383994277783593,
+          "start_action": 37,
+          "end_action": 45
+        }
+      ],
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+      "runtime_scope": "Four candidate primitives, historical corrected execution contracts",
+      "source_association": {
+        "qualified": true,
+        "nearest": "cat2_0",
+        "distance_m": 0.0031532333551793582,
+        "margin_m": 0.29993013000248553
+      },
+      "source_label": "cat2_0",
+      "arm": "right",
+      "phase_action_indices": {
+        "selection": 0,
+        "close": 34,
+        "lift": 37,
+        "transport": 45,
+        "release": 51
+      },
+      "source_instance": "garage_15_34",
+      "lift_root_rise_m": 0.062397897243499756,
+      "lift_proxy": true,
+      "max_root_rise_m": 0.06301093101501465,
+      "final_displacement_xy_m": 0.03046109405665237,
+      "object_transport_xy_m": 0.06286677430722806,
+      "object_ee_comotion_residual_m": 0.02583546280533932,
+      "target_basket": "basket1",
+      "target_association": {
+        "qualified": true,
+        "nearest": "basket1",
+        "distance_m": 0.10111839719265955,
+        "margin_m": 0.1273928503039767
+      },
+      "initial_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "final_membership": {
+        "basket0": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket1": {
+          "inside": false,
+          "settled_inside": false
+        },
+        "basket2": {
+          "inside": false,
+          "settled_inside": false
+        }
+      },
+      "stable_final_membership": {
+        "basket0": false,
+        "basket1": false,
+        "basket2": false
+      },
+      "release_observed": true,
+      "selected_object_delivered_proxy": false,
+      "complete_chain_proxy": false,
+      "physical_diagnosis": "not_stably_in_target_basket",
+      "initial_root_xyz": [
+        0.04550470784306526,
+        -0.12344370037317276,
+        0.794125497341156
+      ],
+      "final_root_xyz": [
+        0.030646074563264847,
+        -0.0968523621559143,
+        0.7958816885948181
+      ]
+    }
+  ],
+  "api_calls": 0
+}

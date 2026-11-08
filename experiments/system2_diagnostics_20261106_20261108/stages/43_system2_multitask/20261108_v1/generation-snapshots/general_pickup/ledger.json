@@ -1,0 +1,398 @@
+[
+  {
+    "id": "classify_objects-basic-1",
+    "batch": "classify_objects",
+    "request_sha256": "5c80479fb079dd692368b528125b121c3c20a12527e1cd045f39f45bec668942",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:39:41.190026+00:00",
+    "http_status": 200,
+    "seconds": 68.55508346200077,
+    "finished_utc": "2026-11-08T06:40:49.745733+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 2712,
+      "completion_tokens": 4973,
+      "total_tokens": 7685,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 2709,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2487,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0565085,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "3282d0578eff75630ddeec43897c913eee7c14da29b676ed7e69e832c8a47237"
+  },
+  {
+    "id": "classify_objects-execution_feedback-1",
+    "batch": "classify_objects",
+    "request_sha256": "14def23046ff3562af1231322ef2ab21cab213244c7258f4ce9a5462d04ca857",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:40:49.751376+00:00",
+    "http_status": 200,
+    "seconds": 34.90426387900152,
+    "finished_utc": "2026-11-08T06:41:24.657194+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 14923,
+      "completion_tokens": 2858,
+      "total_tokens": 17781,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 14920,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1024,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.065886,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "e795e6b4cfa55996a62e4de425e5502fb74c85b2744a1b3c4cf6d13d1ee95cfb"
+  },
+  {
+    "id": "classify_objects-basic-2",
+    "batch": "classify_objects",
+    "request_sha256": "5c80479fb079dd692368b528125b121c3c20a12527e1cd045f39f45bec668942",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:41:24.662190+00:00",
+    "http_status": 200,
+    "seconds": 62.2628788410002,
+    "finished_utc": "2026-11-08T06:42:26.927140+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 2712,
+      "completion_tokens": 4705,
+      "total_tokens": 7417,
+      "prompt_tokens_details": {
+        "cached_tokens": 2709,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2535,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0473269,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "a98690fcf8afc61b2858c4e641ad6e8d97a2a2790bb4f6977f217e9f0f6801b2"
+  },
+  {
+    "id": "classify_objects-execution_feedback-2",
+    "batch": "classify_objects",
+    "request_sha256": "14def23046ff3562af1231322ef2ab21cab213244c7258f4ce9a5462d04ca857",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:42:26.929790+00:00",
+    "http_status": 200,
+    "seconds": 59.68437181900299,
+    "finished_utc": "2026-11-08T06:43:26.615903+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 14923,
+      "completion_tokens": 4447,
+      "total_tokens": 19370,
+      "prompt_tokens_details": {
+        "cached_tokens": 14920,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2560,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.045968,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "b93aded6c8c66fea4cef7748ec48300848366c82f00281b73735fc4b0d384b5b"
+  },
+  {
+    "id": "classify_objects-basic-3",
+    "batch": "classify_objects",
+    "request_sha256": "5c80479fb079dd692368b528125b121c3c20a12527e1cd045f39f45bec668942",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:43:26.619679+00:00",
+    "http_status": 200,
+    "seconds": 74.95796107900242,
+    "finished_utc": "2026-11-08T06:44:41.579656+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 2712,
+      "completion_tokens": 5452,
+      "total_tokens": 8164,
+      "prompt_tokens_details": {
+        "cached_tokens": 2709,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2967,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0547969,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "4a08b7775533b66e2c779ae73f9a14f1c84089f56d72f6006abea5c5da6a5c26"
+  },
+  {
+    "id": "classify_objects-execution_feedback-3",
+    "batch": "classify_objects",
+    "request_sha256": "14def23046ff3562af1231322ef2ab21cab213244c7258f4ce9a5462d04ca857",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:44:41.583850+00:00",
+    "http_status": 200,
+    "seconds": 42.88944627000092,
+    "finished_utc": "2026-11-08T06:45:24.475738+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 14923,
+      "completion_tokens": 3403,
+      "total_tokens": 18326,
+      "prompt_tokens_details": {
+        "cached_tokens": 14920,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1536,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.035528,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "1648878342a68f9665e97b72b1b5fc0d51be286d0ac323a407fb7e0e9f079c8e"
+  },
+  {
+    "id": "general_pickup-basic-1",
+    "batch": "general_pickup",
+    "request_sha256": "3162e0f87403377adcb6392324db9cb171b5c584458ca65384738b372846d090",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:57:05.152123+00:00",
+    "http_status": 200,
+    "seconds": 30.065026445998228,
+    "finished_utc": "2026-11-08T06:57:35.218254+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 1258,
+      "completion_tokens": 1981,
+      "total_tokens": 3239,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 1255,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1276,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0229535,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "60a83df55f70e580bfadf3919c805d16aad48a0a17b5a816599fa965cb3f7258"
+  },
+  {
+    "id": "general_pickup-execution_feedback-1",
+    "batch": "general_pickup",
+    "request_sha256": "612c8123d92adafa222943c3ff06b0c224d8aabc32bf538c2dfcf3c76f134e96",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:57:35.220660+00:00",
+    "http_status": 200,
+    "seconds": 34.74628173800011,
+    "finished_utc": "2026-11-08T06:58:09.968253+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 8801,
+      "completion_tokens": 2131,
+      "total_tokens": 10932,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 8798,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1444,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.043311,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "b87a95b8842d0e30275993b8ffd637622503863b4ab1754547ec32c3b23dfd53"
+  },
+  {
+    "id": "general_pickup-basic-2",
+    "batch": "general_pickup",
+    "request_sha256": "3162e0f87403377adcb6392324db9cb171b5c584458ca65384738b372846d090",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:58:09.972038+00:00",
+    "http_status": 200,
+    "seconds": 34.263923047998105,
+    "finished_utc": "2026-11-08T06:58:44.237241+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 1258,
+      "completion_tokens": 2092,
+      "total_tokens": 3350,
+      "prompt_tokens_details": {
+        "cached_tokens": 1255,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1338,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0210515,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "634fb777ac8c0dfe2203c2812752357500151b87922810444c2ce1b56372cf63"
+  },
+  {
+    "id": "general_pickup-execution_feedback-2",
+    "batch": "general_pickup",
+    "request_sha256": "612c8123d92adafa222943c3ff06b0c224d8aabc32bf538c2dfcf3c76f134e96",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:58:44.239191+00:00",
+    "http_status": 200,
+    "seconds": 34.67344331800268,
+    "finished_utc": "2026-11-08T06:59:18.914061+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 8801,
+      "completion_tokens": 2277,
+      "total_tokens": 11078,
+      "prompt_tokens_details": {
+        "cached_tokens": 8798,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1365,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.023655799999999998,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "2486c9c567769e5ee9163bf89ec255034b5f39fee8dec8dcf89712cc715f3738"
+  },
+  {
+    "id": "general_pickup-basic-3",
+    "batch": "general_pickup",
+    "request_sha256": "3162e0f87403377adcb6392324db9cb171b5c584458ca65384738b372846d090",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:59:18.916441+00:00",
+    "http_status": 200,
+    "seconds": 34.54541328100095,
+    "finished_utc": "2026-11-08T06:59:53.463289+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 1258,
+      "completion_tokens": 2255,
+      "total_tokens": 3513,
+      "prompt_tokens_details": {
+        "cached_tokens": 1255,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1514,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0226815,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "13e16d906fbb75ac1e1ac9347ea1abb7c4180f5d7c69284dd780439428edd997"
+  },
+  {
+    "id": "general_pickup-execution_feedback-3",
+    "batch": "general_pickup",
+    "request_sha256": "612c8123d92adafa222943c3ff06b0c224d8aabc32bf538c2dfcf3c76f134e96",
+    "state": "received",
+    "reserve_usd": 0.75,
+    "started_utc": "2026-11-08T06:59:53.466999+00:00",
+    "http_status": 200,
+    "seconds": 35.01381408300222,
+    "finished_utc": "2026-11-08T07:00:28.482429+00:00",
+    "returned_model": "gpt-6.1-sol",
+    "usage": {
+      "prompt_tokens": 8801,
+      "completion_tokens": 2089,
+      "total_tokens": 10890,
+      "prompt_tokens_details": {
+        "cached_tokens": 8798,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1390,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.021775799999999998,
+    "cost_scope": "Cache is an input subset; reasoning included in output. Invoice authoritative.",
+    "finish_reason": "stop",
+    "syntax_valid": true,
+    "source_sha256": "866c7102940342fba59ace75b91bc57109e396b96f21db788f191dc973d43ae1"
+  }
+]

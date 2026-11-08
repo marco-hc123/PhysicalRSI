@@ -1,0 +1,2 @@
+condition,cases,successes,mean_normalized_score,cohort_wall_seconds,videos,api_calls,paid_cost_usd,internal_service_calls_by_method,candidate_actors,first_approach_rejections,total_approach_calls,accepted_approach_calls,incomplete_approach_calls,native_step_limit_cancellations,actors_with_post_error_calls,total_trusted_primitive_action_steps,scope,completed_record
+fixed_parent,5,0,0.03,1017.8351191149995,15,0,0,{},5,0,86,81,0,0,2,906,Reused diagnostic layouts; no policy promotion,native-campaign/runs/fixed_parent/completed.json

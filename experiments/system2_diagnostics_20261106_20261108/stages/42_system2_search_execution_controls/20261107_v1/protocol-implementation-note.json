@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-07T10:04:15.233944+00:00",
+  "parent_control": "Run five fresh parent cases while independent API generations are pending; same sources/runtime conditions. Sampling consists of25newcandidate cases plus5freshparent cases.",
+  "heldout": "NativeRuntime.cases uses the pinned official generator and a recorded fresh random seed. After strategies freeze generate five new layouts, hash-audit against previous layouts, native reset qualification before evaluation. Preferred numeric IDs40-44 in draft are not official fixed source cases and will not be used as evidence of independence.",
+  "observed_sampling_results": 0,
+  "changes_to_model_feedback_native_scoring": false
+}

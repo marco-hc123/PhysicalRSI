@@ -1,0 +1,110 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T07:24:37.190720+00:00",
+  "scope": "Recent classification System2 stages31..40",
+  "actual_native_executions": 133,
+  "unique_development_layouts": 5,
+  "full_successes": 0,
+  "latest": {
+    "mean_score_delta": 0.0,
+    "success_delta": 0,
+    "any_positive_score_delta": false,
+    "alternate_arm_requests": 3,
+    "completed_alternate_approaches": 3
+  },
+  "mechanism": {
+    "terminal_reasons": {
+      "no_eligible_visible_choice": 1,
+      "explicit_planning_rejection_after_structured_feedback": 3,
+      "six_turn_limit": 1
+    },
+    "terminal_item_filter_counts": {
+      "near_previous_attempt": 2,
+      "category_not_assigned": 1
+    },
+    "rejection_phases": {
+      "pregrasp_clearance": 3,
+      "transport": 3
+    },
+    "post_fallback_rejections": [
+      {
+        "layout_id": 4,
+        "actor": "e6fa8810e42d42e0b914e0e2038b0dae",
+        "scene_ordinal": 5,
+        "call_id": 40,
+        "phase": "transport",
+        "arm": "left",
+        "target": [
+          0.27858962524331654,
+          -0.010246599479022261,
+          1.01
+        ],
+        "primitive_error": "no_collision_free_path",
+        "alternate_arm_requested": false,
+        "earlier_fallback_in_this_cycle": true,
+        "final_recorded_call": true
+      },
+      {
+        "layout_id": 1,
+        "actor": "55c6d87acb544e2a9fc19ba3b7c35d12",
+        "scene_ordinal": 5,
+        "call_id": 40,
+        "phase": "transport",
+        "arm": "right",
+        "target": [
+          -0.3113030188237918,
+          -0.007361295146321417,
+          1.01
+        ],
+        "primitive_error": "no_collision_free_path",
+        "alternate_arm_requested": false,
+        "earlier_fallback_in_this_cycle": true,
+        "final_recorded_call": true
+      },
+      {
+        "layout_id": 2,
+        "actor": "e09c9c67804347e28ea41422f013da61",
+        "scene_ordinal": 3,
+        "call_id": 24,
+        "phase": "transport",
+        "arm": "left",
+        "target": [
+          -0.04396096762057025,
+          -0.027566591065283814,
+          0.99
+        ],
+        "primitive_error": "no_collision_free_path",
+        "alternate_arm_requested": false,
+        "earlier_fallback_in_this_cycle": true,
+        "final_recorded_call": true
+      }
+    ],
+    "qualified_object_associations": 21,
+    "close_cycles": 24,
+    "lift_under_1cm": 9,
+    "missing_categories_first": [
+      {
+        "layout": 0,
+        "categories": [
+          "watch"
+        ]
+      },
+      {
+        "layout": 1,
+        "categories": [
+          "toy_car"
+        ]
+      },
+      {
+        "layout": 2,
+        "categories": [
+          "camera"
+        ]
+      }
+    ]
+  },
+  "report": "INTERPRETATION.txt",
+  "historical_correction": "HISTORICAL_CONTRACT_CORRECTION.txt",
+  "retained_policy": "pi05",
+  "manual_repair_is_not_automatic_system2_improvement": true
+}

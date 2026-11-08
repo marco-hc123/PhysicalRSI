@@ -1,0 +1,605 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T05:49:05.132828+00:00",
+  "accounting": {
+    "new_native_cases": 5,
+    "new_raw_videos": 15,
+    "symbolic_cases": 10,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "policy_promotions": 0,
+    "offline_solver_calls": 18,
+    "lab_gpu_precheck_executed_solver_calls": 0,
+    "invalid_controller_setups": 2,
+    "invalid_controller_native_cases": 0
+  },
+  "reference": [
+    {
+      "layout_id": 0,
+      "score_100": 0.0,
+      "success": false,
+      "last_model_stage": "failure_hold",
+      "last_model_failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "completed_basket_transfers": 0,
+      "source_traces": [
+        "model-traces/1794029677320809247/trace.jsonl"
+      ]
+    },
+    {
+      "layout_id": 1,
+      "score_100": 15.0,
+      "success": false,
+      "last_model_stage": "failure_hold",
+      "last_model_failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "completed_basket_transfers": 2,
+      "source_traces": [
+        "model-traces/1794029821104708720/trace.jsonl"
+      ]
+    },
+    {
+      "layout_id": 2,
+      "score_100": 15.0,
+      "success": false,
+      "last_model_stage": "failure_hold",
+      "last_model_failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "completed_basket_transfers": 3,
+      "source_traces": [
+        "model-traces/1794029981464258281/trace.jsonl"
+      ]
+    },
+    {
+      "layout_id": 3,
+      "score_100": 15.0,
+      "success": false,
+      "last_model_stage": "failure_hold",
+      "last_model_failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "completed_basket_transfers": 0,
+      "source_traces": [
+        "model-traces/1794030148264784220/trace.jsonl"
+      ]
+    },
+    {
+      "layout_id": 4,
+      "score_100": 40.0,
+      "success": false,
+      "last_model_stage": "complete_hold",
+      "last_model_failure": null,
+      "completed_basket_transfers": 10,
+      "source_traces": [
+        "model-traces/1794030315539278787/trace.jsonl"
+      ]
+    }
+  ],
+  "symbolic_capacity": [
+    {
+      "condition": "original_six_attempts",
+      "layout": 0,
+      "objects": 8,
+      "symbolic_releases": 6,
+      "symbolic_remaining": 2
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout": 1,
+      "objects": 5,
+      "symbolic_releases": 5,
+      "symbolic_remaining": 0
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout": 2,
+      "objects": 3,
+      "symbolic_releases": 3,
+      "symbolic_remaining": 0
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout": 3,
+      "objects": 7,
+      "symbolic_releases": 6,
+      "symbolic_remaining": 1
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout": 4,
+      "objects": 6,
+      "symbolic_releases": 6,
+      "symbolic_remaining": 0
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout": 0,
+      "objects": 8,
+      "symbolic_releases": 8,
+      "symbolic_remaining": 0
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout": 1,
+      "objects": 5,
+      "symbolic_releases": 5,
+      "symbolic_remaining": 0
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout": 2,
+      "objects": 3,
+      "symbolic_releases": 3,
+      "symbolic_remaining": 0
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout": 3,
+      "objects": 7,
+      "symbolic_releases": 7,
+      "symbolic_remaining": 0
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout": 4,
+      "objects": 6,
+      "symbolic_releases": 6,
+      "symbolic_remaining": 0
+    }
+  ],
+  "history": [
+    {
+      "stage": 31,
+      "condition": "pi05",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "source": "31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+      "role": "Feedback generation and parent reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": 31,
+      "condition": "baseline_1",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "source": "31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+      "role": "Feedback generation and parent reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": 31,
+      "condition": "augmented_1",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+      "role": "Feedback generation and parent reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 31,
+      "condition": "augmented_2",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+      "role": "Feedback generation and parent reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 31,
+      "condition": "baseline_2",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "source": "31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+      "role": "Feedback generation and parent reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": 31,
+      "condition": "baseline_3",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "source": "31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+      "role": "Feedback generation and parent reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": 31,
+      "condition": "augmented_3",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "source": "31_system2_rgb_validation/20261105_v1/analysis/matrix-analysis.json",
+      "role": "Feedback generation and parent reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": 32,
+      "condition": "lift_guard/original",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "source": "32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+      "role": "Manual perception gate or retreat diagnosis",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "stage": 32,
+      "condition": "lift_guard/bypass_lift_guard",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+      "role": "Manual perception gate or retreat diagnosis",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 32,
+      "condition": "retreat_destination/bypass_lift_guard",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+      "role": "Manual perception gate or retreat diagnosis",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 32,
+      "condition": "retreat_destination/return_to_clearance",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+      "role": "Manual perception gate or retreat diagnosis",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 33,
+      "condition": "legacy_feedback",
+      "cases": 15,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "33_system2_capability_feedback/20261106_v1/FINAL_SUMMARY.json",
+      "role": "New generation feedback comparison;3candidates x5layouts",
+      "scores_100": null
+    },
+    {
+      "stage": 33,
+      "condition": "capability_feedback",
+      "cases": 15,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "33_system2_capability_feedback/20261106_v1/FINAL_SUMMARY.json",
+      "role": "New generation feedback comparison;3candidates x5layouts",
+      "scores_100": null
+    },
+    {
+      "stage": 34,
+      "condition": "dense",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "34_system2_trajectory_contract/20261106_v1/FINAL_SUMMARY.json",
+      "role": "Manual waypoint execution correction",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 34,
+      "condition": "released_waypoint_thinning",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "34_system2_trajectory_contract/20261106_v1/FINAL_SUMMARY.json",
+      "role": "Manual waypoint execution correction",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 35,
+      "condition": "logging_only",
+      "cases": 3,
+      "successes": 0,
+      "mean_score_100": 5.0,
+      "source": "35_system2_postgrasp_diagnosis/20261107_v1/FINAL_SUMMARY.json",
+      "role": "Subset layouts0,1,4; no treatment,81offlineprobes separate",
+      "scores_100": [
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 36,
+      "condition": "measured_state_control",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "36_system2_gripper_command_contract/20261107_v1/FINAL_SUMMARY.json",
+      "role": "Manual gripper command retention correction",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 36,
+      "condition": "latched_command",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "source": "36_system2_gripper_command_contract/20261107_v1/FINAL_SUMMARY.json",
+      "role": "Manual gripper command retention correction",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ]
+    },
+    {
+      "stage": 37,
+      "condition": "released_complete_controller",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 17.0,
+      "source": "37_system2_candidate_capacity/20261107_v1/native-validation/analysis/independent-validation.json",
+      "role": "Different complete existing controller; not System2 improvement",
+      "scores_100": [
+        0.0,
+        15.0,
+        15.0,
+        15.0,
+        40.0
+      ]
+    }
+  ],
+  "recent_new_native_total": 113,
+  "archive": {
+    "state": "verified",
+    "utc": "2026-11-07T05:47:48.453453+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/38_candidate_capacity_20261107",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/37_system2_candidate_capacity/20261107_v1/native-validation",
+    "verified_files": 904,
+    "logical_bytes": 152748901,
+    "manifest_sha256": "7c54542f2320ac715c3482530717e0ee363b2a2e2591050e982b9ca818591158",
+    "native_cases": 5,
+    "videos": 15,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "transfer_verified_in_batches": true
+  },
+  "retained_policy": "pi05",
+  "scope": "Starting candidate competence and complete-controller reference; not a new System2 proposal or independent test",
+  "limitations": [
+    "Same exposed5layouts, with stage35onlysubset0/1/4. Repeated layouts are not independent samples.",
+    "Do not interpret complete-controller minus candidate as isolated causal effect or baseline model capability ceiling.",
+    "Symbolic ideal-grasp case counts are separate from native episodes.",
+    "No API tokens used here; no training and no autonomous promotion."
+  ],
+  "destination_feasibility": {
+    "state": "completed",
+    "solver_calls": 18,
+    "new_native_cases": 0,
+    "api_calls": 0,
+    "lab_gpu_used": false,
+    "groups": [
+      {
+        "source_layout_id": 0,
+        "condition": "original_target",
+        "calls": 3,
+        "trajectories": 0
+      },
+      {
+        "source_layout_id": 0,
+        "condition": "released_destination_offset",
+        "calls": 3,
+        "trajectories": 3
+      },
+      {
+        "source_layout_id": 1,
+        "condition": "original_target",
+        "calls": 3,
+        "trajectories": 0
+      },
+      {
+        "source_layout_id": 1,
+        "condition": "released_destination_offset",
+        "calls": 3,
+        "trajectories": 3
+      },
+      {
+        "source_layout_id": 4,
+        "condition": "original_target",
+        "calls": 3,
+        "trajectories": 0
+      },
+      {
+        "source_layout_id": 4,
+        "condition": "released_destination_offset",
+        "calls": 3,
+        "trajectories": 3
+      }
+    ]
+  },
+  "reference_stops": [
+    {
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 0,
+      "last_exhausted_endpoint_stage": "basket_lower",
+      "last_position_error_m": 0.01046442053092085,
+      "last10_position_error_range_m": 4.689231492827073e-07,
+      "last_rotation_error_rad": 0.02561324569928841,
+      "last_joint_error_rad": 0.018537521362304688,
+      "source_traces": [
+        "model-traces/1794029677320809247/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 1,
+      "score_100": 15.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 2,
+      "last_exhausted_endpoint_stage": "transport",
+      "last_position_error_m": 0.023672968822643192,
+      "last10_position_error_range_m": 5.492407319599921e-05,
+      "last_rotation_error_rad": 0.04795628666629485,
+      "last_joint_error_rad": 0.044379353523254395,
+      "source_traces": [
+        "model-traces/1794029821104708720/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 2,
+      "score_100": 15.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 3,
+      "last_exhausted_endpoint_stage": "basket_lower",
+      "last_position_error_m": 0.014975452234150036,
+      "last10_position_error_range_m": 0.0001000163162480066,
+      "last_rotation_error_rad": 0.03836542852932245,
+      "last_joint_error_rad": 0.025252819061279297,
+      "source_traces": [
+        "model-traces/1794029981464258281/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 3,
+      "score_100": 15.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 0,
+      "last_exhausted_endpoint_stage": "basket_lower",
+      "last_position_error_m": 0.010277396296597576,
+      "last10_position_error_range_m": 4.566210417816102e-07,
+      "last_rotation_error_rad": 0.022874512194596068,
+      "last_joint_error_rad": 0.018702030181884766,
+      "source_traces": [
+        "model-traces/1794030148264784220/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 4,
+      "score_100": 40.0,
+      "success": false,
+      "stop_class": "complete_hold_without_native_success",
+      "last_stage": "complete_hold",
+      "failure": null,
+      "reported_basket_transfers": 10,
+      "last_exhausted_endpoint_stage": null,
+      "last_position_error_m": null,
+      "last10_position_error_range_m": null,
+      "last_rotation_error_rad": null,
+      "last_joint_error_rad": null,
+      "source_traces": [
+        "model-traces/1794030315539278787/trace.jsonl"
+      ]
+    }
+  ],
+  "next_stage": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1",
+  "interpretation": {
+    "candidate_mean_score_100": 3.0,
+    "reference_mean_score_100": 17.0,
+    "reference_full_successes": 0,
+    "reference_n": 5,
+    "not_a_system2_improvement": true,
+    "capability_gap_audit": "CAPABILITY_GAP_AUDIT.txt",
+    "reference_layout4": "Score40; two pens remain outside intended basket; trace reports stationary source and both attempts exhausted, then return-home. complete_hold is not native success.",
+    "offline_original_paths": "0/9",
+    "offline_offset_paths": "9/9",
+    "offline_not_physical_success": true
+  }
+}

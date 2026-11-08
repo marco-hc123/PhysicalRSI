@@ -1,0 +1,98 @@
+{
+  "source": "/mnt/data/physical-RSI/result/42_rejection_fallback_probe_20261107",
+  "files": [
+    {
+      "path": "controller.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "destination_probe.py",
+      "sha256": "a860d025ed2e47f4125706a20a2d565d41aba0903509db815c74f65ef270a1ec",
+      "bytes": 4677
+    },
+    {
+      "path": "gpu-after.json",
+      "sha256": "0443658ce1c35f60c8deca636a3225eab54c5cd82dfcb9846c58bd37fb5ca81d",
+      "bytes": 46
+    },
+    {
+      "path": "gpu-before.json",
+      "sha256": "4e92c871cea8d691a7df184b777f2987d2ea2fb08b3dc91c8da26ddd445e9a19",
+      "bytes": 61
+    },
+    {
+      "path": "offline-rejection-probes/destination_probe.py",
+      "sha256": "a860d025ed2e47f4125706a20a2d565d41aba0903509db815c74f65ef270a1ec",
+      "bytes": 4677
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "9a69b1c05d2c924a17f82da4878de54507078f486e762de078ae2017422564dd",
+      "bytes": 8863
+    },
+    {
+      "path": "results.json",
+      "sha256": "6751965f07f12046fa6e182f10a4928d8ad6a7788164a0fec1dd455fea477c03",
+      "bytes": 9748
+    },
+    {
+      "path": "runtime.json",
+      "sha256": "f3b12712af91fefa146cba83a4b142fdf51bbd56a99cafae63505d9c2dfc4f99",
+      "bytes": 629
+    },
+    {
+      "path": "status.json",
+      "sha256": "c30ffa8de79d775deaeec071088c53a95be62038e9df1c708aae7c1ab782bd64",
+      "bytes": 149
+    },
+    {
+      "path": "summary.json",
+      "sha256": "0252682503ebee4f06bfe6302672d43466ba762dc8ee252061194104dc6c18f8",
+      "bytes": 631
+    },
+    {
+      "path": "trajectories/job003.npy",
+      "sha256": "0c23ffa72628db5ccaeb0cca2dbeb4e09e0f2df0e659b2fe12a10f90c8d7be6f",
+      "bytes": 4952
+    },
+    {
+      "path": "trajectories/job004.npy",
+      "sha256": "0c23ffa72628db5ccaeb0cca2dbeb4e09e0f2df0e659b2fe12a10f90c8d7be6f",
+      "bytes": 4952
+    },
+    {
+      "path": "trajectories/job005.npy",
+      "sha256": "0c23ffa72628db5ccaeb0cca2dbeb4e09e0f2df0e659b2fe12a10f90c8d7be6f",
+      "bytes": 4952
+    },
+    {
+      "path": "trajectories/job009.npy",
+      "sha256": "0bf3f1e3117689d80655479436ce4f59c8bb4c54d3ae65f171701042dff5983a",
+      "bytes": 5912
+    },
+    {
+      "path": "trajectories/job010.npy",
+      "sha256": "0bf3f1e3117689d80655479436ce4f59c8bb4c54d3ae65f171701042dff5983a",
+      "bytes": 5912
+    },
+    {
+      "path": "trajectories/job011.npy",
+      "sha256": "0bf3f1e3117689d80655479436ce4f59c8bb4c54d3ae65f171701042dff5983a",
+      "bytes": 5912
+    },
+    {
+      "path": "worker.log",
+      "sha256": "4b76304050d38ccac8320cc05dccb31cb672f905b48f7cd0318cff8a2efbbc1f",
+      "bytes": 533
+    }
+  ],
+  "state": "verified",
+  "utc": "2026-11-07T06:59:28.601216+00:00",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1/offline-rejection-probes/execution",
+  "route": "execution -> local -> lab",
+  "new_native_cases": 0,
+  "api_calls": 0,
+  "solver_calls": 12,
+  "lab_gpu_used": false
+}

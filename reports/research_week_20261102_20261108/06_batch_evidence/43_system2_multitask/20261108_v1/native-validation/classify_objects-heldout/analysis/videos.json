@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000000_cam_head_fail.mp4",
+    "bytes": 844794,
+    "sha256": "a9528dd0b863a8d13c43484f624eb7e45bb71bb99143824cfd45df049e8e2f27"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000000_cam_left_wrist_fail.mp4",
+    "bytes": 1221812,
+    "sha256": "5463857def01085248c8677201e86db855f4885969fb2df0e4a3f4623aef1824"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000000_cam_right_wrist_fail.mp4",
+    "bytes": 1280149,
+    "sha256": "ffd39dfc18bfa62c2d1c8a0c72d572e37c08f81bec9bbf32f7f90b93a8b5ae18"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000001_cam_head_fail.mp4",
+    "bytes": 620240,
+    "sha256": "6a87451d1caa964a34e6f8e5b46152eb908b756c2653ecca59ba5a63c7c7e616"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000001_cam_left_wrist_fail.mp4",
+    "bytes": 380189,
+    "sha256": "59dae3dacebb7344b3f711842facdca00deb60e016830eb7b66d7f4e3aed1a6a"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000001_cam_right_wrist_fail.mp4",
+    "bytes": 1147386,
+    "sha256": "f93aa4f4810fd0b6e651f0f5a6c4cc3f927a402eb465ca8f80618bae199b7b08"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000002_cam_head_fail.mp4",
+    "bytes": 876784,
+    "sha256": "35adc03886b9807a09cd49443934e54715ecbde46e27e3ac9d1f97110f70fe51"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000002_cam_left_wrist_fail.mp4",
+    "bytes": 1340097,
+    "sha256": "90882e0574e123675abae7d5e01eb40723ef5dbca6ef3b3c0c91cd82908798ad"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000002_cam_right_wrist_fail.mp4",
+    "bytes": 1337017,
+    "sha256": "5bd7df0ab51270f882a08ca3416dac12fae0461e4fc3be8027022c92d0593035"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000003_cam_head_fail.mp4",
+    "bytes": 894636,
+    "sha256": "f7867d17acd6a28a54e23ad2f5c9b3fb004047a6da466a62a898a08b96bc1f2c"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000003_cam_left_wrist_fail.mp4",
+    "bytes": 1389385,
+    "sha256": "614005f7245ce0b5c596c30b7ff9c2a51f0e345060c0dbc5acff82bb638861ad"
+  },
+  {
+    "condition": "parent",
+    "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-841a0aaf0e0bd21635b28227a31e8c4c/episode_0000003_cam_right_wrist_fail.mp4",
+    "bytes": 971866,
+    "sha256": "1048187fca953836022fc656acb2518b1cc130c08d7e08e63af2a1fcb7abdb41"
+  }
+]

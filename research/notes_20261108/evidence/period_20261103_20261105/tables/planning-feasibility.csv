@@ -1,0 +1,9 @@
+layout,variant,planner_success,solver_calls,seeds,robot_episodes
+1,original_20cm,0,3,"0,1,2",0
+1,lift_15cm,3,3,"0,1,2",0
+1,lift_10cm,3,3,"0,1,2",0
+1,lift_5cm,3,3,"0,1,2",0
+3,left,0,3,"0,1,2",0
+3,right,3,3,"0,1,2",0
+4,left,0,3,"0,1,2",0
+4,right,3,3,"0,1,2",0

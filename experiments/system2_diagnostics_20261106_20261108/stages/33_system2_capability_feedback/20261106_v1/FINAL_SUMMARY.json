@@ -1,0 +1,1174 @@
+{
+  "state": "completed",
+  "utc": "2026-11-06T06:35:07.431675+00:00",
+  "question": "Does explicit verified API capability feedback change generated assumptions and native outcomes?",
+  "accounting": {
+    "new_generation_api_calls": 6,
+    "new_generated_candidates": 6,
+    "cpu_general_fixture_checks": 120,
+    "cpu_error_contract_checks": 24,
+    "new_native_cases": 30,
+    "unique_exposed_native_layouts": 5,
+    "new_raw_videos": 90,
+    "offline_gpu_calls": 0,
+    "training_steps": 0,
+    "policy_promotions": 0,
+    "new_paid_api_estimate_usd": 0.1846203,
+    "cumulative_reviewed_api_estimate_usd": 0.3778452,
+    "conservative_combined_reserve_usd": 5.659308,
+    "user_cap_usd": 10
+  },
+  "arms": [
+    {
+      "arm": "legacy_feedback",
+      "generated_candidates": 3,
+      "native_cases": 15,
+      "unique_exposed_layouts": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "candidate_means_100": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "stop_classes": {
+        "returned_after_planning_rejection": 12,
+        "native_step_limit_cancelled_active_execution": 3
+      },
+      "cases_with_post_error_calls": 0,
+      "total_native_full_wall_s": 3092.193081857001
+    },
+    {
+      "arm": "capability_feedback",
+      "generated_candidates": 3,
+      "native_cases": 15,
+      "unique_exposed_layouts": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "candidate_means_100": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "stop_classes": {
+        "returned_after_planning_rejection": 12,
+        "native_step_limit_cancelled_active_execution": 3
+      },
+      "cases_with_post_error_calls": 0,
+      "total_native_full_wall_s": 3096.3175437259997
+    }
+  ],
+  "candidates": [
+    {
+      "candidate": "legacy_feedback_1",
+      "arm": "legacy_feedback",
+      "replicate": 1,
+      "cases": 5,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "stop_classes": {
+        "returned_after_planning_rejection": 5
+      },
+      "native_cohort_full_wall_s": 1034.0503789700006,
+      "generation_total_tokens": 17479,
+      "generation_estimated_usd": 0.0599185
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "arm": "capability_feedback",
+      "replicate": 1,
+      "cases": 5,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "stop_classes": {
+        "returned_after_planning_rejection": 5
+      },
+      "native_cohort_full_wall_s": 1041.1017219920013,
+      "generation_total_tokens": 18354,
+      "generation_estimated_usd": 0.0286248
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "arm": "capability_feedback",
+      "replicate": 2,
+      "cases": 5,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "stop_classes": {
+        "returned_after_planning_rejection": 2,
+        "native_step_limit_cancelled_active_execution": 3
+      },
+      "native_cohort_full_wall_s": 1026.0257333969985,
+      "generation_total_tokens": 18206,
+      "generation_estimated_usd": 0.026091200000000002
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "arm": "legacy_feedback",
+      "replicate": 2,
+      "cases": 5,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "stop_classes": {
+        "returned_after_planning_rejection": 2,
+        "native_step_limit_cancelled_active_execution": 3
+      },
+      "native_cohort_full_wall_s": 1031.0596532140007,
+      "generation_total_tokens": 17591,
+      "generation_estimated_usd": 0.024287299999999998
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "arm": "legacy_feedback",
+      "replicate": 3,
+      "cases": 5,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "stop_classes": {
+        "returned_after_planning_rejection": 5
+      },
+      "native_cohort_full_wall_s": 1027.0830496729996,
+      "generation_total_tokens": 17457,
+      "generation_estimated_usd": 0.0229473
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "arm": "capability_feedback",
+      "replicate": 3,
+      "cases": 5,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "stop_classes": {
+        "returned_after_planning_rejection": 5
+      },
+      "native_cohort_full_wall_s": 1029.190088337,
+      "generation_total_tokens": 17872,
+      "generation_estimated_usd": 0.0227512
+    }
+  ],
+  "cases": [
+    {
+      "candidate": "capability_feedback_1",
+      "arm": "capability_feedback",
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 655,
+      "receipt": "native-campaign/runs/capability_feedback_1/attempt-001/episodes/0.json",
+      "actor_record": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/bba0525feed84e178dc6ac23ad4f6630/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "arm": "capability_feedback",
+      "layout": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 922,
+      "receipt": "native-campaign/runs/capability_feedback_1/attempt-001/episodes/1.json",
+      "actor_record": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/52148063fa2b4b8cbd269bdd679f1791/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "arm": "capability_feedback",
+      "layout": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 675,
+      "receipt": "native-campaign/runs/capability_feedback_1/attempt-001/episodes/2.json",
+      "actor_record": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/7c0adbe769c542749473c73b6814d703/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "arm": "capability_feedback",
+      "layout": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/capability_feedback_1/attempt-001/episodes/3.json",
+      "actor_record": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/ca5985e7ba754434916c37c575602a41/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "arm": "capability_feedback",
+      "layout": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/capability_feedback_1/attempt-001/episodes/4.json",
+      "actor_record": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/09d82ff23ac94dbeb8def7d4d30f9c6a/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "arm": "capability_feedback",
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 655,
+      "receipt": "native-campaign/runs/capability_feedback_2/attempt-001/episodes/0.json",
+      "actor_record": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/31dd6ee1b0bd4f7f90e6300973b0ffa2/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "arm": "capability_feedback",
+      "layout": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "native_step_limit_cancelled_active_execution",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 11,
+      "accepted_approaches": 4,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 1,
+      "post_error_calls": null,
+      "first_error": null,
+      "completed_primitive_steps": 922,
+      "receipt": "native-campaign/runs/capability_feedback_2/attempt-001/episodes/1.json",
+      "actor_record": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/0d3a415005754cafb367c1749e1576ae/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "arm": "capability_feedback",
+      "layout": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 635,
+      "receipt": "native-campaign/runs/capability_feedback_2/attempt-001/episodes/2.json",
+      "actor_record": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/cd9a71b44ebf4d82b6b785679243e178/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "arm": "capability_feedback",
+      "layout": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "native_step_limit_cancelled_active_execution",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 11,
+      "accepted_approaches": 4,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 1,
+      "post_error_calls": null,
+      "first_error": null,
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/capability_feedback_2/attempt-001/episodes/3.json",
+      "actor_record": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/22748b18415f48bc9b2ec2d4222c051e/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "arm": "capability_feedback",
+      "layout": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "native_step_limit_cancelled_active_execution",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 11,
+      "accepted_approaches": 4,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 1,
+      "post_error_calls": null,
+      "first_error": null,
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/capability_feedback_2/attempt-001/episodes/4.json",
+      "actor_record": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/89104ecd133b40f89fc804fec44721d0/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "arm": "capability_feedback",
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 655,
+      "receipt": "native-campaign/runs/capability_feedback_3/attempt-001/episodes/0.json",
+      "actor_record": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/2f44d0156ef94c1188dbf1f1fa27a368/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "arm": "capability_feedback",
+      "layout": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 922,
+      "receipt": "native-campaign/runs/capability_feedback_3/attempt-001/episodes/1.json",
+      "actor_record": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/7a950f021d3a42d8a9349fc521b9152b/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "arm": "capability_feedback",
+      "layout": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 635,
+      "receipt": "native-campaign/runs/capability_feedback_3/attempt-001/episodes/2.json",
+      "actor_record": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/2ccc164489cd4d33bd1df1a37715ff1b/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "arm": "capability_feedback",
+      "layout": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/capability_feedback_3/attempt-001/episodes/3.json",
+      "actor_record": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/4d5e75f2f6364a2ba858b94eff8033a8/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "arm": "capability_feedback",
+      "layout": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/capability_feedback_3/attempt-001/episodes/4.json",
+      "actor_record": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/e98613fc99d444e1a84bd2d8af1e91b0/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "arm": "legacy_feedback",
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 6,
+      "accepted_approaches": 2,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 514,
+      "receipt": "native-campaign/runs/legacy_feedback_1/attempt-001/episodes/0.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/f18e3f92882f403b88ce0d8c4b59a25b/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "arm": "legacy_feedback",
+      "layout": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 801,
+      "receipt": "native-campaign/runs/legacy_feedback_1/attempt-001/episodes/1.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/f40df958d8644046ba1fccaaa0c178d3/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "arm": "legacy_feedback",
+      "layout": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 6,
+      "accepted_approaches": 2,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 534,
+      "receipt": "native-campaign/runs/legacy_feedback_1/attempt-001/episodes/2.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/ee798fafaf42453a857ab697f06b4727/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "arm": "legacy_feedback",
+      "layout": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 801,
+      "receipt": "native-campaign/runs/legacy_feedback_1/attempt-001/episodes/3.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/1b26cfdee3ce4e57a06ad31eff7bbcc3/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "arm": "legacy_feedback",
+      "layout": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 801,
+      "receipt": "native-campaign/runs/legacy_feedback_1/attempt-001/episodes/4.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/81739a5bd74e4e27adee7286492f51cb/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "arm": "legacy_feedback",
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 7,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 655,
+      "receipt": "native-campaign/runs/legacy_feedback_2/attempt-001/episodes/0.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/ca85148093ea4fcbb74e26ce4abff962/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "arm": "legacy_feedback",
+      "layout": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "native_step_limit_cancelled_active_execution",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 1,
+      "post_error_calls": null,
+      "first_error": null,
+      "completed_primitive_steps": 922,
+      "receipt": "native-campaign/runs/legacy_feedback_2/attempt-001/episodes/1.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/d5ac8e39812e4ccc8b8b82a8cb0fc323/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "arm": "legacy_feedback",
+      "layout": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 7,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 675,
+      "receipt": "native-campaign/runs/legacy_feedback_2/attempt-001/episodes/2.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/c075193e20f34dbe9477c52b0449b736/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "arm": "legacy_feedback",
+      "layout": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "native_step_limit_cancelled_active_execution",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 1,
+      "post_error_calls": null,
+      "first_error": null,
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/legacy_feedback_2/attempt-001/episodes/3.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/0a72188fca8143cf9438b8af974a704d/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "arm": "legacy_feedback",
+      "layout": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "native_step_limit_cancelled_active_execution",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 11,
+      "accepted_approaches": 4,
+      "rejected_approaches": 0,
+      "incomplete_approaches": 1,
+      "post_error_calls": null,
+      "first_error": null,
+      "completed_primitive_steps": 948,
+      "receipt": "native-campaign/runs/legacy_feedback_2/attempt-001/episodes/4.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/441400c183724143b3991562f6ca9453/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "arm": "legacy_feedback",
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 655,
+      "receipt": "native-campaign/runs/legacy_feedback_3/attempt-001/episodes/0.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/8ff3e53bbc5441fd96058b54f7c29f6a/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "arm": "legacy_feedback",
+      "layout": 1,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 922,
+      "receipt": "native-campaign/runs/legacy_feedback_3/attempt-001/episodes/1.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/205051c916bd469d856d71436d657c7a/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "arm": "legacy_feedback",
+      "layout": 2,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 8,
+      "accepted_approaches": 3,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 675,
+      "receipt": "native-campaign/runs/legacy_feedback_3/attempt-001/episodes/2.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/ce099726056943c79c75b2262e88cdc3/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "arm": "legacy_feedback",
+      "layout": 3,
+      "score_100": 0.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/legacy_feedback_3/attempt-001/episodes/3.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/ada60d5da8cb4a1e8c21a3f8b96a15e8/0/policy/processes/isolated/process.json"
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "arm": "legacy_feedback",
+      "layout": 4,
+      "score_100": 15.0,
+      "success": false,
+      "native_steps": 1100,
+      "stop_class": "returned_after_planning_rejection",
+      "actor_mapping_qualified": true,
+      "rpc_calls": 10,
+      "accepted_approaches": 4,
+      "rejected_approaches": 1,
+      "incomplete_approaches": 0,
+      "post_error_calls": 0,
+      "first_error": "no_collision_free_path",
+      "completed_primitive_steps": 942,
+      "receipt": "native-campaign/runs/legacy_feedback_3/attempt-001/episodes/4.json",
+      "actor_record": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/43657706ad2c40c9b9916d6a8de51fb0/0/policy/processes/isolated/process.json"
+    }
+  ],
+  "source_memory_binding_checks": [
+    {
+      "candidate": "legacy_feedback_1",
+      "source_sha256": "c4cea1da01a6a1ff3b7242218a654c1afdba8e97e1c663fc276f6a8a22316200",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "source_sha256": "fc765e21f17cf47507f257dd5c85b6f16d756afbd14888988b7dd0526ec137aa",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "source_sha256": "0ec6faade09681c3c551da3e092f655a13852f188a95c8daafb5bcbe0f014676",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "source_sha256": "1cee292e2b9afaa51b583ed36a3dedb98ef8519c9e8f83551332b490e217388a",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "source_sha256": "94cf67fe69216640e3169253016f6fe17db34d3ae9d909acab493f09fb4a8ca9",
+      "source_exact": true,
+      "memory_exact": true
+    }
+  ],
+  "actual_isolated_actor_input_checks": [
+    {
+      "candidate": "legacy_feedback_1",
+      "actor": "1b26cfdee3ce4e57a06ad31eff7bbcc3",
+      "input_file": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/1b26cfdee3ce4e57a06ad31eff7bbcc3/0/policy/root/input.json",
+      "input_sha256": "871635068f628498f90ee30bc25c35b65bc5e46603f02a58ce9ccfc03cbfac77",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "actor": "81739a5bd74e4e27adee7286492f51cb",
+      "input_file": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/81739a5bd74e4e27adee7286492f51cb/0/policy/root/input.json",
+      "input_sha256": "871635068f628498f90ee30bc25c35b65bc5e46603f02a58ce9ccfc03cbfac77",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "actor": "f40df958d8644046ba1fccaaa0c178d3",
+      "input_file": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/f40df958d8644046ba1fccaaa0c178d3/0/policy/root/input.json",
+      "input_sha256": "871635068f628498f90ee30bc25c35b65bc5e46603f02a58ce9ccfc03cbfac77",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "actor": "ee798fafaf42453a857ab697f06b4727",
+      "input_file": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/ee798fafaf42453a857ab697f06b4727/0/policy/root/input.json",
+      "input_sha256": "871635068f628498f90ee30bc25c35b65bc5e46603f02a58ce9ccfc03cbfac77",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_1",
+      "actor": "f18e3f92882f403b88ce0d8c4b59a25b",
+      "input_file": "native-campaign/runs/legacy_feedback_1/attempt-001/model/expert/f18e3f92882f403b88ce0d8c4b59a25b/0/policy/root/input.json",
+      "input_sha256": "871635068f628498f90ee30bc25c35b65bc5e46603f02a58ce9ccfc03cbfac77",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "actor": "bba0525feed84e178dc6ac23ad4f6630",
+      "input_file": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/bba0525feed84e178dc6ac23ad4f6630/0/policy/root/input.json",
+      "input_sha256": "34b02bcd487fbf9ee3d9d46924148d9e6de476bb91aa4100a0c83bf61e26da70",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "actor": "52148063fa2b4b8cbd269bdd679f1791",
+      "input_file": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/52148063fa2b4b8cbd269bdd679f1791/0/policy/root/input.json",
+      "input_sha256": "34b02bcd487fbf9ee3d9d46924148d9e6de476bb91aa4100a0c83bf61e26da70",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "actor": "7c0adbe769c542749473c73b6814d703",
+      "input_file": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/7c0adbe769c542749473c73b6814d703/0/policy/root/input.json",
+      "input_sha256": "34b02bcd487fbf9ee3d9d46924148d9e6de476bb91aa4100a0c83bf61e26da70",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "actor": "ca5985e7ba754434916c37c575602a41",
+      "input_file": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/ca5985e7ba754434916c37c575602a41/0/policy/root/input.json",
+      "input_sha256": "34b02bcd487fbf9ee3d9d46924148d9e6de476bb91aa4100a0c83bf61e26da70",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_1",
+      "actor": "09d82ff23ac94dbeb8def7d4d30f9c6a",
+      "input_file": "native-campaign/runs/capability_feedback_1/attempt-001/model/expert/09d82ff23ac94dbeb8def7d4d30f9c6a/0/policy/root/input.json",
+      "input_sha256": "34b02bcd487fbf9ee3d9d46924148d9e6de476bb91aa4100a0c83bf61e26da70",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "actor": "22748b18415f48bc9b2ec2d4222c051e",
+      "input_file": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/22748b18415f48bc9b2ec2d4222c051e/0/policy/root/input.json",
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "actor": "cd9a71b44ebf4d82b6b785679243e178",
+      "input_file": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/cd9a71b44ebf4d82b6b785679243e178/0/policy/root/input.json",
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "actor": "31dd6ee1b0bd4f7f90e6300973b0ffa2",
+      "input_file": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/31dd6ee1b0bd4f7f90e6300973b0ffa2/0/policy/root/input.json",
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "actor": "89104ecd133b40f89fc804fec44721d0",
+      "input_file": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/89104ecd133b40f89fc804fec44721d0/0/policy/root/input.json",
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_2",
+      "actor": "0d3a415005754cafb367c1749e1576ae",
+      "input_file": "native-campaign/runs/capability_feedback_2/attempt-001/model/expert/0d3a415005754cafb367c1749e1576ae/0/policy/root/input.json",
+      "input_sha256": "b4ce196e80ced359c1cb41dee8987d02586372caa7b1e7f6b47f0056be3453e7",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "actor": "d5ac8e39812e4ccc8b8b82a8cb0fc323",
+      "input_file": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/d5ac8e39812e4ccc8b8b82a8cb0fc323/0/policy/root/input.json",
+      "input_sha256": "5b14ec2c3958eb8563f7742eafadd1d9ea857c2cd7ba265a4da5737e20711959",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "actor": "441400c183724143b3991562f6ca9453",
+      "input_file": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/441400c183724143b3991562f6ca9453/0/policy/root/input.json",
+      "input_sha256": "5b14ec2c3958eb8563f7742eafadd1d9ea857c2cd7ba265a4da5737e20711959",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "actor": "0a72188fca8143cf9438b8af974a704d",
+      "input_file": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/0a72188fca8143cf9438b8af974a704d/0/policy/root/input.json",
+      "input_sha256": "5b14ec2c3958eb8563f7742eafadd1d9ea857c2cd7ba265a4da5737e20711959",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "actor": "c075193e20f34dbe9477c52b0449b736",
+      "input_file": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/c075193e20f34dbe9477c52b0449b736/0/policy/root/input.json",
+      "input_sha256": "5b14ec2c3958eb8563f7742eafadd1d9ea857c2cd7ba265a4da5737e20711959",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_2",
+      "actor": "ca85148093ea4fcbb74e26ce4abff962",
+      "input_file": "native-campaign/runs/legacy_feedback_2/attempt-001/model/expert/ca85148093ea4fcbb74e26ce4abff962/0/policy/root/input.json",
+      "input_sha256": "5b14ec2c3958eb8563f7742eafadd1d9ea857c2cd7ba265a4da5737e20711959",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "actor": "ce099726056943c79c75b2262e88cdc3",
+      "input_file": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/ce099726056943c79c75b2262e88cdc3/0/policy/root/input.json",
+      "input_sha256": "df3289b6b6e90351ae2110d5c13a80e0a68481f8912f431118c99005c16d2687",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "actor": "205051c916bd469d856d71436d657c7a",
+      "input_file": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/205051c916bd469d856d71436d657c7a/0/policy/root/input.json",
+      "input_sha256": "df3289b6b6e90351ae2110d5c13a80e0a68481f8912f431118c99005c16d2687",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "actor": "43657706ad2c40c9b9916d6a8de51fb0",
+      "input_file": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/43657706ad2c40c9b9916d6a8de51fb0/0/policy/root/input.json",
+      "input_sha256": "df3289b6b6e90351ae2110d5c13a80e0a68481f8912f431118c99005c16d2687",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "actor": "8ff3e53bbc5441fd96058b54f7c29f6a",
+      "input_file": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/8ff3e53bbc5441fd96058b54f7c29f6a/0/policy/root/input.json",
+      "input_sha256": "df3289b6b6e90351ae2110d5c13a80e0a68481f8912f431118c99005c16d2687",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "legacy_feedback_3",
+      "actor": "ada60d5da8cb4a1e8c21a3f8b96a15e8",
+      "input_file": "native-campaign/runs/legacy_feedback_3/attempt-001/model/expert/ada60d5da8cb4a1e8c21a3f8b96a15e8/0/policy/root/input.json",
+      "input_sha256": "df3289b6b6e90351ae2110d5c13a80e0a68481f8912f431118c99005c16d2687",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "actor": "2ccc164489cd4d33bd1df1a37715ff1b",
+      "input_file": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/2ccc164489cd4d33bd1df1a37715ff1b/0/policy/root/input.json",
+      "input_sha256": "55653424a0f81f24f2e8d080e5571dc4cd65d82651aa3c2c1151ce882f8aae36",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "actor": "2f44d0156ef94c1188dbf1f1fa27a368",
+      "input_file": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/2f44d0156ef94c1188dbf1f1fa27a368/0/policy/root/input.json",
+      "input_sha256": "55653424a0f81f24f2e8d080e5571dc4cd65d82651aa3c2c1151ce882f8aae36",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "actor": "7a950f021d3a42d8a9349fc521b9152b",
+      "input_file": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/7a950f021d3a42d8a9349fc521b9152b/0/policy/root/input.json",
+      "input_sha256": "55653424a0f81f24f2e8d080e5571dc4cd65d82651aa3c2c1151ce882f8aae36",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "actor": "e98613fc99d444e1a84bd2d8af1e91b0",
+      "input_file": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/e98613fc99d444e1a84bd2d8af1e91b0/0/policy/root/input.json",
+      "input_sha256": "55653424a0f81f24f2e8d080e5571dc4cd65d82651aa3c2c1151ce882f8aae36",
+      "source_exact": true,
+      "memory_exact": true
+    },
+    {
+      "candidate": "capability_feedback_3",
+      "actor": "4d5e75f2f6364a2ba858b94eff8033a8",
+      "input_file": "native-campaign/runs/capability_feedback_3/attempt-001/model/expert/4d5e75f2f6364a2ba858b94eff8033a8/0/policy/root/input.json",
+      "input_sha256": "55653424a0f81f24f2e8d080e5571dc4cd65d82651aa3c2c1151ce882f8aae36",
+      "source_exact": true,
+      "memory_exact": true
+    }
+  ],
+  "source_behavior": {
+    "dynamic_lift_guard_candidates_control": 0,
+    "dynamic_lift_guard_candidates_treatment": 0,
+    "bounded_no_path_fallback_candidates_control": 0,
+    "bounded_no_path_fallback_candidates_treatment": 3
+  },
+  "contract_check": {
+    "state": "completed",
+    "cpu_fixture_cases": 24,
+    "new_native_cases": 0,
+    "new_api_calls": 0,
+    "by_condition": {
+      "legacy_feedback": {
+        "explicit_zero_execution_no_path": [
+          1,
+          1,
+          1
+        ],
+        "uncertain_timeout": [
+          1,
+          1,
+          1
+        ],
+        "unknown_error": [
+          1,
+          1,
+          1
+        ],
+        "first_reject_then_boundary": [
+          1,
+          1,
+          1
+        ]
+      },
+      "capability_feedback": {
+        "explicit_zero_execution_no_path": [
+          2,
+          2,
+          2
+        ],
+        "uncertain_timeout": [
+          1,
+          1,
+          1
+        ],
+        "unknown_error": [
+          1,
+          1,
+          1
+        ],
+        "first_reject_then_boundary": [
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    "hypotheses_held": true,
+    "interpretation": "Verifies generated branching under explicit response contracts, not safe recovery, completed movement or improved task score."
+  },
+  "generation": {
+    "state": "completed",
+    "utc": "2026-11-06T04:38:44.856188+00:00",
+    "arms": [
+      {
+        "arm": "legacy_feedback",
+        "generation_calls": 3,
+        "mean_input": 15316,
+        "mean_output": 2193,
+        "mean_total": 17509,
+        "mean_api_seconds": 26.679284686222672,
+        "estimated_usd": 0.1071531,
+        "dynamic_lift_guards": 0,
+        "bounded_no_path_fallbacks": 0
+      },
+      {
+        "arm": "capability_feedback",
+        "generation_calls": 3,
+        "mean_input": 15755,
+        "mean_output": 2389,
+        "mean_total": 18144,
+        "mean_api_seconds": 28.390337683881324,
+        "estimated_usd": 0.0774672,
+        "dynamic_lift_guards": 0,
+        "bounded_no_path_fallbacks": 3
+      }
+    ],
+    "exact_shared_messages_equal": true,
+    "additional_treatment_input_tokens": 439,
+    "additional_input_percent": 2.8662836249673473,
+    "paid_generation_calls": 6,
+    "estimated_total_usd": 0.1846203,
+    "previous_reviewed_api_estimate_usd": 0.1932249,
+    "cumulative_reviewed_api_estimate_usd": 0.3778452,
+    "combined_conservative_reserve_usd": 5.659308,
+    "native_outcomes": "Pending; source inspection is not a performance conclusion.",
+    "limitations": [
+      "Fixed balanced generation order, not paired deterministic seeds.",
+      "Cache warmth differs by request order; cost/latency difference is not an isolated feedback effect.",
+      "Three generated candidates per arm; five exposed native layouts per candidate, not independent scene samples.",
+      "Both groups independently remove the earlier lift guard; any such change cannot be credited solely to capability treatment.",
+      "Exact generated memory is bound, but all six sources currently do not read the memory parameter."
+    ]
+  },
+  "archive": {
+    "state": "verified",
+    "utc": "2026-11-06T06:33:37.948256+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/34_capability_feedback_20261106",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/native-validation",
+    "verified_files": 23146,
+    "logical_bytes": 1557191519,
+    "manifest_sha256": "11f7ac671d0a8f43c56acde1fadc8d52d7e699093c6c5c56b31faac62f13b379",
+    "native_cases": 30,
+    "videos": 90,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "transfer_recovered_by_verified_batches": true
+  },
+  "retained_policy": "pi05",
+  "selection": "No fresh parent selection or independent heldout acceptance performed; this is a generated-candidate mechanism comparison.",
+  "limitations": [
+    "Three generated candidates per arm; stochastic generations are not matched random seeds",
+    "Five exposed layouts per candidate, not15 independent layouts per arm",
+    "Content and prompt length differ; no attribution solely to length",
+    "Manual diagnostic outcomes are historical evidence, not new autonomous successes",
+    "No full RoboDojo benchmark or causal generalization from this small study",
+    "CPU fixtures are not physical episodes.",
+    "Native stop classifications derive from actual actor records, not episode length alone.",
+    "No inference of full task success from partial score or extra actions.",
+    "Native execution of saved code uses0 paid language-model calls; generation costs are separate."
+  ]
+}

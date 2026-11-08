@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "request_id": "req_de0c6ed0631e4da688db5484c9409cfc",
+  "body": {
+    "id": "chatcmpl-Eh5wF2ozWXCEtFOXc66HdYjF7diVN",
+    "object": "chat.completion",
+    "created": 1793939639,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"source\": \"def policy(robot, memory):\\n    def unit(q):\\n        n = sum(v*v for v in q) ** 0.5\\n        return [v/n for v in q] if n > 0.000001 else None\\n\\n    quats = {\\n        'left': unit([0.613, -0.3593, 0.6163, 0.3392]),\\n        'right': unit([0.3814, -0.6197, 0.3785, 0.572])\\n    }\\n\\n    def scene():\\n        data = robot.scene()\\n        result = []\\n        for key, obj in list(data.get('objects', {}).items())[:64]:\\n            if not isinstance(key, str) or '_' not in key:\\n                continue\\n            category, suffix = key.rsplit('_', 1)\\n            if not category or not suffix.isdigit() or int(suffix) < 1:\\n                continue\\n            p, d = obj.get('pose', []), obj.get('dims', [])\\n            if len(p) != 7 or len(d) != 3:\\n                continue\\n            if not all(isinstance(v, (int, float)) and v == v and abs(v) < 10 for v in list(p) + list(d)):\\n                continue\\n            if not all(v > 0 for v in d):\\n                continue\\n            result.append({'c': category, 'p': list(p), 'd': list(d)})\\n        return result\\n\\n    def inside(item, basket):\\n        p, b, d = item['p'], basket['p'], basket['d']\\n        q = unit(b[3:7])\\n        if q is None:\\n            return False\\n        w, x, y, z = q\\n        dx, dy = p[0]-b[0], p[1]-b[1]\\n        lx = (1-2*(y*y+z*z))*dx + 2*(x*y+w*z)*dy\\n        ly = 2*(x*y-w*z)*dx + (1-2*(x*x+z*z))*dy\\n        return abs(lx) < d[0]/2-0.01 and abs(ly) < d[1]/2-0.01 and abs(p[2]-b[2]) < d[2]/2+item['d'][2]/2+0.025\\n\\n    def move(arm, x, y, z):\\n        result = robot.approach(arm=arm, position_m=[x, y, z], quaternion_wxyz=quats[arm])\\n        if isinstance(result, dict) and result.get('primitive_error'):\\n            raise RuntimeError('Planning unavailable')\\n\\n    def grip(arm, command):\\n        result = robot.gripper(arm=arm, command=command)\\n        if isinstance(result, dict) and result.get('primitive_error'):\\n            raise RuntimeError('Gripper unavailable')\\n\\n    try:\\n        initial = scene()\\n        baskets = sorted([o for o in initial if o['c'] == 'basket'], key=lambda o: (o['p'][0], o['p'][1]))\\n        items = [o for o in initial if o['c'] != 'basket']\\n        categories = sorted(set(o['c'] for o in items))\\n        if not categories or len(categories) > len(baskets):\\n            return\\n\\n        assignments, used = {}, set()\\n        for i, basket in enumerate(baskets):\\n            occupants = set(o['c'] for o in items if inside(o, basket))\\n            if len(occupants) == 1:\\n                category = next(iter(occupants))\\n                if category not in assignments:\\n                    assignments[category] = i\\n                    used.add(i)\\n\\n        pending = [c for c in categories if c not in assignments]\\n        for _ in range(len(pending)):\\n            best = None\\n            for category in pending:\\n                group = [o for o in items if o['c'] == category]\\n                for i, basket in enumerate(baskets):\\n                    if i in used:\\n                        continue\\n                    cost = sum((o['p'][0]-basket['p'][0])**2 + (o['p'][1]-basket['p'][1])**2 for o in group)/len(group)\\n                    candidate = (cost, category, i)\\n                    if best is None or candidate < best:\\n                        best = candidate\\n            if best is None:\\n                return\\n            _, category, i = best\\n            assignments[category] = i\\n            used.add(i)\\n            pending.remove(category)\\n\\n        queue = [o for o in items if not inside(o, baskets[assignments[o['c']]])]\\n        queue.sort(key=lambda o: (o['p'][0]-baskets[assignments[o['c']]]['p'][0])**2 + (o['p'][1]-baskets[assignments[o['c']]]['p'][1])**2)\\n        attempted = []\\n        for original in queue[:8]:\\n            current = scene()\\n            candidates = [o for o in current if o['c'] == original['c'] and (o['p'][0]-original['p'][0])**2 + (o['p'][1]-original['p'][1])**2 < 0.001225]\\n            if len(candidates) != 1:\\n                continue\\n            item = candidates[0]\\n            x, y, z = item['p'][:3]\\n            if any(c == item['c'] and (x-ax)**2 + (y-ay)**2 < 0.000625 for c, ax, ay in attempted):\\n                continue\\n            basket = baskets[assignments[item['c']]]\\n            if inside(item, basket):\\n                continue\\n            bx, by = basket['p'][:2]\\n            arm = 'left' if x+bx < 0 else 'right'\\n            contact = max(0.92, z+0.125)\\n            clearance = max(1.01, contact+0.045)\\n            if clearance > 1.08:\\n                return\\n            attempted.append((item['c'], x, y))\\n            grip(arm, 1)\\n            move(arm, x, y, clearance)\\n            move(arm, x, y, contact)\\n            grip(arm, 0)\\n            move(arm, x, y, clearance)\\n            # Complete this single transfer without interpreting RGB height as grasp proof.\\n            move(arm, bx, by, 1.01)\\n            grip(arm, 1)\\n            move(arm, bx, by, 1.06)\\n        return\\n    except Exception:\\n        # Stop on uncertainty; never retry a grasp or release at a failed waypoint.\\n        return\\n\",\n  \"memory\": {\n    \"lessons\": [\n      \"Parse object names at the final underscore; category strings can contain underscores.\",\n      \"Use basket dimensions and orientation for containment, not a fixed 0.2 metre proximity test.\",\n      \"Assign distinct baskets to categories; do not wrap assignments when baskets are insufficient.\",\n      \"The shared post-lift RGB-height guard stopped every exposed trial before transport. A missing apparent height increase is not reliable evidence of grasp failure.\",\n      \"Use a single bounded pick-transfer-release sequence without retries or claims of grasp success.\",\n      \"Target the object centre plus the supplied tool offset, clamped to the minimum contact height; adding half-height can leave contact unnecessarily high.\",\n      \"Use normalized arm-specific downward quaternions and modest clearance rather than large lifts.\",\n      \"On primitive failure, return without opening a possibly occupied gripper at an arbitrary location.\"\n    ],\n    \"contact_tool_offset_m\": 0.125,\n    \"minimum_contact_tool_z_m\": 0.92,\n    \"basket_release_tool_z_m\": 1.01,\n    \"maximum_object_attempts\": 8\n  },\n  \"rationale\": \"This correction removes the post-lift perception gate that prevented transport in the shared development evidence. It also lowers the grasp target, limits lift height, selects an arm using observed source and destination positions, and replaces broad proximity-based basket exclusion with dimension-aware containment. Category assignments and targets come only from scene observations. Each spatial target receives at most one attempt, and unavailable perception or planning ends execution without an uncertain retry. These changes are proposals; task completion remains for the independent evaluator to determine.\"\n}",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 15316,
+      "completion_tokens": 2141,
+      "total_tokens": 17457,
+      "prompt_tokens_details": {
+        "cached_tokens": 15313,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 243,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

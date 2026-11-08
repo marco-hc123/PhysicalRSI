@@ -1,0 +1,359 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T06:51:03.045013+00:00",
+  "accounting": {
+    "new_native_cases": 5,
+    "new_raw_videos": 15,
+    "reused_control_native_cases": 5,
+    "new_api_calls": 0,
+    "new_generated_candidates": 0,
+    "recorded_prefix_cpu_fixtures": 10,
+    "lab_gpu_used": false,
+    "policy_promotions": 0,
+    "recorded_response_replay_cases": 5,
+    "exploratory_symbolic_cases": 2,
+    "cpu_contract_unique_fixtures": 10,
+    "additional_offline_solver_calls": 12,
+    "prior_stage_actual_wrapper_replays": 10,
+    "counterfactual_saved_prefix_replays": 15,
+    "cpu_contract_validated_on": [
+      "local",
+      "lab",
+      "execution_server"
+    ]
+  },
+  "new_group": {
+    "condition": "fixed_six_turns",
+    "cases": 5,
+    "scores_by_layout_100": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      15.0
+    ],
+    "mean_score_100": 3.0,
+    "successes": 0,
+    "cohort_wall_seconds": 995.492565462001,
+    "close_commands": 18,
+    "completed_approaches": 72,
+    "rejected_approaches": 2,
+    "active_budget_cancel": 0,
+    "transport_attempts": 18,
+    "transport_completed": 18,
+    "transport_rejected": 0,
+    "completed_primitive_action_steps": 826
+  },
+  "reused_control": {
+    "condition": "offset_transport",
+    "cases": 5,
+    "scores_by_layout_100": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      15.0
+    ],
+    "mean_score_100": 3.0,
+    "successes": 0,
+    "cohort_wall_seconds": 985.3597181100004,
+    "completed_approaches": 64,
+    "rejected_approaches": 0,
+    "incomplete_approaches": 0,
+    "active_budget_cancel": 0,
+    "transport_attempts": 16,
+    "transport_completed": 16,
+    "transport_rejected": 0,
+    "close_commands": 16,
+    "closed_checks": 265,
+    "closed_mismatches": 0,
+    "completed_primitive_action_steps": 715
+  },
+  "cases": [
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 0,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 4,
+      "completed_approaches": 16,
+      "rejected_approaches": 0,
+      "active_budget_cancel": false,
+      "transport_attempts": 4,
+      "transport_completed": 4,
+      "transport_rejected": 0,
+      "command_checks": 272,
+      "command_mismatches": 0,
+      "native_actions": 1100,
+      "completed_primitive_action_steps": 176,
+      "actor": "26be61916bb543539e89eddc0e2a420b"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 1,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 4,
+      "completed_approaches": 16,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "transport_attempts": 4,
+      "transport_completed": 4,
+      "transport_rejected": 0,
+      "command_checks": 236,
+      "command_mismatches": 0,
+      "native_actions": 1100,
+      "completed_primitive_action_steps": 181,
+      "actor": "40d775a955ce412eb76b73cd12e68906"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 2,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 2,
+      "completed_approaches": 8,
+      "rejected_approaches": 0,
+      "active_budget_cancel": false,
+      "transport_attempts": 2,
+      "transport_completed": 2,
+      "transport_rejected": 0,
+      "command_checks": 112,
+      "command_mismatches": 0,
+      "native_actions": 1100,
+      "completed_primitive_action_steps": 99,
+      "actor": "4c8faa4b91d04af0bbbab50182c0c676"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 3,
+      "score_100": 0.0,
+      "success": false,
+      "close_commands": 4,
+      "completed_approaches": 16,
+      "rejected_approaches": 0,
+      "active_budget_cancel": false,
+      "transport_attempts": 4,
+      "transport_completed": 4,
+      "transport_rejected": 0,
+      "command_checks": 227,
+      "command_mismatches": 0,
+      "native_actions": 1100,
+      "completed_primitive_action_steps": 173,
+      "actor": "92047decefde4813ac8c45b1c749f011"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 4,
+      "score_100": 15.0,
+      "success": false,
+      "close_commands": 4,
+      "completed_approaches": 16,
+      "rejected_approaches": 1,
+      "active_budget_cancel": false,
+      "transport_attempts": 4,
+      "transport_completed": 4,
+      "transport_rejected": 0,
+      "command_checks": 314,
+      "command_mismatches": 0,
+      "native_actions": 1100,
+      "completed_primitive_action_steps": 197,
+      "actor": "ffce37937b674cda8e1b7d1064ce63ca"
+    }
+  ],
+  "pairs": [
+    {
+      "layout_id": 0,
+      "reused_control_score": 0.0,
+      "new_fixed6_score": 0.0,
+      "score_delta": 0.0,
+      "reused_control_close_commands": 4,
+      "new_fixed6_close_commands": 4,
+      "reused_control_transport_completed": 4,
+      "new_fixed6_transport_completed": 4
+    },
+    {
+      "layout_id": 1,
+      "reused_control_score": 0.0,
+      "new_fixed6_score": 0.0,
+      "score_delta": 0.0,
+      "reused_control_close_commands": 4,
+      "new_fixed6_close_commands": 4,
+      "reused_control_transport_completed": 4,
+      "new_fixed6_transport_completed": 4
+    },
+    {
+      "layout_id": 2,
+      "reused_control_score": 0.0,
+      "new_fixed6_score": 0.0,
+      "score_delta": 0.0,
+      "reused_control_close_commands": 2,
+      "new_fixed6_close_commands": 2,
+      "reused_control_transport_completed": 2,
+      "new_fixed6_transport_completed": 2
+    },
+    {
+      "layout_id": 3,
+      "reused_control_score": 0.0,
+      "new_fixed6_score": 0.0,
+      "score_delta": 0.0,
+      "reused_control_close_commands": 3,
+      "new_fixed6_close_commands": 4,
+      "reused_control_transport_completed": 3,
+      "new_fixed6_transport_completed": 4
+    },
+    {
+      "layout_id": 4,
+      "reused_control_score": 15.0,
+      "new_fixed6_score": 15.0,
+      "score_delta": 0.0,
+      "reused_control_close_commands": 3,
+      "new_fixed6_close_commands": 4,
+      "reused_control_transport_completed": 3,
+      "new_fixed6_transport_completed": 4
+    }
+  ],
+  "source_memory_bindings": [
+    {
+      "layout_id": 3,
+      "source_exact": true,
+      "memory_exact": true,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "input_sha256": "ddf81a3d8d808359f294bcdc7537057f03c6f7baa444f48fdc49d2b61e2b9d8c",
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770"
+    },
+    {
+      "layout_id": 4,
+      "source_exact": true,
+      "memory_exact": true,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "input_sha256": "ddf81a3d8d808359f294bcdc7537057f03c6f7baa444f48fdc49d2b61e2b9d8c",
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde"
+    },
+    {
+      "layout_id": 1,
+      "source_exact": true,
+      "memory_exact": true,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "input_sha256": "ddf81a3d8d808359f294bcdc7537057f03c6f7baa444f48fdc49d2b61e2b9d8c",
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4"
+    },
+    {
+      "layout_id": 0,
+      "source_exact": true,
+      "memory_exact": true,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "input_sha256": "ddf81a3d8d808359f294bcdc7537057f03c6f7baa444f48fdc49d2b61e2b9d8c",
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22"
+    },
+    {
+      "layout_id": 2,
+      "source_exact": true,
+      "memory_exact": true,
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "input_sha256": "ddf81a3d8d808359f294bcdc7537057f03c6f7baa444f48fdc49d2b61e2b9d8c",
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f"
+    }
+  ],
+  "archive": {
+    "state": "verified",
+    "utc": "2026-11-07T06:50:44.762624+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/41_observation_loop_20261107",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1/native-validation",
+    "verified_files": 4460,
+    "logical_bytes": 287839967,
+    "manifest_sha256": "51b64b54cd90c56e60735d215a1043ffbcd13c7b0e20b9137fb1a11652be25b7",
+    "native_cases": 5,
+    "videos": 15,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "transfer_verified_in_batches": true
+  },
+  "retained_policy": "pi05",
+  "interpretation": {
+    "any_positive_score_delta": false,
+    "mean_score_delta": 0.0,
+    "success_delta": 0,
+    "close_command_delta": 2,
+    "transport_completed_delta": 2
+  },
+  "limits": [
+    "5 new treatment episodes;5 prior control episodes reused,not10new executions.",
+    "Different run times and reused development layouts limit causal/generalization claims.",
+    "Six attempts remain a limit; initial category assignments still frozen.",
+    "More attempts,absence of error or successful trajectory is not task completion.",
+    "Original scoring and1100steps unchanged."
+  ],
+  "mechanism_review": {
+    "terminal_reasons": {
+      "no_eligible_visible_choice": 3,
+      "wrapper_converts_rejection_to_exception_candidate_catches_and_returns": 2
+    },
+    "actual_close_commands_by_layout": [
+      4,
+      4,
+      2,
+      4,
+      4
+    ],
+    "initial_visible_items": [
+      4,
+      4,
+      2,
+      3,
+      3
+    ],
+    "layout_object_counts": [
+      8,
+      5,
+      3,
+      7,
+      6
+    ],
+    "newly_seen_unassigned_categories": [
+      {
+        "layout": 0,
+        "categories": [
+          "watch"
+        ]
+      }
+    ],
+    "qualified_object_associations": 18,
+    "close_cycles": 18,
+    "low_lift_under_1cm": 7,
+    "scoring_condition_audit": "scoring-condition-audit.json",
+    "symbolic_position_exclusion": "position-exclusion-audit.json",
+    "wrapper_exception_layouts": [
+      1,
+      4
+    ],
+    "planner_probe": [
+      {
+        "source_layout_id": 1,
+        "condition": "recorded_arm",
+        "calls": 3,
+        "trajectories": 0
+      },
+      {
+        "source_layout_id": 1,
+        "condition": "candidate_fallback_arm",
+        "calls": 3,
+        "trajectories": 3
+      },
+      {
+        "source_layout_id": 4,
+        "condition": "recorded_arm",
+        "calls": 3,
+        "trajectories": 0
+      },
+      {
+        "source_layout_id": 4,
+        "condition": "candidate_fallback_arm",
+        "calls": 3,
+        "trajectories": 3
+      }
+    ],
+    "upstream_attribution": "driver-contract-provenance/attribution.json",
+    "superseded_analysis": "terminal-replay.json v1 terminal explanations for layouts1,4 superseded by actual-driver replay v2"
+  }
+}

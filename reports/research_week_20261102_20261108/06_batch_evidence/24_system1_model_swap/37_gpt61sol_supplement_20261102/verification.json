@@ -1,0 +1,15 @@
+{
+  "formal_cases": 10,
+  "formal_http_attempts": 10,
+  "smoke_requests": 1,
+  "unknown_usage_attempts": 0,
+  "truncated_responses": 0,
+  "ppt_modified": false,
+  "native_control_limit_and_interval_verified": true,
+  "provider_usage_matches_metadata": true,
+  "all_formal_sha256_match_budget_ledger": true,
+  "secret_scan_files": 118,
+  "secret_matches": 0,
+  "manifest_hashes_verified": true,
+  "estimated_cost_upper_usd": 0.30173
+}

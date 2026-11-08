@@ -1,0 +1,11 @@
+candidate,arm,layout,error_events,errors_before_first_close,errors_after_close_before_open,errors_after_open_following_close,errors_followed_by_approach,alternate_arm_followups,completed_next_approaches,native_step_limit_cancelled
+dense,dense,0,1,0,1,0,0,0,0,False
+dense,dense,1,0,0,0,0,0,0,0,True
+dense,dense,2,1,0,1,0,0,0,0,False
+dense,dense,3,0,0,0,0,0,0,0,True
+dense,dense,4,0,0,0,0,0,0,0,True
+released_waypoint_thinning,released_waypoint_thinning,0,1,0,1,0,0,0,0,False
+released_waypoint_thinning,released_waypoint_thinning,1,1,0,1,0,0,0,0,False
+released_waypoint_thinning,released_waypoint_thinning,2,1,0,1,0,0,0,0,False
+released_waypoint_thinning,released_waypoint_thinning,3,1,0,1,0,0,0,0,False
+released_waypoint_thinning,released_waypoint_thinning,4,1,0,1,0,0,0,0,False

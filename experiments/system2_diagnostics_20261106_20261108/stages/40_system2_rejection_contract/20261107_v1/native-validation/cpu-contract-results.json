@@ -1,0 +1,67 @@
+{
+  "state": "passed",
+  "fixtures": 6,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "gpu_used": false,
+  "original_driver_sha256": "cf73ad8466d2a9445cb10f95bcd2ab6c1bc31fc7ff49c6a89b0a99607e10cd29",
+  "patched_driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+  "rows": [
+    {
+      "mode": "original",
+      "response": "success",
+      "raises": null,
+      "returned": {
+        "state": {},
+        "action_steps": 1
+      }
+    },
+    {
+      "mode": "original",
+      "response": "zero_action_rejection",
+      "raises": "No collision-free path; no action executed by this call",
+      "returned": null
+    },
+    {
+      "mode": "original",
+      "response": "other_error",
+      "raises": null,
+      "returned": {
+        "primitive_error": "unknown",
+        "state": {}
+      }
+    },
+    {
+      "mode": "structured",
+      "response": "success",
+      "raises": null,
+      "returned": {
+        "state": {},
+        "action_steps": 1
+      }
+    },
+    {
+      "mode": "structured",
+      "response": "zero_action_rejection",
+      "raises": null,
+      "returned": {
+        "primitive_error": "no_collision_free_path",
+        "state": {},
+        "action_steps": 0
+      }
+    },
+    {
+      "mode": "structured",
+      "response": "other_error",
+      "raises": null,
+      "returned": {
+        "primitive_error": "unknown",
+        "state": {}
+      }
+    }
+  ],
+  "limits": [
+    "Protocol fixtures only; no physical outcome.",
+    "Five saved native tapes and bounded alternate-arm continuations are independently validated by prior stage driver-contract-replay-v2.json."
+  ]
+}

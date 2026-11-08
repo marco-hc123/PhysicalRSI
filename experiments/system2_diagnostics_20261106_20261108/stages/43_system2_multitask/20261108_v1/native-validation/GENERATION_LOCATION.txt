@@ -1,0 +1,3 @@
+The active paid-generation worker is on the local relay computer, not the lab server. The initial lab interactive SSH worker exited before model access or any paid request; no duplicate API batch was launched.
+Canonical current ledger: local multitask_system2_20261108/ledger.json. Verified immutable snapshots are copied into this result directory under generation-snapshots/<task>/. The complete native archive will contain both snapshots.
+Do not restart run_generation.py on the lab host: check CONTINUATION.json, local coordinator-status.json and generation snapshots first. The API key was supplied via a no-echo terminal, retained only in worker memory, and is not archived.

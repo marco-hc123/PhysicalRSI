@@ -1,0 +1,9 @@
+{
+  "pid": 3209,
+  "launched_utc": "2026-11-06T02:45:26.318630+00:00",
+  "script": "/mnt/data/physical-RSI/result/32_lift_gate_validation_20261106/run_native.py",
+  "script_sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8",
+  "python": "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python",
+  "planned_native_cases": 10,
+  "api_calls": 0
+}

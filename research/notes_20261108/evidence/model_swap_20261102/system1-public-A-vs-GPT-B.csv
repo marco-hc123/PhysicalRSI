@@ -1,0 +1,5 @@
+﻿task,A_method,A_mean_total,A_mean_uncached_metric,A_successes,B_model,B_mean_total,B_mean_uncached_metric,B_successes,A_div_B_total,A_div_B_uncached_metric
+classify_objects,mix,11193280.4,321702.8,3,gpt-6.1-sol,11661.6,11661.6,1,959.8408794676545,27.586506139809288
+classify_objects,gpt,22906180.8,431838.4,5,gpt-6.1-sol,11661.6,11661.6,1,1964.239967071414,37.03080194827468
+classify_objects_by_language,mix,14423783.8,340199.80000000075,1,gpt-6.1-sol,11719.4,11719.4,2,1230.7612847074083,29.02877280406853
+classify_objects_by_language,gpt,37611460.2,935722.6000000015,2,gpt-6.1-sol,11719.4,11719.4,2,3209.33325938188,79.84389985835465

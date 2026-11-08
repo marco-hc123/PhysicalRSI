@@ -1,0 +1,13 @@
+候选与完整已有技能：能力接口差异审查
+
+范围：本次冻结复现接口和capability_feedback_2，并非PhysicalRSI所有版本或所有System2能力。
+
+1. 候选可调用的四个主要接口为scene、reobserve、approach、gripper。scene返回感知后投影的物体pose/dims；Backend.estimate把物体姿态统一写为单位四元数，尺寸按类别配置，Z来自Reader名义高度。候选没有通过该接口获得原始RGB、目标检测框、形状推断或真实动态物体高度。
+2. reobserve/动作返回按dimensions投影，保留左右臂关节及抓手开度；没有向候选返回原始观测中的末端世界pose。完整Motion控制器则直接读取实际末端pose，并用于抬升及后续姿态选择。
+3. 候选approach走精确XYZ+quaternion的plan_pose，再执行轨迹。完整控制器还会执行grasp_shape、qualify_grasp、cone/axis IK、joint-space规划、末端到位检测与源物体重新观测。两者底层求解器虽有关联，但可使用的能力并不等价。
+4. 本候选进一步只采用两组固定抓取四元数、最多6次搬运循环，闭爪后无规划拒绝恢复，无显式归位；这些是候选程序的具体选择，不是四接口理论上绝对不能完成任何任务的证明。
+5. 因此，完整技能参照优于候选时，不能直接归因于LLM的推理能力不足。可能涉及可用信息和动作能力差异、程序覆盖以及任务恢复设计，必须逐项控制实验。参照同样失败也不能证明整个模型或System2机制普遍无效。
+6. 下一步合理顺序是先验证最小搬运单元及可执行目标，再把经过验收的能力通过有明确前置/后置条件的接口提供给候选；随后固定接口、起始候选和预算，才比较System2反馈/改写机制。不能只增加提示词和候选数而忽略执行契约。
+
+证据入口：primitive-capabilities-source.txt（bindings、state投影、approach、gripper）；native-validation/analysis/reference-controller/model.py及motion.py；native-validation/inherited-runtime.json中的policy_spec/configuration/dimensions；既有25_system2_integration/integration-sources/step4_native_primitives_v3.py。接口源码及发布包哈希由运行前后inventory校验支持。
+这些差异属于源码证据；其任务效果需要原生实验，不给出凭空的能力上限或节省比例。

@@ -1,0 +1,3226 @@
+{
+  "server_install_verified": true,
+  "installed_utc": "2026-11-08T12:12:50.874955+00:00",
+  "server_research_root": "/mnt/data/joey_tr/physical-RSI/research",
+  "source_count": 357,
+  "original_archive": "research/notes_20261108/snapshot-originals.jsonl.gz",
+  "original_archive_sha256": "85d638480c7453406e6a89b99c9645e68151b8394d6dcc9fd5f75c5c02e1a084",
+  "files": [
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.claude/settings.json",
+      "source_sha256": "e9f14ac34e16cfa62f6e01c751b4eb2bc523af6500e887d7aff8425c1ad0dbf7",
+      "source_bytes": 1352,
+      "repository_path": "research/notes_20261108/.claude/settings.json",
+      "sha256": "e9f14ac34e16cfa62f6e01c751b4eb2bc523af6500e887d7aff8425c1ad0dbf7",
+      "bytes": 1352,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.claude/skills/README.md",
+      "source_sha256": "366791e574201445072707ba9cc2f3add0a79ae7b022dc843d1ba765f5ec6170",
+      "source_bytes": 1356,
+      "repository_path": "research/notes_20261108/.claude/skills/README.md",
+      "sha256": "366791e574201445072707ba9cc2f3add0a79ae7b022dc843d1ba765f5ec6170",
+      "bytes": 1356,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.claude/skills/eli5-idea/SKILL.md",
+      "source_sha256": "9be52ec651cab52ff5e7f62998c5150df4f93315b14c2fd772090377d0185d6c",
+      "source_bytes": 2466,
+      "repository_path": "research/notes_20261108/.claude/skills/eli5-idea/SKILL.md",
+      "sha256": "9be52ec651cab52ff5e7f62998c5150df4f93315b14c2fd772090377d0185d6c",
+      "bytes": 2466,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.claude/skills/grill-me/SKILL.md",
+      "source_sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54",
+      "source_bytes": 147,
+      "repository_path": "research/notes_20261108/.claude/skills/grill-me/SKILL.md",
+      "sha256": "6189dfceb7304a6e5558f75d87e68fa3bc7fcf7ba120e44f21f8a61fe01eba54",
+      "bytes": 147,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.claude/skills/grilling/SKILL.md",
+      "source_sha256": "fe00af3e1815f97c0a7644605479328a726b5cd95ba6ef56a4be2a92fae6c20f",
+      "source_bytes": 666,
+      "repository_path": "research/notes_20261108/.claude/skills/grilling/SKILL.md",
+      "sha256": "fe00af3e1815f97c0a7644605479328a726b5cd95ba6ef56a4be2a92fae6c20f",
+      "bytes": 666,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.githooks/pre-commit",
+      "source_sha256": "7a0e4e3e5e3ff14db4d8f56f0ba7e9f8bb325ad14db2ece5bde732ec85991ae6",
+      "source_bytes": 450,
+      "repository_path": "research/notes_20261108/.githooks/pre-commit",
+      "sha256": "7a0e4e3e5e3ff14db4d8f56f0ba7e9f8bb325ad14db2ece5bde732ec85991ae6",
+      "bytes": 450,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.gitignore",
+      "source_sha256": "d7531f2df91c5516958d5354af9ed77ce8d7974616d9794b62b2c0bb1302071a",
+      "source_bytes": 611,
+      "repository_path": "research/notes_20261108/.gitignore",
+      "sha256": "d7531f2df91c5516958d5354af9ed77ce8d7974616d9794b62b2c0bb1302071a",
+      "bytes": 611,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/.variant-manifest",
+      "source_sha256": "93e381ab5b2f04a93ab94e4515d3428505e37f73006f121525fc6c1f97249858",
+      "source_bytes": 1043,
+      "repository_path": "research/notes_20261108/.variant-manifest",
+      "sha256": "93e381ab5b2f04a93ab94e4515d3428505e37f73006f121525fc6c1f97249858",
+      "bytes": 1043,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/AGENTS.md",
+      "source_sha256": "f8ee99a811193a9cc847681338bb5f5ad7bb781d0674cf0a92a17fdcf5890da1",
+      "source_bytes": 22801,
+      "repository_path": "research/notes_20261108/AGENTS.snapshot.txt",
+      "sha256": "f8ee99a811193a9cc847681338bb5f5ad7bb781d0674cf0a92a17fdcf5890da1",
+      "bytes": 22801,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/AGENT_PROVENANCE.md",
+      "source_sha256": "c4fe01a18de26159f8c40cf0ca52789be203befdcf3169304b6e429b8494b4ad",
+      "source_bytes": 2837,
+      "repository_path": "research/notes_20261108/AGENT_PROVENANCE.md",
+      "sha256": "c4fe01a18de26159f8c40cf0ca52789be203befdcf3169304b6e429b8494b4ad",
+      "bytes": 2837,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/CLAUDE.md",
+      "source_sha256": "79f9eec6a30bfd9afc2dc71dbb25b7a52f8067fdaa5253f75ce7e13dcf5f706b",
+      "source_bytes": 155,
+      "repository_path": "research/notes_20261108/CLAUDE.snapshot.txt",
+      "sha256": "79f9eec6a30bfd9afc2dc71dbb25b7a52f8067fdaa5253f75ce7e13dcf5f706b",
+      "bytes": 155,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/CONTINUATION.md",
+      "source_sha256": "5502e82329fcfa02a11f44e3ea5f1b0d06818626cfafd3d9b835f71b639d4a68",
+      "source_bytes": 9976,
+      "repository_path": "research/notes_20261108/CONTINUATION.md",
+      "sha256": "5502e82329fcfa02a11f44e3ea5f1b0d06818626cfafd3d9b835f71b639d4a68",
+      "bytes": 9976,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/Discussion/Archive/.gitkeep",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "repository_path": "research/notes_20261108/Discussion/Archive/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/Discussion/Archive/README.md",
+      "source_sha256": "39963d8d4288bab296e94ed7fc3877131ab27986cf75af6ca350becdf6e80648",
+      "source_bytes": 566,
+      "repository_path": "research/notes_20261108/Discussion/Archive/README.md",
+      "sha256": "39963d8d4288bab296e94ed7fc3877131ab27986cf75af6ca350becdf6e80648",
+      "bytes": 566,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/Discussion.md",
+      "source_sha256": "325b518c3538dcd39f9dc029e93af78ccf7b0b656cb75615197236b5a1ca94c9",
+      "source_bytes": 7751,
+      "repository_path": "research/notes_20261108/Discussion.md",
+      "sha256": "325b518c3538dcd39f9dc029e93af78ccf7b0b656cb75615197236b5a1ca94c9",
+      "bytes": 7751,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/HISTORY.md",
+      "source_sha256": "8282cb61f7e4fc4c879fc563db64f7df4d8dd8b9017384d421f4586bad64894c",
+      "source_bytes": 8473,
+      "repository_path": "research/notes_20261108/HISTORY.md",
+      "sha256": "317ce5261c4b26ed0f0d27b1be59b878e43896fc97f7b63cf57a71ecab071ae9",
+      "bytes": 9406,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/HISTORY_2026-11-03_to_2026-11-05.md",
+      "source_sha256": "66d29f36717a472195d035c03568a42f30b8744930d622095304abeb222c0d7e",
+      "source_bytes": 10563,
+      "repository_path": "research/notes_20261108/HISTORY_2026-11-03_to_2026-11-05.md",
+      "sha256": "66d29f36717a472195d035c03568a42f30b8744930d622095304abeb222c0d7e",
+      "bytes": 10563,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/HISTORY_2026-11-05_to_2026-11-08.md",
+      "source_sha256": "b7989f05fd7cdee98e15e11f156bfa79e3e1e8437bba1915952283bf27599f51",
+      "source_bytes": 7041,
+      "repository_path": "research/notes_20261108/HISTORY_2026-11-05_to_2026-11-08.md",
+      "sha256": "b7989f05fd7cdee98e15e11f156bfa79e3e1e8437bba1915952283bf27599f51",
+      "bytes": 7041,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/HISTORY_THROUGH_2026-11-02.md",
+      "source_sha256": "cebd5ca5e1f0a3f81f6a91a40c351a43bc735a63b703de6256406068d12e41ff",
+      "source_bytes": 9503,
+      "repository_path": "research/notes_20261108/HISTORY_THROUGH_2026-11-02.md",
+      "sha256": "cebd5ca5e1f0a3f81f6a91a40c351a43bc735a63b703de6256406068d12e41ff",
+      "bytes": 9503,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/IDEATION_REVIEW.md",
+      "source_sha256": "4039a700d4c5e89efdc56590a93a077a698b55a09512a306946862403e1fb666",
+      "source_bytes": 1709,
+      "repository_path": "research/notes_20261108/IDEATION_REVIEW.md",
+      "sha256": "4039a700d4c5e89efdc56590a93a077a698b55a09512a306946862403e1fb666",
+      "bytes": 1709,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/LOGS/2026-W44-activity.md",
+      "source_sha256": "1b1b21bdc144e43b69c9c07e24e1ebc908285b6a9229917f21fd89267e66660d",
+      "source_bytes": 2963,
+      "repository_path": "research/notes_20261108/LOGS/2026-W44-activity.md",
+      "sha256": "1b1b21bdc144e43b69c9c07e24e1ebc908285b6a9229917f21fd89267e66660d",
+      "bytes": 2963,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/LOGS/2026-W44.md",
+      "source_sha256": "19ae643368f4ed349223ee5d02a7a2f50618e1c59bbb77154f1696395a82a1ab",
+      "source_bytes": 73663,
+      "repository_path": "research/notes_20261108/LOGS/2026-W44.md",
+      "sha256": "19ae643368f4ed349223ee5d02a7a2f50618e1c59bbb77154f1696395a82a1ab",
+      "bytes": 73663,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/LOGS/2026-W45-activity.md",
+      "source_sha256": "872d372e8ab505d97eb4aec0ea9d4db1bcfa07b9635b8c4c98b73213604b3bd5",
+      "source_bytes": 6646,
+      "repository_path": "research/notes_20261108/LOGS/2026-W45-activity.md",
+      "sha256": "872d372e8ab505d97eb4aec0ea9d4db1bcfa07b9635b8c4c98b73213604b3bd5",
+      "bytes": 6646,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/LOGS/2026-W45.md",
+      "source_sha256": "85433498639c04b3dbfff2040e2ec41a942dc7e7e0afaa6e884bee1fed664d17",
+      "source_bytes": 85082,
+      "repository_path": "research/notes_20261108/LOGS/2026-W45.md",
+      "sha256": "85433498639c04b3dbfff2040e2ec41a942dc7e7e0afaa6e884bee1fed664d17",
+      "bytes": 85082,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/LOGS/README.md",
+      "source_sha256": "fb66cb0ce719e7fb0cf1ad630d324ccf9d069fe2ebff3d6a31c87359476bbd25",
+      "source_bytes": 3633,
+      "repository_path": "research/notes_20261108/LOGS/README.md",
+      "sha256": "fb66cb0ce719e7fb0cf1ad630d324ccf9d069fe2ebff3d6a31c87359476bbd25",
+      "bytes": 3633,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/MODE.md",
+      "source_sha256": "d178be59b88462fe7c3d961fb1ad45910e69e81cc1eeea18b4b8a9d28af8bd34",
+      "source_bytes": 368,
+      "repository_path": "research/notes_20261108/MODE.md",
+      "sha256": "d178be59b88462fe7c3d961fb1ad45910e69e81cc1eeea18b4b8a9d28af8bd34",
+      "bytes": 368,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/README.md",
+      "source_sha256": "494cf6c47141e5fa7f1db27a1cae8a33bf453b77e01068870ca380e9aa03ec2a",
+      "source_bytes": 3417,
+      "repository_path": "research/notes_20261108/README.md",
+      "sha256": "4c52e062b8ca0b96aac97276e71628fb1d28371fd9184516fcb967e90bee4808",
+      "bytes": 3502,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/TIMELINE.md",
+      "source_sha256": "cbc827eb3f0878684c55b5b2bfc84bbacfd6660c9b41ea4351f5d97ff98989c8",
+      "source_bytes": 5059,
+      "repository_path": "research/notes_20261108/TIMELINE.md",
+      "sha256": "cbc827eb3f0878684c55b5b2bfc84bbacfd6660c9b41ea4351f5d97ff98989c8",
+      "bytes": 5059,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/TOKEN_ANALYSIS.md",
+      "source_sha256": "5decb348619996cb2f25f754abbc45d794425e544fbac662ee9d46bb7e077360",
+      "source_bytes": 11697,
+      "repository_path": "research/notes_20261108/TOKEN_ANALYSIS.md",
+      "sha256": "5decb348619996cb2f25f754abbc45d794425e544fbac662ee9d46bb7e077360",
+      "bytes": 11697,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/baseline/README.md",
+      "source_sha256": "3656cbdf3c9192bbf008acea2c8e3fe94976e388f2adedf397d8e6b3c0ea2e8b",
+      "source_bytes": 439,
+      "repository_path": "research/notes_20261108/baseline/README.md",
+      "sha256": "8a4fffea88e5f0db60a9d5687471685a58806cbd0707e119f07d282ffbb7a6c6",
+      "bytes": 489,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/code/README.md",
+      "source_sha256": "9025c58921d7f8aefc9123de4aa9ae45ed2d887e9be57544fd641f7e415877ed",
+      "source_bytes": 617,
+      "repository_path": "research/notes_20261108/code/README.md",
+      "sha256": "d148c326d6864e5e2a0f4cd2fd2e694752e744f8f8a567bb17defd6dc84e98ea",
+      "bytes": 717,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/README.md",
+      "source_sha256": "99d1238be8d09a48f6523fa40541b5fd12d0fb173b4a861da709f78528683954",
+      "source_bytes": 1624,
+      "repository_path": "research/notes_20261108/evidence/README.md",
+      "sha256": "99d1238be8d09a48f6523fa40541b5fd12d0fb173b4a861da709f78528683954",
+      "bytes": 1624,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/api120-raw-recomputed.json",
+      "source_sha256": "9874143b1093be870fff557548b20b36e61910ffc3008737e5631b6b5013ff47",
+      "source_bytes": 1362,
+      "repository_path": "research/notes_20261108/evidence/api120-raw-recomputed.json",
+      "sha256": "9874143b1093be870fff557548b20b36e61910ffc3008737e5631b6b5013ff47",
+      "bytes": 1362,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/catalogue_ablation.csv",
+      "source_sha256": "fa479f3298c115f9f296af75d16bad0d2634e1ffd0f68b9996519abbdd386fb0",
+      "source_bytes": 316,
+      "repository_path": "research/notes_20261108/evidence/catalogue_ablation.csv",
+      "sha256": "fa479f3298c115f9f296af75d16bad0d2634e1ffd0f68b9996519abbdd386fb0",
+      "bytes": 316,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/independent-final-episodes.csv",
+      "source_sha256": "c1cd72f47fb586eb66bfbcd9e1e65c55aa3bc210cbfcb8ffc4204fe14674c445",
+      "source_bytes": 7391,
+      "repository_path": "research/notes_20261108/evidence/independent-final-episodes.csv",
+      "sha256": "c1cd72f47fb586eb66bfbcd9e1e65c55aa3bc210cbfcb8ffc4204fe14674c445",
+      "bytes": 7391,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/matched-token-components.csv",
+      "source_sha256": "86bc5e032753a8c51a9651afd1606c2403fa5add7a88cba1a01887ae72a4e40b",
+      "source_bytes": 4170,
+      "repository_path": "research/notes_20261108/evidence/matched-token-components.csv",
+      "sha256": "86bc5e032753a8c51a9651afd1606c2403fa5add7a88cba1a01887ae72a4e40b",
+      "bytes": 4170,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/matched_comparison_recomputed.csv",
+      "source_sha256": "a22e2518c2e25bb8b1c3213f2521bdfaec0d327b675aa8615657d234f5aae74e",
+      "source_bytes": 1219,
+      "repository_path": "research/notes_20261108/evidence/matched_comparison_recomputed.csv",
+      "sha256": "a22e2518c2e25bb8b1c3213f2521bdfaec0d327b675aa8615657d234f5aae74e",
+      "bytes": 1219,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/README.md",
+      "source_sha256": "3d321b329cc6ee982bf2730dca5d38f85429013940044b3576ff3f11d237bd69",
+      "source_bytes": 975,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/README.md",
+      "sha256": "5ee57d5a00d35f8fab5985961eca64ca3cc53e7caa941f4f054b073ec188f0c6",
+      "bytes": 1025,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/REPORT_INTEGRATION.md",
+      "source_sha256": "e75f8e9b305f45d879a06dc6a3080b80fc320e00670050c245591c8f95099ee9",
+      "source_bytes": 8964,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/REPORT_INTEGRATION.md",
+      "sha256": "e75f8e9b305f45d879a06dc6a3080b80fc320e00670050c245591c8f95099ee9",
+      "bytes": 8964,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/accounting.csv",
+      "source_sha256": "a16d3cc983235e19b87b14cce3c909d65a9dde0d58dc4d5e9846e19b9bd15120",
+      "source_bytes": 535,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/accounting.csv",
+      "sha256": "a16d3cc983235e19b87b14cce3c909d65a9dde0d58dc4d5e9846e19b9bd15120",
+      "bytes": 535,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/offline_verification.json",
+      "source_sha256": "6ae9a8ade3d0ea7b62ea73cb81b54facf46dc553340142e38b305fa5b262b79b",
+      "source_bytes": 6145,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/offline_verification.json",
+      "sha256": "6ae9a8ade3d0ea7b62ea73cb81b54facf46dc553340142e38b305fa5b262b79b",
+      "bytes": 6145,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/system1-group-results.csv",
+      "source_sha256": "ca4ef0ee6244653bc1457f5351b9f93154dce5612ff34b57fefea0675b041afe",
+      "source_bytes": 761,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/system1-group-results.csv",
+      "sha256": "ca4ef0ee6244653bc1457f5351b9f93154dce5612ff34b57fefea0675b041afe",
+      "bytes": 761,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/system1-paired-contract-checks.csv",
+      "source_sha256": "8005ee9fb90775c86f40ac8068cbf0d25051f91b680967b26ac3de0cdd14e4db",
+      "source_bytes": 4710,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/system1-paired-contract-checks.csv",
+      "sha256": "8005ee9fb90775c86f40ac8068cbf0d25051f91b680967b26ac3de0cdd14e4db",
+      "bytes": 4710,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/system1-public-A-vs-GPT-B.csv",
+      "source_sha256": "346497a124c93687f5ee8752fc9655e6f5caf50b36941d5081799ee531e60580",
+      "source_bytes": 644,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/system1-public-A-vs-GPT-B.csv",
+      "sha256": "346497a124c93687f5ee8752fc9655e6f5caf50b36941d5081799ee531e60580",
+      "bytes": 644,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/system2-episode-results.csv",
+      "source_sha256": "03335839296faa103b43c2c3e20514407b0885b7c95d30df8df28a3fd4c1836c",
+      "source_bytes": 3590,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/system2-episode-results.csv",
+      "sha256": "03335839296faa103b43c2c3e20514407b0885b7c95d30df8df28a3fd4c1836c",
+      "bytes": 3590,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/model_swap_20261102/system2-summary.json",
+      "source_sha256": "e1fb0aa8939e5b144a4b7eccb78d0c1ae897dbb328ff243725e8cfeac615047b",
+      "source_bytes": 3558,
+      "repository_path": "research/notes_20261108/evidence/model_swap_20261102/system2-summary.json",
+      "sha256": "e1fb0aa8939e5b144a4b7eccb78d0c1ae897dbb328ff243725e8cfeac615047b",
+      "bytes": 3558,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/outcome-cost-strata.csv",
+      "source_sha256": "3b0a163ea2fecd806a8369ebda3d9b5e773cc94d8a9ca5d633c79e268d703237",
+      "source_bytes": 12841,
+      "repository_path": "research/notes_20261108/evidence/outcome-cost-strata.csv",
+      "sha256": "3b0a163ea2fecd806a8369ebda3d9b5e773cc94d8a9ca5d633c79e268d703237",
+      "bytes": 12841,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/README.md",
+      "source_sha256": "dd35acd95c2b75d707a176bcfa771631198efd4b2f1446d74c92918865852f07",
+      "source_bytes": 3341,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/README.md",
+      "sha256": "dd35acd95c2b75d707a176bcfa771631198efd4b2f1446d74c92918865852f07",
+      "bytes": 3341,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/content-profiles.jsonl.gz",
+      "source_sha256": "b91197a772ac9d9f62ec304905f01af48992b0d8775ab56fcd1fecbb73c6cc9e",
+      "source_bytes": 238349,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/content-profiles.jsonl.gz",
+      "sha256": "b91197a772ac9d9f62ec304905f01af48992b0d8775ab56fcd1fecbb73c6cc9e",
+      "bytes": 238349,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/file-ledger.jsonl.gz",
+      "source_sha256": "013ef477f645c0b801cd2714285149cda6e04d5c37805cc25ac362a30b7242b1",
+      "source_bytes": 1480970,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/file-ledger.jsonl.gz",
+      "sha256": "013ef477f645c0b801cd2714285149cda6e04d5c37805cc25ac362a30b7242b1",
+      "bytes": 1480970,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local-receipts-manifest.json",
+      "source_sha256": "4e8d7a3c3c7c6c9420fe72fcd2618f75d0d9e06ea5f5d88c96b89064615f4de0",
+      "source_bytes": 10832,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local-receipts-manifest.json",
+      "sha256": "4e8d7a3c3c7c6c9420fe72fcd2618f75d0d9e06ea5f5d88c96b89064615f4de0",
+      "bytes": 10832,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/attribution_review/round1_candidate_verified.py",
+      "source_sha256": "a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8",
+      "source_bytes": 2000,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/attribution_review/round1_candidate_verified.py",
+      "sha256": "a425b904c62f1637c040765e23e49a180e4b4803c04109ce10f7b5a16346e4e8",
+      "bytes": 2000,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/attribution_review/round2_candidate_verified.py",
+      "source_sha256": "3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195",
+      "source_bytes": 3540,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/attribution_review/round2_candidate_verified.py",
+      "sha256": "3a0fc9f9dc6d8b49ff6a5b234feca660f4d8cc5e4259c36d4a273f9802068195",
+      "bytes": 3540,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/attribution_review/status.json",
+      "source_sha256": "c78eb35ea83a3efb46bb210c4716cb94de24fd580de59961eaa2a4b91f391373",
+      "source_bytes": 914,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/attribution_review/status.json",
+      "sha256": "c78eb35ea83a3efb46bb210c4716cb94de24fd580de59961eaa2a4b91f391373",
+      "bytes": 914,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/attribution_review/verified-evidence.json",
+      "source_sha256": "759ea087b817a403512daaff8b1593a7386f984800d013b83e4a7b77381800c5",
+      "source_bytes": 2013513,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/attribution_review/verified-evidence.json",
+      "sha256": "759ea087b817a403512daaff8b1593a7386f984800d013b83e4a7b77381800c5",
+      "bytes": 2013513,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/attribution_review/核查说明.txt",
+      "source_sha256": "34f036ced9c492e3762727f234fa4171bd35e7bb7e747c13aeb34bbc3f090a4b",
+      "source_bytes": 6317,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/attribution_review/核查说明.txt",
+      "sha256": "34f036ced9c492e3762727f234fa4171bd35e7bb7e747c13aeb34bbc3f090a4b",
+      "bytes": 6317,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/lab_readiness/inventory.json",
+      "source_sha256": "712d07a7a96cc4088cdba8923ac7701e919a7b3211e54c2f850f4f13d45c7961",
+      "source_bytes": 66667,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/lab_readiness/inventory.json",
+      "sha256": "712d07a7a96cc4088cdba8923ac7701e919a7b3211e54c2f850f4f13d45c7961",
+      "bytes": 66667,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/lab_readiness/path-check.json",
+      "source_sha256": "aaf85b2c974a1e180e21efc8e69ea7a87bd936f3b84ff148230838ab9353f3a0",
+      "source_bytes": 11221,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/lab_readiness/path-check.json",
+      "sha256": "aaf85b2c974a1e180e21efc8e69ea7a87bd936f3b84ff148230838ab9353f3a0",
+      "bytes": 11221,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/lab_readiness/payload-check.json",
+      "source_sha256": "f2a1bf16506c507f0e8d98cf140ac4e6df9e0c4055f03966d5f1d20f3d08f922",
+      "source_bytes": 27306,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/lab_readiness/payload-check.json",
+      "sha256": "f2a1bf16506c507f0e8d98cf140ac4e6df9e0c4055f03966d5f1d20f3d08f922",
+      "bytes": 27306,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/lab_readiness/runtime-check.json",
+      "source_sha256": "3cf371f3cc0f94c51f828426172ac0bbd5216d54f678ea3b991f14f6cc13caea",
+      "source_bytes": 10125,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/lab_readiness/runtime-check.json",
+      "sha256": "3cf371f3cc0f94c51f828426172ac0bbd5216d54f678ea3b991f14f6cc13caea",
+      "bytes": 10125,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/lab_readiness/status.json",
+      "source_sha256": "f0773af7c35e4ba448d50866b05b337d65b90a4719f85fe3a55d27beb87a6544",
+      "source_bytes": 1917,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/lab_readiness/status.json",
+      "sha256": "f0773af7c35e4ba448d50866b05b337d65b90a4719f85fe3a55d27beb87a6544",
+      "bytes": 1917,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/lab_readiness/检查结论.txt",
+      "source_sha256": "ae1448c88d5600b53cda0f917a3da1892bb8b5c83e95f470403aaea220d9b874",
+      "source_bytes": 5389,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/lab_readiness/检查结论.txt",
+      "sha256": "ae1448c88d5600b53cda0f917a3da1892bb8b5c83e95f470403aaea220d9b874",
+      "bytes": 5389,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/offline_control/LAB_STUDY_COMPLETE_20261104.json",
+      "source_sha256": "aaeb16bf15b3db17a7f6c6c36b9038050d99683ce1de243b5286333e10d1778d",
+      "source_bytes": 1327,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/offline_control/LAB_STUDY_COMPLETE_20261104.json",
+      "sha256": "aaeb16bf15b3db17a7f6c6c36b9038050d99683ce1de243b5286333e10d1778d",
+      "bytes": 1327,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/offline_control/PAUSED_20261104.json",
+      "source_sha256": "380d6e27af422a3d857cf23e900d96cb5c4398285ddc4d0519e2e72efacdeea4",
+      "source_bytes": 2313,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/offline_control/PAUSED_20261104.json",
+      "sha256": "380d6e27af422a3d857cf23e900d96cb5c4398285ddc4d0519e2e72efacdeea4",
+      "bytes": 2313,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/offline_control/status.json",
+      "source_sha256": "aaeb16bf15b3db17a7f6c6c36b9038050d99683ce1de243b5286333e10d1778d",
+      "source_bytes": 1327,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/offline_control/status.json",
+      "sha256": "aaeb16bf15b3db17a7f6c6c36b9038050d99683ce1de243b5286333e10d1778d",
+      "bytes": 1327,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/offline_control/暂停接续说明.txt",
+      "source_sha256": "e369adf2b6458958fe99cbcf421f8d1c119c6e34070aa8f1f3c60537c61474e5",
+      "source_bytes": 2268,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/offline_control/暂停接续说明.txt",
+      "sha256": "e369adf2b6458958fe99cbcf421f8d1c119c6e34070aa8f1f3c60537c61474e5",
+      "bytes": 2268,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/offline_control/本轮实验结论.txt",
+      "source_sha256": "f016b82c2a2435ff627127f3f8ffc5758a35ac7d977f7e409b6e6fdc863c6b73",
+      "source_bytes": 2211,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/offline_control/本轮实验结论.txt",
+      "sha256": "f016b82c2a2435ff627127f3f8ffc5758a35ac7d977f7e409b6e6fdc863c6b73",
+      "bytes": 2211,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/prior_period_archive/install-receipt.json",
+      "source_sha256": "fa4065a3187475692ac49f0e144de546a3641eda57ac00821342315794e271cd",
+      "source_bytes": 3427,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/prior_period_archive/install-receipt.json",
+      "sha256": "fa4065a3187475692ac49f0e144de546a3641eda57ac00821342315794e271cd",
+      "bytes": 3427,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/prior_period_archive/installed-manifest.json",
+      "source_sha256": "cbfcf8784f1baaf63dcabcfee04dbaee26687bcc29d58c7cb02343de399bd68e",
+      "source_bytes": 19878,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/prior_period_archive/installed-manifest.json",
+      "sha256": "cbfcf8784f1baaf63dcabcfee04dbaee26687bcc29d58c7cb02343de399bd68e",
+      "bytes": 19878,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/prior_period_archive/status.json",
+      "source_sha256": "20fadf5b6de3afd479aef6bf042c804f5191f90ef5b6a58cdffd563a7a89a24d",
+      "source_bytes": 933,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/prior_period_archive/status.json",
+      "sha256": "20fadf5b6de3afd479aef6bf042c804f5191f90ef5b6a58cdffd563a7a89a24d",
+      "bytes": 933,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/readme_publication/README.diff",
+      "source_sha256": "03c84aca5a7491eeab957a480c27765769b598ec0f6311d0985997180a165a0f",
+      "source_bytes": 18580,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/readme_publication/README.diff",
+      "sha256": "03c84aca5a7491eeab957a480c27765769b598ec0f6311d0985997180a165a0f",
+      "bytes": 18580,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/readme_publication/publication-receipt.json",
+      "source_sha256": "18e5249c9cfbf43524531984c7dccadda74bfcb3da33e4f8781e958e6076acb7",
+      "source_bytes": 677,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/readme_publication/publication-receipt.json",
+      "sha256": "18e5249c9cfbf43524531984c7dccadda74bfcb3da33e4f8781e958e6076acb7",
+      "bytes": 677,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/readme_publication/results-section.md",
+      "source_sha256": "e31c98fa052d8d68d9bb665f0cc544940dff125915fda9d422d019a6796ce0dd",
+      "source_bytes": 17042,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/readme_publication/results-section.md",
+      "sha256": "ae8a10298140b9a5a3300c3638cd9fb37967ad860b05d01c987bd54b47adf8a1",
+      "bytes": 17792,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/readme_publication/status.json",
+      "source_sha256": "e244416a6d920af4d3ebb3becadadde744fb7b86d420581d23d0fdee2ae9a43c",
+      "source_bytes": 757,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/readme_publication/status.json",
+      "sha256": "e244416a6d920af4d3ebb3becadadde744fb7b86d420581d23d0fdee2ae9a43c",
+      "bytes": 757,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/readme_publication/validation.json",
+      "source_sha256": "36d32392a2066b17ab80cd8a74336509ab16d988bef21f0914cf22ec834322db",
+      "source_bytes": 497,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/readme_publication/validation.json",
+      "sha256": "36d32392a2066b17ab80cd8a74336509ab16d988bef21f0914cf22ec834322db",
+      "bytes": 497,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/PAUSED_ARCHIVE_REVIEW.json",
+      "source_sha256": "711658fdd617bdd63834e4bec362589ddec81869af5921cfeb7aecee66ce0938",
+      "source_bytes": 2240,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/PAUSED_ARCHIVE_REVIEW.json",
+      "sha256": "711658fdd617bdd63834e4bec362589ddec81869af5921cfeb7aecee66ce0938",
+      "bytes": 2240,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/final-archive-snapshot.json",
+      "source_sha256": "fc06a7d03a8272b83bec22865f4e506c43882655ee183c9bbb4a4ee5fa31ef12",
+      "source_bytes": 197,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/final-archive-snapshot.json",
+      "sha256": "fc06a7d03a8272b83bec22865f4e506c43882655ee183c9bbb4a4ee5fa31ef12",
+      "bytes": 197,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/final-lab-archive-receipt.json",
+      "source_sha256": "e128f5d736cbbc99390e0f49532080ed3ceeebda89670b07bc1f0bd31cf8edda",
+      "source_bytes": 514,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/final-lab-archive-receipt.json",
+      "sha256": "e128f5d736cbbc99390e0f49532080ed3ceeebda89670b07bc1f0bd31cf8edda",
+      "bytes": 514,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/independent-validation-final.log",
+      "source_sha256": "27bdffa4319f6b0fa8d1ee17bd2cf283383cccda00111972b9a16e7eaa4c7ec2",
+      "source_bytes": 559,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/independent-validation-final.log",
+      "sha256": "27bdffa4319f6b0fa8d1ee17bd2cf283383cccda00111972b9a16e7eaa4c7ec2",
+      "bytes": 559,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/report-and-figures-final.log",
+      "source_sha256": "75fc68602fb5f1fe2393d1548129efad718d3944d3a220325664f364477b012d",
+      "source_bytes": 732,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/report-and-figures-final.log",
+      "sha256": "75fc68602fb5f1fe2393d1548129efad718d3944d3a220325664f364477b012d",
+      "bytes": 732,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/status.json",
+      "source_sha256": "63f8bf49a0bffc147d65bb02fdfebd2c1104f5162285bafbc610e2c0edb68e52",
+      "source_bytes": 15870,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/local_receipts/rgb_archive_receipts/status.json",
+      "sha256": "63f8bf49a0bffc147d65bb02fdfebd2c1104f5162285bafbc610e2c0edb68e52",
+      "bytes": 15870,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/metric-verification.json",
+      "source_sha256": "d1b555a72efde8804cbd1bc49f42554ae4215734331ee4344c7a975521a84255",
+      "source_bytes": 43456,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/metric-verification.json",
+      "sha256": "d1b555a72efde8804cbd1bc49f42554ae4215734331ee4344c7a975521a84255",
+      "bytes": 43456,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/read-summary.json",
+      "source_sha256": "7433e06c6931b90f01ad9daa89983d57476ea3dde9d5e71f8441cd1d38760c5c",
+      "source_bytes": 507,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/read-summary.json",
+      "sha256": "7433e06c6931b90f01ad9daa89983d57476ea3dde9d5e71f8441cd1d38760c5c",
+      "bytes": 507,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/table-provenance.json",
+      "source_sha256": "82d1fd94a11281e0f10498d0fddd1ca6846969fa341858d77f744ae837acc301",
+      "source_bytes": 2337,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/table-provenance.json",
+      "sha256": "82d1fd94a11281e0f10498d0fddd1ca6846969fa341858d77f744ae837acc301",
+      "bytes": 2337,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/tables/actor-diagnostics.csv",
+      "source_sha256": "fd40a284589053733fb1bae8de3d098a504f7e08ce467b1f1eeb6ec0abfdb824",
+      "source_bytes": 48787,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/tables/actor-diagnostics.csv",
+      "sha256": "fd40a284589053733fb1bae8de3d098a504f7e08ce467b1f1eeb6ec0abfdb824",
+      "bytes": 48787,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/tables/api-usage.csv",
+      "source_sha256": "ce2062db3c32240dfab3cfde216fc8d4411dc9d8e625d1909ea81aa923ad9e63",
+      "source_bytes": 300,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/tables/api-usage.csv",
+      "sha256": "ce2062db3c32240dfab3cfde216fc8d4411dc9d8e625d1909ea81aa923ad9e63",
+      "bytes": 300,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/tables/cohort-summary.csv",
+      "source_sha256": "5c2cc6d9ff697f484e86ed77cb52d28bbfe126a094c3cebb269836518dcb2b79",
+      "source_bytes": 1549,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/tables/cohort-summary.csv",
+      "sha256": "5c2cc6d9ff697f484e86ed77cb52d28bbfe126a094c3cebb269836518dcb2b79",
+      "bytes": 1549,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/tables/episode-results.csv",
+      "source_sha256": "c58545204d606e3c8975a126b0e10025d1f7423961aa2f89b3a2b0112c387c01",
+      "source_bytes": 11982,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/tables/episode-results.csv",
+      "sha256": "c58545204d606e3c8975a126b0e10025d1f7423961aa2f89b3a2b0112c387c01",
+      "bytes": 11982,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/tables/lift-gate-diagnosis.csv",
+      "source_sha256": "132379826c64cb908491b53e132aa09418a658ca3c30352330cfbae070fe3967",
+      "source_bytes": 1820,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/tables/lift-gate-diagnosis.csv",
+      "sha256": "132379826c64cb908491b53e132aa09418a658ca3c30352330cfbae070fe3967",
+      "bytes": 1820,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/tables/planning-feasibility.csv",
+      "source_sha256": "94adc2ac5924dbf586cf68a6e9aa69c35e73279c10060bd6741ee68a13198914",
+      "source_bytes": 266,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/tables/planning-feasibility.csv",
+      "sha256": "94adc2ac5924dbf586cf68a6e9aa69c35e73279c10060bd6741ee68a13198914",
+      "bytes": 266,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261103_20261105/tables/policy-acceptance.csv",
+      "source_sha256": "1a639cb57b4f8ce235ffe15d2041f04fc78d970ec9e616284536bee5c35d5c94",
+      "source_bytes": 356,
+      "repository_path": "research/notes_20261108/evidence/period_20261103_20261105/tables/policy-acceptance.csv",
+      "sha256": "1a639cb57b4f8ce235ffe15d2041f04fc78d970ec9e616284536bee5c35d5c94",
+      "bytes": 356,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/README.md",
+      "source_sha256": "74d641a23ba9a12b14b310948f9c5153bf84665b97a22c2bd25c01690649b1b9",
+      "source_bytes": 2426,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/README.md",
+      "sha256": "74d641a23ba9a12b14b310948f9c5153bf84665b97a22c2bd25c01690649b1b9",
+      "bytes": 2426,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/audit/SCIENCE_REVIEW_ZH.md",
+      "source_sha256": "dd0908b70340fced13b10307e4ed2a2bc065d15a0fab4407fc94c118764797e7",
+      "source_bytes": 8852,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/audit/SCIENCE_REVIEW_ZH.md",
+      "sha256": "dd0908b70340fced13b10307e4ed2a2bc065d15a0fab4407fc94c118764797e7",
+      "bytes": 8852,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/audit/independent-recomputation.json",
+      "source_sha256": "1fc3fcbb7ceb6ccaa8ef1cdc6e71d5ff6dab5e9ddde10b257a2951ea9b7e0016",
+      "source_bytes": 70876,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/audit/independent-recomputation.json",
+      "sha256": "1fc3fcbb7ceb6ccaa8ef1cdc6e71d5ff6dab5e9ddde10b257a2951ea9b7e0016",
+      "bytes": 70876,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/audit/verify_weekly_receipts.py",
+      "source_sha256": "2625a0a314d28c7088ec4c3beb10a57c3e6a3129f47115a1351c1c57636c0385",
+      "source_bytes": 9151,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/audit/verify_weekly_receipts.py",
+      "sha256": "2625a0a314d28c7088ec4c3beb10a57c3e6a3129f47115a1351c1c57636c0385",
+      "bytes": 9151,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/copied-source-manifest.json",
+      "source_sha256": "5686c2e016c97e93d4d7f5063e2789922695842d8572750c0803f3f7cc6268b3",
+      "source_bytes": 45632,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/copied-source-manifest.json",
+      "sha256": "5686c2e016c97e93d4d7f5063e2789922695842d8572750c0803f3f7cc6268b3",
+      "bytes": 45632,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/README.md",
+      "source_sha256": "abda0f6c698276ba1862e79b655d22c3bf098bdd7e96aed610baca3b26f7137b",
+      "source_bytes": 50336,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/README.md",
+      "sha256": "abda0f6c698276ba1862e79b655d22c3bf098bdd7e96aed610baca3b26f7137b",
+      "bytes": 50336,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/environment/policy-installed-packages.json",
+      "source_sha256": "45483e47e4e2cddf2afd18400be5ac3c2e98dbb4caec48ca7224785a2d7b1341",
+      "source_bytes": 6520,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/environment/policy-installed-packages.json",
+      "sha256": "45483e47e4e2cddf2afd18400be5ac3c2e98dbb4caec48ca7224785a2d7b1341",
+      "bytes": 6520,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/environment/policy-pip-check.txt",
+      "source_sha256": "72130aa9434a02f0a61f7e0ca4242ad47bed7ee819e44db8fdd71c26a88c2264",
+      "source_bytes": 232,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/environment/policy-pip-check.txt",
+      "sha256": "72130aa9434a02f0a61f7e0ca4242ad47bed7ee819e44db8fdd71c26a88c2264",
+      "bytes": 232,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/environment/simulator-installed-packages.json",
+      "source_sha256": "53af8eb6ba3af4d469c0ff4ecb0ed8e17edb0065ee5a759656a62947fbb4a964",
+      "source_bytes": 7658,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/environment/simulator-installed-packages.json",
+      "sha256": "53af8eb6ba3af4d469c0ff4ecb0ed8e17edb0065ee5a759656a62947fbb4a964",
+      "bytes": 7658,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/environment/simulator-pip-check.txt",
+      "source_sha256": "5603b6cfe90bec0a35f350403bafba00f95f0537ce7c687b64878bf1453b1801",
+      "source_bytes": 141,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/environment/simulator-pip-check.txt",
+      "sha256": "5603b6cfe90bec0a35f350403bafba00f95f0537ce7c687b64878bf1453b1801",
+      "bytes": 141,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/environment/sources.json",
+      "source_sha256": "f32c5d854f07f810954472e3edd8a52e01cf861decb7c64e0ceace90525e62ed",
+      "source_bytes": 2149,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/environment/sources.json",
+      "sha256": "f32c5d854f07f810954472e3edd8a52e01cf861decb7c64e0ceace90525e62ed",
+      "bytes": 2149,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/environment/version-comparison.json",
+      "source_sha256": "07f57dd0ad26b8b81e99df36a3f75bdcb488f4c69cb63099819beace813e042a",
+      "source_bytes": 429,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/environment/version-comparison.json",
+      "sha256": "07f57dd0ad26b8b81e99df36a3f75bdcb488f4c69cb63099819beace813e042a",
+      "bytes": 429,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/environment/环境与版本说明.txt",
+      "source_sha256": "b2f1e10006683e239ec65352593f53c22e895427dc7282cd97acc8c9d5b23688",
+      "source_bytes": 2563,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/environment/环境与版本说明.txt",
+      "sha256": "b2f1e10006683e239ec65352593f53c22e895427dc7282cd97acc8c9d5b23688",
+      "bytes": 2563,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/reproduction-index.json",
+      "source_sha256": "d6c269f154e4d20561126f512f9b31c70399103ffa55320af1660e00c845444c",
+      "source_bytes": 991958,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/reproduction-index.json",
+      "sha256": "d6c269f154e4d20561126f512f9b31c70399103ffa55320af1660e00c845444c",
+      "bytes": 991958,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/inputs/prepare_native.py",
+      "source_sha256": "9ba6f9152ad3b69000bb47db667b7f7f5d9f2928d8b838c79acde01fb2ab6824",
+      "source_bytes": 3493,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/inputs/prepare_native.py",
+      "sha256": "9ba6f9152ad3b69000bb47db667b7f7f5d9f2928d8b838c79acde01fb2ab6824",
+      "bytes": 3493,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/inputs/run_native.py",
+      "source_sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8",
+      "source_bytes": 7882,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/inputs/run_native.py",
+      "sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8",
+      "bytes": 7882,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/prepare_native.py",
+      "source_sha256": "ef5f02c1e082af1f1accde47ae84c141876f31917b83f1f940d4eeca81c11bd0",
+      "source_bytes": 3682,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/prepare_native.py",
+      "sha256": "ef5f02c1e082af1f1accde47ae84c141876f31917b83f1f940d4eeca81c11bd0",
+      "bytes": 3682,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/run_native.py",
+      "source_sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8",
+      "source_bytes": 7882,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/native-validation/run_native.py",
+      "sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8",
+      "bytes": 7882,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/prepare_native.py",
+      "source_sha256": "ef5f02c1e082af1f1accde47ae84c141876f31917b83f1f940d4eeca81c11bd0",
+      "source_bytes": 3682,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/prepare_native.py",
+      "sha256": "ef5f02c1e082af1f1accde47ae84c141876f31917b83f1f940d4eeca81c11bd0",
+      "bytes": 3682,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/native-validation/prepare_native.py",
+      "source_sha256": "094e093e713bdf1573f56fe9b8bd755658e3a6899057eebb2f700a024c5f7d38",
+      "source_bytes": 3730,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/native-validation/prepare_native.py",
+      "sha256": "094e093e713bdf1573f56fe9b8bd755658e3a6899057eebb2f700a024c5f7d38",
+      "bytes": 3730,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/native-validation/run_native.py",
+      "source_sha256": "80f07f9ebdc1f2421672b8062f0874a6a628638a3f2c8477796386a6dbdcb7b5",
+      "source_bytes": 7878,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/native-validation/run_native.py",
+      "sha256": "80f07f9ebdc1f2421672b8062f0874a6a628638a3f2c8477796386a6dbdcb7b5",
+      "bytes": 7878,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/prepare_native.py",
+      "source_sha256": "094e093e713bdf1573f56fe9b8bd755658e3a6899057eebb2f700a024c5f7d38",
+      "source_bytes": 3730,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/prepare_native.py",
+      "sha256": "094e093e713bdf1573f56fe9b8bd755658e3a6899057eebb2f700a024c5f7d38",
+      "bytes": 3730,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/run_native.py",
+      "source_sha256": "80f07f9ebdc1f2421672b8062f0874a6a628638a3f2c8477796386a6dbdcb7b5",
+      "source_bytes": 7878,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/retreat-followup/run_native.py",
+      "sha256": "80f07f9ebdc1f2421672b8062f0874a6a628638a3f2c8477796386a6dbdcb7b5",
+      "bytes": 7878,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/32/run_native.py",
+      "source_sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8",
+      "source_bytes": 7882,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/32/run_native.py",
+      "sha256": "2ff862a2b21488af81998c59f9275c4714f140a840a8807b2b70a452e11b9aa8",
+      "bytes": 7882,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/33/evaluate_candidates.py",
+      "source_sha256": "daf7a20165d300d02f87d3316042a2baf55a90c2988e1bff548e14f4097110c0",
+      "source_bytes": 5432,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/33/evaluate_candidates.py",
+      "sha256": "daf7a20165d300d02f87d3316042a2baf55a90c2988e1bff548e14f4097110c0",
+      "bytes": 5432,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/33/native-validation/prepare_native.py",
+      "source_sha256": "43665775127906646d39797a9eb20eb9e82ab507ae94708dc4ce983b1052049b",
+      "source_bytes": 4208,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/33/native-validation/prepare_native.py",
+      "sha256": "43665775127906646d39797a9eb20eb9e82ab507ae94708dc4ce983b1052049b",
+      "bytes": 4208,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/33/native-validation/run_native.py",
+      "source_sha256": "245722a6b742e0a9ea8baafbbb9a13b87946fc9b0f807f40b3015c8fbf142d5c",
+      "source_bytes": 7928,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/33/native-validation/run_native.py",
+      "sha256": "245722a6b742e0a9ea8baafbbb9a13b87946fc9b0f807f40b3015c8fbf142d5c",
+      "bytes": 7928,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/33/run_generation.py",
+      "source_sha256": "bbf02ca56b6be2481ca8ad878736c80fc646bda2e2661e24fabc396ae2967bf7",
+      "source_bytes": 5397,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/33/run_generation.py",
+      "sha256": "bbf02ca56b6be2481ca8ad878736c80fc646bda2e2661e24fabc396ae2967bf7",
+      "bytes": 5397,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/34/native-validation/prepare_native.py",
+      "source_sha256": "3200d7777e3d7f9bca4d964c773782f27791a79ec97bef0fff7bb167c6a0de68",
+      "source_bytes": 4353,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/34/native-validation/prepare_native.py",
+      "sha256": "3200d7777e3d7f9bca4d964c773782f27791a79ec97bef0fff7bb167c6a0de68",
+      "bytes": 4353,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/34/native-validation/run_native.py",
+      "source_sha256": "a9a69800b96785779c796e91b72e1cdbdd3874ea8d1a197afea8f023422cb14b",
+      "source_bytes": 8086,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/34/native-validation/run_native.py",
+      "sha256": "a9a69800b96785779c796e91b72e1cdbdd3874ea8d1a197afea8f023422cb14b",
+      "bytes": 8086,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/34/offline_contract.py",
+      "source_sha256": "40789bbdf0b156e4da6ecb27238b434204284de3bd5d3a007d916d689bdef28d",
+      "source_bytes": 3612,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/34/offline_contract.py",
+      "sha256": "40789bbdf0b156e4da6ecb27238b434204284de3bd5d3a007d916d689bdef28d",
+      "bytes": 3612,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/35/native-validation/offline_contract.py",
+      "source_sha256": "9e2ec11de145cfc1b4b5e0d68c2dd1a53d0716da86618bb5406402ce05295a4a",
+      "source_bytes": 2680,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/35/native-validation/offline_contract.py",
+      "sha256": "9e2ec11de145cfc1b4b5e0d68c2dd1a53d0716da86618bb5406402ce05295a4a",
+      "bytes": 2680,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/35/native-validation/prepare_native.py",
+      "source_sha256": "de8097af035e0ab13944b846c4af7c92b9b52cb014aabcecde22c5c1dc0c8c8f",
+      "source_bytes": 3708,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/35/native-validation/prepare_native.py",
+      "sha256": "de8097af035e0ab13944b846c4af7c92b9b52cb014aabcecde22c5c1dc0c8c8f",
+      "bytes": 3708,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/35/native-validation/run_native.py",
+      "source_sha256": "c69d1a1fe3cca048a96d0af266f4c834bed6ce591493c930e921858dc58e7e2d",
+      "source_bytes": 8107,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/35/native-validation/run_native.py",
+      "sha256": "c69d1a1fe3cca048a96d0af266f4c834bed6ce591493c930e921858dc58e7e2d",
+      "bytes": 8107,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/35/offline_contract.py",
+      "source_sha256": "9e2ec11de145cfc1b4b5e0d68c2dd1a53d0716da86618bb5406402ce05295a4a",
+      "source_bytes": 2680,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/35/offline_contract.py",
+      "sha256": "9e2ec11de145cfc1b4b5e0d68c2dd1a53d0716da86618bb5406402ce05295a4a",
+      "bytes": 2680,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/35/offline_goal_probe.py",
+      "source_sha256": "440e5a47e345297a10f3a591b7ef7331eac864ff96f43ea5cd0f78a157380056",
+      "source_bytes": 5957,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/35/offline_goal_probe.py",
+      "sha256": "440e5a47e345297a10f3a591b7ef7331eac864ff96f43ea5cd0f78a157380056",
+      "bytes": 5957,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/36/native-validation/offline_contract.py",
+      "source_sha256": "545654e76b91aac14cbb5dc1ea508485732a8a517df245effe12e927c75af09f",
+      "source_bytes": 2715,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/36/native-validation/offline_contract.py",
+      "sha256": "545654e76b91aac14cbb5dc1ea508485732a8a517df245effe12e927c75af09f",
+      "bytes": 2715,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/36/native-validation/prepare_native.py",
+      "source_sha256": "742f12e15cb5af57518a54d7d6f618fc46a5c342b2a4f602fe4bfffb5e7ca24d",
+      "source_bytes": 3344,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/36/native-validation/prepare_native.py",
+      "sha256": "742f12e15cb5af57518a54d7d6f618fc46a5c342b2a4f602fe4bfffb5e7ca24d",
+      "bytes": 3344,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/36/native-validation/run_native.py",
+      "source_sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81",
+      "source_bytes": 8112,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/36/native-validation/run_native.py",
+      "sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81",
+      "bytes": 8112,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/36/offline_contract.py",
+      "source_sha256": "545654e76b91aac14cbb5dc1ea508485732a8a517df245effe12e927c75af09f",
+      "source_bytes": 2715,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/36/offline_contract.py",
+      "sha256": "545654e76b91aac14cbb5dc1ea508485732a8a517df245effe12e927c75af09f",
+      "bytes": 2715,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/36/prepare_native.py",
+      "source_sha256": "742f12e15cb5af57518a54d7d6f618fc46a5c342b2a4f602fe4bfffb5e7ca24d",
+      "source_bytes": 3344,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/36/prepare_native.py",
+      "sha256": "742f12e15cb5af57518a54d7d6f618fc46a5c342b2a4f602fe4bfffb5e7ca24d",
+      "bytes": 3344,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/36/run_native.py",
+      "source_sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81",
+      "source_bytes": 8112,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/36/run_native.py",
+      "sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81",
+      "bytes": 8112,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/37/native-validation/run_reference.py",
+      "source_sha256": "d6f25f9a2e4686f1f237f9dc7612f749e40518c13d27778d91ec90749d7936b8",
+      "source_bytes": 4594,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/37/native-validation/run_reference.py",
+      "sha256": "d6f25f9a2e4686f1f237f9dc7612f749e40518c13d27778d91ec90749d7936b8",
+      "bytes": 4594,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/37/native-validation/run_reference_v2.py",
+      "source_sha256": "146748b7f465b681ec587d9432570db471a12db7ef43ef8ced94057d85a40eab",
+      "source_bytes": 4668,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/37/native-validation/run_reference_v2.py",
+      "sha256": "146748b7f465b681ec587d9432570db471a12db7ef43ef8ced94057d85a40eab",
+      "bytes": 4668,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/37/run_reference.py",
+      "source_sha256": "d6f25f9a2e4686f1f237f9dc7612f749e40518c13d27778d91ec90749d7936b8",
+      "source_bytes": 4594,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/37/run_reference.py",
+      "sha256": "d6f25f9a2e4686f1f237f9dc7612f749e40518c13d27778d91ec90749d7936b8",
+      "bytes": 4594,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/38/native-validation/prepare_native.py",
+      "source_sha256": "27946a97d223bf0c41e2fafebee8df917d70ca51df0e2232ac0b535e3309dd78",
+      "source_bytes": 3729,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/38/native-validation/prepare_native.py",
+      "sha256": "27946a97d223bf0c41e2fafebee8df917d70ca51df0e2232ac0b535e3309dd78",
+      "bytes": 3729,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/38/native-validation/run_native.py",
+      "source_sha256": "b05b2cff73d702d25c9950371c2fbd81ab3b6cbb5e2d7a9376130259f50fdf32",
+      "source_bytes": 8109,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/38/native-validation/run_native.py",
+      "sha256": "b05b2cff73d702d25c9950371c2fbd81ab3b6cbb5e2d7a9376130259f50fdf32",
+      "bytes": 8109,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/38/prepare_native.py",
+      "source_sha256": "27946a97d223bf0c41e2fafebee8df917d70ca51df0e2232ac0b535e3309dd78",
+      "source_bytes": 3729,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/38/prepare_native.py",
+      "sha256": "27946a97d223bf0c41e2fafebee8df917d70ca51df0e2232ac0b535e3309dd78",
+      "bytes": 3729,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/38/run_native.py",
+      "source_sha256": "b05b2cff73d702d25c9950371c2fbd81ab3b6cbb5e2d7a9376130259f50fdf32",
+      "source_bytes": 8109,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/38/run_native.py",
+      "sha256": "b05b2cff73d702d25c9950371c2fbd81ab3b6cbb5e2d7a9376130259f50fdf32",
+      "bytes": 8109,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/39/native-validation/prepare_native.py",
+      "source_sha256": "426d1e2ebf55bfd1ae328655981ece5dc2d907f7efd717cfd2fca2e446d3d217",
+      "source_bytes": 3731,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/39/native-validation/prepare_native.py",
+      "sha256": "426d1e2ebf55bfd1ae328655981ece5dc2d907f7efd717cfd2fca2e446d3d217",
+      "bytes": 3731,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/39/native-validation/run_native.py",
+      "source_sha256": "5edaf5677ccc67b504c8fc231ec04e3778d4e9a226f4d669063ca83daf20e5c5",
+      "source_bytes": 8104,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/39/native-validation/run_native.py",
+      "sha256": "5edaf5677ccc67b504c8fc231ec04e3778d4e9a226f4d669063ca83daf20e5c5",
+      "bytes": 8104,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/39/prepare_native.py",
+      "source_sha256": "426d1e2ebf55bfd1ae328655981ece5dc2d907f7efd717cfd2fca2e446d3d217",
+      "source_bytes": 3731,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/39/prepare_native.py",
+      "sha256": "426d1e2ebf55bfd1ae328655981ece5dc2d907f7efd717cfd2fca2e446d3d217",
+      "bytes": 3731,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/39/run_native.py",
+      "source_sha256": "5edaf5677ccc67b504c8fc231ec04e3778d4e9a226f4d669063ca83daf20e5c5",
+      "source_bytes": 8104,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/39/run_native.py",
+      "sha256": "5edaf5677ccc67b504c8fc231ec04e3778d4e9a226f4d669063ca83daf20e5c5",
+      "bytes": 8104,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/40/native-validation/prepare_native.py",
+      "source_sha256": "48412a1d201abedc8b7fe6455ca47870ded1048277272663c1efe9272484cf2c",
+      "source_bytes": 3697,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/40/native-validation/prepare_native.py",
+      "sha256": "48412a1d201abedc8b7fe6455ca47870ded1048277272663c1efe9272484cf2c",
+      "bytes": 3697,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/40/native-validation/run_native.py",
+      "source_sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a",
+      "source_bytes": 8106,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/40/native-validation/run_native.py",
+      "sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a",
+      "bytes": 8106,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/40/prepare_native.py",
+      "source_sha256": "48412a1d201abedc8b7fe6455ca47870ded1048277272663c1efe9272484cf2c",
+      "source_bytes": 3697,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/40/prepare_native.py",
+      "sha256": "48412a1d201abedc8b7fe6455ca47870ded1048277272663c1efe9272484cf2c",
+      "bytes": 3697,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/40/run_native.py",
+      "source_sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a",
+      "source_bytes": 8106,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/40/run_native.py",
+      "sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a",
+      "bytes": 8106,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/prepare_native.py",
+      "source_sha256": "113dead45979006dbbf0b0514c482ad13c66c3393281431391ca8cb7728762f3",
+      "source_bytes": 3800,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/prepare_native.py",
+      "sha256": "113dead45979006dbbf0b0514c482ad13c66c3393281431391ca8cb7728762f3",
+      "bytes": 3800,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/reference/run_reference.py",
+      "source_sha256": "70a26d2a1e1e2ec036c1154c534d05b48a9f8e39635b05a49e55c534c0218199",
+      "source_bytes": 4510,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/reference/run_reference.py",
+      "sha256": "70a26d2a1e1e2ec036c1154c534d05b48a9f8e39635b05a49e55c534c0218199",
+      "bytes": 4510,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/run_native.py",
+      "source_sha256": "7ef7975229bf6c15add45c70f404d53f9808d0893ae5147d4674f74b87d13ca7",
+      "source_bytes": 8105,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/run_native.py",
+      "sha256": "7ef7975229bf6c15add45c70f404d53f9808d0893ae5147d4674f74b87d13ca7",
+      "bytes": 8105,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/run_route.py",
+      "source_sha256": "ee5c2088299503d4de3e269212eb0438e0258d7586336c4ed5f69e65ecab31ca",
+      "source_bytes": 1961,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/41/native-validation/run_route.py",
+      "sha256": "ee5c2088299503d4de3e269212eb0438e0258d7586336c4ed5f69e65ecab31ca",
+      "bytes": 1961,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/heldout/run_native.py",
+      "source_sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "source_bytes": 8068,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/heldout/run_native.py",
+      "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "bytes": 8068,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/parent/run_native.py",
+      "source_sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "source_bytes": 8068,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/parent/run_native.py",
+      "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "bytes": 8068,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/prepare_phase.py",
+      "source_sha256": "8da09db00584251717033374f6fb47c9856a709c754f0e3d2a18543fff181733",
+      "source_bytes": 6265,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/prepare_phase.py",
+      "sha256": "8da09db00584251717033374f6fb47c9856a709c754f0e3d2a18543fff181733",
+      "bytes": 6265,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/repair/run_native.py",
+      "source_sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "source_bytes": 8068,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/repair/run_native.py",
+      "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "bytes": 8068,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/round2/run_native.py",
+      "source_sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "source_bytes": 8068,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/round2/run_native.py",
+      "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "bytes": 8068,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/run_generation.py",
+      "source_sha256": "aa8c7cdfd1895f64ef5e0ec6c70f8aec6d64212adb91e2e318628f097209d853",
+      "source_bytes": 5778,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/run_generation.py",
+      "sha256": "aa8c7cdfd1895f64ef5e0ec6c70f8aec6d64212adb91e2e318628f097209d853",
+      "bytes": 5778,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/run_phase.py",
+      "source_sha256": "ff458b38da207e38963223849a1f9e274e17ac0ff4dc520bd531e18688b69aa5",
+      "source_bytes": 1781,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/run_phase.py",
+      "sha256": "ff458b38da207e38963223849a1f9e274e17ac0ff4dc520bd531e18688b69aa5",
+      "bytes": 1781,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/sampling/run_native.py",
+      "source_sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "source_bytes": 8068,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/sampling/run_native.py",
+      "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "bytes": 8068,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/templates/run_native.py",
+      "source_sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "source_bytes": 8068,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/native-validation/templates/run_native.py",
+      "sha256": "f424e5c4709f433bc038942b4cebb34d3f06462dbd0a0a5fcae458e2a2df0090",
+      "bytes": 8068,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/42/run_generation.py",
+      "source_sha256": "aa8c7cdfd1895f64ef5e0ec6c70f8aec6d64212adb91e2e318628f097209d853",
+      "source_bytes": 5778,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/42/run_generation.py",
+      "sha256": "aa8c7cdfd1895f64ef5e0ec6c70f8aec6d64212adb91e2e318628f097209d853",
+      "bytes": 5778,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-candidates/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-candidates/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-heldout/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-heldout/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-parent/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/classify_objects-parent/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-candidates/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-candidates/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-heldout/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-heldout/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-parent/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-parent/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-smoke/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/general_pickup-smoke/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/preparation-source-history/a831cf293ec756daa40e87b231b5285c9d9f3d705ea1e5d183cc960cd4ae9598/run_phase.py",
+      "source_sha256": "a831cf293ec756daa40e87b231b5285c9d9f3d705ea1e5d183cc960cd4ae9598",
+      "source_bytes": 1608,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/preparation-source-history/a831cf293ec756daa40e87b231b5285c9d9f3d705ea1e5d183cc960cd4ae9598/run_phase.py",
+      "sha256": "a831cf293ec756daa40e87b231b5285c9d9f3d705ea1e5d183cc960cd4ae9598",
+      "bytes": 1608,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/preparation-source-history/ff62118945a13f27fe750c2ee677ea716ea3dc7ce230141c73f825b8afbcc8f4/prepare_phase.py",
+      "source_sha256": "ff62118945a13f27fe750c2ee677ea716ea3dc7ce230141c73f825b8afbcc8f4",
+      "source_bytes": 7061,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/preparation-source-history/ff62118945a13f27fe750c2ee677ea716ea3dc7ce230141c73f825b8afbcc8f4/prepare_phase.py",
+      "sha256": "ff62118945a13f27fe750c2ee677ea716ea3dc7ce230141c73f825b8afbcc8f4",
+      "bytes": 7061,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/prepare_phase.py",
+      "source_sha256": "3a2954bf45205b00cbed601db3e99b498d48ad49aba52299a7dd461544ef3188",
+      "source_bytes": 7069,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/prepare_phase.py",
+      "sha256": "3a2954bf45205b00cbed601db3e99b498d48ad49aba52299a7dd461544ef3188",
+      "bytes": 7069,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/run_phase.py",
+      "source_sha256": "eccdd79636e8c3b5435ab82218b0bdb717b4deb5b3177c3f73c3cf3080ca73c8",
+      "source_bytes": 1823,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/run_phase.py",
+      "sha256": "eccdd79636e8c3b5435ab82218b0bdb717b4deb5b3177c3f73c3cf3080ca73c8",
+      "bytes": 1823,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/templates/run_native.py",
+      "source_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "source_bytes": 8071,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/native-validation/templates/run_native.py",
+      "sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+      "bytes": 8071,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/reproduction/sources/43/run_generation.py",
+      "source_sha256": "c516c1a84cb65ea02082a94cdd5d591ede12b3e0609b1e31ea7fa7e6172af748",
+      "source_bytes": 5882,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/reproduction/sources/43/run_generation.py",
+      "sha256": "c516c1a84cb65ea02082a94cdd5d591ede12b3e0609b1e31ea7fa7e6172af748",
+      "bytes": 5882,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/32/20261106_v1/FINAL_SUMMARY.json",
+      "source_sha256": "aa618f551a9c843cd4a2b2e82af6def6b337615732dae288177ecc2ee805db00",
+      "source_bytes": 22271,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/32/20261106_v1/FINAL_SUMMARY.json",
+      "sha256": "aa618f551a9c843cd4a2b2e82af6def6b337615732dae288177ecc2ee805db00",
+      "bytes": 22271,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/32/20261106_v1/REPORT.txt",
+      "source_sha256": "e0f2c59a597b6864e6abbfff9b35911299487b7063be14553fc9d8500f57d95b",
+      "source_bytes": 13162,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/32/20261106_v1/REPORT.txt",
+      "sha256": "e0f2c59a597b6864e6abbfff9b35911299487b7063be14553fc9d8500f57d95b",
+      "bytes": 13162,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/32/20261106_v1/protocol.json",
+      "source_sha256": "8253029899c6c8c084c7700693dbdc0304dfddbdf54e210a6efed74efd7ba9b6",
+      "source_bytes": 4076,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/32/20261106_v1/protocol.json",
+      "sha256": "8253029899c6c8c084c7700693dbdc0304dfddbdf54e210a6efed74efd7ba9b6",
+      "bytes": 4076,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/33/20261106_v1/FINAL_SUMMARY.json",
+      "source_sha256": "71b851466dfe4fc25cefdb3e4db1c32890ecf05aa3686704e61d09db1fbbc2aa",
+      "source_bytes": 45858,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/33/20261106_v1/FINAL_SUMMARY.json",
+      "sha256": "71b851466dfe4fc25cefdb3e4db1c32890ecf05aa3686704e61d09db1fbbc2aa",
+      "bytes": 45858,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/33/20261106_v1/REPORT.txt",
+      "source_sha256": "5e2fc5e1bffe1e14b8daf00daab04d89d0b32dcc46e7e03fb56953b6ed130e1a",
+      "source_bytes": 14582,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/33/20261106_v1/REPORT.txt",
+      "sha256": "5e2fc5e1bffe1e14b8daf00daab04d89d0b32dcc46e7e03fb56953b6ed130e1a",
+      "bytes": 14582,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/33/20261106_v1/protocol.json",
+      "source_sha256": "803f851be1245b2f16c8d2c293ec791983de556f683f42ae7a1a7f47b445c8bb",
+      "source_bytes": 5980,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/33/20261106_v1/protocol.json",
+      "sha256": "803f851be1245b2f16c8d2c293ec791983de556f683f42ae7a1a7f47b445c8bb",
+      "bytes": 5980,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/34/20261106_v1/FINAL_SUMMARY.json",
+      "source_sha256": "de68c4ab8989da27c8fa645d6bd103f912bb6e4e335e46c0e947a74c805360ee",
+      "source_bytes": 20134,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/34/20261106_v1/FINAL_SUMMARY.json",
+      "sha256": "de68c4ab8989da27c8fa645d6bd103f912bb6e4e335e46c0e947a74c805360ee",
+      "bytes": 20134,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/34/20261106_v1/REPORT.txt",
+      "source_sha256": "01a2b58916b2c2943b4b42e6e54f055d359c3120055c2ba341db87fd737a6276",
+      "source_bytes": 11126,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/34/20261106_v1/REPORT.txt",
+      "sha256": "01a2b58916b2c2943b4b42e6e54f055d359c3120055c2ba341db87fd737a6276",
+      "bytes": 11126,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/34/20261106_v1/protocol.json",
+      "source_sha256": "64150745266c14c1406b842ad592576a461f8c6f228cb7af94461d958eaf4d32",
+      "source_bytes": 3683,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/34/20261106_v1/protocol.json",
+      "sha256": "64150745266c14c1406b842ad592576a461f8c6f228cb7af94461d958eaf4d32",
+      "bytes": 3683,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/35/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "fc0bcafbcaf8ad1c8c8cd918ef8dccb4708c819d7a03ec3315b9ac65bf3aa5ae",
+      "source_bytes": 46499,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/35/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "fc0bcafbcaf8ad1c8c8cd918ef8dccb4708c819d7a03ec3315b9ac65bf3aa5ae",
+      "bytes": 46499,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/35/20261107_v1/REPORT.txt",
+      "source_sha256": "86a213efdbd886c8252697c0a91828126d211cc88ba4f0c488a803d5ec4b948e",
+      "source_bytes": 23126,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/35/20261107_v1/REPORT.txt",
+      "sha256": "86a213efdbd886c8252697c0a91828126d211cc88ba4f0c488a803d5ec4b948e",
+      "bytes": 23126,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/35/20261107_v1/protocol.json",
+      "source_sha256": "8503189c0f5d731718f6c16140a9c35fd9fc55aa2dc18642bd95e5ca45e4a56d",
+      "source_bytes": 1686,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/35/20261107_v1/protocol.json",
+      "sha256": "8503189c0f5d731718f6c16140a9c35fd9fc55aa2dc18642bd95e5ca45e4a56d",
+      "bytes": 1686,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/36/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "c388aa94430cacaa8badb97fd6218e0f2af1745f865517627e8eceefc35fac22",
+      "source_bytes": 15324,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/36/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "c388aa94430cacaa8badb97fd6218e0f2af1745f865517627e8eceefc35fac22",
+      "bytes": 15324,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/36/20261107_v1/REPORT.txt",
+      "source_sha256": "6db6ecfde8752888418a1fb8ad8589713ca04f40fc17b6daa8c2cd565d1c8d43",
+      "source_bytes": 3350,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/36/20261107_v1/REPORT.txt",
+      "sha256": "6db6ecfde8752888418a1fb8ad8589713ca04f40fc17b6daa8c2cd565d1c8d43",
+      "bytes": 3350,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/36/20261107_v1/protocol.json",
+      "source_sha256": "5454b05c4e437949a3754ecafa9e35be2735e2a359964b4bea8f8bcb284e1e52",
+      "source_bytes": 2454,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/36/20261107_v1/protocol.json",
+      "sha256": "5454b05c4e437949a3754ecafa9e35be2735e2a359964b4bea8f8bcb284e1e52",
+      "bytes": 2454,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/37/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "dd4ec941fecf9ddb23a9819ef2d5c7b0cb8328ebe483b318f5fe0f17b9ce37c5",
+      "source_bytes": 16871,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/37/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "dd4ec941fecf9ddb23a9819ef2d5c7b0cb8328ebe483b318f5fe0f17b9ce37c5",
+      "bytes": 16871,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/37/20261107_v1/REPORT.txt",
+      "source_sha256": "ad3ac382760091dd6c1fc9e3384bd10c87d5d62242d1399a1b20c8ba1680e043",
+      "source_bytes": 6361,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/37/20261107_v1/REPORT.txt",
+      "sha256": "ad3ac382760091dd6c1fc9e3384bd10c87d5d62242d1399a1b20c8ba1680e043",
+      "bytes": 6361,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/37/20261107_v1/protocol.json",
+      "source_sha256": "2a6ac7a23af45dfe2db53b8b0371d3fe863af5f3549eb6e2891367d8ccf918f1",
+      "source_bytes": 11415,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/37/20261107_v1/protocol.json",
+      "sha256": "2a6ac7a23af45dfe2db53b8b0371d3fe863af5f3549eb6e2891367d8ccf918f1",
+      "bytes": 11415,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/38/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "e84d7ab4291391c565b7c9847687a186196be8061b3f29f76a9688c51ca2a677",
+      "source_bytes": 19285,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/38/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "e84d7ab4291391c565b7c9847687a186196be8061b3f29f76a9688c51ca2a677",
+      "bytes": 19285,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/38/20261107_v1/REPORT.txt",
+      "source_sha256": "97405fd39d8f2113175fb21dbd034c2d23163d05eefaca0a6a35104ac3269d25",
+      "source_bytes": 3699,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/38/20261107_v1/REPORT.txt",
+      "sha256": "97405fd39d8f2113175fb21dbd034c2d23163d05eefaca0a6a35104ac3269d25",
+      "bytes": 3699,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/38/20261107_v1/protocol.json",
+      "source_sha256": "a18a49f0197b75740613631f9ee221c05b0bbd1d3ad4d8c424597af4559437bc",
+      "source_bytes": 11601,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/38/20261107_v1/protocol.json",
+      "sha256": "a18a49f0197b75740613631f9ee221c05b0bbd1d3ad4d8c424597af4559437bc",
+      "bytes": 11601,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/39/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "515614e75fe8b1988a578b783f1cfb654174e2724a2f7a4800bc575e00ee0867",
+      "source_bytes": 10656,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/39/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "515614e75fe8b1988a578b783f1cfb654174e2724a2f7a4800bc575e00ee0867",
+      "bytes": 10656,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/39/20261107_v1/REPORT.txt",
+      "source_sha256": "17b5afb43b67e471b080e9b75836448ca050ff4ef35239a22164c4e7afe1870a",
+      "source_bytes": 3204,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/39/20261107_v1/REPORT.txt",
+      "sha256": "17b5afb43b67e471b080e9b75836448ca050ff4ef35239a22164c4e7afe1870a",
+      "bytes": 3204,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/39/20261107_v1/driver-contract-replay-v2.json",
+      "source_sha256": "e4d36f04c9f3547b0d0ce0ada54ac11ece7344b93af9b7e84429cb9f0cf0744a",
+      "source_bytes": 11474,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/39/20261107_v1/driver-contract-replay-v2.json",
+      "sha256": "e4d36f04c9f3547b0d0ce0ada54ac11ece7344b93af9b7e84429cb9f0cf0744a",
+      "bytes": 11474,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/39/20261107_v1/protocol.json",
+      "source_sha256": "180cf1e785aad457507bc0b9447755bc68f19f9918a2f0bc04c74224aa5d411e",
+      "source_bytes": 11574,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/39/20261107_v1/protocol.json",
+      "sha256": "180cf1e785aad457507bc0b9447755bc68f19f9918a2f0bc04c74224aa5d411e",
+      "bytes": 11574,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/40/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "177f1072fe5aa918d891da70ba2db6ec2b4a0d9e63ca206decf9540f25be1e48",
+      "source_bytes": 15842,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/40/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "177f1072fe5aa918d891da70ba2db6ec2b4a0d9e63ca206decf9540f25be1e48",
+      "bytes": 15842,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/40/20261107_v1/HISTORICAL_CONTRACT_CORRECTION.txt",
+      "source_sha256": "d9c88c6e53fdc31c3033ced86f82ccb404b5a7e2bba5ce15543c22268d61ae83",
+      "source_bytes": 4369,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/40/20261107_v1/HISTORICAL_CONTRACT_CORRECTION.txt",
+      "sha256": "d9c88c6e53fdc31c3033ced86f82ccb404b5a7e2bba5ce15543c22268d61ae83",
+      "bytes": 4369,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/40/20261107_v1/REPORT.txt",
+      "source_sha256": "580905d7a4a7cae533a7dc0a4e1a0ad7b8268d79f733decbbeb44f943e01a01d",
+      "source_bytes": 1735,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/40/20261107_v1/REPORT.txt",
+      "sha256": "580905d7a4a7cae533a7dc0a4e1a0ad7b8268d79f733decbbeb44f943e01a01d",
+      "bytes": 1735,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/40/20261107_v1/protocol.json",
+      "source_sha256": "5c674832fe746802b3c517abd9a4a61256d163070116482d8d555f9ae9a2c5de",
+      "source_bytes": 12056,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/40/20261107_v1/protocol.json",
+      "sha256": "5c674832fe746802b3c517abd9a4a61256d163070116482d8d555f9ae9a2c5de",
+      "bytes": 12056,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/41/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "258d8132c8eb28ad1e85e36c06862672079513e006cdaa24aef9d517d8ced5ef",
+      "source_bytes": 87944,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/41/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "258d8132c8eb28ad1e85e36c06862672079513e006cdaa24aef9d517d8ced5ef",
+      "bytes": 87944,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/41/20261107_v1/REPORT.txt",
+      "source_sha256": "f1d0e1c0be08de3c6b8ca53c7511e95cb370aa3a1165292b3a742029d0239fba",
+      "source_bytes": 11895,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/41/20261107_v1/REPORT.txt",
+      "sha256": "f1d0e1c0be08de3c6b8ca53c7511e95cb370aa3a1165292b3a742029d0239fba",
+      "bytes": 11895,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/41/20261107_v1/protocol.json",
+      "source_sha256": "b78df85684a6450ceb80eee14a1cbd51206275e4b3faf0af8ca6a3d5ecf754a2",
+      "source_bytes": 12519,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/41/20261107_v1/protocol.json",
+      "sha256": "b78df85684a6450ceb80eee14a1cbd51206275e4b3faf0af8ca6a3d5ecf754a2",
+      "bytes": 12519,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/42/20261107_v1/FINAL_SUMMARY.json",
+      "source_sha256": "8c245cd521155f8cca4a61d8f8c49284c638f4ef55ff4a3acb13ad2135c1cf4c",
+      "source_bytes": 23161,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/42/20261107_v1/FINAL_SUMMARY.json",
+      "sha256": "8c245cd521155f8cca4a61d8f8c49284c638f4ef55ff4a3acb13ad2135c1cf4c",
+      "bytes": 23161,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/42/20261107_v1/REPORT.txt",
+      "source_sha256": "07154f76c653f8a7159cdffb0e552379e8bc5b4889516c4dbb58fbe76ba33caa",
+      "source_bytes": 27035,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/42/20261107_v1/REPORT.txt",
+      "sha256": "07154f76c653f8a7159cdffb0e552379e8bc5b4889516c4dbb58fbe76ba33caa",
+      "bytes": 27035,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/42/20261107_v1/protocol.json",
+      "source_sha256": "9aa00cde30fcc9ca4a3d020d334b07c0569bf3c58829937c02d582ed6a3838bf",
+      "source_bytes": 4147,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/42/20261107_v1/protocol.json",
+      "sha256": "9aa00cde30fcc9ca4a3d020d334b07c0569bf3c58829937c02d582ed6a3838bf",
+      "bytes": 4147,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/FINAL_SUMMARY.json",
+      "source_sha256": "7d74bae0ca3bd6e9ab5511d8d2b8dfa7c59a66a665213901e56b65dc162731ea",
+      "source_bytes": 47616,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/FINAL_SUMMARY.json",
+      "sha256": "7d74bae0ca3bd6e9ab5511d8d2b8dfa7c59a66a665213901e56b65dc162731ea",
+      "bytes": 47616,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/REPORT.txt",
+      "source_sha256": "aca64a6bbfbdc6df9d3f4a35dc69fc6992eb5f9d68c2ee1bfe661c84b31486be",
+      "source_bytes": 5168,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/REPORT.txt",
+      "sha256": "aca64a6bbfbdc6df9d3f4a35dc69fc6992eb5f9d68c2ee1bfe661c84b31486be",
+      "bytes": 5168,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/protocol.json",
+      "source_sha256": "55c2ea848f3031b4b773c1a65eda99de7f8ec98a42a118651acb44f6470d033d",
+      "source_bytes": 6981,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/stages/43/20261108_v1/native-validation/protocol.json",
+      "sha256": "55c2ea848f3031b4b773c1a65eda99de7f8ec98a42a118651acb44f6470d033d",
+      "bytes": 6981,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/tables/api_requests.json",
+      "source_sha256": "aa75a5a65dc57b1441066c9ab734576d12f7878e2da151e62082b31dc82a963c",
+      "source_bytes": 28566,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/tables/api_requests.json",
+      "sha256": "aa75a5a65dc57b1441066c9ab734576d12f7878e2da151e62082b31dc82a963c",
+      "bytes": 28566,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/tables/cohort_results_all.json",
+      "source_sha256": "f51f19ce9c6c5fafee79a567f8037f3240a1d30c5e438915468a3e887ff25fee",
+      "source_bytes": 46756,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/tables/cohort_results_all.json",
+      "sha256": "f51f19ce9c6c5fafee79a567f8037f3240a1d30c5e438915468a3e887ff25fee",
+      "bytes": 46756,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/tables/interrupted_native_attempts_batch43.json",
+      "source_sha256": "3f0fc02ba4847eb84f52b175f6f727bc6ce0f23fb7252fbb33e6c78e29b00187",
+      "source_bytes": 1382,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/tables/interrupted_native_attempts_batch43.json",
+      "sha256": "3f0fc02ba4847eb84f52b175f6f727bc6ce0f23fb7252fbb33e6c78e29b00187",
+      "bytes": 1382,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/period_20261105_20261108/tables/native_episodes_all.json",
+      "source_sha256": "b24b4f2fddfa8211a1e6a985ab143058b254465d73c496d1a52776901e5d5838",
+      "source_bytes": 185982,
+      "repository_path": "research/notes_20261108/evidence/period_20261105_20261108/tables/native_episodes_all.json",
+      "sha256": "b24b4f2fddfa8211a1e6a985ab143058b254465d73c496d1a52776901e5d5838",
+      "bytes": 185982,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/prompt_structure.csv",
+      "source_sha256": "087bae2a916a7b554943aea0c5afe726476473563004a15895478929392c1bc6",
+      "source_bytes": 1683,
+      "repository_path": "research/notes_20261108/evidence/prompt_structure.csv",
+      "sha256": "087bae2a916a7b554943aea0c5afe726476473563004a15895478929392c1bc6",
+      "bytes": 1683,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/provenance.json",
+      "source_sha256": "47e457275d8351cf16e147b1382e7d6b29a83d77654d2ab4a59d175b5f994154",
+      "source_bytes": 2272,
+      "repository_path": "research/notes_20261108/evidence/provenance.json",
+      "sha256": "47e457275d8351cf16e147b1382e7d6b29a83d77654d2ab4a59d175b5f994154",
+      "bytes": 2272,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/README.md",
+      "source_sha256": "4c38f7f48ec9e1d14a98d50d4debd3dca9fb3e4377ed223cc82289293bb5c52f",
+      "source_bytes": 3631,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/README.md",
+      "sha256": "4c38f7f48ec9e1d14a98d50d4debd3dca9fb3e4377ed223cc82289293bb5c52f",
+      "bytes": 3631,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/container-review.json.gz",
+      "source_sha256": "c278a394669612d7a0db25d3bbdf24ff3cfcf78460da917882962181ad3e4eb1",
+      "source_bytes": 825801,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/container-review.json.gz",
+      "sha256": "c278a394669612d7a0db25d3bbdf24ff3cfcf78460da917882962181ad3e4eb1",
+      "bytes": 825801,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/content-exceptions.json",
+      "source_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source_bytes": 3,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/content-exceptions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/content-profiles.jsonl.gz",
+      "source_sha256": "187da27c75876a7270186fe3a41ba15cacbcfa9b74f23617e70fcbd48e04163a",
+      "source_bytes": 2810511,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/content-profiles.jsonl.gz",
+      "sha256": "187da27c75876a7270186fe3a41ba15cacbcfa9b74f23617e70fcbd48e04163a",
+      "bytes": 2810511,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/core-metric-verification.json",
+      "source_sha256": "b760856782522b83560228c5b243e83294ea90d1f65089b1d2280b598eae84ae",
+      "source_bytes": 43681,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/core-metric-verification.json",
+      "sha256": "b760856782522b83560228c5b243e83294ea90d1f65089b1d2280b598eae84ae",
+      "bytes": 43681,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/coverage.json",
+      "source_sha256": "84ebd33ac06e400a4c38979efec134afe711ed23596f473fe3ebfa654266e40a",
+      "source_bytes": 2580,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/coverage.json",
+      "sha256": "84ebd33ac06e400a4c38979efec134afe711ed23596f473fe3ebfa654266e40a",
+      "bytes": 2580,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/data-formats-read.json",
+      "source_sha256": "69397b335d3a6998e2f21a41ff88289f185ce6a1983dd8d038b96f991350457e",
+      "source_bytes": 16213,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/data-formats-read.json",
+      "sha256": "69397b335d3a6998e2f21a41ff88289f185ce6a1983dd8d038b96f991350457e",
+      "bytes": 16213,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/file-review-ledger.jsonl.gz",
+      "source_sha256": "ac682dcbcaa33dd43729fdb7dbe48f9f1f4415c2b877b8bd77687ea5321c8998",
+      "source_bytes": 6798794,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/file-review-ledger.jsonl.gz",
+      "sha256": "ac682dcbcaa33dd43729fdb7dbe48f9f1f4415c2b877b8bd77687ea5321c8998",
+      "bytes": 6798794,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/h5-read.json",
+      "source_sha256": "fad6e58a413f207b4e351647d0c1b6a9e3c4718e0ffcbefce5ce6a9a88879d62",
+      "source_bytes": 11652,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/h5-read.json",
+      "sha256": "fad6e58a413f207b4e351647d0c1b6a9e3c4718e0ffcbefce5ce6a9a88879d62",
+      "bytes": 11652,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/media-array-review.jsonl.gz",
+      "source_sha256": "d9827f5fd5155426d5decdcbde8831a056580eba2a913b4cab6550fd39f0e86c",
+      "source_bytes": 877786,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/media-array-review.jsonl.gz",
+      "sha256": "d9827f5fd5155426d5decdcbde8831a056580eba2a913b4cab6550fd39f0e86c",
+      "bytes": 877786,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/media-summary.json",
+      "source_sha256": "1ba34bbccd55179076f0b5497190cdd4a6675760060759daf7b1ebfc53290eb7",
+      "source_bytes": 396,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/media-summary.json",
+      "sha256": "1ba34bbccd55179076f0b5497190cdd4a6675760060759daf7b1ebfc53290eb7",
+      "bytes": 396,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/small-format-review.json",
+      "source_sha256": "5de64cac9c4d6104c4715c1756f507b1404ccf25be787a21b17b436610064a73",
+      "source_bytes": 5416,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/small-format-review.json",
+      "sha256": "5de64cac9c4d6104c4715c1756f507b1404ccf25be787a21b17b436610064a73",
+      "bytes": 5416,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/readthrough_20261102/xlsx-read.json",
+      "source_sha256": "39e650ed202f731fefce64bf158bc34569743ff6f9e3d2c95f57c505b2a1ba60",
+      "source_bytes": 57,
+      "repository_path": "research/notes_20261108/evidence/readthrough_20261102/xlsx-read.json",
+      "sha256": "39e650ed202f731fefce64bf158bc34569743ff6f9e3d2c95f57c505b2a1ba60",
+      "bytes": 57,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/system1_reference_matrix.csv",
+      "source_sha256": "21ab64abfa31b342e7a5f1bf15fbfbce6c10cb4ab9a115e4bea6110d1ad85b87",
+      "source_bytes": 633,
+      "repository_path": "research/notes_20261108/evidence/system1_reference_matrix.csv",
+      "sha256": "21ab64abfa31b342e7a5f1bf15fbfbce6c10cb4ab9a115e4bea6110d1ad85b87",
+      "bytes": 633,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/system2_rounds.csv",
+      "source_sha256": "5161539ae54909fd56df33aaa3f119a0bef2e454481b96b54c37967085cf6184",
+      "source_bytes": 302,
+      "repository_path": "research/notes_20261108/evidence/system2_rounds.csv",
+      "sha256": "5161539ae54909fd56df33aaa3f119a0bef2e454481b96b54c37967085cf6184",
+      "bytes": 302,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/targeted-timing-pairs.csv",
+      "source_sha256": "bc42a95c821025f2d9074f9935216fa1818ef829b2bbf1ec6029aa538d836313",
+      "source_bytes": 1971,
+      "repository_path": "research/notes_20261108/evidence/targeted-timing-pairs.csv",
+      "sha256": "bc42a95c821025f2d9074f9935216fa1818ef829b2bbf1ec6029aa538d836313",
+      "bytes": 1971,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/token_analysis_recomputed.json",
+      "source_sha256": "47a6a079e201dda5ff73e94b28b07d68ffbe93263d382bef20dbf48696dddca5",
+      "source_bytes": 2660,
+      "repository_path": "research/notes_20261108/evidence/token_analysis_recomputed.json",
+      "sha256": "47a6a079e201dda5ff73e94b28b07d68ffbe93263d382bef20dbf48696dddca5",
+      "bytes": 2660,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/evidence/unknowns-and-evidence-gaps.csv",
+      "source_sha256": "5af0146202441751a3bf6870ea3415be0c082caa1dff869ceb08d99f762315b9",
+      "source_bytes": 4438,
+      "repository_path": "research/notes_20261108/evidence/unknowns-and-evidence-gaps.csv",
+      "sha256": "5af0146202441751a3bf6870ea3415be0c082caa1dff869ceb08d99f762315b9",
+      "bytes": 4438,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/README.md",
+      "source_sha256": "db05a107c9a33ddaa6f24e95f39a07a3ed62ee80613d78dbacc075cdd5a4764e",
+      "source_bytes": 4819,
+      "repository_path": "research/notes_20261108/history/README.md",
+      "sha256": "5b8ad1c19f0b209a027ff98cd4218c68d3815369678d7c3d73a785d02c23de61",
+      "bytes": 4924,
+      "transformation": "GitHub navigation and separate source/public HIST hashes; exact installed originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/experiment_index.csv",
+      "source_sha256": "8e8b9305464dd3f20002b76b58e130f38c1d1ae3b2a308ac62d8971fe358ee9d",
+      "source_bytes": 17504,
+      "repository_path": "research/notes_20261108/history/experiment_index.csv",
+      "sha256": "8e8b9305464dd3f20002b76b58e130f38c1d1ae3b2a308ac62d8971fe358ee9d",
+      "bytes": 17504,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/history-record-index.csv",
+      "source_sha256": "bccd3c4d18474378fbed55f33c715f738424055274ace8b4a685f8073ff4e48f",
+      "source_bytes": 48568,
+      "repository_path": "research/notes_20261108/history/history-record-index.csv",
+      "sha256": "1750ac0bed76799be09d0ef5665d003180c5bd0c47a6ac768a0c00039561afff",
+      "bytes": 54429,
+      "transformation": "GitHub navigation and separate source/public HIST hashes; exact installed originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/index_status.json",
+      "source_sha256": "f90b03cfb76816f2f0c5a8b7f2ad8070cc8cfd163a7cb7acb84ce1fb53589aae",
+      "source_bytes": 803,
+      "repository_path": "research/notes_20261108/history/index_status.json",
+      "sha256": "f90b03cfb76816f2f0c5a8b7f2ad8070cc8cfd163a7cb7acb84ce1fb53589aae",
+      "bytes": 803,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-061.md",
+      "source_sha256": "027bf1d1c9c425ba13a1b41aef341c72a39980db90a3b1be1dd770bede5dee79",
+      "source_bytes": 1550,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-061.md",
+      "sha256": "027bf1d1c9c425ba13a1b41aef341c72a39980db90a3b1be1dd770bede5dee79",
+      "bytes": 1550,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-062.md",
+      "source_sha256": "947c1e3767ca2cd2152ea1b602aa85d1e078b534c93dce43b8345239a09565b7",
+      "source_bytes": 2411,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-062.md",
+      "sha256": "947c1e3767ca2cd2152ea1b602aa85d1e078b534c93dce43b8345239a09565b7",
+      "bytes": 2411,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-063.md",
+      "source_sha256": "e1a4934fc24483a265485f35bd1181addffa66a720520c1d802f0f2e339c9e69",
+      "source_bytes": 1874,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-063.md",
+      "sha256": "e1a4934fc24483a265485f35bd1181addffa66a720520c1d802f0f2e339c9e69",
+      "bytes": 1874,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-064.md",
+      "source_sha256": "a140d3f72ae23f5267a423b96c3fdc49400bd2bb6a0233877b269ec0420e3372",
+      "source_bytes": 2025,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-064.md",
+      "sha256": "a140d3f72ae23f5267a423b96c3fdc49400bd2bb6a0233877b269ec0420e3372",
+      "bytes": 2025,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-065.md",
+      "source_sha256": "c5530de3085e608cc8260283ac613a03bfa11476349f0456a0d6e2bb28f6cfd2",
+      "source_bytes": 3172,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-065.md",
+      "sha256": "a6b3abe6b0fa0d15c49f8658d6174f22ea98975270f5f605af7e407f12822ad9",
+      "bytes": 3190,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-066.md",
+      "source_sha256": "cadf033404c420107e7d75afb8ee8d351934d1368829fcb09983fda6f14db2e9",
+      "source_bytes": 2992,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-066.md",
+      "sha256": "ce043800285a02afbdf8b2b7edbd72e6cce059ee727d238de0d7e4e64de24431",
+      "bytes": 3144,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-067.md",
+      "source_sha256": "39efc7bc9fe1037d6fec635121b1296c71755e2c682b6cf0374f73a5d42e290a",
+      "source_bytes": 3148,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-067.md",
+      "sha256": "72588035f1acfc27dc3c289fe39ed3eb8ef5b7d18f9b4662970cf350c8e6bdf4",
+      "bytes": 3253,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-068.md",
+      "source_sha256": "5da5de64036762e48f60d650a92b189dc38575c71631e1dd9937c44ce97b4a81",
+      "source_bytes": 3039,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-068.md",
+      "sha256": "df3592932da097a090d489ee3a49a8aa09e1c6fc879dffbc89cb828339f23d44",
+      "bytes": 3107,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-069.md",
+      "source_sha256": "0a00978e683e0a1636b866e305170c385ea193e8d9285421f3237cdc13701a46",
+      "source_bytes": 3235,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-069.md",
+      "sha256": "f324c6426db6821e4ba27dda45bda2741d8338a541c576eb492516c377fa08fa",
+      "bytes": 3346,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-070.md",
+      "source_sha256": "413f6abd8c301add56d1a67e3f3f7ede11b1562a084ed826c966607d629b7b09",
+      "source_bytes": 2833,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-070.md",
+      "sha256": "2a398e37d903dd4008068136841c072ff95da03b93d8b31d5ccbc4402915251d",
+      "bytes": 2853,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-071.md",
+      "source_sha256": "a957d5486b0c65954b0bde8da2847e5ca92a4f49dcd3075de0d9982f901bdefc",
+      "source_bytes": 3151,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-071.md",
+      "sha256": "52bbccf3d0a999753f6814fff3902ce9197c4d273ba8ae46214380c190772659",
+      "bytes": 3193,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-072.md",
+      "source_sha256": "65193254f4615ad59bae80991b181ca16fc6a130aa75a15efc4df28c00c8a0eb",
+      "source_bytes": 3515,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-072.md",
+      "sha256": "87f9a67855a52dd37de747a773a653bf474ecd86a40404ae289a0c44e25b51bf",
+      "bytes": 3564,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-073.md",
+      "source_sha256": "32363cb2be7fde606f4318765a2dd1cb19021fa7d0554969b71932d09a24d66f",
+      "source_bytes": 3770,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-073.md",
+      "sha256": "c38a35bcc7be600172ba2deec637ae2b83345552f2e016b49b9614ca2e9a5af6",
+      "bytes": 3856,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-074.md",
+      "source_sha256": "b0a377f846aa1caaf079de0c35ba7400efc0f2a9a616fda439eef670e1ae2905",
+      "source_bytes": 3094,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-074.md",
+      "sha256": "549ec693781f78923aa6d280c8043f6a9091e1a246a72491043daea854139b8b",
+      "bytes": 3133,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/HIST-075.md",
+      "source_sha256": "1c9c4109845ed9d101643ca8b211cde354ceb80b06a4bbaf92b31e73ab921406",
+      "source_bytes": 2211,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/HIST-075.md",
+      "sha256": "1c9c4109845ed9d101643ca8b211cde354ceb80b06a4bbaf92b31e73ab921406",
+      "bytes": 2211,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/README.md",
+      "source_sha256": "a918bb5dc340eba10ffd56bd9f36a5da3b8a682fe3eec9bb78544709583c4312",
+      "source_bytes": 2503,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/README.md",
+      "sha256": "a918bb5dc340eba10ffd56bd9f36a5da3b8a682fe3eec9bb78544709583c4312",
+      "bytes": 2503,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/index.csv",
+      "source_sha256": "719045e5b89d7ad1cbbafb7a8e09f39e9f5c12572e6a3bce32abc1803eb32c8b",
+      "source_bytes": 1887,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/index.csv",
+      "sha256": "719045e5b89d7ad1cbbafb7a8e09f39e9f5c12572e6a3bce32abc1803eb32c8b",
+      "bytes": 1887,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261103_20261105/index.json",
+      "source_sha256": "40edce4f0602d4a98525a561ba7bf206e65dd3e38c34e615d1ce8ccd0fbc61c4",
+      "source_bytes": 3273,
+      "repository_path": "research/notes_20261108/history/period_20261103_20261105/index.json",
+      "sha256": "40edce4f0602d4a98525a561ba7bf206e65dd3e38c34e615d1ce8ccd0fbc61c4",
+      "bytes": 3273,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-076.md",
+      "source_sha256": "50dd22f1d70b853354d249133a1f24de80614c033a996c7a69e90fc434cded1a",
+      "source_bytes": 1055,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-076.md",
+      "sha256": "50dd22f1d70b853354d249133a1f24de80614c033a996c7a69e90fc434cded1a",
+      "bytes": 1055,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-077.md",
+      "source_sha256": "5067824412d83ebb0d4a05716aa34c9b7c5b07bcb64d9d6cd54bbef631ca1ef7",
+      "source_bytes": 4125,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-077.md",
+      "sha256": "5067824412d83ebb0d4a05716aa34c9b7c5b07bcb64d9d6cd54bbef631ca1ef7",
+      "bytes": 4125,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-078.md",
+      "source_sha256": "3f00d73b63a654741ee2fe427f6465ea9fe8f05084c5ae2f914f86d49aae645f",
+      "source_bytes": 3937,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-078.md",
+      "sha256": "3f00d73b63a654741ee2fe427f6465ea9fe8f05084c5ae2f914f86d49aae645f",
+      "bytes": 3937,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-079.md",
+      "source_sha256": "81ba3e7417b4fa5d5aba9129a82c81ea3a7414a4ac00edee7bf6f1f4213a565e",
+      "source_bytes": 3808,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-079.md",
+      "sha256": "81ba3e7417b4fa5d5aba9129a82c81ea3a7414a4ac00edee7bf6f1f4213a565e",
+      "bytes": 3808,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-080.md",
+      "source_sha256": "f841009dcf00c95894e5bd2baa3ecd3c50c79b27b828268d155e7cb89252ebf8",
+      "source_bytes": 3749,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-080.md",
+      "sha256": "f841009dcf00c95894e5bd2baa3ecd3c50c79b27b828268d155e7cb89252ebf8",
+      "bytes": 3749,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-081.md",
+      "source_sha256": "4002e617f352e596ed3525090a1a94827a438465934a23c89c54140f70f25a49",
+      "source_bytes": 3643,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-081.md",
+      "sha256": "4002e617f352e596ed3525090a1a94827a438465934a23c89c54140f70f25a49",
+      "bytes": 3643,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-082.md",
+      "source_sha256": "8e524183d7e8aba20b1b06d7038ec8e7f3348f5fac524a1d87d8f2826aa4b008",
+      "source_bytes": 3760,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-082.md",
+      "sha256": "8e524183d7e8aba20b1b06d7038ec8e7f3348f5fac524a1d87d8f2826aa4b008",
+      "bytes": 3760,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-083.md",
+      "source_sha256": "38877c131b0787131ca39880a931733b3d7de3803005d18fdf02c77e489e252e",
+      "source_bytes": 3723,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-083.md",
+      "sha256": "38877c131b0787131ca39880a931733b3d7de3803005d18fdf02c77e489e252e",
+      "bytes": 3723,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-084.md",
+      "source_sha256": "274fcf565f5a081be51af30c17a10bcb2d90c4259b0de5e70d49499ac8361038",
+      "source_bytes": 4037,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-084.md",
+      "sha256": "274fcf565f5a081be51af30c17a10bcb2d90c4259b0de5e70d49499ac8361038",
+      "bytes": 4037,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-085.md",
+      "source_sha256": "ed2c49b4a727d5453b1c2da20377b8c4ce092406a0cc22b46aaad02aa90fbe29",
+      "source_bytes": 4179,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-085.md",
+      "sha256": "ed2c49b4a727d5453b1c2da20377b8c4ce092406a0cc22b46aaad02aa90fbe29",
+      "bytes": 4179,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-086.md",
+      "source_sha256": "db483429879787469dc1b4fcb7cab8ab6628db1ece045efbc581f8da624553c1",
+      "source_bytes": 3817,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-086.md",
+      "sha256": "db483429879787469dc1b4fcb7cab8ab6628db1ece045efbc581f8da624553c1",
+      "bytes": 3817,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-087.md",
+      "source_sha256": "df8d7a0805c14634761271a8f6f723e0b4cc7471c4802714afec246badaa56c0",
+      "source_bytes": 4474,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-087.md",
+      "sha256": "df8d7a0805c14634761271a8f6f723e0b4cc7471c4802714afec246badaa56c0",
+      "bytes": 4474,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-088.md",
+      "source_sha256": "5e125f121e6782488393b87f7a0d779cecfd2a086d1612181a771b6357e9b632",
+      "source_bytes": 5051,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-088.md",
+      "sha256": "5e125f121e6782488393b87f7a0d779cecfd2a086d1612181a771b6357e9b632",
+      "bytes": 5051,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-089.md",
+      "source_sha256": "805fd4bba72811406847ab9dcfba82ba97f2575eeb555b1797c76f9041aac3b8",
+      "source_bytes": 956,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-089.md",
+      "sha256": "805fd4bba72811406847ab9dcfba82ba97f2575eeb555b1797c76f9041aac3b8",
+      "bytes": 956,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/HIST-090.md",
+      "source_sha256": "f4d8924d302ac612ad5851a6b1798767c7c6e3ab1f53cd3269fdf02e4634896d",
+      "source_bytes": 1440,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/HIST-090.md",
+      "sha256": "f4d8924d302ac612ad5851a6b1798767c7c6e3ab1f53cd3269fdf02e4634896d",
+      "bytes": 1440,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/period_20261105_20261108/README.md",
+      "source_sha256": "d1ab2c5351f9b1d833e58d6f8125382537b47164fa3b14dcfd9ce228a54d8b16",
+      "source_bytes": 2861,
+      "repository_path": "research/notes_20261108/history/period_20261105_20261108/README.md",
+      "sha256": "d1ab2c5351f9b1d833e58d6f8125382537b47164fa3b14dcfd9ce228a54d8b16",
+      "bytes": 2861,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/result_inventory.csv",
+      "source_sha256": "8a23a4be5d359e5095162ab2ca835385f8cda4ddc88e594bae2e56dbc9988e7e",
+      "source_bytes": 4901,
+      "repository_path": "research/notes_20261108/history/result_inventory.csv",
+      "sha256": "8a23a4be5d359e5095162ab2ca835385f8cda4ddc88e594bae2e56dbc9988e7e",
+      "bytes": 4901,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/supplement_index_20261102.csv",
+      "source_sha256": "f87dc4715b6b8c0f7bbd3b78c0a53b350d9c2aa38d8e9c1dca714265fb44acb6",
+      "source_bytes": 1034,
+      "repository_path": "research/notes_20261108/history/supplement_index_20261102.csv",
+      "sha256": "f87dc4715b6b8c0f7bbd3b78c0a53b350d9c2aa38d8e9c1dca714265fb44acb6",
+      "bytes": 1034,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-001_00_protocol.md",
+      "source_sha256": "5ddddde583e7c16e3969e9d467c68f79d08b8d89200eea747162db0567402201",
+      "source_bytes": 2473,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-001_00_protocol.md",
+      "sha256": "60396852540572346fb7f072ef83f2621a647513df41dff42ba36a8f1be007c9",
+      "bytes": 2519,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-002_01_environment.md",
+      "source_sha256": "a3d07ed5322ec773ef9c931c995925a8e104621cfc6ade12be9dcfa788111d29",
+      "source_bytes": 5064,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-002_01_environment.md",
+      "sha256": "1f9d5a7becdc3c5d3b87266bb591c7e3bd53b506c2df04ab4083f8f71479f737",
+      "bytes": 5386,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-003_02_code_audit.md",
+      "source_sha256": "6aac1f839401ce7d218bec75b886a0ace10494f7101eb7f08bbb137fe8a02a1c",
+      "source_bytes": 4892,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-003_02_code_audit.md",
+      "sha256": "b30a3488268f4a147b16027c7c468ee668a46f04ae82b66e21810fdd24ec80e3",
+      "bytes": 5260,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-004_03_api_connectivity.md",
+      "source_sha256": "1994c15b084b21b914fba8e41716b9cf731dac574d691bf7124e99f17c4ffd88",
+      "source_bytes": 3504,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-004_03_api_connectivity.md",
+      "sha256": "04778f36604030d653bf5f26ff51c5a25750841a6168d0534044cf0b8985ae58",
+      "bytes": 3665,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-005_03_api_experiments.md",
+      "source_sha256": "ffb67634538b9756f0a7d0423285f560081080dae3acf3b6a98b52641fef5ee4",
+      "source_bytes": 6290,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-005_03_api_experiments.md",
+      "sha256": "c702a0da0fe41d967e0aa80fafdf211d958794730708ad0d6fab2058da7a3ecb",
+      "bytes": 6681,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-006_04_next_batch_20_scenes.md",
+      "source_sha256": "30976726e6aa089739c1b679b285d135fb0bdb561e66184b54c15fa310482af4",
+      "source_bytes": 5150,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-006_04_next_batch_20_scenes.md",
+      "sha256": "13633041d946b79313d41df399102b5ce4884f9a2123cdc87acd6a3aaaf5f5a3",
+      "bytes": 5518,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-007_05_api20_execution_20261027.md",
+      "source_sha256": "0bcdedc9e04a79d2a587a9318d0aec1990bc51bf47822f8b54cd6002b3b74fcf",
+      "source_bytes": 6499,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-007_05_api20_execution_20261027.md",
+      "sha256": "8c88c8dd995ab14404dd751f2f83b5ba2c9569deb0d7f211100805f3a2bfb608",
+      "bytes": 6890,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-008_06_policy_environment_20261029.md",
+      "source_sha256": "cff32d122f983cf35fc74cc0c051da988979c21e19e9d3d58d6ad7ace206108f",
+      "source_bytes": 5054,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-008_06_policy_environment_20261029.md",
+      "sha256": "5a9916b0bab5d168fe7d9951907fe40f67e7c2a28bd883c25765e6392102107d",
+      "bytes": 5445,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-009_07_rerun_compatibility_20261029.md",
+      "source_sha256": "6e810e737ab23db30a4b99a307c4b8b838eb68a10387f16911f923fe4dab3716",
+      "source_bytes": 4901,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-009_07_rerun_compatibility_20261029.md",
+      "sha256": "f343f0e7d241b23092e25862fde8a90bcba846090e58ede51fd0780d025aef57",
+      "bytes": 5246,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-010_08_isaac_rgb_smoke_20261028.md",
+      "source_sha256": "485f932371d86cb5fe168f2e244c269dc80d6df608d4e84fd0b174a24354e9db",
+      "source_bytes": 5094,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-010_08_isaac_rgb_smoke_20261028.md",
+      "sha256": "b01d8280f91ec84b86ec6b5768d42105d9f45cdb6f759af4e2b5238901048881",
+      "bytes": 5416,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-011_06_cloud_graphics_preflight_20261028.md",
+      "source_sha256": "19275d7b49f79c72708354a98e9b9c497ee02efea103055db4e4079c47b9217a",
+      "source_bytes": 5543,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-011_06_cloud_graphics_preflight_20261028.md",
+      "sha256": "b923e230a1e73e026fb42e278347d696a42522ec96afc8e3771cc5342e79d152",
+      "bytes": 5934,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-012_07_native_deployment_20261028.md",
+      "source_sha256": "369366957ca5f4f2041b8776d785d4d19aedae54bf3b70c7e49d4770a8fc7859",
+      "source_bytes": 5175,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-012_07_native_deployment_20261028.md",
+      "sha256": "b5b0327c3035228da5fd56c68c641396dc1f963c4a1b8b58bb038c598be7ee53",
+      "bytes": 5520,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-013_09_policy_assets_20261028.md",
+      "source_sha256": "6f3d1468ea0175b60f5d41aa8cd38298f068bb1f52c611a50aadf024c45866d7",
+      "source_bytes": 3264,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-013_09_policy_assets_20261028.md",
+      "sha256": "287cfe474c27be879200837fc59e3ffeb15b17a53e013266f64507a8c53fb496",
+      "bytes": 3402,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-014_11_environment_setup_20261028T222805Z.md",
+      "source_sha256": "e79afdfc102730096a879aebf16a8bb410ec04ce94bf74868fcade6ed1521e7b",
+      "source_bytes": 5312,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-014_11_environment_setup_20261028T222805Z.md",
+      "sha256": "5780242e79df5605e010961353f7e2879e86c9fd8af120a0e9614e421536a042",
+      "bytes": 5680,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-015_12_native_scene_preflight_20261028T223526Z.md",
+      "source_sha256": "39fcdecbe697d557830d90bdec0ff3e7ae6979d511df19466387d03d29a8ff80",
+      "source_bytes": 2535,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-015_12_native_scene_preflight_20261028T223526Z.md",
+      "sha256": "61c76f3d066e2ad3cdcebbea1923a5bd865d06aaa8720931f0a886be45457469",
+      "bytes": 2604,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-016_12_native_scene_preflight_20261028T223804Z.md",
+      "source_sha256": "ec8a31295aacaeffa3b4923cb9ef23fae36e7f77e9f59ebc50b22e52179b86cc",
+      "source_bytes": 2513,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-016_12_native_scene_preflight_20261028T223804Z.md",
+      "sha256": "6456c5867b85a4bbb8e879100fe1740d72f7992b5a26c62fb5d226ff0418e802",
+      "bytes": 2582,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-017_12_native_scene_preflight_20261028T224100Z.md",
+      "source_sha256": "3a378b907bd2444dd29feb04a882ac4da56c2928249aec8ffb51e602e17b0682",
+      "source_bytes": 2748,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-017_12_native_scene_preflight_20261028T224100Z.md",
+      "sha256": "95fa39ba9945a80121f75e7ac8fc16041f3faaff96abd1f738cf3153e066b42a",
+      "bytes": 2840,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-018_14_fixed_pi05_episode_20261028T225024Z.md",
+      "source_sha256": "5c5ed4b8efa0e123ed883d614fac852c8df7e584f2c104dd3e98298507822147",
+      "source_bytes": 3699,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-018_14_fixed_pi05_episode_20261028T225024Z.md",
+      "sha256": "78273914a489938c6503750a8e6e400f60a9e04296a2267da49d0c3f93d4510d",
+      "bytes": 3883,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-019_15_offline_setup_20261028T225338Z.md",
+      "source_sha256": "59ed435c0ef92dd8f6ef8d24e4e4286df10e9246e2067515ee0930d71f9b2eea",
+      "source_bytes": 2340,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-019_15_offline_setup_20261028T225338Z.md",
+      "sha256": "4834edbc3194069efd0f8070889f5d74abd0cc0ebf681d35d1c8284f84d6b40c",
+      "bytes": 2386,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-020_14_fixed_pi05_episode_20261028T225427Z.md",
+      "source_sha256": "16c19bd2174e90e27c7854e24cff0d1257f19bfebc53b1ea6ef450210bc2ab95",
+      "source_bytes": 3691,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-020_14_fixed_pi05_episode_20261028T225427Z.md",
+      "sha256": "79ea66bfba6b175ed54d4565a41863b77b4b9f38bb2a0a9b70b61f176c3554b5",
+      "bytes": 3875,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-021_14_fixed_pi05_episode_20261028T225819Z.md",
+      "source_sha256": "70b600ed35b1b66099680bfde05707c7e3f9dad1c257648ba44b86a9d1aacf6d",
+      "source_bytes": 3972,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-021_14_fixed_pi05_episode_20261028T225819Z.md",
+      "sha256": "481a7977944effbfb19c4e1ff43d9459fa0c8101dd31a509936d91ec1738a428",
+      "bytes": 4179,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-022_16_fixed_sparse_episode_20261028T230241Z.md",
+      "source_sha256": "7a2ec163934f27caf5ab67868e4d155fcebc88a353c78bfb286e90777e6e8b97",
+      "source_bytes": 4607,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-022_16_fixed_sparse_episode_20261028T230241Z.md",
+      "sha256": "c5da51b8b13f87b3c9dffa0230fd93922eb4d3b71ea4988b99c47a0c21ea6e17",
+      "bytes": 4837,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-023_10_policy_download_20261028T222534Z.md",
+      "source_sha256": "0cf1e5ccd1319e9c993789e3132ab6ded66a007ac455437777c26d0772cf1a4a",
+      "source_bytes": 5182,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-023_10_policy_download_20261028T222534Z.md",
+      "sha256": "8e2cbb6e03f80893ac9b0c163cb9456620278b69c8dd48baecd9f65465b996ae",
+      "bytes": 5504,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-024_13_asset_install_20261028T223526Z.md",
+      "source_sha256": "0152aeee4487fdf8a1acd8111cfc5894e1b6d7b3fda14f285de261efd03e5290",
+      "source_bytes": 2533,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-024_13_asset_install_20261028T223526Z.md",
+      "sha256": "344e8c3d40b0c2c3c515da6138909e383c5ef6ff00c55b28d512d0ad47c678f3",
+      "bytes": 2602,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-025_15_offline_setup_20261028T230241Z.md",
+      "source_sha256": "8e2116563c422e3169c1411a498f7102fa73798ad5b6235a8cbfea4625854e0b",
+      "source_bytes": 3431,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-025_15_offline_setup_20261028T230241Z.md",
+      "sha256": "9fd5c2dfa680a17d483b23c865f93c69c966395c15910c67df93ad98231bf6fe",
+      "bytes": 3592,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-026_17_qwen_agent_episode_20261029T010809Z.md",
+      "source_sha256": "05c1cdfb0eff0720ae389bb4209156abe0e415b0fe1b95da8fb36f5e4fac064a",
+      "source_bytes": 4425,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-026_17_qwen_agent_episode_20261029T010809Z.md",
+      "sha256": "6518b41636e745d3f4eeaf80fcdb7accbc08efd4e7ab9ee88253d2b7642b11e7",
+      "bytes": 4655,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-027_17_qwen_agent_episode_20261029T010919Z.md",
+      "source_sha256": "7bf024546ced240fea3033fb7ab597d9a21bff1c640635f03a049b0938c5d667",
+      "source_bytes": 5850,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-027_17_qwen_agent_episode_20261029T010919Z.md",
+      "sha256": "486b0e4fe126ce9c296844f29e2307af7d5c422537d67b6c9bec1e7770633e51",
+      "bytes": 6241,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-028_18_experiment_suite_20261029T020602Z.md",
+      "source_sha256": "1f289072e0da3187ad01cc6cc4241abeb270658ccd642482e82c2308c2291f4f",
+      "source_bytes": 7438,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-028_18_experiment_suite_20261029T020602Z.md",
+      "sha256": "e77bc1a0beb98f1f655ab959ac85ef63e7a4cb9331f5066718ae7bdf3ab79375",
+      "bytes": 7921,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-029_19_catalogue_ablation_20261029T051109Z.md",
+      "source_sha256": "66ed07111f4da2fad5384ab71271785f8173f8a6b42b9d7e1c845aef106f6fc5",
+      "source_bytes": 7910,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-029_19_catalogue_ablation_20261029T051109Z.md",
+      "sha256": "ad72e51b2b42f69889d650a8b1564d8ee6bbe942af0087c6a3c1014f3ab4bc25",
+      "bytes": 8393,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-030_20_cross_project_evidence_20261029T075456Z.md",
+      "source_sha256": "81203f9ee98d5c0c3608cc3fb809be411727104d936088db18d0c2746df1a135",
+      "source_bytes": 7676,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-030_20_cross_project_evidence_20261029T075456Z.md",
+      "sha256": "d653d05e701b98ca35ab6b912c9c50c01a056c47f6942a0deb861088d8df74c1",
+      "bytes": 8159,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-031_21_cloud_closing_20261029T112202Z.md",
+      "source_sha256": "de279d025038426663a68e43362dee3e907a6835b067f510fb9009d9ec0b4330",
+      "source_bytes": 7732,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-031_21_cloud_closing_20261029T112202Z.md",
+      "sha256": "c0d7762a6b4ec7f30ca88626ea508db263f8fcb8e8dcc1bdf8d82ed743f0f1c4",
+      "bytes": 8215,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-032_22_failure_consistency_20261029T121940Z.md",
+      "source_sha256": "820807d75e13afec8bb6797775dbf60f0e8dcf5e2a079bc6980796b9c82f2ec4",
+      "source_bytes": 5673,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-032_22_failure_consistency_20261029T121940Z.md",
+      "sha256": "55045509d4e17027b3d549c71fed74a46d3f59ad3a9b025a2013705848b30b46",
+      "bytes": 6041,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-033_23_protocol_freeze_20261029T132917Z.md",
+      "source_sha256": "90289da0e0b6c32455d7779a7602cca63c49920fce67d07ab299f65a26ee9c78",
+      "source_bytes": 5519,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-033_23_protocol_freeze_20261029T132917Z.md",
+      "sha256": "873f36a9c50402f292d00c1f889ca2127b859843c996cf36a26d29030732bf2d",
+      "bytes": 5864,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-034_steps23_setup_20261030T011329Z.md",
+      "source_sha256": "cb2c2a5bce573f11293310945afca37058738320fec25345454d08ee816ecb41",
+      "source_bytes": 4538,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-034_steps23_setup_20261030T011329Z.md",
+      "sha256": "5fc88794b570ace387cf5289740c77f74657be1d59ac4957a2d2a74b1e6a140c",
+      "bytes": 4814,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-035_24_steps23_20261030T011329Z.md",
+      "source_sha256": "d61060f2e03469f1bdd52282972bf6ffee68d50b21179aa8e8dd0905bd36cd82",
+      "source_bytes": 6765,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-035_24_steps23_20261030T011329Z.md",
+      "sha256": "0ed85df89816805657db61367e9e8a09dffbd99106a97015901c16dd1762e340",
+      "bytes": 7202,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-036_24_steps23_20261030T012400Z_v2.md",
+      "source_sha256": "43a97a22f87bedeba983d52b72c9760ee808500d0ef6387aa439ccf8a91e9167",
+      "source_bytes": 6276,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-036_24_steps23_20261030T012400Z_v2.md",
+      "sha256": "0120cc205709f8315ab7fd7abf3de4eb32991be107aa3bfd8c4b808d94e496cd",
+      "bytes": 6667,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-037_24_steps23_20261030T013742Z_v3-review.md",
+      "source_sha256": "c656bc0b08f2b4818011814b7f6397daa3b65b1521852ad7f18df4544caf8d38",
+      "source_bytes": 4862,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-037_24_steps23_20261030T013742Z_v3-review.md",
+      "sha256": "24cefcb2594cad80c61794fc183ebb5b90a13d8386b740ca67ac2877156569df",
+      "bytes": 5138,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-038_24_steps23_20261030T013742Z_v3.md",
+      "source_sha256": "4721d83215fe08486ecade03b6a7f1d7d879d1c7433fe8cac5cde72a4230bcec",
+      "source_bytes": 8949,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-038_24_steps23_20261030T013742Z_v3.md",
+      "sha256": "c748587b2dd3f84a2ceac33a33e08067a7d02543d3a7d24894b022cb316df905",
+      "bytes": 9409,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-039_25_system2_integration_20261030T050100Z.md",
+      "source_sha256": "27ae3d0b9b4ff5a9e62f414708105d12efe804367347215b5811c0a816aa3a94",
+      "source_bytes": 6874,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-039_25_system2_integration_20261030T050100Z.md",
+      "sha256": "5a9ae3a9adaad04b8bb1e609bbdfddc870659445b06967cb153bf0f12f837d15",
+      "bytes": 7265,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-040_26_system2_iterations_20261030T074100Z.md",
+      "source_sha256": "be9b47afc1b134df3ce8484994de5b0099beb904bc0737a8cd304795cc2ec625",
+      "source_bytes": 8923,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-040_26_system2_iterations_20261030T074100Z.md",
+      "sha256": "e91d7231885eae95d0bcf9446390a668a8096b1ce7b0158f5dbf97ee0b07e18e",
+      "bytes": 9314,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-041_27_scene_contract_repair_20261030T094946552127Z.md",
+      "source_sha256": "02c974c98f04cc78f8c66fda98e226dc8fbe08a3f0a80b7996989ab9207a3959",
+      "source_bytes": 6662,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-041_27_scene_contract_repair_20261030T094946552127Z.md",
+      "sha256": "f16d60f84d057f4f15170714c42a4345db4d25c75ef4b3a5e8eb61dd9389205a",
+      "bytes": 7053,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-042_28_system2_interface_20261030T102000Z.md",
+      "source_sha256": "af3c1e19a7ed635e829314b88a55a9fb582102010c5cb5215542b9401921f437",
+      "source_bytes": 9210,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-042_28_system2_interface_20261030T102000Z.md",
+      "sha256": "1e912288b74173fb47b0379a23de9f49000a6f267215e461ae63ebfc84ffffb8",
+      "bytes": 9601,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-043_29_system2_api_20261030T101800Z.md",
+      "source_sha256": "59b22064ea5bddad175a1dd6f4d77afa960cf37aa5e1c70da09fc9c40c9e8aa4",
+      "source_bytes": 8023,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-043_29_system2_api_20261030T101800Z.md",
+      "sha256": "1dcce06f2ce21df8178c4c0de1e572468594ec5130e5520ce963c951c31c0429",
+      "bytes": 8414,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-044_30_system2_final_validation_20261030T120500Z.md",
+      "source_sha256": "5669567e7b97cca75cfa6af2603924a71bb67e985f0d2897b10bbfc775fc3cba",
+      "source_bytes": 7851,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-044_30_system2_final_validation_20261030T120500Z.md",
+      "sha256": "5ee31ff0286ff7e222ec6f3b0db44f58daefd2836c56786c7a8e9cea33b7a2df",
+      "bytes": 8242,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-045_31_system2_final_validation_20261030T121000Z.md",
+      "source_sha256": "df5798f1db4d67afce397754d6c661ba83f8d9424cef3c7b079dd0c2c7888432",
+      "source_bytes": 9415,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-045_31_system2_final_validation_20261030T121000Z.md",
+      "sha256": "110f7ad0a0f3a0cd13921111588544e9813e5d70f1fed813429a51e0a501699f",
+      "bytes": 9806,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-046_32_state_recovery_20261030T133119Z.md",
+      "source_sha256": "783ca6b27d05f7a4e65697709cb15dd5fb7351228134d6859ee6b15f7a689b65",
+      "source_bytes": 5905,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-046_32_state_recovery_20261030T133119Z.md",
+      "sha256": "f7ce68dd481b24f32a0b870a23b7a17fd56193b1f48f566cbec8c7dd3e996aa6",
+      "bytes": 6250,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-047_33_limited_completion_20261030T150938Z.md",
+      "source_sha256": "f55b65fd1490bc0f2e1c590e0e0299620d603cfbafaa665ba80dd06326c78380",
+      "source_bytes": 6469,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-047_33_limited_completion_20261030T150938Z.md",
+      "sha256": "0c561ac8ff77bdef65870bb5ed0291f723448aa367393295cddb6abb152bf3ac",
+      "bytes": 6860,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-048_34_limited_completion_20261030T151253Z.md",
+      "source_sha256": "2fdc803e7b8e013bf3b547436530b5589143cb8bfc5e6c8d22073eb777295603",
+      "source_bytes": 8120,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-048_34_limited_completion_20261030T151253Z.md",
+      "sha256": "beb7d802f960cc81a1ce55e5c040835f59577b9054a4d4b76d30059a5d6b12b8",
+      "bytes": 8603,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-049_35_targeted_language_timing_20261030T234157Z.md",
+      "source_sha256": "5400b7af961c69b4427321119fab90880b4a7c5361c4bb65edde78db15b00db9",
+      "source_bytes": 6947,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-049_35_targeted_language_timing_20261030T234157Z.md",
+      "sha256": "2696b4ca94894a04cd48949682bd0bc849200693bb52d37a93d80ab779d08957",
+      "bytes": 7384,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-050_36_system2_mechanism_20261031T010000Z.md",
+      "source_sha256": "34dd85c27583856c5c0cffb6e245a3d92d03ed5e8fceb72707c644da1d05f7ef",
+      "source_bytes": 2594,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-050_36_system2_mechanism_20261031T010000Z.md",
+      "sha256": "59186cce72686edfd8241a96979a625253dcbabb197495d12f2c9663771ee7c4",
+      "bytes": 2663,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-051_36_system2_mechanism_20261031T010000Z_v2.md",
+      "source_sha256": "d9aaf5c80708389f1921688d51246c32481c19079937143c3943dd5a1a0a67da",
+      "source_bytes": 3172,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-051_36_system2_mechanism_20261031T010000Z_v2.md",
+      "sha256": "2f3dd7bac07b8917bd572aec1d76098b0810c5eaf5bd5bfdec65d81343ccfd07",
+      "bytes": 3287,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-052_36_system2_mechanism_20261031T010000Z_v3.md",
+      "source_sha256": "d63c9aaebb6d45c25e8542e6e81941ce16c2946ebf71afa38f82dad1e405b555",
+      "source_bytes": 6143,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-052_36_system2_mechanism_20261031T010000Z_v3.md",
+      "sha256": "4032d5d169f8da709360bdf4917b78762727da8523b5777edae7e0d4fe0bb13e",
+      "bytes": 6534,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-053_37_gpt61sol_supplement_20261102.md",
+      "source_sha256": "45b27f27414014d58464a4105d1fd3405ed1e160b6bc44a20ad859a244611e64",
+      "source_bytes": 8566,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-053_37_gpt61sol_supplement_20261102.md",
+      "sha256": "b02c5f9a9fc01dfbc3c8da25030d069f5226a2fdc8d5d23f45e55419de53750a",
+      "bytes": 7769,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-054_38_system2_gpt61sol_20261102.md",
+      "source_sha256": "b44e49e2fb3aadd1dd7a37e4a86b8379d39315a192472687dd3cf22ec1f83a7f",
+      "source_bytes": 6850,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-054_38_system2_gpt61sol_20261102.md",
+      "sha256": "0f82f3e0073ff540b436154b40cd1886b576a7bbe5e24667fe77995a11ae14e3",
+      "bytes": 6397,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-055_22_workflow_records.md",
+      "source_sha256": "798fd68f36faa60d56be20de3cb641f26b9d03ddfa35b43137181fc672d6fd8c",
+      "source_bytes": 5073,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-055_22_workflow_records.md",
+      "sha256": "1cef491c977aa1170d18594deed7c897e7daab9d99536466fa645b269ddd3247",
+      "bytes": 5395,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-056_23_lab_environment_setup.md",
+      "source_sha256": "bfe1a863d8135d545aaf3cdac907a7279bc59e28474d9b6f20494f9c3c0ac1a8",
+      "source_bytes": 5160,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-056_23_lab_environment_setup.md",
+      "sha256": "9436b58f7305f28c0d39771a4da56f53759653e7e0eea57917625e9d53d01627",
+      "bytes": 5505,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-057_26_supplement_import.md",
+      "source_sha256": "18e34cde5c1926059e99bd43b1d4b24a0b2e8065374e7c87952031cc95d0888d",
+      "source_bytes": 5235,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-057_26_supplement_import.md",
+      "sha256": "e7878f11dcf854b6fb6b688a2efdf8b15da360b60bb5ddf87879320fe6066fe6",
+      "bytes": 5615,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-058_research_tool_deployment_20261101T115117Z.md",
+      "source_sha256": "a790cd18774611ba8400e76a89d54557f1fe75f3df971aa5061afe64e09fa2ff",
+      "source_bytes": 2638,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-058_research_tool_deployment_20261101T115117Z.md",
+      "sha256": "0c85e75b2b92a6c81474e98aea2205952c7f952486458c552197572105dad74f",
+      "bytes": 2730,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-059_research_tool_initialization_20261101T120523Z.md",
+      "source_sha256": "73a1e23b8a1cd3e986c73afded6bd6779fcf10b4f3700a18b958360daf185c30",
+      "source_bytes": 4672,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-059_research_tool_initialization_20261101T120523Z.md",
+      "sha256": "8421137353552b66949a44ff0dc1d48a8c9b67cba980758151add7f023a9136e",
+      "bytes": 4994,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/HIST-060_setup_logs.md",
+      "source_sha256": "70c3d16065a085c931ff1d5f4bd3654f1e4d5648f4c4ea49ebc5e99cdcaa06b6",
+      "source_bytes": 4084,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/HIST-060_setup_logs.md",
+      "sha256": "395109935e78195a8c8eaaad6ec4dd77e0422f900f14300bdd39c2160b6421ae",
+      "bytes": 4383,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/README.md",
+      "source_sha256": "e656f553ba9bbe2610570f490e0ac59171b21a494d039f33a2250ef984bcedae",
+      "source_bytes": 9409,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/README.md",
+      "sha256": "e656f553ba9bbe2610570f490e0ac59171b21a494d039f33a2250ef984bcedae",
+      "bytes": 9409,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/index.csv",
+      "source_sha256": "f77d6dc5cf5e778085372d283dcd99ba6114d6c263fd36f70103ce36ec3837de",
+      "source_bytes": 38046,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/index.csv",
+      "sha256": "f77d6dc5cf5e778085372d283dcd99ba6114d6c263fd36f70103ce36ec3837de",
+      "bytes": 38046,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/history/through_2026-11-02/index.json",
+      "source_sha256": "d026ae0f7e3171c9b0d9e96f1d5163328d2c6fa13fc1194f927876f91b809fa9",
+      "source_bytes": 59379,
+      "repository_path": "research/notes_20261108/history/through_2026-11-02/index.json",
+      "sha256": "d026ae0f7e3171c9b0d9e96f1d5163328d2c6fa13fc1194f927876f91b809fa9",
+      "bytes": 59379,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/idea.md",
+      "source_sha256": "f9a2227c9f4b7545eb846be672776638a6df6efe609d34388a9e3add41e07f7c",
+      "source_bytes": 8711,
+      "repository_path": "research/notes_20261108/idea.md",
+      "sha256": "f9a2227c9f4b7545eb846be672776638a6df6efe609d34388a9e3add41e07f7c",
+      "bytes": 8711,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/method.md",
+      "source_sha256": "ea006cd85cebed0a6ff440394218a628374c70521f2f3b93fa3f0823d22eae44",
+      "source_bytes": 6227,
+      "repository_path": "research/notes_20261108/method.md",
+      "sha256": "b1f8293d4717f35dc9c02f3d607f54a196004f65566a128f8a3675cac8579323",
+      "bytes": 6302,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/ref/README.md",
+      "source_sha256": "3e2444f9cedc4e325daffc92f00e5752a6ee606a44e1f22f037a697f93569124",
+      "source_bytes": 1112,
+      "repository_path": "research/notes_20261108/ref/README.md",
+      "sha256": "3e2444f9cedc4e325daffc92f00e5752a6ee606a44e1f22f037a697f93569124",
+      "bytes": 1112,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/ref/notes/README.md",
+      "source_sha256": "501ac6d97cf2b29bfc012248bd106a8cb87f5a5c35dcc9a1b9b37f6387a0c7ab",
+      "source_bytes": 417,
+      "repository_path": "research/notes_20261108/ref/notes/README.md",
+      "sha256": "501ac6d97cf2b29bfc012248bd106a8cb87f5a5c35dcc9a1b9b37f6387a0c7ab",
+      "bytes": 417,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/README.md",
+      "source_sha256": "7fe9a863c7795cd5407e239781798939bd697a14050d8486865d1b1954836e20",
+      "source_bytes": 5097,
+      "repository_path": "research/notes_20261108/tools/README.md",
+      "sha256": "7fe9a863c7795cd5407e239781798939bd697a14050d8486865d1b1954836e20",
+      "bytes": 5097,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/eli5_sync.py",
+      "source_sha256": "36caa5f89c18e058d7768378e494f402522d180227ab62657cbec11d8c71db2c",
+      "source_bytes": 4628,
+      "repository_path": "research/notes_20261108/tools/eli5_sync.py",
+      "sha256": "36caa5f89c18e058d7768378e494f402522d180227ab62657cbec11d8c71db2c",
+      "bytes": 4628,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/install_hooks.sh",
+      "source_sha256": "68e44680f5d044503fe4187ae07cf23382894bc23022fbdd9b88ecb4bb26a182",
+      "source_bytes": 524,
+      "repository_path": "research/notes_20261108/tools/install_hooks.sh",
+      "sha256": "68e44680f5d044503fe4187ae07cf23382894bc23022fbdd9b88ecb4bb26a182",
+      "bytes": 524,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/lint_protocol.py",
+      "source_sha256": "b5f476c389c628974d5e75d4362e9ff926eaf15f3fcf4cc72be0a7f18e079cb6",
+      "source_bytes": 10634,
+      "repository_path": "research/notes_20261108/tools/lint_protocol.py",
+      "sha256": "b5f476c389c628974d5e75d4362e9ff926eaf15f3fcf4cc72be0a7f18e079cb6",
+      "bytes": 10634,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/log_activity.py",
+      "source_sha256": "a671bf527f9c95fa20cb9e4fa5b73e2f2ac935e7c5be02091b8fd38b73a4c8cf",
+      "source_bytes": 5724,
+      "repository_path": "research/notes_20261108/tools/log_activity.py",
+      "sha256": "a671bf527f9c95fa20cb9e4fa5b73e2f2ac935e7c5be02091b8fd38b73a4c8cf",
+      "bytes": 5724,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/make_variant.py",
+      "source_sha256": "70325ace8142b0c03c8bc037daa575411395ce470dbded06c5ab261f245c14e8",
+      "source_bytes": 9598,
+      "repository_path": "research/notes_20261108/tools/make_variant.py",
+      "sha256": "70325ace8142b0c03c8bc037daa575411395ce470dbded06c5ab261f245c14e8",
+      "bytes": 9598,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/new_disc.py",
+      "source_sha256": "4f2808e97a46593cc8c439d2ab976f08cce2a4e5279b48a14ad3ce314ce1560a",
+      "source_bytes": 8582,
+      "repository_path": "research/notes_20261108/tools/new_disc.py",
+      "sha256": "4f2808e97a46593cc8c439d2ab976f08cce2a4e5279b48a14ad3ce314ce1560a",
+      "bytes": 8582,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/new_exp.py",
+      "source_sha256": "07a7a2e31793fbd74ffe7841cb389e76981e6f6a70b601ec8414f4fa48140912",
+      "source_bytes": 3973,
+      "repository_path": "research/notes_20261108/tools/new_exp.py",
+      "sha256": "07a7a2e31793fbd74ffe7841cb389e76981e6f6a70b601ec8414f4fa48140912",
+      "bytes": 3973,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/new_week.py",
+      "source_sha256": "4c8c616452c76b94da3364f28254aab665fa66fd2374ab3f72d46fed1558c0cf",
+      "source_bytes": 2398,
+      "repository_path": "research/notes_20261108/tools/new_week.py",
+      "sha256": "4c8c616452c76b94da3364f28254aab665fa66fd2374ab3f72d46fed1558c0cf",
+      "bytes": 2398,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/recompute_token_analysis.py",
+      "source_sha256": "578990f527bc77a3e0fd68c8d9312c5c8cc7b2e65f3b79a7336fbbd1b3ee0e38",
+      "source_bytes": 2521,
+      "repository_path": "research/notes_20261108/tools/recompute_token_analysis.py",
+      "sha256": "578990f527bc77a3e0fd68c8d9312c5c8cc7b2e65f3b79a7336fbbd1b3ee0e38",
+      "bytes": 2521,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/session_check.py",
+      "source_sha256": "993ffb9b1fa1189fae03b51d01b574de4e709c729f054c342d2155caf24bd98f",
+      "source_bytes": 7720,
+      "repository_path": "research/notes_20261108/tools/session_check.py",
+      "sha256": "993ffb9b1fa1189fae03b51d01b574de4e709c729f054c342d2155caf24bd98f",
+      "bytes": 7720,
+      "transformation": "none"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/templates/Discussion.template.md",
+      "source_sha256": "faa96ec0e5eeebc5391611e53fa16615d6e4f8ad65cc99541b970a9571bd12ba",
+      "source_bytes": 2942,
+      "repository_path": "research/notes_20261108/tools/templates/Discussion.template.md",
+      "sha256": "f9a497f31f42ffde2f8c9b4c15d64e8822030b2f004c9042b6b1fde308ad4469",
+      "bytes": 2967,
+      "transformation": "repository-relative link adaptation; exact originals in snapshot-originals.jsonl.gz"
+    },
+    {
+      "source_path": "/mnt/data/joey_tr/physical-RSI/research/tools/timeline.py",
+      "source_sha256": "2c1834f4ba5777df32b30c59408041c736933065b57df3b105f23e63c0bbf29c",
+      "source_bytes": 19423,
+      "repository_path": "research/notes_20261108/tools/timeline.py",
+      "sha256": "2c1834f4ba5777df32b30c59408041c736933065b57df3b105f23e63c0bbf29c",
+      "bytes": 19423,
+      "transformation": "none"
+    }
+  ],
+  "new_experiments": 0,
+  "new_model_calls": 0,
+  "scope": "Historical research records through actual Nov8 source observation; snapshot installation/publication time is separate. Markdown links adapted; exact installed server bytes preserved in original archive."
+}

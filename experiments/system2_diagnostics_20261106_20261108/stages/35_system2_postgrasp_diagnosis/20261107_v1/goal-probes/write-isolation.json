@@ -1,0 +1,13 @@
+{
+  "abi": 4,
+  "disk_write_root": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/goal-probes",
+  "device_io": [
+    "/proc/self/task",
+    "/dev/null",
+    "/dev/nvidiactl",
+    "/dev/nvidia-uvm",
+    "/dev/nvidia-uvm-tools",
+    "/dev/nvidia0"
+  ],
+  "gpu_uuid": "GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1"
+}

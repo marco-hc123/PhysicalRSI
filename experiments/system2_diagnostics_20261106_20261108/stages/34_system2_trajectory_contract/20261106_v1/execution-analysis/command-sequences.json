@@ -1,0 +1,3142 @@
+[
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.11692235912156183,
+        -0.10708546750757653,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      361
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.11692235912156183,
+        -0.10708546750757653,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.11692235912156183,
+        -0.10708546750757653,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 0,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.29364012008206913,
+        0.028304070694873673,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": false,
+    "primitive_error": "no_collision_free_path",
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      0
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/10e4a1d6278b4a03ad92cfc0efbbd47f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.26859284783384546,
+        -0.09328501656303079,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      341
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.26859284783384546,
+        -0.09328501656303079,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.26859284783384546,
+        -0.09328501656303079,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.29393450607526916,
+        0.027948086553661433,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      281
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 8,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 9,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 1,
+    "call_id": 10,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.0010491438865069273,
+        -0.09370217475373449,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "started",
+    "completed_without_primitive_error": false,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 0,
+    "matched_completed_action_steps": [],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/1957bc70f8b04395bcb223472d7949bf/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.04814861727161654,
+        -0.12178149762517487,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      381
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.04814861727161654,
+        -0.12178149762517487,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      121
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.04814861727161654,
+        -0.12178149762517487,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      121
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 2,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        -1.855834730155531e-05,
+        0.02755533924798026,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": false,
+    "primitive_error": "no_collision_free_path",
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      0
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/0ea0dde7c6914e02bb146ffbabf2d5f7/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.21672022247833408,
+        -0.130199126485469,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      341
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.21672022247833408,
+        -0.130199126485469,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.21672022247833408,
+        -0.130199126485469,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.29403548639039134,
+        0.028209763861788972,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      301
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 8,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 9,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 3,
+    "call_id": 10,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.001010402352600069,
+        -0.13835295146230575,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "started",
+    "completed_without_primitive_error": false,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 0,
+    "matched_completed_action_steps": [],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/f4db29fa2d79477291790c53e28cd39f/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.1826703526647171,
+        -0.1596615030600047,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      341
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.1826703526647171,
+        -0.1596615030600047,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.1826703526647171,
+        -0.1596615030600047,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      141
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.2939447406684131,
+        0.02808112194207718,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      301
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 8,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 9,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "dense",
+    "arm": "dense",
+    "layout": 4,
+    "call_id": 10,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.1718956718660513,
+        -0.17061810391684895,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "started",
+    "completed_without_primitive_error": false,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 0,
+    "matched_completed_action_steps": [],
+    "process_record": "native-campaign/runs/dense/attempt-001/model/expert/eb32062599a04bf2bdcfe48b0b90a66a/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.11693863572560276,
+        -0.10702209509202926,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      18
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.11693863572560276,
+        -0.10702209509202926,
+        0.93
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.11693863572560276,
+        -0.10702209509202926,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 0,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.29363666614405876,
+        0.028311128739104074,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": false,
+    "primitive_error": "no_collision_free_path",
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      0
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/175c6408862e4b67a2309b535423707d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.26861111032545393,
+        -0.09342676804453648,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      17
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.26861111032545393,
+        -0.09342676804453648,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.26861111032545393,
+        -0.09342676804453648,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.2938955790580212,
+        0.0279745984566237,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      11
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 8,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 9,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 10,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.1838344682763757,
+        -0.13543249791271728,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      12
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 11,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 12,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.1838344682763757,
+        -0.13543249791271728,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 13,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 14,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.1838344682763757,
+        -0.13543249791271728,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 15,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.29359386465731196,
+        0.027506068627544455,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      12
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 16,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 17,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 18,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.001050975578330144,
+        -0.09159109513582403,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 19,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 20,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.001050975578330144,
+        -0.09159109513582403,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      4
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 21,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 22,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.001050975578330144,
+        -0.09159109513582403,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      4
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 1,
+    "call_id": 23,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        0.00016979906966918442,
+        0.027425120971583394,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": false,
+    "primitive_error": "no_collision_free_path",
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      0
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/8e6c99f62c5a41179a82891e3371e5ea/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.04812778024026287,
+        -0.12178669886302645,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      19
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.04812778024026287,
+        -0.12178669886302645,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.04812778024026287,
+        -0.12178669886302645,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 2,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        -1.5209131841980555e-05,
+        0.027525822914844067,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": false,
+    "primitive_error": "no_collision_free_path",
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      0
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/3cb7b6a29efc4e3389e060a098d8a555/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.21668037449168998,
+        -0.13019068499928638,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      16
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.21668037449168998,
+        -0.13019068499928638,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.21668037449168998,
+        -0.13019068499928638,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.29404025074618356,
+        0.02816478673710393,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      12
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 8,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 9,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 10,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.04508596930595411,
+        -0.16001775132373544,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      10
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 11,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 12,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.04508596930595411,
+        -0.16001775132373544,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 13,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 14,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.04508596930595411,
+        -0.16001775132373544,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 3,
+    "call_id": 15,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        0.00021897309912612443,
+        0.027378764521381938,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": false,
+    "primitive_error": "no_collision_free_path",
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      0
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/d85a7f6c88c54755ae5e910750a4aa43/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 0,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 1,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 2,
+    "matched_completed_action_steps": [
+      null,
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 2,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.18269886799805357,
+        -0.15968120098778865,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      16
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 3,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 4,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.18269886799805357,
+        -0.15968120098778865,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 5,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "before_first_completed_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 6,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.18269886799805357,
+        -0.15968120098778865,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 7,
+    "method": "approach",
+    "kwargs": {
+      "arm": "left",
+      "position_m": [
+        -0.2939372818689364,
+        0.02805925763884165,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      13
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 8,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "left",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 9,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 10,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.17164588505222633,
+        -0.17058314084451118,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      16
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 11,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 12,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.17164588505222633,
+        -0.17058314084451118,
+        0.92
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 13,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 14,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.17164588505222633,
+        -0.17058314084451118,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 15,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.29379592399692234,
+        0.028127411530847246,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      13
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 16,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 17,
+    "method": "scene",
+    "kwargs": {},
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      null
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 18,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.2346001867272104,
+        -0.21195509806318086,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      15
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 19,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 1
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 20,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.2346001867272104,
+        -0.21195509806318086,
+        0.945
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 21,
+    "method": "gripper",
+    "kwargs": {
+      "arm": "right",
+      "command": 0
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_open_following_close_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      6
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 22,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        0.2346001867272104,
+        -0.21195509806318086,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": true,
+    "primitive_error": null,
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      3
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  },
+  {
+    "candidate": "released_waypoint_thinning",
+    "arm": "released_waypoint_thinning",
+    "layout": 4,
+    "call_id": 23,
+    "method": "approach",
+    "kwargs": {
+      "arm": "right",
+      "position_m": [
+        4.017764115133013e-05,
+        0.02726503657745427,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.38141138529977936,
+        -0.6197184988732912,
+        0.37851129873090317,
+        0.5720170749645352
+      ]
+    },
+    "isolated_call_state": "completed",
+    "completed_without_primitive_error": false,
+    "primitive_error": "no_collision_free_path",
+    "command_context_before_call": "after_close_before_open_command",
+    "exact_trusted_rpc_match_count": 1,
+    "matched_completed_action_steps": [
+      0
+    ],
+    "process_record": "native-campaign/runs/released_waypoint_thinning/attempt-001/model/expert/49909e0974e6473f90310407ffa8344d/0/policy/processes/isolated/process.json"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "state": "passed",
+  "fixtures": 1,
+  "new_native_cases": 0,
+  "gpu_used": false,
+  "api_calls": 0,
+  "scope": "Assembly wrapper logging and exact driver transform; inert backend,not physical correctness"
+}

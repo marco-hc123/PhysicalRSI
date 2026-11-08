@@ -1,0 +1,97 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T07:01:22.983801+00:00",
+  "scope": "RecentSystem2followup stages31..39,not whole project historical benchmark",
+  "actual_native_executions": 128,
+  "unique_development_layouts": 5,
+  "full_successes": 0,
+  "latest_stage": {
+    "any_positive_score_delta": false,
+    "mean_score_delta": 0.0,
+    "success_delta": 0,
+    "close_command_delta": 2,
+    "transport_completed_delta": 2
+  },
+  "mechanism_review": {
+    "terminal_reasons": {
+      "no_eligible_visible_choice": 3,
+      "wrapper_converts_rejection_to_exception_candidate_catches_and_returns": 2
+    },
+    "actual_close_commands_by_layout": [
+      4,
+      4,
+      2,
+      4,
+      4
+    ],
+    "initial_visible_items": [
+      4,
+      4,
+      2,
+      3,
+      3
+    ],
+    "layout_object_counts": [
+      8,
+      5,
+      3,
+      7,
+      6
+    ],
+    "newly_seen_unassigned_categories": [
+      {
+        "layout": 0,
+        "categories": [
+          "watch"
+        ]
+      }
+    ],
+    "qualified_object_associations": 18,
+    "close_cycles": 18,
+    "low_lift_under_1cm": 7,
+    "scoring_condition_audit": "scoring-condition-audit.json",
+    "symbolic_position_exclusion": "position-exclusion-audit.json",
+    "wrapper_exception_layouts": [
+      1,
+      4
+    ],
+    "planner_probe": [
+      {
+        "source_layout_id": 1,
+        "condition": "recorded_arm",
+        "calls": 3,
+        "trajectories": 0
+      },
+      {
+        "source_layout_id": 1,
+        "condition": "candidate_fallback_arm",
+        "calls": 3,
+        "trajectories": 3
+      },
+      {
+        "source_layout_id": 4,
+        "condition": "recorded_arm",
+        "calls": 3,
+        "trajectories": 0
+      },
+      {
+        "source_layout_id": 4,
+        "condition": "candidate_fallback_arm",
+        "calls": 3,
+        "trajectories": 3
+      }
+    ],
+    "upstream_attribution": "driver-contract-provenance/attribution.json",
+    "superseded_analysis": "terminal-replay.json v1 terminal explanations for layouts1,4 superseded by actual-driver replay v2"
+  },
+  "new_api_calls_in_manual_stages34_to39": 0,
+  "policy_promotions": 0,
+  "retained_policy": "pi05",
+  "previous_full_review": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1/RESEARCH_PROGRESS_REVIEW.txt",
+  "current_report": "INTERPRETATION.txt",
+  "limits": [
+    "128executions are not128independent layouts.",
+    "Priorcontrol5cases reused,notaddedagain.",
+    "Manual repairs and released controller reference are not proof of automaticSystem2 improvement."
+  ]
+}

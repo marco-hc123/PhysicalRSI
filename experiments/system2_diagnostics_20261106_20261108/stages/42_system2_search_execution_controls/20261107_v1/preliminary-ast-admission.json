@@ -1,0 +1,27 @@
+[
+  {
+    "id": "sample_01",
+    "admitted": true,
+    "errors": []
+  },
+  {
+    "id": "sample_02",
+    "admitted": true,
+    "errors": []
+  },
+  {
+    "id": "sample_03",
+    "admitted": true,
+    "errors": []
+  },
+  {
+    "id": "sample_04",
+    "admitted": true,
+    "errors": []
+  },
+  {
+    "id": "sample_05",
+    "admitted": true,
+    "errors": []
+  }
+]

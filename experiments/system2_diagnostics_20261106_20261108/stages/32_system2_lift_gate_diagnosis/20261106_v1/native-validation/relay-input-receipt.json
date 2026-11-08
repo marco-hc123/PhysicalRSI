@@ -1,0 +1,17 @@
+{
+  "state": "verified",
+  "started_utc": "2026-11-06T02:40:20.449340+00:00",
+  "source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1",
+  "destination": "/mnt/data/physical-RSI/result/32_lift_gate_validation_20261106/inputs",
+  "route": "lab -> local SSH pipe -> cloud",
+  "source_manifest": {
+    "files": 56,
+    "bytes": 588416
+  },
+  "completed_utc": "2026-11-06T02:40:22.018351+00:00",
+  "verification": {
+    "state": "verified",
+    "files": 56,
+    "protocol_sha256": "e92897222614340eba7784eb368f2e87b9d50a57bde9c86a94b4e34ab4a64a94"
+  }
+}

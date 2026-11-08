@@ -1,0 +1,63 @@
+{
+  "state": "verified_partial",
+  "valid_native_episodes": 9,
+  "attempted_native_episodes": 10,
+  "runtime_interrupted_episodes": 1,
+  "videos": 27,
+  "all_raw_receipts_consistent": false,
+  "raw_evaluator_and_observer_consistent": true,
+  "score_scale": "0..1; null means missing native terminal score, never zero",
+  "summaries": [
+    {
+      "task": "general_pickup",
+      "condition": "parent",
+      "n": 4,
+      "planned_n": 5,
+      "scores": [
+        0.0,
+        null,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "mean_score": 0.25,
+      "complete_successes": 1,
+      "runtime_interrupted": 1,
+      "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+      "expert": {
+        "name": "code.general_pickup",
+        "revision": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed"
+      },
+      "actors": 5,
+      "failed_or_rejected_calls": null,
+      "wall_seconds": 333.36688269799924,
+      "wall_scope": "Entire attempted cohort controller wall time including partial episode/preflight; not start_to_valid_receipts",
+      "scope": "Four natural terminals and one trajectory-tracking interruption; no complete-cohort framework receipts exist. Mean conditions on completed layouts; no full5-layout acceptance claim.",
+      "interrupted_action_counts": [
+        31
+      ]
+    },
+    {
+      "task": "general_pickup",
+      "condition": "pi05_reference",
+      "n": 5,
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_score": 0.0,
+      "complete_successes": 0,
+      "source_sha256": null,
+      "expert": {
+        "name": "pi05",
+        "revision": "c70c9a59e650d484c8b921d8e17181cacd8e24b20c4cbae8277a1dffe9b69ee9"
+      },
+      "actors": 0,
+      "failed_or_rejected_calls": 0,
+      "wall_seconds": 292.40060876999996
+    }
+  ]
+}

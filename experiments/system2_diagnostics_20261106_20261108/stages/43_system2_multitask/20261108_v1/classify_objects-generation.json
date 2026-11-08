@@ -1,0 +1,54 @@
+{
+  "task": "classify_objects",
+  "requests": [
+    {
+      "id": "classify_objects-basic-1",
+      "file": "requests/classify_objects-basic-1.json",
+      "sha256": "5c80479fb079dd692368b528125b121c3c20a12527e1cd045f39f45bec668942",
+      "condition": "basic",
+      "repeat": 1
+    },
+    {
+      "id": "classify_objects-execution_feedback-1",
+      "file": "requests/classify_objects-execution_feedback-1.json",
+      "sha256": "14def23046ff3562af1231322ef2ab21cab213244c7258f4ce9a5462d04ca857",
+      "condition": "execution_feedback",
+      "repeat": 1
+    },
+    {
+      "id": "classify_objects-basic-2",
+      "file": "requests/classify_objects-basic-2.json",
+      "sha256": "5c80479fb079dd692368b528125b121c3c20a12527e1cd045f39f45bec668942",
+      "condition": "basic",
+      "repeat": 2
+    },
+    {
+      "id": "classify_objects-execution_feedback-2",
+      "file": "requests/classify_objects-execution_feedback-2.json",
+      "sha256": "14def23046ff3562af1231322ef2ab21cab213244c7258f4ce9a5462d04ca857",
+      "condition": "execution_feedback",
+      "repeat": 2
+    },
+    {
+      "id": "classify_objects-basic-3",
+      "file": "requests/classify_objects-basic-3.json",
+      "sha256": "5c80479fb079dd692368b528125b121c3c20a12527e1cd045f39f45bec668942",
+      "condition": "basic",
+      "repeat": 3
+    },
+    {
+      "id": "classify_objects-execution_feedback-3",
+      "file": "requests/classify_objects-execution_feedback-3.json",
+      "sha256": "14def23046ff3562af1231322ef2ab21cab213244c7258f4ce9a5462d04ca857",
+      "condition": "execution_feedback",
+      "repeat": 3
+    }
+  ],
+  "protocol_sha256": "55c2ea848f3031b4b773c1a65eda99de7f8ec98a42a118651acb44f6470d033d",
+  "parent_evidence_sha256": "dea57fc41242cdc2eb9dc8ec854afe9179d670104e5356dc7752177f6c6dff9b",
+  "prompt_bytes": {
+    "basic": 11393,
+    "execution_feedback": 44850
+  },
+  "contrast": "Execution feedback presence; parent code, task API, model/reasoning, candidate counts and rollout budgets fixed within task"
+}

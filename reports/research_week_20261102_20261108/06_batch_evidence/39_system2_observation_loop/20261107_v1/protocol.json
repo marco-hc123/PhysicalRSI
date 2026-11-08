@@ -1,0 +1,149 @@
+{
+  "schema": "physicalrsi.observation-loop/v1",
+  "created_utc": "2026-11-07T06:32:12.602495+00:00",
+  "question": "Does removing dependence on initial detected-object count improve coverage after transport rejection is resolved?",
+  "conditions": [
+    {
+      "name": "fixed_six_turns",
+      "candidate_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88"
+    }
+  ],
+  "planned_native_cases": 5,
+  "layouts": [
+    {
+      "file": "generated/classify_objects/0/layout.json",
+      "layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "split": "validation",
+      "task": "classify_objects",
+      "validation_artifacts": {
+        "initialization/classify_objects/0/initialization.json": "7e844689ca69c6be61fbd4bb1fa9c0dbcc9f1c09bf51393b9d8b2644fd5f6916",
+        "initialization/classify_objects/0/processes/batch.json": "ddd6191ae14ff58f09be731f5c190650d112964c9c7a02723c76afa20e983a86",
+        "initialization/classify_objects/0/processes/simulator/process.json": "5b0556c86f80ee1627941437fabc282286a89b44e667906bff78759d15643578",
+        "initialization/classify_objects/0/processes/simulator/process.log": "56d41b1909a9c6791ab9168c6e83b0061b16f9ef262af5cd5eec3d0f965bed67",
+        "initialization/classify_objects/0/request.json": "61a1761f092978aff77c44e414fba18c0eeda8ab5fec550364fcd56287b381e5",
+        "initialization/classify_objects/0/run/initialized.json": "e1be28c2c8be3e3694a31b8c05a554016c16e2a53b4db08f53f1634b2e8aed0a",
+        "initialization/classify_objects/0/run/observations/0/0.npy": "8c415c1c6a2c367f19bfdeb9fa7f97face59ca2e75be6b2f374cba9bd5a3515d",
+        "initialization/classify_objects/0/run/observations/0/1.npy": "203ce8e3d9651e7ab8757f74d96a6bc8cdebfe315c5fb9efd2baf4380c163749",
+        "initialization/classify_objects/0/run/observations/0/2.npy": "2066615bdc30b02976bcaeac1f1a9140228dc4fd3874158944324ec4c3a3b903",
+        "initialization/classify_objects/0/run/observations/0/state.json": "bad55241562eaec72676af97896f39febcafecaf76cea6315c0fbe80304a5382",
+        "initialization/classify_objects/0/run/request.json": "61a1761f092978aff77c44e414fba18c0eeda8ab5fec550364fcd56287b381e5",
+        "initialization/classify_objects/0/run/session.json": "93e814598c85d37cc2ca9f16368a79821a98cd99df6b430e8fa98662e04e95f7"
+      },
+      "validity": "passed"
+    },
+    {
+      "file": "generated/classify_objects/1/layout.json",
+      "layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "split": "validation",
+      "task": "classify_objects",
+      "validation_artifacts": {
+        "initialization/classify_objects/1/initialization.json": "bb23aeb3947890ee33c8c4d7c964adf9737f32abc83d8af057e70c41d798bcb4",
+        "initialization/classify_objects/1/processes/batch.json": "ce5fd6b800c2b4549fa00cbae3378f23af55bcae1d8e5a665749cd9f2f16a77d",
+        "initialization/classify_objects/1/processes/simulator/process.json": "8b8651a44b7f6df2295a847f7f8989802b332d87a4ac43e5e4f3ac14368f91c5",
+        "initialization/classify_objects/1/processes/simulator/process.log": "e16c902eb1e1d449398b6c94473dcbfef2f73915671c34ad40f892b0643ec067",
+        "initialization/classify_objects/1/request.json": "6a0dab006bf51954c4dac097a9e9773583bc16d5562868c736431f1a868d672e",
+        "initialization/classify_objects/1/run/initialized.json": "3b1ec20091a3c09f17532f01f69c5124a5c75530e29e80d4efb3801d6238db2c",
+        "initialization/classify_objects/1/run/observations/0/0.npy": "f0bf6e53767c056f7b7d56f39fdf91507664e411f0cf66fca1d6981f1c918af5",
+        "initialization/classify_objects/1/run/observations/0/1.npy": "db2bba78467459a6beb5c8e4d30bb1e4301f7947dadfb46c870200f46346d969",
+        "initialization/classify_objects/1/run/observations/0/2.npy": "f9eb613e3fe19d990111d0b69222ddd1a61f26144496a2b99aebb5ae84c1b868",
+        "initialization/classify_objects/1/run/observations/0/state.json": "bad55241562eaec72676af97896f39febcafecaf76cea6315c0fbe80304a5382",
+        "initialization/classify_objects/1/run/request.json": "6a0dab006bf51954c4dac097a9e9773583bc16d5562868c736431f1a868d672e",
+        "initialization/classify_objects/1/run/session.json": "3d71cf04cafce7b20a9937334b279f8797426788e87b1bfad1b46427bbcf2c6a"
+      },
+      "validity": "passed"
+    },
+    {
+      "file": "generated/classify_objects/2/layout.json",
+      "layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "split": "validation",
+      "task": "classify_objects",
+      "validation_artifacts": {
+        "initialization/classify_objects/2/initialization.json": "a1c2e207990f88487c34c99113b8b35c99f5d694c5eedd64528c967d6c992729",
+        "initialization/classify_objects/2/processes/batch.json": "ad64e1398af640919a362e569e71e29bcf2696ff41c853d5b35f234bbbbbeff1",
+        "initialization/classify_objects/2/processes/simulator/process.json": "0dd90dcff3eefbec4937a77171b254612de73fa04956691674e42c432c481712",
+        "initialization/classify_objects/2/processes/simulator/process.log": "25df0cbd1e6e49b8b99ef4551c4582f3ff9f907cf42308b0045cf88b7cf378b4",
+        "initialization/classify_objects/2/request.json": "cecfe32627a87e4796de862162e668556d3aa7cbb34153a6a2db3f9c2de82c3a",
+        "initialization/classify_objects/2/run/initialized.json": "7b9ccf602731bcc6c7122de3a3a8dc3e464da2df747e3ab011f92c1b4e16d853",
+        "initialization/classify_objects/2/run/observations/0/0.npy": "1cc71cac60e7e2138862dde081723bf64a45a10fc80641598999d5aa7993911a",
+        "initialization/classify_objects/2/run/observations/0/1.npy": "84a6dd82ff7ba76e4a57dd01368d54eddc8732c211ae855c4a578b533b8145d5",
+        "initialization/classify_objects/2/run/observations/0/2.npy": "dd87138ff16b28fd32008c319b5427d16dfe0c9b5a1e835ab655f28f399dd693",
+        "initialization/classify_objects/2/run/observations/0/state.json": "bad55241562eaec72676af97896f39febcafecaf76cea6315c0fbe80304a5382",
+        "initialization/classify_objects/2/run/request.json": "cecfe32627a87e4796de862162e668556d3aa7cbb34153a6a2db3f9c2de82c3a",
+        "initialization/classify_objects/2/run/session.json": "9e45a7b6ecb644f739d489b9571ff531405606de954af877d7d8b80b0a69bce8"
+      },
+      "validity": "passed"
+    },
+    {
+      "file": "generated/classify_objects/3/layout.json",
+      "layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "split": "validation",
+      "task": "classify_objects",
+      "validation_artifacts": {
+        "initialization/classify_objects/3/initialization.json": "f56a63f74c61c19b91f2b23345b24fc748beb77a3c3d2617d5ca42432f8fec74",
+        "initialization/classify_objects/3/processes/batch.json": "5000b489f64c26248d061e1ade65bb738a5b2b6215676fa865e1f55e493b9d38",
+        "initialization/classify_objects/3/processes/simulator/process.json": "b24f2bd19aba0be137d0e3105ff27d2390facd2ebe714cb9925b0d2b237e23cf",
+        "initialization/classify_objects/3/processes/simulator/process.log": "b366dd9388f950df7d1d63deb24b5a5be65a75bf2328e197721f6903c753a254",
+        "initialization/classify_objects/3/request.json": "ffe9b50307145f9b3dc0b860d7c971be4385b545a9a1950b9f41f8b538188a6f",
+        "initialization/classify_objects/3/run/initialized.json": "a63c816e3b88119c5e6bc9e2211f8018c104cfe36db40836960a00bfd36d3474",
+        "initialization/classify_objects/3/run/observations/0/0.npy": "93213c0bb203a94582aee0d7059936315c9185794da237e9b733414a752632f1",
+        "initialization/classify_objects/3/run/observations/0/1.npy": "0681f3f50dccf0818789691995e304958043e1d407f00062215b83939dcd3ba8",
+        "initialization/classify_objects/3/run/observations/0/2.npy": "4e42747898f39f479cc532f06c3dab947a5318144ff372b3d8073ecb2da7f0fa",
+        "initialization/classify_objects/3/run/observations/0/state.json": "bad55241562eaec72676af97896f39febcafecaf76cea6315c0fbe80304a5382",
+        "initialization/classify_objects/3/run/request.json": "ffe9b50307145f9b3dc0b860d7c971be4385b545a9a1950b9f41f8b538188a6f",
+        "initialization/classify_objects/3/run/session.json": "07e6e683d9d18e283e000e4d6646f2876a2ba1e2a474a510dc6daa4f53f8d1e0"
+      },
+      "validity": "passed"
+    },
+    {
+      "file": "generated/classify_objects/4/layout.json",
+      "layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "split": "validation",
+      "task": "classify_objects",
+      "validation_artifacts": {
+        "initialization/classify_objects/4/initialization.json": "82ed41a5f55adac583e4e8a7b8292fa5e7ce00582c3e37f53f6cea0b3476c3fe",
+        "initialization/classify_objects/4/processes/batch.json": "473dba4c001e5e4e0365e8e9e5be09525b95164c23e4b4b88a3c946ef29332b6",
+        "initialization/classify_objects/4/processes/simulator/process.json": "7b4a89f1f7ba759979cf84ce727ac1ec0c4c7c25f4b313cde43fa0db89e27b62",
+        "initialization/classify_objects/4/processes/simulator/process.log": "05b8d3d37f6132382274c31514bd3bf88fd783e08002373091a5d082d4786263",
+        "initialization/classify_objects/4/request.json": "7660f50c803106a8a12667c122c3ebead094804de4a3b743466bec086917ed5e",
+        "initialization/classify_objects/4/run/initialized.json": "9301c8b8cc9a228480af6631a948b69fcd0eb7dcd5d79a4c3f247cc56005b652",
+        "initialization/classify_objects/4/run/observations/0/0.npy": "691cec157801e71983ba3cbff965383fdfd2ae9bc174714fe981ec0cc0b8e855",
+        "initialization/classify_objects/4/run/observations/0/1.npy": "a105d1b0f55ad4e3095c281135c9974635065051384a151b81b31ac09224bc28",
+        "initialization/classify_objects/4/run/observations/0/2.npy": "339d793534e7be6f7a94a5d6bf5452b51838e3174b64bd166e915e96e6d34068",
+        "initialization/classify_objects/4/run/observations/0/state.json": "bad55241562eaec72676af97896f39febcafecaf76cea6315c0fbe80304a5382",
+        "initialization/classify_objects/4/run/request.json": "7660f50c803106a8a12667c122c3ebead094804de4a3b743466bec086917ed5e",
+        "initialization/classify_objects/4/run/session.json": "609956ee6f3cc3bd17509c451712da468371fcdb940792fee8c44b2e76bc5616"
+      },
+      "validity": "passed"
+    }
+  ],
+  "control_evidence": {
+    "root": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1",
+    "condition": "offset_transport",
+    "native_cases_reused": 5,
+    "source_sha256": "47dbcd857d9edeee715cb8f338856fb5131f6e846c8f1688bbbcc5df0b4e7727",
+    "archive_manifest_sha256": "767679fee4ac1d8c5bf7dd3d294361025403fbe661dbc723c171e492dc0f2d1c"
+  },
+  "treatment": "Only range(min(6,len(items))) becomes range(6); no new category assignment or retry/home fix.",
+  "fixed": [
+    "Saved candidate other logic and memory",
+    "RGB reader and calibration",
+    "Orientation and CuRobo",
+    "Released waypoint thinning and6grippersteps",
+    "Explicit gripper command retention in both conditions",
+    "1100native steps and original scoring",
+    "5exposed layouts, same seed and one sequential native environment",
+    "Transport offsets unchanged",
+    "Initial category assignments,attempted-position exclusion and no explicit home unchanged",
+    "No tracking truth fed to policy"
+  ],
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "promotion": false,
+  "limits": [
+    "5 new treatment episodes;5 prior control episodes reused,not10new executions.",
+    "Different run times and reused development layouts limit causal/generalization claims.",
+    "Six attempts remain a limit; initial category assignments still frozen.",
+    "More attempts,absence of error or successful trajectory is not task completion.",
+    "Original scoring and1100steps unchanged."
+  ]
+}

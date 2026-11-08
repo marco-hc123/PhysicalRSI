@@ -1,0 +1,7 @@
+{
+  "state": "failed",
+  "error": "AssertionError: ",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v1/run_gpu_batch.py\", line 126, in worker\n    result=basic() if mode=='basic' else planning() if mode=='planning' else policy(mode)\n           ^^^^^^^\n  File \"/mnt/data/joey_tr/physical-RSI/result/28_h100_offline_acceptance/20261104_v1/run_gpu_batch.py\", line 54, in basic\n    assert torch.cuda.is_available() and torch.cuda.device_count()==1\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "elapsed_seconds": 1.7065727189183235,
+  "finished_utc": "2026-11-04T12:42:11.811465+00:00"
+}

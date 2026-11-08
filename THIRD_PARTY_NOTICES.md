@@ -22,3 +22,8 @@ Selected GPT-as-Policy source files at the recorded 8f3d362 commit are retained 
 ## Follow-up evidence through November 5
 
 Generated candidate sources, manual diagnostic copies and runtime/source snapshots are distinguished by batch and source hash under experiments/system2_followup_through_20261105. Existing upstream and dependency licenses remain in their original locations. The update does not assign a blanket new license to models, assets or research additions, and distributes no model checkpoints.
+
+
+## November 6–8 diagnostics and weekly report
+
+The new batch evidence distinguishes model-generated candidates, research-authored interventions, frozen upstream skills, runtime adaptations, and original experiment outputs by source path and hash. The weekly report is retained as an exact archival package; its method scripts retain their historical dependency and path context. Existing upstream and third-party notices remain applicable. This update does not distribute model checkpoints, assign a blanket license to research additions, or attribute the reproduction adapter's rejection conversion to the unchanged upstream source.

@@ -1,0 +1,23 @@
+{
+  "scope": "Qualitative inspection of archived real RGB frames; no new robot episode or numeric pose measurement",
+  "case": "historical augmented_3 layout4",
+  "frames": [
+    "prior_augmented3_layout4_head_frame0000.png",
+    "prior_augmented3_layout4_head_frame0635.png",
+    "prior_augmented3_layout4_left_wrist_frame0635.png"
+  ],
+  "observations": [
+    "At initial head frame0 a watch is visible on the tabletop near the left-side pen.",
+    "At head frame635 the watch-like band is visible between/under the raised left gripper fingers.",
+    "At left-wrist frame635 the watch band and watch face are visible between the two fingers."
+  ],
+  "supported_interpretation": "The two post-lift views support physical lifting/holding of the watch at that instant despite zero watch detections in the associated recorded scene. Missing category detection is not sufficient evidence of physical grasp failure.",
+  "limits": [
+    "No ground-truth height or contact force measurement was added.",
+    "Single selected instant does not establish stable retention through transport or successful placement.",
+    "Encoded frame635 is selected near observation sequence636; exact timestamp alignment has not been separately calibrated.",
+    "Historical episode score remains0 and full success false."
+  ],
+  "raw_frame_index": "historical-frame-index.json",
+  "native_executions_added": 0
+}

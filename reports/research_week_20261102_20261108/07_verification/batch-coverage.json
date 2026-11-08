@@ -1,0 +1,122 @@
+[
+  {
+    "batch": 24,
+    "folder": "06_batch_evidence/24_system1_model_swap",
+    "selected_files": 15,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 25,
+    "folder": "06_batch_evidence/25_system2_model_swap",
+    "selected_files": 34,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 26,
+    "folder": "06_batch_evidence/26_supplement_import",
+    "selected_files": 7,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 27,
+    "folder": "06_batch_evidence/27_system2_offline_diagnostics",
+    "selected_files": 5,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 28,
+    "folder": "06_batch_evidence/28_h100_offline_acceptance",
+    "selected_files": 20,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 29,
+    "folder": "06_batch_evidence/29_system2_feedback_api",
+    "selected_files": 19,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 30,
+    "folder": "06_batch_evidence/30_system2_lab_diagnosis",
+    "selected_files": 6,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 31,
+    "folder": "06_batch_evidence/31_system2_rgb_validation",
+    "selected_files": 49,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 32,
+    "folder": "06_batch_evidence/32_system2_lift_gate_diagnosis",
+    "selected_files": 62,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 33,
+    "folder": "06_batch_evidence/33_system2_capability_feedback",
+    "selected_files": 74,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 34,
+    "folder": "06_batch_evidence/34_system2_trajectory_contract",
+    "selected_files": 23,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 35,
+    "folder": "06_batch_evidence/35_system2_postgrasp_diagnosis",
+    "selected_files": 13,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 36,
+    "folder": "06_batch_evidence/36_system2_gripper_command_contract",
+    "selected_files": 24,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 37,
+    "folder": "06_batch_evidence/37_system2_candidate_capacity",
+    "selected_files": 18,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 38,
+    "folder": "06_batch_evidence/38_system2_transport_destination",
+    "selected_files": 28,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 39,
+    "folder": "06_batch_evidence/39_system2_observation_loop",
+    "selected_files": 21,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 40,
+    "folder": "06_batch_evidence/40_system2_rejection_contract",
+    "selected_files": 20,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 41,
+    "folder": "06_batch_evidence/41_system2_skill_chain_floor",
+    "selected_files": 26,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 42,
+    "folder": "06_batch_evidence/42_system2_search_execution_controls",
+    "selected_files": 142,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  },
+  {
+    "batch": 43,
+    "folder": "06_batch_evidence/43_system2_multitask",
+    "selected_files": 326,
+    "scope": "Curated small evidence; original full archive remains on lab server. Batch26 is import bookkeeping, not new experimentation."
+  }
+]

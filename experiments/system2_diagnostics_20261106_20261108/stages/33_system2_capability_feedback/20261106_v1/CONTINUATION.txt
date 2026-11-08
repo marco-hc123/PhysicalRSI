@@ -1,0 +1,43 @@
+PhysicalRSI capability-feedback experiment, 2026-11-06
+
+{
+  "stage": "generation_and_cpu_complete_native_preparation_running",
+  "updated_utc": "2026-11-06T04:37:42.747927+00:00",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1",
+  "cloud_root": "/mnt/data/physical-RSI/result/34_capability_feedback_20261106",
+  "new_api_calls": 6,
+  "estimated_api_usd": 0.1846203,
+  "budget_usd": 10,
+  "combined_conservative_reserve_usd": 5.659308,
+  "cpu_checks": 120,
+  "generated_candidates": 6,
+  "planned_native_cases": 30,
+  "active_local_preparation_session": 44643,
+  "api_session_finished": 39781,
+  "credentials": "Ephemeral process only; not persisted",
+  "next_action": "Reconcile transfer_prepare.py completion; verify exact memory and code binding, then start native controller once and completion watcher. No repeated generation."
+}
+
+Prior stage32 is sealed and unchanged. This new stage33 compares3 legacy-feedback vs3 explicit-capability-feedback candidates. Both get same historical augmented messages and same recent augmented_3 failure source/stop facts. Only capability clarification differs. Original1100steps, scoring, runtime,5exposedlayouts. All6parsed/admitted after120CPUchecks. ExactsourceANDproposedmemory must be bound. No hand edits or selective regeneration. Native30not yet launched at this checkpoint.
+APIgenerationPID719248 completed6calls; temporarysecret discarded. Prior reviewedAPIestimate.1932249 andreserve2.447298 includedconservatively withnewreserve3.212010. Do notcallAPIagain.
+Incompleteevaluate_candidates.py upload was quarantined as excluded-transfer-attempt-001 beforeexecution; uploadedhashverifiedand120CPUcasescompleted. No policyfailures fromtransfer.
+Helpers remote.py in siblingrgb_supplement_20261105 definesSSHargs. Local relay only; labwritesunderproject; nocloudshutdown. Readactualstatus/processesbeforelaunch.
+
+Milestone 2026-11-06T04:38:18.386673+00:00: preparationcompleted6/6admitted; cloudcontroller24966 launched04:38:01Z for30nativecases. Activefinish_native.py watcherhandlesanalysis/90videodecode/archive. NoAPIwithinRGB.
+
+Milestone 2026-11-06T04:44:54.696600+00:00: newgeneration-analysis completed and144CPUchecks total(120general+24actual-error-contract). Sourcechecksall6removeoldliftguard, onlycapability3performboundedalternatearm. Input+439tokens(+2.866%); generationcost.1846203. Sourcefeaturesnotnativeoutcomes. Finalizeruploaded,DO NOTrununtilnativearchiveverified. NativewatcherPID18538/session15031, controller24966.
+
+Finalization watcher finish_after_archive.py active session67173. It waits for finish_native.py archive success then runs lab finalize_study.py and completion_audit.py. It does not seal or chooseframes; final human-modelreviewandEVIDENCE_INDEX stillrequired. Poll onlyexisting jobs, donotduplicatelaunch.
+
+Milestone 2026-11-06T05:10:25.812634+00:00: Watch existing native controller and archive watchers. After verified archive, run two derived helpers, inspect actual results/frames, complete interpretation then seal. No repeated generation or native relaunch. First verified cohort legacy1 scores[0,0,0,0,15]; no success. Both analysis helpers uploaded, not yet run.
+
+{"state": "completed_pending_seal", "native_cases": 30, "videos": 90, "archive_verified": true, "next_stage": "34_system2_trajectory_contract/20261106_v1", "api_calls": 6, "active_experiment_processes": []}
+
+{
+  "state": "completed_sealed_verified",
+  "native_cases": 30,
+  "videos": 90,
+  "index_sha256": "0b8f3d870735c27eca7e5337e477bd3f3e6aad676514fc8f7821977f4fd9979d",
+  "followup_stage": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1",
+  "followup_completed": true
+}

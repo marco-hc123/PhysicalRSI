@@ -1,0 +1,11 @@
+{
+  "pid": 59859,
+  "script": "/mnt/data/physical-RSI/result/43_rejection_contract_20261107/run_native.py",
+  "sha256": "6b6be5bc3811f61823412a10d026385df4d2a1ad0bb2fb1468d672f9328c692a",
+  "utc": "2026-11-07T07:06:28.933816+00:00",
+  "planned_cases": 5,
+  "reused_control_cases": 5,
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "attempt": "v2_after_zero_outcome_startup_repair"
+}

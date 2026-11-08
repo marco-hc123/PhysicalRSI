@@ -1,0 +1,19 @@
+{
+  "state": "verified",
+  "utc": "2026-11-07T14:00:37.498987+00:00",
+  "verification": {
+    "state": "verified",
+    "utc": "2026-11-07T13:58:53.582864+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation",
+    "verified_files": 50982,
+    "logical_bytes": 3438764850,
+    "manifest_sha256": "95d9f46d01a760b7a868f71ea54f9ba55c706d3abd091e55c0edb3039adff16a",
+    "native_cases": 60,
+    "videos": 180,
+    "new_api_calls": 8,
+    "lab_gpu_used": false,
+    "transfer_verified_in_batches": true,
+    "source_hardlinks_restored": true
+  }
+}

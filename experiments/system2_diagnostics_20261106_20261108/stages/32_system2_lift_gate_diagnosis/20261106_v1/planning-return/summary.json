@@ -1,0 +1,81 @@
+{
+  "utc": "2026-11-06T03:24:53.216351+00:00",
+  "state": "completed",
+  "solver_calls": 18,
+  "new_native_episodes": 0,
+  "api_calls": 0,
+  "groups": [
+    {
+      "layout": 1,
+      "phase": "retreat",
+      "goal_variant": "original_retreat",
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 1,
+      "phase": "retreat",
+      "goal_variant": "previous_clearance",
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    },
+    {
+      "layout": 3,
+      "phase": "retreat",
+      "goal_variant": "original_retreat",
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 3,
+      "phase": "retreat",
+      "goal_variant": "previous_clearance",
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    },
+    {
+      "layout": 4,
+      "phase": "retreat",
+      "goal_variant": "original_retreat",
+      "returned_trajectory": 0,
+      "calls": 3,
+      "statuses": [
+        "Fail",
+        "Fail",
+        "Fail"
+      ]
+    },
+    {
+      "layout": 4,
+      "phase": "retreat",
+      "goal_variant": "previous_clearance",
+      "returned_trajectory": 3,
+      "calls": 3,
+      "statuses": [
+        "Success",
+        "Success",
+        "Success"
+      ]
+    }
+  ]
+}

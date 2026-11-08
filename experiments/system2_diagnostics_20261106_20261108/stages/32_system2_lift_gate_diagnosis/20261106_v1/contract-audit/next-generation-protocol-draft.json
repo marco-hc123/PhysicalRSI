@@ -1,0 +1,32 @@
+{
+  "schema": "physicalrsi.next-feedback-experiment-draft/v1",
+  "created_utc": "2026-11-06T03:33:07.671063+00:00",
+  "state": "prepared_not_executed",
+  "question": "Does explicitly exposing verified capabilities and failure-stage information reduce unsupported candidate assumptions and improve native execution?",
+  "treatment": "Historical augmented feedback versus the same feedback plus verified feedback-contract-v2 and current failure-stage table",
+  "fixed": [
+    "Same base prompt, candidate history, model gpt-6.1-sol, reasoning setting, token limit and paired generation settings",
+    "Same five diagnostic layouts for development; same runtime, original scoring and1100-step budget for the first controlled comparison"
+  ],
+  "generation_plan": "Three candidates per condition, log every request/response, API usage, errors and candidate hash; do not regenerate only failures.",
+  "offline_gates": [
+    "Contract: do not infer lift from nominal Z or object absence alone",
+    "Runtime: reject invalid imports/unbounded actions using existing admissions",
+    "Error handling: distinguish zero-execution planner rejection from partial-action errors",
+    "Account for unavailable remaining-step observations; do not pretend backend-only data is public"
+  ],
+  "native_metrics": [
+    "Actual evaluation score and full success",
+    "First violated contract or stop stage",
+    "Number of actions completed before stop",
+    "Planner reject/exception/step-budget breakdown",
+    "Generation Tokens separate from execution/API-only costs"
+  ],
+  "independent_validation": "Only after a fixed repair passes development, freeze selection and evaluate new layouts without further tuning. Report all layouts and failures.",
+  "budget": "No paid calls made now. Any later generation batch must enforce the user-authorized total cap before launching.",
+  "limitations": [
+    "Contract/lint pass is not robot success.",
+    "Do not attribute improvement solely to added text length; a size-matched irrelevant-feedback control can be a separate later ablation.",
+    "Manual mechanism fixes and auto-generated candidates must remain separate cohorts."
+  ]
+}

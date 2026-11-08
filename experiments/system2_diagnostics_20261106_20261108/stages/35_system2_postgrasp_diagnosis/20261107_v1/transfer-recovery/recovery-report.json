@@ -1,0 +1,94 @@
+{
+  "transfer_mode": "Fresh bounded-batch relay; no initial full-stream transfer attempted.",
+  "source_manifest_sha256": "d8fb2d403c310893be4b42c109390dbb5f09a75dd99cd248de939331a4d0569a",
+  "initial_verified_files": 0,
+  "initial_quarantined": [],
+  "batches": [
+    {
+      "batch": 1,
+      "attempt": 1,
+      "files": 800,
+      "bytes": 49662096,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 18.42833267900005,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 2,
+      "attempt": 1,
+      "files": 800,
+      "bytes": 48485337,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 13.436668438000197,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 3,
+      "attempt": 1,
+      "files": 800,
+      "bytes": 50096000,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 16.19945938299952,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 4,
+      "attempt": 1,
+      "files": 800,
+      "bytes": 47487869,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 13.238261744000738,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 5,
+      "attempt": 1,
+      "files": 785,
+      "bytes": 51138502,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 14.74553568600004,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 6,
+      "attempt": 1,
+      "files": 784,
+      "bytes": 64716509,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 17.50420209799995,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    }
+  ],
+  "final_verification": {
+    "state": "verified",
+    "utc": "2026-11-07T04:52:29.696005+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/native-validation",
+    "verified_files": 4769,
+    "logical_bytes": 311586313,
+    "manifest_sha256": "d8fb2d403c310893be4b42c109390dbb5f09a75dd99cd248de939331a4d0569a",
+    "native_cases": 3,
+    "videos": 9,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "transfer_verified_in_batches": true
+  }
+}

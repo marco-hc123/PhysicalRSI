@@ -1,0 +1,13 @@
+{
+  "final": true,
+  "native": 312,
+  "cohorts": 64,
+  "api": 44,
+  "interruptedAttempts": 2,
+  "independentChecks": [
+    "All cohort counts, successes and means match independently recomputed JSON",
+    "All API per-request estimates match usage-based independent calculation",
+    "Temporary score and price changes propagated; all temporary inputs restored before export"
+  ],
+  "errorInspection": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

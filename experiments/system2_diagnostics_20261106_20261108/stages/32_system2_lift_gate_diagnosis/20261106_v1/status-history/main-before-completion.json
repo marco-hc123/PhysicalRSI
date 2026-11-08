@@ -1,0 +1,24 @@
+{
+  "stage": "native_protocol_frozen",
+  "utc": "2026-11-06T02:35:48.564784+00:00",
+  "pid": null,
+  "host": "gpuserver3",
+  "outputs": [
+    "summary.json",
+    "protocol.json",
+    "replays/",
+    "candidates/"
+  ],
+  "gpu_used": false,
+  "api_calls": 0,
+  "new_native_cases": 0,
+  "next_action": "Review branch changes before freezing a justified RGB experiment; do not run a Z-only native matrix if all replay decisions are unchanged.",
+  "pending": [
+    "transfer_to_execution_host",
+    "10_native_cases",
+    "analysis_and_lab_archive"
+  ],
+  "native_protocol_sha256": "e92897222614340eba7784eb368f2e87b9d50a57bde9c86a94b4e34ab4a64a94",
+  "active_pid": null,
+  "cloud_result_root": "/mnt/data/physical-RSI/result/32_lift_gate_validation_20261106"
+}

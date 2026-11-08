@@ -1,0 +1,75 @@
+Research questions and attribution boundaries
+
+1. Initial repeated generation
+Five proposals were requested with identical request bytes, model gpt-6.1-sol,
+high reasoning, and one frozen development-feedback packet. Every proposal is
+preserved and admitted/evaluated without selective regeneration. This tests
+current-condition generation variability. It does not recreate the historical
+Qwen experiments and does not isolate the old experiments' candidate scarcity.
+
+2. An observed semantic convergence (preliminary, not a causal result)
+All five rationales propose eliminating/reducing unexplained destination
+offsets in favor of basket-center/interior placement. Completed sample_01 and
+sample_02 cohorts each scored zero on all five development layouts. In
+sample_01, recorded transport calls to the basket center and the elevated
+retry both return explicit zero-action no-path rejections, then code returns
+without release. These calls do not reach the100RPCcap.
+
+The initial feedback phrase "destination offset before release" may have
+been interpreted as a reason to remove calibrated target offsets. The
+rationale text and execution sequence support this as a research hypothesis,
+not proof that this phrase caused failure. A wording-only prompt ablation has
+not been run. Other candidates are still being evaluated at the time this
+note is created; final results must come from validated phase reports.
+
+3. Planned single-factor target control
+One sample_01-derived source contains an inactive/active target-rule branch.
+Control and treatment use the same source. Only the memory flag differs:
+generated basket-interior destination vs the historical incumbent's relative
+destinationXY offsets. The branch occurs after initial arm choice. Motion
+heights, quaternion, gripper/settling rules, low-level executor, task budget,
+task reward and layouts are unchanged. Five recorded source-control replays
+already match the original RPC sequences; these are not new native episodes.
+
+This is a researcher-designed categorical target-rule intervention. It does
+not isolate each X/Y offset individually. Later actions can diverge through
+ordinary closed-loop consequences. It is not a System2-generated candidate
+and must not be inserted into the five-candidate search pool or credited as
+autonomous self-improvement. The original generated proposal remains intact.
+
+The earlier closed-gripper .06rad waypoint-spacing module remains an unused
+alternative hypothesis. CPU checks of recorded trajectories do not establish
+physical grasp improvement and must not be counted as native experiments.
+
+4. Next feedback-informed round
+After the target control is validated, keep the baseline executor fixed.
+Select the round1 generated incumbent using native full-success count, then
+mean native score; retain the incumbent on ties. Generate three new proposals
+from one identical updated packet with measured errors and separately labeled
+manual-control evidence. All generated proposals remain unchanged.
+
+This second packet changes feedback and clarifies the previously omitted
+100RPCcap; it also adds three search opportunities. Its effect cannot be
+attributed solely to feedback, candidate number, or autonomous round count.
+
+5. Independent evaluation
+Freeze strategy identities before generating five new native-qualified
+layouts. Deduplicate identical source+memory+executor strategies and explicitly
+record evidence reuse. Do not select or tune from heldout scores. If the
+manual target control strictly improves development task metrics, include it
+as a separate manual-reference strategy within the already bounded heldout
+case allowance; never relabel it as a System2 candidate.
+
+6. Interpretation
+Program completion, primitive-call return, physical lift/transport/release,
+stable object delivery, native partial score, and full task success are
+distinct. Native transition scores preserve previously reached stages; final
+gripper state alone cannot explain an episode's accumulated score. Both
+grippers and return-to-origin checks constrain full success, while the four
+exposed methods do not include an explicit home primitive. This is a scope
+limitation, not a proof of impossibility or an upstream project defect.
+
+Five exposed development layouts are reused across conditions. The initial
+search is one nested candidate pool, not independent repeated budget trials.
+Fresh-control execution shows variation in intermediate calls despite the
+same coarse scores. All findings remain small-sample, study-specific evidence.

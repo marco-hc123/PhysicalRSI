@@ -1,0 +1,43 @@
+{
+  "groups": [
+    {
+      "task": "classify_objects",
+      "condition": "basic",
+      "n": 15,
+      "counts": {
+        "program_returned_after_explicit_rejection": 8,
+        "program_returned_after_observation": 7
+      }
+    },
+    {
+      "task": "classify_objects",
+      "condition": "execution_feedback",
+      "n": 15,
+      "counts": {
+        "program_returned_after_explicit_rejection": 15
+      }
+    },
+    {
+      "task": "general_pickup",
+      "condition": "basic",
+      "n": 15,
+      "counts": {
+        "native_success_terminated_active_call": 8,
+        "program_returned_other": 6,
+        "program_returned_after_explicit_rejection": 1
+      }
+    },
+    {
+      "task": "general_pickup",
+      "condition": "execution_feedback",
+      "n": 15,
+      "counts": {
+        "program_returned_other": 6,
+        "native_success_terminated_active_call": 8,
+        "program_returned_after_explicit_rejection": 1
+      }
+    }
+  ],
+  "source": "07_verification/multitask/mechanism-audit.json",
+  "meaning": "Only development candidate episodes. Heldout interruptions and parents are excluded; program return does not imply task success."
+}

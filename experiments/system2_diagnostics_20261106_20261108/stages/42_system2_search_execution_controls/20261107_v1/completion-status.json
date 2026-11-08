@@ -1,0 +1,26 @@
+{
+  "state": "completed_archived_and_recalculated",
+  "utc": "2026-11-07T14:04:37.173794+00:00",
+  "native_episodes": 60,
+  "videos": 180,
+  "api_requests": 8,
+  "estimated_api_usd": 0.8154218,
+  "archive": {
+    "archive_verified_files": 50982,
+    "native_recalculation": "passed",
+    "report_sha256": "07154f76c653f8a7159cdffb0e552379e8bc5b4889516c4dbb58fbe76ba33caa",
+    "archive_manifest_sha256": "95d9f46d01a760b7a868f71ea54f9ba55c706d3abd091e55c0edb3039adff16a",
+    "rejected_candidates": 2
+  },
+  "lab_archive": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation",
+  "lab_reanalysis": "/mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/archive-analysis/verified-summary.json",
+  "lab_gpu_used": false,
+  "active_experiment_processes": [],
+  "cloud_instance_power_state": "Not changed by this task; instance left running",
+  "resource_observation": {
+    "utc": "2026-11-07T13:59:57.847739+00:00",
+    "gpu": "0 %, 0 MiB",
+    "compute_processes": "",
+    "recorded_native_controller_active": []
+  }
+}

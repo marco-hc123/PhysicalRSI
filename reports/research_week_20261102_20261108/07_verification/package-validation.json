@@ -1,0 +1,18 @@
+{
+  "state": "passed",
+  "utc": "2026-11-08T10:47:32.930736+00:00",
+  "source_copies_verified": 1038,
+  "html_references_verified": 214,
+  "claims_verified": 32,
+  "credential_scan_text_files": 1023,
+  "credential_findings": 0,
+  "full_raw_backup": false,
+  "raw_archive": "/mnt/data/joey_tr/physical-RSI/result",
+  "batch43_archive_verified": true,
+  "notes": [
+    "All local links are relative and present.",
+    "Videos were fully decoded; selected frames are illustrations, not an independent outcome metric.",
+    "Native score table and formula workbook were recomputed from verified receipts.",
+    "Empty lock-file omissions in historical raw archives are documented, not silently recreated."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "pid": 6931,
+  "launched_utc": "2026-11-07T04:42:05.350694+00:00",
+  "script": "/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107/run_native_v2.py",
+  "script_sha256": "637ffd8be021eb47c70bb607fd6023042ea53b7b35ad8dfeb829f209aa8546eb",
+  "planned_cases": 3,
+  "api_calls": 0,
+  "excluded_deployment_attempt": "attempt-001"
+}

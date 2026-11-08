@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-07T10:45:01.086083+00:00",
+  "observed_source": "parent/native-campaign/runs/fixed_parent/attempt-001/model/expert/5f0012789eb743e7918c72c7d3af29e6/0/policy/request.json",
+  "limits": {
+    "isolated_robot_rpc_calls": 100,
+    "isolated_timeout_s": 1500,
+    "isolated_memory_bytes": 268435456,
+    "isolated_output_bytes": 1048576,
+    "native_steps_per_episode": 1100,
+    "per_primitive_deadline_s": 180
+  },
+  "scope": "Robot RPC calls are internal, not paid LLM requests; each RPC can execute zero or multiple native actions.",
+  "prompt_audit": "Initial fixed-generation prompt stated1100native steps,500maxwaypoints and6gripper steps, but omitted100RPC limit. Preserve initial requests unchanged. This limits interpretation of failures and is not evidence that the published project is intrinsically defective.",
+  "next": "After sampling, audit actual call exhaustion from original process records; add verified cap and measured failures to round2 feedback. Do not modify current executable budgets or regenerate rejected/failed candidates."
+}

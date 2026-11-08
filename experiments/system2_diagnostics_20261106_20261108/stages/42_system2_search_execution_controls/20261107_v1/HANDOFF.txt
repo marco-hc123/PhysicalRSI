@@ -1,0 +1,11 @@
+PhysicalRSI 20261107 search/execution-control campaign COMPLETE
+Updated UTC: 2026-11-07T14:04:37.173794+00:00
+
+Lab project root: /mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1
+Verified native archive: /mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/native-validation
+Recomputed analysis: /mnt/data/joey_tr/physical-RSI/result/42_system2_search_execution_controls/20261107_v1/archive-analysis
+Local report: /home/marco/workspace/PhysicalRSI/current/result/server_preparation/system2_search_control_20261107/REPORT.txt
+
+60 scored native episodes,180 videos,8 GPT high generation calls,estimated $0.8154218. Two round2 proposals were rejected by the study Nonlocal guard, not scored0. No generated policy exceeded the initial code parent. Manual targetXY repair had mean +3/100 versus its own control on both development and fresh heldout layouts; full success remained0. Source file manifest SHA256: 95d9f46d01a760b7a868f71ea54f9ba55c706d3abd091e55c0edb3039adff16a
+
+All experimental and generation processes exited. Lab GPU was not used. Execution GPU was idle at the timestamp recorded in post-experiment-resource-check.json. The cloud instance was not shut down. No more work is queued for this batch. Do not restart old transfer or generation scripts; archive transfer and CPU reanalysis already passed. CONTINUATION.json contains scientific limitations and the next-study boundary.

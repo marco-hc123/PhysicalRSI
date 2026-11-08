@@ -1,0 +1,24 @@
+抓手命令保持对照：最终分析
+
+研究问题：显式闭爪后，后续机械臂动作是否继续保持闭爪目标？本轮固定候选、记忆、感知、规划目标、6步抓手命令、轨迹精简、1100步和原生评分。原方式与目标保持方式各5个新回合。
+
+组别结果：
+{"condition": "measured_state_control", "cases": 5, "successes": 0, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "completed_approaches": 35, "rejected_approaches": 5, "active_budget_cancels": 0, "closed_command_mismatches": 72, "closed_command_comparisons": 152}
+{"condition": "latched_command", "cases": 5, "successes": 0, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "completed_approaches": 35, "rejected_approaches": 5, "active_budget_cancels": 0, "closed_command_mismatches": 0, "closed_command_comparisons": 152}
+
+逐布局分数差：[{"layout_id": 0, "control_score": 0.0, "treatment_score": 0.0, "score_delta": 0.0, "control_max_any_object_lift": 0.021336615085601807, "treatment_max_any_object_lift": 0.033811867237091064}, {"layout_id": 1, "control_score": 0.0, "treatment_score": 0.0, "score_delta": 0.0, "control_max_any_object_lift": 0.10395205020904541, "treatment_max_any_object_lift": 0.10318136215209961}, {"layout_id": 2, "control_score": 0.0, "treatment_score": 0.0, "score_delta": 0.0, "control_max_any_object_lift": 0.06236279010772705, "treatment_max_any_object_lift": 0.06241065263748169}, {"layout_id": 3, "control_score": 0.0, "treatment_score": 0.0, "score_delta": 0.0, "control_max_any_object_lift": 0.11250853538513184, "treatment_max_any_object_lift": 0.10515785217285156}, {"layout_id": 4, "control_score": 15.0, "treatment_score": 15.0, "score_delta": 0.0, "control_max_any_object_lift": 0.10524022579193115, "treatment_max_any_object_lift": 0.10476607084274292}]
+
+执行接口结论：处理组所有已完成动作均保持最近的显式抓手命令；观测仍返回实测开度。原方式的目标偏差计数见表。抓手目标修正与物体抓持成功、分类得分是三个不同层面。
+任务结论：本轮没有任何配对布局的得分增加；接口修正未转化为该候选的任务得分改善。
+
+下一步：在相同布局运行原有完整分类控制器，区分生成候选的任务覆盖/恢复逻辑与已有技能执行能力。另做理想接口下的循环上限审计；其输出不计为仿真成绩。
+
+限制：Manual primitive contract correction, not newly generated System2 self-improvement.
+Five previously exposed layouts; no independent generalization.
+Maximum height of any object is descriptive and does not prove selected-object stable grasp or task success.
+Both conditions retain measured observations; only explicit command retention changes.
+Native action count includes idle hold after candidate return; completed primitive actions exclude unfinished calls.
+
+证据：native-validation/analysis/；backend-traces/中的applied-actions.jsonl；sim-diagnostics/；30段原始视频；episode-results.csv、paired-layouts.csv、figures/。
+
+首个抓持动作的对象关联分析另见first-grasp-comparison.json/csv和figures/first_lift_height.svg。该表只在最近XY匹配距离<5cm且与第二候选间隔>1cm时给出对象抬升，未知项留空；它与原生分类得分分别报告。

@@ -1,7 +1,10 @@
 # 实验与证据
 
+[完整研究总览](../docs/RESEARCH_OVERVIEW_ZH.md) · [研究路线图](../docs/RESEARCH_ROADMAP.md) · [代码导览](../docs/CODE_GUIDE.md)
+
 | 范围 | 入口 | 计数边界 |
 |---|---|---|
+| 11月6–8日诊断、搜索及两任务反馈 | [新增批次32–43](system2_diagnostics_20261106_20261108/README.md) | 257新增有评分执行，11月8日另2中断；26次API |
 | 11月4–5日System 2后续 | [后续总览](system2_followup_through_20261105/README.md) | 6次生成、35有效原生回合，同5个历史布局 |
 | 11月2日System 1模型替换 | [分类补测](system1_gpt/RESULTS_ZH.md) | 10新正式回合，旧对照不重复算新 |
 | 11月2日System 2模型替换 | [候选补测](system2_gpt/RESULTS_ZH.md) | 1新候选、父/候选各5，另1基础设施中断 |

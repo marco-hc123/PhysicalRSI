@@ -1,0 +1,776 @@
+{
+  "state": "completed",
+  "native_cases_added": 0,
+  "api_calls": 0,
+  "gpu_used": false,
+  "rows": [
+    {
+      "condition": "latched_command",
+      "layout_id": 0,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 1,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 2,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 3,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "latched_command",
+      "layout_id": 4,
+      "snapshots": 1101,
+      "native_score_100": 15.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 1,
+      "first_sampled_complete_group_actions": {
+        "1": 48
+      },
+      "final_complete_pure_groups": 1,
+      "final_all_grippers_open": false,
+      "final_groups": [
+        {
+          "basket": "basket0",
+          "category": 1
+        }
+      ]
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 0,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 1,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 2,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 3,
+      "snapshots": 1101,
+      "native_score_100": 0.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 0,
+      "first_sampled_complete_group_actions": {},
+      "final_complete_pure_groups": 0,
+      "final_all_grippers_open": false,
+      "final_groups": []
+    },
+    {
+      "condition": "measured_state_control",
+      "layout_id": 4,
+      "snapshots": 1101,
+      "native_score_100": 15.0,
+      "native_success": false,
+      "max_complete_pure_groups_while_open": 1,
+      "first_sampled_complete_group_actions": {
+        "1": 48
+      },
+      "final_complete_pure_groups": 1,
+      "final_all_grippers_open": false,
+      "final_groups": [
+        {
+          "basket": "basket0",
+          "category": 1
+        }
+      ]
+    }
+  ],
+  "initial_and_final": [
+    {
+      "phase": "initial",
+      "condition": "latched_command",
+      "layout_id": 0,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "latched_command",
+      "layout_id": 0,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 0.3983945230642954
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "latched_command",
+      "layout_id": 1,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "latched_command",
+      "layout_id": 1,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 0.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [
+            "cat1_0",
+            "cat1_1"
+          ],
+          "settled_inside": [
+            "cat1_0",
+            "cat1_1"
+          ],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "latched_command",
+      "layout_id": 2,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "latched_command",
+      "layout_id": 2,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 0.5546904917668413
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "latched_command",
+      "layout_id": 3,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "latched_command",
+      "layout_id": 3,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 0.5342843518212991,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [
+            "cat2_2"
+          ],
+          "settled_inside": [
+            "cat2_2"
+          ],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "latched_command",
+      "layout_id": 4,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "latched_command",
+      "layout_id": 4,
+      "action": 1100,
+      "complete_groups": [
+        {
+          "basket": "basket0",
+          "category": 1
+        }
+      ],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 0.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [
+            "cat1_0"
+          ],
+          "settled_inside": [
+            "cat1_0"
+          ],
+          "complete_pure_categories": [
+            1
+          ]
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "measured_state_control",
+      "layout_id": 0,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "measured_state_control",
+      "layout_id": 0,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 0.44386403671017394
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "measured_state_control",
+      "layout_id": 1,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "measured_state_control",
+      "layout_id": 1,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 0.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [
+            "cat1_0",
+            "cat1_1"
+          ],
+          "settled_inside": [
+            "cat1_0",
+            "cat1_1"
+          ],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "measured_state_control",
+      "layout_id": 2,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "measured_state_control",
+      "layout_id": 2,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 0.5550507756295027
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "measured_state_control",
+      "layout_id": 3,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "measured_state_control",
+      "layout_id": 3,
+      "action": 1100,
+      "complete_groups": [],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 0.5393212892391063,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [
+            "cat2_2"
+          ],
+          "settled_inside": [
+            "cat2_2"
+          ],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "initial",
+      "condition": "measured_state_control",
+      "layout_id": 4,
+      "action": 0,
+      "complete_groups": [],
+      "all_grippers_open_observation": true,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 1.0
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    },
+    {
+      "phase": "final",
+      "condition": "measured_state_control",
+      "layout_id": 4,
+      "action": 1100,
+      "complete_groups": [
+        {
+          "basket": "basket0",
+          "category": 1
+        }
+      ],
+      "all_grippers_open_observation": false,
+      "normalized_grippers": {
+        "left_ee_joint_state": 1.0,
+        "right_ee_joint_state": 0.027634083410656003
+      },
+      "baskets": {
+        "basket0": {
+          "inside": [
+            "cat1_0"
+          ],
+          "settled_inside": [
+            "cat1_0"
+          ],
+          "complete_pure_categories": [
+            1
+          ]
+        },
+        "basket1": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        },
+        "basket2": {
+          "inside": [],
+          "settled_inside": [],
+          "complete_pure_categories": []
+        }
+      }
+    }
+  ],
+  "source_manifest": "scoring-reference/source-manifest.json",
+  "method": "Original frozen calc_polygon/is_A_in_B/is_A_z_lower_than_B_bbox_zmax executed with archived post-step object poses and exact unit-scale basket metadata; normalized observed gripper>=0.8 gate.",
+  "limits": [
+    "This is post-hoc geometry evidence, not a replacement reward manager.",
+    "Native score is transition history; maximum sampled groups is a separate descriptive quantity.",
+    "Post-step observation time may differ from reward evaluation, especially at boundaries.",
+    "Full success includes separate native checks and is taken only from raw receipt.",
+    "Object root point membership is the frozen scoring definition, not a physical collision/contact certificate.",
+    "No privileged state was passed to candidate decisions."
+  ]
+}

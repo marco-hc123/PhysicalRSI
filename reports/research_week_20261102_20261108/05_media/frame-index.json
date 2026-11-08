@@ -1,0 +1,200 @@
+[
+  {
+    "video": "M01_feedback_partial.mp4",
+    "image": "M01_feedback_partial_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "f559d48658ef2057dfb6f89caa2e81e6022491b28cdff5fa76d6f8c6b2e635aa",
+    "caption_zh": "增强反馈候选在同一诊断布局得到15分，完整成功=false；展示执行推进，不代表独立泛化。"
+  },
+  {
+    "video": "M01_feedback_partial.mp4",
+    "image": "M01_feedback_partial_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "60d7a8eb0e37d27c6561c751c4b2e2f0451408912babe2679a6a1d0c6431a117",
+    "caption_zh": "增强反馈候选在同一诊断布局得到15分，完整成功=false；展示执行推进，不代表独立泛化。"
+  },
+  {
+    "video": "M02_lift_gate_stop.mp4",
+    "image": "M02_lift_gate_stop_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "0791fb8a85274393b9cf5d6a412ec40157af848c2924751cb79c869ea7b432e0",
+    "caption_zh": "候选在抬升观测判据后结束；名义Z不能作为动态抬升证据，物理是否抓起要另查。"
+  },
+  {
+    "video": "M02_lift_gate_stop.mp4",
+    "image": "M02_lift_gate_stop_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "354f3daae07a6bc4c51a7ed0daf37f96e359941fe45954f09952ae85a7659995",
+    "caption_zh": "候选在抬升观测判据后结束；名义Z不能作为动态抬升证据，物理是否抓起要另查。"
+  },
+  {
+    "video": "M03_released_skill_partial.mp4",
+    "image": "M03_released_skill_partial_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "ca4137beda0fd39ffcba460dfe7e793e8983f3299b52cff0eb6b6a2b38f8c642",
+    "caption_zh": "完整发布技能进入complete_hold，但原生仅40分、success=false；程序结束不等于任务成功。"
+  },
+  {
+    "video": "M03_released_skill_partial.mp4",
+    "image": "M03_released_skill_partial_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "0c877e98885796011f88509b30c04ea7762b0960e3d90df245dd1eebab3489b3",
+    "caption_zh": "完整发布技能进入complete_hold，但原生仅40分、success=false；程序结束不等于任务成功。"
+  },
+  {
+    "video": "M04_carry_loss.mp4",
+    "image": "M04_carry_loss_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "2c2d016c4b8a27feabff282ad86e4f7533b436e67f95dec8a65d0baa66815f52",
+    "caption_zh": "单周期候选：所有移动调用可返回，物体却未稳定送入目标篮筐；物体共动诊断见报告。"
+  },
+  {
+    "video": "M04_carry_loss.mp4",
+    "image": "M04_carry_loss_frame0036.png",
+    "frame_index": 36,
+    "encoded_video_seconds": 1.44,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "bb103e401a6a3ec79051f5ae5e323557d19feb517ac7195813c6db85d3e46e2e",
+    "caption_zh": "单周期候选：所有移动调用可返回，物体却未稳定送入目标篮筐；物体共动诊断见报告。"
+  },
+  {
+    "video": "M04_carry_loss.mp4",
+    "image": "M04_carry_loss_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "a32464c366bd43304cc12bf93986ec248f7f4166cc88d32a7208bc65fde8a8dd",
+    "caption_zh": "单周期候选：所有移动调用可返回，物体却未稳定送入目标篮筐；物体共动诊断见报告。"
+  },
+  {
+    "video": "M05_cleanup_delivery.mp4",
+    "image": "M05_cleanup_delivery_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "66423a3474dae189fe32b60c0d86d7d41e16a53a0b3b6a19565728518adf0484",
+    "caption_zh": "发布参照在末端检查异常后的清理张爪中送达物体；不能算正常完成的搬运返回。"
+  },
+  {
+    "video": "M05_cleanup_delivery.mp4",
+    "image": "M05_cleanup_delivery_frame0074.png",
+    "frame_index": 74,
+    "encoded_video_seconds": 2.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "b4ee678c868072a30719eef02dac65370f2c479834e7472de5e2106bbced67b6",
+    "caption_zh": "发布参照在末端检查异常后的清理张爪中送达物体；不能算正常完成的搬运返回。"
+  },
+  {
+    "video": "M05_cleanup_delivery.mp4",
+    "image": "M05_cleanup_delivery_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "9870736d17b4efe2ef6fa6b050044ede2e5e6dfc8d1a6081aa5211c45bd915ec",
+    "caption_zh": "发布参照在末端检查异常后的清理张爪中送达物体；不能算正常完成的搬运返回。"
+  },
+  {
+    "video": "M06_heldout_control.mp4",
+    "image": "M06_heldout_control_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "189891602d8c545c16a6a60c911d2f948217e1aa0a3f8d2161f4ecfedfd94f63",
+    "caption_zh": "独立布局匹配对照：原目标规则，原生0分。与M07同候选源码、仅目标规则开关不同。"
+  },
+  {
+    "video": "M06_heldout_control.mp4",
+    "image": "M06_heldout_control_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "623af1e0bdb8fe63d559985afe76d6ec3726432822f591a2267a4ea2dfe2f0e7",
+    "caption_zh": "独立布局匹配对照：原目标规则，原生0分。与M07同候选源码、仅目标规则开关不同。"
+  },
+  {
+    "video": "M07_heldout_offset.mp4",
+    "image": "M07_heldout_offset_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "b5c9caa550ab377f7600449c4ddb5790b488c8ba8e0e139007cfad08319de63b",
+    "caption_zh": "独立布局人工XY目标修正，原生15分、success=false；属于人工修正，不是System2自主收益。"
+  },
+  {
+    "video": "M07_heldout_offset.mp4",
+    "image": "M07_heldout_offset_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physical duration or wall time",
+    "sha256": "d6553c28d688b06340934a87298f7621bd1f26336d00e95cd8f834e70512ae27",
+    "caption_zh": "独立布局人工XY目标修正，原生15分、success=false；属于人工修正，不是System2自主收益。"
+  },
+  {
+    "video": "M08_pickup_success.mp4",
+    "image": "M08_pickup_success_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "4822814bb124966234358282688a2b9e9c104a45b42381fd0958b4d22cbcc833",
+    "caption_zh": "独立抓取任务的代表成功：原生评价要求把目标抬升10cm。此例不证明稳定运输或完整分类能力。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M08_pickup_success.mp4",
+    "image": "M08_pickup_success_frame0038.png",
+    "frame_index": 38,
+    "encoded_video_seconds": 1.52,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "8aa1fe8e5fb121cc04e7cf3b999f9b8c6ab8a015ec2747722c986c0902beb1a5",
+    "caption_zh": "独立抓取任务的代表成功：原生评价要求把目标抬升10cm。此例不证明稳定运输或完整分类能力。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M09_pickup_failure.mp4",
+    "image": "M09_pickup_failure_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "f83d33d331cdbc9582a6cc37b3eeb281878dde658554e441f149fd83bd5bd542",
+    "caption_zh": "独立抓取任务的代表失败。与成功例可能属于不同布局；仅用于展示过程，不用两个视频估计成功率。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M09_pickup_failure.mp4",
+    "image": "M09_pickup_failure_frame0199.png",
+    "frame_index": 199,
+    "encoded_video_seconds": 7.96,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "4330c7ae9f4159855a5e5a8004ebdceee83505e0831cbfa891d8b8e57944cd47",
+    "caption_zh": "独立抓取任务的代表失败。与成功例可能属于不同布局；仅用于展示过程，不用两个视频估计成功率。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M10_classify_heldout.mp4",
+    "image": "M10_classify_heldout_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "8503a7d34620812977ce69cb53b9b7b533f0e5c3c886a9f2891918f35f219db6",
+    "caption_zh": "分类父策略独立布局的最高分代表（同分取最小布局ID）。完整分布见数据，视频不单独构成改进证据。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M10_classify_heldout.mp4",
+    "image": "M10_classify_heldout_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "5a2be7c626096e7433a575c4ecaec2a18854e6c82fb2535f2a6f46af2f2ebecb",
+    "caption_zh": "分类父策略独立布局的最高分代表（同分取最小布局ID）。完整分布见数据，视频不单独构成改进证据。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  }
+]

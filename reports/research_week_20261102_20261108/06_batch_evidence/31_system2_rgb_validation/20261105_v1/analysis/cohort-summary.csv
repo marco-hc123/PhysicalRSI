@@ -1,0 +1,8 @@
+condition,cases,successes,mean_normalized_score,cohort_wall_seconds,videos,api_calls,paid_cost_usd,internal_service_calls_by_method,candidate_actors,first_approach_rejections,total_approach_calls,accepted_approach_calls,incomplete_approach_calls,native_step_limit_cancellations,actors_with_post_error_calls,total_trusted_primitive_action_steps,scope,completed_record
+pi05,5,0,0.0,904.3132902449997,15,0,0,"{""update_obs_batch"": 5500, ""get_action_batch"": 110, ""reset"": 10}",0,,,,,,,,Reused diagnostic layouts; no policy promotion,native-campaign/runs/pi05/completed.json
+baseline_1,5,0,0.0,944.809713613,15,0,0,{},5,4,8,3,0,0,0,859,Reused diagnostic layouts; no policy promotion,native-campaign/runs/baseline_1/completed.json
+augmented_1,5,0,0.03,962.7110337739996,15,0,0,{},5,0,22,17,2,2,0,3935,Reused diagnostic layouts; no policy promotion,native-campaign/runs/augmented_1/completed.json
+augmented_2,5,0,0.03,956.6357613079999,15,0,0,{},5,0,23,18,3,3,0,4154,Reused diagnostic layouts; no policy promotion,native-campaign/runs/augmented_2/completed.json
+baseline_2,5,0,0.0,918.5252432039997,15,0,0,{},5,4,8,3,0,0,0,859,Reused diagnostic layouts; no policy promotion,native-campaign/runs/baseline_2/completed.json
+baseline_3,5,0,0.0,917.6250592899996,15,0,0,{},5,4,8,3,0,0,0,859,Reused diagnostic layouts; no policy promotion,native-campaign/runs/baseline_3/completed.json
+augmented_3,5,0,0.0,955.6440203079983,15,0,0,{},5,0,15,15,0,0,0,3195,Reused diagnostic layouts; no policy promotion,native-campaign/runs/augmented_3/completed.json

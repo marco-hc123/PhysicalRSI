@@ -1,0 +1,13 @@
+{
+  "state": "verified",
+  "utc": "2026-11-06T03:20:00.209632+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/32_lift_gate_validation_20261106",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation",
+  "verified_files": 7798,
+  "logical_bytes": 517481331,
+  "manifest_sha256": "69a71543f3cd03f7c0199c6ba80ce03209e16b62f1a3fd2a3a4923be85edec59",
+  "native_cases": 10,
+  "videos": 30,
+  "new_api_calls": 0,
+  "lab_gpu_used": false
+}

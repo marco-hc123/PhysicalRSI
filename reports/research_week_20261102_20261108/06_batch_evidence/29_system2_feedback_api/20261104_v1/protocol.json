@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-11-04T12:46:09.600824+00:00",
+  "goal": "Exploratory test of candidate-generation feedback completeness; not native success",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "calls_planned": 6,
+  "replicates_per_arm": 3,
+  "order": [
+    "baseline",
+    "augmented",
+    "augmented",
+    "baseline",
+    "baseline",
+    "augmented"
+  ],
+  "treatment": "Append failed candidate source and attributed recorded failures; preserve baseline messages",
+  "fixed": [
+    "selected parent pi05",
+    "same model, reasoning, output limit, response schema",
+    "same development feedback",
+    "no manual repair code in prompt"
+  ],
+  "limitations": [
+    "Additional context length not independently controlled",
+    "Previously used layouts are diagnostic development evidence, not heldout",
+    "Small exploratory sample; not a task-score improvement claim"
+  ],
+  "budget_usd": 10,
+  "whole_batch_reserved_upper_usd": 2.447298,
+  "reserve_rates_per_million": {
+    "input": 6,
+    "output": 20
+  },
+  "standard_rates_per_million": {
+    "input": 2,
+    "cached_input": 0.1,
+    "output": 10
+  },
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "no_automatic_retries": true,
+  "tools_enabled": false,
+  "new_native_episodes": 0
+}

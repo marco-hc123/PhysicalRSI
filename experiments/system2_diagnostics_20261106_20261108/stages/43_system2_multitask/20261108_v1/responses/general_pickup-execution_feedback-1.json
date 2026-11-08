@@ -1,0 +1,40 @@
+{
+  "status": 200,
+  "request_id": "req_4674dcd688024fe08cea7448ef969a61",
+  "body": {
+    "id": "chatcmpl-Ehr8Kale2bj9w4lW0HcEWI95gKoA2",
+    "object": "chat.completion",
+    "created": 1794121056,
+    "model": "gpt-6.1-sol",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"source\":\"def policy(robot, memory):\\n    quats = {'left': [0.613, -0.3593, 0.6163, 0.3392], 'right': [0.3814, -0.6197, 0.3785, 0.572]}\\n    for arm in quats:\\n        norm = sum(v * v for v in quats[arm]) ** 0.5\\n        quats[arm] = [v / norm for v in quats[arm]]\\n\\n    def move(arm, position):\\n        value = robot.approach(arm=arm, position_m=position, quaternion_wxyz=quats[arm])\\n        return value.get('primitive_error')\\n\\n    objects = robot.scene()['objects']\\n    if 'target_1' not in objects:\\n        return {'stop': 'target_not_detected', 'physical_success': 'unknown'}\\n    x, y, z = objects['target_1']['pose'][:3]\\n    preferred = 'left' if x <= 0 else 'right'\\n    other = 'right' if preferred == 'left' else 'left'\\n    for arm in [preferred, other]:\\n        error = move(arm, [x, y, 1.02])\\n        if error == 'no_collision_free_path':\\n            continue\\n        if error is not None:\\n            return {'stop': 'approach_uncertain', 'primitive_error': error, 'physical_success': 'unknown'}\\n        robot.gripper(arm=arm, command=1)\\n        error = move(arm, [x, y, 0.93])\\n        if error is not None:\\n            return {'stop': 'contact_motion_error', 'primitive_error': error, 'physical_success': 'unknown'}\\n        robot.gripper(arm=arm, command=0)\\n        for height in [0.98, 1.06]:\\n            error = move(arm, [x, y, height])\\n            if error is not None:\\n                return {'stop': 'lift_motion_error', 'primitive_error': error, 'requested_tool_z': height, 'physical_success': 'unknown'}\\n        return {'stop': 'program_complete', 'physical_success': 'unknown'}\\n    return {'stop': 'approach_plans_rejected', 'physical_success': 'unknown'}\\n\",\"memory\":{},\"rationale\":\"Replace the parent's single 13 cm post-close lift with two vertical segments through tool z=0.98 m to the unchanged 1.06 m endpoint. Development traces motivate testing smaller lift-planning displacements, but do not establish the cause of failures. This adds only one approach call on the nominal path, preserves the closed-gripper command, and retains the original grasp geometry and native 200-step budget. Only an explicit initial no_collision_free_path response permits switching arms; other error responses stop, and exceptions propagate without recovery. No attachment, height, or success is inferred from returned calls.\"}",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 8801,
+      "completion_tokens": 2131,
+      "total_tokens": 10932,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 8798,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1444,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

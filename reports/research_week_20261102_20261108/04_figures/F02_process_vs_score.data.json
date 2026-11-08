@@ -1,0 +1,62 @@
+[
+  {
+    "batch": 34,
+    "metric": "Completed approach calls",
+    "names": [
+      "Dense",
+      "Thinned"
+    ],
+    "values": [
+      18,
+      35
+    ],
+    "mean_scores": [
+      3.0,
+      3.0
+    ],
+    "n": [
+      5,
+      5
+    ]
+  },
+  {
+    "batch": 36,
+    "metric": "Closed-command mismatches / 152",
+    "names": [
+      "Measured",
+      "Latched"
+    ],
+    "values": [
+      72,
+      0
+    ],
+    "mean_scores": [
+      3.0,
+      3.0
+    ],
+    "n": [
+      5,
+      5
+    ]
+  },
+  {
+    "batch": 40,
+    "metric": "Completed approach calls",
+    "names": [
+      "Exception",
+      "Structured"
+    ],
+    "values": [
+      72,
+      93
+    ],
+    "mean_scores": [
+      3.0,
+      3.0
+    ],
+    "n": [
+      5,
+      5
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "state": "passed",
+  "gpu_used": false,
+  "actual_frozen_primitive_classes": true,
+  "rows": [
+    {
+      "latch": false,
+      "step_calls": 7,
+      "movement_gripper_command": [
+        0.44
+      ],
+      "returned_actual_gripper": [
+        0.44
+      ]
+    },
+    {
+      "latch": true,
+      "step_calls": 7,
+      "movement_gripper_command": [
+        0.0
+      ],
+      "returned_actual_gripper": [
+        0.44
+      ]
+    }
+  ]
+}

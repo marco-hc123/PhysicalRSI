@@ -1,0 +1,87 @@
+{
+  "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3/PhysicalRSI_baselines/robodojo/primitives.py",
+  "sha256": "6bcc1d392932227792cacb10960c7e069b916eb337e633633faa964718d29177",
+  "selected_lines": [
+    {
+      "line": 34,
+      "text": "        max_joint_step,"
+    },
+    {
+      "line": 50,
+      "text": "            not math.isfinite(max_joint_step)"
+    },
+    {
+      "line": 51,
+      "text": "            or max_joint_step <= 0"
+    },
+    {
+      "line": 72,
+      "text": "        self.max_joint_step, self.timeout_s = max_joint_step, timeout_s"
+    },
+    {
+      "line": 186,
+      "text": "            if any(abs(a - b) > self.max_joint_step for a, b in zip(previous, row)):"
+    },
+    {
+      "line": 191,
+      "text": "            if any(abs(a - b) > self.max_joint_step for a, b in zip(action[key], row)):"
+    },
+    {
+      "line": 192,
+      "text": "                raise ValueError(\"Observed robot diverged from planned trajectory\")"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/released_waypoints.py",
+      "line": 5,
+      "text": "def thin_native_path(path, current, max_joint_step=.12, chord_tolerance=.01):"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/released_waypoints.py",
+      "line": 19,
+      "text": "            if np.max(np.abs(delta)) > max_joint_step:"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/released_waypoints.py",
+      "line": 34,
+      "text": "    return selected, dict(max_joint_step_rad=max_joint_step, chord_tolerance_rad=chord_tolerance,"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/released_waypoints.py",
+      "line": 37,
+      "text": "                          native_adjacent_over_bound=int((jumps > max_joint_step + 1e-7).sum()))"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/closed_gripper_spacing.py",
+      "line": 15,
+      "text": " indices,diagnostic=thin_native_path(dense,start,max_joint_step=.06,chord_tolerance=.01)"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/postgrasp_contract.py",
+      "line": 49,
+      "text": "        max_joint_step=.25,timeout_s=180,max_waypoints=500,gripper_steps=6)"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/pickup_adapter.py",
+      "line": 85,
+      "text": "        max_joint_step=.25,timeout_s=180,max_waypoints=500,gripper_steps=6)"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/trajectory_contract.py",
+      "line": 27,
+      "text": "        indices, diagnostic = thin_native_path(path, initial, max_joint_step=.12, chord_tolerance=.01)"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/trajectory_contract.py",
+      "line": 110,
+      "text": "                                max_joint_step=.25, timeout_s=180, max_waypoints=500, gripper_steps=6)"
+    },
+    {
+      "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/code/gripper_contract.py",
+      "line": 36,
+      "text": "        dimensions=configuration['dimensions'],joint_limits=configuration['joint_limits'],max_joint_step=.25,timeout_s=180,max_waypoints=500,gripper_steps=6)"
+    }
+  ],
+  "guard_excerpt": "            position_m=position,\n            quaternion_wxyz=quaternion,\n            state=deepcopy(initial),\n            deadline=deadline,\n        )\n        if (\n            not isinstance(path, (list, tuple))\n            or not 1 <= len(path) <= self.max_waypoints\n        ):\n            raise ValueError(\"Planner must return a bounded nonempty joint trajectory\")\n        path = [self._joints(arm, row) for row in path]\n        previous = initial[key]\n        for row in path:\n            if any(abs(a - b) > self.max_joint_step for a, b in zip(previous, row)):\n                raise ValueError(\"Planner trajectory exceeds configured joint step\")\n            previous = row\n        for row in path:\n            action = self._state(deadline)\n            if any(abs(a - b) > self.max_joint_step for a, b in zip(action[key], row)):\n                raise ValueError(\"Observed robot diverged from planned trajectory\")\n            action[key] = list(row)\n            self.step(action, deadline=deadline)\n        return {\"state\": self._state(deadline), \"action_steps\": len(path)}\n",
+  "interpretation": "Guard compares current observed arm joints with the next commanded waypoint. This identifies the stopping check, not the physical reason for the mismatch. Threshold, policy, trajectory and native evaluator were not modified; no heldout retry.",
+  "next_experiment": "On a new development diagnostic, record planned and observed per-joint deltas around the rejected waypoint, test bounded action settling or segment execution with the same safety threshold, and assess native outcomes on fresh independent layouts."
+}

@@ -1,0 +1,32 @@
+{
+  "simulator_python": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/simulator-python-validation-v3",
+  "simulator_environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "OMNI_KIT_ALLOW_ROOT": "1",
+    "PHYSICALRSI_SIDECAR_ROOT": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107/sim-diagnostics/measured_state_control",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107/code:/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107/code-v2:/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107/code:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/XPolicyLab:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab"
+  },
+  "policy_python": "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python",
+  "policy_environment": {
+    "CLASSIFY_CLIP_MODEL": "/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/assets/clip-vit-base-patch32/5be8cdefa7ef9c95/clip-vit-base-patch32",
+    "CLASSIFY_DINO_MODEL": "/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/assets/grounding-dino-tiny/074cad48ab8387c7/grounding-dino-tiny",
+    "CUDA_CACHE_PATH": "/mnt/data/physical-RSI/cache/cuda",
+    "CUDA_HOME": "/usr/local/cuda-12.8",
+    "CUDA_VISIBLE_DEVICES": "0",
+    "HF_HOME": "/mnt/data/physical-RSI/cache/huggingface",
+    "MKL_NUM_THREADS": "1",
+    "OMNI_KIT_ALLOW_ROOT": "1",
+    "OMP_NUM_THREADS": "2",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OPENPI_DATA_HOME": "/mnt/data/physical-RSI/cache/openpi",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONNOUSERSITE": "1",
+    "PYTHONPATH": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107/code:/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107/code-v2:/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107/code:/mnt/data/physical-RSI/result/35_trajectory_contract_20261106/code:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources:/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/framework-validation-v3:/mnt/data/physical-RSI/code/RoboDojo:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_v1_classify_objects/6bb861ace4b706d9:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_insert_policy/bdf13004bd71d1c3:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/CoverHarnessRGB/a535ef5c8f951896:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/shared/perception_services/3cb4052ced1e440a:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/dependencies/sam3/fab67b49c0b195aa/sam3:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/dependencies/curobo/9077c9afff1c3fda/curobo:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/shared/physicalrsi_manipulation_memory/810b452889491acc:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/shared/physicalrsi_structured_blocks/14eb4e8f39a9ddfb:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/shared/PhysicalRSI_core/97eb7560332cab1f:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/pi05_sparse_mem/43da0a88c3338dd7:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/shared/PhysicalRSI/c8f1772579cbb194:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/dependencies/curobo/9077c9afff1c3fda:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/pi05/b4965f366baae7c8:/mnt/data/physical-RSI/code/RoboDojo:/mnt/data/physical-RSI/code/RoboDojo/XPolicyLab:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/implementations/rdj_v1_classify_objects/d971ca486c6e4801:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/dependencies/sam3/fab67b49c0b195aa:/mnt/data/physical-RSI/models/skill-assets/implementations/code-skills/runtime",
+    "PYTHONUNBUFFERED": "1",
+    "TMPDIR": "/mnt/data/physical-RSI/cache/tmp",
+    "WARP_CACHE_PATH": "/mnt/data/physical-RSI/cache/warp",
+    "XDG_CACHE_HOME": "/mnt/data/physical-RSI/cache/xdg",
+    "XLA_PYTHON_CLIENT_PREALLOCATE": "false"
+  }
+}

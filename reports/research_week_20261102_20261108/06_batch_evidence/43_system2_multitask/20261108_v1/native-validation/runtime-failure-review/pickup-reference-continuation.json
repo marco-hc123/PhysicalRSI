@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-08T10:02:40.430590+00:00",
+  "phase": "general_pickup-heldout",
+  "decision": "Continue only previously unexecuted pi05 reference. Parent4natural terminals+1execution-guard interruption preserved; no parent retry or strategy/executor/threshold changes.",
+  "source_runner_sha256": "4dd201b72370ed99531467f1354867b6e4ab9dfb091db2620acfca68aca05702",
+  "reference_runner_sha256": "290235ce1fa7a650f2819461186dba8fc334a6e991ffce7db116e6ee0df0b663",
+  "api_calls": 0
+}

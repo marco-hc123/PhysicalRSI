@@ -1,0 +1,1202 @@
+[
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "empty",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "named_static",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 8,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "named_no_path",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "named_transport_error",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "dynamic_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "missing_pose",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "underscore_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "above_basket",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "insufficient_baskets",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_center",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_inside",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_x",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_y",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_both",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_far",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_0",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_1",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_2",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_3",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_4",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "empty",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "named_static",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 10,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "named_no_path",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "named_transport_error",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "dynamic_category",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 2,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "missing_pose",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "underscore_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "above_basket",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "insufficient_baskets",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "geometry_center",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "geometry_inside",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_x",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_y",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_both",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "geometry_far",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_0",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_1",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_2",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_3",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_4",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "empty",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "named_static",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 9,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "named_no_path",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "named_transport_error",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "dynamic_category",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 2,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "missing_pose",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "underscore_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "above_basket",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 2,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "insufficient_baskets",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "geometry_center",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 2,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "geometry_inside",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_x",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_y",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_both",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "geometry_far",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_0",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_1",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_2",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_3",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_4",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "empty",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "named_static",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 8,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "named_no_path",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "named_transport_error",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "dynamic_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "missing_pose",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "underscore_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "above_basket",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "insufficient_baskets",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_center",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_inside",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_x",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_y",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_both",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_far",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_0",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_1",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_2",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_3",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_4",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 3,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "empty",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "named_static",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 10,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "named_no_path",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "named_transport_error",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "dynamic_category",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 2,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "missing_pose",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "underscore_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "above_basket",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 2,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "insufficient_baskets",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_center",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_inside",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_x",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_y",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_outside_both",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "geometry_far",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_0",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_1",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_2",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_3",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "fixture": "initial_recorded_scene_4",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "empty",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "named_static",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 10,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "named_no_path",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "named_transport_error",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "dynamic_category",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 2,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "missing_pose",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "underscore_category",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "above_basket",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "insufficient_baskets",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "geometry_center",
+    "terminal": "returned",
+    "error": null,
+    "rpc_calls": 1,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "geometry_inside",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_x",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_y",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "geometry_outside_both",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "geometry_far",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_0",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_1",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_2",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_3",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "fixture": "initial_recorded_scene_4",
+    "terminal": "prefix_observed",
+    "error": "First approach observed; no physical action simulated",
+    "rpc_calls": 4,
+    "invalid_calls": 0,
+    "native_score": null
+  }
+]

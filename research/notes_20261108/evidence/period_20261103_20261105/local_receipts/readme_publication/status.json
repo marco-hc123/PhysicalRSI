@@ -1,0 +1,25 @@
+{
+  "goal": "Expand GitHub README current results following the existing presentation narrative",
+  "phase": "complete_published_and_verified",
+  "repository": "marco-hc123/PhysicalRSI",
+  "branch": "main",
+  "base_commit": "dac031cbcd416d9c587877cee68a3045ab6f2f18",
+  "allowed_remote_change": [
+    "README.md"
+  ],
+  "active_experiments_started": 0,
+  "unresolved": [],
+  "next_action": "None; README is published on main",
+  "completed_at": "2026-11-04T10:47:34.310340+00:00",
+  "new_commit": "da1364a36e066a996b7d63e764dfe8929d463516",
+  "result_paths": [
+    "README.md",
+    "README.diff",
+    "validation.json",
+    "publication-receipt.json"
+  ],
+  "new_experiments": 0,
+  "server_mutations": 0,
+  "ppt_modified": false,
+  "active_processes": []
+}

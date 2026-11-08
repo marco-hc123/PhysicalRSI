@@ -1,0 +1,100 @@
+{
+  "utc": "2026-11-07 11:20:40.501280+00:00",
+  "scope": "Public task configuration asset-pool availability only; no heldout layout generation or outcome read",
+  "rows": [
+    {
+      "category": "toy_car",
+      "index": 0,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "toy_car",
+      "index": 1,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "toy_car",
+      "index": 2,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "toy_car",
+      "index": 3,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "toy_car",
+      "index": 4,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "pen",
+      "index": 0,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "pen",
+      "index": 1,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "pen",
+      "index": 4,
+      "files": 2,
+      "lfs_pointers": []
+    },
+    {
+      "category": "watch",
+      "index": 0,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "watch",
+      "index": 1,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "watch",
+      "index": 2,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "garage",
+      "index": 14,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "garage",
+      "index": 15,
+      "files": 3,
+      "lfs_pointers": []
+    },
+    {
+      "category": "action_camera",
+      "index": "00000",
+      "files": 3
+    },
+    {
+      "category": "action_camera",
+      "index": "00001",
+      "files": 2
+    },
+    {
+      "category": "action_camera",
+      "index": "00002",
+      "files": 2
+    }
+  ],
+  "missing_directories": []
+}

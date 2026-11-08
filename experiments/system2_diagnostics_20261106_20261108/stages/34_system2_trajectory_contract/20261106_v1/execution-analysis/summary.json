@@ -1,0 +1,39 @@
+{
+  "state": "completed",
+  "groups": [
+    {
+      "arm": "dense",
+      "native_cases": 5,
+      "error_events": 2,
+      "cases_with_error": 2,
+      "command_contexts": {
+        "after_close_before_open_command": 2
+      },
+      "errors_followed_by_approach": 0,
+      "alternate_arm_followups": 0,
+      "completed_next_approaches": 0,
+      "native_step_limit_cancellations": 3
+    },
+    {
+      "arm": "released_waypoint_thinning",
+      "native_cases": 5,
+      "error_events": 5,
+      "cases_with_error": 5,
+      "command_contexts": {
+        "after_close_before_open_command": 5
+      },
+      "errors_followed_by_approach": 0,
+      "alternate_arm_followups": 0,
+      "completed_next_approaches": 0,
+      "native_step_limit_cancellations": 0
+    }
+  ],
+  "actor_count": 10,
+  "limitations": [
+    "Command context is an observed gripper-command sequence, not ground-truth contact, grasp or release.",
+    "A completed approach response is not proof of object transport or task success.",
+    "Multiple exact RPC matches are reported explicitly; no unverified chronological pairing is invented.",
+    "Incomplete calls can have executed partial actions; no action-step zero is inferred from a missing response.",
+    "Same saved candidate in both conditions; waypoint selection changes and reused layouts limit interpretation."
+  ]
+}

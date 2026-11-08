@@ -1,0 +1,118 @@
+{
+  "transfer_mode": "Fresh bounded-batch relay; no initial full-stream transfer attempted.",
+  "source_manifest_sha256": "6d874f49a30bfb83077043dc38d6aac9a9c2dc9e89f388465d12cf4117020c9b",
+  "initial_verified_files": 0,
+  "initial_quarantined": [],
+  "batches": [
+    {
+      "batch": 1,
+      "attempt": 1,
+      "files": 243,
+      "bytes": 67060140,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 19.330777742001374,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 2,
+      "attempt": 1,
+      "files": 800,
+      "bytes": 60404557,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 17.180525257001136,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 3,
+      "attempt": 1,
+      "files": 771,
+      "bytes": 51121090,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 14.156787715000974,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 4,
+      "attempt": 1,
+      "files": 744,
+      "bytes": 47427905,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 14.148066976998962,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 5,
+      "attempt": 1,
+      "files": 744,
+      "bytes": 47427044,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 14.627459385999828,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 6,
+      "attempt": 1,
+      "files": 800,
+      "bytes": 55691178,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 16.67116449900277,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 7,
+      "attempt": 1,
+      "files": 277,
+      "bytes": 61664881,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 17.530925546998333,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    },
+    {
+      "batch": 8,
+      "attempt": 1,
+      "files": 7,
+      "bytes": 20113367,
+      "source_exit": 0,
+      "destination_exit": 0,
+      "elapsed_s": 6.467780473998573,
+      "missing_after": 0,
+      "quarantined": [],
+      "writer_errors": []
+    }
+  ],
+  "final_verification": {
+    "state": "verified",
+    "utc": "2026-11-07T09:49:30.855222+00:00",
+    "source_root": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107",
+    "destination": "/mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1/native-validation",
+    "verified_files": 4386,
+    "logical_bytes": 410910162,
+    "manifest_sha256": "6d874f49a30bfb83077043dc38d6aac9a9c2dc9e89f388465d12cf4117020c9b",
+    "native_cases": 10,
+    "videos": 30,
+    "new_api_calls": 0,
+    "lab_gpu_used": false,
+    "transfer_verified_in_batches": true
+  }
+}

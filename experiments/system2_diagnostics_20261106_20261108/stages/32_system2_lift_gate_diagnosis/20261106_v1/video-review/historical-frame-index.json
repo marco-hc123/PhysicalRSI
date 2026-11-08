@@ -1,0 +1,70 @@
+[
+  {
+    "condition": "augmented_3",
+    "layout": 4,
+    "camera": "head",
+    "encoded_frame": 0,
+    "encoded_time_s": 0.0,
+    "source_video": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "a094ab4485c61968189a7c671b024bd96a7ad9dbf6ce82b2be1ee4dbea9532d2",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/prior_augmented3_layout4_head_frame0000.png",
+    "image_sha256": "cf6f1f163be0ec98a219c93572a8b889dfe7f3d1690bb0229eb5e7bb5bd9d10b",
+    "metadata": {
+      "avg_frame_rate": "25/1",
+      "duration": "44.040000",
+      "nb_frames": "1101"
+    },
+    "note": "Historical footage; encoded time is not simulation or wall-clock time. Frame635 chosen near recorded post-lift observation636, not an independently calibrated timestamp match."
+  },
+  {
+    "condition": "augmented_3",
+    "layout": 4,
+    "camera": "head",
+    "encoded_frame": 635,
+    "encoded_time_s": 25.4,
+    "source_video": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "a094ab4485c61968189a7c671b024bd96a7ad9dbf6ce82b2be1ee4dbea9532d2",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/prior_augmented3_layout4_head_frame0635.png",
+    "image_sha256": "ea57f673e3c99ab83a9d64642805dddfd7b1c8f526ef2811a49585b64b0a9553",
+    "metadata": {
+      "avg_frame_rate": "25/1",
+      "duration": "44.040000",
+      "nb_frames": "1101"
+    },
+    "note": "Historical footage; encoded time is not simulation or wall-clock time. Frame635 chosen near recorded post-lift observation636, not an independently calibrated timestamp match."
+  },
+  {
+    "condition": "augmented_3",
+    "layout": 4,
+    "camera": "left_wrist",
+    "encoded_frame": 635,
+    "encoded_time_s": 25.4,
+    "source_video": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000004_cam_left_wrist_fail.mp4",
+    "video_sha256": "d70c2b8ef4d7ddf309c5ea5d251abfabb4db58cc6e71d3c8a481b99939ad4a86",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/prior_augmented3_layout4_left_wrist_frame0635.png",
+    "image_sha256": "ae5c0fa20604d78bf3bfb70b6827dd78889b2d1abb10dce44b3a0a6bfe32ba76",
+    "metadata": {
+      "avg_frame_rate": "25/1",
+      "duration": "44.040000",
+      "nb_frames": "1101"
+    },
+    "note": "Historical footage; encoded time is not simulation or wall-clock time. Frame635 chosen near recorded post-lift observation636, not an independently calibrated timestamp match."
+  },
+  {
+    "condition": "augmented_3",
+    "layout": 4,
+    "camera": "head",
+    "encoded_frame": 1100,
+    "encoded_time_s": 44.0,
+    "source_video": "/mnt/data/joey_tr/physical-RSI/result/31_system2_rgb_validation/20261105_v1/native-campaign/runs/augmented_3/attempt-001/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-3d1987ec53f39cfe0574e125b13e3998/episode_0000004_cam_head_fail.mp4",
+    "video_sha256": "a094ab4485c61968189a7c671b024bd96a7ad9dbf6ce82b2be1ee4dbea9532d2",
+    "image": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/video-review/prior_augmented3_layout4_head_frame1100.png",
+    "image_sha256": "7aad75707694ea16f29c061e36eafbf0ef3d5a511182ffb94f30dc439c740198",
+    "metadata": {
+      "avg_frame_rate": "25/1",
+      "duration": "44.040000",
+      "nb_frames": "1101"
+    },
+    "note": "Final encoded frame; not wall clock or calibrated physical time."
+  }
+]

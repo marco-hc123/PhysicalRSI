@@ -1,0 +1,6 @@
+layout,dense_score_100,thin_score_100,score_difference_100,dense_stop,thin_stop,dense_completed_primitive_steps,thin_completed_primitive_steps
+0,0.0,0.0,0.0,returned_after_planning_rejection,returned_after_planning_rejection,655,36
+1,0.0,0.0,0.0,native_step_limit_cancelled_active_execution,returned_after_planning_rejection,922,126
+2,0.0,0.0,0.0,returned_after_planning_rejection,returned_after_planning_rejection,635,37
+3,0.0,0.0,0.0,native_step_limit_cancelled_active_execution,returned_after_planning_rejection,942,80
+4,15.0,15.0,0.0,native_step_limit_cancelled_active_execution,returned_after_planning_rejection,942,139

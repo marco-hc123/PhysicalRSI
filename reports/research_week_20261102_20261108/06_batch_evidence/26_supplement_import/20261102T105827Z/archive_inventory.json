@@ -1,0 +1,2961 @@
+{
+  "archives": [
+    {
+      "archive": ".zip",
+      "role": "system1_working",
+      "archive_sha256": "a26400a71aa628c1bf168c034f3738dcc2d443832283437682e994a3222048b7",
+      "archive_bytes": 23497415,
+      "files": [
+        {
+          "path": "analyze_remote.py",
+          "bytes": 6817,
+          "sha256": "75fddf18f8abc79cb728be3f7fbd9eb63cf9c2df028019de0786c7951a1244ea",
+          "original_member": ".supplement_gpt61sol/analyze_remote.py"
+        },
+        {
+          "path": "api-preflight.json",
+          "bytes": 220,
+          "sha256": "e210bdf6a35134d5dc6b2f93d51776f40ad4b236e84e65fa61020406316c2343",
+          "original_member": ".supplement_gpt61sol/api-preflight.json"
+        },
+        {
+          "path": "api_bridge.py",
+          "bytes": 7201,
+          "sha256": "0d79b0f131a00dd47597058cb03430ae87ca9fdd3292608acdf245fcef2472c3",
+          "original_member": ".supplement_gpt61sol/api_bridge.py"
+        },
+        {
+          "path": "api_preflight.py",
+          "bytes": 1683,
+          "sha256": "505bc466689378f6fd484013e5ba5aa600c2935355eb83fe2149c79e6d5f3677",
+          "original_member": ".supplement_gpt61sol/api_preflight.py"
+        },
+        {
+          "path": "budget-ledger.json",
+          "bytes": 12046,
+          "sha256": "efd343b7e534233ae8e4bf5c7b421491d1d28d96ddc034455bd95b3e48b7e6d2",
+          "original_member": ".supplement_gpt61sol/budget-ledger.json"
+        },
+        {
+          "path": "cloud_comparison_run.py",
+          "bytes": 8984,
+          "sha256": "9862e5747c76d98f83c741aeb1e95f2d4d3061796d3f9eeae660c562c95721c7",
+          "original_member": ".supplement_gpt61sol/cloud_comparison_run.py"
+        },
+        {
+          "path": "fetch_results.py",
+          "bytes": 1242,
+          "sha256": "2af11100c65f3bbf84ceab5529bb05cb6d8d20e6cf4ff3bc035b6c790a252031",
+          "original_member": ".supplement_gpt61sol/fetch_results.py"
+        },
+        {
+          "path": "graft_slide.py",
+          "bytes": 853,
+          "sha256": "8ce984b08793bd77722e3b22ee9a06c3989bde0b1d5d200ac48c48e8b8a4abc4",
+          "original_member": ".supplement_gpt61sol/graft_slide.py"
+        },
+        {
+          "path": "inspect_ppt.mjs",
+          "bytes": 968,
+          "sha256": "3336d102d456e9ec40a5390d46e1413a074ac88f55096b5680b3a9db56cca379",
+          "original_member": ".supplement_gpt61sol/inspect_ppt.mjs"
+        },
+        {
+          "path": "latest-progress.json",
+          "bytes": 18580,
+          "sha256": "403423425c5237d4696c3d4a097719391f46ebb0c0c08c993870628cd349e660",
+          "original_member": ".supplement_gpt61sol/latest-progress.json"
+        },
+        {
+          "path": "make_report.py",
+          "bytes": 10338,
+          "sha256": "39aee40d2db2bfdbf6fd52ce9b6ab67d5de2e661b5c3b03ff04133cf5fd4a7bc",
+          "original_member": ".supplement_gpt61sol/make_report.py"
+        },
+        {
+          "path": "monitor_remote.py",
+          "bytes": 1846,
+          "sha256": "2114e9f09b09070e132437826493f9472d3d3ae5558ad23ea5296c3e760779b6",
+          "original_member": ".supplement_gpt61sol/monitor_remote.py"
+        },
+        {
+          "path": "package_remote.py",
+          "bytes": 1481,
+          "sha256": "db52492127078cefc6ab28c223914415cb673f013b77a6936a2767dbca18e820",
+          "original_member": ".supplement_gpt61sol/package_remote.py"
+        },
+        {
+          "path": "poll.py",
+          "bytes": 1533,
+          "sha256": "45bf5bf4ed0dd800900eb6815d9e7a449cdcb45d817714eec8c8dbccf10c4a33",
+          "original_member": ".supplement_gpt61sol/poll.py"
+        },
+        {
+          "path": "portable-evidence.tar.gz",
+          "bytes": 11677063,
+          "sha256": "913697731b18edf6a4f4d1dcc8b4d7d0593a1240ca25cc6a110233a7b756be39",
+          "original_member": ".supplement_gpt61sol/portable-evidence.tar.gz"
+        },
+        {
+          "path": "ppt-before-inspect.ndjson",
+          "bytes": 29231,
+          "sha256": "d335ed7cfc02a0c94d96e418339b631915eb16ff64da8d525a1ade26a541a850",
+          "original_member": ".supplement_gpt61sol/ppt-before-inspect.ndjson"
+        },
+        {
+          "path": "prepare_remote.py",
+          "bytes": 7260,
+          "sha256": "bf3428ae68c0ea3800d5926140bae80030156b84290b8740396041b9205ee26a",
+          "original_member": ".supplement_gpt61sol/prepare_remote.py"
+        },
+        {
+          "path": "reference-skills.json",
+          "bytes": 492984,
+          "sha256": "7b6ef2bad4a61692c22915f85a9a40476667a75762a11eec52a8c23969fa4e3e",
+          "original_member": ".supplement_gpt61sol/reference-skills.json"
+        },
+        {
+          "path": "reference_protocol.json",
+          "bytes": 11331,
+          "sha256": "c4a6b5a2864e3b8be201d189fbe1969f9f03afd22e6ddfdfe1ef3b13085b0a5e",
+          "original_member": ".supplement_gpt61sol/reference_protocol.json"
+        },
+        {
+          "path": "research-review-30min.json",
+          "bytes": 894,
+          "sha256": "58f56bfa609e45d32975b58e07dcc1ddbbb3389b7d5e8f620f0d98aebf044e0e",
+          "original_member": ".supplement_gpt61sol/research-review-30min.json"
+        },
+        {
+          "path": "results/analysis-status.json",
+          "bytes": 74,
+          "sha256": "0809a689d9f37eb3432c49740c387e7502359607026059dfaf7d03aaea75366d",
+          "original_member": ".supplement_gpt61sol/results/analysis-status.json"
+        },
+        {
+          "path": "results/analysis-summary.json",
+          "bytes": 13625,
+          "sha256": "913c10c39e15e827bd72bfb5dc7a7952c7fa63ab376caa11c4c78f90cdce7647",
+          "original_member": ".supplement_gpt61sol/results/analysis-summary.json"
+        },
+        {
+          "path": "results/episode-results.csv",
+          "bytes": 5407,
+          "sha256": "370f01db5afc8d10284ddec185580c963ebfbea4964e4b1f0add9761c78bbd4f",
+          "original_member": ".supplement_gpt61sol/results/episode-results.csv"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-001-image-0.png",
+          "bytes": 398133,
+          "sha256": "8b8feff9916acf180b9291c6a971c88c846d98fe0a49fd16e294b2f39ceb3b46",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-001-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-001-image-1.png",
+          "bytes": 335654,
+          "sha256": "264a90a30e700cd48b8e9b0965b2ae98f382660de3395504997ca23066922fba",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-001-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-001-image-2.png",
+          "bytes": 324209,
+          "sha256": "3d6d2d716bef2782496f5eff13f6730fc62c9f98b154fd6bcc2ab5f1ca0a96dd",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-001-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-001-metadata.json",
+          "bytes": 761,
+          "sha256": "b176c7227067281abb6efde405917c915f9966e86f178f79df9e6c397a14cbb8",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-001-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-001-request.json",
+          "bytes": 51657,
+          "sha256": "df67d0bfe7a730f5ed14973836738bb71711ef80bc7c675bd1bccf46452c3f72",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-001-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-001-response.json",
+          "bytes": 1417,
+          "sha256": "750d89d8130996fa874d722dc14e7c761afe84afbd2c04a226f03c9f2a243e63",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-001-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-002-image-0.png",
+          "bytes": 405304,
+          "sha256": "9720255def6d69d1dd7aa34c9e2eb4c942ac406270631cf0aa8cc87209f98847",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-002-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-002-image-1.png",
+          "bytes": 349856,
+          "sha256": "94dda9d4f36a7e1362a65ffece14f86e87cbed6b5075d570ec1cf24ceed862ab",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-002-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-002-image-2.png",
+          "bytes": 356200,
+          "sha256": "135193dc7b8c8079d3abbe64ddb9e4f9aa9138028bebc1febef9a2e7d7159f09",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-002-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-002-metadata.json",
+          "bytes": 761,
+          "sha256": "ae4ca36308ffe11b3781d6834a5d02c1f6f665d575cf880346a68c0fda971cb8",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-002-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-002-request.json",
+          "bytes": 51657,
+          "sha256": "68e22eecca0de14716dc277e7fed2c74b084da03ba08b186116f2beba52d5351",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-002-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-002-response.json",
+          "bytes": 1358,
+          "sha256": "ee26a59ad42d3726d57176ce7d3215b557248f978659b66a868834e894ae89a2",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-002-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-003-image-0.png",
+          "bytes": 405221,
+          "sha256": "bf676d2df3ae05af1ba4f72eebdc6a0a22789f5b788529a4b37390f5cf4cdaab",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-003-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-003-image-1.png",
+          "bytes": 340555,
+          "sha256": "dc5a69d4a4ac0069c67a0aefd68a64c61f93e2bbbedbc9aa097dfea4c8d60f1f",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-003-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-003-image-2.png",
+          "bytes": 353747,
+          "sha256": "185a58c1f44a14dafe8a9344e2477f8fdabdfa5aa03fce9acaa29e11226fc5bf",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-003-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-003-metadata.json",
+          "bytes": 761,
+          "sha256": "08ccad291aa7dc8ec2781e2aa61ed69169eee7d8d15bcfe1ceec639bc57e8f2b",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-003-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-003-request.json",
+          "bytes": 51657,
+          "sha256": "1a871f235ff336165d2e2eb547221edb4ee1dab085cc2ce6cd096b34cb69634e",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-003-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-003-response.json",
+          "bytes": 1473,
+          "sha256": "2a190fcc10460c7fcc25f1c3d431f836aba0afbdee0c1e37383fd304899bc4ab",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-003-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-004-image-0.png",
+          "bytes": 405170,
+          "sha256": "0605a60e2eddaf513f5bbb962a1ac6e4a37e579a27204ea6dd4662fa86682a9f",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-004-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-004-image-1.png",
+          "bytes": 349286,
+          "sha256": "1aa287788a13278b599204af025160f31ad45dd66c110e43f33967b5d6340477",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-004-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-004-image-2.png",
+          "bytes": 343496,
+          "sha256": "b5da8524ccc3c21445b34d536a358f8b09b8c8d4ff53add96931f42632371d8e",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-004-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-004-metadata.json",
+          "bytes": 761,
+          "sha256": "40a64d8c9e107f9c105ca7e78f6e62f5469b256e22a43d4f54752f8c9b1f1642",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-004-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-004-request.json",
+          "bytes": 51657,
+          "sha256": "a01b9e56a3f229b32a6c7159b36309a290c666fe9de38bad42cf2048a924fada",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-004-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-004-response.json",
+          "bytes": 1429,
+          "sha256": "5a266b0d3e4feec914732e3886f00ae88f67e3594227f97875f3a07cba2b50c3",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-004-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-005-image-0.png",
+          "bytes": 406684,
+          "sha256": "4e6f8a73b296dbc04c7c5b41a61a7619d3efb3a35f08cf2211141f14a7ea8b69",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-005-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-005-image-1.png",
+          "bytes": 355670,
+          "sha256": "1c12a1056312684995b472eeef29a5f89b492602a779ff06ae658ed9cb7a45d2",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-005-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-005-image-2.png",
+          "bytes": 353757,
+          "sha256": "9d6439aeeb13acaa7427405dd9312c243ffa44dc7247dbc89f3e6880a556e6e8",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-005-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-005-metadata.json",
+          "bytes": 761,
+          "sha256": "e5baacf04dc287f1fb46f51f61afbaa0e6781e66f8852991a6334e7d0abde576",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-005-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-005-request.json",
+          "bytes": 51657,
+          "sha256": "a730c2352b1cfbe6f25442ea924cc409b648da50aeae1b250a9019c208b340d7",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-005-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/api/call-005-response.json",
+          "bytes": 1399,
+          "sha256": "10823d0e5c7c9099b4035965870842d0bfb61d4af3b21a1859812826badcddbd",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/api/call-005-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/client-command.json",
+          "bytes": 480,
+          "sha256": "bfe7e61a30409aa20d41cf68db43dffc514fc92cbc3e0cdf46f527d035a3e3e2",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/client-command.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/client.log",
+          "bytes": 230315,
+          "sha256": "dacdb58355a7482d55cabcbab772dfd56ea10a53f42751d28067dec7e8281bbb",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/client.log"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/configuration-verification.json",
+          "bytes": 23822,
+          "sha256": "85acc448619f66462373e8e529b35ab17f5451244c18cecf3b1fe2f50d5fb806",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/configuration-verification.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/gpu.jsonl",
+          "bytes": 28813,
+          "sha256": "85ff8fa3ae47b04f3d2a6d18f72ff19271db19c6dcbe9d99aa93c257e336ab37",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/gpu.jsonl"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/native-events.jsonl",
+          "bytes": 1170946,
+          "sha256": "d88d472867fa394de12126f818805d150cc471b82cef3d16227297910850e3bd",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/native-events.jsonl"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/native-result.json",
+          "bytes": 508,
+          "sha256": "4ebcbb1a25ebd67666f530964d93f1c2391c5542c2ce3f6223a05d4544e33089",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/native-result.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/plan-001.json",
+          "bytes": 740,
+          "sha256": "be6f648a51d780f61cf76d2e58e211b0c7b916ae69aa0ebac35576ffe5778c4a",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/plan-001.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/plan-002.json",
+          "bytes": 680,
+          "sha256": "ef76990e29907c35d6a4c10b0210a7887ba0a3f1ff30b1f17828eea295245849",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/plan-002.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/plan-003.json",
+          "bytes": 796,
+          "sha256": "cf610113a3bcf121ce7b45f5e49394664eeba59667456d33f17f30234533b4f0",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/plan-003.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/plan-004.json",
+          "bytes": 752,
+          "sha256": "d166f803a47241d6fdfabe485a48bbe3df17487d6aa8bcee12fefb90f2fd496a",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/plan-004.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/plan-005.json",
+          "bytes": 721,
+          "sha256": "96313072fb2eac5f3f1a8a81d7601892bdbb0ae025c638f1e97b3bce384168c4",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/plan-005.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/policy-deployment.json",
+          "bytes": 459,
+          "sha256": "c5df929bd239f4d22c8cde63167cd10b9ea857a933b75d1c3759dbe75c626089",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/policy-deployment.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/policy-events.jsonl",
+          "bytes": 699458,
+          "sha256": "c420dd07fefdd79d8b89c1c0ff1e5ce05f5e0730234d10a9c6dc63dee82e44e8",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/policy-events.jsonl"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/policy-status.json",
+          "bytes": 540,
+          "sha256": "f3cb73a930a18c04211759d78262486cd48e1070d5ce7cf8ceaf9c7f864506a8",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/policy-status.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/policy.log",
+          "bytes": 165,
+          "sha256": "b59e3c00336af60b4acfd0ce7ec340ed9522797bfbe2b874e74e11a56aa08737",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/policy.log"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/skills.json",
+          "bytes": 492933,
+          "sha256": "31839589e81b7941bac2895de7dd6a620bdb203a8b9d13bde07e33ab723b8a01",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/skills.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_agent/status.json",
+          "bytes": 1152,
+          "sha256": "6d14d839d840df723b6b4125c6ea7122690efe38670d8acdedf801aadd1cbf06",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_agent/status.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-0.png",
+          "bytes": 397055,
+          "sha256": "1143ddf649782797bf3f3082eee5e20bff82b80ec3d6f1617f76cd5ffaad2ea3",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-1.png",
+          "bytes": 339808,
+          "sha256": "d3852b4782d5bed0b7d8e7c5797790d81f8f02ffd6a79c8f3b88f8da7a39f379",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-2.png",
+          "bytes": 314901,
+          "sha256": "41e609e5b5c939f4214ad62a3c925177ed184ba4abff4db15f565a01e92dba06",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-metadata.json",
+          "bytes": 760,
+          "sha256": "77591290e6bbf815ec5cea605188eace2d1b2dbce447529fcde4cab35e624efc",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-request.json",
+          "bytes": 51849,
+          "sha256": "5cfbee714cc29df06320c85ab2ce1709b6fd1ce6bd0f951bac1fd549b4ce4418",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-response.json",
+          "bytes": 1458,
+          "sha256": "c111c9a42fc7bed4de64468c632d99ee5b166de4b733d55eaeb310260fef5883",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-0.png",
+          "bytes": 401670,
+          "sha256": "67708af938bcdaae8e3c7b9951667f8eafa1cde88d7a8826f470c2df67f36367",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-1.png",
+          "bytes": 339532,
+          "sha256": "0bb61956de36bd24204b6ee8e96c5a09c87ee170cd3236253c2255a69da79101",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-2.png",
+          "bytes": 325925,
+          "sha256": "531f87ac388b81db36c7634a00781345e7862824ccfb88c3675610fc875151b6",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-metadata.json",
+          "bytes": 760,
+          "sha256": "cda3f1f3204a9c9c47c8d138dbab0ed46a8ce219bafbf09b9c031913116b59e6",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-request.json",
+          "bytes": 51867,
+          "sha256": "a189392a398bc5e123a03dde7394248bbb239e8306348f13645ff6cf4e510e3b",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-response.json",
+          "bytes": 1391,
+          "sha256": "0071529d356fe80007a15be60ee6f4d8803d0f761547944408ce9c97f0fef197",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-0.png",
+          "bytes": 402784,
+          "sha256": "e751bdb1cc693f2b626e6165be498c96062e8a28e93cd46bdf22b432814eb818",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-1.png",
+          "bytes": 341111,
+          "sha256": "09447547e440c8fe1bf0c41dbe4a48e7c2a7ee6c066dfa2772476e3b286f67d1",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-2.png",
+          "bytes": 335644,
+          "sha256": "fdd1a287dea76a99a188f9bdc49879edd721df1890767de971ece4ede8933b6c",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-metadata.json",
+          "bytes": 761,
+          "sha256": "9c61d646d743301fc6697bf174ed3759122ea7ae772c1d50650a2bd1ba180e20",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-request.json",
+          "bytes": 51847,
+          "sha256": "faba8aba89dee8ab81508a1a0726f9f8b0f959e623615d15d0af3f5bed646eb8",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-response.json",
+          "bytes": 1445,
+          "sha256": "24a229d625d530eec289f2e3ace5943250fb5356c0dd52d37409e7196518886b",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-0.png",
+          "bytes": 404550,
+          "sha256": "8941f24c1565d65f6b6f685dd97fa82f7a0907a452563a158eedaefb3332778c",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-1.png",
+          "bytes": 329229,
+          "sha256": "3f03ea45ccc25f3b35f7962245ef1141c2d88de03422a646bd2ac66880921f72",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-2.png",
+          "bytes": 349535,
+          "sha256": "5485a76be44e94a0c55c34cc491df0a4581c0c2c31cf95664b88d4937706feea",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-metadata.json",
+          "bytes": 760,
+          "sha256": "1c3dc9fbf05ebccf2e001991ceab881ebf4da5587999ed5e50ba8ffa34238853",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-request.json",
+          "bytes": 51863,
+          "sha256": "c9fede7443366ade19ce94fe0db0ca016f630835696b0c54836de8754b4c83e2",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-response.json",
+          "bytes": 1535,
+          "sha256": "e7a9caa93a08b287c3b836ae0171e52073012764deb16d46557bb9d23dab7593",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-0.png",
+          "bytes": 400685,
+          "sha256": "9d239f326603cac134571dd09516b3d1b2b95c2a149331cf35b7773387fc3147",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-0.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-1.png",
+          "bytes": 336582,
+          "sha256": "987980f4f9ce08e1a75975ff28e33cfa63663d2e1be1a481c838b733db9da579",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-1.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-2.png",
+          "bytes": 331541,
+          "sha256": "fdb445609a2f1d5498d9463301f61657e42d37dc6fed55e0ef66d3bfd9a0b1be",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-2.png"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-metadata.json",
+          "bytes": 760,
+          "sha256": "8f09bd83f3de151c2da435787ad4b663a4d3851cb88f149fd6086317b3b7ea81",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-metadata.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-request.json",
+          "bytes": 51853,
+          "sha256": "d164381f8c0a0de42ba524432e025c785a89c2f410a04bccc446c1e46aad2058",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-request.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-response.json",
+          "bytes": 1507,
+          "sha256": "8876aea04e7a49866693e84ea0fd6a89a25edc9a8dcefcc9da3108574ce3fc93",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-response.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/client-command.json",
+          "bytes": 492,
+          "sha256": "0a842ec7a5722b7ec5219b1436453227e9ad201ebb8822851f419d6f2580359f",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/client-command.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/client.log",
+          "bytes": 226299,
+          "sha256": "bcc5ec6720ff9e265399b880d7463750d165c75bc1d4afe2199b9709cccb0bb3",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/client.log"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/configuration-verification.json",
+          "bytes": 23834,
+          "sha256": "b98af962c6afe4a5c58ec91f6a50086bcf8048e1383147cb739a0aeb8f83be65",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/configuration-verification.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/gpu.jsonl",
+          "bytes": 24621,
+          "sha256": "ba42f8a7c172cc1b2affecd0a10f4ff27248a736c0aefd3a486eb4b913b15c6d",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/gpu.jsonl"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/native-events.jsonl",
+          "bytes": 1138892,
+          "sha256": "711c7c81274e6fa2b8de7ba958950da23eca8055b76d914dcb9f0cff484d8760",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/native-events.jsonl"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/native-result.json",
+          "bytes": 506,
+          "sha256": "81cbf18265a90e40a2fe6b09077faa5df99aaa33f11d1be8ef337642a15a99df",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/native-result.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/plan-001.json",
+          "bytes": 779,
+          "sha256": "c784519a2d5ebe7e2215d429d28fd73e194351e1196baf5eb811e39c8c67b4ce",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/plan-001.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/plan-002.json",
+          "bytes": 714,
+          "sha256": "4db72aaa43802d919d66cc0db4fd7b527b3acece6631c501330d2fa6bfc5a1ae",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/plan-002.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/plan-003.json",
+          "bytes": 768,
+          "sha256": "b2ad6e84268569656f333ce3bdbf3cc18ebfd67fcc559de02f21f5323ead0092",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/plan-003.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/plan-004.json",
+          "bytes": 858,
+          "sha256": "2a55fb134ff0346f76f40ef6f2024b917d4d706191d91348574608d9a4f01929",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/plan-004.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/plan-005.json",
+          "bytes": 830,
+          "sha256": "e7fcff22391b1d0f78879fb2d112d81a7248098e77dca25a982725d3c8a619ba",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/plan-005.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/policy-deployment.json",
+          "bytes": 471,
+          "sha256": "55f6b949a301a54f1f25133d7384e7a178e60dd141329e1c1344d6bcd305550d",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/policy-deployment.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/policy-events.jsonl",
+          "bytes": 864478,
+          "sha256": "c596f256ed8ad710a8b41db384c2cc532cf3b58cca72fe59980254be4cea2610",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/policy-events.jsonl"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/policy-status.json",
+          "bytes": 564,
+          "sha256": "b3c59914c7744f07cb06871ab1791bcf8ff1ec3886f03fe19174da80094f39c1",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/policy-status.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/policy.log",
+          "bytes": 165,
+          "sha256": "b59e3c00336af60b4acfd0ce7ec340ed9522797bfbe2b874e74e11a56aa08737",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/policy.log"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/skills.json",
+          "bytes": 493461,
+          "sha256": "7dff56887d0b90c02689401acd86581fb8a225820267761abdf166c56396a7d3",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/skills.json"
+        },
+        {
+          "path": "results/evidence/gpt61sol_classify_objects_by_language_agent/status.json",
+          "bytes": 1209,
+          "sha256": "ce137ddde7fa38048fd3576116e6db66566c703dfb0d21fc00a9f59b080df7bd",
+          "original_member": ".supplement_gpt61sol/results/evidence/gpt61sol_classify_objects_by_language_agent/status.json"
+        },
+        {
+          "path": "results/group-results.csv",
+          "bytes": 761,
+          "sha256": "ca4ef0ee6244653bc1457f5351b9f93154dce5612ff34b57fefea0675b041afe",
+          "original_member": ".supplement_gpt61sol/results/group-results.csv"
+        },
+        {
+          "path": "results/paired-contract-checks.csv",
+          "bytes": 4710,
+          "sha256": "8005ee9fb90775c86f40ac8068cbf0d25051f91b680967b26ac3de0cdd14e4db",
+          "original_member": ".supplement_gpt61sol/results/paired-contract-checks.csv"
+        },
+        {
+          "path": "results/preparation-status.json",
+          "bytes": 422,
+          "sha256": "f954cbf55e5f6629fdb6e358356be5b489962ba408e4a69f2714c1e0b2a27b21",
+          "original_member": ".supplement_gpt61sol/results/preparation-status.json"
+        },
+        {
+          "path": "results/protocol.json",
+          "bytes": 3647,
+          "sha256": "7b961b6d46c0e274cccc50208357904e6db38f5aad5495d5b551a52625492693",
+          "original_member": ".supplement_gpt61sol/results/protocol.json"
+        },
+        {
+          "path": "results/sources/cloud_comparison_native.py",
+          "bytes": 6101,
+          "sha256": "8eed3ac4ff2a73ca1ead2b913a37cea61f846fbafe8ac8c5cdda084e5801c9c1",
+          "original_member": ".supplement_gpt61sol/results/sources/cloud_comparison_native.py"
+        },
+        {
+          "path": "results/sources/cloud_comparison_policy.py",
+          "bytes": 14479,
+          "sha256": "7e723c54d1c47810940dc39b29988ec44b8786dcc23d53327024688a900db7d8",
+          "original_member": ".supplement_gpt61sol/results/sources/cloud_comparison_policy.py"
+        },
+        {
+          "path": "results/sources/cloud_comparison_run.py",
+          "bytes": 9295,
+          "sha256": "40d5ad6fdf20d6541eeb0bb39cfe9bb1839ea3a251b9a09221dc6172d73d6c63",
+          "original_member": ".supplement_gpt61sol/results/sources/cloud_comparison_run.py"
+        },
+        {
+          "path": "results/sources/controller.py",
+          "bytes": 876,
+          "sha256": "8460d20c7f07445403cd24d6121731af675fce29cf5df63f137ce2e656c6ec0f",
+          "original_member": ".supplement_gpt61sol/results/sources/controller.py"
+        },
+        {
+          "path": "results/suite-status.json",
+          "bytes": 234,
+          "sha256": "e73ead5fe6743b9cd2828613f744bb445299b79fa4b1fd4dccf157956e6036b3",
+          "original_member": ".supplement_gpt61sol/results/suite-status.json"
+        },
+        {
+          "path": "schema-smoke-response.json",
+          "bytes": 842,
+          "sha256": "168e1ba09988fd7299e52f4b198d7e09ee7caefb68ffb076126373295b1736af",
+          "original_member": ".supplement_gpt61sol/schema-smoke-response.json"
+        },
+        {
+          "path": "START_HERE.md",
+          "bytes": 4044,
+          "sha256": "8983605724f6c8334411650fc52172833a99cb379f2d369595285e5868d9cf43",
+          "original_member": ".supplement_gpt61sol/START_HERE.md"
+        },
+        {
+          "path": "update_ppt.mjs",
+          "bytes": 7520,
+          "sha256": "1befaae2e584a4854dc3a3b0dd922d6c898cb9217d9662c607ffef69920741e9",
+          "original_member": ".supplement_gpt61sol/update_ppt.mjs"
+        },
+        {
+          "path": "verify_handoff.py",
+          "bytes": 3080,
+          "sha256": "bbd682c714191b4b4174da08c924e5e937bdafc3c3151b605150ad0932aff84a",
+          "original_member": ".supplement_gpt61sol/verify_handoff.py"
+        },
+        {
+          "path": "__pycache__/analyze_remote.cpython-311.pyc",
+          "bytes": 14951,
+          "sha256": "3d5774c7a1acc4d5dced81c98f7d10612d6642a8252490a99fde4170683e55bb",
+          "original_member": ".supplement_gpt61sol/__pycache__/analyze_remote.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/api_bridge.cpython-311.pyc",
+          "bytes": 13565,
+          "sha256": "f68dbeeb5f31f060bc002b54015a953252284e88f3bb0e78e10b5547508f07e4",
+          "original_member": ".supplement_gpt61sol/__pycache__/api_bridge.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/fetch_results.cpython-311.pyc",
+          "bytes": 2984,
+          "sha256": "d4312559f094ef9168c45d808aaa5cd265e57f9366c0994a706d9e70135d7b28",
+          "original_member": ".supplement_gpt61sol/__pycache__/fetch_results.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/graft_slide.cpython-311.pyc",
+          "bytes": 2682,
+          "sha256": "a758d3a9387042f3c84e599e6e029ed69cac6acc4d8a4fcd33c24529d020c110",
+          "original_member": ".supplement_gpt61sol/__pycache__/graft_slide.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/make_report.cpython-311.pyc",
+          "bytes": 17828,
+          "sha256": "794c896c5922adbb85c518b835a9cbed91a620cc0e03315ba3278ba583b338f6",
+          "original_member": ".supplement_gpt61sol/__pycache__/make_report.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/verify_handoff.cpython-311.pyc",
+          "bytes": 6059,
+          "sha256": "02109269549b8947cb7b67ce814f0f893973f410eb3818d3c8246a1bf83a3a73",
+          "original_member": ".supplement_gpt61sol/__pycache__/verify_handoff.cpython-311.pyc"
+        }
+      ],
+      "uncompressed_bytes": 29231038,
+      "laboratory_archive_copy": "/mnt/data/joey_tr/physical-RSI/result/26_supplement_import/20261102T105827Z/original_archives/system1_working_original.zip"
+    },
+    {
+      "archive": "(1).zip",
+      "role": "system2_working",
+      "archive_sha256": "9c69d5878a5f929429c90a647b2d2690c53aa640d2f5900b7ffc91a27df234bb",
+      "archive_bytes": 3250621,
+      "files": [
+        {
+          "path": "analyze_remote.py",
+          "bytes": 9071,
+          "sha256": "3e0b4b1b1d2a89dee539b8f95ac3aef597c1651debe462cf98e27f656b4b3402",
+          "original_member": ".supplement_system2_gpt61sol/analyze_remote.py"
+        },
+        {
+          "path": "api_bridge.py",
+          "bytes": 6203,
+          "sha256": "a1b3fa690ca08a151bd04bb49c27e1ee68001fd1a3a3dc938a77c0f1180fb2a7",
+          "original_member": ".supplement_system2_gpt61sol/api_bridge.py"
+        },
+        {
+          "path": "api_preflight.py",
+          "bytes": 823,
+          "sha256": "1dd541ac5f1b87438d279a5a03e9d68a5bf1bd02266342de26ef471d7d55c42b",
+          "original_member": ".supplement_system2_gpt61sol/api_preflight.py"
+        },
+        {
+          "path": "budget-ledger.json",
+          "bytes": 1437,
+          "sha256": "b9501b712316ac64f434babbbe5e3320c744a3a737de342e06c9ed6711a66b25",
+          "original_member": ".supplement_system2_gpt61sol/budget-ledger.json"
+        },
+        {
+          "path": "fetch_results.py",
+          "bytes": 1516,
+          "sha256": "c507ac585e4687a783f2325ac344a9d13584a313ccd80211e95f678efabf5fab",
+          "original_member": ".supplement_system2_gpt61sol/fetch_results.py"
+        },
+        {
+          "path": "latest-progress.json",
+          "bytes": 15594,
+          "sha256": "aa5d0dd163029cefb9248f70b3e13bee4bd156c0b101d579d5f16da0877c1cac",
+          "original_member": ".supplement_system2_gpt61sol/latest-progress.json"
+        },
+        {
+          "path": "launch_recovery.py",
+          "bytes": 891,
+          "sha256": "9bb1e18f9595cc0e91278cd3555a5e89bb336025050921595fc98b3275d034c7",
+          "original_member": ".supplement_system2_gpt61sol/launch_recovery.py"
+        },
+        {
+          "path": "launch_remote.py",
+          "bytes": 1363,
+          "sha256": "954f0041a5b88702834ceb634e82145280faf128d3d19231b9ab62ae267b6d43",
+          "original_member": ".supplement_system2_gpt61sol/launch_remote.py"
+        },
+        {
+          "path": "make_report.py",
+          "bytes": 10663,
+          "sha256": "ee55d7fe85279fcf983b2fca6faa20d68d690c6038115bc9ed7d36e6eb07cf6c",
+          "original_member": ".supplement_system2_gpt61sol/make_report.py"
+        },
+        {
+          "path": "monitor_remote.py",
+          "bytes": 1751,
+          "sha256": "0b9b378b61c7d778b1196a63d9cea836fb743676713a0f80c291e4ad3843c3a1",
+          "original_member": ".supplement_system2_gpt61sol/monitor_remote.py"
+        },
+        {
+          "path": "package_remote.py",
+          "bytes": 2275,
+          "sha256": "f4ed3752386602d17be8c35ec55edf810035f16e7effde8c6ab5d57fa8515b89",
+          "original_member": ".supplement_system2_gpt61sol/package_remote.py"
+        },
+        {
+          "path": "poll.py",
+          "bytes": 1374,
+          "sha256": "f5f8af5182e124b59b67018ca93fca8498f39b7e929f108ee11d8cb32bf32cd1",
+          "original_member": ".supplement_system2_gpt61sol/poll.py"
+        },
+        {
+          "path": "portable-evidence.tar.gz",
+          "bytes": 1754919,
+          "sha256": "eb4711e27458dcd54260307b33789b66f2a97730e78e3d3cc3b675a19f15e6e1",
+          "original_member": ".supplement_system2_gpt61sol/portable-evidence.tar.gz"
+        },
+        {
+          "path": "recover_remote.py",
+          "bytes": 7452,
+          "sha256": "6c8121f0f3fab2ecafc66db075d48db2998b2adb810e0bafb5cbcba1cc23bbba",
+          "original_member": ".supplement_system2_gpt61sol/recover_remote.py"
+        },
+        {
+          "path": "reference/framework/code_execution.py",
+          "bytes": 2112,
+          "sha256": "f9c8c15465fea537878d62c5d59530be524216b6d5a214c74d46e8c1671fef47",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/code_execution.py"
+        },
+        {
+          "path": "reference/framework/evidence.py",
+          "bytes": 4687,
+          "sha256": "59ddd811fccc51ebc7279fb87b627552b6bf8a35f5af495d851fe7bc5146cb3e",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/evidence.py"
+        },
+        {
+          "path": "reference/framework/language.py",
+          "bytes": 5206,
+          "sha256": "41a6dcee41ce33bdf27384788adb5353532deadb672f90ff77daac5e45eeb00c",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/language.py"
+        },
+        {
+          "path": "reference/framework/native_runtime.py",
+          "bytes": 14440,
+          "sha256": "c973651fcb104759021c7d0db1066e9f7b51f20e41cef6a5076a4fa8f9b6ae68",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/native_runtime.py"
+        },
+        {
+          "path": "reference/framework/proposal.py",
+          "bytes": 6716,
+          "sha256": "c9f5998acb286151e630287c11cd33222b1fe1ab86b93cea08d6c8ca5f2b5d56",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/proposal.py"
+        },
+        {
+          "path": "reference/framework/skill_proposal.py",
+          "bytes": 4777,
+          "sha256": "9e12c3996935c9f790cb44c16e1314715eac8c84f03431ad347788959b71e6a1",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/skill_proposal.py"
+        },
+        {
+          "path": "reference/framework/storage.py",
+          "bytes": 2113,
+          "sha256": "4e52799a7c4e9f30454aecb0d696eb6b5bbf6772294f9f0653dcdbfb51cee4ea",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/storage.py"
+        },
+        {
+          "path": "reference/framework/workflow.py",
+          "bytes": 28363,
+          "sha256": "917bedeb447de3a3f2a6c74aac31cad28935eb6090441eae3748179f2b0a9d81",
+          "original_member": ".supplement_system2_gpt61sol/reference/framework/workflow.py"
+        },
+        {
+          "path": "reference/procedures/step5_feedback.py",
+          "bytes": 1094,
+          "sha256": "822132f0e6f16fe0b4d26df48dcd80bb73f99c91d77a0aa4d97227113d700ef6",
+          "original_member": ".supplement_system2_gpt61sol/reference/procedures/step5_feedback.py"
+        },
+        {
+          "path": "reference/procedures/step5_final_audit.py",
+          "bytes": 14593,
+          "sha256": "0f7903bd5f8589b8fb62724f061a28244921306693b415704c8ff4fe9bf35644",
+          "original_member": ".supplement_system2_gpt61sol/reference/procedures/step5_final_audit.py"
+        },
+        {
+          "path": "reference/procedures/step5_final_finish.py",
+          "bytes": 2010,
+          "sha256": "af8d883c5bc3da01f283c91595cd89dac065f5580af332e444ada249f355b41f",
+          "original_member": ".supplement_system2_gpt61sol/reference/procedures/step5_final_finish.py"
+        },
+        {
+          "path": "reference/procedures/step5_final_register.py",
+          "bytes": 6522,
+          "sha256": "38f914ffe853de8195c0c769781d7f58dc744a2cd4a3a34b4969fb77955ef39a",
+          "original_member": ".supplement_system2_gpt61sol/reference/procedures/step5_final_register.py"
+        },
+        {
+          "path": "reference/procedures/step5_final_run.py",
+          "bytes": 18653,
+          "sha256": "46afc3c773aeba1ae2de6998e246ff14bf3640ad837068b7f99d17a5e4bf9cea",
+          "original_member": ".supplement_system2_gpt61sol/reference/procedures/step5_final_run.py"
+        },
+        {
+          "path": "reference/procedures/step5_observe.py",
+          "bytes": 1355,
+          "sha256": "7622c4d526862e83b41d1a3a81abc08db95875fd1a4c2e578ccb02cea1b5c424",
+          "original_member": ".supplement_system2_gpt61sol/reference/procedures/step5_observe.py"
+        },
+        {
+          "path": "reference/procedures/step5_scene_api_v4.py",
+          "bytes": 9246,
+          "sha256": "09db344ca589ba093e6b2be68701eadb3e6e6cf6f5c2b81867c7627135404190",
+          "original_member": ".supplement_system2_gpt61sol/reference/procedures/step5_scene_api_v4.py"
+        },
+        {
+          "path": "reference/sources.tar.gz",
+          "bytes": 32712,
+          "sha256": "7cb8f5583546dddc739454c2fdd708f5b9aa27e8bf439ac635b124872b9677dd",
+          "original_member": ".supplement_system2_gpt61sol/reference/sources.tar.gz"
+        },
+        {
+          "path": "reference/step5_scene_api_v4.py",
+          "bytes": 9246,
+          "sha256": "09db344ca589ba093e6b2be68701eadb3e6e6cf6f5c2b81867c7627135404190",
+          "original_member": ".supplement_system2_gpt61sol/reference/step5_scene_api_v4.py"
+        },
+        {
+          "path": "reference-input-fingerprint.json",
+          "bytes": 352,
+          "sha256": "7a6cc07b4bad5b30eafc2e575b168523f7da127db11a58f448911eeb5d5279c4",
+          "original_member": ".supplement_system2_gpt61sol/reference-input-fingerprint.json"
+        },
+        {
+          "path": "register_remote.py",
+          "bytes": 10734,
+          "sha256": "0cc8e94d633842c69a21bde72e60c163bd095e0a31a3f61cfe8de3f4449ec18e",
+          "original_member": ".supplement_system2_gpt61sol/register_remote.py"
+        },
+        {
+          "path": "results/analysis-summary.json",
+          "bytes": 3558,
+          "sha256": "e1fb0aa8939e5b144a4b7eccb78d0c1ae897dbb328ff243725e8cfeac615047b",
+          "original_member": ".supplement_system2_gpt61sol/results/analysis-summary.json"
+        },
+        {
+          "path": "results/completion.json",
+          "bytes": 6622,
+          "sha256": "509ac479515a3b427a3920f23bb16009e52dc531b1b01657a955d4d0b96a903b",
+          "original_member": ".supplement_system2_gpt61sol/results/completion.json"
+        },
+        {
+          "path": "results/controller-status.json",
+          "bytes": 214,
+          "sha256": "416e510f7142474c3ace0eb0d3a41b6a5a19994a2279a1aa2df9e1b912b8fc1c",
+          "original_member": ".supplement_system2_gpt61sol/results/controller-status.json"
+        },
+        {
+          "path": "results/controller.log",
+          "bytes": 4760,
+          "sha256": "9c6e7bc314240c971e8a1bd156c281bae42cd745bd997873a12f471476c93f02",
+          "original_member": ".supplement_system2_gpt61sol/results/controller.log"
+        },
+        {
+          "path": "results/episode-results.csv",
+          "bytes": 3590,
+          "sha256": "03335839296faa103b43c2c3e20514407b0885b7c95d30df8df28a3fd4c1836c",
+          "original_member": ".supplement_system2_gpt61sol/results/episode-results.csv"
+        },
+        {
+          "path": "results/iteration-result.json",
+          "bytes": 8326,
+          "sha256": "0eda2f0386ec488e0491781800934d4ac7dee8f39ecc6d2a4604260ecde3c599",
+          "original_member": ".supplement_system2_gpt61sol/results/iteration-result.json"
+        },
+        {
+          "path": "results/iteration-started.json",
+          "bytes": 289,
+          "sha256": "87e16bff5625d4da5736ef6c15aff5d9b8c2d90009f29ead29f43203122c0098",
+          "original_member": ".supplement_system2_gpt61sol/results/iteration-started.json"
+        },
+        {
+          "path": "results/launch.json",
+          "bytes": 554,
+          "sha256": "2483b431ccccd0b21052f81282af83dc324511b6f1765643a9d7d73cb2829069",
+          "original_member": ".supplement_system2_gpt61sol/results/launch.json"
+        },
+        {
+          "path": "results/model-candidate-memory.json",
+          "bytes": 1031,
+          "sha256": "b510245b6e185757d0f4379cb6de687fa584b9c707cc6a43afb10f0806def38c",
+          "original_member": ".supplement_system2_gpt61sol/results/model-candidate-memory.json"
+        },
+        {
+          "path": "results/model-candidate.py",
+          "bytes": 5253,
+          "sha256": "339ddd5d8c4c3f7195e57f297ed99b2579da122f116baac7af365a3421dd1e08",
+          "original_member": ".supplement_system2_gpt61sol/results/model-candidate.py"
+        },
+        {
+          "path": "results/native-budget.json",
+          "bytes": 4619,
+          "sha256": "363abf7fa3f1042bf51c3c5dd381bd0d062255cccceaef20ac94fad0078ff6d5",
+          "original_member": ".supplement_system2_gpt61sol/results/native-budget.json"
+        },
+        {
+          "path": "results/native-receipts/batch-0/0.json",
+          "bytes": 116414,
+          "sha256": "4088e6996d0972b2544d73212ac68be7bbc15a06c333a61eae85fab2185ccadc",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-0/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-1/0.json",
+          "bytes": 116414,
+          "sha256": "fe7310e7c5f2ca3ca6e59be2eb43d1682c17c1b101fd7b51f39743f33c523fb8",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-1/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-10/0.json",
+          "bytes": 172622,
+          "sha256": "4125e8b2f3e783edef8e2393b42d48a681f78c98f5728f91f6a5b252b45beda1",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-10/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-2/0.json",
+          "bytes": 116414,
+          "sha256": "6217433f391fbb46f6424593e65b0223f3a7fdd1d9eb035b507bbbb89753566a",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-2/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-3/0.json",
+          "bytes": 116414,
+          "sha256": "dd9b758cce389ee9f2b78a1ad9cdb48d0c861f757ee6e7abd442aac8b6e17d1d",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-3/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-5/0.json",
+          "bytes": 116414,
+          "sha256": "f220b0c282079f751cc70f67d40857b07c1ff081383809507391004c9486b049",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-5/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-6/0.json",
+          "bytes": 177563,
+          "sha256": "6d679d3d39db2413320de1b0d472f5529f07b441cda63f5eb39eafa48cb088b2",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-6/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-7/0.json",
+          "bytes": 177014,
+          "sha256": "e52b08743b0a6223a368f45647dd8c4f03b5a46bba69fb25cd68311b1facaa11",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-7/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-8/0.json",
+          "bytes": 172073,
+          "sha256": "9f37fc1f6c96a743578ffcbe628640c6146475c0b9921fbb686b57a4f1c0e225",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-8/0.json"
+        },
+        {
+          "path": "results/native-receipts/batch-9/0.json",
+          "bytes": 175916,
+          "sha256": "9af9c8c7a711f606b0b2e7e46d6d04012704a138220267d0aff6572d3e418830",
+          "original_member": ".supplement_system2_gpt61sol/results/native-receipts/batch-9/0.json"
+        },
+        {
+          "path": "results/offline-preflight.json",
+          "bytes": 565,
+          "sha256": "3e08d576aa0c56d20836106d0faa74215dda608e698f9b242da08e9deb5ac250",
+          "original_member": ".supplement_system2_gpt61sol/results/offline-preflight.json"
+        },
+        {
+          "path": "results/proposal-api/call-0001/completed.json",
+          "bytes": 409,
+          "sha256": "986cdf42c601365a960a098246b9f7732cd47fe532a49a52017e7cfc59937deb",
+          "original_member": ".supplement_system2_gpt61sol/results/proposal-api/call-0001/completed.json"
+        },
+        {
+          "path": "results/proposal-api/call-0001/input-check.json",
+          "bytes": 327,
+          "sha256": "ffb2b0bb62238a8cbe866b566f783fb1b254f5b09c5ea00e6d04e6094357ecb7",
+          "original_member": ".supplement_system2_gpt61sol/results/proposal-api/call-0001/input-check.json"
+        },
+        {
+          "path": "results/proposal-api/call-0001/request.json",
+          "bytes": 10473,
+          "sha256": "b68956a4fbef24a694b9071643f707def9504902d53707a512513be263df9358",
+          "original_member": ".supplement_system2_gpt61sol/results/proposal-api/call-0001/request.json"
+        },
+        {
+          "path": "results/proposal-api/call-0001/response.json",
+          "bytes": 7669,
+          "sha256": "47279a7925f2454f4674257033ed4abc8c717bd501d2b5672b2c8c38a4f944f4",
+          "original_member": ".supplement_system2_gpt61sol/results/proposal-api/call-0001/response.json"
+        },
+        {
+          "path": "results/proposal-api/call-0001/started.json",
+          "bytes": 173,
+          "sha256": "cbed6a1d28caaabb21de1d54cf1b16dde48ff9e5072b7929992c8334b312f7e6",
+          "original_member": ".supplement_system2_gpt61sol/results/proposal-api/call-0001/started.json"
+        },
+        {
+          "path": "results/protocol.json",
+          "bytes": 9532,
+          "sha256": "82f9377a0a2409759245474f38c2882cad649944a0d61ca42e6d00a605c1c7b0",
+          "original_member": ".supplement_system2_gpt61sol/results/protocol.json"
+        },
+        {
+          "path": "results/recovery-01/launch.json",
+          "bytes": 673,
+          "sha256": "f39347bb206f2772970b01df4ab37bde01bb383afb015c94e2c544f9f4f585bf",
+          "original_member": ".supplement_system2_gpt61sol/results/recovery-01/launch.json"
+        },
+        {
+          "path": "results/recovery-01/native-budget-before.json",
+          "bytes": 2422,
+          "sha256": "4671cdf8b6ff5384306e5c1f883925dbb3cae08fc24704cdd670d9a1ecf04c1b",
+          "original_member": ".supplement_system2_gpt61sol/results/recovery-01/native-budget-before.json"
+        },
+        {
+          "path": "results/recovery-01/phase-before.json",
+          "bytes": 163,
+          "sha256": "d93a00f0b13d911ef67f1dd09e137817e15f439ec187ef396a73e7f8f7b35b54",
+          "original_member": ".supplement_system2_gpt61sol/results/recovery-01/phase-before.json"
+        },
+        {
+          "path": "results/recovery-01/protocol.json",
+          "bytes": 1059,
+          "sha256": "e6cdefddf1c09b902f346190d1e13f105bf854384c23bcce542275a6abde5717",
+          "original_member": ".supplement_system2_gpt61sol/results/recovery-01/protocol.json"
+        },
+        {
+          "path": "results/recovery-01/recover_remote.py",
+          "bytes": 7452,
+          "sha256": "6c8121f0f3fab2ecafc66db075d48db2998b2adb810e0bafb5cbcba1cc23bbba",
+          "original_member": ".supplement_system2_gpt61sol/results/recovery-01/recover_remote.py"
+        },
+        {
+          "path": "results/recovery-controller.log",
+          "bytes": 4938,
+          "sha256": "b109e3271850f7600d56f55c9e20ddb95aa7c9cbecbfa9d1271349db2a11819d",
+          "original_member": ".supplement_system2_gpt61sol/results/recovery-controller.log"
+        },
+        {
+          "path": "results/recovery-launch.json",
+          "bytes": 255,
+          "sha256": "3e36f93bd6bfc074b1829cdb6a1296f71e4c2b05da3386080955949c59b18f3d",
+          "original_member": ".supplement_system2_gpt61sol/results/recovery-launch.json"
+        },
+        {
+          "path": "results/reference-chat-request.json",
+          "bytes": 10460,
+          "sha256": "97f432995a6321a47e573c420a6214c97390029b1b69ce341ca3590554a244b9",
+          "original_member": ".supplement_system2_gpt61sol/results/reference-chat-request.json"
+        },
+        {
+          "path": "results/reference-input-fingerprint.json",
+          "bytes": 352,
+          "sha256": "2dc34a13f7e34813f90304b657986bbb646df7b10e016d43e7395fef292d93f6",
+          "original_member": ".supplement_system2_gpt61sol/results/reference-input-fingerprint.json"
+        },
+        {
+          "path": "results/reference-structured-request.json",
+          "bytes": 8838,
+          "sha256": "88c8bfb4b56a23ebdce446bc7df804b5c4f0088dc7521c6c4cb0ada33b686a81",
+          "original_member": ".supplement_system2_gpt61sol/results/reference-structured-request.json"
+        },
+        {
+          "path": "results/round/admission-evidence-candidate_round-000000.json",
+          "bytes": 156,
+          "sha256": "711b0e86d0efcd3e7822817c7f2d2a8faa7554126433cd347421cc0e83501b96",
+          "original_member": ".supplement_system2_gpt61sol/results/round/admission-evidence-candidate_round-000000.json"
+        },
+        {
+          "path": "results/round/admission-evidence-initial.json",
+          "bytes": 156,
+          "sha256": "711b0e86d0efcd3e7822817c7f2d2a8faa7554126433cd347421cc0e83501b96",
+          "original_member": ".supplement_system2_gpt61sol/results/round/admission-evidence-initial.json"
+        },
+        {
+          "path": "results/round/admission.json",
+          "bytes": 357,
+          "sha256": "3c625c1b28ac8793edf70d6689785689f5704254030342266f20f0fa166e6c38",
+          "original_member": ".supplement_system2_gpt61sol/results/round/admission.json"
+        },
+        {
+          "path": "results/round/admit_candidate_round-000000.json",
+          "bytes": 630,
+          "sha256": "968f5c4fe5e979534165ed5433ab18f51c36211bf37efe6eb734c438d57648f5",
+          "original_member": ".supplement_system2_gpt61sol/results/round/admit_candidate_round-000000.json"
+        },
+        {
+          "path": "results/round/admit_initial.json",
+          "bytes": 615,
+          "sha256": "76e4f15675d0d1b427b820e31fef2041346f634d2b794f7b37f23c5c789c6656",
+          "original_member": ".supplement_system2_gpt61sol/results/round/admit_initial.json"
+        },
+        {
+          "path": "results/round/commit.json",
+          "bytes": 5679750,
+          "sha256": "2f68219864136c23a5d55f6962c59e875637e90058ff6c07fe3f90f48ded4291",
+          "original_member": ".supplement_system2_gpt61sol/results/round/commit.json"
+        },
+        {
+          "path": "results/round/config.json",
+          "bytes": 300684,
+          "sha256": "2405a453689c91ea82f3f06439d51080621f5f113bc2bc1561e5ea11f1759cb1",
+          "original_member": ".supplement_system2_gpt61sol/results/round/config.json"
+        },
+        {
+          "path": "results/round/develop.json",
+          "bytes": 443,
+          "sha256": "9aaba34d2af5ba712a0c9dbd76cab88bb70ca0ecb8945835c59632b06290a623",
+          "original_member": ".supplement_system2_gpt61sol/results/round/develop.json"
+        },
+        {
+          "path": "results/round/development-cases.json",
+          "bytes": 8717,
+          "sha256": "7d819507ca8aa2f6760d808d96ac6ce8f30b713c42140f9738ba43e32d3f34a9",
+          "original_member": ".supplement_system2_gpt61sol/results/round/development-cases.json"
+        },
+        {
+          "path": "results/round/development-results.json",
+          "bytes": 2620143,
+          "sha256": "11959760b3dc6106fd5230554deb85da50ae9bf1b1cc2fd857f497198500b694",
+          "original_member": ".supplement_system2_gpt61sol/results/round/development-results.json"
+        },
+        {
+          "path": "results/round/evaluate_candidate_round-000000.json",
+          "bytes": 9089752,
+          "sha256": "d39c0bdc8b1322f12603578c8d2771fc1f5db37475671c0bd683c8b99351c4fd",
+          "original_member": ".supplement_system2_gpt61sol/results/round/evaluate_candidate_round-000000.json"
+        },
+        {
+          "path": "results/round/evaluate_initial.json",
+          "bytes": 8811789,
+          "sha256": "7556a0a61d2cc8786860f8cf710fdbd4a4c23ac05fc13f21c493963a78fcf796",
+          "original_member": ".supplement_system2_gpt61sol/results/round/evaluate_initial.json"
+        },
+        {
+          "path": "results/round/freeze.json",
+          "bytes": 941,
+          "sha256": "e03093043f5d86c939161c4e3d0c7dd7c6cc0c6464e2b587c1e4ca418e2960e7",
+          "original_member": ".supplement_system2_gpt61sol/results/round/freeze.json"
+        },
+        {
+          "path": "results/round/parent.json",
+          "bytes": 302254,
+          "sha256": "dd3d8d731334ce70deb84eb78903cbe6b3e8df66c97b1cf270311b22ad79e2ee",
+          "original_member": ".supplement_system2_gpt61sol/results/round/parent.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/empty/request.json",
+          "bytes": 444,
+          "sha256": "048eefc68b8e8014f50f8eefece1517a0bef704617776b784f19cf43644c195a",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/empty/request.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/empty/result.json",
+          "bytes": 5,
+          "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/empty/result.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/empty/root/input.json",
+          "bytes": 6392,
+          "sha256": "41f6e472c46a32dbdc8cd2e64e89233f2e87108ae4f5ebf3155523d1e79f2449",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/empty/root/input.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/empty/root/output/result.json",
+          "bytes": 33,
+          "sha256": "9806a1af76ddd4daa5bf5d17e6e1ee08cadd71a6317b38546890afb916989220",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/empty/root/output/result.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/empty/root/response.json",
+          "bytes": 110,
+          "sha256": "7cabfa3bf461e30eb31a68704f63422e3086e3c6b96a7562dc86852109dd988b",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/empty/root/response.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/gate-result.json",
+          "bytes": 7932,
+          "sha256": "6eadea6dd85cc5f9c08a1742f32320d95cce3795138e681c349927f5bf9a4848",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/gate-result.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/named/request.json",
+          "bytes": 444,
+          "sha256": "048eefc68b8e8014f50f8eefece1517a0bef704617776b784f19cf43644c195a",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/named/request.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/named/result.json",
+          "bytes": 5,
+          "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/named/result.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/named/root/input.json",
+          "bytes": 6392,
+          "sha256": "41f6e472c46a32dbdc8cd2e64e89233f2e87108ae4f5ebf3155523d1e79f2449",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/named/root/input.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/named/root/output/result.json",
+          "bytes": 33,
+          "sha256": "9806a1af76ddd4daa5bf5d17e6e1ee08cadd71a6317b38546890afb916989220",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/named/root/output/result.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/named/root/response.json",
+          "bytes": 186,
+          "sha256": "88b10586b96f870d2c449fea68c1804ca188ac2fad5ddd132d3306da968d82e8",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/named/root/response.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/request.json",
+          "bytes": 444,
+          "sha256": "048eefc68b8e8014f50f8eefece1517a0bef704617776b784f19cf43644c195a",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/request.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/result.json",
+          "bytes": 5,
+          "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/result.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/input.json",
+          "bytes": 6392,
+          "sha256": "41f6e472c46a32dbdc8cd2e64e89233f2e87108ae4f5ebf3155523d1e79f2449",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/input.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/output/result.json",
+          "bytes": 33,
+          "sha256": "9806a1af76ddd4daa5bf5d17e6e1ee08cadd71a6317b38546890afb916989220",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/output/result.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/response.json",
+          "bytes": 186,
+          "sha256": "46df91c0931634afc474fddf8986955fc2975064370ddfc0be4deeee81ff441e",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/response.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/feedback-input-verification.json",
+          "bytes": 336,
+          "sha256": "0e4d80838f98b965715b61ceb5e95e1d9baec71fb1c4e42e8fad5e404ce93985",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/feedback-input-verification.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/program-proposal.json",
+          "bytes": 8419,
+          "sha256": "9a99dc3ba38a3ab9090fd62c3a021b00622c3fa9dacdfc6fd907a25132e99f34",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/program-proposal.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/program-request.json",
+          "bytes": 2624149,
+          "sha256": "d7d2f8e6751ee2ac022d682a6620007256f3655248c41edc1ae13ce72208a831",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/program-request.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/request.json",
+          "bytes": 8838,
+          "sha256": "88c8bfb4b56a23ebdce446bc7df804b5c4f0088dc7521c6c4cb0ada33b686a81",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/request.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/response.json",
+          "bytes": 7105,
+          "sha256": "72ad5888c0bbcdebab8d298ff38978e28bde7346c887d6ac4dd8c6db6b11b0f5",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/response.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/skill-proposal.json",
+          "bytes": 8419,
+          "sha256": "9a99dc3ba38a3ab9090fd62c3a021b00622c3fa9dacdfc6fd907a25132e99f34",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/skill-proposal.json"
+        },
+        {
+          "path": "results/round/proposals/classify_objects/skill-request.json",
+          "bytes": 2624149,
+          "sha256": "d7d2f8e6751ee2ac022d682a6620007256f3655248c41edc1ae13ce72208a831",
+          "original_member": ".supplement_system2_gpt61sol/results/round/proposals/classify_objects/skill-request.json"
+        },
+        {
+          "path": "results/round/propose.json",
+          "bytes": 98723,
+          "sha256": "b1ff7821429f4d8df67a06f4592e7def9e3043333bd17686435069729086a0bb",
+          "original_member": ".supplement_system2_gpt61sol/results/round/propose.json"
+        },
+        {
+          "path": "results/round/selection.json",
+          "bytes": 1250,
+          "sha256": "96327269dcb044a16e41717b15aeb783d20d21ad2209626d6aeb71ecbdbe1e19",
+          "original_member": ".supplement_system2_gpt61sol/results/round/selection.json"
+        },
+        {
+          "path": "results/round/validation-cases.json",
+          "bytes": 8712,
+          "sha256": "27eaf89d2bcbd6ba10bde5cf30f5c19fc1762ead35311109382ad31de7338f8b",
+          "original_member": ".supplement_system2_gpt61sol/results/round/validation-cases.json"
+        },
+        {
+          "path": "results/round/validation.json",
+          "bytes": 935,
+          "sha256": "66da401398d91eb220a663c7c2fbd67074cdd64e4778154b66af00a3f6053f23",
+          "original_member": ".supplement_system2_gpt61sol/results/round/validation.json"
+        },
+        {
+          "path": "results/sources/register_remote.py",
+          "bytes": 10734,
+          "sha256": "0cc8e94d633842c69a21bde72e60c163bd095e0a31a3f61cfe8de3f4449ec18e",
+          "original_member": ".supplement_system2_gpt61sol/results/sources/register_remote.py"
+        },
+        {
+          "path": "results/sources/step5_feedback.py",
+          "bytes": 1094,
+          "sha256": "822132f0e6f16fe0b4d26df48dcd80bb73f99c91d77a0aa4d97227113d700ef6",
+          "original_member": ".supplement_system2_gpt61sol/results/sources/step5_feedback.py"
+        },
+        {
+          "path": "results/sources/step5_scene_api_v4.py",
+          "bytes": 9246,
+          "sha256": "09db344ca589ba093e6b2be68701eadb3e6e6cf6f5c2b81867c7627135404190",
+          "original_member": ".supplement_system2_gpt61sol/results/sources/step5_scene_api_v4.py"
+        },
+        {
+          "path": "results/sources/system2_sol_run.py",
+          "bytes": 15996,
+          "sha256": "68f0828f0761a883c7838211165e0aafaccef8cd72a9dc6c098e08e2e5a76a15",
+          "original_member": ".supplement_system2_gpt61sol/results/sources/system2_sol_run.py"
+        },
+        {
+          "path": "results/validation-layouts/generated/classify_objects/0/layout.json",
+          "bytes": 7442,
+          "sha256": "44df4bcb49591ec5f89f0cfb54a9941e446da1e952d05e87d3e76b17c36f2120",
+          "original_member": ".supplement_system2_gpt61sol/results/validation-layouts/generated/classify_objects/0/layout.json"
+        },
+        {
+          "path": "results/validation-layouts/generated/classify_objects/1/layout.json",
+          "bytes": 5697,
+          "sha256": "36a069f6a5d5dd5c95b1a73f57783eb5e74347fc51b274c72748960fa74699e4",
+          "original_member": ".supplement_system2_gpt61sol/results/validation-layouts/generated/classify_objects/1/layout.json"
+        },
+        {
+          "path": "results/validation-layouts/generated/classify_objects/2/layout.json",
+          "bytes": 4490,
+          "sha256": "05995e7f644557046287b2b4ea98ec8bd225a749ee9091439b9da28600be769c",
+          "original_member": ".supplement_system2_gpt61sol/results/validation-layouts/generated/classify_objects/2/layout.json"
+        },
+        {
+          "path": "results/validation-layouts/generated/classify_objects/3/layout.json",
+          "bytes": 6896,
+          "sha256": "d69b473786d3fa979d557a4b31ecb1d6c2dec3a66564de884e5b5a118c716ca2",
+          "original_member": ".supplement_system2_gpt61sol/results/validation-layouts/generated/classify_objects/3/layout.json"
+        },
+        {
+          "path": "results/validation-layouts/generated/classify_objects/4/layout.json",
+          "bytes": 6297,
+          "sha256": "d8470ff44cdafde0e779fcaa9b75e838d8c0ca689701fc5ab1ae6a16bfa2137b",
+          "original_member": ".supplement_system2_gpt61sol/results/validation-layouts/generated/classify_objects/4/layout.json"
+        },
+        {
+          "path": "results/verification.json",
+          "bytes": 399,
+          "sha256": "a9b41a24895ca651835c562328ae719c0ebe63cbd8aa0d4b4bfb9e46eb903994",
+          "original_member": ".supplement_system2_gpt61sol/results/verification.json"
+        },
+        {
+          "path": "SESSION_STATE.json",
+          "bytes": 2780,
+          "sha256": "3c913ed1380f0f7949c16d0c9299113ff0872df008422319d2d4e10ba3498e06",
+          "original_member": ".supplement_system2_gpt61sol/SESSION_STATE.json"
+        },
+        {
+          "path": "sync_remote.py",
+          "bytes": 535,
+          "sha256": "0fbe926dd74d2b398db60d0c76d9dc05332edd7d1cfa19e90dc1e927ccdfe7d8",
+          "original_member": ".supplement_system2_gpt61sol/sync_remote.py"
+        },
+        {
+          "path": "sync_results.py",
+          "bytes": 755,
+          "sha256": "8de0c2e471f9eca37ea946169ae72428ba8267f4a85804e2c87d658e09af088a",
+          "original_member": ".supplement_system2_gpt61sol/sync_results.py"
+        },
+        {
+          "path": "write_handoff.py",
+          "bytes": 4510,
+          "sha256": "93e7b80c713c0aa452be7dd8e6d963f0ff9069dda5e796c28040391620e9e979",
+          "original_member": ".supplement_system2_gpt61sol/write_handoff.py"
+        },
+        {
+          "path": "__pycache__/analyze_remote.cpython-311.pyc",
+          "bytes": 18672,
+          "sha256": "d7b0ab6dd4377ea74676981f5105b9a68e9fa4cff26690bd272fa2a9235a0e14",
+          "original_member": ".supplement_system2_gpt61sol/__pycache__/analyze_remote.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/api_bridge.cpython-311.pyc",
+          "bytes": 13356,
+          "sha256": "7aac2b7e75a5dcff6a4d8c85c9ceb195acd42253f1e94432f4d28a9a8fc5ea21",
+          "original_member": ".supplement_system2_gpt61sol/__pycache__/api_bridge.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/fetch_results.cpython-311.pyc",
+          "bytes": 3091,
+          "sha256": "9c456c9fbc1062bbc189168d8d181d88075f9ff689789d7108ba7cf417f19a5c",
+          "original_member": ".supplement_system2_gpt61sol/__pycache__/fetch_results.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/make_report.cpython-311.pyc",
+          "bytes": 15338,
+          "sha256": "3aa02ed1ec702df9f15e64d6e31264787ef48c2cc6c9c4d78c4edf61bed26402",
+          "original_member": ".supplement_system2_gpt61sol/__pycache__/make_report.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/package_remote.cpython-311.pyc",
+          "bytes": 4372,
+          "sha256": "e58d9e6619d3efd5c075d624450e6ca454e90bc41c019093141c61c8b35b8780",
+          "original_member": ".supplement_system2_gpt61sol/__pycache__/package_remote.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/recover_remote.cpython-311.pyc",
+          "bytes": 14182,
+          "sha256": "f39613a676d3fc41c65505ea9a7c82ce912f4b1746b82c959139a7a85eae4801",
+          "original_member": ".supplement_system2_gpt61sol/__pycache__/recover_remote.cpython-311.pyc"
+        },
+        {
+          "path": "__pycache__/register_remote.cpython-311.pyc",
+          "bytes": 15162,
+          "sha256": "7fba12749eae3977df6bcb5f3e9f8dddbe63029911db2311ad24128f63a97276",
+          "original_member": ".supplement_system2_gpt61sol/__pycache__/register_remote.cpython-311.pyc"
+        }
+      ],
+      "uncompressed_bytes": 35949599,
+      "laboratory_archive_copy": "/mnt/data/joey_tr/physical-RSI/result/26_supplement_import/20261102T105827Z/original_archives/system2_working_original.zip"
+    },
+    {
+      "archive": "补充实验_GPT61Sol_2026-11-02.zip",
+      "role": "system1_delivery",
+      "archive_sha256": "8ae8c531338c42a7fe257f87aaa8dd9d9125ebaed06e8976a68c751b0d208841",
+      "archive_bytes": 11775938,
+      "files": [
+        {
+          "path": "analysis-status.json",
+          "bytes": 74,
+          "sha256": "0809a689d9f37eb3432c49740c387e7502359607026059dfaf7d03aaea75366d",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/analysis-status.json"
+        },
+        {
+          "path": "analysis-summary.json",
+          "bytes": 13625,
+          "sha256": "913c10c39e15e827bd72bfb5dc7a7952c7fa63ab376caa11c4c78f90cdce7647",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/analysis-summary.json"
+        },
+        {
+          "path": "api-preflight.json",
+          "bytes": 220,
+          "sha256": "e210bdf6a35134d5dc6b2f93d51776f40ad4b236e84e65fa61020406316c2343",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/api-preflight.json"
+        },
+        {
+          "path": "budget-ledger.json",
+          "bytes": 12046,
+          "sha256": "efd343b7e534233ae8e4bf5c7b421491d1d28d96ddc034455bd95b3e48b7e6d2",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/budget-ledger.json"
+        },
+        {
+          "path": "episode-results.csv",
+          "bytes": 5407,
+          "sha256": "370f01db5afc8d10284ddec185580c963ebfbea4964e4b1f0add9761c78bbd4f",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/episode-results.csv"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-001-image-0.png",
+          "bytes": 398133,
+          "sha256": "8b8feff9916acf180b9291c6a971c88c846d98fe0a49fd16e294b2f39ceb3b46",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-001-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-001-image-1.png",
+          "bytes": 335654,
+          "sha256": "264a90a30e700cd48b8e9b0965b2ae98f382660de3395504997ca23066922fba",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-001-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-001-image-2.png",
+          "bytes": 324209,
+          "sha256": "3d6d2d716bef2782496f5eff13f6730fc62c9f98b154fd6bcc2ab5f1ca0a96dd",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-001-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-001-metadata.json",
+          "bytes": 761,
+          "sha256": "b176c7227067281abb6efde405917c915f9966e86f178f79df9e6c397a14cbb8",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-001-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-001-request.json",
+          "bytes": 51657,
+          "sha256": "df67d0bfe7a730f5ed14973836738bb71711ef80bc7c675bd1bccf46452c3f72",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-001-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-001-response.json",
+          "bytes": 1417,
+          "sha256": "750d89d8130996fa874d722dc14e7c761afe84afbd2c04a226f03c9f2a243e63",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-001-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-002-image-0.png",
+          "bytes": 405304,
+          "sha256": "9720255def6d69d1dd7aa34c9e2eb4c942ac406270631cf0aa8cc87209f98847",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-002-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-002-image-1.png",
+          "bytes": 349856,
+          "sha256": "94dda9d4f36a7e1362a65ffece14f86e87cbed6b5075d570ec1cf24ceed862ab",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-002-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-002-image-2.png",
+          "bytes": 356200,
+          "sha256": "135193dc7b8c8079d3abbe64ddb9e4f9aa9138028bebc1febef9a2e7d7159f09",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-002-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-002-metadata.json",
+          "bytes": 761,
+          "sha256": "ae4ca36308ffe11b3781d6834a5d02c1f6f665d575cf880346a68c0fda971cb8",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-002-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-002-request.json",
+          "bytes": 51657,
+          "sha256": "68e22eecca0de14716dc277e7fed2c74b084da03ba08b186116f2beba52d5351",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-002-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-002-response.json",
+          "bytes": 1358,
+          "sha256": "ee26a59ad42d3726d57176ce7d3215b557248f978659b66a868834e894ae89a2",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-002-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-003-image-0.png",
+          "bytes": 405221,
+          "sha256": "bf676d2df3ae05af1ba4f72eebdc6a0a22789f5b788529a4b37390f5cf4cdaab",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-003-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-003-image-1.png",
+          "bytes": 340555,
+          "sha256": "dc5a69d4a4ac0069c67a0aefd68a64c61f93e2bbbedbc9aa097dfea4c8d60f1f",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-003-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-003-image-2.png",
+          "bytes": 353747,
+          "sha256": "185a58c1f44a14dafe8a9344e2477f8fdabdfa5aa03fce9acaa29e11226fc5bf",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-003-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-003-metadata.json",
+          "bytes": 761,
+          "sha256": "08ccad291aa7dc8ec2781e2aa61ed69169eee7d8d15bcfe1ceec639bc57e8f2b",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-003-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-003-request.json",
+          "bytes": 51657,
+          "sha256": "1a871f235ff336165d2e2eb547221edb4ee1dab085cc2ce6cd096b34cb69634e",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-003-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-003-response.json",
+          "bytes": 1473,
+          "sha256": "2a190fcc10460c7fcc25f1c3d431f836aba0afbdee0c1e37383fd304899bc4ab",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-003-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-004-image-0.png",
+          "bytes": 405170,
+          "sha256": "0605a60e2eddaf513f5bbb962a1ac6e4a37e579a27204ea6dd4662fa86682a9f",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-004-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-004-image-1.png",
+          "bytes": 349286,
+          "sha256": "1aa287788a13278b599204af025160f31ad45dd66c110e43f33967b5d6340477",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-004-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-004-image-2.png",
+          "bytes": 343496,
+          "sha256": "b5da8524ccc3c21445b34d536a358f8b09b8c8d4ff53add96931f42632371d8e",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-004-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-004-metadata.json",
+          "bytes": 761,
+          "sha256": "40a64d8c9e107f9c105ca7e78f6e62f5469b256e22a43d4f54752f8c9b1f1642",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-004-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-004-request.json",
+          "bytes": 51657,
+          "sha256": "a01b9e56a3f229b32a6c7159b36309a290c666fe9de38bad42cf2048a924fada",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-004-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-004-response.json",
+          "bytes": 1429,
+          "sha256": "5a266b0d3e4feec914732e3886f00ae88f67e3594227f97875f3a07cba2b50c3",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-004-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-005-image-0.png",
+          "bytes": 406684,
+          "sha256": "4e6f8a73b296dbc04c7c5b41a61a7619d3efb3a35f08cf2211141f14a7ea8b69",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-005-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-005-image-1.png",
+          "bytes": 355670,
+          "sha256": "1c12a1056312684995b472eeef29a5f89b492602a779ff06ae658ed9cb7a45d2",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-005-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-005-image-2.png",
+          "bytes": 353757,
+          "sha256": "9d6439aeeb13acaa7427405dd9312c243ffa44dc7247dbc89f3e6880a556e6e8",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-005-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-005-metadata.json",
+          "bytes": 761,
+          "sha256": "e5baacf04dc287f1fb46f51f61afbaa0e6781e66f8852991a6334e7d0abde576",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-005-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-005-request.json",
+          "bytes": 51657,
+          "sha256": "a730c2352b1cfbe6f25442ea924cc409b648da50aeae1b250a9019c208b340d7",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-005-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/api/call-005-response.json",
+          "bytes": 1399,
+          "sha256": "10823d0e5c7c9099b4035965870842d0bfb61d4af3b21a1859812826badcddbd",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/api/call-005-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/client-command.json",
+          "bytes": 480,
+          "sha256": "bfe7e61a30409aa20d41cf68db43dffc514fc92cbc3e0cdf46f527d035a3e3e2",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/client-command.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/client.log",
+          "bytes": 230315,
+          "sha256": "dacdb58355a7482d55cabcbab772dfd56ea10a53f42751d28067dec7e8281bbb",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/client.log"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/configuration-verification.json",
+          "bytes": 23822,
+          "sha256": "85acc448619f66462373e8e529b35ab17f5451244c18cecf3b1fe2f50d5fb806",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/configuration-verification.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/gpu.jsonl",
+          "bytes": 28813,
+          "sha256": "85ff8fa3ae47b04f3d2a6d18f72ff19271db19c6dcbe9d99aa93c257e336ab37",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/gpu.jsonl"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/native-events.jsonl",
+          "bytes": 1170946,
+          "sha256": "d88d472867fa394de12126f818805d150cc471b82cef3d16227297910850e3bd",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/native-events.jsonl"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/native-result.json",
+          "bytes": 508,
+          "sha256": "4ebcbb1a25ebd67666f530964d93f1c2391c5542c2ce3f6223a05d4544e33089",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/native-result.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/plan-001.json",
+          "bytes": 740,
+          "sha256": "be6f648a51d780f61cf76d2e58e211b0c7b916ae69aa0ebac35576ffe5778c4a",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/plan-001.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/plan-002.json",
+          "bytes": 680,
+          "sha256": "ef76990e29907c35d6a4c10b0210a7887ba0a3f1ff30b1f17828eea295245849",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/plan-002.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/plan-003.json",
+          "bytes": 796,
+          "sha256": "cf610113a3bcf121ce7b45f5e49394664eeba59667456d33f17f30234533b4f0",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/plan-003.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/plan-004.json",
+          "bytes": 752,
+          "sha256": "d166f803a47241d6fdfabe485a48bbe3df17487d6aa8bcee12fefb90f2fd496a",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/plan-004.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/plan-005.json",
+          "bytes": 721,
+          "sha256": "96313072fb2eac5f3f1a8a81d7601892bdbb0ae025c638f1e97b3bce384168c4",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/plan-005.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/policy-deployment.json",
+          "bytes": 459,
+          "sha256": "c5df929bd239f4d22c8cde63167cd10b9ea857a933b75d1c3759dbe75c626089",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/policy-deployment.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/policy-events.jsonl",
+          "bytes": 699458,
+          "sha256": "c420dd07fefdd79d8b89c1c0ff1e5ce05f5e0730234d10a9c6dc63dee82e44e8",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/policy-events.jsonl"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/policy-status.json",
+          "bytes": 540,
+          "sha256": "f3cb73a930a18c04211759d78262486cd48e1070d5ce7cf8ceaf9c7f864506a8",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/policy-status.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/policy.log",
+          "bytes": 165,
+          "sha256": "b59e3c00336af60b4acfd0ce7ec340ed9522797bfbe2b874e74e11a56aa08737",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/policy.log"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/skills.json",
+          "bytes": 492933,
+          "sha256": "31839589e81b7941bac2895de7dd6a620bdb203a8b9d13bde07e33ab723b8a01",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/skills.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_agent/status.json",
+          "bytes": 1152,
+          "sha256": "6d14d839d840df723b6b4125c6ea7122690efe38670d8acdedf801aadd1cbf06",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_agent/status.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-0.png",
+          "bytes": 397055,
+          "sha256": "1143ddf649782797bf3f3082eee5e20bff82b80ec3d6f1617f76cd5ffaad2ea3",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-1.png",
+          "bytes": 339808,
+          "sha256": "d3852b4782d5bed0b7d8e7c5797790d81f8f02ffd6a79c8f3b88f8da7a39f379",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-2.png",
+          "bytes": 314901,
+          "sha256": "41e609e5b5c939f4214ad62a3c925177ed184ba4abff4db15f565a01e92dba06",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-metadata.json",
+          "bytes": 760,
+          "sha256": "77591290e6bbf815ec5cea605188eace2d1b2dbce447529fcde4cab35e624efc",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-request.json",
+          "bytes": 51849,
+          "sha256": "5cfbee714cc29df06320c85ab2ce1709b6fd1ce6bd0f951bac1fd549b4ce4418",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-response.json",
+          "bytes": 1458,
+          "sha256": "c111c9a42fc7bed4de64468c632d99ee5b166de4b733d55eaeb310260fef5883",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-001-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-0.png",
+          "bytes": 401670,
+          "sha256": "67708af938bcdaae8e3c7b9951667f8eafa1cde88d7a8826f470c2df67f36367",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-1.png",
+          "bytes": 339532,
+          "sha256": "0bb61956de36bd24204b6ee8e96c5a09c87ee170cd3236253c2255a69da79101",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-2.png",
+          "bytes": 325925,
+          "sha256": "531f87ac388b81db36c7634a00781345e7862824ccfb88c3675610fc875151b6",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-metadata.json",
+          "bytes": 760,
+          "sha256": "cda3f1f3204a9c9c47c8d138dbab0ed46a8ce219bafbf09b9c031913116b59e6",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-request.json",
+          "bytes": 51867,
+          "sha256": "a189392a398bc5e123a03dde7394248bbb239e8306348f13645ff6cf4e510e3b",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-response.json",
+          "bytes": 1391,
+          "sha256": "0071529d356fe80007a15be60ee6f4d8803d0f761547944408ce9c97f0fef197",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-002-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-0.png",
+          "bytes": 402784,
+          "sha256": "e751bdb1cc693f2b626e6165be498c96062e8a28e93cd46bdf22b432814eb818",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-1.png",
+          "bytes": 341111,
+          "sha256": "09447547e440c8fe1bf0c41dbe4a48e7c2a7ee6c066dfa2772476e3b286f67d1",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-2.png",
+          "bytes": 335644,
+          "sha256": "fdd1a287dea76a99a188f9bdc49879edd721df1890767de971ece4ede8933b6c",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-metadata.json",
+          "bytes": 761,
+          "sha256": "9c61d646d743301fc6697bf174ed3759122ea7ae772c1d50650a2bd1ba180e20",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-request.json",
+          "bytes": 51847,
+          "sha256": "faba8aba89dee8ab81508a1a0726f9f8b0f959e623615d15d0af3f5bed646eb8",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-response.json",
+          "bytes": 1445,
+          "sha256": "24a229d625d530eec289f2e3ace5943250fb5356c0dd52d37409e7196518886b",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-003-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-0.png",
+          "bytes": 404550,
+          "sha256": "8941f24c1565d65f6b6f685dd97fa82f7a0907a452563a158eedaefb3332778c",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-1.png",
+          "bytes": 329229,
+          "sha256": "3f03ea45ccc25f3b35f7962245ef1141c2d88de03422a646bd2ac66880921f72",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-2.png",
+          "bytes": 349535,
+          "sha256": "5485a76be44e94a0c55c34cc491df0a4581c0c2c31cf95664b88d4937706feea",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-metadata.json",
+          "bytes": 760,
+          "sha256": "1c3dc9fbf05ebccf2e001991ceab881ebf4da5587999ed5e50ba8ffa34238853",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-request.json",
+          "bytes": 51863,
+          "sha256": "c9fede7443366ade19ce94fe0db0ca016f630835696b0c54836de8754b4c83e2",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-response.json",
+          "bytes": 1535,
+          "sha256": "e7a9caa93a08b287c3b836ae0171e52073012764deb16d46557bb9d23dab7593",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-004-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-0.png",
+          "bytes": 400685,
+          "sha256": "9d239f326603cac134571dd09516b3d1b2b95c2a149331cf35b7773387fc3147",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-0.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-1.png",
+          "bytes": 336582,
+          "sha256": "987980f4f9ce08e1a75975ff28e33cfa63663d2e1be1a481c838b733db9da579",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-1.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-2.png",
+          "bytes": 331541,
+          "sha256": "fdb445609a2f1d5498d9463301f61657e42d37dc6fed55e0ef66d3bfd9a0b1be",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-image-2.png"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-metadata.json",
+          "bytes": 760,
+          "sha256": "8f09bd83f3de151c2da435787ad4b663a4d3851cb88f149fd6086317b3b7ea81",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-metadata.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-request.json",
+          "bytes": 51853,
+          "sha256": "d164381f8c0a0de42ba524432e025c785a89c2f410a04bccc446c1e46aad2058",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-request.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-response.json",
+          "bytes": 1507,
+          "sha256": "8876aea04e7a49866693e84ea0fd6a89a25edc9a8dcefcc9da3108574ce3fc93",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/api/call-005-response.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/client-command.json",
+          "bytes": 492,
+          "sha256": "0a842ec7a5722b7ec5219b1436453227e9ad201ebb8822851f419d6f2580359f",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/client-command.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/client.log",
+          "bytes": 226299,
+          "sha256": "bcc5ec6720ff9e265399b880d7463750d165c75bc1d4afe2199b9709cccb0bb3",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/client.log"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/configuration-verification.json",
+          "bytes": 23834,
+          "sha256": "b98af962c6afe4a5c58ec91f6a50086bcf8048e1383147cb739a0aeb8f83be65",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/configuration-verification.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/gpu.jsonl",
+          "bytes": 24621,
+          "sha256": "ba42f8a7c172cc1b2affecd0a10f4ff27248a736c0aefd3a486eb4b913b15c6d",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/gpu.jsonl"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/native-events.jsonl",
+          "bytes": 1138892,
+          "sha256": "711c7c81274e6fa2b8de7ba958950da23eca8055b76d914dcb9f0cff484d8760",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/native-events.jsonl"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/native-result.json",
+          "bytes": 506,
+          "sha256": "81cbf18265a90e40a2fe6b09077faa5df99aaa33f11d1be8ef337642a15a99df",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/native-result.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/plan-001.json",
+          "bytes": 779,
+          "sha256": "c784519a2d5ebe7e2215d429d28fd73e194351e1196baf5eb811e39c8c67b4ce",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/plan-001.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/plan-002.json",
+          "bytes": 714,
+          "sha256": "4db72aaa43802d919d66cc0db4fd7b527b3acece6631c501330d2fa6bfc5a1ae",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/plan-002.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/plan-003.json",
+          "bytes": 768,
+          "sha256": "b2ad6e84268569656f333ce3bdbf3cc18ebfd67fcc559de02f21f5323ead0092",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/plan-003.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/plan-004.json",
+          "bytes": 858,
+          "sha256": "2a55fb134ff0346f76f40ef6f2024b917d4d706191d91348574608d9a4f01929",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/plan-004.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/plan-005.json",
+          "bytes": 830,
+          "sha256": "e7fcff22391b1d0f78879fb2d112d81a7248098e77dca25a982725d3c8a619ba",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/plan-005.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/policy-deployment.json",
+          "bytes": 471,
+          "sha256": "55f6b949a301a54f1f25133d7384e7a178e60dd141329e1c1344d6bcd305550d",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/policy-deployment.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/policy-events.jsonl",
+          "bytes": 864478,
+          "sha256": "c596f256ed8ad710a8b41db384c2cc532cf3b58cca72fe59980254be4cea2610",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/policy-events.jsonl"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/policy-status.json",
+          "bytes": 564,
+          "sha256": "b3c59914c7744f07cb06871ab1791bcf8ff1ec3886f03fe19174da80094f39c1",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/policy-status.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/policy.log",
+          "bytes": 165,
+          "sha256": "b59e3c00336af60b4acfd0ce7ec340ed9522797bfbe2b874e74e11a56aa08737",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/policy.log"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/skills.json",
+          "bytes": 493461,
+          "sha256": "7dff56887d0b90c02689401acd86581fb8a225820267761abdf166c56396a7d3",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/skills.json"
+        },
+        {
+          "path": "evidence/gpt61sol_classify_objects_by_language_agent/status.json",
+          "bytes": 1209,
+          "sha256": "ce137ddde7fa38048fd3576116e6db66566c703dfb0d21fc00a9f59b080df7bd",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/evidence/gpt61sol_classify_objects_by_language_agent/status.json"
+        },
+        {
+          "path": "file-manifest.json",
+          "bytes": 15932,
+          "sha256": "5ef78c2bc0fc4338dc95c49c2742ac45b09153a7d8c2eeb28ba8b30aecc3c9fb",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/file-manifest.json"
+        },
+        {
+          "path": "group-results.csv",
+          "bytes": 761,
+          "sha256": "ca4ef0ee6244653bc1457f5351b9f93154dce5612ff34b57fefea0675b041afe",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/group-results.csv"
+        },
+        {
+          "path": "paired-contract-checks.csv",
+          "bytes": 4710,
+          "sha256": "8005ee9fb90775c86f40ac8068cbf0d25051f91b680967b26ac3de0cdd14e4db",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/paired-contract-checks.csv"
+        },
+        {
+          "path": "preparation-status.json",
+          "bytes": 422,
+          "sha256": "f954cbf55e5f6629fdb6e358356be5b489962ba408e4a69f2714c1e0b2a27b21",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/preparation-status.json"
+        },
+        {
+          "path": "protocol.json",
+          "bytes": 3647,
+          "sha256": "7b961b6d46c0e274cccc50208357904e6db38f5aad5495d5b551a52625492693",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/protocol.json"
+        },
+        {
+          "path": "public-A-vs-GPT-B.csv",
+          "bytes": 644,
+          "sha256": "346497a124c93687f5ee8752fc9655e6f5caf50b36941d5081799ee531e60580",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/public-A-vs-GPT-B.csv"
+        },
+        {
+          "path": "schema-smoke-response.json",
+          "bytes": 842,
+          "sha256": "168e1ba09988fd7299e52f4b198d7e09ee7caefb68ffb076126373295b1736af",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/schema-smoke-response.json"
+        },
+        {
+          "path": "sources/client/analyze_remote.py",
+          "bytes": 6817,
+          "sha256": "75fddf18f8abc79cb728be3f7fbd9eb63cf9c2df028019de0786c7951a1244ea",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/client/analyze_remote.py"
+        },
+        {
+          "path": "sources/client/api_bridge.py",
+          "bytes": 7201,
+          "sha256": "0d79b0f131a00dd47597058cb03430ae87ca9fdd3292608acdf245fcef2472c3",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/client/api_bridge.py"
+        },
+        {
+          "path": "sources/client/api_preflight.py",
+          "bytes": 1683,
+          "sha256": "505bc466689378f6fd484013e5ba5aa600c2935355eb83fe2149c79e6d5f3677",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/client/api_preflight.py"
+        },
+        {
+          "path": "sources/client/package_remote.py",
+          "bytes": 1481,
+          "sha256": "db52492127078cefc6ab28c223914415cb673f013b77a6936a2767dbca18e820",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/client/package_remote.py"
+        },
+        {
+          "path": "sources/client/prepare_remote.py",
+          "bytes": 7260,
+          "sha256": "bf3428ae68c0ea3800d5926140bae80030156b84290b8740396041b9205ee26a",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/client/prepare_remote.py"
+        },
+        {
+          "path": "sources/cloud_comparison_native.py",
+          "bytes": 6101,
+          "sha256": "8eed3ac4ff2a73ca1ead2b913a37cea61f846fbafe8ac8c5cdda084e5801c9c1",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/cloud_comparison_native.py"
+        },
+        {
+          "path": "sources/cloud_comparison_policy.py",
+          "bytes": 14479,
+          "sha256": "7e723c54d1c47810940dc39b29988ec44b8786dcc23d53327024688a900db7d8",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/cloud_comparison_policy.py"
+        },
+        {
+          "path": "sources/cloud_comparison_run.py",
+          "bytes": 9295,
+          "sha256": "40d5ad6fdf20d6541eeb0bb39cfe9bb1839ea3a251b9a09221dc6172d73d6c63",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/cloud_comparison_run.py"
+        },
+        {
+          "path": "sources/controller.py",
+          "bytes": 876,
+          "sha256": "8460d20c7f07445403cd24d6121731af675fce29cf5df63f137ce2e656c6ec0f",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/sources/controller.py"
+        },
+        {
+          "path": "suite-status.json",
+          "bytes": 234,
+          "sha256": "e73ead5fe6743b9cd2828613f744bb445299b79fa4b1fd4dccf157956e6036b3",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/suite-status.json"
+        },
+        {
+          "path": "System2_补测范围与耗时.txt",
+          "bytes": 3766,
+          "sha256": "7f27689aa62990cf60168ef1904a5d137c1d1252180b3620ebc0ff699fbebc12",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/System2_补测范围与耗时.txt"
+        },
+        {
+          "path": "verification.json",
+          "bytes": 449,
+          "sha256": "a68c6cc64994f788a15d7c1ce560826f6be90f8f441263bbbc063e1764ae3349",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/verification.json"
+        },
+        {
+          "path": "实验结果说明.md",
+          "bytes": 6358,
+          "sha256": "7699fff4091e539a05fa7fc55c362efdef822e3b5bce23f5a8cc0a71ebf93c3c",
+          "original_member": "补充实验_GPT61Sol_2026-11-02/实验结果说明.md"
+        }
+      ],
+      "uncompressed_bytes": 16929627,
+      "laboratory_archive_copy": "/mnt/data/joey_tr/physical-RSI/result/26_supplement_import/20261102T105827Z/original_archives/system1_delivery_original.zip"
+    },
+    {
+      "archive": "补充实验_System2_GPT61Sol_2026-11-02.zip",
+      "role": "system2_delivery",
+      "archive_sha256": "a59bc176ac57d51a8a2d8df5f02e516c40ddffd88f3b450b73d7b204d3f1e443",
+      "archive_bytes": 1872636,
+      "files": [
+        {
+          "path": "analysis-summary.json",
+          "bytes": 3558,
+          "sha256": "e1fb0aa8939e5b144a4b7eccb78d0c1ae897dbb328ff243725e8cfeac615047b",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/analysis-summary.json"
+        },
+        {
+          "path": "budget-ledger.json",
+          "bytes": 1437,
+          "sha256": "b9501b712316ac64f434babbbe5e3320c744a3a737de342e06c9ed6711a66b25",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/budget-ledger.json"
+        },
+        {
+          "path": "completion.json",
+          "bytes": 6622,
+          "sha256": "509ac479515a3b427a3920f23bb16009e52dc531b1b01657a955d4d0b96a903b",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/completion.json"
+        },
+        {
+          "path": "controller-status.json",
+          "bytes": 214,
+          "sha256": "416e510f7142474c3ace0eb0d3a41b6a5a19994a2279a1aa2df9e1b912b8fc1c",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/controller-status.json"
+        },
+        {
+          "path": "controller.log",
+          "bytes": 4760,
+          "sha256": "9c6e7bc314240c971e8a1bd156c281bae42cd745bd997873a12f471476c93f02",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/controller.log"
+        },
+        {
+          "path": "episode-results.csv",
+          "bytes": 3590,
+          "sha256": "03335839296faa103b43c2c3e20514407b0885b7c95d30df8df28a3fd4c1836c",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/episode-results.csv"
+        },
+        {
+          "path": "experiment_result.md",
+          "bytes": 3911,
+          "sha256": "c3a8acfe751cc4ced71d39269d29e8492fe362058cba4bee85247ce544f01be0",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/experiment_result.md"
+        },
+        {
+          "path": "file-manifest.json",
+          "bytes": 11121,
+          "sha256": "b3148d113a1538e80d42b7e6382afeb5e897d51804e3b2411e95922a34adc956",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/file-manifest.json"
+        },
+        {
+          "path": "iteration-result.json",
+          "bytes": 8326,
+          "sha256": "0eda2f0386ec488e0491781800934d4ac7dee8f39ecc6d2a4604260ecde3c599",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/iteration-result.json"
+        },
+        {
+          "path": "iteration-started.json",
+          "bytes": 289,
+          "sha256": "87e16bff5625d4da5736ef6c15aff5d9b8c2d90009f29ead29f43203122c0098",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/iteration-started.json"
+        },
+        {
+          "path": "launch.json",
+          "bytes": 554,
+          "sha256": "2483b431ccccd0b21052f81282af83dc324511b6f1765643a9d7d73cb2829069",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/launch.json"
+        },
+        {
+          "path": "local-verification.json",
+          "bytes": 330,
+          "sha256": "45d84020c2eb7764ebccd39e38cef270c5f80beb60e7d0c52d5a5edb4f702d93",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/local-verification.json"
+        },
+        {
+          "path": "model-candidate-memory.json",
+          "bytes": 1031,
+          "sha256": "b510245b6e185757d0f4379cb6de687fa584b9c707cc6a43afb10f0806def38c",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/model-candidate-memory.json"
+        },
+        {
+          "path": "model-candidate.py",
+          "bytes": 5253,
+          "sha256": "339ddd5d8c4c3f7195e57f297ed99b2579da122f116baac7af365a3421dd1e08",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/model-candidate.py"
+        },
+        {
+          "path": "native-budget.json",
+          "bytes": 4619,
+          "sha256": "363abf7fa3f1042bf51c3c5dd381bd0d062255cccceaef20ac94fad0078ff6d5",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-budget.json"
+        },
+        {
+          "path": "native-receipts/batch-0/0.json",
+          "bytes": 116414,
+          "sha256": "4088e6996d0972b2544d73212ac68be7bbc15a06c333a61eae85fab2185ccadc",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-0/0.json"
+        },
+        {
+          "path": "native-receipts/batch-1/0.json",
+          "bytes": 116414,
+          "sha256": "fe7310e7c5f2ca3ca6e59be2eb43d1682c17c1b101fd7b51f39743f33c523fb8",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-1/0.json"
+        },
+        {
+          "path": "native-receipts/batch-10/0.json",
+          "bytes": 172622,
+          "sha256": "4125e8b2f3e783edef8e2393b42d48a681f78c98f5728f91f6a5b252b45beda1",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-10/0.json"
+        },
+        {
+          "path": "native-receipts/batch-2/0.json",
+          "bytes": 116414,
+          "sha256": "6217433f391fbb46f6424593e65b0223f3a7fdd1d9eb035b507bbbb89753566a",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-2/0.json"
+        },
+        {
+          "path": "native-receipts/batch-3/0.json",
+          "bytes": 116414,
+          "sha256": "dd9b758cce389ee9f2b78a1ad9cdb48d0c861f757ee6e7abd442aac8b6e17d1d",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-3/0.json"
+        },
+        {
+          "path": "native-receipts/batch-5/0.json",
+          "bytes": 116414,
+          "sha256": "f220b0c282079f751cc70f67d40857b07c1ff081383809507391004c9486b049",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-5/0.json"
+        },
+        {
+          "path": "native-receipts/batch-6/0.json",
+          "bytes": 177563,
+          "sha256": "6d679d3d39db2413320de1b0d472f5529f07b441cda63f5eb39eafa48cb088b2",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-6/0.json"
+        },
+        {
+          "path": "native-receipts/batch-7/0.json",
+          "bytes": 177014,
+          "sha256": "e52b08743b0a6223a368f45647dd8c4f03b5a46bba69fb25cd68311b1facaa11",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-7/0.json"
+        },
+        {
+          "path": "native-receipts/batch-8/0.json",
+          "bytes": 172073,
+          "sha256": "9f37fc1f6c96a743578ffcbe628640c6146475c0b9921fbb686b57a4f1c0e225",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-8/0.json"
+        },
+        {
+          "path": "native-receipts/batch-9/0.json",
+          "bytes": 175916,
+          "sha256": "9af9c8c7a711f606b0b2e7e46d6d04012704a138220267d0aff6572d3e418830",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/native-receipts/batch-9/0.json"
+        },
+        {
+          "path": "offline-preflight.json",
+          "bytes": 565,
+          "sha256": "3e08d576aa0c56d20836106d0faa74215dda608e698f9b242da08e9deb5ac250",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/offline-preflight.json"
+        },
+        {
+          "path": "proposal-api/call-0001/completed.json",
+          "bytes": 409,
+          "sha256": "986cdf42c601365a960a098246b9f7732cd47fe532a49a52017e7cfc59937deb",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/proposal-api/call-0001/completed.json"
+        },
+        {
+          "path": "proposal-api/call-0001/input-check.json",
+          "bytes": 327,
+          "sha256": "ffb2b0bb62238a8cbe866b566f783fb1b254f5b09c5ea00e6d04e6094357ecb7",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/proposal-api/call-0001/input-check.json"
+        },
+        {
+          "path": "proposal-api/call-0001/request.json",
+          "bytes": 10473,
+          "sha256": "b68956a4fbef24a694b9071643f707def9504902d53707a512513be263df9358",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/proposal-api/call-0001/request.json"
+        },
+        {
+          "path": "proposal-api/call-0001/response.json",
+          "bytes": 7669,
+          "sha256": "47279a7925f2454f4674257033ed4abc8c717bd501d2b5672b2c8c38a4f944f4",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/proposal-api/call-0001/response.json"
+        },
+        {
+          "path": "proposal-api/call-0001/started.json",
+          "bytes": 173,
+          "sha256": "cbed6a1d28caaabb21de1d54cf1b16dde48ff9e5072b7929992c8334b312f7e6",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/proposal-api/call-0001/started.json"
+        },
+        {
+          "path": "protocol.json",
+          "bytes": 9532,
+          "sha256": "82f9377a0a2409759245474f38c2882cad649944a0d61ca42e6d00a605c1c7b0",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/protocol.json"
+        },
+        {
+          "path": "recovery-01/launch.json",
+          "bytes": 673,
+          "sha256": "f39347bb206f2772970b01df4ab37bde01bb383afb015c94e2c544f9f4f585bf",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/recovery-01/launch.json"
+        },
+        {
+          "path": "recovery-01/native-budget-before.json",
+          "bytes": 2422,
+          "sha256": "4671cdf8b6ff5384306e5c1f883925dbb3cae08fc24704cdd670d9a1ecf04c1b",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/recovery-01/native-budget-before.json"
+        },
+        {
+          "path": "recovery-01/phase-before.json",
+          "bytes": 163,
+          "sha256": "d93a00f0b13d911ef67f1dd09e137817e15f439ec187ef396a73e7f8f7b35b54",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/recovery-01/phase-before.json"
+        },
+        {
+          "path": "recovery-01/protocol.json",
+          "bytes": 1059,
+          "sha256": "e6cdefddf1c09b902f346190d1e13f105bf854384c23bcce542275a6abde5717",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/recovery-01/protocol.json"
+        },
+        {
+          "path": "recovery-01/recover_remote.py",
+          "bytes": 7452,
+          "sha256": "6c8121f0f3fab2ecafc66db075d48db2998b2adb810e0bafb5cbcba1cc23bbba",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/recovery-01/recover_remote.py"
+        },
+        {
+          "path": "recovery-controller.log",
+          "bytes": 4938,
+          "sha256": "b109e3271850f7600d56f55c9e20ddb95aa7c9cbecbfa9d1271349db2a11819d",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/recovery-controller.log"
+        },
+        {
+          "path": "recovery-launch.json",
+          "bytes": 255,
+          "sha256": "3e36f93bd6bfc074b1829cdb6a1296f71e4c2b05da3386080955949c59b18f3d",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/recovery-launch.json"
+        },
+        {
+          "path": "reference-chat-request.json",
+          "bytes": 10460,
+          "sha256": "97f432995a6321a47e573c420a6214c97390029b1b69ce341ca3590554a244b9",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/reference-chat-request.json"
+        },
+        {
+          "path": "reference-input-fingerprint.json",
+          "bytes": 352,
+          "sha256": "2dc34a13f7e34813f90304b657986bbb646df7b10e016d43e7395fef292d93f6",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/reference-input-fingerprint.json"
+        },
+        {
+          "path": "reference-structured-request.json",
+          "bytes": 8838,
+          "sha256": "88c8bfb4b56a23ebdce446bc7df804b5c4f0088dc7521c6c4cb0ada33b686a81",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/reference-structured-request.json"
+        },
+        {
+          "path": "RESULTS_ZH.md",
+          "bytes": 4556,
+          "sha256": "103dbce139dc273137aa279828797dc1c16145094be68924bfb97619e186d2fd",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/RESULTS_ZH.md"
+        },
+        {
+          "path": "round/admission-evidence-candidate_round-000000.json",
+          "bytes": 156,
+          "sha256": "711b0e86d0efcd3e7822817c7f2d2a8faa7554126433cd347421cc0e83501b96",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/admission-evidence-candidate_round-000000.json"
+        },
+        {
+          "path": "round/admission-evidence-initial.json",
+          "bytes": 156,
+          "sha256": "711b0e86d0efcd3e7822817c7f2d2a8faa7554126433cd347421cc0e83501b96",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/admission-evidence-initial.json"
+        },
+        {
+          "path": "round/admission.json",
+          "bytes": 357,
+          "sha256": "3c625c1b28ac8793edf70d6689785689f5704254030342266f20f0fa166e6c38",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/admission.json"
+        },
+        {
+          "path": "round/admit_candidate_round-000000.json",
+          "bytes": 630,
+          "sha256": "968f5c4fe5e979534165ed5433ab18f51c36211bf37efe6eb734c438d57648f5",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/admit_candidate_round-000000.json"
+        },
+        {
+          "path": "round/admit_initial.json",
+          "bytes": 615,
+          "sha256": "76e4f15675d0d1b427b820e31fef2041346f634d2b794f7b37f23c5c789c6656",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/admit_initial.json"
+        },
+        {
+          "path": "round/commit.json",
+          "bytes": 5679750,
+          "sha256": "2f68219864136c23a5d55f6962c59e875637e90058ff6c07fe3f90f48ded4291",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/commit.json"
+        },
+        {
+          "path": "round/config.json",
+          "bytes": 300684,
+          "sha256": "2405a453689c91ea82f3f06439d51080621f5f113bc2bc1561e5ea11f1759cb1",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/config.json"
+        },
+        {
+          "path": "round/develop.json",
+          "bytes": 443,
+          "sha256": "9aaba34d2af5ba712a0c9dbd76cab88bb70ca0ecb8945835c59632b06290a623",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/develop.json"
+        },
+        {
+          "path": "round/development-cases.json",
+          "bytes": 8717,
+          "sha256": "7d819507ca8aa2f6760d808d96ac6ce8f30b713c42140f9738ba43e32d3f34a9",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/development-cases.json"
+        },
+        {
+          "path": "round/development-results.json",
+          "bytes": 2620143,
+          "sha256": "11959760b3dc6106fd5230554deb85da50ae9bf1b1cc2fd857f497198500b694",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/development-results.json"
+        },
+        {
+          "path": "round/evaluate_candidate_round-000000.json",
+          "bytes": 9089752,
+          "sha256": "d39c0bdc8b1322f12603578c8d2771fc1f5db37475671c0bd683c8b99351c4fd",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/evaluate_candidate_round-000000.json"
+        },
+        {
+          "path": "round/evaluate_initial.json",
+          "bytes": 8811789,
+          "sha256": "7556a0a61d2cc8786860f8cf710fdbd4a4c23ac05fc13f21c493963a78fcf796",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/evaluate_initial.json"
+        },
+        {
+          "path": "round/freeze.json",
+          "bytes": 941,
+          "sha256": "e03093043f5d86c939161c4e3d0c7dd7c6cc0c6464e2b587c1e4ca418e2960e7",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/freeze.json"
+        },
+        {
+          "path": "round/parent.json",
+          "bytes": 302254,
+          "sha256": "dd3d8d731334ce70deb84eb78903cbe6b3e8df66c97b1cf270311b22ad79e2ee",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/parent.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/empty/request.json",
+          "bytes": 444,
+          "sha256": "048eefc68b8e8014f50f8eefece1517a0bef704617776b784f19cf43644c195a",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/empty/request.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/empty/result.json",
+          "bytes": 5,
+          "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/empty/result.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/empty/root/input.json",
+          "bytes": 6392,
+          "sha256": "41f6e472c46a32dbdc8cd2e64e89233f2e87108ae4f5ebf3155523d1e79f2449",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/empty/root/input.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/empty/root/output/result.json",
+          "bytes": 33,
+          "sha256": "9806a1af76ddd4daa5bf5d17e6e1ee08cadd71a6317b38546890afb916989220",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/empty/root/output/result.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/empty/root/response.json",
+          "bytes": 110,
+          "sha256": "7cabfa3bf461e30eb31a68704f63422e3086e3c6b96a7562dc86852109dd988b",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/empty/root/response.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/gate-result.json",
+          "bytes": 7932,
+          "sha256": "6eadea6dd85cc5f9c08a1742f32320d95cce3795138e681c349927f5bf9a4848",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/gate-result.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/named/request.json",
+          "bytes": 444,
+          "sha256": "048eefc68b8e8014f50f8eefece1517a0bef704617776b784f19cf43644c195a",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/named/request.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/named/result.json",
+          "bytes": 5,
+          "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/named/result.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/named/root/input.json",
+          "bytes": 6392,
+          "sha256": "41f6e472c46a32dbdc8cd2e64e89233f2e87108ae4f5ebf3155523d1e79f2449",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/named/root/input.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/named/root/output/result.json",
+          "bytes": 33,
+          "sha256": "9806a1af76ddd4daa5bf5d17e6e1ee08cadd71a6317b38546890afb916989220",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/named/root/output/result.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/named/root/response.json",
+          "bytes": 186,
+          "sha256": "88b10586b96f870d2c449fea68c1804ca188ac2fad5ddd132d3306da968d82e8",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/named/root/response.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/request.json",
+          "bytes": 444,
+          "sha256": "048eefc68b8e8014f50f8eefece1517a0bef704617776b784f19cf43644c195a",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/request.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/result.json",
+          "bytes": 5,
+          "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/result.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/input.json",
+          "bytes": 6392,
+          "sha256": "41f6e472c46a32dbdc8cd2e64e89233f2e87108ae4f5ebf3155523d1e79f2449",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/input.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/output/result.json",
+          "bytes": 33,
+          "sha256": "9806a1af76ddd4daa5bf5d17e6e1ee08cadd71a6317b38546890afb916989220",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/output/result.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/response.json",
+          "bytes": 186,
+          "sha256": "46df91c0931634afc474fddf8986955fc2975064370ddfc0be4deeee81ff441e",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/cpu-contract-gate/underscore_and_repeated_category/root/response.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/feedback-input-verification.json",
+          "bytes": 336,
+          "sha256": "0e4d80838f98b965715b61ceb5e95e1d9baec71fb1c4e42e8fad5e404ce93985",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/feedback-input-verification.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/program-proposal.json",
+          "bytes": 8419,
+          "sha256": "9a99dc3ba38a3ab9090fd62c3a021b00622c3fa9dacdfc6fd907a25132e99f34",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/program-proposal.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/program-request.json",
+          "bytes": 2624149,
+          "sha256": "d7d2f8e6751ee2ac022d682a6620007256f3655248c41edc1ae13ce72208a831",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/program-request.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/request.json",
+          "bytes": 8838,
+          "sha256": "88c8bfb4b56a23ebdce446bc7df804b5c4f0088dc7521c6c4cb0ada33b686a81",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/request.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/response.json",
+          "bytes": 7105,
+          "sha256": "72ad5888c0bbcdebab8d298ff38978e28bde7346c887d6ac4dd8c6db6b11b0f5",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/response.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/skill-proposal.json",
+          "bytes": 8419,
+          "sha256": "9a99dc3ba38a3ab9090fd62c3a021b00622c3fa9dacdfc6fd907a25132e99f34",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/skill-proposal.json"
+        },
+        {
+          "path": "round/proposals/classify_objects/skill-request.json",
+          "bytes": 2624149,
+          "sha256": "d7d2f8e6751ee2ac022d682a6620007256f3655248c41edc1ae13ce72208a831",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/proposals/classify_objects/skill-request.json"
+        },
+        {
+          "path": "round/propose.json",
+          "bytes": 98723,
+          "sha256": "b1ff7821429f4d8df67a06f4592e7def9e3043333bd17686435069729086a0bb",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/propose.json"
+        },
+        {
+          "path": "round/selection.json",
+          "bytes": 1250,
+          "sha256": "96327269dcb044a16e41717b15aeb783d20d21ad2209626d6aeb71ecbdbe1e19",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/selection.json"
+        },
+        {
+          "path": "round/validation-cases.json",
+          "bytes": 8712,
+          "sha256": "27eaf89d2bcbd6ba10bde5cf30f5c19fc1762ead35311109382ad31de7338f8b",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/validation-cases.json"
+        },
+        {
+          "path": "round/validation.json",
+          "bytes": 935,
+          "sha256": "66da401398d91eb220a663c7c2fbd67074cdd64e4778154b66af00a3f6053f23",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/round/validation.json"
+        },
+        {
+          "path": "sources/client/api_bridge.py",
+          "bytes": 6203,
+          "sha256": "a1b3fa690ca08a151bd04bb49c27e1ee68001fd1a3a3dc938a77c0f1180fb2a7",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/sources/client/api_bridge.py"
+        },
+        {
+          "path": "sources/client/api_preflight.py",
+          "bytes": 823,
+          "sha256": "1dd541ac5f1b87438d279a5a03e9d68a5bf1bd02266342de26ef471d7d55c42b",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/sources/client/api_preflight.py"
+        },
+        {
+          "path": "sources/client/reference-input-fingerprint.json",
+          "bytes": 352,
+          "sha256": "7a6cc07b4bad5b30eafc2e575b168523f7da127db11a58f448911eeb5d5279c4",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/sources/client/reference-input-fingerprint.json"
+        },
+        {
+          "path": "sources/register_remote.py",
+          "bytes": 10734,
+          "sha256": "0cc8e94d633842c69a21bde72e60c163bd095e0a31a3f61cfe8de3f4449ec18e",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/sources/register_remote.py"
+        },
+        {
+          "path": "sources/step5_feedback.py",
+          "bytes": 1094,
+          "sha256": "822132f0e6f16fe0b4d26df48dcd80bb73f99c91d77a0aa4d97227113d700ef6",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/sources/step5_feedback.py"
+        },
+        {
+          "path": "sources/step5_scene_api_v4.py",
+          "bytes": 9246,
+          "sha256": "09db344ca589ba093e6b2be68701eadb3e6e6cf6f5c2b81867c7627135404190",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/sources/step5_scene_api_v4.py"
+        },
+        {
+          "path": "sources/system2_sol_run.py",
+          "bytes": 15996,
+          "sha256": "68f0828f0761a883c7838211165e0aafaccef8cd72a9dc6c098e08e2e5a76a15",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/sources/system2_sol_run.py"
+        },
+        {
+          "path": "START_HERE.md",
+          "bytes": 4223,
+          "sha256": "75a39555a99201731aefc8fede5ce0e209825a9256af31c0d7e6390ab6ccbd8d",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/START_HERE.md"
+        },
+        {
+          "path": "validation-layouts/generated/classify_objects/0/layout.json",
+          "bytes": 7442,
+          "sha256": "44df4bcb49591ec5f89f0cfb54a9941e446da1e952d05e87d3e76b17c36f2120",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/validation-layouts/generated/classify_objects/0/layout.json"
+        },
+        {
+          "path": "validation-layouts/generated/classify_objects/1/layout.json",
+          "bytes": 5697,
+          "sha256": "36a069f6a5d5dd5c95b1a73f57783eb5e74347fc51b274c72748960fa74699e4",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/validation-layouts/generated/classify_objects/1/layout.json"
+        },
+        {
+          "path": "validation-layouts/generated/classify_objects/2/layout.json",
+          "bytes": 4490,
+          "sha256": "05995e7f644557046287b2b4ea98ec8bd225a749ee9091439b9da28600be769c",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/validation-layouts/generated/classify_objects/2/layout.json"
+        },
+        {
+          "path": "validation-layouts/generated/classify_objects/3/layout.json",
+          "bytes": 6896,
+          "sha256": "d69b473786d3fa979d557a4b31ecb1d6c2dec3a66564de884e5b5a118c716ca2",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/validation-layouts/generated/classify_objects/3/layout.json"
+        },
+        {
+          "path": "validation-layouts/generated/classify_objects/4/layout.json",
+          "bytes": 6297,
+          "sha256": "d8470ff44cdafde0e779fcaa9b75e838d8c0ca689701fc5ab1ae6a16bfa2137b",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/validation-layouts/generated/classify_objects/4/layout.json"
+        },
+        {
+          "path": "verification.json",
+          "bytes": 399,
+          "sha256": "a9b41a24895ca651835c562328ae719c0ebe63cbd8aa0d4b4bfb9e46eb903994",
+          "original_member": "补充实验_System2_GPT61Sol_2026-11-02/verification.json"
+        }
+      ],
+      "uncompressed_bytes": 33899539,
+      "laboratory_archive_copy": "/mnt/data/joey_tr/physical-RSI/result/26_supplement_import/20261102T105827Z/original_archives/system2_delivery_original.zip"
+    }
+  ],
+  "credential_scan": []
+}

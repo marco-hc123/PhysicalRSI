@@ -1,0 +1,22 @@
+System 2 lift-guard 原生对照与配对分析
+
+本批为人工机制消融：原始 augmented_3 与仅将抬升 return guard 旁路的版本。候选其他代码、评分与1100步预算保持原样。
+该实验不等同于自动自改进成功，也没有替换 pi05。此前提出的只移除Z条件，在离线回放中0/5改变停止分支，故原生方案改为整项检查消融；方案在新原生执行前固定。
+
+condition | full success | mean Score /100 | completed approach | incomplete approach
+original | 0/5 | 0.00 | 15 | 0
+bypass_lift_guard | 0/5 | 3.00 | 18 | 0
+
+逐布局原生评分（0–100）：
+layout 0: original=0; bypass=0; difference=0; same pre-guard request prefix=False
+layout 1: original=0; bypass=0; difference=0; same pre-guard request prefix=False
+layout 2: original=0; bypass=0; difference=0; same pre-guard request prefix=False
+layout 3: original=0; bypass=0; difference=0; same pre-guard request prefix=False
+layout 4: original=0; bypass=15; difference=15; same pre-guard request prefix=False
+
+使用本批新观测另做 20 次CPU候选前缀回放；只回放已完成的8次调用，到下一条未观测动作请求即截断。没有增加机器人样本数。
+真实抓取是否成立需结合视频或独立状态证据；仅有approach完成、夹爪闭合、正常return或后续调用均不是抓取成功证明。
+actor_diagnostics与paired_outcomes记录了下一调用、规划拒绝、步数终止、目标差异和初始观测差异。完整日志和30段原始视频在native-validation/native-campaign/runs。
+这5个布局是历史诊断布局，尚未验证独立泛化。动作预算未扩大，所有分数沿用原生评分。
+
+进一步方向：依据本批实际新停止点确定单变量实验；若继续执行仍无抓取证据，应先检查接触/夹持/抬升契约，而非将旁路条件当成正式修复。

@@ -1,0 +1,54 @@
+{
+  "task": "general_pickup",
+  "frozen_at": "2026-11-08T09:43:10.294353+00:00",
+  "heldout_seen": false,
+  "parent_development": {
+    "actors": 5,
+    "complete_successes": 3,
+    "condition": "parent",
+    "expert": {
+      "name": "code.general_pickup",
+      "revision": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed"
+    },
+    "failed_or_rejected_calls": 3,
+    "mean_score": 0.6,
+    "n": 5,
+    "scores": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+    "task": "general_pickup",
+    "wall_seconds": 299.21296095399975
+  },
+  "decisions": [
+    {
+      "condition": "basic",
+      "decision": "retain_parent",
+      "admitted_evaluated": 3,
+      "eligible": 0
+    },
+    {
+      "condition": "execution_feedback",
+      "decision": "retain_parent",
+      "admitted_evaluated": 3,
+      "eligible": 0
+    }
+  ],
+  "selected_views": {
+    "basic": "parent",
+    "execution_feedback": "parent"
+  },
+  "unique_entries": [
+    {
+      "name": "parent",
+      "source": "parents/general_pickup.py",
+      "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed"
+    }
+  ],
+  "criterion": "Strictly higher mean development score, no reduction in complete successes; ties retain parent. Candidate ties: mean, successes, source SHA256.",
+  "scope": "One-generation-round task-specific feedback pilot; reused parent selections are not independent execution evidence."
+}

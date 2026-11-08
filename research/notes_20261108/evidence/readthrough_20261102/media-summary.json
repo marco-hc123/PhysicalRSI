@@ -1,0 +1,14 @@
+{
+  "completed": 14046,
+  "planned": 14046,
+  "counts": {
+    "video": 763,
+    "zip_container": 1533,
+    "png": 3852,
+    "jpeg": 7739,
+    "numpy_array": 159
+  },
+  "errors": [],
+  "utc": "2026-11-05T03:23:59.495717+00:00",
+  "claim": "All selected image pixels, video frames, and non-pickle arrays were decoded/inspected programmatically; this is not an assertion of manual visual review."
+}

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-07T13:47:16.227848+00:00",
+  "runs": [
+    {
+      "script": "summarize_campaign.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"completed\", \"actual_native_episodes\": 60, \"original_videos\": 180, \"paid_api_requests\": 8, \"estimated_new_api_usd\": 0.8154218, \"heldout_unique_strategies\": 3}\n",
+      "stderr": ""
+    },
+    {
+      "script": "write_report.py",
+      "exit_code": 0,
+      "stdout": "{\"state\": \"report_written\", \"report_bytes\": 27035}\n",
+      "stderr": ""
+    }
+  ],
+  "native_reruns": 0,
+  "api_requests": 0
+}

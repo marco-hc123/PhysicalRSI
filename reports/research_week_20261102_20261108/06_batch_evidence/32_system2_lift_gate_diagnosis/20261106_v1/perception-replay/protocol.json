@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-06T03:15:55.975192+00:00",
+  "question": "At which perception stage is a visibly lifted watch lost?",
+  "inputs": "Historical augmented_3 layout4 head frame0/frame635, logged joint states",
+  "treatment": "Original Reader versus only robot_fraction forced to zero in memory",
+  "invariants": "Same decoded RGB, states, weights, source, detector thresholds, seed, camera and all other filters; no file edits to deployed runtime",
+  "secondary_probe": "Full-image DINO wrist-watch query, no policy execution",
+  "source_sha256": "1e6b77c65f24340423f7d0662bd467bad3dc25655980fb4312afda711d9420e6",
+  "native_episodes": 0,
+  "api_calls": 0,
+  "gpu": "GPU-a84ba1a7-488b-54cf-eb02-6ded6cf3f94f",
+  "maximum_visible_gpus": 1
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/contract-audit/feedback-contract-v2.json",
+    "copy": "provenance/historical-feedback-contract-v2.json",
+    "sha256": "7c6ac17fc4dace42435a7772c5d5638c88f6a887be63e2ef857e2107548b9b94"
+  },
+  {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/check_error_contract.py",
+    "copy": "provenance/historical-check_error_contract.py",
+    "sha256": "7c20d438ba07a547c0ceab50f8372990c05b45564c3ae1d80804f632d8567ee3"
+  },
+  {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/error-contract-check/summary.json",
+    "copy": "provenance/historical-fixture-summary.json",
+    "sha256": "a0007e20f6e99ab83cdf3cb1f332466210bea9b502062d290ee31b3a9d858e6d"
+  },
+  {
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/requests/capability_feedback_2.json",
+    "source_sha256": "9e67fb301120ee18e6311f1e595f216e0c2961fcd69208d8c86cf404b1547421",
+    "excerpt": "Last user message only",
+    "copy": "provenance/historical-capability-message.txt"
+  }
+]

@@ -1,0 +1,4 @@
+历史报告原文保留，不据此覆盖后续核查。
+11月3日未发现可确证新增实验材料，不能把11月4日工作提前记入11月3日。
+历史文档中“原driver已经正确把no_path转成RuntimeError”仅代表当时解释。批次40已确认异常转换来自本研究适配代码，且后续能力提示词与真实包装不一致。以06_batch_evidence/40_system2_rejection_contract/20261107_v1/HISTORICAL_CONTRACT_CORRECTION.txt为准。
+早期费用ledger的cache-write估算以billing-reviewed及03_data/api_requests.csv的重算列为准，不覆盖原账目。

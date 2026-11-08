@@ -1,0 +1,50 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T12:47:22.657891+00:00",
+  "valid_native_cases": 5,
+  "receipt_checks": [
+    {
+      "condition": "round2_01",
+      "layout_id": 0,
+      "receipt_sha256": "0d9933aca9d73a19b9385ddbc6fbf632447c5e628ae1dcd234ad87b876c766ec",
+      "harness_sha256": "1f0d8be90e5df9f66ccdf5431f7a1637bafb259cf944b89be5f2e81291ede4c5",
+      "state": "passed"
+    },
+    {
+      "condition": "round2_01",
+      "layout_id": 1,
+      "receipt_sha256": "b961fb685a537f4f54e70d73880cda6dafcb4a250351fe68a8159ff51db8f75a",
+      "harness_sha256": "1f0d8be90e5df9f66ccdf5431f7a1637bafb259cf944b89be5f2e81291ede4c5",
+      "state": "passed"
+    },
+    {
+      "condition": "round2_01",
+      "layout_id": 2,
+      "receipt_sha256": "6da5298d6cb9838dff6f554c1e2a7c91f543465100398506e09d3344a3f74406",
+      "harness_sha256": "1f0d8be90e5df9f66ccdf5431f7a1637bafb259cf944b89be5f2e81291ede4c5",
+      "state": "passed"
+    },
+    {
+      "condition": "round2_01",
+      "layout_id": 3,
+      "receipt_sha256": "cb255998c46c146bf0c137d103307e1bbd74523920b8ef6f4aba6a770fcdcd97",
+      "harness_sha256": "1f0d8be90e5df9f66ccdf5431f7a1637bafb259cf944b89be5f2e81291ede4c5",
+      "state": "passed"
+    },
+    {
+      "condition": "round2_01",
+      "layout_id": 4,
+      "receipt_sha256": "b60890c80db2283cd85238ba06dab2074453dc02ae63084a91e79ec4f66269c8",
+      "harness_sha256": "1f0d8be90e5df9f66ccdf5431f7a1637bafb259cf944b89be5f2e81291ede4c5",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 15,
+  "failed_videos": 0,
+  "protocol_sha256": "84eedcdc6048bf93d64edf52c99245aa67a0e0b6fac17ebde40c9d938483049d",
+  "runtime_sha256": "a9fe02939229eb30aadb323c79c5d39141ded44f8f15a22bfcdf6e5d3f16bf56",
+  "elapsed_seconds": 4.754926321998937,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

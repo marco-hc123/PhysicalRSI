@@ -1,0 +1,641 @@
+[
+  {
+    "job_id": 0,
+    "layout": 1,
+    "phase": "retreat",
+    "seed": 0,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2939126493474134,
+        0.027950063281553583,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011368075385689735,
+      2.6530184745788574,
+      2.903989791870117,
+      -1.8484121561050415,
+      0.010275967419147491,
+      0.5264616012573242
+    ],
+    "source_record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+    "planner_status": "Fail",
+    "seconds": 0.07423962466418743,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 1,
+    "layout": 1,
+    "phase": "retreat",
+    "seed": 0,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2685866747090984,
+        -0.09326653242170518,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011368075385689735,
+      2.6530184745788574,
+      2.903989791870117,
+      -1.8484121561050415,
+      0.010275967419147491,
+      0.5264616012573242
+    ],
+    "source_record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+    "planner_status": "Success",
+    "seconds": 0.04914891719818115,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      281,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 2,
+    "layout": 1,
+    "phase": "retreat",
+    "seed": 1,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2939126493474134,
+        0.027950063281553583,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011368075385689735,
+      2.6530184745788574,
+      2.903989791870117,
+      -1.8484121561050415,
+      0.010275967419147491,
+      0.5264616012573242
+    ],
+    "source_record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+    "planner_status": "Fail",
+    "seconds": 0.07316708751022816,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 3,
+    "layout": 1,
+    "phase": "retreat",
+    "seed": 1,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2685866747090984,
+        -0.09326653242170518,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011368075385689735,
+      2.6530184745788574,
+      2.903989791870117,
+      -1.8484121561050415,
+      0.010275967419147491,
+      0.5264616012573242
+    ],
+    "source_record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+    "planner_status": "Success",
+    "seconds": 0.04677417315542698,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      281,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 4,
+    "layout": 1,
+    "phase": "retreat",
+    "seed": 2,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2939126493474134,
+        0.027950063281553583,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011368075385689735,
+      2.6530184745788574,
+      2.903989791870117,
+      -1.8484121561050415,
+      0.010275967419147491,
+      0.5264616012573242
+    ],
+    "source_record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+    "planner_status": "Fail",
+    "seconds": 0.07303587161004543,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 5,
+    "layout": 1,
+    "phase": "retreat",
+    "seed": 2,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2685866747090984,
+        -0.09326653242170518,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011368075385689735,
+      2.6530184745788574,
+      2.903989791870117,
+      -1.8484121561050415,
+      0.010275967419147491,
+      0.5264616012573242
+    ],
+    "source_record_sha256": "22b276cb4e3a153e8a638615856988a270a914090099ba5f3d0f04a975233e0d",
+    "planner_status": "Success",
+    "seconds": 0.046950194984674454,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      281,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 6,
+    "layout": 3,
+    "phase": "retreat",
+    "seed": 0,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.29401685014323153,
+        0.0281825445799615,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011143604293465614,
+      2.652130126953125,
+      2.9018259048461914,
+      -1.8470799922943115,
+      0.010270322673022747,
+      0.5266822576522827
+    ],
+    "source_record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+    "planner_status": "Fail",
+    "seconds": 0.0730342585593462,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 7,
+    "layout": 3,
+    "phase": "retreat",
+    "seed": 0,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2166622515537048,
+        -0.13022408323396178,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011143604293465614,
+      2.652130126953125,
+      2.9018259048461914,
+      -1.8470799922943115,
+      0.010270322673022747,
+      0.5266822576522827
+    ],
+    "source_record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+    "planner_status": "Success",
+    "seconds": 0.04624958708882332,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      301,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 8,
+    "layout": 3,
+    "phase": "retreat",
+    "seed": 1,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.29401685014323153,
+        0.0281825445799615,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011143604293465614,
+      2.652130126953125,
+      2.9018259048461914,
+      -1.8470799922943115,
+      0.010270322673022747,
+      0.5266822576522827
+    ],
+    "source_record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+    "planner_status": "Fail",
+    "seconds": 0.07285086438059807,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 9,
+    "layout": 3,
+    "phase": "retreat",
+    "seed": 1,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2166622515537048,
+        -0.13022408323396178,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011143604293465614,
+      2.652130126953125,
+      2.9018259048461914,
+      -1.8470799922943115,
+      0.010270322673022747,
+      0.5266822576522827
+    ],
+    "source_record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+    "planner_status": "Success",
+    "seconds": 0.046970589086413383,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      301,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 10,
+    "layout": 3,
+    "phase": "retreat",
+    "seed": 2,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.29401685014323153,
+        0.0281825445799615,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011143604293465614,
+      2.652130126953125,
+      2.9018259048461914,
+      -1.8470799922943115,
+      0.010270322673022747,
+      0.5266822576522827
+    ],
+    "source_record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+    "planner_status": "Fail",
+    "seconds": 0.07287052273750305,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 11,
+    "layout": 3,
+    "phase": "retreat",
+    "seed": 2,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.2166622515537048,
+        -0.13022408323396178,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011143604293465614,
+      2.652130126953125,
+      2.9018259048461914,
+      -1.8470799922943115,
+      0.010270322673022747,
+      0.5266822576522827
+    ],
+    "source_record_sha256": "01df0496c06bc6cf4110e1f8731d0a2426ac96aaf485d8274366bd28c7d02f15",
+    "planner_status": "Success",
+    "seconds": 0.04645516350865364,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      301,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 12,
+    "layout": 4,
+    "phase": "retreat",
+    "seed": 0,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.29394745096641844,
+        0.028069646969071493,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011290586553514004,
+      2.6524057388305664,
+      2.9025697708129883,
+      -1.8475706577301025,
+      0.01027399580925703,
+      0.5265363454818726
+    ],
+    "source_record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+    "planner_status": "Fail",
+    "seconds": 0.07292238250374794,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 13,
+    "layout": 4,
+    "phase": "retreat",
+    "seed": 0,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.18267507505425803,
+        -0.15969290111121726,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011290586553514004,
+      2.6524057388305664,
+      2.9025697708129883,
+      -1.8475706577301025,
+      0.01027399580925703,
+      0.5265363454818726
+    ],
+    "source_record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+    "planner_status": "Success",
+    "seconds": 0.046744970604777336,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      301,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 14,
+    "layout": 4,
+    "phase": "retreat",
+    "seed": 1,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.29394745096641844,
+        0.028069646969071493,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011290586553514004,
+      2.6524057388305664,
+      2.9025697708129883,
+      -1.8475706577301025,
+      0.01027399580925703,
+      0.5265363454818726
+    ],
+    "source_record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+    "planner_status": "Fail",
+    "seconds": 0.07289165258407593,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 15,
+    "layout": 4,
+    "phase": "retreat",
+    "seed": 1,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.18267507505425803,
+        -0.15969290111121726,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011290586553514004,
+      2.6524057388305664,
+      2.9025697708129883,
+      -1.8475706577301025,
+      0.01027399580925703,
+      0.5265363454818726
+    ],
+    "source_record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+    "planner_status": "Success",
+    "seconds": 0.04608158580958843,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      301,
+      6
+    ],
+    "all_finite": true
+  },
+  {
+    "job_id": 16,
+    "layout": 4,
+    "phase": "retreat",
+    "seed": 2,
+    "goal_variant": "original_retreat",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.29394745096641844,
+        0.028069646969071493,
+        1.07
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011290586553514004,
+      2.6524057388305664,
+      2.9025697708129883,
+      -1.8475706577301025,
+      0.01027399580925703,
+      0.5265363454818726
+    ],
+    "source_record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+    "planner_status": "Fail",
+    "seconds": 0.07281045988202095,
+    "trajectory_returned": false
+  },
+  {
+    "job_id": 17,
+    "layout": 4,
+    "phase": "retreat",
+    "seed": 2,
+    "goal_variant": "previous_clearance",
+    "action": {
+      "arm": "left",
+      "position_m": [
+        -0.18267507505425803,
+        -0.15969290111121726,
+        1.01
+      ],
+      "quaternion_wxyz": [
+        0.6130773077919165,
+        -0.35934531270739906,
+        0.6163777239676316,
+        0.33924277781895285
+      ]
+    },
+    "start": [
+      -0.011290586553514004,
+      2.6524057388305664,
+      2.9025697708129883,
+      -1.8475706577301025,
+      0.01027399580925703,
+      0.5265363454818726
+    ],
+    "source_record_sha256": "1518e2d28a53ab003a31c9b9545deb46949c7ddbfcbff73d7a05c2d51ece1bd7",
+    "planner_status": "Success",
+    "seconds": 0.045998409390449524,
+    "trajectory_returned": true,
+    "trajectory_shape": [
+      301,
+      6
+    ],
+    "all_finite": true
+  }
+]

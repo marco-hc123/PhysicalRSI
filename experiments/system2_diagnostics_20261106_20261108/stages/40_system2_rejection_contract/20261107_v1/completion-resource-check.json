@@ -1,0 +1,40 @@
+{
+  "state": "verified",
+  "lab": {
+    "utc": "2026-11-07T07:25:57.230578+00:00",
+    "project_root": "/mnt/data/joey_tr/physical-RSI",
+    "project_gpu_processes": []
+  },
+  "execution_server": {
+    "utc": "2026-11-07T07:27:35.427357+00:00",
+    "project_root": "/mnt/data/physical-RSI",
+    "project_gpu_processes": [],
+    "gpu": "0, 0 MiB, 0 %",
+    "all_compute_process_count": 0
+  },
+  "local_controllers": [
+    {
+      "pid": 48587,
+      "active": false
+    },
+    {
+      "pid": 48641,
+      "active": false
+    },
+    {
+      "pid": 49856,
+      "active": false
+    }
+  ],
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "user_request": "Pause after current experiment andlabarchive;no new experiment started",
+  "instance_power_state_unchanged": true,
+  "recorded_execution_process_check": {
+    "records": 7,
+    "active_project_records": [],
+    "controller_active": false,
+    "controller_pid": 59859,
+    "verified_utc": "2026-11-07T07:28:33.826752+00:00"
+  }
+}

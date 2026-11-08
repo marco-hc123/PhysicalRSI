@@ -1,0 +1,74 @@
+[
+  {
+    "batch": 31,
+    "phase": "development",
+    "task": "classify_objects",
+    "condition": "baseline_1",
+    "native_executions": 5,
+    "full_successes": 0,
+    "mean_score_100": 0.0,
+    "scores_100": "[0.0, 0.0, 0.0, 0.0, 0.0]",
+    "layout_sha256s": "[\"30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22\", \"fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4\", \"74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f\", \"5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770\", \"e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde\"]",
+    "scope": "Within batch/phase; repeated layouts and different controllers must not be pooled as independent tasks"
+  },
+  {
+    "batch": 31,
+    "phase": "development",
+    "task": "classify_objects",
+    "condition": "baseline_2",
+    "native_executions": 5,
+    "full_successes": 0,
+    "mean_score_100": 0.0,
+    "scores_100": "[0.0, 0.0, 0.0, 0.0, 0.0]",
+    "layout_sha256s": "[\"30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22\", \"fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4\", \"74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f\", \"5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770\", \"e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde\"]",
+    "scope": "Within batch/phase; repeated layouts and different controllers must not be pooled as independent tasks"
+  },
+  {
+    "batch": 31,
+    "phase": "development",
+    "task": "classify_objects",
+    "condition": "baseline_3",
+    "native_executions": 5,
+    "full_successes": 0,
+    "mean_score_100": 0.0,
+    "scores_100": "[0.0, 0.0, 0.0, 0.0, 0.0]",
+    "layout_sha256s": "[\"30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22\", \"fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4\", \"74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f\", \"5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770\", \"e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde\"]",
+    "scope": "Within batch/phase; repeated layouts and different controllers must not be pooled as independent tasks"
+  },
+  {
+    "batch": 31,
+    "phase": "development",
+    "task": "classify_objects",
+    "condition": "augmented_1",
+    "native_executions": 5,
+    "full_successes": 0,
+    "mean_score_100": 3.0,
+    "scores_100": "[0.0, 0.0, 0.0, 0.0, 15.0]",
+    "layout_sha256s": "[\"30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22\", \"fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4\", \"74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f\", \"5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770\", \"e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde\"]",
+    "scope": "Within batch/phase; repeated layouts and different controllers must not be pooled as independent tasks"
+  },
+  {
+    "batch": 31,
+    "phase": "development",
+    "task": "classify_objects",
+    "condition": "augmented_2",
+    "native_executions": 5,
+    "full_successes": 0,
+    "mean_score_100": 3.0,
+    "scores_100": "[0.0, 0.0, 0.0, 0.0, 15.0]",
+    "layout_sha256s": "[\"30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22\", \"fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4\", \"74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f\", \"5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770\", \"e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde\"]",
+    "scope": "Within batch/phase; repeated layouts and different controllers must not be pooled as independent tasks"
+  },
+  {
+    "batch": 31,
+    "phase": "development",
+    "task": "classify_objects",
+    "condition": "augmented_3",
+    "native_executions": 5,
+    "full_successes": 0,
+    "mean_score_100": 0.0,
+    "scores_100": "[0.0, 0.0, 0.0, 0.0, 0.0]",
+    "layout_sha256s": "[\"30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22\", \"fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4\", \"74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f\", \"5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770\", \"e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde\"]",
+    "scope": "Within batch/phase; repeated layouts and different controllers must not be pooled as independent tasks"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "replicate": 1,
+    "request_file": "requests/legacy_feedback_1.json",
+    "request_sha256": "fb64b40db7fe65d555771b3f6ac06d42376c4fd92626653044b5f4fdccb46151",
+    "input_token_upper_bound": 48081,
+    "reserved_usd": 0.528486,
+    "state": "received",
+    "started_utc": "2026-11-06T04:30:24.947831+00:00",
+    "seconds": 25.529190534725785,
+    "finished_utc": "2026-11-06T04:30:50.477467+00:00",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 15316,
+      "completion_tokens": 2163,
+      "total_tokens": 17479,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 15313,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 293,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0599185,
+    "cost_scope": "Cached/cache-write input subsets; reasoning included in completion. Estimate, invoice authoritative.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "c4cea1da01a6a1ff3b7242218a654c1afdba8e97e1c663fc276f6a8a22316200",
+    "proposal_sha256": "326bde659c85fb877074b6b9f4ed9438073961773c2be49c52d95ee8ba9f098d"
+  },
+  {
+    "id": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "replicate": 1,
+    "request_file": "requests/capability_feedback_1.json",
+    "request_sha256": "9e67fb301120ee18e6311f1e595f216e0c2961fcd69208d8c86cf404b1547421",
+    "input_token_upper_bound": 50364,
+    "reserved_usd": 0.542184,
+    "state": "received",
+    "started_utc": "2026-11-06T04:30:50.483508+00:00",
+    "seconds": 31.00836599059403,
+    "finished_utc": "2026-11-06T04:31:21.492477+00:00",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 15755,
+      "completion_tokens": 2599,
+      "total_tokens": 18354,
+      "prompt_tokens_details": {
+        "cached_tokens": 15313,
+        "cache_write_tokens": 439,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 407,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0286248,
+    "cost_scope": "Cached/cache-write input subsets; reasoning included in completion. Estimate, invoice authoritative.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "fc765e21f17cf47507f257dd5c85b6f16d756afbd14888988b7dd0526ec137aa",
+    "proposal_sha256": "b7434cae57b6e921d064c6152438100786d84a661b32d3a4624017657bf93386"
+  },
+  {
+    "id": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "replicate": 2,
+    "request_file": "requests/capability_feedback_2.json",
+    "request_sha256": "9e67fb301120ee18e6311f1e595f216e0c2961fcd69208d8c86cf404b1547421",
+    "input_token_upper_bound": 50364,
+    "reserved_usd": 0.542184,
+    "state": "received",
+    "started_utc": "2026-11-06T04:31:21.498415+00:00",
+    "seconds": 30.338149243965745,
+    "finished_utc": "2026-11-06T04:31:51.837204+00:00",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 15755,
+      "completion_tokens": 2451,
+      "total_tokens": 18206,
+      "prompt_tokens_details": {
+        "cached_tokens": 15752,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 512,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.026091200000000002,
+    "cost_scope": "Cached/cache-write input subsets; reasoning included in completion. Estimate, invoice authoritative.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+    "proposal_sha256": "968292620e91432520874705e2d5acdef17d153810b06d95a0880afbabb752ea"
+  },
+  {
+    "id": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "replicate": 2,
+    "request_file": "requests/legacy_feedback_2.json",
+    "request_sha256": "fb64b40db7fe65d555771b3f6ac06d42376c4fd92626653044b5f4fdccb46151",
+    "input_token_upper_bound": 48081,
+    "reserved_usd": 0.528486,
+    "state": "received",
+    "started_utc": "2026-11-06T04:31:51.843035+00:00",
+    "seconds": 28.40642313286662,
+    "finished_utc": "2026-11-06T04:32:20.250149+00:00",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 15316,
+      "completion_tokens": 2275,
+      "total_tokens": 17591,
+      "prompt_tokens_details": {
+        "cached_tokens": 15313,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 387,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.024287299999999998,
+    "cost_scope": "Cached/cache-write input subsets; reasoning included in completion. Estimate, invoice authoritative.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "0ec6faade09681c3c551da3e092f655a13852f188a95c8daafb5bcbe0f014676",
+    "proposal_sha256": "575b683ce2f7903e73d391d986ad2952267c1070b53a022fd429cad5e67fc4c6"
+  },
+  {
+    "id": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "replicate": 3,
+    "request_file": "requests/legacy_feedback_3.json",
+    "request_sha256": "fb64b40db7fe65d555771b3f6ac06d42376c4fd92626653044b5f4fdccb46151",
+    "input_token_upper_bound": 48081,
+    "reserved_usd": 0.528486,
+    "state": "received",
+    "started_utc": "2026-11-06T04:32:20.255606+00:00",
+    "seconds": 26.10224039107561,
+    "finished_utc": "2026-11-06T04:32:46.358628+00:00",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 15316,
+      "completion_tokens": 2141,
+      "total_tokens": 17457,
+      "prompt_tokens_details": {
+        "cached_tokens": 15313,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 243,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0229473,
+    "cost_scope": "Cached/cache-write input subsets; reasoning included in completion. Estimate, invoice authoritative.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "1cee292e2b9afaa51b583ed36a3dedb98ef8519c9e8f83551332b490e217388a",
+    "proposal_sha256": "b0694f425ad2e5f6c38f500b5f469b830c8918fad0d1732d61e6c9577e77de94"
+  },
+  {
+    "id": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "replicate": 3,
+    "request_file": "requests/capability_feedback_3.json",
+    "request_sha256": "9e67fb301120ee18e6311f1e595f216e0c2961fcd69208d8c86cf404b1547421",
+    "input_token_upper_bound": 50364,
+    "reserved_usd": 0.542184,
+    "state": "received",
+    "started_utc": "2026-11-06T04:32:46.364641+00:00",
+    "seconds": 23.824497817084193,
+    "finished_utc": "2026-11-06T04:33:10.189973+00:00",
+    "http_status": 200,
+    "usage": {
+      "prompt_tokens": 15755,
+      "completion_tokens": 2117,
+      "total_tokens": 17872,
+      "prompt_tokens_details": {
+        "cached_tokens": 15752,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 271,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "estimated_standard_usd": 0.0227512,
+    "cost_scope": "Cached/cache-write input subsets; reasoning included in completion. Estimate, invoice authoritative.",
+    "finish_reason": "stop",
+    "json_and_python_syntax_valid": true,
+    "source_sha256": "94cf67fe69216640e3169253016f6fe17db34d3ae9d909acab493f09fb4a8ca9",
+    "proposal_sha256": "b438ef35c4c8a02fc8285db949e9bc9f735d19b9570df26add0ee2f5608bcd41"
+  }
+]

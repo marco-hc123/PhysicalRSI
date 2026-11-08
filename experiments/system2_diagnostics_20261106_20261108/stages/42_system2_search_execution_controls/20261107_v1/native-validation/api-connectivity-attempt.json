@@ -1,0 +1,6 @@
+{
+  "state": "stopped_before_paid_requests",
+  "paid_requests": 0,
+  "reason": "Model-access connection did not return; public endpoint HEAD also timed out",
+  "utc": "2026-11-07T10:01:00.714440+00:00"
+}

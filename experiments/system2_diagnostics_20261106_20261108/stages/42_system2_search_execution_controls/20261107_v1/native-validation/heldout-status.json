@@ -1,0 +1,7 @@
+{
+  "state": "completed",
+  "phase": "heldout",
+  "pid": 123037,
+  "utc": "2026-11-07T13:44:53.000831+00:00",
+  "validation": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/heldout/analysis/independent-validation.json"
+}

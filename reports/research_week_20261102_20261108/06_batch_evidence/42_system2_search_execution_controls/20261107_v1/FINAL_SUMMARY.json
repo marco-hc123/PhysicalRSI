@@ -1,0 +1,726 @@
+{
+  "state": "completed",
+  "utc": "2026-11-07T13:47:16.195450+00:00",
+  "completed_native_phases": [
+    "parent",
+    "sampling",
+    "repair",
+    "round2",
+    "heldout"
+  ],
+  "actual_native_episodes": 60,
+  "original_videos": 180,
+  "native_layout_initializations": 5,
+  "paid_api_requests": 8,
+  "api_usage": [
+    {
+      "batch": "sampling",
+      "requests": 5,
+      "http200": 5,
+      "parsed_candidates": 5,
+      "prompt_tokens": 15050,
+      "completion_tokens": 44375,
+      "total_tokens": 59425,
+      "cached_input_subset": 12028,
+      "cache_write_input_subset": 3007,
+      "reasoning_output_subset": 28608,
+      "reported_models": [
+        "gpt-6.1-sol"
+      ],
+      "estimated_usd": 0.45250029999999997
+    },
+    {
+      "batch": "round2",
+      "requests": 3,
+      "http200": 3,
+      "parsed_candidates": 3,
+      "prompt_tokens": 55824,
+      "completion_tokens": 31267,
+      "total_tokens": 87091,
+      "cached_input_subset": 37210,
+      "cache_write_input_subset": 18605,
+      "reasoning_output_subset": 19497,
+      "reported_models": [
+        "gpt-6.1-sol"
+      ],
+      "estimated_usd": 0.3629215
+    }
+  ],
+  "estimated_new_api_usd": 0.8154218,
+  "cost_note": "Provider usage and posted standard rates; invoice authoritative. Cumulative reserved exposure including prior allowance remains below10USD.",
+  "lab_gpu_used": false,
+  "development_layouts": 5,
+  "independent_heldout_layouts": 5,
+  "heldout_unique_strategies": 3,
+  "heldout_logical_strategy_views": 6,
+  "heldout_evidence_reuse_views": 3,
+  "search_selection": {
+    "frozen_at": "2026-11-07T12:48:19.540042+00:00",
+    "heldout_seen": false,
+    "round1_selection": {
+      "budget1": {
+        "selected": "fixed_parent",
+        "metric": [
+          0,
+          0.03
+        ],
+        "trace": [
+          {
+            "candidate": "sample_01",
+            "metric": [
+              0,
+              0.0
+            ],
+            "incumbent": "fixed_parent",
+            "incumbent_metric": [
+              0,
+              0.03
+            ],
+            "selected": false
+          }
+        ]
+      },
+      "budget5": {
+        "selected": "fixed_parent",
+        "metric": [
+          0,
+          0.03
+        ],
+        "trace": [
+          {
+            "candidate": "sample_01",
+            "metric": [
+              0,
+              0.0
+            ],
+            "incumbent": "fixed_parent",
+            "incumbent_metric": [
+              0,
+              0.03
+            ],
+            "selected": false
+          },
+          {
+            "candidate": "sample_02",
+            "metric": [
+              0,
+              0.0
+            ],
+            "incumbent": "fixed_parent",
+            "incumbent_metric": [
+              0,
+              0.03
+            ],
+            "selected": false
+          },
+          {
+            "candidate": "sample_03",
+            "metric": [
+              0,
+              0.0
+            ],
+            "incumbent": "fixed_parent",
+            "incumbent_metric": [
+              0,
+              0.03
+            ],
+            "selected": false
+          },
+          {
+            "candidate": "sample_04",
+            "metric": [
+              0,
+              0.0
+            ],
+            "incumbent": "fixed_parent",
+            "incumbent_metric": [
+              0,
+              0.03
+            ],
+            "selected": false
+          },
+          {
+            "candidate": "sample_05",
+            "metric": [
+              0,
+              0.0
+            ],
+            "incumbent": "fixed_parent",
+            "incumbent_metric": [
+              0,
+              0.03
+            ],
+            "selected": false
+          }
+        ]
+      },
+      "phase": "sampling",
+      "utc": "2026-11-07T11:47:14.682408+00:00",
+      "heldout_seen": false,
+      "rule": "Full-success count then mean native score; retain incumbent on tie; increasing generation order",
+      "sources": [
+        {
+          "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/analysis/matrix-analysis.json",
+          "sha256": "da673f1e1a862d90ae3b5eedd448a691256af635ac3d986fea73de126b11d222"
+        },
+        {
+          "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/sampling/analysis/matrix-analysis.json",
+          "sha256": "ae10baf064c77783881b2400a0d2343cd5e0df6bf28149b425cf43d1e2ab8e91"
+        }
+      ],
+      "scope": "One nested candidate pool, not replicated search budgets; development choice is subject to selection bias and needs independent validation."
+    },
+    "round2_selection": {
+      "selected": "fixed_parent",
+      "metric": [
+        0,
+        0.03
+      ],
+      "trace": [
+        {
+          "candidate": "round2_01",
+          "metric": [
+            0,
+            0.03
+          ],
+          "incumbent": "fixed_parent",
+          "incumbent_metric": [
+            0,
+            0.03
+          ],
+          "selected": false
+        },
+        {
+          "candidate": "round2_02",
+          "state": "not_admitted_or_not_executed"
+        },
+        {
+          "candidate": "round2_03",
+          "state": "not_admitted_or_not_executed"
+        }
+      ]
+    },
+    "manual_repair_eligible": true,
+    "manual_repair_development_metrics": {
+      "target_control": [
+        0,
+        0.0
+      ],
+      "target_offset": [
+        0,
+        0.03
+      ]
+    },
+    "strategies": [
+      {
+        "label": "fixed_initial_parent",
+        "selected": "fixed_parent",
+        "evaluated_as": "fixed_parent",
+        "development_metric": [
+          0,
+          0.03
+        ]
+      },
+      {
+        "label": "budget1",
+        "selected": "fixed_parent",
+        "evaluated_as": "fixed_parent",
+        "development_metric": [
+          0,
+          0.03
+        ]
+      },
+      {
+        "label": "budget5",
+        "selected": "fixed_parent",
+        "evaluated_as": "fixed_parent",
+        "development_metric": [
+          0,
+          0.03
+        ]
+      },
+      {
+        "label": "two_round_feedback_search",
+        "selected": "fixed_parent",
+        "evaluated_as": "fixed_parent",
+        "development_metric": [
+          0,
+          0.03
+        ]
+      },
+      {
+        "label": "manual_matched_control_reference",
+        "selected": "target_control",
+        "scope": "Matched source/control memory for the manual repair; needed to assess target-rule transfer on the same fresh layouts",
+        "evaluated_as": "target_control",
+        "development_metric": [
+          0,
+          0.0
+        ]
+      },
+      {
+        "label": "manual_target_repair_reference",
+        "selected": "target_offset",
+        "scope": "Separate human-designed repair, not a System2 candidate-count or autonomous-improvement claim",
+        "evaluated_as": "target_offset",
+        "development_metric": [
+          0,
+          0.03
+        ]
+      }
+    ],
+    "unique_entries": [
+      {
+        "name": "fixed_parent",
+        "parent": true
+      },
+      {
+        "name": "target_control",
+        "proposal": "manual-target-control/target_control.json",
+        "research_origin": "manual_single_factor_control",
+        "source": "manual-target-control/candidate.py",
+        "target_rule": "generated"
+      },
+      {
+        "name": "target_offset",
+        "proposal": "manual-target-control/target_offset.json",
+        "research_origin": "manual_single_factor_control",
+        "source": "manual-target-control/candidate.py",
+        "target_rule": "incumbent_offset"
+      }
+    ],
+    "identities": [
+      {
+        "condition": "fixed_parent",
+        "identity_sha256": "d3a3603cdc3f779dfa098e0fcc7e061314310d13ed587e2d683956bab9eb078b",
+        "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+        "memory_sha256": "d9bdd902de1d140cd2260690ab31521aa74ac4198606d7a907dc76a3b9249ef5",
+        "development_runtime": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/runtimes/fixed_parent.json"
+      },
+      {
+        "condition": "target_control",
+        "identity_sha256": "9168e21c7db46338aef2499eeaa11c39973f5d510f273d282a293e05843fb5d4",
+        "source_sha256": "f8751bd6be7f2f5b4a7235723f8f99a96f52a46945736c62540d002ad60352fb",
+        "memory_sha256": "7ab5095f672f04fd84e5c928a2f125f7a2e34f07d79e78067f03178c91b1ff2f",
+        "development_runtime": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/repair/runtimes/target_control.json"
+      },
+      {
+        "condition": "target_offset",
+        "identity_sha256": "d3847b836278d9578bdaff172abd01e17d8569b30793ddccde587fdd42e1a7d9",
+        "source_sha256": "f8751bd6be7f2f5b4a7235723f8f99a96f52a46945736c62540d002ad60352fb",
+        "memory_sha256": "b80fb22cb48b391ee05f39a70da2ed8fc9c488665e793553eb97bd16d2cc8c6e",
+        "development_runtime": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/repair/runtimes/target_offset.json"
+      }
+    ],
+    "runtime_reference": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/parent/runtimes/fixed_parent.json",
+    "development_sources": [
+      {
+        "path": "parent/analysis/matrix-analysis.json",
+        "sha256": "da673f1e1a862d90ae3b5eedd448a691256af635ac3d986fea73de126b11d222"
+      },
+      {
+        "path": "sampling/analysis/matrix-analysis.json",
+        "sha256": "ae10baf064c77783881b2400a0d2343cd5e0df6bf28149b425cf43d1e2ab8e91"
+      },
+      {
+        "path": "round2/analysis/matrix-analysis.json",
+        "sha256": "191d2e25884cb06352c9161791878e5fbed46279e964b457c591635547f87e6b"
+      },
+      {
+        "path": "repair/analysis/matrix-analysis.json",
+        "sha256": "487529fe94337e6b899bdb3dbd5e5be6423fd2a496505aa1422ab2ea72ec7f15"
+      }
+    ],
+    "heldout_selection_prohibited": true,
+    "scope": "Five fresh native-qualified layouts generated only after this freeze. Identical source+memory+executor strategies share one physical evaluation and are explicitly marked as evidence reuse. The manual reference, if eligible, is reported separately and cannot count as a System2 success.",
+    "unchanged_global_policy_registry": true
+  },
+  "heldout_strategies": [
+    {
+      "label": "fixed_initial_parent",
+      "selected": "fixed_parent",
+      "evaluated_as": "fixed_parent",
+      "development_metric": [
+        0,
+        0.03
+      ],
+      "heldout_cases": 5,
+      "heldout_scores_100": [
+        0.0,
+        15.0,
+        0.0,
+        15.0,
+        0.0
+      ],
+      "heldout_successes": 0,
+      "heldout_mean_score_100": 6.0,
+      "evidence_group": "fixed_parent"
+    },
+    {
+      "label": "budget1",
+      "selected": "fixed_parent",
+      "evaluated_as": "fixed_parent",
+      "development_metric": [
+        0,
+        0.03
+      ],
+      "heldout_cases": 5,
+      "heldout_scores_100": [
+        0.0,
+        15.0,
+        0.0,
+        15.0,
+        0.0
+      ],
+      "heldout_successes": 0,
+      "heldout_mean_score_100": 6.0,
+      "evidence_group": "fixed_parent"
+    },
+    {
+      "label": "budget5",
+      "selected": "fixed_parent",
+      "evaluated_as": "fixed_parent",
+      "development_metric": [
+        0,
+        0.03
+      ],
+      "heldout_cases": 5,
+      "heldout_scores_100": [
+        0.0,
+        15.0,
+        0.0,
+        15.0,
+        0.0
+      ],
+      "heldout_successes": 0,
+      "heldout_mean_score_100": 6.0,
+      "evidence_group": "fixed_parent"
+    },
+    {
+      "label": "two_round_feedback_search",
+      "selected": "fixed_parent",
+      "evaluated_as": "fixed_parent",
+      "development_metric": [
+        0,
+        0.03
+      ],
+      "heldout_cases": 5,
+      "heldout_scores_100": [
+        0.0,
+        15.0,
+        0.0,
+        15.0,
+        0.0
+      ],
+      "heldout_successes": 0,
+      "heldout_mean_score_100": 6.0,
+      "evidence_group": "fixed_parent"
+    },
+    {
+      "label": "manual_matched_control_reference",
+      "selected": "target_control",
+      "scope": "Matched source/control memory for the manual repair; needed to assess target-rule transfer on the same fresh layouts",
+      "evaluated_as": "target_control",
+      "development_metric": [
+        0,
+        0.0
+      ],
+      "heldout_cases": 5,
+      "heldout_scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heldout_successes": 0,
+      "heldout_mean_score_100": 0.0,
+      "evidence_group": "target_control"
+    },
+    {
+      "label": "manual_target_repair_reference",
+      "selected": "target_offset",
+      "scope": "Separate human-designed repair, not a System2 candidate-count or autonomous-improvement claim",
+      "evaluated_as": "target_offset",
+      "development_metric": [
+        0,
+        0.03
+      ],
+      "heldout_cases": 5,
+      "heldout_scores_100": [
+        0.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "heldout_successes": 0,
+      "heldout_mean_score_100": 3.0,
+      "evidence_group": "target_offset"
+    }
+  ],
+  "global_policy_registry_modified": false,
+  "scope": "Study-specific code candidates under frozen RGB/CuRobo execution. Current fixed parent is a code candidate, not pi05. Manual target repair is separately labeled. No model training, no cross-project speed or token-reduction claim.",
+  "limits": [
+    "One candidate pool and five development layouts; small descriptive study, not population inference.",
+    "Historical Qwen/medium and current GPT/high are not matched sampling-only conditions.",
+    "Round2 changes feedback and adds candidates; it does not separately identify the causal effects of more samples, feedback or rounds.",
+    "Manual target-control evidence in round2 is researcher assistance, not autonomous discovery.",
+    "Program return, object delivery, category partial score and full success are distinct.",
+    "Heldout strategy aliases share physical evidence and must not be treated as independent replications.",
+    "No explicit home primitive in the exposed interface; full native success includes a return-to-origin condition.",
+    "Original full model weights/environments remain external pinned dependencies, not duplicated experiment output.",
+    "Two round2 candidates were rejected by this study guard for Nonlocal, which was not disclosed in their prompts. They have no native task scores; this is an experimental contract gap, not demonstrated upstream failure.",
+    "Heldout layouts use the same hashed extended_public_config_v1 research sampler as development. Native reset qualification does not prove equivalence to the released official benchmark distribution.",
+    "The fixed parent permits six selection cycles; development object counts are8,5,3,7,6. Cycle capacity and full-task homing capability have not been separately resolved by this campaign."
+  ],
+  "heldout_manual_target_pairs": [
+    {
+      "layout_id": 0,
+      "layout_sha256": "cba97dc876d9d5db582012fb6f1a6cd9f60146455340f7b00c38b5bcb401e04e",
+      "control_score_100": 0.0,
+      "treatment_score_100": 0.0,
+      "score_delta_100": 0.0,
+      "control_success": false,
+      "treatment_success": false
+    },
+    {
+      "layout_id": 1,
+      "layout_sha256": "4b81286db5cc583fd53eae1e71aa791c071c89e3a06116d7890ab7ba9b5580dc",
+      "control_score_100": 0.0,
+      "treatment_score_100": 15.0,
+      "score_delta_100": 15.0,
+      "control_success": false,
+      "treatment_success": false
+    },
+    {
+      "layout_id": 2,
+      "layout_sha256": "87a9ca44e8ab102442ae11d51c918f294010e630a46d6069d55fd20b1a0fff69",
+      "control_score_100": 0.0,
+      "treatment_score_100": 0.0,
+      "score_delta_100": 0.0,
+      "control_success": false,
+      "treatment_success": false
+    },
+    {
+      "layout_id": 3,
+      "layout_sha256": "b1400576d9f23ae842964fed2cbbd35e8038c196d2afef2b22f1a226fa900ea6",
+      "control_score_100": 0.0,
+      "treatment_score_100": 0.0,
+      "score_delta_100": 0.0,
+      "control_success": false,
+      "treatment_success": false
+    },
+    {
+      "layout_id": 4,
+      "layout_sha256": "32a36ac28b8e8da9c126513427e9e785edfd1261ec760726ad83ee426f025853",
+      "control_score_100": 0.0,
+      "treatment_score_100": 0.0,
+      "score_delta_100": 0.0,
+      "control_success": false,
+      "treatment_success": false
+    }
+  ],
+  "candidate_admissions": [
+    {
+      "stage": "parent",
+      "admitted": true,
+      "errors": [],
+      "name": "fixed_parent",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "sampling",
+      "admitted": true,
+      "errors": [],
+      "name": "sample_01",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "43ec7316d8ddfdf4a3e67c349caba3437b787b4b6bd8924bc6c22466f917108b",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "sampling",
+      "admitted": true,
+      "errors": [],
+      "name": "sample_02",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "fbbbd5cc6b0162f3ee76d30cc60df5e7d60c21a9ddf8343f8856c4ceb091c571",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "sampling",
+      "admitted": true,
+      "errors": [],
+      "name": "sample_03",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "c68a2a59e65bcdb1aea058c6b5695103b3fdaed8c3c3d113fdbd4d82b89c04ac",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "sampling",
+      "admitted": true,
+      "errors": [],
+      "name": "sample_04",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "7c37ae512cdbf98ea1834b381fd93d2a65a5d2bf73480cfc968890184f27a0fc",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "sampling",
+      "admitted": true,
+      "errors": [],
+      "name": "sample_05",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "a3a33597011f37a2a061941db81a769b3422294efaefba6dfeadaedf6821331a",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "repair",
+      "admitted": true,
+      "errors": [],
+      "name": "target_control",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "f8751bd6be7f2f5b4a7235723f8f99a96f52a46945736c62540d002ad60352fb",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "repair",
+      "admitted": true,
+      "errors": [],
+      "name": "target_offset",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "f8751bd6be7f2f5b4a7235723f8f99a96f52a46945736c62540d002ad60352fb",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "round2",
+      "admitted": true,
+      "errors": [],
+      "name": "round2_01",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "25af155d4556172ebcb74e9a1425d033aa0ef58d6cd4c29cdc9927af4198ba46",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "round2",
+      "admitted": false,
+      "errors": [
+        "Nonlocal"
+      ],
+      "name": "round2_02",
+      "source_sha256": "8ce9ee215ab9eb917dbd35e9ea9e0057dbb4a410f26a2b4d1c679ee131d33ab8",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "round2",
+      "admitted": false,
+      "errors": [
+        "Nonlocal"
+      ],
+      "name": "round2_03",
+      "source_sha256": "fb3cd2b6406bf3997a5ad7d9dcc9243d24948f1453327ef7cfc1e9a4cd79e723",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "heldout",
+      "admitted": true,
+      "errors": [],
+      "name": "fixed_parent",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "heldout",
+      "admitted": true,
+      "errors": [],
+      "name": "target_control",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "f8751bd6be7f2f5b4a7235723f8f99a96f52a46945736c62540d002ad60352fb",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "heldout",
+      "admitted": true,
+      "errors": [],
+      "name": "target_offset",
+      "native_admission": {
+        "accepted": true,
+        "physical_qualification": false,
+        "reason": "Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"
+      },
+      "source_sha256": "f8751bd6be7f2f5b4a7235723f8f99a96f52a46945736c62540d002ad60352fb",
+      "native_score_if_rejected": null
+    }
+  ],
+  "generated_candidates_rejected_before_native": [
+    {
+      "stage": "round2",
+      "admitted": false,
+      "errors": [
+        "Nonlocal"
+      ],
+      "name": "round2_02",
+      "source_sha256": "8ce9ee215ab9eb917dbd35e9ea9e0057dbb4a410f26a2b4d1c679ee131d33ab8",
+      "native_score_if_rejected": null
+    },
+    {
+      "stage": "round2",
+      "admitted": false,
+      "errors": [
+        "Nonlocal"
+      ],
+      "name": "round2_03",
+      "source_sha256": "fb3cd2b6406bf3997a5ad7d9dcc9243d24948f1453327ef7cfc1e9a4cd79e723",
+      "native_score_if_rejected": null
+    }
+  ],
+  "admission_contract_audit": "admission-contract-audit.json",
+  "layout_distribution_audit": "layout-distribution-audit.json"
+}

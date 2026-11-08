@@ -1,0 +1,306 @@
+[
+  {
+    "layout": 0,
+    "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+    "selected": [
+      {
+        "capacity_source": {
+          "category": "watch",
+          "box": [
+            491.2422180175781,
+            220.97875213623047,
+            524.5887145996094,
+            249.32111740112305
+          ],
+          "score": 0.25827035307884216,
+          "xyz": [
+            0.4028603022487292,
+            -0.09343397677847853,
+            0.7775
+          ],
+          "label": "wrist watch.",
+          "dino_category": "watch",
+          "clip_similarities": [
+            0.21997858583927155,
+            0.19521699845790863,
+            0.25827035307884216,
+            0.20268608629703522,
+            0.19442397356033325,
+            0.22238340973854065,
+            0.21515414118766785
+          ],
+          "semantic_fusion_scores": [
+            0.21997858583927155,
+            0.19521699845790863,
+            0.2723357081413269,
+            0.20268608629703522,
+            0.19442397356033325,
+            0.22238340973854065,
+            0.21515414118766785
+          ]
+        },
+        "capacity_arm": "right",
+        "capacity_destination": [
+          0.2761038270540277,
+          -0.006699031718237575,
+          1.01
+        ]
+      }
+    ],
+    "returns": [],
+    "endpoint_failures": [
+      {
+        "time_ns": 1794043768625705625,
+        "action_index": 120,
+        "stage": "basket_lower",
+        "endpoint_wait": 40,
+        "arm": "right",
+        "joint_error_rad": 0.018535614013671875,
+        "position_error_m": 0.010464577675798423,
+        "rotation_error_rad": 0.025615745453265205
+      }
+    ]
+  },
+  {
+    "layout": 1,
+    "failure": null,
+    "selected": [
+      {
+        "capacity_source": {
+          "category": "garage",
+          "box": [
+            293.55670166015625,
+            247.89653396606445,
+            353.9305114746094,
+            306.3125
+          ],
+          "score": 0.2838493883609772,
+          "xyz": [
+            0.0072709219328479496,
+            -0.1836363487799019,
+            0.7925
+          ],
+          "label": "rabbit figurine.",
+          "dino_category": "garage",
+          "clip_similarities": [
+            0.17299026250839233,
+            0.21364381909370422,
+            0.19548873603343964,
+            0.19435074925422668,
+            0.2838493883609772,
+            0.19227702915668488,
+            0.19677552580833435
+          ],
+          "semantic_fusion_scores": [
+            0.17299026250839233,
+            0.21364381909370422,
+            0.19548873603343964,
+            0.19435074925422668,
+            0.3233899772167206,
+            0.19227702915668488,
+            0.19677552580833435
+          ]
+        },
+        "capacity_arm": "right",
+        "capacity_destination": [
+          0.2762321203514738,
+          -0.0067529725918655525,
+          1.01
+        ]
+      }
+    ],
+    "returns": [
+      {
+        "time_ns": 1794043914494978707,
+        "action_index": 111,
+        "stage": "observe_retract",
+        "capacity_transfer_return": true,
+        "capacity_transfer_tag": "basket",
+        "capacity_reported_result": true
+      }
+    ],
+    "endpoint_failures": []
+  },
+  {
+    "layout": 2,
+    "failure": null,
+    "selected": [
+      {
+        "capacity_source": {
+          "category": "camera",
+          "box": [
+            469.7194519042969,
+            227.92836380004883,
+            513.9407348632812,
+            261.61426162719727
+          ],
+          "score": 0.24469971656799316,
+          "xyz": [
+            0.3520981633844245,
+            -0.1220436117473111,
+            0.7925
+          ],
+          "label": "camera. black camera.",
+          "dino_category": "camera",
+          "clip_similarities": [
+            0.24469971656799316,
+            0.20596128702163696,
+            0.2124880701303482,
+            0.22272925078868866,
+            0.19038715958595276,
+            0.21248146891593933,
+            0.20968802273273468
+          ],
+          "semantic_fusion_scores": [
+            0.270204097032547,
+            0.20596128702163696,
+            0.2124880701303482,
+            0.22272925078868866,
+            0.19038715958595276,
+            0.21248146891593933,
+            0.20968802273273468
+          ]
+        },
+        "capacity_arm": "right",
+        "capacity_destination": [
+          0.2762440516498645,
+          -0.006682200951825618,
+          1.01
+        ]
+      }
+    ],
+    "returns": [
+      {
+        "time_ns": 1794044061306763241,
+        "action_index": 103,
+        "stage": "observe_retract",
+        "capacity_transfer_return": true,
+        "capacity_transfer_tag": "basket",
+        "capacity_reported_result": true
+      }
+    ],
+    "endpoint_failures": []
+  },
+  {
+    "layout": 3,
+    "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+    "selected": [
+      {
+        "capacity_source": {
+          "category": "garage",
+          "box": [
+            278.77149963378906,
+            233.20134925842285,
+            315.931640625,
+            295.35498046875
+          ],
+          "score": 0.2946397364139557,
+          "xyz": [
+            -0.044917747181192215,
+            -0.15998808563789652,
+            0.7925
+          ],
+          "label": "rabbit figurine.",
+          "dino_category": "garage",
+          "clip_similarities": [
+            0.1958114504814148,
+            0.20998933911323547,
+            0.17297542095184326,
+            0.19834855198860168,
+            0.2946397364139557,
+            0.18470655381679535,
+            0.19851131737232208
+          ],
+          "semantic_fusion_scores": [
+            0.1958114504814148,
+            0.20998933911323547,
+            0.17297542095184326,
+            0.19834855198860168,
+            0.33297666907310486,
+            0.18470655381679535,
+            0.19851131737232208
+          ]
+        },
+        "capacity_arm": "left",
+        "capacity_destination": [
+          -0.3115731628319196,
+          -0.006863051014224103,
+          1.01
+        ]
+      }
+    ],
+    "returns": [],
+    "endpoint_failures": [
+      {
+        "time_ns": 1794044210239178782,
+        "action_index": 128,
+        "stage": "basket_lower",
+        "endpoint_wait": 40,
+        "arm": "left",
+        "joint_error_rad": 0.018855810165405273,
+        "position_error_m": 0.010305110946109896,
+        "rotation_error_rad": 0.022195804214852725
+      }
+    ]
+  },
+  {
+    "layout": 4,
+    "failure": null,
+    "selected": [
+      {
+        "capacity_source": {
+          "category": "watch",
+          "box": [
+            215.2139434814453,
+            252.4940528869629,
+            244.72157287597656,
+            283.1272430419922
+          ],
+          "score": 0.26009684801101685,
+          "xyz": [
+            -0.18269000125684728,
+            -0.1595177070714076,
+            0.7775
+          ],
+          "label": "wrist watch.",
+          "dino_category": "watch",
+          "clip_similarities": [
+            0.21401917934417725,
+            0.20430079102516174,
+            0.26009684801101685,
+            0.21113324165344238,
+            0.19552826881408691,
+            0.21928894519805908,
+            0.22238710522651672
+          ],
+          "semantic_fusion_scores": [
+            0.21401917934417725,
+            0.20430079102516174,
+            0.27848684787750244,
+            0.21113324165344238,
+            0.19552826881408691,
+            0.21928894519805908,
+            0.22238710522651672
+          ]
+        },
+        "capacity_arm": "left",
+        "capacity_destination": [
+          -0.31146830127360864,
+          -0.006929810300220635,
+          1.01
+        ]
+      }
+    ],
+    "returns": [
+      {
+        "time_ns": 1794044379953940140,
+        "action_index": 108,
+        "stage": "observe_retract",
+        "capacity_transfer_return": true,
+        "capacity_transfer_tag": "basket",
+        "capacity_reported_result": true
+      }
+    ],
+    "endpoint_failures": []
+  }
+]

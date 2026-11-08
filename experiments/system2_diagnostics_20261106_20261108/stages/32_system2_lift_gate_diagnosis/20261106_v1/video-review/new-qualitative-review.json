@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-06T03:33:07.671169+00:00",
+  "reviewed_images": [
+    "new_original_layout4_head_frame1100.png",
+    "new_bypass_lift_guard_layout4_head_frame1100.png"
+  ],
+  "observations": [
+    "Original final head frame shows watch near closed left gripper and visible unsorted items on table.",
+    "Bypass final head frame shows opened gripper above left white basket; a dark watch-like object is visible within it, with other items still on table."
+  ],
+  "interpretation": "Visual evidence is consistent with the measured partial score15/100 in bypass layout4, not full sorting success. The official score is taken from native results, not inferred from the image.",
+  "limits": [
+    "Encoded final frame; not metric pose/contact measurement.",
+    "No claim that every visible object was tracked or correctly classified."
+  ]
+}

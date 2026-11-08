@@ -1,0 +1,159 @@
+{
+  "utc": "2026-11-06T03:31:07.626377+00:00",
+  "native_cases_reused": 10,
+  "new_native_cases": 0,
+  "new_api_calls": 0,
+  "scene_calls": 30,
+  "returned_object_samples": 182,
+  "nominal_height_by_category": {
+    "basket": {
+      "samples": 88,
+      "min_z": 0.8,
+      "max_z": 0.8,
+      "unique_z": [
+        0.8
+      ]
+    },
+    "garage": {
+      "samples": 20,
+      "min_z": 0.7925,
+      "max_z": 0.7925,
+      "unique_z": [
+        0.7925
+      ]
+    },
+    "watch": {
+      "samples": 20,
+      "min_z": 0.7775,
+      "max_z": 0.7775,
+      "unique_z": [
+        0.7775
+      ]
+    },
+    "pen": {
+      "samples": 18,
+      "min_z": 0.771,
+      "max_z": 0.771,
+      "unique_z": [
+        0.771
+      ]
+    },
+    "toy_car": {
+      "samples": 30,
+      "min_z": 0.785,
+      "max_z": 0.785,
+      "unique_z": [
+        0.785
+      ]
+    },
+    "camera": {
+      "samples": 6,
+      "min_z": 0.7925,
+      "max_z": 0.7925,
+      "unique_z": [
+        0.7925
+      ]
+    }
+  },
+  "planner_rejection_calls": [
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 0,
+      "call_id": 8,
+      "error": "no_collision_free_path",
+      "projected_keys": [
+        "primitive_error",
+        "state"
+      ],
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/dd95cb2544f143af8a81cd99efa3729a/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 1,
+      "call_id": 10,
+      "error": "no_collision_free_path",
+      "projected_keys": [
+        "primitive_error",
+        "state"
+      ],
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/3d7760eb9407469595e198e71061fe38/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 2,
+      "call_id": 8,
+      "error": "no_collision_free_path",
+      "projected_keys": [
+        "primitive_error",
+        "state"
+      ],
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/b3a994d62428424a99e5915c667777ac/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 4,
+      "call_id": 10,
+      "error": "no_collision_free_path",
+      "projected_keys": [
+        "primitive_error",
+        "state"
+      ],
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/71c413365eae42e58f0935e3777d58af/0/policy/processes/isolated/process.json"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 3,
+      "call_id": 10,
+      "error": "no_collision_free_path",
+      "projected_keys": [
+        "primitive_error",
+        "state"
+      ],
+      "record": "native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/ecbeb3c4283e4ea5a1934a2c77846ca9/0/policy/processes/isolated/process.json"
+    }
+  ],
+  "internal_rejections": [
+    {
+      "path": "analysis/referenced-primitive-services/bypass_lift_guard/3d7760eb9407469595e198e71061fe38/requests/b81b7ba061b646d394d0bc154e1e3d1e.json",
+      "error": "no_collision_free_path",
+      "action_steps": 0
+    },
+    {
+      "path": "analysis/referenced-primitive-services/bypass_lift_guard/71c413365eae42e58f0935e3777d58af/requests/329052231bae4d2bab9d72ab3b5094d4.json",
+      "error": "no_collision_free_path",
+      "action_steps": 0
+    },
+    {
+      "path": "analysis/referenced-primitive-services/bypass_lift_guard/ecbeb3c4283e4ea5a1934a2c77846ca9/requests/8892d43aa19c45979b272d11ff437092.json",
+      "error": "no_collision_free_path",
+      "action_steps": 0
+    },
+    {
+      "path": "analysis/referenced-primitive-services/bypass_lift_guard/b3a994d62428424a99e5915c667777ac/requests/1bf2d7518ec84f2988483304da9a2cb9.json",
+      "error": "no_collision_free_path",
+      "action_steps": 0
+    },
+    {
+      "path": "analysis/referenced-primitive-services/bypass_lift_guard/dd95cb2544f143af8a81cd99efa3729a/requests/8cf2cf769fb642d49d761f7ee1e0806e.json",
+      "error": "no_collision_free_path",
+      "action_steps": 0
+    }
+  ],
+  "projected_action_calls": 61,
+  "projected_responses_exposing_action_steps": 0,
+  "source_request_sha256": "0f3ecfb09cc282fa438da4f23ea7e5db751c6199fb90bb40f91dc56b28524f50",
+  "old_approach_description": "robot.approach(arm=\"left\" or \"right\", position_m=[x,y,z], quaternion_wxyz=[w,x,y,z]); collision-aware released CuRobo joint trajectory, other arm/gripper preserved; raises RuntimeError if no path. No pose success claim.",
+  "request_term_checks": {
+    "height": false,
+    "nominal": false,
+    "fixed height": false,
+    "plane": false,
+    "no_collision_free_path": true,
+    "not persistent tracking identities": true
+  },
+  "inference_limits": [
+    "Term checks alone are not a semantic proof; conclusions also use exact API description, frozen Reader implementation and measured scene outputs.",
+    "No claim that this compatibility assembly is unmodified upstream PhysicalRSI.",
+    "No live prompt/runtime changes or new generated candidates."
+  ]
+}

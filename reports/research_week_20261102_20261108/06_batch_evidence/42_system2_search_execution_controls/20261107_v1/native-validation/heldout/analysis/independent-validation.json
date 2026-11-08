@@ -1,0 +1,120 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T13:44:51.654035+00:00",
+  "valid_native_cases": 15,
+  "receipt_checks": [
+    {
+      "condition": "fixed_parent",
+      "layout_id": 0,
+      "receipt_sha256": "f20746757e3c4d294966b622c270b782e854ff79150782655f43183b691f3053",
+      "harness_sha256": "a03ed0fcac479ccb62404093120d121d7aa519ecadabc5475bbf6a48c74d9395",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_parent",
+      "layout_id": 1,
+      "receipt_sha256": "73f27774e3e34ccb09e0dd76c9c4e12ad51cbccacde3410e1a7a40aeafd5f88c",
+      "harness_sha256": "a03ed0fcac479ccb62404093120d121d7aa519ecadabc5475bbf6a48c74d9395",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_parent",
+      "layout_id": 2,
+      "receipt_sha256": "63c18d5f666eea145d1c7f468e984b1a228dc1ff1a4dc4f11ea3457bae87c827",
+      "harness_sha256": "a03ed0fcac479ccb62404093120d121d7aa519ecadabc5475bbf6a48c74d9395",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_parent",
+      "layout_id": 3,
+      "receipt_sha256": "828d19f28bffc49203c9e5c1f987ca7cfa1b2da5cabcc55f13d830bd47fe7a90",
+      "harness_sha256": "a03ed0fcac479ccb62404093120d121d7aa519ecadabc5475bbf6a48c74d9395",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_parent",
+      "layout_id": 4,
+      "receipt_sha256": "33ee7d5a7c192937c19a3c0bd342dbc07f444ab578781ab2cd1911e1e802462e",
+      "harness_sha256": "a03ed0fcac479ccb62404093120d121d7aa519ecadabc5475bbf6a48c74d9395",
+      "state": "passed"
+    },
+    {
+      "condition": "target_control",
+      "layout_id": 0,
+      "receipt_sha256": "7e2ed8e72dc35601a05436b733163f6b31c53716879b21066d3de1c345c7b90f",
+      "harness_sha256": "ff5d246e99fabccdac43c5d8c9f78d1562b7775cba7206299eff7bb3aefbbb9f",
+      "state": "passed"
+    },
+    {
+      "condition": "target_control",
+      "layout_id": 1,
+      "receipt_sha256": "5c6a861be81b30f6033eb19f8615cad219595396649ca9760eb39b56088be7f3",
+      "harness_sha256": "ff5d246e99fabccdac43c5d8c9f78d1562b7775cba7206299eff7bb3aefbbb9f",
+      "state": "passed"
+    },
+    {
+      "condition": "target_control",
+      "layout_id": 2,
+      "receipt_sha256": "797f88d18794fa291c4a2efb5ce78c46bd445e7b53c8895359e89154e5b08afd",
+      "harness_sha256": "ff5d246e99fabccdac43c5d8c9f78d1562b7775cba7206299eff7bb3aefbbb9f",
+      "state": "passed"
+    },
+    {
+      "condition": "target_control",
+      "layout_id": 3,
+      "receipt_sha256": "db33236f3ff06c09b5c18b1acaa64d138faed6afae000914292e37a5798abf3d",
+      "harness_sha256": "ff5d246e99fabccdac43c5d8c9f78d1562b7775cba7206299eff7bb3aefbbb9f",
+      "state": "passed"
+    },
+    {
+      "condition": "target_control",
+      "layout_id": 4,
+      "receipt_sha256": "ca3652422e2e0e0302b7e7dbfeaae4a36bc3daddd66eaba7bfb2efcc6be2c22a",
+      "harness_sha256": "ff5d246e99fabccdac43c5d8c9f78d1562b7775cba7206299eff7bb3aefbbb9f",
+      "state": "passed"
+    },
+    {
+      "condition": "target_offset",
+      "layout_id": 0,
+      "receipt_sha256": "7de1edcbfe7a0c204c7b82fc2ebfb237176c924dfb31208ef3982a2974088ea3",
+      "harness_sha256": "e4a15bc297d1606b234d549f548d39380111f7c8e09162ea811a1e806d4c0fa3",
+      "state": "passed"
+    },
+    {
+      "condition": "target_offset",
+      "layout_id": 1,
+      "receipt_sha256": "2171081eb088d254e4cf56461a4ff55834a644ca669e67014ef3d3db1cf4647a",
+      "harness_sha256": "e4a15bc297d1606b234d549f548d39380111f7c8e09162ea811a1e806d4c0fa3",
+      "state": "passed"
+    },
+    {
+      "condition": "target_offset",
+      "layout_id": 2,
+      "receipt_sha256": "ea3cf341e5b38ddc1a764854d5f9895bc96a426419d58f4785c9bc81eb5dad1b",
+      "harness_sha256": "e4a15bc297d1606b234d549f548d39380111f7c8e09162ea811a1e806d4c0fa3",
+      "state": "passed"
+    },
+    {
+      "condition": "target_offset",
+      "layout_id": 3,
+      "receipt_sha256": "d09b5bbfd00ada86c63117315a224e19bb4fe1f225458981ea769e3c23bb2155",
+      "harness_sha256": "e4a15bc297d1606b234d549f548d39380111f7c8e09162ea811a1e806d4c0fa3",
+      "state": "passed"
+    },
+    {
+      "condition": "target_offset",
+      "layout_id": 4,
+      "receipt_sha256": "0b7dc6ea1e5f87e2cb753531142c56f9a77cab3accf6b65a0c7d0b33fe86c794",
+      "harness_sha256": "e4a15bc297d1606b234d549f548d39380111f7c8e09162ea811a1e806d4c0fa3",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 45,
+  "failed_videos": 0,
+  "protocol_sha256": "7f6e6b284948715871f2c560830c5398e2ead95ffac8e11b415b2ecc330d8e9d",
+  "runtime_sha256": "40098d9e719869ecd7567ae4818e04d01f1bf0e6c55bf78df48bc19fff687f02",
+  "elapsed_seconds": 14.438932290002413,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

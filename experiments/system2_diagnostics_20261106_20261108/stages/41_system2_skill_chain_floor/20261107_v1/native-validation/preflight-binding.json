@@ -1,0 +1,10 @@
+{
+  "state": "verified",
+  "runtime_files": 435,
+  "simulator_python": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/simulator-python-validation-v3",
+  "policy_python": "/mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv/bin/python",
+  "native_budget": 1100,
+  "python_source_compiles": true,
+  "lab_gpu_used": false,
+  "api_calls": 0
+}

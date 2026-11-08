@@ -1,0 +1,19 @@
+{
+  "state": "completed_and_archived",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/36_system2_gripper_command_contract/20261107_v1",
+  "cloud_root": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107",
+  "next": "Do not rerun10cases. Continue sibling candidate_capacity_reference_20261107: reference native controller27426, offline queued27651.",
+  "lab_gpu_limit": 1,
+  "lab_gpu_used": false,
+  "launch": {
+    "pid": 12153,
+    "launched_utc": "2026-11-07T05:00:28.176199+00:00",
+    "script": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107/run_native.py",
+    "script_sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81",
+    "planned_cases": 10,
+    "api_calls": 0
+  },
+  "updated_utc": "2026-11-07T05:37:43.968372+00:00",
+  "latest_user_scope": "Analyze current and recent experiments; if scores unchanged investigate starting candidate capacity and continue. No questions while away.",
+  "following_cloud_controller_pid": 27426
+}

@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "inputs/DESIGN.json",
+      "bytes": 1727,
+      "sha256": "6ff6ed1dd208bf28c1bc095d5f7a3cdba32e3591b8b42e5bd16810901b90332d"
+    },
+    {
+      "path": "inputs/candidate.py",
+      "bytes": 5779,
+      "sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a"
+    },
+    {
+      "path": "inputs/offline-contract/summary.json",
+      "bytes": 104300,
+      "sha256": "ce33d1915694bba181d43c71d95111ae27aff822dcfbb5fafe88c3d54e6c6f4c"
+    },
+    {
+      "path": "inputs/proposal.json",
+      "bytes": 7484,
+      "sha256": "968292620e91432520874705e2d5acdef17d153810b06d95a0880afbabb752ea"
+    },
+    {
+      "path": "inputs/protocol.json",
+      "bytes": 3683,
+      "sha256": "64150745266c14c1406b842ad592576a461f8c6f228cb7af94461d958eaf4d32"
+    },
+    {
+      "path": "code/released_waypoints.py",
+      "bytes": 1718,
+      "sha256": "21639d3c67656d12c0ad038b26113a1cd6fc64fb8810ab061afad7bab7f59ac0"
+    },
+    {
+      "path": "code/trajectory_contract.py",
+      "bytes": 5507,
+      "sha256": "48480b640be2c786d4e99e087bb801c32b2cb339eb75a5c4479192a97e26b76e"
+    }
+  ]
+}

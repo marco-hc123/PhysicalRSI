@@ -1,0 +1,83 @@
+{
+  "schema": "physicalrsi.trajectory-contract-diagnostic/v1",
+  "utc": "2026-11-06T06:37:17.089515+00:00",
+  "question": "Does replacing dense waypoint execution with released bounded waypoint selection relieve budget blockage with exactly the same saved candidate?",
+  "selection": {
+    "candidate": "capability_feedback_2",
+    "reason": "Observed3active-budget cancellations in5layouts, no fullsuccess. Mechanistic choice before remainingstage33candidatesfinish, notbestscoreselection.",
+    "design_preparation_utc": "2026-11-06T05:48:46.732077+00:00",
+    "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+    "proposal_sha256": "968292620e91432520874705e2d5acdef17d153810b06d95a0880afbabb752ea"
+  },
+  "previous_stage_index_sha256": "0b8f3d870735c27eca7e5337e477bd3f3e6aad676514fc8f7821977f4fd9979d",
+  "previous_stage_summary_sha256": "71b851466dfe4fc25cefdb3e4db1c32890ecf05aa3686704e61d09db1fbbc2aa",
+  "conditions": [
+    "dense",
+    "released_waypoint_thinning"
+  ],
+  "planned_native_cases": 10,
+  "layouts": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "unique_layouts": 5,
+  "layout_role": "Previously exposed development/diagnostic layouts; no independent generalization",
+  "treatment": {
+    "selector": "Exact released thin_native_path function",
+    "max_joint_step_rad": 0.12,
+    "chord_tolerance_rad": 0.01,
+    "original_native_samples_only": true,
+    "endpoints_preserved": true,
+    "invalid_selection": "Reject and record; no silent dense fallback",
+    "unchanged_primitive_guard_rad": 0.25
+  },
+  "unchanged": [
+    "native1100budget",
+    "taskscoring",
+    "5exposedlayouts",
+    "perception",
+    "fixedgoalpositionandquaternion",
+    "plannerparameters",
+    "gripper6steps",
+    "APIsemantics",
+    "endpoint/state divergence guard.25"
+  ],
+  "new_api_calls": 0,
+  "new_api_budget_usd": 0,
+  "new_training_steps": 0,
+  "new_native_control": true,
+  "historical_cases_recounted": 0,
+  "automatic_policy_promotion": false,
+  "primary_metrics": [
+    "native_score_100",
+    "native_success",
+    "active_execution_budget_cancellation",
+    "completed_approach_count",
+    "stop_reason"
+  ],
+  "secondary_metrics": [
+    "dense_and_selected_planned_waypoints",
+    "completed_primitive_steps",
+    "final_observed_joint_tracking_error",
+    "full_cohort_wall_seconds"
+  ],
+  "limitations": [
+    "This is manual compatibility-adapter diagnosis, notautomaticSystem2policyimprovement.",
+    "Thinning retains native samples andboundedchorddeviation, but static checks do not certify all collision safety or actualgrasp.",
+    "Full releasedskill also hasendpointgates andconeIK; notaddingtheseinthissingle-variabletest.",
+    "Thinning changes execution timing and interpolation; fixed endpoints do not imply identical continuous motion.",
+    "Projected planner rejection does not distinguish IK from collision failure.",
+    "Static geometry is not full collision certification; preserve original robot/table scope and observed-state guards.",
+    "Primitive completed-step totals omit partial cancelled calls; all1100native actions can include post-return holds.",
+    "One preselected candidate, fixed condition order and five reused layouts limit statistical and timing attribution."
+  ],
+  "code_files": {
+    "code/released_waypoints.py": "21639d3c67656d12c0ad038b26113a1cd6fc64fb8810ab061afad7bab7f59ac0",
+    "code/trajectory_contract.py": "48480b640be2c786d4e99e087bb801c32b2cb339eb75a5c4479192a97e26b76e"
+  },
+  "reference_manifest_sha256": "b65265f4bf8c418ec583e070f44dc3240b5efa5c92df1d5f8dcb5db04f6e8c47",
+  "offline_contract_sha256": "ce33d1915694bba181d43c71d95111ae27aff822dcfbb5fafe88c3d54e6c6f4c"
+}

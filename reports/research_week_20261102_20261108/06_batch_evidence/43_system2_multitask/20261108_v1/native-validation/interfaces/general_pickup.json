@@ -1,0 +1,34 @@
+{
+  "execution": "Only scene, reobserve, approach, gripper. Source contains only def policy(robot,memory), no imports, classes, global, nonlocal, async, await, yield, decorators, private attributes, filesystem or network. Finite loops. All admissions use the same explicit AST contract. Returning leads to native bounded hold, not automatic success. Gripper commands persist across subsequent motion.",
+  "geometry": {
+    "gripper_tool_offset_above_contact": 0.125,
+    "minimum_contact_tool_z": 0.92,
+    "quaternion_requirement": "Normalize to unit length using arithmetic; imports unavailable",
+    "table_z": 0.765,
+    "typical_downward_quaternion": {
+      "left": [
+        0.613,
+        -0.3593,
+        0.6163,
+        0.3392
+      ],
+      "right": [
+        0.3814,
+        -0.6197,
+        0.3785,
+        0.572
+      ]
+    },
+    "world_units": "metres"
+  },
+  "methods": {
+    "approach": "robot.approach(arm,position_m,quaternion_wxyz), keyword arguments only. Success returns observed state, NOT physical completion. A trusted pre-action planning rejection returns {primitive_error:\"no_collision_free_path\",state:...}; this call executed zero actions. Other exceptions may follow partial execution and remain fatal/uncertain.",
+    "gripper": "robot.gripper(arm=\"left\" or \"right\", command=0 closed or 1 open) -> observed joints; settling only, no grasp success claim",
+    "reobserve": "robot.reobserve() -> {state: observed joint arrays}; no score",
+    "scene": "robot.scene() returns objects={} if detection empty, otherwise target_1 with highest-confidence instruction-conditioned Grounding DINO detection. XY from calibrated head RGB and nominal plane z=.785m; dims=[.04,.04,.04] are assumptions, not measured shape. No orientation estimate, persistent ID, grasp attachment, actual height or success signal. Instruction matching and detection errors are possible. Use scene at initial rest; moving objects invalidate nominal table-plane XY."
+  },
+  "policy_signature": "def policy(robot, memory)",
+  "scope": "Study-specific transfer of frozen four-primitive interface to general_pickup; manually authored code scaffold is not an official released code skill or pi05.",
+  "semantics": "Pick up the object named in the public task instruction by at least10cm; original native evaluator and200-step action budget unchanged. RGB target query uses the observable instruction.",
+  "task": "general_pickup"
+}

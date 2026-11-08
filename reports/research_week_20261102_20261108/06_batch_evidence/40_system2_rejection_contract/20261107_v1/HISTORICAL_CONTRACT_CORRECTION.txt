@@ -1,0 +1,38 @@
+历史接口与反馈结论更正（保留原始实验，不改分数）
+
+1. 已确认的事实链
+固定官方版本90b322a的code_execution.py直接返回reply['value']。早期复现实验的step4_planning_rejection_setup.py为了满足当时“无路径抛RuntimeError”的描述，增加了后台返回零动作拒绝、子进程再转换成RuntimeError的适配。对应代码保存在framework-validation-v3，不能把这段增加的转换归为固定官方源码原生问题。
+
+后来的能力反馈实验读取后台process.json，其中response.value确实是primitive_error=no_collision_free_path的字典。然而候选并不直接读取这个文件；它先经过子进程_Robot包装。包装会把该字典转成异常，再交给候选。
+
+阶段32的feedback-contract-v2.json有draft_not_applied_to_active_runtime状态，并把当前失败模式描述为“返回字典”。阶段33准备提示词时移除了status等字段，加入“Verified deployed capability clarification...authoritative”的说明，因而给生成候选的说明与真实的候选端行为不一致。历史24个CPU响应夹具也直接返回这个字典，没有经过真实子进程包装。因此，这些夹具只证明“假设得到这种字典时，代码会请求换臂”，没有验证真实部署会提供这种反馈。
+
+2. 本轮怎样确认
+直接提取原生回合保存的root/policy.py中的_Robot类，依次注入原始调用响应，并校验每个请求的方法、参数和序号。阶段39的5回合被准确复现：3回合因没有可选目标返回，2回合因包装层RuntimeError被候选外层except捕获后返回。
+只将这一处异常转换改为return value，两个已保存前缀都请求换另一只手；到没有记录的下一响应处用不能被普通except捕获的边界停止，不编造运动或得分。随后用真实RGB仿真验证这项变化。未知异常、超时和非零动作失败的处理没有放宽。
+
+另一次检查发现，阶段39最初的分析脚本terminal-replay.json遗漏包装层，并用AssertionError停止缺失记录；该异常被候选捕获，导致两个回合的“精确终止重放”标签不成立。原文件保留，driver-contract-replay-v2.json替代其终止解释。阶段38的原目标组也改为“包装异常退出”的准确表述；停止调用及分数不变，offset组的循环上限发现仍有效。
+
+3. 哪些结论保留，哪些结论必须收窄
+保留：真实原生回执、原视频、任务分数、Token/API账目、已发生的动作数量和候选文本均不改变。
+保留：能力反馈候选的源码中包含接触前换臂分支；候选也存在循环覆盖、感知、抓取和后续运输等独立限制。
+收窄：不能把阶段33的低分解释为“提供与实际部署一致的能力反馈仍然无效”，因为此次核查证实了说明与部署不一致。
+收窄：不能把候选没有换臂归因于LLM未生成恢复策略；在所核查的具体回合，策略已有该分支，但接口转换阻止了它运行。
+收窄：不能把这一个适配问题推广为PhysicalRSI通用框架无效，也不能认为修复它就会自动解决其他抓取、放置或覆盖失败。
+
+4. 下一次System2对照必须增加的约束
+以同一份可执行接口定义生成提示词、子进程包装和CPU契约夹具；至少让真实包装处理成功、零动作规划拒绝、未知异常和超时。固定实际部署版本后再生成候选。模型看见的反馈、候选实际收到的反馈以及后台审计记录必须区分。
+先在原生仿真中验证最小抓取—抬升—搬运—释放链，再固定候选数、预算和选择规则重新比较反馈条件。人工修复接口或候选产生的效果，不计作System2自动改进。
+
+证据入口
+provenance/historical_adapter_patch.py
+provenance/upstream-vs-integration.diff
+provenance/attribution.json
+provenance/historical-feedback-contract-v2.json
+provenance/historical-capability-message.txt
+provenance/historical-check_error_contract.py
+provenance/historical-fixture-summary.json
+provenance/historical-evidence-index.json
+../../39_system2_observation_loop/20261107_v1/driver-contract-replay-v2.json
+../../39_system2_observation_loop/20261107_v1/prior-stage38-driver-audit.json
+本阶段的原生结果以FINAL_SUMMARY.json和native-validation/为准。

@@ -1,0 +1,37 @@
+[
+  {
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/task/RoboDojo/tasks/classify_objects.py",
+    "name": "classify_objects.py",
+    "sha256": "aef4333c088766375e21a928d53a9a93aaee285fecae41e22385acdc74dd11ac"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env/reward_manager/func_parser.py",
+    "name": "func_parser.py",
+    "sha256": "eb928a05c3eb6bae429a922c59e64272c2c3851c22d779143d45627e47b3a504"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/env/reward_manager/reward_manager.py",
+    "name": "reward_manager.py",
+    "sha256": "bc56efd3aaa861b4b38960dc4fb7778a9b4da9cf131f815ac3170300dd233a41"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/result/25_system2_integration_20261030T050100Z/integration-sources/native-simulator/utils/transformer.py",
+    "name": "transformer.py",
+    "sha256": "73de4f5e1e0ff60d4f2e1aaf6104368e8f919269facb68b4fa0344d35bc08cbe"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/code/RoboDojo/Assets/Object/RoboDojo/Geometry/basket/00002/metadata.json",
+    "name": "basket_00002.json",
+    "sha256": "8b252bc59e1974e23d68d91b7335d8d1f90f0fc0e744c73563fffccb5f96b35f"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/code/RoboDojo/Assets/Object/RoboDojo/Geometry/basket/00003/metadata.json",
+    "name": "basket_00003.json",
+    "sha256": "03ebee2708b8e7c8ca7389d221817ac5d0a5e4e1cbc6aa5667bcc0100c225f56"
+  },
+  {
+    "source": "/mnt/data/physical-RSI/code/RoboDojo/Assets/Object/RoboDojo/Geometry/basket/00004/metadata.json",
+    "name": "basket_00004.json",
+    "sha256": "fb954a824d7e222749f6f268af6a7b3ad1fe7dc46828786033f9e0db3616c36f"
+  }
+]

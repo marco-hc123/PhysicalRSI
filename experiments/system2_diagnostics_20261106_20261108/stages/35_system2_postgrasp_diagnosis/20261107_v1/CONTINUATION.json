@@ -1,0 +1,47 @@
+{
+  "state": "diagnosis_and81probes_completed",
+  "utc": "2026-11-07T04:31:06.575260+00:00",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1",
+  "execution_root": "/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107",
+  "lab_gpu_limit": 1,
+  "lab_gpu_used": true,
+  "prior_stage34": "sealed; no active project processes at audit",
+  "next": "Inspect81probe groups, freeze evidence-guided native correction. No active GPU job for this project.",
+  "api_calls": 0,
+  "launch": {
+    "pid": 6931,
+    "launched_utc": "2026-11-07T04:42:05.350694+00:00",
+    "script": "/mnt/data/physical-RSI/result/36_postgrasp_diagnosis_20261107/run_native_v2.py",
+    "script_sha256": "637ffd8be021eb47c70bb607fd6023042ea53b7b35ad8dfeb829f209aa8546eb",
+    "planned_cases": 3,
+    "api_calls": 0,
+    "excluded_deployment_attempt": "attempt-001"
+  },
+  "deployment_correction": "Explicit primitive signature and composed native observer hook; first attempt0validcases",
+  "updated_utc": "2026-11-07T04:55:49.015643+00:00",
+  "native_cases": 3,
+  "videos": 9,
+  "scores_100": [
+    0,
+    0,
+    15
+  ],
+  "controller_completed": true,
+  "active_local_watchers": [
+    41563,
+    42228
+  ],
+  "result_manifest_sha256": "d8fb2d403c310893be4b42c109390dbb5f09a75dd99cd248de939331a4d0569a",
+  "selected_lab_gpu_uuid": "GPU-16ecfd7e-5125-c528-1ab7-625967fc01d1",
+  "lab_controller_pid": null,
+  "lab_worker_pid": null,
+  "cloud_gpu_idle": true,
+  "cloud_native_controller_finished": true,
+  "lab_archive": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/native-validation",
+  "lab_report": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/REPORT.txt",
+  "offline_status": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/goal-probes/status.json",
+  "offline_results": "/mnt/data/joey_tr/physical-RSI/result/35_system2_postgrasp_diagnosis/20261107_v1/goal-probes/results.json",
+  "diagnosis": "3native outcomes0,0,15; allfailedtransport plan_pose None; no statusenum available. Source _plan_pose_single givesNone when IK fails allattempts withgraphdisabled; offlineIKloggingwillcorroborate. Layout0objectroot rose2.14cmthenreturnedtable. Morecommandsnotfullsuccess.",
+  "diagnostic_archive_manifest": "d8fb2d403c310893be4b42c109390dbb5f09a75dd99cd248de939331a4d0569a",
+  "local_helpers": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/postgrasp_diagnosis_20261107"
+}

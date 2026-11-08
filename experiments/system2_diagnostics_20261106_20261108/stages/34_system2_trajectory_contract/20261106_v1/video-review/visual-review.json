@@ -1,0 +1,14 @@
+{
+  "state": "reviewed",
+  "utc": "2026-11-06T07:22:17.045163+00:00",
+  "frames": 4,
+  "layouts": [
+    1,
+    4
+  ],
+  "conditions": [
+    "dense",
+    "released_waypoint_thinning"
+  ],
+  "finding": "Frames intact; visible arm/object configuration changes. Receipts remain0/15 andfalse success. No grasp/contact/drop causality inferred from final stills."
+}

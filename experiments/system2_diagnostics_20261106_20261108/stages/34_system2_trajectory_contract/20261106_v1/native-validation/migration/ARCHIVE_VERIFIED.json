@@ -1,0 +1,14 @@
+{
+  "state": "verified",
+  "utc": "2026-11-06T07:17:01.487503+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/35_trajectory_contract_20261106",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/34_system2_trajectory_contract/20261106_v1/native-validation",
+  "verified_files": 7996,
+  "logical_bytes": 520976515,
+  "manifest_sha256": "4c14ca7a356c31e715fa6851b5bd5b0cf25514c789ad1fbf64ced3a9325ff553",
+  "native_cases": 10,
+  "videos": 30,
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "transfer_verified_in_batches": true
+}

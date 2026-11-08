@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-11-07T09:11:43.398402+00:00",
+  "timing": "Declared before reading current outcome tables",
+  "source_association": {
+    "max_xy_distance_m": 0.05,
+    "min_runnerup_margin_m": 0.01
+  },
+  "lift_proxy": {
+    "min_root_rise_m": 0.02,
+    "scope": "Necessary kinematic evidence, not contact-force proof"
+  },
+  "transport_proxy": {
+    "min_xy_displacement_m": 0.05,
+    "max_object_vs_ee_delta_residual_m": 0.04,
+    "scope": "Kinematic co-motion, affected by object rotation"
+  },
+  "delivery": {
+    "method": "Frozen native object-root inside basket plus original bbox height predicate",
+    "settle_z_threshold_m": 0.01,
+    "last_snapshots": 10,
+    "source_initially_inside": false,
+    "release_required": true
+  },
+  "complete_chain_proxy": "Qualified selected source, lift proxy, executed transport, commanded release, matching target basket final settled containment. Separately report co-motion; unknown associations remain unknown.",
+  "limitations": [
+    "Thresholds are diagnostic definitions, not official task score.",
+    "Native full success stays taken from original episode receipt.",
+    "Reference may fail before first transfer; keep denominator five layouts.",
+    "Same-interface causality is not established by richer reference skill."
+  ]
+}

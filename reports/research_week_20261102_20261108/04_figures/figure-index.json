@@ -1,0 +1,83 @@
+[
+  {
+    "id": "F01_feedback_partial",
+    "title": "增强反馈出现有限部分分",
+    "source": "B31; derived/cohort_results_pre43.json",
+    "limitation": "每候选仅5个已暴露布局，不能视为独立泛化。",
+    "svg": "F01_feedback_partial.svg",
+    "png": "F01_feedback_partial.png",
+    "data": "F01_feedback_partial.data.json"
+  },
+  {
+    "id": "F02_process_vs_score",
+    "title": "过程修正与任务得分分开报告",
+    "source": "B34/B36/B40 FINAL_SUMMARY.json",
+    "limitation": "三个面板属于不同阶段，单位与执行条件不同；B40对照复用B39。",
+    "svg": "F02_process_vs_score.svg",
+    "png": "F02_process_vs_score.png",
+    "data": "F02_process_vs_score.data.json"
+  },
+  {
+    "id": "F03_nov7_score_matrix",
+    "title": "11月7日逐布局结果",
+    "source": "B42 original native receipts; derived/cohort_results_pre43.json",
+    "limitation": "独立布局与开发ID相同但场景不同；未准入候选不填0。",
+    "svg": "F03_nov7_score_matrix.svg",
+    "png": "F03_nov7_score_matrix.png",
+    "data": "F03_nov7_score_matrix.data.json"
+  },
+  {
+    "id": "F04_generation_input",
+    "title": "候选生成输入Token",
+    "source": "derived/api_by_condition.json; provider usage",
+    "limitation": "跨批次反馈、模型推理设置与协议有差异；不可按时间作因果趋势。",
+    "svg": "F04_generation_input.svg",
+    "png": "F04_generation_input.png",
+    "data": "F04_generation_input.data.json"
+  },
+  {
+    "id": "F05_system2_evidence_chain",
+    "title": "System2证据链",
+    "source": "Frozen protocols B29/B42/B43",
+    "limitation": "概念流程图；不是声称已完成官方全量benchmark。",
+    "svg": "F05_system2_evidence_chain.svg",
+    "png": "F05_system2_evidence_chain.png",
+    "data": "F05_system2_evidence_chain.data.json"
+  },
+  {
+    "id": "F06_wrapper_correction",
+    "title": "已确认的适配层问题",
+    "source": "B40 HISTORICAL_CONTRACT_CORRECTION.txt and FINAL_SUMMARY.json",
+    "limitation": "修复恢复分支不等于完成抓取，也不证明PhysicalRSI通用框架有同一错误。",
+    "svg": "F06_wrapper_correction.svg",
+    "png": "F06_wrapper_correction.png",
+    "data": "F06_wrapper_correction.data.json"
+  },
+  {
+    "id": "F07_classify_objects_multitask",
+    "title": "分类任务的开发与独立布局结果",
+    "source": "B43 FINAL_SUMMARY and each phase analysis/summary.json",
+    "limitation": "每split计划五布局。N/A为中断缺失原生终态分数，不填0；success分母仅完整评分回合。独立布局不用于选策略，共享父策略不重复执行。抓取要求抬升10cm，不等于分类搬运。",
+    "svg": "F07_classify_objects_multitask.svg",
+    "png": "F07_classify_objects_multitask.png",
+    "data": "F07_classify_objects_multitask.data.json"
+  },
+  {
+    "id": "F08_general_pickup_multitask",
+    "title": "抓取任务的开发与独立布局结果",
+    "source": "B43 FINAL_SUMMARY and each phase analysis/summary.json",
+    "limitation": "每split计划五布局。N/A为中断缺失原生终态分数，不填0；success分母仅完整评分回合。独立布局不用于选策略，共享父策略不重复执行。抓取要求抬升10cm，不等于分类搬运。",
+    "svg": "F08_general_pickup_multitask.svg",
+    "png": "F08_general_pickup_multitask.png",
+    "data": "F08_general_pickup_multitask.data.json"
+  },
+  {
+    "id": "F09_multitask_stop_patterns",
+    "title": "多任务候选的停止模式",
+    "source": "B43原始RPC、native回执和同主机单调时间对应；见mechanism-audit.json",
+    "limitation": "每组3候选×相同5开发布局；不是15个独立生成样本。正常return不等于成功，成功也会终止活动动作。这是停止现象，不是根因证明；未包含父策略及独立布局中断。",
+    "svg": "F09_multitask_stop_patterns.svg",
+    "png": "F09_multitask_stop_patterns.png",
+    "data": "F09_multitask_stop_patterns.data.json"
+  }
+]

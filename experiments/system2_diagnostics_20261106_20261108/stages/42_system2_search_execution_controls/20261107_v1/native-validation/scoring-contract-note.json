@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-07T10:19:02.066411+00:00",
+  "source": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107/scoring-reference/classify_objects.py",
+  "verified_from_frozen_source": true,
+  "score_contract": {
+    "score_levels_100": [
+      15,
+      40,
+      100
+    ],
+    "all_grippers_open_threshold": 0.8,
+    "category_group": "All objects of a category inside and settled in one basket, with other categories excluded; one/two/three completed basket groups",
+    "full_success_additional_requirement": "all_robot_back_to_origin() is in run_reward",
+    "temporal_semantics": "Transition scoring: retained latest reached state; each native step tests only the next transition and advances at most one state. It is NOT a recomputed final-frame group count."
+  },
+  "interpretation": [
+    "Physical delivery of one object does not guarantee partial score when other same-category objects remain outside.",
+    "Both grippers must pass the open threshold WHEN a score transition is checked. Later gripper closure does not erase an already reached transition score. Final gripper state alone cannot explain the episode score.",
+    "The four RPC methods do not expose a home/return-to-origin operation; code candidates may not be equipped to satisfy full-success conditions from the documented API alone. This is a capability/contract limitation to inspect, not proof that all primitive use is impossible."
+  ],
+  "policy_or_reward_changed": false,
+  "use": "Add explicit public completion requirements to later feedback only after stage1 frozen comparison finishes; do not alter current sampling requests.",
+  "updated_utc": "2026-11-07T10:31:39.717860+00:00"
+}

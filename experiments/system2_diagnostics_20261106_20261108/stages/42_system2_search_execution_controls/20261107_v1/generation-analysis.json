@@ -1,0 +1,101 @@
+{
+  "state": "completed",
+  "calls": 5,
+  "unique_request_hashes": 1,
+  "unique_source_hashes": 5,
+  "estimated_total_usd": 0.45250029999999997,
+  "rows": [
+    {
+      "id": "sample_01",
+      "source_sha256": "43ec7316d8ddfdf4a3e67c349caba3437b787b4b6bd8924bc6c22466f917108b",
+      "input_tokens": 3010,
+      "output_tokens": 8822,
+      "total_tokens": 11832,
+      "cached_input_subset": 0,
+      "reasoning_output_subset": 5633,
+      "estimated_usd": 0.0957435,
+      "seconds": 151.07144743204117,
+      "source_lines": 220,
+      "range_expressions": [
+        "range(1, segments + 1)",
+        "range(12)",
+        "range(len(anchors))"
+      ],
+      "rationale": "This revision addresses the reported shallow retention, transit loss, and release-offset problems through deeper nominal contact targeting, short level transfers, basket-relative interior placement, and a retreat before fresh perception. A small exact assignment prioritizes preserving existing groups, while twelve bounded cycles allow more than six objects. Planning alternatives are restricted to explicit zero-execution rejections; uncertain execution stops the policy. Primitive completion and visual heuristics are not treated as proof of grasp or delivery.",
+      "model_returned": "gpt-6.1-sol"
+    },
+    {
+      "id": "sample_02",
+      "source_sha256": "fbbbd5cc6b0162f3ee76d30cc60df5e7d60c21a9ddf8343f8856c4ceb091c571",
+      "input_tokens": 3010,
+      "output_tokens": 9936,
+      "total_tokens": 12946,
+      "cached_input_subset": 3007,
+      "reasoning_output_subset": 6656,
+      "estimated_usd": 0.0996667,
+      "seconds": 162.17054336331785,
+      "source_lines": 222,
+      "range_expressions": [
+        "range(16)"
+      ],
+      "rationale": "This policy addresses the reported failure modes without treating development observations as hidden-state inputs. It changes top-surface grasp targeting to nominal centre-depth targeting, adds bounded stationary gripper settling, separates rim-clearing transport from low release, and removes unconditional destination offsets. Placement candidates remain inside observed basket geometry and account for visible occupants. A small assignment optimizer reduces unnecessary moves, while fresh RGB reassociation and bounded retries support tasks exceeding six objects. Explicit no-path rejections permit limited alternatives; uncertain execution ends the policy without speculative manipulation. These are proposed repairs for independent evaluation, not evidence of task success.",
+      "model_returned": "gpt-6.1-sol"
+    },
+    {
+      "id": "sample_03",
+      "source_sha256": "c68a2a59e65bcdb1aea058c6b5695103b3fdaed8c3c3d113fdbd4d82b89c04ac",
+      "input_tokens": 3010,
+      "output_tokens": 9397,
+      "total_tokens": 12407,
+      "cached_input_subset": 3007,
+      "reasoning_output_subset": 6147,
+      "estimated_usd": 0.09427669999999999,
+      "seconds": 161.53108782693744,
+      "source_lines": 236,
+      "range_expressions": [
+        "range(12)",
+        "range(len(baskets))"
+      ],
+      "rationale": "This policy addresses the reported failure modes with additional closed-gripper settling, shorter long-distance transfers, destination hovering followed by a separate release descent, and open settling before retreat. It removes fixed world-frame release offsets and spaces repeated placements within observed basket interiors. A bounded assignment calculation reduces unnecessary transfers, while fresh category-and-position reassociation permits limited recovery without trusting instance names or nominal height. All physical actions use the supplied public API, and uncertain execution ends the policy without further manipulation.",
+      "model_returned": "gpt-6.1-sol"
+    },
+    {
+      "id": "sample_04",
+      "source_sha256": "7c37ae512cdbf98ea1834b381fd93d2a65a5d2bf73480cfc968890184f27a0fc",
+      "input_tokens": 3010,
+      "output_tokens": 8303,
+      "total_tokens": 11313,
+      "cached_input_subset": 3007,
+      "reasoning_output_subset": 5052,
+      "estimated_usd": 0.0833367,
+      "seconds": 142.08112462423742,
+      "source_lines": 235,
+      "range_expressions": [
+        "range(min(12, len(items) + 4))",
+        "range(len(baskets))"
+      ],
+      "rationale": "This policy addresses the reported carrying and release issues with a deeper nominal grasp target, additional closed-gripper settling, an optional intermediate transport waypoint, and a separate centered descent to the supplied release height. It avoids the previous fixed destination offsets and clears the basket before obtaining another scene. A bounded global assignment favors preserving existing category groups, while fresh spatial matching and limited source-region attempts support more than six cycles without treating frame-local names or nominal Z as physical verification. Recovery is restricted to explicit zero-execution path rejections; uncertain execution ends the policy without changing the gripper. These are proposed repairs, not a claim of successful sorting.",
+      "model_returned": "gpt-6.1-sol"
+    },
+    {
+      "id": "sample_05",
+      "source_sha256": "a3a33597011f37a2a061941db81a769b3422294efaefba6dfeadaedf6821331a",
+      "input_tokens": 3010,
+      "output_tokens": 7917,
+      "total_tokens": 10927,
+      "cached_input_subset": 3007,
+      "reasoning_output_subset": 5120,
+      "estimated_usd": 0.0794767,
+      "seconds": 134.09159144759178,
+      "source_lines": 197,
+      "range_expressions": [
+        "range(16)",
+        "range(len(anchors))",
+        "range(len(anchors))"
+      ],
+      "rationale": "The policy addresses the reported failure modes with deeper nominal contact, additional gripper settling, elevated transport, centered vertical release, and vertical withdrawal. A bounded assignment search prioritizes fewer visible relocations before transport distance. Fresh RGB reassociation and a larger finite cycle bound replace persistent-name assumptions and the six-cycle limit. Explicit path rejection allows limited alternatives; uncertain execution ends the policy. No primitive result or visual heuristic is treated as proof of task success.",
+      "model_returned": "gpt-6.1-sol"
+    }
+  ],
+  "native_scores": "Not yet measured for these candidates; generation success is not physical success."
+}

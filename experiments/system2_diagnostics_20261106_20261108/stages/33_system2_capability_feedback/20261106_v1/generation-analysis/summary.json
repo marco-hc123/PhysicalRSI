@@ -1,0 +1,44 @@
+{
+  "state": "completed",
+  "utc": "2026-11-06T04:38:44.856188+00:00",
+  "arms": [
+    {
+      "arm": "legacy_feedback",
+      "generation_calls": 3,
+      "mean_input": 15316,
+      "mean_output": 2193,
+      "mean_total": 17509,
+      "mean_api_seconds": 26.679284686222672,
+      "estimated_usd": 0.1071531,
+      "dynamic_lift_guards": 0,
+      "bounded_no_path_fallbacks": 0
+    },
+    {
+      "arm": "capability_feedback",
+      "generation_calls": 3,
+      "mean_input": 15755,
+      "mean_output": 2389,
+      "mean_total": 18144,
+      "mean_api_seconds": 28.390337683881324,
+      "estimated_usd": 0.0774672,
+      "dynamic_lift_guards": 0,
+      "bounded_no_path_fallbacks": 3
+    }
+  ],
+  "exact_shared_messages_equal": true,
+  "additional_treatment_input_tokens": 439,
+  "additional_input_percent": 2.8662836249673473,
+  "paid_generation_calls": 6,
+  "estimated_total_usd": 0.1846203,
+  "previous_reviewed_api_estimate_usd": 0.1932249,
+  "cumulative_reviewed_api_estimate_usd": 0.3778452,
+  "combined_conservative_reserve_usd": 5.659308,
+  "native_outcomes": "Pending; source inspection is not a performance conclusion.",
+  "limitations": [
+    "Fixed balanced generation order, not paired deterministic seeds.",
+    "Cache warmth differs by request order; cost/latency difference is not an isolated feedback effect.",
+    "Three generated candidates per arm; five exposed native layouts per candidate, not independent scene samples.",
+    "Both groups independently remove the earlier lift guard; any such change cannot be credited solely to capability treatment.",
+    "Exact generated memory is bound, but all six sources currently do not read the memory parameter."
+  ]
+}

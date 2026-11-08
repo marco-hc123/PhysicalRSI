@@ -1,0 +1,50 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T09:26:12.859789+00:00",
+  "valid_native_cases": 5,
+  "receipt_checks": [
+    {
+      "condition": "single_cycle",
+      "layout_id": 0,
+      "receipt_sha256": "c4d8266709b417adca53efcd24c10856176d115b95f2cb6e94b07fa96515e3a4",
+      "harness_sha256": "b3df3b4d548dfc967a7bcf371eb0b0fe56ab292bf2acc906d64de366210d8740",
+      "state": "passed"
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 1,
+      "receipt_sha256": "a54bc1f3bd24879aef48c68f24b073266b6900bca98ab7b0d23a640bf15d7c87",
+      "harness_sha256": "b3df3b4d548dfc967a7bcf371eb0b0fe56ab292bf2acc906d64de366210d8740",
+      "state": "passed"
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 2,
+      "receipt_sha256": "3fddb5c27203fccb01ec0599ee15308609973f843bb9a8198c9ad98c087aeb46",
+      "harness_sha256": "b3df3b4d548dfc967a7bcf371eb0b0fe56ab292bf2acc906d64de366210d8740",
+      "state": "passed"
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 3,
+      "receipt_sha256": "ea29b814d383f6e4be094bc018d35c7ec2a06c7c9a828a19d33f1508834ad210",
+      "harness_sha256": "b3df3b4d548dfc967a7bcf371eb0b0fe56ab292bf2acc906d64de366210d8740",
+      "state": "passed"
+    },
+    {
+      "condition": "single_cycle",
+      "layout_id": 4,
+      "receipt_sha256": "8dc185fef637ed940dc2c6acd217636850b97b4daf4e2c38f8e4bd5abb2d829d",
+      "harness_sha256": "b3df3b4d548dfc967a7bcf371eb0b0fe56ab292bf2acc906d64de366210d8740",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 15,
+  "failed_videos": 0,
+  "protocol_sha256": "b78df85684a6450ceb80eee14a1cbd51206275e4b3faf0af8ca6a3d5ecf754a2",
+  "runtime_sha256": "34e22642c20e427b5c2405aa2dc015ea1661f63fee8981606c916cd29dfb6aa7",
+  "elapsed_seconds": 4.487211349998688,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

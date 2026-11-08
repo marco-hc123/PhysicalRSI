@@ -1,0 +1,12 @@
+{
+  "state": "skipped_before_cuda_initialization",
+  "solver_calls": 0,
+  "native_cases": 0,
+  "reason": "Both devices had non-project compute processes; neither process was modified",
+  "local_controller_pid": 1787980,
+  "selected_gpu_limit": 1,
+  "lab_gpu_used": false,
+  "next_execution_root": "/mnt/data/physical-RSI/result/39_destination_feasibility_20261107",
+  "next_controller_pid": 22626,
+  "utc": "2026-11-07T05:28:01.450165+00:00"
+}

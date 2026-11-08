@@ -1,0 +1,664 @@
+{
+  "state": "completed",
+  "utc": "2026-11-06T04:02:56.179339+00:00",
+  "accounting": {
+    "new_native_cases": 20,
+    "new_native_cohorts": 4,
+    "unique_exposed_layouts": 5,
+    "new_raw_videos": 60,
+    "historical_35_native_cases_reused_for_context": 35,
+    "historical_cases_not_counted_as_new": true,
+    "cpu_recorded_prefix_replays": 45,
+    "solver_probes": 63,
+    "saved_trajectories_static_checks": 24,
+    "perception_reader_calls": 4,
+    "additional_full_frame_detector_probes": 2,
+    "new_paid_api_calls": 0,
+    "new_paid_api_cost_usd": 0,
+    "new_generated_candidates": 0,
+    "training_steps": 0,
+    "policy_promotions": 0,
+    "note": "Do not add offline replays, model inference probes, historical reuse or video count to robot sample count."
+  },
+  "cohorts": [
+    {
+      "batch": "lift_guard",
+      "condition": "original",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 0.0,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wall_seconds": 1041.656390518,
+      "accepted_approaches": 15,
+      "incomplete_approaches": 0,
+      "step_limit_cancellations": 0,
+      "source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/analysis/matrix-analysis.json"
+    },
+    {
+      "batch": "lift_guard",
+      "condition": "bypass_lift_guard",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "wall_seconds": 1026.192879172,
+      "accepted_approaches": 18,
+      "incomplete_approaches": 0,
+      "step_limit_cancellations": 0,
+      "source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/analysis/matrix-analysis.json"
+    },
+    {
+      "batch": "retreat_destination",
+      "condition": "bypass_lift_guard",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "wall_seconds": 1038.156095802,
+      "accepted_approaches": 18,
+      "incomplete_approaches": 0,
+      "step_limit_cancellations": 0,
+      "source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/analysis/matrix-analysis.json"
+    },
+    {
+      "batch": "retreat_destination",
+      "condition": "return_to_clearance",
+      "cases": 5,
+      "successes": 0,
+      "mean_score_100": 3.0,
+      "scores_by_layout_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "wall_seconds": 1033.0282441529998,
+      "accepted_approaches": 18,
+      "incomplete_approaches": 3,
+      "step_limit_cancellations": 3,
+      "source": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/analysis/matrix-analysis.json"
+    }
+  ],
+  "followup_per_layout": [
+    {
+      "layout": 0,
+      "earlier_bypass_score_100": 0.0,
+      "fresh_bypass_score_100": 0.0,
+      "return_score_100": 0.0,
+      "fresh_difference_100": 0.0,
+      "earlier_vs_repeat_difference_100": 0.0,
+      "fresh_bypass_success": false,
+      "return_success": false
+    },
+    {
+      "layout": 1,
+      "earlier_bypass_score_100": 0.0,
+      "fresh_bypass_score_100": 0.0,
+      "return_score_100": 0.0,
+      "fresh_difference_100": 0.0,
+      "earlier_vs_repeat_difference_100": 0.0,
+      "fresh_bypass_success": false,
+      "return_success": false
+    },
+    {
+      "layout": 2,
+      "earlier_bypass_score_100": 0.0,
+      "fresh_bypass_score_100": 0.0,
+      "return_score_100": 0.0,
+      "fresh_difference_100": 0.0,
+      "earlier_vs_repeat_difference_100": 0.0,
+      "fresh_bypass_success": false,
+      "return_success": false
+    },
+    {
+      "layout": 3,
+      "earlier_bypass_score_100": 0.0,
+      "fresh_bypass_score_100": 0.0,
+      "return_score_100": 0.0,
+      "fresh_difference_100": 0.0,
+      "earlier_vs_repeat_difference_100": 0.0,
+      "fresh_bypass_success": false,
+      "return_success": false
+    },
+    {
+      "layout": 4,
+      "earlier_bypass_score_100": 15.0,
+      "fresh_bypass_score_100": 15.0,
+      "return_score_100": 15.0,
+      "fresh_difference_100": 0.0,
+      "earlier_vs_repeat_difference_100": 0.0,
+      "fresh_bypass_success": false,
+      "return_success": false
+    }
+  ],
+  "followup_actor_details": [
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 3,
+      "mapping_qualified": true,
+      "rpc_calls": 11,
+      "rejected_approaches": 1,
+      "accepted_approaches": 4,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_steps": 942,
+      "first_error": "no_collision_free_path",
+      "call10": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.2940415662916096,
+              0.028174751231929474,
+              1.07
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "response": {
+          "id": 10,
+          "value": {
+            "primitive_error": "no_collision_free_path",
+            "state": {
+              "left_arm_joint_state": [
+                -0.011092127300798893,
+                2.6521432399749756,
+                2.901864528656006,
+                -1.8471088409423828,
+                0.010268797166645527,
+                0.5267342329025269
+              ],
+              "left_ee_joint_state": [
+                1.0
+              ],
+              "right_arm_joint_state": [
+                1.2967457108103986e-09,
+                -1.3693356344657293e-12,
+                4.274499591089276e-13,
+                7.805633309848625e-13,
+                -1.522191928060579e-09,
+                -1.1006825673121057e-08
+              ],
+              "right_ee_joint_state": [
+                1.0
+              ]
+            }
+          }
+        },
+        "state": "completed"
+      },
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/d8a020b3028a4791af855d50278c3642/0/policy/processes/isolated/process.json",
+      "sha256": "6a498d3691703bc65715eb7c35981c015054aad5dfa92b93d7fba01f93e461d1"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 1,
+      "mapping_qualified": true,
+      "rpc_calls": 11,
+      "rejected_approaches": 1,
+      "accepted_approaches": 4,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_steps": 922,
+      "first_error": "no_collision_free_path",
+      "call10": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.2938957412919558,
+              0.027925412746087397,
+              1.07
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "response": {
+          "id": 10,
+          "value": {
+            "primitive_error": "no_collision_free_path",
+            "state": {
+              "left_arm_joint_state": [
+                -0.011403964832425117,
+                2.6531028747558594,
+                2.904208183288574,
+                -1.8485469818115234,
+                0.010276933200657368,
+                0.5264256596565247
+              ],
+              "left_ee_joint_state": [
+                1.0
+              ],
+              "right_arm_joint_state": [
+                1.2692277229220394e-09,
+                -1.3402889909031046e-12,
+                4.1837440087864886e-13,
+                7.64006533818945e-13,
+                -1.4898977607202823e-09,
+                -1.0773092640192772e-08
+              ],
+              "right_ee_joint_state": [
+                1.0
+              ]
+            }
+          }
+        },
+        "state": "completed"
+      },
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/29f199ea7a9e42f2945795fd54c43412/0/policy/processes/isolated/process.json",
+      "sha256": "1eede523180820bb7ff0b69645d66a20f1d6a8456ce6dce58f0f942038a4de98"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 4,
+      "mapping_qualified": true,
+      "rpc_calls": 11,
+      "rejected_approaches": 1,
+      "accepted_approaches": 4,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_steps": 942,
+      "first_error": "no_collision_free_path",
+      "call10": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.293967611609165,
+              0.028074764162078103,
+              1.07
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "response": {
+          "id": 10,
+          "value": {
+            "primitive_error": "no_collision_free_path",
+            "state": {
+              "left_arm_joint_state": [
+                -0.011248363181948662,
+                2.6523935794830322,
+                2.9025354385375977,
+                -1.8475481271743774,
+                0.010272886604070663,
+                0.526578426361084
+              ],
+              "left_ee_joint_state": [
+                1.0
+              ],
+              "right_arm_joint_state": [
+                1.2967457108103986e-09,
+                -1.3693356344657293e-12,
+                4.274499591089276e-13,
+                7.805633309848625e-13,
+                -1.522191928060579e-09,
+                -1.1006825673121057e-08
+              ],
+              "right_ee_joint_state": [
+                1.0
+              ]
+            }
+          }
+        },
+        "state": "completed"
+      },
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/60728e9035e5424491f6eabe3e831eff/0/policy/processes/isolated/process.json",
+      "sha256": "135f317ea7091d163e3f820b3e7aae2d1d8d0f9a6095f548186d8426ca513023"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 2,
+      "mapping_qualified": true,
+      "rpc_calls": 9,
+      "rejected_approaches": 1,
+      "accepted_approaches": 3,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_steps": 635,
+      "first_error": "no_collision_free_path",
+      "call10": null,
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/070ccef51fa84037a575e1a0b205b5d3/0/policy/processes/isolated/process.json",
+      "sha256": "369f3196ba34091592257ec1a74ee6c231220808ae6ef12cf818a00c9899eb35"
+    },
+    {
+      "condition": "bypass_lift_guard",
+      "layout": 0,
+      "mapping_qualified": true,
+      "rpc_calls": 9,
+      "rejected_approaches": 1,
+      "accepted_approaches": 3,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_steps": 655,
+      "first_error": "no_collision_free_path",
+      "call10": null,
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/469e01f3cb274848b662d4f031bb926b/0/policy/processes/isolated/process.json",
+      "sha256": "7029814e0129469d085bb693f688458966b835a44a45c9a12f262fb3e8ec4d4e"
+    },
+    {
+      "condition": "return_to_clearance",
+      "layout": 0,
+      "mapping_qualified": true,
+      "rpc_calls": 9,
+      "rejected_approaches": 1,
+      "accepted_approaches": 3,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_steps": 655,
+      "first_error": "no_collision_free_path",
+      "call10": null,
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/model/expert/0502b19cc7424692bc0c327b38d28408/0/policy/processes/isolated/process.json",
+      "sha256": "2862033970fa32c29bf30a8cf5ddde93432dbf966f7f98f3197c820decc1d285"
+    },
+    {
+      "condition": "return_to_clearance",
+      "layout": 4,
+      "mapping_qualified": true,
+      "rpc_calls": 11,
+      "rejected_approaches": 0,
+      "accepted_approaches": 4,
+      "incomplete_approaches": 1,
+      "native_step_limit_cancelled": true,
+      "completed_primitive_steps": 942,
+      "first_error": null,
+      "call10": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.18270146329417936,
+              -0.15970401674189943,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "state": "started"
+      },
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/model/expert/d34f4df5c0034a4991e321a79181a271/0/policy/processes/isolated/process.json",
+      "sha256": "38bde15ec1387c59211a8ce9d5c1ae71cb792169aa8be601fb09489a9f7d98dc",
+      "retreat_target_equals_prior_clearance": true
+    },
+    {
+      "condition": "return_to_clearance",
+      "layout": 3,
+      "mapping_qualified": true,
+      "rpc_calls": 11,
+      "rejected_approaches": 0,
+      "accepted_approaches": 4,
+      "incomplete_approaches": 1,
+      "native_step_limit_cancelled": true,
+      "completed_primitive_steps": 942,
+      "first_error": null,
+      "call10": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.2166843666784748,
+              -0.1301978206705937,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "state": "started"
+      },
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/model/expert/0bc763aae1734f679771993b1879359e/0/policy/processes/isolated/process.json",
+      "sha256": "6cfd7bba7b4e7ab6c3a96c2d5264f2b2afb7c63469bfb29915565be896267541",
+      "retreat_target_equals_prior_clearance": true
+    },
+    {
+      "condition": "return_to_clearance",
+      "layout": 2,
+      "mapping_qualified": true,
+      "rpc_calls": 9,
+      "rejected_approaches": 1,
+      "accepted_approaches": 3,
+      "incomplete_approaches": 0,
+      "native_step_limit_cancelled": false,
+      "completed_primitive_steps": 635,
+      "first_error": "no_collision_free_path",
+      "call10": null,
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/model/expert/98b3df2b0ead4fef8ac283a54f0ebf73/0/policy/processes/isolated/process.json",
+      "sha256": "fbf4f3ad41efcab2d8c070e97b3be729698e96c1b8c2b6111c68968fac25ec1b"
+    },
+    {
+      "condition": "return_to_clearance",
+      "layout": 1,
+      "mapping_qualified": true,
+      "rpc_calls": 11,
+      "rejected_approaches": 0,
+      "accepted_approaches": 4,
+      "incomplete_approaches": 1,
+      "native_step_limit_cancelled": true,
+      "completed_primitive_steps": 922,
+      "first_error": null,
+      "call10": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.2687196887159937,
+              -0.09337519337838535,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "state": "started"
+      },
+      "call11": null,
+      "record": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation/native-campaign/runs/return_to_clearance/attempt-001/model/expert/06cb73e4c449406c82cabb8b15987f0d/0/policy/processes/isolated/process.json",
+      "sha256": "b684a6a0041e67e01b73c0f542ef29fe6c0c53df75339ea88587ac8ed880175a",
+      "retreat_target_equals_prior_clearance": true
+    }
+  ],
+  "prediction_checks": [
+    {
+      "layout": 1,
+      "predicted_min_steps": 1203,
+      "actual_step_limit_cancellation": true,
+      "actual_incomplete_approaches": 1,
+      "actual_retreat_call": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.2687196887159937,
+              -0.09337519337838535,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "state": "started"
+      },
+      "next_call_exists": false,
+      "interpretation": "Use native receipts and pending-call evidence together; task reaching1100 alone does not establish actor budget exhaustion."
+    },
+    {
+      "layout": 3,
+      "predicted_min_steps": 1243,
+      "actual_step_limit_cancellation": true,
+      "actual_incomplete_approaches": 1,
+      "actual_retreat_call": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.2166843666784748,
+              -0.1301978206705937,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "state": "started"
+      },
+      "next_call_exists": false,
+      "interpretation": "Use native receipts and pending-call evidence together; task reaching1100 alone does not establish actor budget exhaustion."
+    },
+    {
+      "layout": 4,
+      "predicted_min_steps": 1243,
+      "actual_step_limit_cancellation": true,
+      "actual_incomplete_approaches": 1,
+      "actual_retreat_call": {
+        "request": {
+          "args": [],
+          "id": 10,
+          "kind": "call",
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.18270146329417936,
+              -0.15970401674189943,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          },
+          "method": "approach"
+        },
+        "state": "started"
+      },
+      "next_call_exists": false,
+      "interpretation": "Use native receipts and pending-call evidence together; task reaching1100 alone does not establish actor budget exhaustion."
+    }
+  ],
+  "archives": [
+    {
+      "state": "verified",
+      "utc": "2026-11-06T03:20:00.209632+00:00",
+      "source_root": "/mnt/data/physical-RSI/result/32_lift_gate_validation_20261106",
+      "destination": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation",
+      "verified_files": 7798,
+      "logical_bytes": 517481331,
+      "manifest_sha256": "69a71543f3cd03f7c0199c6ba80ce03209e16b62f1a3fd2a3a4923be85edec59",
+      "native_cases": 10,
+      "videos": 30,
+      "new_api_calls": 0,
+      "lab_gpu_used": false
+    },
+    {
+      "state": "verified",
+      "utc": "2026-11-06T04:02:24.081283+00:00",
+      "source_root": "/mnt/data/physical-RSI/result/33_retreat_recovery_20261106",
+      "destination": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/retreat-followup/native-validation",
+      "verified_files": 7793,
+      "logical_bytes": 519282682,
+      "manifest_sha256": "eb81e076cf6f12b0d9793362d2abd68f908ea4a17f6ea48516222538fa2b26cf",
+      "native_cases": 10,
+      "videos": 30,
+      "new_api_calls": 0,
+      "lab_gpu_used": false
+    }
+  ],
+  "scope": "Manual sequential mechanism diagnostics on a frozen deployment and exposed layouts; not full benchmark or autonomous System2 improvement."
+}

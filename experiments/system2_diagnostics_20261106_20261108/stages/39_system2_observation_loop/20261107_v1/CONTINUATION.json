@@ -1,0 +1,25 @@
+{
+  "state": "completed_archived_reviewed",
+  "updated_utc": "2026-11-07T07:03:16.486146+00:00",
+  "goal": "Loop-bound pilot plus actual-wrapper termination diagnosis",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/39_system2_observation_loop/20261107_v1",
+  "cloud_root": "/mnt/data/physical-RSI/result/41_observation_loop_20261107",
+  "completed": "5native,15videos,12offlineplanning probes,exact-wrapper replay andupstream attribution",
+  "native_controller_completed": 49685,
+  "watcher_completed": 47166,
+  "analysis_completed": 47368,
+  "active_stage": "40_system2_rejection_contract/20261107_v1",
+  "next": "Monitorstage40;do not rerun39",
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "lab_gpu_limit": 1,
+  "reports": [
+    "INTERPRETATION.txt",
+    "RESEARCH_PROGRESS_REVIEW.txt",
+    "driver-contract-replay-v2.json"
+  ],
+  "unresolved": [
+    "Structured rejection contract physical outcomes under active stage40",
+    "Object coverage,grasp reliability,home contract remain unproven"
+  ]
+}

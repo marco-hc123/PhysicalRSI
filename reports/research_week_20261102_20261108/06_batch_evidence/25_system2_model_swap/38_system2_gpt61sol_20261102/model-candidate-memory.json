@@ -1,0 +1,11 @@
+{
+  "lessons": [
+    "Parse object names at the final underscore; category names may contain underscores.",
+    "Assign distinct baskets to distinct categories and preserve unambiguous existing category placements.",
+    "Normalize supplied downward quaternions and use the supplied contact offset, minimum tool height, and basket release height.",
+    "Visible instance keys are not persistent tracking identities; refresh perception and associate by category and nearby position.",
+    "Gripper and motion returns do not establish grasp or placement success. Do not retry uncertain manipulation."
+  ],
+  "development_feedback": "All supplied runs reached the 1100-action limit without success; some showed partial scores. No primitive-level failure trace was supplied, so no particular grasp, trajectory, or placement failure can be identified.",
+  "repair_strategy": "Use a finite target list, exclude objects already inside baskets, avoid repeated manipulation attempts, and terminate when transfer state becomes uncertain."
+}

@@ -1,0 +1,13 @@
+{
+  "state": "payload_verified",
+  "updated_utc": "2026-11-02T11:06:12.852215+00:00",
+  "transfer_sha256": "1bcf8d4c1865ce2aec3c8339f08fa4fc71e26546b057f6ce03172410782ce6cc",
+  "files_extracted": 505,
+  "manifest_files_verified": 504,
+  "original_archive_copies": 4,
+  "source_files_preserved": 486,
+  "scientific_batches": 2,
+  "new_api_calls": 0,
+  "new_native_experiments": 0,
+  "next_action": "Register new evidence in existing research index, logs and integration guide"
+}

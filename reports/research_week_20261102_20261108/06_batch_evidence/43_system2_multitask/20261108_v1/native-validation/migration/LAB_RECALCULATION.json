@@ -1,0 +1,241 @@
+{
+  "state": "passed",
+  "utc": "2026-11-08T10:35:01.955032+00:00",
+  "host": "lab_archive",
+  "gpu_used": false,
+  "environment_modified": false,
+  "verified_native_episodes": 89,
+  "runtime_interrupted_episodes": 2,
+  "verified_cohorts": 19,
+  "checks": [
+    {
+      "phase": "general_pickup-smoke",
+      "condition": "parent",
+      "scores": [
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-parent",
+      "condition": "parent",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-candidates",
+      "condition": "classify_objects-basic-1",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-candidates",
+      "condition": "classify_objects-execution_feedback-1",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-candidates",
+      "condition": "classify_objects-basic-2",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-candidates",
+      "condition": "classify_objects-execution_feedback-2",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-candidates",
+      "condition": "classify_objects-basic-3",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-candidates",
+      "condition": "classify_objects-execution_feedback-3",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "classify_objects-heldout",
+      "condition": "parent",
+      "scores": [
+        0.15,
+        null,
+        0.15,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "native_completed": 4,
+      "native_interrupted": 1
+    },
+    {
+      "phase": "general_pickup-parent",
+      "condition": "parent",
+      "scores": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "successes": 3
+    },
+    {
+      "phase": "general_pickup-parent",
+      "condition": "pi05_reference",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    },
+    {
+      "phase": "general_pickup-candidates",
+      "condition": "general_pickup-basic-1",
+      "scores": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "successes": 3
+    },
+    {
+      "phase": "general_pickup-candidates",
+      "condition": "general_pickup-execution_feedback-1",
+      "scores": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 2
+    },
+    {
+      "phase": "general_pickup-candidates",
+      "condition": "general_pickup-basic-2",
+      "scores": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "successes": 3
+    },
+    {
+      "phase": "general_pickup-candidates",
+      "condition": "general_pickup-execution_feedback-2",
+      "scores": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "successes": 3
+    },
+    {
+      "phase": "general_pickup-candidates",
+      "condition": "general_pickup-basic-3",
+      "scores": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 2
+    },
+    {
+      "phase": "general_pickup-candidates",
+      "condition": "general_pickup-execution_feedback-3",
+      "scores": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "successes": 3
+    },
+    {
+      "phase": "general_pickup-heldout",
+      "condition": "parent",
+      "scores": [
+        0.0,
+        null,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "successes": 1,
+      "native_completed": 4,
+      "native_interrupted": 1
+    },
+    {
+      "phase": "general_pickup-heldout",
+      "condition": "pi05_reference",
+      "scores": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0
+    }
+  ],
+  "scope": "Independent CPU recalculation from raw copied native receipts/evaluator results and paired comparisons; partial heldout has no forged framework receipts and its missing terminal score stays null. Full payload SHA256 checked during archive transfer."
+}

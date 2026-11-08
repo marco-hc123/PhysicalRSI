@@ -1,0 +1,137 @@
+{
+  "schema": "physicalrsi.capability-feedback/v1",
+  "created_utc": "2026-11-06T04:30:03.933424+00:00",
+  "question": "Does explicit verified API capability feedback change generated assumptions and native outcomes?",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "endpoint": "https://api.openai.com/v1/chat/completions",
+  "calls_planned": 6,
+  "order": [
+    "legacy_feedback",
+    "capability_feedback",
+    "capability_feedback",
+    "legacy_feedback",
+    "legacy_feedback",
+    "capability_feedback"
+  ],
+  "requests": [
+    {
+      "id": "legacy_feedback_1",
+      "arm": "legacy_feedback",
+      "replicate": 1,
+      "request_file": "requests/legacy_feedback_1.json",
+      "request_sha256": "fb64b40db7fe65d555771b3f6ac06d42376c4fd92626653044b5f4fdccb46151",
+      "input_token_upper_bound": 48081,
+      "reserved_usd": 0.528486
+    },
+    {
+      "id": "capability_feedback_1",
+      "arm": "capability_feedback",
+      "replicate": 1,
+      "request_file": "requests/capability_feedback_1.json",
+      "request_sha256": "9e67fb301120ee18e6311f1e595f216e0c2961fcd69208d8c86cf404b1547421",
+      "input_token_upper_bound": 50364,
+      "reserved_usd": 0.542184
+    },
+    {
+      "id": "capability_feedback_2",
+      "arm": "capability_feedback",
+      "replicate": 2,
+      "request_file": "requests/capability_feedback_2.json",
+      "request_sha256": "9e67fb301120ee18e6311f1e595f216e0c2961fcd69208d8c86cf404b1547421",
+      "input_token_upper_bound": 50364,
+      "reserved_usd": 0.542184
+    },
+    {
+      "id": "legacy_feedback_2",
+      "arm": "legacy_feedback",
+      "replicate": 2,
+      "request_file": "requests/legacy_feedback_2.json",
+      "request_sha256": "fb64b40db7fe65d555771b3f6ac06d42376c4fd92626653044b5f4fdccb46151",
+      "input_token_upper_bound": 48081,
+      "reserved_usd": 0.528486
+    },
+    {
+      "id": "legacy_feedback_3",
+      "arm": "legacy_feedback",
+      "replicate": 3,
+      "request_file": "requests/legacy_feedback_3.json",
+      "request_sha256": "fb64b40db7fe65d555771b3f6ac06d42376c4fd92626653044b5f4fdccb46151",
+      "input_token_upper_bound": 48081,
+      "reserved_usd": 0.528486
+    },
+    {
+      "id": "capability_feedback_3",
+      "arm": "capability_feedback",
+      "replicate": 3,
+      "request_file": "requests/capability_feedback_3.json",
+      "request_sha256": "9e67fb301120ee18e6311f1e595f216e0c2961fcd69208d8c86cf404b1547421",
+      "input_token_upper_bound": 50364,
+      "reserved_usd": 0.542184
+    }
+  ],
+  "replicates_per_arm": 3,
+  "treatment": "Append only the verified capability clarification; both arms share identical historical augmented feedback and the same recent failed candidate source and observed stop evidence.",
+  "refinement_of_draft": "Current failed candidate and raw stop evidence are supplied equally to both arms to isolate the capability clarification; frozen before generation, no outcome-dependent adjustment.",
+  "fixed": [
+    "Same base messages, source history, model, reasoning, output limit, response schema and no tools",
+    "Same five exposed diagnostic layouts, runtime, scoring and1100 native steps",
+    "Exact generated source AND memory passed to the runtime; no manual fixes"
+  ],
+  "planned_native_cases": 30,
+  "planned_native_cases_per_candidate": 5,
+  "selection": "Exploratory matched candidate comparison; no automatic promotion, no heldout claim, pi05 retained.",
+  "admissions": "Syntax and capability-isolation admission before native execution. Record all generated candidates and rejections; no selective regeneration. Rejected candidates have no native score, not zero.",
+  "metrics": [
+    "All candidates, invalid/rejected cases, success and native score",
+    "Unsupported nominal-Z/absence/instance-ID assumptions",
+    "Stop stage, failed and incomplete calls, step-limit cancellations",
+    "Generation usage/cache subsets and cost separate from native timing"
+  ],
+  "limitations": [
+    "Three generated candidates per arm; stochastic generations are not matched random seeds",
+    "Five exposed layouts per candidate, not15 independent layouts per arm",
+    "Content and prompt length differ; no attribution solely to length",
+    "Manual diagnostic outcomes are historical evidence, not new autonomous successes",
+    "No full RoboDojo benchmark or causal generalization from this small study"
+  ],
+  "budget_usd": 10,
+  "previous_reserved_usd": 2.447298,
+  "previous_reviewed_estimate_usd": 0.1932249,
+  "whole_batch_reserved_upper_usd": 3.2120100000000003,
+  "combined_reserved_upper_usd": 5.659308,
+  "reserve_rates_per_million": {
+    "input": 6,
+    "output": 20
+  },
+  "standard_rates_per_million": {
+    "input": 2,
+    "cached_input": 0.1,
+    "cache_write": 2.5,
+    "output": 10
+  },
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+  "no_automatic_retries": true,
+  "sources": [
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1/requests/augmented_3.json",
+      "sha256": "0f3ecfb09cc282fa438da4f23ea7e5db751c6199fb90bb40f91dc56b28524f50"
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1/candidates/augmented_3/candidate.py",
+      "sha256": "c083d296b7708688356311749727ce410c8a0d09d2380f1722a94cea2bccd4db"
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/contract-audit/feedback-contract-v2.json",
+      "sha256": "7c6ac17fc4dace42435a7772c5d5638c88f6a887be63e2ef857e2107548b9b94"
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/FINAL_SUMMARY.json",
+      "sha256": "aa618f551a9c843cd4a2b2e82af6def6b337615732dae288177ecc2ee805db00"
+    },
+    {
+      "path": "/mnt/data/joey_tr/physical-RSI/result/29_system2_feedback_api/20261104_v1/billing-reviewed.json",
+      "sha256": "f892f15b4d6e664e69b27593046c814d288b9eb418b29f9b2c28361894084bec"
+    }
+  ]
+}

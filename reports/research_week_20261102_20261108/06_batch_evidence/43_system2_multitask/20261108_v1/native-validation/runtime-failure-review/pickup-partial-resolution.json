@@ -1,0 +1,85 @@
+{
+  "state": "verified_partial",
+  "utc": "2026-11-08T10:08:17.390430+00:00",
+  "completed_layout_ids": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "interrupted_layout_id": 1,
+  "planned_layouts": 5,
+  "valid_native_episodes": 4,
+  "interrupted_attempts": 1,
+  "interrupted_action_count": 31,
+  "interrupted_actor_uuid": "24592a75f88f441cadb14b8a0bda32ea",
+  "error": "RpcError: request.execute: Observed robot diverged from planned trajectory",
+  "source_hashes": [
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/parent/attempt-001/native/run/observed.json",
+      "sha256": "31b97eb1ee55263824d3fdbee45fc1d3df83271d6c47a4161c8af726db2663d9"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/parent/attempt-001/native/run/native/RoboDojo/general_pickup/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-1c47a14f6e30833d17b3188423353318/_result.json",
+      "sha256": "2914d54b6fbbc060d48f5413b8ae7174317145ef73522b9752222eb96252ee86"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/campaign.json",
+      "sha256": "46ff141b7a2ca0ce8432be47c389a7b65f3af351978e32dd7e70b410fbf4488f"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/24592a75f88f441cadb14b8a0bda32ea/0/policy/processes/isolated/process.json",
+      "sha256": "c915dc1afd98ccaa6b773ef809dc0875ce407b6698f10a31c88101a9bbff28df"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/394aa305935e4c448899e89369165b81/0/policy/processes/isolated/process.json",
+      "sha256": "b3ea3bf5993df66f1ce54c5919095d3ba3bec723114260669ce71bd1d99c1394"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/7e55bf10de2d41c89eb436871d450654/0/policy/processes/isolated/process.json",
+      "sha256": "9202182f87b123a0803aea4a21e95816a7299986005b022fbd380fa2f69822f6"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/d01f020b54b74ce78b50e4c697382761/0/policy/processes/isolated/process.json",
+      "sha256": "c802cb2e643093d747d47fbaa41841fe2df534ef83e7595c07ab0edbe3967c96"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/dfd0ddda237f45649da2b3a5d01456c7/0/policy/processes/isolated/process.json",
+      "sha256": "ed8befbc4160bdfc44041013802ea84d49f093552b1e14c510073a504f9a72ff"
+    },
+    {
+      "path": "general_pickup-heldout/backend-traces/parent/24592a75f88f441cadb14b8a0bda32ea/0/primitive-events.jsonl",
+      "sha256": "e021623812f8d84d8110a3a136588ae07c77b55404fa3d2341d4c53605e50343"
+    },
+    {
+      "path": "general_pickup-heldout/sim-diagnostics/parent/simulator-88289.jsonl",
+      "sha256": "d4d7886be8d50a33b3cda6963e2dbe77793913eb5f745f2021e496070681d0f4"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/pi05_reference/attempt-001/episodes/0.json",
+      "sha256": "52baf5b2d7d9e8affcf306dff6eb57e5da22e52884c9cd15066d7f97d77f3248"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/pi05_reference/attempt-001/episodes/1.json",
+      "sha256": "1e8aea34b7e6410961d5a9552cdb19a392d1b84edfa7fb32a67ca0ebfcac865c"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/pi05_reference/attempt-001/episodes/2.json",
+      "sha256": "151752f29b7f67adedf838e6daaff0e630781ecdd8a17ca985bf02f401087102"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/pi05_reference/attempt-001/episodes/3.json",
+      "sha256": "cbe44efbc9f399280ff844c88e789719a9d7c34275dafcaa3f9cab6011d39e86"
+    },
+    {
+      "path": "general_pickup-heldout/native-campaign/runs/pi05_reference/attempt-001/episodes/4.json",
+      "sha256": "69b4baf26aaaf01f9e32c76d81885de4dbe380063015d7a4b16d61ee3c517e28"
+    }
+  ],
+  "policy_zero_score": false,
+  "retry_performed": false,
+  "source_policy_modified": false,
+  "native_runtime_modified": false,
+  "interpretation": "Actual execution tracking guard interrupted one layout. Not an infrastructure outage; physical root cause not uniquely established. Preserve native score as unknown, keep other4 natural outcomes, no best-of retry and no heldout tuning.",
+  "reference_completed": 5
+}

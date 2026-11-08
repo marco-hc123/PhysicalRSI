@@ -1,0 +1,16 @@
+--- upstream@90b322a/code_execution.py
++++ frozen_integration/code_execution.py
+@@ -24,7 +24,12 @@
+                 with open('/response.json') as stream:
+                     reply = _json.load(stream)
+                 if reply.get('id') == index:
+-                    return reply['value']
++                    value = reply['value']
++                    # Only a trusted, completed pre-action planner rejection is
++                    # recoverable. Transport/partial-action failures still abort.
++                    if isinstance(value, dict) and value.get('primitive_error') == 'no_collision_free_path':
++                        raise RuntimeError('No collision-free path; no action executed by this call')
++                    return value
+                 _time.sleep(0.01)
+         return call
+ 

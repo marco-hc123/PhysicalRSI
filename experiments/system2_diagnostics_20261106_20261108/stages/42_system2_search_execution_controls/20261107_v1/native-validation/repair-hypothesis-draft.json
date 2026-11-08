@@ -1,0 +1,27 @@
+{
+  "hypothesis": "Repeated original candidate traces show lift followed by loss of carried object before deliberate release on exposed layout0. Denser existing native waypoints while gripper commanded closed may improve carrying retention. This is a testable mechanism hypothesis, not an established cause.",
+  "evidence": [
+    "route1 candidate layout0 object/EE co-motion residual139.4mm",
+    "fresh full-parent first-cycle layout0 residual158.3mm, root lift36.9mm, no stable delivery"
+  ],
+  "factor": "Closed-gripper approach native waypoint selection max joint spacing .12rad versus .06rad. Same original dense planner trajectory, .01rad chord tolerance, no synthesized path. Includes lift and transport when closed.",
+  "fixed": [
+    "candidate source and memory",
+    "native solver and planning targets",
+    "explicit gripper retention",
+    "RGB estimates",
+    "all exposed layouts and1100native steps",
+    "max primitive deadline andmaxwaypoints"
+  ],
+  "primary": "native full success count then mean score; no improvement means retain original execution for subsequent comparisons",
+  "secondary": [
+    "first-cycle lift/transport/settled delivery proxies, separately qualified",
+    "co-motion residual",
+    "path point counts and action consumption",
+    "native budget cancellations and planner rejection"
+  ],
+  "order": "Treatment five layouts first, then control five layouts; fixed order, not randomized. No timing causality claim.",
+  "interpretation": "A smaller waypoint spacing is not exactly half speed. More action consumption is an expected consequence, not a changed task budget.",
+  "status": "prepared hypothesis; execute only after sampling phase completes and evidence review confirms applicability",
+  "created_utc": "2026-11-07T10:27:36.842957+00:00"
+}

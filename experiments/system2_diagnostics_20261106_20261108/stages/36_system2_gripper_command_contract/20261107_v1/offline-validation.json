@@ -1,0 +1,17 @@
+{
+  "state": "passed",
+  "checks": [
+    "latch=False: subsequent move command and unchanged measured observation",
+    "latch=False: independent left/right commands",
+    "latch=False: invalid inputs preserve previous command",
+    "latch=False: explicit reopen replaces latch",
+    "latch=True: subsequent move command and unchanged measured observation",
+    "latch=True: independent left/right commands",
+    "latch=True: invalid inputs preserve previous command",
+    "latch=True: explicit reopen replaces latch",
+    "RPC signature preserved"
+  ],
+  "check_count": 9,
+  "gpu_used": false,
+  "scope": "CPU action-construction fixtures; does not establish physical grasp"
+}

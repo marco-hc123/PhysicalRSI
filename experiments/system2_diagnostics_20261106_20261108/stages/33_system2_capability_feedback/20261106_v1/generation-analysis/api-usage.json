@@ -1,0 +1,80 @@
+[
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "input_tokens": 15316,
+    "cached_input_subset": 0,
+    "cache_write_input_subset": 15313,
+    "uncached_nonwrite_input": 3,
+    "output_tokens_including_reasoning": 2163,
+    "reasoning_subset": 293,
+    "total_tokens": 17479,
+    "seconds": 25.529190534725785,
+    "estimated_usd": 0.0599185
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "input_tokens": 15755,
+    "cached_input_subset": 15313,
+    "cache_write_input_subset": 439,
+    "uncached_nonwrite_input": 3,
+    "output_tokens_including_reasoning": 2599,
+    "reasoning_subset": 407,
+    "total_tokens": 18354,
+    "seconds": 31.00836599059403,
+    "estimated_usd": 0.0286248
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "input_tokens": 15755,
+    "cached_input_subset": 15752,
+    "cache_write_input_subset": 0,
+    "uncached_nonwrite_input": 3,
+    "output_tokens_including_reasoning": 2451,
+    "reasoning_subset": 512,
+    "total_tokens": 18206,
+    "seconds": 30.338149243965745,
+    "estimated_usd": 0.026091200000000002
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "input_tokens": 15316,
+    "cached_input_subset": 15313,
+    "cache_write_input_subset": 0,
+    "uncached_nonwrite_input": 3,
+    "output_tokens_including_reasoning": 2275,
+    "reasoning_subset": 387,
+    "total_tokens": 17591,
+    "seconds": 28.40642313286662,
+    "estimated_usd": 0.024287299999999998
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "input_tokens": 15316,
+    "cached_input_subset": 15313,
+    "cache_write_input_subset": 0,
+    "uncached_nonwrite_input": 3,
+    "output_tokens_including_reasoning": 2141,
+    "reasoning_subset": 243,
+    "total_tokens": 17457,
+    "seconds": 26.10224039107561,
+    "estimated_usd": 0.0229473
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "input_tokens": 15755,
+    "cached_input_subset": 15752,
+    "cache_write_input_subset": 0,
+    "uncached_nonwrite_input": 3,
+    "output_tokens_including_reasoning": 2117,
+    "reasoning_subset": 271,
+    "total_tokens": 17872,
+    "seconds": 23.824497817084193,
+    "estimated_usd": 0.0227512
+  }
+]

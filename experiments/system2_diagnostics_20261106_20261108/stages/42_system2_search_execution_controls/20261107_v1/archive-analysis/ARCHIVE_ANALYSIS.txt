@@ -1,0 +1,26 @@
+PhysicalRSI search and execution-control campaign: lab archive recalculation
+
+Lab CPU recalculation from archived raw native result files and qualified receipt hashes. No rerun, no new task episodes, no System2 selection from heldout results.
+
+Actual native episodes: 60
+Original videos: 180
+Paid generation requests: 8
+Estimated new API charge USD: 0.8154218
+
+Phase / strategy / n / full successes / native scores out of100
+parent / fixed_parent / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 15.0]
+sampling / sample_01 / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 0.0]
+sampling / sample_02 / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 0.0]
+sampling / sample_03 / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 0.0]
+sampling / sample_04 / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 0.0]
+sampling / sample_05 / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 0.0]
+repair / target_control / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 0.0]
+repair / target_offset / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 15.0]
+round2 / round2_01 / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 15.0]
+heldout / fixed_parent / 5 / 0 / [0.0, 15.0, 0.0, 15.0, 0.0]
+heldout / target_control / 5 / 0 / [0.0, 0.0, 0.0, 0.0, 0.0]
+heldout / target_offset / 5 / 0 / [0.0, 15.0, 0.0, 0.0, 0.0]
+
+Interpretation and limitations are in REPORT.txt and FINAL_SUMMARY.json.
+Evidence reuse across identical heldout strategies is not an additional native run.
+The fixed parent is a code candidate, not pi05. Manual target controls are separate from generated System2 proposals.

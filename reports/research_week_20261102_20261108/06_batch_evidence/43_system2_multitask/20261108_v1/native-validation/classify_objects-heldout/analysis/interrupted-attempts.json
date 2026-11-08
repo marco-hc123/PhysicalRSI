@@ -1,0 +1,17 @@
+[
+  {
+    "task": "classify_objects",
+    "phase": "classify_objects-heldout",
+    "condition": "parent",
+    "layout_id": 1,
+    "layout_sha256": "c8d9797243f1961da3774838cc0f1af7a980f9edbdd2be2f73104273dd08929e",
+    "score": null,
+    "success": null,
+    "natural_terminal": false,
+    "native_action_count": 214,
+    "error": "RpcError: request.execute: Observed robot diverged from planned trajectory",
+    "actor_uuid": "7091eef085404199af31adeae7ed158c",
+    "evidence_status": "runtime_interrupted_missing_native_terminal_score",
+    "verification": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/analysis/partial-evidence-verification.json"
+  }
+]

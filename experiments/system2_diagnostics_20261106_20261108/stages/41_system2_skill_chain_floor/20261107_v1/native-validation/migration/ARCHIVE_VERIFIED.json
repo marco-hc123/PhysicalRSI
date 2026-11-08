@@ -1,0 +1,14 @@
+{
+  "state": "verified",
+  "utc": "2026-11-07T09:49:30.855222+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/44_skill_chain_floor_20261107",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/41_system2_skill_chain_floor/20261107_v1/native-validation",
+  "verified_files": 4386,
+  "logical_bytes": 410910162,
+  "manifest_sha256": "6d874f49a30bfb83077043dc38d6aac9a9c2dc9e89f388465d12cf4117020c9b",
+  "native_cases": 10,
+  "videos": 30,
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "transfer_verified_in_batches": true
+}

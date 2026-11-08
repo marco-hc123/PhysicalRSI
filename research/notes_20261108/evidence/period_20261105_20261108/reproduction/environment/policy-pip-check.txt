@@ -1,0 +1,4 @@
+Using Python 3.11.17 environment at: /mnt/data/physical-RSI/models/skill-assets/implementations/openpi/.venv
+Checked 232 packages in 2ms
+Found 1 incompatibility
+The package `rerun-sdk` requires `numpy>=2`, but `1.26.4` is installed

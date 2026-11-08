@@ -1,0 +1,32 @@
+{
+  "system1": {
+    "manifest_files": 116,
+    "mismatches": [],
+    "manifest_path_normalization": "Windows backslash separators interpreted as POSIX separators for verification; original manifest unchanged",
+    "csv_rows": 20,
+    "counts_by_condition": {
+      "qwen_reference": 10,
+      "gpt61sol": 10
+    },
+    "working_results_overlap": {
+      "identical": 106,
+      "different": [],
+      "working_only": []
+    }
+  },
+  "system2": {
+    "manifest_files": 96,
+    "mismatches": [],
+    "manifest_path_normalization": "Windows backslash separators interpreted as POSIX separators for verification; original manifest unchanged",
+    "csv_rows": 11,
+    "counts_by_condition": {
+      "parent": 6,
+      "gpt_candidate": 5
+    },
+    "working_results_overlap": {
+      "identical": 89,
+      "different": [],
+      "working_only": []
+    }
+  }
+}

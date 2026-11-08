@@ -1,0 +1,8 @@
+{
+  "pid": 12153,
+  "launched_utc": "2026-11-07T05:00:28.176199+00:00",
+  "script": "/mnt/data/physical-RSI/result/37_gripper_command_contract_20261107/run_native.py",
+  "script_sha256": "9d5a40131b8f7df8d57fff37410c8aa966464ab84fb25cc169eb342749838e81",
+  "planned_cases": 10,
+  "api_calls": 0
+}

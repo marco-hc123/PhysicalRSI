@@ -1,0 +1,474 @@
+{
+  "state": "passed",
+  "fixtures": 4,
+  "source_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3",
+  "driver_sha256": "f87da728532883b969e7ff0ff6b556dc8fa2de1c46167e16eb4ff74dc3b46682",
+  "rows": [
+    {
+      "condition": "success",
+      "requests": [
+        {
+          "kind": "call",
+          "id": 0,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 1,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 2,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 3,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "command": 1
+          }
+        },
+        {
+          "kind": "call",
+          "id": 4,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              0.935
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 5,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "command": 0
+          }
+        },
+        {
+          "kind": "call",
+          "id": 6,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 7,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.3175,
+              -0.035,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 8,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "command": 1
+          }
+        }
+      ],
+      "closes": 1,
+      "moves": 4
+    },
+    {
+      "condition": "first_pregrasp_rejection",
+      "requests": [
+        {
+          "kind": "call",
+          "id": 0,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 1,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 2,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 3,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.38141138529977936,
+              -0.6197184988732912,
+              0.37851129873090317,
+              0.5720170749645352
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 4,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "command": 1
+          }
+        },
+        {
+          "kind": "call",
+          "id": 5,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "position_m": [
+              -0.22,
+              -0.22,
+              0.935
+            ],
+            "quaternion_wxyz": [
+              0.38141138529977936,
+              -0.6197184988732912,
+              0.37851129873090317,
+              0.5720170749645352
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 6,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "command": 0
+          }
+        },
+        {
+          "kind": "call",
+          "id": 7,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.38141138529977936,
+              -0.6197184988732912,
+              0.37851129873090317,
+              0.5720170749645352
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 8,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "position_m": [
+              -0.3175,
+              -0.035,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.38141138529977936,
+              -0.6197184988732912,
+              0.37851129873090317,
+              0.5720170749645352
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 9,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "command": 1
+          }
+        }
+      ],
+      "closes": 1,
+      "moves": 5
+    },
+    {
+      "condition": "all_pregrasp_rejected",
+      "requests": [
+        {
+          "kind": "call",
+          "id": 0,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 1,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 2,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 3,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "right",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.38141138529977936,
+              -0.6197184988732912,
+              0.37851129873090317,
+              0.5720170749645352
+            ]
+          }
+        }
+      ],
+      "closes": 0,
+      "moves": 2
+    },
+    {
+      "condition": "transport_rejection",
+      "requests": [
+        {
+          "kind": "call",
+          "id": 0,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 1,
+          "method": "scene",
+          "args": [],
+          "kwargs": {}
+        },
+        {
+          "kind": "call",
+          "id": 2,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 3,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "command": 1
+          }
+        },
+        {
+          "kind": "call",
+          "id": 4,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              0.935
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 5,
+          "method": "gripper",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "command": 0
+          }
+        },
+        {
+          "kind": "call",
+          "id": 6,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.22,
+              -0.22,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        },
+        {
+          "kind": "call",
+          "id": 7,
+          "method": "approach",
+          "args": [],
+          "kwargs": {
+            "arm": "left",
+            "position_m": [
+              -0.3175,
+              -0.035,
+              1.01
+            ],
+            "quaternion_wxyz": [
+              0.6130773077919165,
+              -0.35934531270739906,
+              0.6163777239676316,
+              0.33924277781895285
+            ]
+          }
+        }
+      ],
+      "closes": 1,
+      "moves": 4
+    }
+  ],
+  "physical_success_claim": false,
+  "api_calls": 0
+}

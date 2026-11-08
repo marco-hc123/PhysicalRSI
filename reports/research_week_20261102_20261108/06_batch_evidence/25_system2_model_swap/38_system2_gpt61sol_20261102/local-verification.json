@@ -1,0 +1,11 @@
+{
+  "model_messages_match_reference": true,
+  "upstream_request_matches_budget_ledger": true,
+  "candidate_matches_model_response": true,
+  "native_receipt_hashes_match": true,
+  "new_api_requests": 1,
+  "cumulative_cost_upper_usd": 0.332955,
+  "credential_matches": 0,
+  "files_scanned": 96,
+  "ppt_modified": false
+}

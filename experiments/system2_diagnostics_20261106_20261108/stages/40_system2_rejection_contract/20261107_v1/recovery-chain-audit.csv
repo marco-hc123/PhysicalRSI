@@ -1,0 +1,7 @@
+layout_id,actor,scene_ordinal,call_id,phase,arm,target,primitive_error,alternate_arm_requested,earlier_fallback_in_this_cycle,final_recorded_call
+4,e6fa8810e42d42e0b914e0e2038b0dae,5,34,pregrasp_clearance,right,"[-0.2920459388277363, -0.1446993963982134, 1.01]",no_collision_free_path,True,False,False
+4,e6fa8810e42d42e0b914e0e2038b0dae,5,40,transport,left,"[0.27858962524331654, -0.010246599479022261, 1.01]",no_collision_free_path,False,True,True
+1,55c6d87acb544e2a9fc19ba3b7c35d12,5,34,pregrasp_clearance,left,"[0.044786289073921855, -0.09687423665368489, 1.01]",no_collision_free_path,True,False,False
+1,55c6d87acb544e2a9fc19ba3b7c35d12,5,40,transport,right,"[-0.3113030188237918, -0.007361295146321417, 1.01]",no_collision_free_path,False,True,True
+2,e09c9c67804347e28ea41422f013da61,3,18,pregrasp_clearance,right,"[0.002126078528116278, -0.07768733647159293, 1.01]",no_collision_free_path,True,False,False
+2,e09c9c67804347e28ea41422f013da61,3,24,transport,left,"[-0.04396096762057025, -0.027566591065283814, 0.99]",no_collision_free_path,False,True,True

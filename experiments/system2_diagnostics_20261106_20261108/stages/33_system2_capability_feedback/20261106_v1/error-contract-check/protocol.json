@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-06T04:40:25.808024+00:00",
+  "scope": "24 response-schema fixture executions; not recorded trajectory replay, solver feasibility or native task results",
+  "original_fixture_limitation": "Earlier named_no_path fixture throws RuntimeError (legacy description); it does not test current compatibility adapter error dictionaries. Both records are preserved.",
+  "source_response": {
+    "path": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1/native-validation/native-campaign/runs/bypass_lift_guard/attempt-001/model/expert/dd95cb2544f143af8a81cd99efa3729a/0/policy/processes/isolated/process.json",
+    "sha256": "faac42f43d273632ae7b9e3514524e5f11256aa92bedd2aaa651e330d216c6d7",
+    "call_id": 8,
+    "value": {
+      "primitive_error": "no_collision_free_path",
+      "state": {
+        "left_arm_joint_state": [
+          9.018634172797135e-10,
+          -9.525229997114915e-13,
+          2.9723451347787866e-13,
+          5.429765252869256e-13,
+          -1.0587759557978416e-09,
+          -7.652755762421748e-09
+        ],
+        "left_ee_joint_state": [
+          1.0
+        ],
+        "right_arm_joint_state": [
+          0.4937250316143036,
+          2.0561883449554443,
+          1.8613922595977783,
+          -1.4329426288604736,
+          0.03644590079784393,
+          0.05957361310720444
+        ],
+        "right_ee_joint_state": [
+          0.45095260877300186
+        ]
+      }
+    }
+  },
+  "modes": [
+    "explicit_zero_execution_no_path",
+    "uncertain_timeout",
+    "unknown_error",
+    "first_reject_then_boundary"
+  ],
+  "hypotheses": [
+    "Capability candidates request at most one alternate-arm attempt after explicit zero-execution no-path",
+    "Both arms stop on uncertain exception and unknown error",
+    "First-reject/boundary test never supplies a fabricated successful response"
+  ],
+  "new_api_calls": 0,
+  "new_gpu_calls": 0,
+  "new_native_cases": 0
+}

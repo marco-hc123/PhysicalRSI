@@ -1,0 +1,323 @@
+{
+  "checked_utc": "2026-11-04T11:07:54.000969+00:00",
+  "environments": {
+    "analysis": {
+      "metadata_rc": 0,
+      "metadata": {
+        "python": "3.11.5",
+        "packages": {
+          "numpy": "1.26.4",
+          "pandas": "2.2.3",
+          "Pillow": "11.3.0"
+        }
+      },
+      "metadata_stderr": "",
+      "pip_check": {
+        "rc": 0,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      },
+      "cpu_imports": {
+        "rc": 0,
+        "stdout": "{\"imported\": [\"numpy\", \"pandas\"]}\n",
+        "stderr": ""
+      }
+    },
+    "agent": {
+      "metadata_rc": 0,
+      "metadata": {
+        "python": "3.11.5",
+        "packages": {
+          "physicalrsi": "0.2.0",
+          "numpy": "1.26.4",
+          "pytest": "9.2.0",
+          "Pillow": "11.3.0"
+        }
+      },
+      "metadata_stderr": "",
+      "pip_check": {
+        "rc": 0,
+        "stdout": "No broken requirements found.\n",
+        "stderr": ""
+      },
+      "cpu_imports": {
+        "rc": 0,
+        "stdout": "{\"imported\": [\"numpy\"]}\n",
+        "stderr": ""
+      }
+    },
+    "policy": {
+      "metadata_rc": 0,
+      "metadata": {
+        "python": "3.11.5",
+        "packages": {
+          "numpy": "1.26.4",
+          "pandas": "2.2.3",
+          "torch": "2.7.1",
+          "torchvision": "0.22.1",
+          "jax": "0.5.3",
+          "jaxlib": "0.5.3",
+          "openpi": "0.1.0",
+          "warp-lang": "1.17.0",
+          "Pillow": "11.2.1",
+          "websockets": "15.0.1",
+          "rerun-sdk": "0.26.2"
+        }
+      },
+      "metadata_stderr": "",
+      "pip_check": {
+        "rc": 1,
+        "stdout": "rerun-sdk 0.26.2 has requirement numpy>=2, but you have numpy 1.26.4.\n",
+        "stderr": ""
+      },
+      "cpu_imports": {
+        "rc": 0,
+        "stdout": "{\"imported\": [\"numpy\", \"torch\"]}\n",
+        "stderr": ""
+      }
+    },
+    "simulator": {
+      "metadata_rc": 0,
+      "metadata": {
+        "python": "3.11.5",
+        "packages": {
+          "physicalrsi": "0.2.0",
+          "numpy": "1.26.0",
+          "pytest": "9.1.1",
+          "torch": "2.7.0+cu128",
+          "torchvision": "0.22.0+cu128",
+          "isaacsim": "5.1.0.0",
+          "isaaclab": "0.54.3",
+          "nvidia-curobo": "0.0.post1.dev1",
+          "warp-lang": "1.11.0",
+          "fastapi": "0.115.7",
+          "starlette": "0.45.3",
+          "Pillow": "11.3.0",
+          "websockets": "12.0"
+        }
+      },
+      "metadata_stderr": "",
+      "pip_check": {
+        "rc": 1,
+        "stdout": "isaaclab 0.54.3 has requirement starlette==0.49.1, but you have starlette 0.45.3.\n",
+        "stderr": ""
+      },
+      "cpu_imports": {
+        "rc": 0,
+        "stdout": "{\"imported\": [\"numpy\", \"torch\"]}\n",
+        "stderr": ""
+      }
+    }
+  },
+  "paths": {
+    "models/recorded_policy_assets": {
+      "exists": true,
+      "children": [
+        "skill-assets"
+      ]
+    },
+    "models/recorded_policy_assets/skill-assets": {
+      "exists": true,
+      "children": [
+        ".download.lock",
+        ".resolved_download_urls.json",
+        "assets.json",
+        "assets.provenance.json",
+        "checkpoints",
+        "implementations"
+      ]
+    },
+    "data/simulation_assets": {
+      "exists": true,
+      "children": [
+        "lfs-objects",
+        "robodojo-complete-source",
+        "robodojo-source"
+      ]
+    },
+    "data/simulation_assets/robodojo-complete-source": {
+      "exists": true,
+      "children": [
+        ".git",
+        ".gitattributes",
+        ".gitignore",
+        "Assets",
+        "README.md"
+      ]
+    },
+    "repos/lab-runtime": {
+      "exists": true,
+      "children": [
+        "IsaacLab",
+        "PhysicalRSI",
+        "RoboDojo",
+        "curobo"
+      ]
+    },
+    "envs/recorded_runtime": {
+      "exists": true,
+      "children": [
+        "run-native-simulator.sh",
+        "run-simulator.sh",
+        "run-vulkaninfo.sh"
+      ]
+    },
+    "tools/bin": {
+      "exists": true,
+      "children": [
+        "vulkaninfo"
+      ]
+    },
+    "result/23_lab_environment_setup": {
+      "exists": true,
+      "children": [
+        "20261101T111000Z"
+      ]
+    },
+    "configs/organization/transfer_20261031T125619Z": {
+      "exists": true,
+      "children": [
+        "authorization.json",
+        "campus-parallel-probe.json",
+        "completion-receipt.json",
+        "continuous_resume_v3.py",
+        "continuous_resume_v3.startup-uncompressed.py",
+        "controller.py",
+        "expected-manifest.json.gz",
+        "final-location-check.json",
+        "lab-before.json.gz",
+        "lab-impact-audit.json",
+        "lab_baseline.py",
+        "migration_destination_confirmation_2026-10-31.json",
+        "parallel-boundary-receipt.json",
+        "parallel-streams.json",
+        "parallel_resume_controller.py",
+        "publish-status.json",
+        "realtime-attempt-20261101T030022998397Z",
+        "recover_payload.py",
+        "recovery-batches.json",
+        "recovery-plan.json",
+        "recovery-prepare.json",
+        "recovery-scan-status.json",
+        "resume-scope-location-check.json",
+        "resume-transports.json",
+        "resume-v3-plan.json",
+        "resume-v3-restoration.json",
+        "resume-v3-stream-1.nul",
+        "resume-v3-stream-2.nul",
+        "resume_controller.py",
+        "resume_payload_v3.py",
+        "source_inventory.py",
+        "target_verify.before-final-parent-mtime.py",
+        "target_verify.py",
+        "transport.initial.json",
+        "transport.json",
+        "verification-status.json",
+        "verification.json",
+        "verify_final_locations.py"
+      ]
+    },
+    "repos/PhysicalRSI": {
+      "revision": "90b322a3a362aad14125f36d8ed080ca31daaea6",
+      "has_git": true
+    },
+    "repos/PhysicalRSI-recorded": {
+      "revision": "90b322a3a362aad14125f36d8ed080ca31daaea6",
+      "has_git": true
+    },
+    "repos/RoboDojo-recorded": {
+      "revision": "09bd5f5e762b949f5858ece31347ce62057b3a5e",
+      "has_git": true
+    }
+  },
+  "records": {
+    "configs/organization/completion-receipt.json": {
+      "completed_utc": "2026-10-31T12:29:18.024256+00:00",
+      "complete": true,
+      "organized_directory": "/mnt/data/physical-RSI-organized",
+      "files_verified": 526954,
+      "directories_verified": 62748,
+      "links_preserved": 1476,
+      "historical_run_directories": 43,
+      "historical_result_files_checked": 186012,
+      "historical_text_files_scanned": 167642,
+      "hash_size_mtime_mismatches": 0,
+      "source_unchanged": true,
+      "logical_bytes": 209692693814,
+      "unique_regular_file_bytes": 117539176324,
+      "date_navigation": {
+        "2026-10-28": 4,
+        "2026-10-29": 20,
+        "2026-10-30": 15,
+        "2026-10-31": 5
+      },
+      "neutral_navigation_documents_verified": true,
+      "raw_logs_rewritten": false,
+      "migration_performed": false,
+      "lab_project_or_environment_modified": false,
+      "runtime_configuration_task": "deferred to transfer preparation",
+      "active_organization_processes": [],
+      "active_gpu_compute_processes": [],
+      "root_readme_transfer_rule": "Keep existing lab README.txt; place this directory guide at configs/项目目录说明.txt during a future transfer."
+    },
+    "configs/organization/independent-verification.json": {
+      "verified_utc": "2026-10-31T12:19:27.461638+00:00",
+      "complete": true,
+      "source_regular_files_in_manifest": 526954,
+      "manifest_matches_verification_count": true,
+      "logical_bytes": 209692693814,
+      "historical_result_files_checked": 186012,
+      "historical_text_files_scanned": 167642,
+      "secret_hits": [],
+      "mtime_errors": [],
+      "sample_hash_checks": [
+        {
+          "source": "result/23_protocol_freeze_20261029T132917Z/protocol.json",
+          "destination": "result/14_protocol_freeze/23_protocol_freeze_20261029T132917Z/protocol.json",
+          "sha256_equal": true,
+          "sha256": "ba90cca004a0839582405bad04e8fa2bb01c612eba4e8612edf4f13a3c62110c"
+        },
+        {
+          "source": "result/34_limited_completion_20261030T151253Z/final-review/report-final-zh.txt",
+          "destination": "result/19_extended_tasks_final_acceptance/34_limited_completion_20261030T151253Z/final-review/report-final-zh.txt",
+          "sha256_equal": true,
+          "sha256": "63f9a05ec2f56bc8a4fcd6dc2defb5222034785ab8aa7e9c08896a6e14f6d850"
+        },
+        {
+          "source": "result/36_system2_mechanism_20261031T010000Z_v3/verified-control-results.json",
+          "destination": "result/21_system2_failure_mechanisms/36_system2_mechanism_20261031T010000Z_v3/verified-control-results.json",
+          "sha256_equal": true,
+          "sha256": "45f2b246fc0be1f86cc84409524b902859df7d415b2cd5a869f16fa84ae1291e"
+        },
+        {
+          "source": "code/PhysicalRSI/pyproject.toml",
+          "destination": "repos/PhysicalRSI-recorded/pyproject.toml",
+          "sha256_equal": true,
+          "sha256": "a0a6f1325493618244a4c30411f2d9dad9cfaf8fd77fa1583fa19223af3f353b"
+        }
+      ],
+      "date_navigation": {
+        "2026-10-28": 4,
+        "2026-10-29": 20,
+        "2026-10-30": 15,
+        "2026-10-31": 5
+      },
+      "config_reference_count": 1089,
+      "lab_transfer_performed": false,
+      "original_logs_rewritten": false,
+      "credential_configuration_copied": false,
+      "scope_note": "Scans completed result text and redacted agent template, not a claim to audit every third-party dependency test fixture or every archived binary."
+    },
+    "configs/organization/runtime-portability.json": {
+      "simulator_installed_on_lab": false,
+      "lab_migration_performed": false,
+      "archive_not_activation": true,
+      "absolute_strings_preserved": true,
+      "credential_source_copied": false,
+      "known_upstream_broken_link": "RoboDojo/XPolicyLab/policy/RISE/data/RoboDojo_sim_v21_video_abot-lerobot points to an unavailable upstream training-data location; preserved as source evidence, not used by completed experiment routes."
+    }
+  },
+  "remote_writes": 0,
+  "gpu_jobs": 0,
+  "api_calls": 0
+}

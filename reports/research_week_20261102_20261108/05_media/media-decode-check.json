@@ -1,0 +1,51 @@
+[
+  {
+    "file": "M01_feedback_partial.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M02_lift_gate_stop.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M03_released_skill_partial.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M04_carry_loss.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M05_cleanup_delivery.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M06_heldout_control.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  },
+  {
+    "file": "M07_heldout_offset.mp4",
+    "frames_decoded": 1101,
+    "fps": 25.0,
+    "duration_seconds": 44.04,
+    "full_decode_passed": true
+  }
+]

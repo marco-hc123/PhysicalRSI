@@ -1,0 +1,17 @@
+{
+  "parent_protocol_sha256": "b78df85684a6450ceb80eee14a1cbd51206275e4b3faf0af8ca6a3d5ecf754a2",
+  "code_sha256": {
+    "reference_service.py": "47a954037563b3124f6ca952d73e0daec0eb03a437d55391f7f425735468c9be",
+    "validate_reference.py": "0e7eb61d29d0dad0163c9da9d1bc4d9cb63d4b419e9b1bb85d854f93ddf3855a",
+    "cpu_boundary.py": "ada789cc95e73689690c90ed74b82312d692c4c2c1130b352f4e429b9b12601d",
+    "first_cycle.py": "6a614ff3886f58ffb54947bb2ba1531491db422358f624b25918550cff16016f",
+    "run_reference.py": "85bc5944ef781663dc914ddacc3f87e7f8ee4b753ea6ba28c057c46fbbf4aade"
+  },
+  "planned_cases": 5,
+  "limits": [
+    "Descriptive richer-API reference, not an equal-interface comparison.",
+    "First basket transfer return ends controller; internal retries and handoffs retained.",
+    "A transfer return and full task success are distinct."
+  ],
+  "api_calls": 0
+}

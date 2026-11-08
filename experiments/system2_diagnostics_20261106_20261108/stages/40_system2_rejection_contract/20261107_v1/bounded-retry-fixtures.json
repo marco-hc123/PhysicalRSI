@@ -1,0 +1,650 @@
+{
+  "state": "passed",
+  "unique_cpu_fixtures": 8,
+  "new_native_cases": 0,
+  "api_calls": 0,
+  "gpu_used": false,
+  "control_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+  "prepared_candidate_sha256": "950f54052ca672df17784f79a336d58bc0f4f810cc4d987763eecd3aedd16314",
+  "treatment": "Only nearby attempted-position exclusion threshold1 becomes2; total6turns unchanged",
+  "rows": [
+    {
+      "condition": "one_attempt_exclusion",
+      "fixture": "first_grasp_fails",
+      "objects": 1,
+      "ideal_deliveries": 0,
+      "close_commands": 1,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "one_attempt_exclusion",
+      "fixture": "two_close_objects",
+      "objects": 2,
+      "ideal_deliveries": 1,
+      "close_commands": 1,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "one_attempt_exclusion",
+      "fixture": "persistent_grasp_failure",
+      "objects": 1,
+      "ideal_deliveries": 0,
+      "close_commands": 1,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "one_attempt_exclusion",
+      "fixture": "single_success",
+      "objects": 1,
+      "ideal_deliveries": 1,
+      "close_commands": 1,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "two_attempt_exclusion",
+      "fixture": "first_grasp_fails",
+      "objects": 1,
+      "ideal_deliveries": 1,
+      "close_commands": 2,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "two_attempt_exclusion",
+      "fixture": "two_close_objects",
+      "objects": 2,
+      "ideal_deliveries": 2,
+      "close_commands": 2,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.07,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "two_attempt_exclusion",
+      "fixture": "persistent_grasp_failure",
+      "objects": 1,
+      "ideal_deliveries": 0,
+      "close_commands": 2,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "two_attempt_exclusion",
+      "fixture": "single_success",
+      "objects": 1,
+      "ideal_deliveries": 1,
+      "close_commands": 1,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.1,
+            -0.2,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.065,
+            -0.0049999999999999975,
+            0.99
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Constructed perfect perception and ideal delivery except explicit prescribed failures; not physical feasibility or native performance.",
+    "The rule still conflates nearby same-category objects and requires real-layout validation.",
+    "No new candidate was generated by System2; this is a manual diagnostic treatment,not promoted."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "state": "verified",
+  "utc": "2026-11-08T10:35:01.068738+00:00",
+  "files": 66479,
+  "bytes": 4404827199,
+  "manifest_sha256": "03330ddcb5250b8d29345a5a80ba63eac46fea95e432cbbc9a50689e3d3371d6",
+  "native_episodes": 89,
+  "videos": 267,
+  "source": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1/native-validation",
+  "transfer_mode": "local relay, file-by-file SHA256 verified",
+  "lab_gpu_used": false
+}

@@ -1,0 +1,21 @@
+环境与版本说明
+
+本周原生实验沿用恢复后的冻结软件、已发布权重和逐批绑定的源码；没有训练或更新神经模型权重。本文件解释保存的历史恢复验收，不冒称重新安装或重新测试了全部依赖。
+
+11月5日环境恢复记录：
+- Python 3.11.17。
+- Simulator环境：267个软件包，与冻结参考相比differences=[]、extra={}。Isaac Sim 5.1.0.0，torch 2.7.0+cu128，torchvision 0.22.0+cu128，NumPy 1.26.0，transformers 4.57.6，warp-lang 1.11.0。pip check通过。
+- Policy环境：232个软件包，与其冻结参考相比differences=[]、extra={}。torch 2.7.1，torchvision 0.22.1，NumPy 1.26.4，transformers 4.53.2，warp-lang 1.17.0，openpi 0.1.0。
+- Policy pip check仍报告rerun-sdk 0.26.2声明需要NumPy>=2，而冻结环境为1.26.4。因此不能声称所有依赖检查均通过。后续实际推理与原生执行提供运行证据，但没有单独隔离这项声明冲突对所有未使用功能的影响。
+- OpenPI要求的transformers兼容文件已按来源SHA恢复；before/source/installed摘要保留在environment/transformers-compatibility.json。不能只凭包版本号认为内部文件完全等于未适配的PyPI发行包。
+- 权重字节验证见environment/lab-weight-hash-verification.json；图形本地前缀恢复见graphics-pinned-restoration.json。
+
+源码与执行版本：
+- 历史归因以固定官方90b322a源码与本研究framework-validation-v3适配比较为依据，具体证据见批次40。
+- 后续诊断逐项更改执行采样、抓手命令、错误返回或候选规则。每个批次保存各自protocol、候选源码、runtime/harness SHA。不存在一份可以概括整个星期所有实验的唯一未变执行版本。
+- 11月8日父策略、接口、生成脚本与执行文件SHA在该批protocol.json中；heldout-reference-addendum.json记录前瞻性追加pi05独立布局参照。修改没有进入代码候选选择。
+- 原始批次报告中的绝对路径是来源记录。整理包内复制件使用相对目录，完整可运行依赖仍在服务器，不包含在汇报ZIP。
+
+计时边界：不同阶段的机器规格和准备状态不一定一致。保留原始配置事实，主报告统一称服务器。跨日期墙钟不能直接作为算法加速结论；同批匹配计时也需区分启动、执行和终止保持。
+
+环境不是当前唯一已确认的根因。明确的研究适配错误、候选控制逻辑、感知名义几何和真实物理保持问题，应各自用相应对照解释。

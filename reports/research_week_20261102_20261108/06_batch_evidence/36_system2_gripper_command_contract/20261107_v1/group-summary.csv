@@ -1,0 +1,3 @@
+condition,cases,successes,scores_by_layout_100,mean_score_100,completed_approaches,rejected_approaches,active_budget_cancels,closed_command_mismatches,closed_command_comparisons
+measured_state_control,5,0,"[0.0, 0.0, 0.0, 0.0, 15.0]",3.0,35,5,0,72,152
+latched_command,5,0,"[0.0, 0.0, 0.0, 0.0, 15.0]",3.0,35,5,0,0,152

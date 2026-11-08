@@ -1,0 +1,95 @@
+PhysicalRSI：轨迹执行契约诊断
+
+研究问题：上一轮部分候选耗尽原生1100步预算。发布技能会筛选waypoint，当前兼容接口执行全部原始规划采样。本轮固定capability_feedback_2的源码和记忆，只改变waypoint选择，检验执行瓶颈。
+两组各5个相同已暴露布局；dense为本轮新跑的对照，released_waypoint_thinning使用发布函数，参数max_joint_step=.12、chord_tolerance=.01。没有修改目标位姿、感知、规划器参数、抓手步数、原生评分或1100步上限。没有新增API或训练。
+这属于人工设计的接口诊断，不是System2自行改出了这个接口。还没有采用发布技能的全部控制逻辑，尤其未添加cone IK和末端收敛等待。
+
+CPU检查：复用24条历史规划轨迹，48次dense/thin选择检查，另5个无效输入拒绝检查。静态合格不代表物理成功。
+
+原生结果：
+dense：得分[0.0, 0.0, 0.0, 0.0, 15.0]，完整成功0/5，平均分3.00/100；停止原因{'returned_after_planning_rejection': 2, 'native_step_limit_cancelled_active_execution': 3}；完成移动18次。
+released_waypoint_thinning：得分[0.0, 0.0, 0.0, 0.0, 15.0]，完整成功0/5，平均分3.00/100；停止原因{'returned_after_planning_rejection': 5}；完成移动35次。
+
+历史同候选与本轮新对照的一致性检查（历史回合不重复累计）：
+{"layout": 0, "historical_score_100": 0.0, "fresh_score_100": 0.0, "historical_success": false, "fresh_success": false, "historical_stop": "returned_after_planning_rejection", "fresh_stop": "returned_after_planning_rejection", "outcome_stop_match": true}
+{"layout": 1, "historical_score_100": 0.0, "fresh_score_100": 0.0, "historical_success": false, "fresh_success": false, "historical_stop": "native_step_limit_cancelled_active_execution", "fresh_stop": "native_step_limit_cancelled_active_execution", "outcome_stop_match": true}
+{"layout": 2, "historical_score_100": 0.0, "fresh_score_100": 0.0, "historical_success": false, "fresh_success": false, "historical_stop": "returned_after_planning_rejection", "fresh_stop": "returned_after_planning_rejection", "outcome_stop_match": true}
+{"layout": 3, "historical_score_100": 0.0, "fresh_score_100": 0.0, "historical_success": false, "fresh_success": false, "historical_stop": "native_step_limit_cancelled_active_execution", "fresh_stop": "native_step_limit_cancelled_active_execution", "outcome_stop_match": true}
+{"layout": 4, "historical_score_100": 15.0, "fresh_score_100": 15.0, "historical_success": false, "fresh_success": false, "historical_stop": "native_step_limit_cancelled_active_execution", "fresh_stop": "native_step_limit_cancelled_active_execution", "outcome_stop_match": true}
+
+逐布局比较：
+{"layout": 0, "dense_score_100": 0.0, "thin_score_100": 0.0, "score_difference_100": 0.0, "dense_stop": "returned_after_planning_rejection", "thin_stop": "returned_after_planning_rejection", "dense_completed_primitive_steps": 655, "thin_completed_primitive_steps": 36}
+{"layout": 1, "dense_score_100": 0.0, "thin_score_100": 0.0, "score_difference_100": 0.0, "dense_stop": "native_step_limit_cancelled_active_execution", "thin_stop": "returned_after_planning_rejection", "dense_completed_primitive_steps": 922, "thin_completed_primitive_steps": 126}
+{"layout": 2, "dense_score_100": 0.0, "thin_score_100": 0.0, "score_difference_100": 0.0, "dense_stop": "returned_after_planning_rejection", "thin_stop": "returned_after_planning_rejection", "dense_completed_primitive_steps": 635, "thin_completed_primitive_steps": 37}
+{"layout": 3, "dense_score_100": 0.0, "thin_score_100": 0.0, "score_difference_100": 0.0, "dense_stop": "native_step_limit_cancelled_active_execution", "thin_stop": "returned_after_planning_rejection", "dense_completed_primitive_steps": 942, "thin_completed_primitive_steps": 80}
+{"layout": 4, "dense_score_100": 15.0, "thin_score_100": 15.0, "score_difference_100": 0.0, "dense_stop": "native_step_limit_cancelled_active_execution", "thin_stop": "returned_after_planning_rejection", "dense_completed_primitive_steps": 942, "thin_completed_primitive_steps": 139}
+
+解释边界：
+Manual compatibility-adapter diagnostic, not automatic System2 policy improvement.
+Only waypoint selection changes; the released skill also has cone IK and endpoint gates not adopted here.
+Static chord bounds and native sampled endpoints do not certify full scene collision safety.
+Thinning changes command timing and interpolation; this is not identical continuous motion.
+Use measured per-host monotonic durations; host UTC clocks have a known offset and must not be subtracted for wall time.
+Proposed waypoint counts include paths that might not finish. Completed steps exclude partial cancelled actions.
+Five reused layouts and one chosen candidate do not establish independent generalization.
+Task termination can include hold actions after candidate return; full wall time differs from active primitive time.
+This fresh10case comparison does not recount historical stage33 or stage32 episodes.
+
+完整账目：
+{
+  "new_native_cases": 10,
+  "unique_previously_exposed_layouts": 5,
+  "new_raw_videos": 30,
+  "new_generated_candidates": 0,
+  "reused_saved_candidate": 1,
+  "new_paid_api_calls": 0,
+  "new_paid_api_usd": 0,
+  "lab_gpu_used": false,
+  "new_solver_calls_offline": 0,
+  "historical_saved_trajectories_rechecked": 24,
+  "cpu_selection_checks": 48,
+  "cpu_invalid_fixture_checks": 5,
+  "policy_promotions": 0
+}
+
+证据：protocol.json；offline-contract/summary.json；native-validation/analysis/；native-validation/backend-traces/；FINAL_SUMMARY.json；trajectory-events.csv；native-validation/migration/ARCHIVE_VERIFIED.json。
+正式机制解释与视觉核查见下文；下一轮方案见NEXT_EXPERIMENT.txt。
+
+
+最终机制解释：我们改对了什么，还没有解决什么
+
+1. 研究问题与处理变量
+上一轮明确接口能力的反馈改变了候选代码，但没有提高分数；部分候选在活动动作中耗尽1100步。源码对照发现，发布技能会筛选规划waypoint，当前兼容路径则逐个执行全部规划采样。因此本轮固定capability_feedback_2的源码和记忆，仅改变waypoint选择，检验预算中止是否与执行方式有关。两组各重新跑同5个已暴露布局，不复用历史回合代替新对照。
+这不是System2自动发现并修改执行器，而是研究者设计的单变量兼容层诊断。它没有证明PhysicalRSI核心有错误，也没有复现发布技能完整的motion控制逻辑。
+
+2. 任务结果：尚无成绩提升
+两组布局0..4得分均为[0,0,0,0,15]/100，完整成功均0/5，平均分均3/100。新对照与上一轮同一候选的5个布局在分数、成功状态和停止类别上全部一致；这是描述性一致性检查，不增加样本数，也不证明所有随机条件下可重复。
+
+3. 执行瓶颈：本样本中的预算中止消失
+全部采样组：布局0和2遇到规划拒绝后返回；布局1、3、4在活动移动中被1100步终止，共3/5。
+筛选组：5个布局都遇到规划拒绝后返回，活动执行预算中止0/5。
+完成的approach从18次增加到35次；逐布局为[3,4,3,4,4]变为[3,11,3,7,11]。在相同候选和原生预算下，筛选使执行能够推进得更远，这是本轮直接支持的改善。不能把它等同于完成抓取、完成分类或System2得分提高。
+筛选组的5次规划拒绝都发生在已执行闭爪命令之后、下一次开爪之前，错误后无后续approach。闭爪命令完成不等于物体已经抓住。失败信息仍未区分IK不可达、碰撞约束或其他求解失败。
+
+4. 动作数、Token和速度不能混算
+已完成primitive的动作步数合计从4096变为418，其中已完成approach步数从4018变为268。但前者遗漏了3次被取消动作已经执行的部分，也不包含所有回合保持动作；不能将这两个数字作为完整任务动作节省比例。
+筛选组成功返回规划的原始点数合计7435，筛选268点；这包含其新增访问的轨迹，不能直接与对照的5161个计划点作同轨迹比较。离线24条相同保存轨迹的4884→162是另一项静态对照，不是机器人成功率。
+每组5回合完整墙钟分别1029.189秒和1013.245秒，仅描述这一次顺序执行；候选返回后的保持动作仍运行到回合上限，不能把waypoint降幅称为总任务加速。两组没有新增语言模型API调用，也没有证明Token节省。
+
+5. 新的执行精度疑点，尚非因果结论
+完成approach的最大关节残差：对照中位数约0.0000299rad、最大0.02244rad；筛选中位数约0.01140rad、最大0.05716rad。两组完成的轨迹数量和内容不同，不能据此声称精度下降导致了任务失败；但它提示后续应核实末端收敛和抓取状态。
+发布技能除筛选外还有contact保持、endpoint收敛等待，以及transport/basket_lower的cone IK。本轮没有把这些全部移植。references/released_motion.py保留原实现；不能把仅有waypoint筛选描述为完整官方执行器。
+
+6. 视觉核查与未知项
+已查看两组layout1与layout4的4张最终head帧，画面完整，手臂姿态与桌面物体位置存在可见变化；回执分别是0分和15分，均无完整成功。末帧不能确定每一次抓取是否接触、抬起、掉落或放错位置，遮挡处也不能补推物体状态。
+未知项包括具体规划失败类型、每次闭爪后物体是否随夹爪移动、运输途中是否掉落、失败目标姿态是否可达。当前名义高度接口不能作为真实动态抬升证据。不能把未测得的信息写成已定位根因。
+
+7. 与上一轮反馈实验的关系
+上一轮6个新候选×5布局共30回合，两反馈组均无完整成功且均值3/100。处理组增加的换臂分支只覆盖首次闭爪前的零执行规划错误，24次实际规划错误均在闭爪之后，因此没有覆盖真实停止阶段。
+本轮再固定其中一个候选，排除了这5个样本中“仅仅因为活动动作耗尽步数”这一主要停止方式，但任务得分仍不变。研究已从泛泛的“System2没有提高分数”，推进到“反馈分支覆盖不足、执行方式造成预算瓶颈、剩余失败集中于闭爪后的规划/操作链”三个可分别检验的问题。
+pi05仍是原保留策略，没有候选晋升，也未进行独立新布局验收。两轮共40个新native回合、120段视频，仅涉及同5个已暴露布局；不代表40个独立布局或完整RoboDojo复现。
+
+8. 文件与实验状态
+本轮10回合与30段原视频通过独立回执核验和完整解码；7996个文件、520976515字节已分批回传并逐文件校验。原始记录不覆盖，全部保存在项目目录。
+本轮API费用0；上一轮6次候选生成估算0.1846203美元，累计已核查约0.3778452美元，发票实扣为准。实验进程已退出，本轮没有使用实验室GPU。没有关闭或释放服务器。
+详细下一步见NEXT_EXPERIMENT.txt；只是一份后续方案，未把未执行任务计作完成。

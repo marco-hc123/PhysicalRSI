@@ -1,0 +1,96 @@
+{
+  "state": "completed",
+  "rows": [
+    {
+      "layout": 0,
+      "score_100": 0.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 0,
+      "last_exhausted_endpoint_stage": "basket_lower",
+      "last_position_error_m": 0.01046442053092085,
+      "last10_position_error_range_m": 4.689231492827073e-07,
+      "last_rotation_error_rad": 0.02561324569928841,
+      "last_joint_error_rad": 0.018537521362304688,
+      "source_traces": [
+        "model-traces/1794029677320809247/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 1,
+      "score_100": 15.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 2,
+      "last_exhausted_endpoint_stage": "transport",
+      "last_position_error_m": 0.023672968822643192,
+      "last10_position_error_range_m": 5.492407319599921e-05,
+      "last_rotation_error_rad": 0.04795628666629485,
+      "last_joint_error_rad": 0.044379353523254395,
+      "source_traces": [
+        "model-traces/1794029821104708720/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 2,
+      "score_100": 15.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 3,
+      "last_exhausted_endpoint_stage": "basket_lower",
+      "last_position_error_m": 0.014975452234150036,
+      "last10_position_error_range_m": 0.0001000163162480066,
+      "last_rotation_error_rad": 0.03836542852932245,
+      "last_joint_error_rad": 0.025252819061279297,
+      "source_traces": [
+        "model-traces/1794029981464258281/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 3,
+      "score_100": 15.0,
+      "success": false,
+      "stop_class": "model_reported_failure",
+      "last_stage": "failure_hold",
+      "failure": "RuntimeError('motion endpoint did not converge before next stage')",
+      "reported_basket_transfers": 0,
+      "last_exhausted_endpoint_stage": "basket_lower",
+      "last_position_error_m": 0.010277396296597576,
+      "last10_position_error_range_m": 4.566210417816102e-07,
+      "last_rotation_error_rad": 0.022874512194596068,
+      "last_joint_error_rad": 0.018702030181884766,
+      "source_traces": [
+        "model-traces/1794030148264784220/trace.jsonl"
+      ]
+    },
+    {
+      "layout": 4,
+      "score_100": 40.0,
+      "success": false,
+      "stop_class": "complete_hold_without_native_success",
+      "last_stage": "complete_hold",
+      "failure": null,
+      "reported_basket_transfers": 10,
+      "last_exhausted_endpoint_stage": null,
+      "last_position_error_m": null,
+      "last10_position_error_range_m": null,
+      "last_rotation_error_rad": null,
+      "last_joint_error_rad": null,
+      "source_traces": [
+        "model-traces/1794030315539278787/trace.jsonl"
+      ]
+    }
+  ],
+  "limits": [
+    "A completed_transfer event is a controller report, not proof of object placement.",
+    "Endpoint rejection after40waits is different from no trajectory returned before any action.",
+    "A short-tail plateau does not identify contact versus actuator versus model error by itself.",
+    "No endpoint tolerance, score threshold or step budget was changed."
+  ]
+}

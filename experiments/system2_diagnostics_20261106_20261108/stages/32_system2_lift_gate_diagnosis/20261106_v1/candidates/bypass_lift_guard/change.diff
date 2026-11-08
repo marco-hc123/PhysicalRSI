@@ -1,0 +1,11 @@
+--- original.py
++++ bypass_lift_guard.py
+@@ -123,7 +123,7 @@
+             # Joint settling is not grasp evidence. Require visible upward motion.
+             lifted_scene = read_scene()
+             lifted = [o for o in lifted_scene if o['category'] == category and (o['p'][0]-x)**2 + (o['p'][1]-y)**2 < 0.0036 and o['p'][2] > z + 0.025]
+-            if len(lifted) != 1:
++            if False: # diagnostic bypass; not a grasp verifier
+                 return
+             move(arm, bx, by, 1.01)
+             robot.gripper(arm=arm, command=1)

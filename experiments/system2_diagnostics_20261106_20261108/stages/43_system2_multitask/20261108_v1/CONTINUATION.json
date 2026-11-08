@@ -1,0 +1,80 @@
+{
+  "goal": "Complete two-task System2 feedback pilot and archive to lab",
+  "state": "pickup_parent_evaluation_classification_candidates_ready",
+  "completed": [
+    "Both SSH connections verified",
+    "Cloud idle, lab GPUs occupied (observation 2026-11-08)",
+    "Frozen source references and project-scoped helpers saved",
+    "Public LFS metadata/config materialization with SHA verification",
+    "Native pickup layout reset qualified",
+    "Local model access HTTP200; no paid generation yet",
+    "Static AST admission / structured driver contract verified",
+    "One pickup smoke finished:0/100; target detected, two zero-action planning rejections; original200-step terminal hold",
+    "Postprocessing field projection repaired without native rerun",
+    "Protocol frozen for2tasks x2conditions x3candidates; independent5-layout heldout after selection",
+    "Five fresh classification development layouts native-qualified",
+    "Classification parent formal5/5 native episodes verified, all0; 15videos; generated6equal-count prompts (basic11393bytes,feedback44850bytes)"
+  ],
+  "active_processes": [
+    {
+      "host": "execution",
+      "pid": 6977,
+      "role": "Sequential development coordinator"
+    },
+    {
+      "host": "local",
+      "pid": 20734,
+      "role": "coordinator.py, relay/API/native follow-up monitor"
+    },
+    {
+      "host": "local",
+      "pid": 20280,
+      "tool_session": 30071,
+      "role": "Credential worker, key memory only; paid0 at last observation"
+    },
+    {
+      "host": "local",
+      "pid": 21100,
+      "role": "finalize_when_done.py: waits, summarizes, seals, relays archive, CPU verifies lab"
+    }
+  ],
+  "result_roots": {
+    "local": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/multitask_system2_20261108",
+    "server": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108",
+    "archive": "/mnt/data/joey_tr/physical-RSI/result/43_system2_multitask/20261108_v1"
+  },
+  "next_action": "Monitor local API worker + coordinator, cloud general_pickup development. Classification six requests started, no duplicate generation. Automatic candidate relay and sequential native validation will follow both parent tasks. Finalizer waits for all native stages then archives/CPU verifies.",
+  "api_requests": 6,
+  "credentials_saved": false,
+  "utc": "2026-11-08T06:48:07.549703+00:00",
+  "unresolved": [
+    "Formal results pending",
+    "Generic pickup geometry remains nominal-plane estimate",
+    "Archive pipeline scripts drafted, final analysis and transfer not launched"
+  ],
+  "notes": [
+    "Lab SSH interactive generation ended before model access; reconciled no worker/ledger and moved key handling to local no-echo PTY",
+    "Two failed layout preparations retained separately: task registration and asset pointers; not zero-score policy episodes"
+  ],
+  "last_verified_classification_parent": {
+    "n": 5,
+    "scores": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_successes": 0,
+    "native_wall_seconds": 980.3909645399999
+  },
+  "estimated_api_cost_usd": 0.3060143,
+  "current_generation_batch": "general_pickup waiting for native parent feedback",
+  "classification_candidates": {
+    "generated": 6,
+    "syntax_valid": 6,
+    "preliminary_ast_admitted": 6,
+    "relayed_to_execution_and_lab": true,
+    "native_evaluation_started": false
+  }
+}

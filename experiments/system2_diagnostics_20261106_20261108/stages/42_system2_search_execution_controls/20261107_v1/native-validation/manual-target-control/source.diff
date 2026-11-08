@@ -1,0 +1,17 @@
+--- generated_sample_01
++++ manual_target_control
+@@ -199,6 +199,14 @@
+                 attempted.append((item['category'], x, y))
+                 continue
+ 
++            # Manual experiment factor only; arm has already been selected.
++            if memory.get('experiment_target_rule') == 'incumbent_offset':
++                bx, by = basket['p'][:2]
++                tx, ty = bx - 0.0175, by - 0.035
++                if abs(bx) < 0.1:
++                    tx = bx + (-0.065 if arm == 'left' else 0.065)
++                    ty = by - 0.055
++
+             grip(arm, 1)
+             if not move(arm, [x, y, contact]):
+                 return

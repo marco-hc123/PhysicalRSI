@@ -1,0 +1,50 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T06:50:48.526875+00:00",
+  "valid_native_cases": 5,
+  "receipt_checks": [
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 0,
+      "receipt_sha256": "159b6b7a00911f7939d1e97392e460ed81592fd2a56cc29f8247f70045e29904",
+      "harness_sha256": "bf7d84f4310d62e03d97beea50042111660d12707cf2b0e9954229d829746d8b",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 1,
+      "receipt_sha256": "ec338c85b69ea48bd86e6f3a7acb2bbb6081b05e8a451c7c49379aee7345778a",
+      "harness_sha256": "bf7d84f4310d62e03d97beea50042111660d12707cf2b0e9954229d829746d8b",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 2,
+      "receipt_sha256": "ec26dff2b0c851a830277941329afa97b450656c33ff8c651672a1b08c3b41b8",
+      "harness_sha256": "bf7d84f4310d62e03d97beea50042111660d12707cf2b0e9954229d829746d8b",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 3,
+      "receipt_sha256": "2fd16ad502e00f8548c4a1925efc8581c16613d0ba9ae50af25a0898ec3016cf",
+      "harness_sha256": "bf7d84f4310d62e03d97beea50042111660d12707cf2b0e9954229d829746d8b",
+      "state": "passed"
+    },
+    {
+      "condition": "fixed_six_turns",
+      "layout_id": 4,
+      "receipt_sha256": "b82013e75866cb2674f7a18e609ecd76dc12bbbbf77a3e285b686f4d4f3ff7c7",
+      "harness_sha256": "bf7d84f4310d62e03d97beea50042111660d12707cf2b0e9954229d829746d8b",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 15,
+  "failed_videos": 0,
+  "protocol_sha256": "180cf1e785aad457507bc0b9447755bc68f19f9918a2f0bc04c74224aa5d411e",
+  "runtime_sha256": "5cd5280caf01cf12d972ad850f80a6e262921e7df08166cf96bad3aa17fd6a65",
+  "elapsed_seconds": 5.162735840000096,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

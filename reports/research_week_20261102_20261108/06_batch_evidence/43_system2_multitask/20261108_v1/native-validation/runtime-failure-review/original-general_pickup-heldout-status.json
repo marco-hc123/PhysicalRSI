@@ -1,0 +1,9 @@
+{
+  "state": "stopped_for_diagnosis",
+  "phase": "general_pickup-heldout",
+  "pid": 87996,
+  "utc": "2026-11-08T09:54:55.309901+00:00",
+  "error": "execute exit 1",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/physical-RSI/result/46_system2_multitask_20261108/run_phase.py\", line 22, in <module>\n    if rc:raise RuntimeError(kind+' exit '+str(rc))\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: execute exit 1\n",
+  "policy_zero_score": false
+}

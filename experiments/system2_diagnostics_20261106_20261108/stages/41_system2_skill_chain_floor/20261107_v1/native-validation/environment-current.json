@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-07T09:20:59.040887+00:00",
+  "platform": "Linux-5.15.0-190-generic-x86_64-with-glibc2.35",
+  "environment_versions": {
+    "simulator": {
+      "python": "3.11.17",
+      "torch": "2.7.0+cu128",
+      "numpy": "1.26.0",
+      "isaacsim": "5.1.0.0",
+      "warp-lang": "1.11.0",
+      "transformers": "4.57.6"
+    },
+    "policy": {
+      "python": "3.11.17",
+      "torch": "2.7.1",
+      "numpy": "1.26.4",
+      "warp-lang": "1.17.0",
+      "transformers": "4.53.2",
+      "openpi": "0.1.0"
+    }
+  },
+  "gpu_provenance": "NVIDIA L20, 580.126.09, 49140 MiB",
+  "installed_packages_changed": false,
+  "lab_gpu_used": false
+}

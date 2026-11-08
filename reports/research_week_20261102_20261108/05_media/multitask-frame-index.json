@@ -1,0 +1,56 @@
+[
+  {
+    "video": "M08_pickup_success.mp4",
+    "image": "M08_pickup_success_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "4822814bb124966234358282688a2b9e9c104a45b42381fd0958b4d22cbcc833",
+    "caption_zh": "独立抓取任务的代表成功：原生评价要求把目标抬升10cm。此例不证明稳定运输或完整分类能力。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M08_pickup_success.mp4",
+    "image": "M08_pickup_success_frame0038.png",
+    "frame_index": 38,
+    "encoded_video_seconds": 1.52,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "8aa1fe8e5fb121cc04e7cf3b999f9b8c6ab8a015ec2747722c986c0902beb1a5",
+    "caption_zh": "独立抓取任务的代表成功：原生评价要求把目标抬升10cm。此例不证明稳定运输或完整分类能力。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M09_pickup_failure.mp4",
+    "image": "M09_pickup_failure_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "f83d33d331cdbc9582a6cc37b3eeb281878dde658554e441f149fd83bd5bd542",
+    "caption_zh": "独立抓取任务的代表失败。与成功例可能属于不同布局；仅用于展示过程，不用两个视频估计成功率。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M09_pickup_failure.mp4",
+    "image": "M09_pickup_failure_frame0199.png",
+    "frame_index": 199,
+    "encoded_video_seconds": 7.96,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "4330c7ae9f4159855a5e5a8004ebdceee83505e0831cbfa891d8b8e57944cd47",
+    "caption_zh": "独立抓取任务的代表失败。与成功例可能属于不同布局；仅用于展示过程，不用两个视频估计成功率。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M10_classify_heldout.mp4",
+    "image": "M10_classify_heldout_frame0000.png",
+    "frame_index": 0,
+    "encoded_video_seconds": 0.0,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "8503a7d34620812977ce69cb53b9b7b533f0e5c3c886a9f2891918f35f219db6",
+    "caption_zh": "分类父策略独立布局的最高分代表（同分取最小布局ID）。完整分布见数据，视频不单独构成改进证据。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  },
+  {
+    "video": "M10_classify_heldout.mp4",
+    "image": "M10_classify_heldout_frame1099.png",
+    "frame_index": 1099,
+    "encoded_video_seconds": 43.96,
+    "time_scope": "encoded video timestamp; not physics or complete wall time",
+    "sha256": "5a2be7c626096e7433a575c4ecaec2a18854e6c82fb2535f2a6f46af2f2ebecb",
+    "caption_zh": "分类父策略独立布局的最高分代表（同分取最小布局ID）。完整分布见数据，视频不单独构成改进证据。 此回合自然结束；同cohort另一个布局因轨迹偏离中断，无原生终态分数，未重试。"
+  }
+]

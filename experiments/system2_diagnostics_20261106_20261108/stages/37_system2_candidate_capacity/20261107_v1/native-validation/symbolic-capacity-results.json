@@ -1,0 +1,2953 @@
+{
+  "state": "completed",
+  "source_sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+  "conditions": 2,
+  "layouts": 5,
+  "symbolic_cases": 10,
+  "native_cases": 0,
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "robot_methods": [
+    "approach",
+    "gripper",
+    "scene"
+  ],
+  "rows": [
+    {
+      "condition": "original_six_attempts",
+      "layout_id": 0,
+      "source_layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "objects": 8,
+      "symbolic_releases": 6,
+      "remaining": [
+        "pen_1",
+        "watch_1"
+      ],
+      "close_calls": 6,
+      "all_symbolically_delivered": false,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4012625214754602,
+            -0.09429610559551414,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4012625214754602,
+            -0.09429610559551414,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4012625214754602,
+            -0.09429610559551414,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.11660138001628612,
+            -0.10437949424067483,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.11660138001628612,
+            -0.10437949424067483,
+            0.9313
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.11660138001628612,
+            -0.10437949424067483,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2684055276795904,
+            -0.22752455456542056,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2684055276795904,
+            -0.22752455456542056,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2684055276795904,
+            -0.22752455456542056,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.10409299898449458,
+            -0.19529860076306782,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.10409299898449458,
+            -0.19529860076306782,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.10409299898449458,
+            -0.19529860076306782,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.1602800684572831,
+            -0.225384369378834,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.1602800684572831,
+            -0.225384369378834,
+            0.9295
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.1602800684572831,
+            -0.225384369378834,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2517053156586161,
+            -0.15966044116714936,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2517053156586161,
+            -0.15966044116714936,
+            0.9313
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2517053156586161,
+            -0.15966044116714936,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout_id": 1,
+      "source_layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "objects": 5,
+      "symbolic_releases": 5,
+      "remaining": [],
+      "close_calls": 5,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2690791704106921,
+            -0.09645312917299353,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2690791704106921,
+            -0.09645312917299353,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2690791704106921,
+            -0.09645312917299353,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18571890992513215,
+            -0.14143164265805253,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18571890992513215,
+            -0.14143164265805253,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18571890992513215,
+            -0.14143164265805253,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.004518076960030338,
+            -0.19386048109824133,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.004518076960030338,
+            -0.19386048109824133,
+            0.9469426144212695
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.004518076960030338,
+            -0.19386048109824133,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.33177802248350924,
+            -0.18881912709621954,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.33177802248350924,
+            -0.18881912709621954,
+            0.9302924475488881
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.33177802248350924,
+            -0.18881912709621954,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0409454356423421,
+            -0.09834497648167306,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0409454356423421,
+            -0.09834497648167306,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0409454356423421,
+            -0.09834497648167306,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout_id": 2,
+      "source_layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "objects": 3,
+      "symbolic_releases": 3,
+      "remaining": [],
+      "close_calls": 3,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.04574722446671905,
+            -0.12259452889375638,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.04574722446671905,
+            -0.12259452889375638,
+            0.9469426144212695
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.04574722446671905,
+            -0.12259452889375638,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3512605023888928,
+            -0.12465618087405207,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3512605023888928,
+            -0.12465618087405207,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3512605023888928,
+            -0.12465618087405207,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.38083656504040636,
+            -0.19002418675598917,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.38083656504040636,
+            -0.19002418675598917,
+            0.9302924475488881
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.38083656504040636,
+            -0.19002418675598917,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout_id": 3,
+      "source_layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "objects": 7,
+      "symbolic_releases": 6,
+      "remaining": [
+        "pen_1"
+      ],
+      "close_calls": 6,
+      "all_symbolically_delivered": false,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3070600748677991,
+            -0.12512050179701836,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3070600748677991,
+            -0.12512050179701836,
+            0.9295
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3070600748677991,
+            -0.12512050179701836,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.21757913625512385,
+            -0.13690398337559037,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.21757913625512385,
+            -0.13690398337559037,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.21757913625512385,
+            -0.13690398337559037,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.039954550979424554,
+            -0.16585478841343965,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.039954550979424554,
+            -0.16585478841343965,
+            0.9457105928422269
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.039954550979424554,
+            -0.16585478841343965,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.14613817544284807,
+            -0.1932849339925656,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.14613817544284807,
+            -0.1932849339925656,
+            0.9295
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.14613817544284807,
+            -0.1932849339925656,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.25829371055631883,
+            -0.23058439279891887,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.25829371055631883,
+            -0.23058439279891887,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.25829371055631883,
+            -0.23058439279891887,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.3796836049479012,
+            -0.16104986838001165,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.3796836049479012,
+            -0.16104986838001165,
+            0.9252996016143068
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.3796836049479012,
+            -0.16104986838001165,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "original_six_attempts",
+      "layout_id": 4,
+      "source_layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "objects": 6,
+      "symbolic_releases": 6,
+      "remaining": [],
+      "close_calls": 6,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.31881534863826283,
+            -0.16257472150586127,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.31881534863826283,
+            -0.16257472150586127,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.31881534863826283,
+            -0.16257472150586127,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18181904736078677,
+            -0.1692237618044547,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18181904736078677,
+            -0.1692237618044547,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18181904736078677,
+            -0.1692237618044547,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4220744186986412,
+            -0.1858980293033021,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4220744186986412,
+            -0.1858980293033021,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4220744186986412,
+            -0.1858980293033021,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.23044770713920543,
+            -0.22837942931837663,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.23044770713920543,
+            -0.22837942931837663,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.23044770713920543,
+            -0.22837942931837663,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.17363932775620355,
+            -0.18103721263093647,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.17363932775620355,
+            -0.18103721263093647,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.17363932775620355,
+            -0.18103721263093647,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28273108599565244,
+            -0.1470569594551122,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28273108599565244,
+            -0.1470569594551122,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28273108599565244,
+            -0.1470569594551122,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout_id": 0,
+      "source_layout_sha256": "30338c035181d0464837a0efa884acf6b0c55e5ac77f075b2fd9aec28e814c22",
+      "objects": 8,
+      "symbolic_releases": 8,
+      "remaining": [],
+      "close_calls": 8,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4012625214754602,
+            -0.09429610559551414,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4012625214754602,
+            -0.09429610559551414,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4012625214754602,
+            -0.09429610559551414,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.11660138001628612,
+            -0.10437949424067483,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.11660138001628612,
+            -0.10437949424067483,
+            0.9313
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.11660138001628612,
+            -0.10437949424067483,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2684055276795904,
+            -0.22752455456542056,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2684055276795904,
+            -0.22752455456542056,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2684055276795904,
+            -0.22752455456542056,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.10409299898449458,
+            -0.19529860076306782,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.10409299898449458,
+            -0.19529860076306782,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.10409299898449458,
+            -0.19529860076306782,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.1602800684572831,
+            -0.225384369378834,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.1602800684572831,
+            -0.225384369378834,
+            0.9295
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.1602800684572831,
+            -0.225384369378834,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2517053156586161,
+            -0.15966044116714936,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2517053156586161,
+            -0.15966044116714936,
+            0.9313
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2517053156586161,
+            -0.15966044116714936,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            -0.09486385360393292,
+            -0.11849284072540532,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            -0.09486385360393292,
+            -0.11849284072540532,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            -0.09486385360393292,
+            -0.11849284072540532,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3590188282683658,
+            -0.19119762370191334,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3590188282683658,
+            -0.19119762370191334,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3590188282683658,
+            -0.19119762370191334,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout_id": 1,
+      "source_layout_sha256": "fcd1caa3d63ddf00dafa7d27784361e884c7136ab231736b7c24db959e22a2a4",
+      "objects": 5,
+      "symbolic_releases": 5,
+      "remaining": [],
+      "close_calls": 5,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2690791704106921,
+            -0.09645312917299353,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2690791704106921,
+            -0.09645312917299353,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.2690791704106921,
+            -0.09645312917299353,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18571890992513215,
+            -0.14143164265805253,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18571890992513215,
+            -0.14143164265805253,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18571890992513215,
+            -0.14143164265805253,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.004518076960030338,
+            -0.19386048109824133,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.004518076960030338,
+            -0.19386048109824133,
+            0.9469426144212695
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.004518076960030338,
+            -0.19386048109824133,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.33177802248350924,
+            -0.18881912709621954,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.33177802248350924,
+            -0.18881912709621954,
+            0.9302924475488881
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.33177802248350924,
+            -0.18881912709621954,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0409454356423421,
+            -0.09834497648167306,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0409454356423421,
+            -0.09834497648167306,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0409454356423421,
+            -0.09834497648167306,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout_id": 2,
+      "source_layout_sha256": "74333db262d15c43187b99ffc10a69b0b04a0b30710923a64c7c5d75454b0c1f",
+      "objects": 3,
+      "symbolic_releases": 3,
+      "remaining": [],
+      "close_calls": 3,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.04574722446671905,
+            -0.12259452889375638,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.04574722446671905,
+            -0.12259452889375638,
+            0.9469426144212695
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.04574722446671905,
+            -0.12259452889375638,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3512605023888928,
+            -0.12465618087405207,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3512605023888928,
+            -0.12465618087405207,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3512605023888928,
+            -0.12465618087405207,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.38083656504040636,
+            -0.19002418675598917,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.38083656504040636,
+            -0.19002418675598917,
+            0.9302924475488881
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.38083656504040636,
+            -0.19002418675598917,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout_id": 3,
+      "source_layout_sha256": "5f8958eafed8b28f8fe58c2b4bf5aebf7b59a27dc641a6c84bf5ecb0ec0a5770",
+      "objects": 7,
+      "symbolic_releases": 7,
+      "remaining": [],
+      "close_calls": 7,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3070600748677991,
+            -0.12512050179701836,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3070600748677991,
+            -0.12512050179701836,
+            0.9295
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.3070600748677991,
+            -0.12512050179701836,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.21757913625512385,
+            -0.13690398337559037,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.21757913625512385,
+            -0.13690398337559037,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.21757913625512385,
+            -0.13690398337559037,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.039954550979424554,
+            -0.16585478841343965,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.039954550979424554,
+            -0.16585478841343965,
+            0.9457105928422269
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.039954550979424554,
+            -0.16585478841343965,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.14613817544284807,
+            -0.1932849339925656,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.14613817544284807,
+            -0.1932849339925656,
+            0.9295
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.14613817544284807,
+            -0.1932849339925656,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.25829371055631883,
+            -0.23058439279891887,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.25829371055631883,
+            -0.23058439279891887,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.25829371055631883,
+            -0.23058439279891887,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.3796836049479012,
+            -0.16104986838001165,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.3796836049479012,
+            -0.16104986838001165,
+            0.9252996016143068
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.3796836049479012,
+            -0.16104986838001165,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.42071483692302375,
+            -0.12101887634347373,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.42071483692302375,
+            -0.12101887634347373,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.42071483692302375,
+            -0.12101887634347373,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        }
+      ]
+    },
+    {
+      "condition": "only_remove_six_cap",
+      "layout_id": 4,
+      "source_layout_sha256": "e90b78e3ab90fe52bff4f430c798a8f487a949521b441dc2dff87a3e366accde",
+      "objects": 6,
+      "symbolic_releases": 6,
+      "remaining": [],
+      "close_calls": 6,
+      "all_symbolically_delivered": true,
+      "events": [
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.31881534863826283,
+            -0.16257472150586127,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.31881534863826283,
+            -0.16257472150586127,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.31881534863826283,
+            -0.16257472150586127,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18181904736078677,
+            -0.1692237618044547,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18181904736078677,
+            -0.1692237618044547,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.18181904736078677,
+            -0.1692237618044547,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4220744186986412,
+            -0.1858980293033021,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4220744186986412,
+            -0.1858980293033021,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.4220744186986412,
+            -0.1858980293033021,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.23044770713920543,
+            -0.22837942931837663,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.23044770713920543,
+            -0.22837942931837663,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.23044770713920543,
+            -0.22837942931837663,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.28,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.17363932775620355,
+            -0.18103721263093647,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.17363932775620355,
+            -0.18103721263093647,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.17363932775620355,
+            -0.18103721263093647,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "right",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "right",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28273108599565244,
+            -0.1470569594551122,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28273108599565244,
+            -0.1470569594551122,
+            0.92
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 0
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            -0.28273108599565244,
+            -0.1470569594551122,
+            1.01
+          ]
+        },
+        {
+          "method": "approach",
+          "arm": "left",
+          "position": [
+            0.0,
+            0.05,
+            1.01
+          ]
+        },
+        {
+          "method": "gripper",
+          "arm": "left",
+          "command": 1
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Idealized perception, exact one-object attachment and delivery; no physics, collisions, time budget, native reward or full-success result.",
+    "Only layouts 0 and 3 contain more than six objects (8 and 7); layouts 1,2,4 contain 5,3,6.",
+    "The six-cycle cap is a latent coverage limitation, not an explanation of earlier first-transport failures.",
+    "Candidate has no explicit final-home stage; real success additionally depends on native home and settled predicates."
+  ]
+}

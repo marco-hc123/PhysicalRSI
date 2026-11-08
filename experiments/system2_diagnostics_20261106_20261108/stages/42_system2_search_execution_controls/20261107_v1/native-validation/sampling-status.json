@@ -1,0 +1,7 @@
+{
+  "state": "completed",
+  "phase": "sampling",
+  "pid": 84766,
+  "utc": "2026-11-07T11:46:36.547121+00:00",
+  "validation": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/sampling/analysis/independent-validation.json"
+}

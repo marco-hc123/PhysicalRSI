@@ -1,0 +1,13 @@
+[
+  {
+    "task": "classify_objects",
+    "source_layout_id": 4,
+    "policy": "released.classify_objects.6bb861ace4b706d9 with frozen calibration",
+    "frame": 1100,
+    "score_100": 40,
+    "success": false,
+    "image": "video-review/released-reference-layout4-final.png",
+    "video": "native-validation/native/run/native/RoboDojo/classify_objects/physicalRSI/arx_x5/0_physicalrsi/physicalrsi-e4c682daec8426af8a9e87d2d3e1808f/episode_0000004_cam_head_fail.mp4",
+    "image_sha256": "93cf0de1adbe4ca819fcea22ef426e680882db3d649ee2eb28750d4ac3e2e13b"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "stage": "offline_replay_running",
+  "utc": "2026-11-06T02:34:19.920614+00:00",
+  "pid": 689297,
+  "host": "gpuserver3",
+  "writes_root": "/mnt/data/joey_tr/physical-RSI/result/32_system2_lift_gate_diagnosis/20261106_v1",
+  "gpu_used": false,
+  "api_calls": 0
+}

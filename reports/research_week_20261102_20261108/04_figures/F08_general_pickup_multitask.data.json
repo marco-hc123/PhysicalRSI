@@ -1,0 +1,247 @@
+{
+  "task": "general_pickup",
+  "rows": [
+    {
+      "split": "development",
+      "condition": "parent",
+      "label": "Frozen code parent",
+      "scores_100": [
+        100.0,
+        100.0,
+        0.0,
+        100.0,
+        0.0
+      ],
+      "successes": 3,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+      "source": "general_pickup-parent/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "pi05_reference",
+      "label": "Pretrained pi05 reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": null,
+      "source": "general_pickup-parent/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "general_pickup-basic-1",
+      "label": "Basic 1",
+      "scores_100": [
+        100.0,
+        100.0,
+        0.0,
+        100.0,
+        0.0
+      ],
+      "successes": 3,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "60a83df55f70e580bfadf3919c805d16aad48a0a17b5a816599fa965cb3f7258",
+      "source": "general_pickup-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "general_pickup-execution_feedback-1",
+      "label": "Feedback 1",
+      "scores_100": [
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 2,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "b87a95b8842d0e30275993b8ffd637622503863b4ab1754547ec32c3b23dfd53",
+      "source": "general_pickup-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "general_pickup-basic-2",
+      "label": "Basic 2",
+      "scores_100": [
+        100.0,
+        100.0,
+        0.0,
+        100.0,
+        0.0
+      ],
+      "successes": 3,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "634fb777ac8c0dfe2203c2812752357500151b87922810444c2ce1b56372cf63",
+      "source": "general_pickup-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "general_pickup-execution_feedback-2",
+      "label": "Feedback 2",
+      "scores_100": [
+        100.0,
+        100.0,
+        0.0,
+        100.0,
+        0.0
+      ],
+      "successes": 3,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "2486c9c567769e5ee9163bf89ec255034b5f39fee8dec8dcf89712cc715f3738",
+      "source": "general_pickup-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "general_pickup-basic-3",
+      "label": "Basic 3",
+      "scores_100": [
+        100.0,
+        100.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 2,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "13e16d906fbb75ac1e1ac9347ea1abb7c4180f5d7c69284dd780439428edd997",
+      "source": "general_pickup-candidates/analysis/summary.json"
+    },
+    {
+      "split": "development",
+      "condition": "general_pickup-execution_feedback-3",
+      "label": "Feedback 3",
+      "scores_100": [
+        100.0,
+        100.0,
+        0.0,
+        100.0,
+        0.0
+      ],
+      "successes": 3,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": "866c7102940342fba59ace75b91bc57109e396b96f21db788f191dc973d43ae1",
+      "source": "general_pickup-candidates/analysis/summary.json"
+    },
+    {
+      "split": "heldout",
+      "condition": "parent",
+      "label": "Frozen code parent",
+      "scores_100": [
+        0.0,
+        null,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "successes": 1,
+      "n": 4,
+      "planned_n": 5,
+      "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+      "source": "general_pickup-heldout/analysis/summary.json"
+    },
+    {
+      "split": "heldout",
+      "condition": "pi05_reference",
+      "label": "Pretrained pi05 reference",
+      "scores_100": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "successes": 0,
+      "n": 5,
+      "planned_n": 5,
+      "source_sha256": null,
+      "source": "general_pickup-heldout/analysis/summary.json"
+    }
+  ],
+  "selection": [
+    {
+      "condition": "basic",
+      "decision": "retain_parent",
+      "admitted_evaluated": 3,
+      "eligible": 0
+    },
+    {
+      "condition": "execution_feedback",
+      "decision": "retain_parent",
+      "admitted_evaluated": 3,
+      "eligible": 0
+    }
+  ],
+  "heldout_views": {
+    "basic": {
+      "selected_source": "parent",
+      "reuses_parent_evidence": true,
+      "scores": [
+        0.0,
+        null,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "complete_successes": 1,
+      "mean_score": 0.25,
+      "paired_score_differences": [
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_difference": 0.0,
+      "improved": 0,
+      "worse": 0,
+      "equal": 4,
+      "n": 4,
+      "planned_n": 5,
+      "missing_pairs": 1
+    },
+    "execution_feedback": {
+      "selected_source": "parent",
+      "reuses_parent_evidence": true,
+      "scores": [
+        0.0,
+        null,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "complete_successes": 1,
+      "mean_score": 0.25,
+      "paired_score_differences": [
+        0.0,
+        null,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_difference": 0.0,
+      "improved": 0,
+      "worse": 0,
+      "equal": 4,
+      "n": 4,
+      "planned_n": 5,
+      "missing_pairs": 1
+    }
+  },
+  "score_unit": "native per-episode score multiplied by100; full success is separately shown",
+  "limitation": "Small single-round two-task feedback pilot; different tasks and split distributions are not pooled."
+}

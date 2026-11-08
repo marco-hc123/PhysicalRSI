@@ -1,0 +1,7 @@
+condition,cases,successes,mean_normalized_score,cohort_wall_seconds,videos,api_calls,paid_cost_usd,internal_service_calls_by_method,candidate_actors,first_approach_rejections,total_approach_calls,accepted_approach_calls,incomplete_approach_calls,native_step_limit_cancellations,actors_with_post_error_calls,total_trusted_primitive_action_steps,scope,completed_record
+legacy_feedback_1,5,0,0.03,1034.0503789700006,15,0,0,{},5,0,18,13,0,0,0,3451,Reused diagnostic layouts; no policy promotion,native-campaign/runs/legacy_feedback_1/completed.json
+capability_feedback_1,5,0,0.03,1041.1017219920013,15,0,0,{},5,0,23,18,0,0,0,4136,Reused diagnostic layouts; no policy promotion,native-campaign/runs/capability_feedback_1/completed.json
+capability_feedback_2,5,0,0.03,1026.0257333969985,15,0,0,{},5,0,23,18,3,3,0,4096,Reused diagnostic layouts; no policy promotion,native-campaign/runs/capability_feedback_2/completed.json
+legacy_feedback_2,5,0,0.03,1031.0596532140007,15,0,0,{},5,0,23,18,3,3,0,4142,Reused diagnostic layouts; no policy promotion,native-campaign/runs/legacy_feedback_2/completed.json
+legacy_feedback_3,5,0,0.03,1027.0830496729996,15,0,0,{},5,0,23,18,0,0,0,4136,Reused diagnostic layouts; no policy promotion,native-campaign/runs/legacy_feedback_3/completed.json
+capability_feedback_3,5,0,0.03,1029.190088337,15,0,0,{},5,0,23,18,0,0,0,4096,Reused diagnostic layouts; no policy promotion,native-campaign/runs/capability_feedback_3/completed.json

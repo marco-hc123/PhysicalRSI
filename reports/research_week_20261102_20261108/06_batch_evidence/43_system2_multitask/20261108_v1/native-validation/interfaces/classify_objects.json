@@ -1,0 +1,57 @@
+{
+  "execution": "Only scene, reobserve, approach, gripper. Source contains only def policy(robot,memory), no imports, classes, global, nonlocal, async, await, yield, decorators, private attributes, filesystem or network. Finite loops. All admissions use the same explicit AST contract. Returning leads to native bounded hold, not automatic success. Gripper commands persist across subsequent motion.",
+  "geometry": {
+    "basket_release_tool_z": 1.01,
+    "gripper_tool_offset_above_contact": 0.125,
+    "minimum_contact_tool_z": 0.92,
+    "quaternion_requirement": "Normalize to unit length using arithmetic; imports unavailable",
+    "table_z": 0.765,
+    "typical_downward_quaternion": {
+      "left": [
+        0.613,
+        -0.3593,
+        0.6163,
+        0.3392
+      ],
+      "right": [
+        0.3814,
+        -0.6197,
+        0.3785,
+        0.572
+      ]
+    },
+    "world_units": "metres"
+  },
+  "methods": {
+    "approach": "robot.approach(arm,position_m,quaternion_wxyz), keyword arguments only. Success returns observed state, NOT physical completion. A trusted pre-action planning rejection returns {primitive_error:\"no_collision_free_path\",state:...}; this call executed zero actions. Other exceptions may follow partial execution and remain fatal/uncertain.",
+    "gripper": "robot.gripper(arm=\"left\" or \"right\", command=0 closed or 1 open) -> observed joints; settling only, no grasp success claim",
+    "reobserve": "robot.reobserve() -> {state: observed joint arrays}; no score",
+    "scene": "robot.scene() -> {objects: {\"<category>_<positive_instance_index>\": {pose:[x,y,z,w,x,y,z],dims:[x,y,z]}}, observation}; keys are strings. Examples: basket_1, watch_2, toy_car_1. Split at the last underscore; category is a string, only the final instance suffix is an integer. RGB estimates, world-frame metres; no hidden layouts or success signal."
+  },
+  "policy_signature": "def policy(robot, memory)",
+  "scene_object_key_contract": {
+    "examples": {
+      "basket_1": [
+        "basket",
+        1
+      ],
+      "toy_car_1": [
+        "toy_car",
+        1
+      ],
+      "watch_2": [
+        "watch",
+        2
+      ]
+    },
+    "format": "<category>_<positive integer instance index>",
+    "identity": "Equal category strings indicate the same class; full keys identify distinct visible instances, not persistent tracking identities.",
+    "key_type": "string",
+    "parsing": "Split at the LAST underscore. Keep category as a string; only the final suffix is an integer. Do not call int() on the whole key.",
+    "scope": "Names are produced by this study's RGB adapter; examples contain no evaluation layout or success signal.",
+    "version": "study-scene-object-names/v2"
+  },
+  "scope": "Study-specific bounded System2 iteration using step4-qualified calibrated RGB/CuRobo primitives; not stock paper performance or a full dynamic-object collision model",
+  "semantics": "Sort visible objects by category into separate baskets; assign one basket per category, grouping identical objects together. No success signal is available from primitives.",
+  "task": "classify_objects"
+}

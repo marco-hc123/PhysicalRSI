@@ -1,0 +1,85 @@
+{
+  "state": "passed",
+  "utc": "2026-11-06T07:15:30.028465+00:00",
+  "valid_native_cases": 10,
+  "receipt_checks": [
+    {
+      "condition": "dense",
+      "layout_id": 0,
+      "receipt_sha256": "985d2e6993aa6df4576dc7bb4bf5d02bf6f3486a8f48fe93fd1e1f0d63a27a15",
+      "harness_sha256": "e410874d5f93b75ba05b6867a5a4af17ffc8f331b4a8bd7efc8382974d314fc5",
+      "state": "passed"
+    },
+    {
+      "condition": "dense",
+      "layout_id": 1,
+      "receipt_sha256": "7d63273dab082f221ec5deda3e0ff48bb9383b5345aff24b6e637fb648c99ab6",
+      "harness_sha256": "e410874d5f93b75ba05b6867a5a4af17ffc8f331b4a8bd7efc8382974d314fc5",
+      "state": "passed"
+    },
+    {
+      "condition": "dense",
+      "layout_id": 2,
+      "receipt_sha256": "48603e9caf81e94d13626741b5945abd912e1af3760bcdc2f89d92bde17f2927",
+      "harness_sha256": "e410874d5f93b75ba05b6867a5a4af17ffc8f331b4a8bd7efc8382974d314fc5",
+      "state": "passed"
+    },
+    {
+      "condition": "dense",
+      "layout_id": 3,
+      "receipt_sha256": "97e19616d226d633580db12fb5349ad3b46782a27cabc0941b84e36cf244351f",
+      "harness_sha256": "e410874d5f93b75ba05b6867a5a4af17ffc8f331b4a8bd7efc8382974d314fc5",
+      "state": "passed"
+    },
+    {
+      "condition": "dense",
+      "layout_id": 4,
+      "receipt_sha256": "95bd3069b289dcdaa6b8af355f81e06d3298f6b1f4e12666566b0001de606eea",
+      "harness_sha256": "e410874d5f93b75ba05b6867a5a4af17ffc8f331b4a8bd7efc8382974d314fc5",
+      "state": "passed"
+    },
+    {
+      "condition": "released_waypoint_thinning",
+      "layout_id": 0,
+      "receipt_sha256": "d9076b426c55b34ea603f9f2291f7cacb6fb4f2e8f7edfbce35f327627891276",
+      "harness_sha256": "b02087dbfb8886048942738be92aba7dac42a1382b02ede50a9b672e41778bd3",
+      "state": "passed"
+    },
+    {
+      "condition": "released_waypoint_thinning",
+      "layout_id": 1,
+      "receipt_sha256": "f919d3976bc6ee50751d17c4fd17d4dae43a020902a887f1df8f6dad734941b5",
+      "harness_sha256": "b02087dbfb8886048942738be92aba7dac42a1382b02ede50a9b672e41778bd3",
+      "state": "passed"
+    },
+    {
+      "condition": "released_waypoint_thinning",
+      "layout_id": 2,
+      "receipt_sha256": "02adbe6ea49ddb3b73206c4b445a397c0e6e6949406cd09b3a7108d36b596d67",
+      "harness_sha256": "b02087dbfb8886048942738be92aba7dac42a1382b02ede50a9b672e41778bd3",
+      "state": "passed"
+    },
+    {
+      "condition": "released_waypoint_thinning",
+      "layout_id": 3,
+      "receipt_sha256": "8791e0e3bd9ee438608c7c7c134379dfefe36af80e09a89b9ed84f1f17a0f814",
+      "harness_sha256": "b02087dbfb8886048942738be92aba7dac42a1382b02ede50a9b672e41778bd3",
+      "state": "passed"
+    },
+    {
+      "condition": "released_waypoint_thinning",
+      "layout_id": 4,
+      "receipt_sha256": "d7326e584d7115bca4e8a3f24fd20699c9b76188e11b40d2c8ab269166393397",
+      "harness_sha256": "b02087dbfb8886048942738be92aba7dac42a1382b02ede50a9b672e41778bd3",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 30,
+  "failed_videos": 0,
+  "protocol_sha256": "64150745266c14c1406b842ad592576a461f8c6f228cb7af94461d958eaf4d32",
+  "runtime_sha256": "abc4c2fc813616950a271b5032fcde174a4f27171ea557aeb988429e274b78d0",
+  "elapsed_seconds": 10.203682160001335,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

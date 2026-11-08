@@ -1,0 +1,9 @@
+{
+  "state": "stopped_for_diagnosis",
+  "phase": "general_pickup-smoke",
+  "pid": 5348,
+  "utc": "2026-11-08T06:16:22.072484+00:00",
+  "error": "analyze exit 1",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/physical-RSI/result/46_system2_multitask_20261108/run_phase.py\", line 19, in <module>\n    with (O/(phase+'-'+kind+'.stdout.log')).open('w') as out,(O/(phase+'-'+kind+'.stderr.log')).open('w') as err:\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: analyze exit 1\n",
+  "policy_zero_score": false
+}

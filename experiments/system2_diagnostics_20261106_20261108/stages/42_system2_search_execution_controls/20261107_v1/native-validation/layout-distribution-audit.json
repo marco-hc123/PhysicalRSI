@@ -1,0 +1,53 @@
+{
+  "state": "audited",
+  "utc": "2026-11-07T13:21:07.915878+00:00",
+  "sources": [
+    {
+      "role": "development",
+      "manifest_path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/manifest.json",
+      "manifest_sha256": "4a24ac7df6e060d036491e4aba9d8ad9fc4be7bf27f1df793bc96f13e96eba3a",
+      "distribution_status": "public_config_and_task_semantics_not_qualified",
+      "generation_stage_physics_status": "not_validated",
+      "seed": 1290156389136020199,
+      "task_seed": 13904271124289182607,
+      "generator_ids": [
+        "extended_public_config_v1"
+      ],
+      "implementation": {
+        "layout_sampling/__init__.py": "2f0a01cac9e7a386b15239450b940508a789d5f4d175f81aa66dc41a500155e2",
+        "layout_sampling/catalog.py": "ad289b5cce6e1829f22cb877133d0db6a1c4287b06b1eb7ade975c58ac922b35",
+        "layout_sampling/containers.py": "b9ebd068fd65240ab9bed75a9d4b34a66ed3faf03b023f21127e03419bea0f32",
+        "layout_sampling/equation.py": "507b986ad833a62dd25c162e4be47d75d11d31e096cc49ea1625a171fa0472af",
+        "layout_sampling/extended.py": "8fc57d49df2964292e98293cb24758cd3521513c733d497d534ef40942466848",
+        "layout_sampling/image_conveyor.py": "1115659d36e812266c32591e06755641ef19282091061f96009232eb9d67a281",
+        "layout_sampling/placement.py": "b74d897a0aa622ae4022f6a61eb08f05273bcdbd071810f11584b4d34c9fb47a",
+        "layouts.py": "b4d8125b415a79a27d2b18a63a35793aed695c07bad7800232e32b72f668e7f2"
+      }
+    },
+    {
+      "role": "heldout",
+      "manifest_path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/heldout-layouts/generated/manifest.json",
+      "manifest_sha256": "6f538e4d3e1ea138ae6de2e7f44cdeaef1823557b3d11b356f8e528904eb23c1",
+      "distribution_status": "public_config_and_task_semantics_not_qualified",
+      "generation_stage_physics_status": "not_validated",
+      "seed": 8448176238522069801,
+      "task_seed": 8176143042274879705,
+      "generator_ids": [
+        "extended_public_config_v1"
+      ],
+      "implementation": {
+        "layout_sampling/__init__.py": "2f0a01cac9e7a386b15239450b940508a789d5f4d175f81aa66dc41a500155e2",
+        "layout_sampling/catalog.py": "ad289b5cce6e1829f22cb877133d0db6a1c4287b06b1eb7ade975c58ac922b35",
+        "layout_sampling/containers.py": "b9ebd068fd65240ab9bed75a9d4b34a66ed3faf03b023f21127e03419bea0f32",
+        "layout_sampling/equation.py": "507b986ad833a62dd25c162e4be47d75d11d31e096cc49ea1625a171fa0472af",
+        "layout_sampling/extended.py": "8fc57d49df2964292e98293cb24758cd3521513c733d497d534ef40942466848",
+        "layout_sampling/image_conveyor.py": "1115659d36e812266c32591e06755641ef19282091061f96009232eb9d67a281",
+        "layout_sampling/placement.py": "b74d897a0aa622ae4022f6a61eb08f05273bcdbd071810f11584b4d34c9fb47a",
+        "layouts.py": "b4d8125b415a79a27d2b18a63a35793aed695c07bad7800232e32b72f668e7f2"
+      }
+    }
+  ],
+  "same_generator_implementation": true,
+  "distinct_batch_seeds": true,
+  "scope": "Research extended_public_config_v1 sampler based on public task configuration, not claimed distribution-equivalent to the released official benchmark. Generation-stage physics_status is followed by separate native initialization qualification; successful reset does not establish benchmark distribution equivalence. No new cases or outcomes selected by this audit."
+}

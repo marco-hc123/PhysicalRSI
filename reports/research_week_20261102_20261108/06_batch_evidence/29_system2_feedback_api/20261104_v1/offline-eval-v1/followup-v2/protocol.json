@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-04T13:21:04.625339+00:00",
+  "design": "Post-initial-results exploratory diagnostics; no heldout or preregistered-confirmatory claim",
+  "goal": [
+    "Separate predicate behavior from action-height guards",
+    "Test orientation and relative-height transfer of the predicate",
+    "Ensure the dynamic-category probe actually delivers the changed scene"
+  ],
+  "treatments": [
+    "4 synthetic point-containment scenes x 6 candidates",
+    "Existing two-scene dynamic fixture with acknowledged mock actions rather than stop at first approach x 6"
+  ],
+  "expected_geometry": "Oriented box center-point surrogate using supplied pose/dimensions only; not true basket interior, mesh collision or object containment",
+  "fixed": [
+    "Saved candidates unchanged",
+    "same 100 RPC / 2-second / restricted-capability harness",
+    "same prior scene definitions for dynamic follow-through"
+  ],
+  "new_cpu_executions": 30,
+  "new_api_calls": 0,
+  "new_native_episodes": 0
+}

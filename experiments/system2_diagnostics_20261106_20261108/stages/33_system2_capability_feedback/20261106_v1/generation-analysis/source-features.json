@@ -1,0 +1,222 @@
+[
+  {
+    "candidate": "legacy_feedback_1",
+    "arm": "legacy_feedback",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/candidates/legacy_feedback_1/candidate.py",
+    "sha256": "c4cea1da01a6a1ff3b7242218a654c1afdba8e97e1c663fc276f6a8a22316200",
+    "evidence": [
+      {
+        "line": 41,
+        "text": "        return abs(lx) < d[0]/2-0.008 and abs(ly) < d[1]/2-0.008 and abs(p[2]-b[2]) < d[2]/2 + item['d'][2]/2 + 0.025"
+      },
+      {
+        "line": 45,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 50,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 109,
+        "text": "            contact_z = max(0.92, z + 0.125)"
+      },
+      {
+        "line": 121,
+        "text": "            move(arm, bx, by, 1.06)"
+      }
+    ],
+    "source_review": "Entire source inspected before native cohort outcomes.",
+    "dynamic_height_lift_gate": false,
+    "postlift_disappearance_gate": false,
+    "explicit_no_path_zero_execution_fallback": false,
+    "fallback_scope": "Generic primitive error raises and top-level catch returns",
+    "nominal_z_used_in_basket_membership": true,
+    "contact_uses_half_object_height": false,
+    "postrelease_vertical_retreat_z": 1.06,
+    "memory_read_lines": [],
+    "interpretation": "These are observed source features, not task success. Generated policies differ in multiple behavioral details; the experimental treatment here is generation feedback, not a single manual action change."
+  },
+  {
+    "candidate": "capability_feedback_1",
+    "arm": "capability_feedback",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/candidates/capability_feedback_1/candidate.py",
+    "sha256": "fc765e21f17cf47507f257dd5c85b6f16d756afbd14888988b7dd0526ec137aa",
+    "evidence": [
+      {
+        "line": 48,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 49,
+        "text": "            if result['primitive_error'] == 'no_collision_free_path':"
+      },
+      {
+        "line": 120,
+        "text": "            contact = max(0.92, z + 0.125)"
+      },
+      {
+        "line": 129,
+        "text": "            for arm in alternatives:"
+      },
+      {
+        "line": 148,
+        "text": "            if not approach(arm, [bx, by, 1.06]):"
+      }
+    ],
+    "source_review": "Entire source inspected before native cohort outcomes.",
+    "dynamic_height_lift_gate": false,
+    "postlift_disappearance_gate": false,
+    "explicit_no_path_zero_execution_fallback": true,
+    "fallback_scope": "At most two pre-contact arm choices; transfer/lift failures still stop",
+    "nominal_z_used_in_basket_membership": false,
+    "contact_uses_half_object_height": false,
+    "postrelease_vertical_retreat_z": 1.06,
+    "memory_read_lines": [],
+    "interpretation": "These are observed source features, not task success. Generated policies differ in multiple behavioral details; the experimental treatment here is generation feedback, not a single manual action change."
+  },
+  {
+    "candidate": "capability_feedback_2",
+    "arm": "capability_feedback",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/candidates/capability_feedback_2/candidate.py",
+    "sha256": "ff4f3438f43a1db92b5affebfcbe1147a1cda6f71ccfe0927558f84d0f10485a",
+    "evidence": [
+      {
+        "line": 44,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 45,
+        "text": "            if result['primitive_error'] == 'no_collision_free_path':"
+      },
+      {
+        "line": 109,
+        "text": "            contact_z = max(0.92, z + item['d'][2]/2 + 0.125)"
+      },
+      {
+        "line": 117,
+        "text": "            for candidate in [preferred, alternate]:"
+      }
+    ],
+    "source_review": "Entire source inspected before native cohort outcomes.",
+    "dynamic_height_lift_gate": false,
+    "postlift_disappearance_gate": false,
+    "explicit_no_path_zero_execution_fallback": true,
+    "fallback_scope": "At most two pre-contact arm choices; transfer/lift failures still stop",
+    "nominal_z_used_in_basket_membership": false,
+    "contact_uses_half_object_height": true,
+    "postrelease_vertical_retreat_z": null,
+    "memory_read_lines": [],
+    "interpretation": "These are observed source features, not task success. Generated policies differ in multiple behavioral details; the experimental treatment here is generation feedback, not a single manual action change."
+  },
+  {
+    "candidate": "legacy_feedback_2",
+    "arm": "legacy_feedback",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/candidates/legacy_feedback_2/candidate.py",
+    "sha256": "0ec6faade09681c3c551da3e092f655a13852f188a95c8daafb5bcbe0f014676",
+    "evidence": [
+      {
+        "line": 42,
+        "text": "        return abs(lx) < d[0]/2 - 0.008 and abs(ly) < d[1]/2 - 0.008 and abs(dz) < d[2]/2 + item['d'][2]/2 + 0.025"
+      },
+      {
+        "line": 46,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 51,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 117,
+        "text": "            contact_z = max(0.92, z + 0.125)"
+      }
+    ],
+    "source_review": "Entire source inspected before native cohort outcomes.",
+    "dynamic_height_lift_gate": false,
+    "postlift_disappearance_gate": false,
+    "explicit_no_path_zero_execution_fallback": false,
+    "fallback_scope": "Generic primitive error raises and top-level catch returns",
+    "nominal_z_used_in_basket_membership": true,
+    "contact_uses_half_object_height": false,
+    "postrelease_vertical_retreat_z": null,
+    "memory_read_lines": [],
+    "interpretation": "These are observed source features, not task success. Generated policies differ in multiple behavioral details; the experimental treatment here is generation feedback, not a single manual action change."
+  },
+  {
+    "candidate": "legacy_feedback_3",
+    "arm": "legacy_feedback",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/candidates/legacy_feedback_3/candidate.py",
+    "sha256": "1cee292e2b9afaa51b583ed36a3dedb98ef8519c9e8f83551332b490e217388a",
+    "evidence": [
+      {
+        "line": 39,
+        "text": "        return abs(lx) < d[0]/2-0.01 and abs(ly) < d[1]/2-0.01 and abs(p[2]-b[2]) < d[2]/2+item['d'][2]/2+0.025"
+      },
+      {
+        "line": 43,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 48,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 104,
+        "text": "            contact = max(0.92, z+0.125)"
+      },
+      {
+        "line": 117,
+        "text": "            move(arm, bx, by, 1.06)"
+      }
+    ],
+    "source_review": "Entire source inspected before native cohort outcomes.",
+    "dynamic_height_lift_gate": false,
+    "postlift_disappearance_gate": false,
+    "explicit_no_path_zero_execution_fallback": false,
+    "fallback_scope": "Generic primitive error raises and top-level catch returns",
+    "nominal_z_used_in_basket_membership": true,
+    "contact_uses_half_object_height": false,
+    "postrelease_vertical_retreat_z": 1.06,
+    "memory_read_lines": [],
+    "interpretation": "These are observed source features, not task success. Generated policies differ in multiple behavioral details; the experimental treatment here is generation feedback, not a single manual action change."
+  },
+  {
+    "candidate": "capability_feedback_3",
+    "arm": "capability_feedback",
+    "source": "/mnt/data/joey_tr/physical-RSI/result/33_system2_capability_feedback/20261106_v1/candidates/capability_feedback_3/candidate.py",
+    "sha256": "94cf67fe69216640e3169253016f6fe17db34d3ae9d909acab493f09fb4a8ca9",
+    "evidence": [
+      {
+        "line": 48,
+        "text": "        if isinstance(result, dict) and result.get('primitive_error'):"
+      },
+      {
+        "line": 49,
+        "text": "            if result['primitive_error'] == 'no_collision_free_path':"
+      },
+      {
+        "line": 92,
+        "text": "            contact = max(0.92, z + item['d'][2]/2 + 0.125)"
+      },
+      {
+        "line": 100,
+        "text": "            for arm in [preferred, other]:"
+      },
+      {
+        "line": 118,
+        "text": "            if not move(selected, bx, by, 1.055):"
+      }
+    ],
+    "source_review": "Entire source inspected before native cohort outcomes.",
+    "dynamic_height_lift_gate": false,
+    "postlift_disappearance_gate": false,
+    "explicit_no_path_zero_execution_fallback": true,
+    "fallback_scope": "At most two pre-contact arm choices; transfer/lift failures still stop",
+    "nominal_z_used_in_basket_membership": false,
+    "contact_uses_half_object_height": true,
+    "postrelease_vertical_retreat_z": 1.055,
+    "memory_read_lines": [],
+    "interpretation": "These are observed source features, not task success. Generated policies differ in multiple behavioral details; the experimental treatment here is generation feedback, not a single manual action change."
+  }
+]

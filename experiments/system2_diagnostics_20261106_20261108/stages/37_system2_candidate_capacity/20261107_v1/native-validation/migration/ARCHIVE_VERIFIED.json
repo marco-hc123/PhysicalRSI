@@ -1,0 +1,14 @@
+{
+  "state": "verified",
+  "utc": "2026-11-07T05:47:48.453453+00:00",
+  "source_root": "/mnt/data/physical-RSI/result/38_candidate_capacity_20261107",
+  "destination": "/mnt/data/joey_tr/physical-RSI/result/37_system2_candidate_capacity/20261107_v1/native-validation",
+  "verified_files": 904,
+  "logical_bytes": 152748901,
+  "manifest_sha256": "7c54542f2320ac715c3482530717e0ee363b2a2e2591050e982b9ca818591158",
+  "native_cases": 5,
+  "videos": 15,
+  "new_api_calls": 0,
+  "lab_gpu_used": false,
+  "transfer_verified_in_batches": true
+}

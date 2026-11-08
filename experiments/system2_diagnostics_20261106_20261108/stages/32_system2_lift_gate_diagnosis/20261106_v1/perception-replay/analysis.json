@@ -1,0 +1,75 @@
+{
+  "utc": "2026-11-06T03:17:53.308730+00:00",
+  "pairs": [
+    {
+      "frame": 0,
+      "raw_dino_outputs_identical": true,
+      "raw_dino_hash": "c46e274675eae8f0612b14a6a5f613424067b560b39e46739c8a0807fc3e67d0",
+      "before_robot_mask_identical": true,
+      "original_final_watch_count": 1,
+      "disabled_mask_final_watch_count": 1
+    },
+    {
+      "frame": 635,
+      "raw_dino_outputs_identical": true,
+      "raw_dino_hash": "42581640aabf5794324c1d4e527b97b0d2500e254d31a4d10b6274fe7e0efba9",
+      "before_robot_mask_identical": true,
+      "original_final_watch_count": 0,
+      "disabled_mask_final_watch_count": 0
+    }
+  ],
+  "postlift_watch_nms_audit": [
+    {
+      "watch_box": [
+        421.6622314453125,
+        275.9655303955078,
+        466.1930847167969,
+        310.53980255126953
+      ],
+      "watch_score": 0.28478240966796875,
+      "overlapping_retained_proposals": [
+        {
+          "category": "watch",
+          "box": [
+            421.6622314453125,
+            275.9655303955078,
+            466.1930847167969,
+            310.53980255126953
+          ],
+          "score": 0.28478240966796875,
+          "iou": 1.0
+        }
+      ]
+    },
+    {
+      "watch_box": [
+        161.8244171142578,
+        205.04805445671082,
+        251.93568420410156,
+        263.4900779724121
+      ],
+      "watch_score": 0.18707306683063507,
+      "overlapping_retained_proposals": [
+        {
+          "category": "camera",
+          "box": [
+            161.65515899658203,
+            205.04996240139008,
+            251.9546661376953,
+            263.590145111084
+          ],
+          "score": 0.2822435200214386,
+          "iou": 0.9961771695716446
+        }
+      ]
+    }
+  ],
+  "conclusion": "Disabling robot-overlap filter alone does not recover final watch detection on this decoded postlift image. Detector proposal generation, class-agnostic deduplication and semantic fusion must be distinguished.",
+  "limits": [
+    "Lossy decoded historical video and approximate joint-state alignment; not exact native sensor replay.",
+    "One diagnostic layout, no independent generalization test.",
+    "Mask-filter ablation does not estimate true 3D object height or verify grasp."
+  ],
+  "native_cases": 0,
+  "api_calls": 0
+}

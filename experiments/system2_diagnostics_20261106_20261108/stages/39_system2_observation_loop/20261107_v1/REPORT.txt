@@ -1,0 +1,15 @@
+固定循环上限试验：5个新回合
+
+仅将range(min(6,len(items)))改为range(6)。保存的初始类别分配、抓手/轨迹/运输目标、1100步和评分保持不变。对照是上一阶段5个偏移目标回合，明确复用，不再计为新样本。
+新组：{"condition": "fixed_six_turns", "cases": 5, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "successes": 0, "cohort_wall_seconds": 995.492565462001, "close_commands": 18, "completed_approaches": 72, "rejected_approaches": 2, "active_budget_cancel": 0, "transport_attempts": 18, "transport_completed": 18, "transport_rejected": 0, "completed_primitive_action_steps": 826}
+已有对照：{"condition": "offset_transport", "cases": 5, "scores_by_layout_100": [0.0, 0.0, 0.0, 0.0, 15.0], "mean_score_100": 3.0, "successes": 0, "cohort_wall_seconds": 985.3597181100004, "completed_approaches": 64, "rejected_approaches": 0, "incomplete_approaches": 0, "active_budget_cancel": 0, "transport_attempts": 16, "transport_completed": 16, "transport_rejected": 0, "close_commands": 16, "closed_checks": 265, "closed_mismatches": 0, "completed_primitive_action_steps": 715}
+配对表：[{"layout_id": 0, "reused_control_score": 0.0, "new_fixed6_score": 0.0, "score_delta": 0.0, "reused_control_close_commands": 4, "new_fixed6_close_commands": 4, "reused_control_transport_completed": 4, "new_fixed6_transport_completed": 4}, {"layout_id": 1, "reused_control_score": 0.0, "new_fixed6_score": 0.0, "score_delta": 0.0, "reused_control_close_commands": 4, "new_fixed6_close_commands": 4, "reused_control_transport_completed": 4, "new_fixed6_transport_completed": 4}, {"layout_id": 2, "reused_control_score": 0.0, "new_fixed6_score": 0.0, "score_delta": 0.0, "reused_control_close_commands": 2, "new_fixed6_close_commands": 2, "reused_control_transport_completed": 2, "new_fixed6_transport_completed": 2}, {"layout_id": 3, "reused_control_score": 0.0, "new_fixed6_score": 0.0, "score_delta": 0.0, "reused_control_close_commands": 3, "new_fixed6_close_commands": 4, "reused_control_transport_completed": 3, "new_fixed6_transport_completed": 4}, {"layout_id": 4, "reused_control_score": 15.0, "new_fixed6_score": 15.0, "score_delta": 0.0, "reused_control_close_commands": 3, "new_fixed6_close_commands": 4, "reused_control_transport_completed": 3, "new_fixed6_transport_completed": 4}]
+
+判断：{"any_positive_score_delta": false, "mean_score_delta": 0.0, "success_delta": 0, "close_command_delta": 2, "transport_completed_delta": 2}
+
+循环次数只改变可尝试上限，不能补全感知类别、保证抓住物体或保证放置入筐。接着用原接口响应重放终止分支，并核对对象跟踪和评分条件。
+本轮直接回放保存代码的一个人工修改，新增API调用0，不是自动System2改写或策略晋升。
+限制：不同运行时段、重复使用开发布局和已有对照，仅作诊断；不能证明独立泛化。
+证据：native-validation/（5回合、15视频）、comparison-with-reused-control.csv、protocol.json。历史累计原生回合128，未把复用的5回合加第二次。
+
+完整的退出分支、能力判断和下一轮变量设计见INTERPRETATION.txt。

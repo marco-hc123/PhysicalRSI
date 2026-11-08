@@ -1,0 +1,11 @@
+{
+  "state": "completed_with_runtime_failure",
+  "task": "classify_objects",
+  "phase": "classify_objects-heldout",
+  "pid": 71171,
+  "utc": "2026-11-08T09:14:04.212495+00:00",
+  "native_completed": 4,
+  "native_interrupted": 1,
+  "verification": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/analysis/partial-evidence-verification.json",
+  "no_retry": true
+}

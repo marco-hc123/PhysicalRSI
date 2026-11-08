@@ -1,0 +1,70 @@
+{
+  "state": "completed_and_archived",
+  "goal": "Verify transport destination offsets in10freshnativecases after9/9offlinepathrecovery",
+  "lab_root": "/mnt/data/joey_tr/physical-RSI/result/38_system2_transport_destination/20261107_v1",
+  "cloud_root": "/mnt/data/physical-RSI/result/40_transport_destination_20261107",
+  "launch": {
+    "pid": 36371,
+    "script": "/mnt/data/physical-RSI/result/40_transport_destination_20261107/run_native.py",
+    "sha256": "b05b2cff73d702d25c9950371c2fbd81ab3b6cbb5e2d7a9376130259f50fdf32",
+    "utc": "2026-11-07T05:53:07.268595+00:00",
+    "planned_cases": 10,
+    "api_calls": 0,
+    "lab_gpu_used": false
+  },
+  "watcher_pid": 45263,
+  "api_calls": 0,
+  "lab_gpu_used": false,
+  "lab_gpu_limit": 1,
+  "next": "Do not rerun or modify sealed evidence. Follow observation_loop_20261107: cloud41 controller49685,localwatcher47166,new5cases,lab39. Existing5offsetcontrols reused separately.",
+  "analysis_controller": {
+    "pid": 45702,
+    "utc": "2026-11-07T06:02:45.391572+00:00",
+    "script": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/transport_destination_20261107/finish_analysis.py"
+  },
+  "analysis_plan": "After verified archive, CPU final metrics,matched first grasp,review frames,recent progress; no seal before review",
+  "last_verified_utc": "2026-11-07T06:07:45.389335+00:00",
+  "analysis_preparation": {
+    "cpu_script": "finalize_transport.py",
+    "progress_review": "build_progress_review.py",
+    "scoring_audit": "audit_scoring_conditions.py",
+    "scoring_audit_preflight": "Verified on prior10native records; no new native cases, no GPU",
+    "source_files": "scoring-reference/source-manifest.json"
+  },
+  "observed_progress": {
+    "utc": "2026-11-07T06:10:47.648572+00:00",
+    "original_transport_valid_cases": 5,
+    "original_transport_scores_100": [
+      0,
+      0,
+      0,
+      0,
+      15
+    ],
+    "offset_transport": "running; no final result yet"
+  },
+  "diagnostic_controller": {
+    "pid": 46521,
+    "utc": "2026-11-07T06:18:21.352308+00:00",
+    "script": "/home/marco/workspace/PhysicalRSI/current/result/server_preparation/transport_destination_20261107/finish_diagnostics.py"
+  },
+  "updated_utc": "2026-11-07T06:36:57.719142+00:00",
+  "final_native_cases": 10,
+  "full_successes": 0,
+  "scores_by_condition": {
+    "original_transport": [
+      0,
+      0,
+      0,
+      0,
+      15
+    ],
+    "offset_transport": [
+      0,
+      0,
+      0,
+      0,
+      15
+    ]
+  }
+}

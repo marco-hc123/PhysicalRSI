@@ -1,0 +1,52 @@
+{
+  "schema": "physicalrsi.skill-chain-floor/v1",
+  "utc": "2026-11-07T09:06:15.399708+00:00",
+  "question": "Can the deployed generated-candidate primitive interface and the complete released skill execute a first pick-lift-transport-release chain on unchanged original layouts?",
+  "native_cases": 10,
+  "unique_development_layouts": 5,
+  "conditions": [
+    {
+      "name": "single_cycle",
+      "description": "Frozen stage40 candidate, only outer loop six to one. Same perception, action primitives, corrected rejection wrapper and gripper retention.",
+      "candidate_sha256": "366048164abeceaabba5ff89edd19cda88403919afa1e9405451d27675d77af3"
+    },
+    {
+      "name": "released_first_basket_cycle",
+      "description": "Released controller with first-source processing through its first basket transfer attempt; preserve internal qualification/recovery/handoff, stop further task iteration. Richer interface, descriptive capability reference only."
+    }
+  ],
+  "task": "classify_objects",
+  "native_step_limit": 1100,
+  "api_calls_planned": 0,
+  "training": false,
+  "lab_gpu_used": false,
+  "all_compute_host": "execution_server",
+  "new_generation": false,
+  "promotion": false,
+  "analysis_only_state": true,
+  "primary_unit": "one source-to-basket attempt per original development layout; deployment failures separate",
+  "metrics": [
+    "source selection and association confidence",
+    "contact approach and endpoint error",
+    "lift root rise and held object motion proxies",
+    "transport rejection and object displacement",
+    "release and basket containment",
+    "native task score and full success separately",
+    "first failure phase and unused interface requirements"
+  ],
+  "limits": [
+    "Not an equal-interface causal comparison between conditions.",
+    "Different native selectors may choose different objects; no paired score superiority inference.",
+    "One cycle cannot establish full multi-object task success.",
+    "Simulator state is analysis-only and is never supplied to a controller.",
+    "Same five exposed layouts; no independent generalization.",
+    "Object root rise and co-motion are kinematic proxies, not force/contact proofs."
+  ],
+  "followup": "Complete this capability route and analyze before new System2 generation; no automatic enlargement of scenario/model search.",
+  "paid_api": {
+    "model_user_requested": "6.1-sol",
+    "reasoning_effort": "high",
+    "max_usd": 10,
+    "needed": false
+  }
+}

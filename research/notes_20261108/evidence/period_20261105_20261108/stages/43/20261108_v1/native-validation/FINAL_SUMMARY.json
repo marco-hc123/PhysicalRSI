@@ -1,0 +1,933 @@
+{
+  "state": "completed",
+  "utc": "2026-11-08T10:08:40.606308+00:00",
+  "tasks": {
+    "classify_objects": {
+      "parent_development": {
+        "actors": 5,
+        "complete_successes": 0,
+        "condition": "parent",
+        "expert": {
+          "name": "code.classify_objects",
+          "revision": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88"
+        },
+        "failed_or_rejected_calls": 2,
+        "mean_score": 0.0,
+        "n": 5,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+        "task": "classify_objects",
+        "wall_seconds": 980.3909645399999
+      },
+      "candidate_groups": {
+        "basic": {
+          "generated": 3,
+          "admitted": 3,
+          "candidate_means": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "best_development_mean": 0.0,
+          "fully_successful_native_episodes": 0,
+          "native_episodes": 15,
+          "unit": "Three candidate generations; five matched layouts per admitted candidate. Do not treat15 correlated rollouts as15 independent generated strategies."
+        },
+        "execution_feedback": {
+          "generated": 3,
+          "admitted": 3,
+          "candidate_means": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "best_development_mean": 0.0,
+          "fully_successful_native_episodes": 0,
+          "native_episodes": 15,
+          "unit": "Three candidate generations; five matched layouts per admitted candidate. Do not treat15 correlated rollouts as15 independent generated strategies."
+        }
+      },
+      "selection": [
+        {
+          "condition": "basic",
+          "decision": "retain_parent",
+          "admitted_evaluated": 3,
+          "eligible": 0
+        },
+        {
+          "condition": "execution_feedback",
+          "decision": "retain_parent",
+          "admitted_evaluated": 3,
+          "eligible": 0
+        }
+      ],
+      "heldout_parent": {
+        "task": "classify_objects",
+        "condition": "parent",
+        "n": 4,
+        "planned_n": 5,
+        "scores": [
+          0.15,
+          null,
+          0.15,
+          0.0,
+          0.0
+        ],
+        "mean_score": 0.075,
+        "complete_successes": 0,
+        "runtime_interrupted": 1,
+        "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+        "expert": {
+          "name": "code.classify_objects",
+          "revision": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88"
+        },
+        "actors": 5,
+        "failed_or_rejected_calls": null,
+        "wall_seconds": 888.218430156001,
+        "wall_scope": "Entire attempted cohort controller wall time including partial episode/preflight; not start_to_valid_receipts",
+        "scope": "Four natural terminals and one trajectory-tracking interruption; no complete-cohort framework receipts exist. Mean conditions on completed layouts; no full5-layout acceptance claim."
+      },
+      "heldout_selected_views": {
+        "basic": {
+          "selected_source": "parent",
+          "reuses_parent_evidence": true,
+          "scores": [
+            0.15,
+            null,
+            0.15,
+            0.0,
+            0.0
+          ],
+          "complete_successes": 0,
+          "mean_score": 0.075,
+          "paired_score_differences": [
+            0.0,
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 4,
+          "n": 4,
+          "planned_n": 5,
+          "missing_pairs": 1
+        },
+        "execution_feedback": {
+          "selected_source": "parent",
+          "reuses_parent_evidence": true,
+          "scores": [
+            0.15,
+            null,
+            0.15,
+            0.0,
+            0.0
+          ],
+          "complete_successes": 0,
+          "mean_score": 0.075,
+          "paired_score_differences": [
+            0.0,
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 4,
+          "n": 4,
+          "planned_n": 5,
+          "missing_pairs": 1
+        }
+      },
+      "heldout_capacity_reference": null,
+      "heldout_overlap_audit": {
+        "state": "passed",
+        "task": "classify_objects",
+        "new_geometry_sha256": [
+          "9ed457f836f47124757fdde724500ad335f89c79044553115ff79e970e924728",
+          "87e3b84f7cb4e5d2ee025dd96bc79720917768ff99d480ebc88e44ae9e850c8e",
+          "5a95e7220badbb38530d445f6f99a97a8c58f2e9d2e55a12aeb97f0dfe40d458",
+          "b6dd8d9a0b69723e2411353e91804b5825998306e1c84f34d083ec67fc26e33c",
+          "c2d8dbe9722f783e15861e59e474dd2262f7e4b381a0e503a70ca2350dc76b4b"
+        ],
+        "prior_unique_geometries": 15,
+        "missing_prior_references": [],
+        "sources": [
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "ae5e31dd3dfd09fa7084666ebb4a788f6f8f9f79602ea36b28a5630bd2cf07bc"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "fb7dd76d198418057934c520d297c1c56580d36e454ba25226a6ab6dfd95f849"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "0b73bd989f0e0d8fe2a30a5601ee1d5a4cbd706e9d6fe7e13af03a18bd7820d0"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "70269d79d3ebeaf855d5a5245bedb0a2c525c08b9b68dab064cf08c4a88e575c"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "67c4baea54bf1767eae4e45cc3c53a5e79f0b344883672d845c8191781ff18a1"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "ae5e31dd3dfd09fa7084666ebb4a788f6f8f9f79602ea36b28a5630bd2cf07bc"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "fb7dd76d198418057934c520d297c1c56580d36e454ba25226a6ab6dfd95f849"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "0b73bd989f0e0d8fe2a30a5601ee1d5a4cbd706e9d6fe7e13af03a18bd7820d0"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "70269d79d3ebeaf855d5a5245bedb0a2c525c08b9b68dab064cf08c4a88e575c"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/classify_objects/development/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "67c4baea54bf1767eae4e45cc3c53a5e79f0b344883672d845c8191781ff18a1"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/heldout-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "1e6f7f5640115fc90d354c2236bf79185e5b538e8ad98fd865fa439c82bee19d"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/heldout-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "f8aa4d41df9ce55b72bd9ee505cad1d1500e5394f74b8ff623673964e840f398"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/heldout-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "d5366ef854854b652b2182486b2336beda5b6eec28703d3493086517e53af58d"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/heldout-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "e776aafec2189ee6ab1a10d71bb9f75a39fcf7075c02cdd3b56a958e5ae686ed"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/45_search_execution_controls_20261107/heldout-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "f5703a6168f08c030f393570b30de37c77a10a13e2e0b6c0dd3545395c76cf2c"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/0/layout.json",
+            "geometry_sha256": "644beeaa18d5c52eb83d035bde8dbf7dfdbf5aae7bc71f6123303f9457efcc27"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/1/layout.json",
+            "geometry_sha256": "30ae0079dad449fdf165e6ea2f644bf6450d350e19bc40480214f5fdd8d85771"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/2/layout.json",
+            "geometry_sha256": "9bbb868c92d67b4ed1f53cb6c8ef8a648310fdd3955aa4f19208cce92933b905"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/3/layout.json",
+            "geometry_sha256": "d1e0d9ba14344c782b2d489d5457d5fe23033451cf09b61d8682d93603266834"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/31_system2_final_validation_20261030T121000Z/workspace/rounds/round-000000/validation-layouts/generated/classify_objects/4/layout.json",
+            "geometry_sha256": "a0f69d6e222aca60a289b17cffb3d652cc09e1554930ba2bc9165bb4fe9ee545"
+          }
+        ],
+        "scope": "Fresh same-sampler layouts; no identical geometry among available prior native campaigns. Not a new-object-category or official benchmark distribution claim. Unavailable prior references remain unknown."
+      }
+    },
+    "general_pickup": {
+      "parent_development": {
+        "actors": 5,
+        "complete_successes": 3,
+        "condition": "parent",
+        "expert": {
+          "name": "code.general_pickup",
+          "revision": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed"
+        },
+        "failed_or_rejected_calls": 3,
+        "mean_score": 0.6,
+        "n": 5,
+        "scores": [
+          1.0,
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+        "task": "general_pickup",
+        "wall_seconds": 299.21296095399975
+      },
+      "candidate_groups": {
+        "basic": {
+          "generated": 3,
+          "admitted": 3,
+          "candidate_means": [
+            0.6,
+            0.6,
+            0.4
+          ],
+          "best_development_mean": 0.6,
+          "fully_successful_native_episodes": 8,
+          "native_episodes": 15,
+          "unit": "Three candidate generations; five matched layouts per admitted candidate. Do not treat15 correlated rollouts as15 independent generated strategies."
+        },
+        "execution_feedback": {
+          "generated": 3,
+          "admitted": 3,
+          "candidate_means": [
+            0.4,
+            0.6,
+            0.6
+          ],
+          "best_development_mean": 0.6,
+          "fully_successful_native_episodes": 8,
+          "native_episodes": 15,
+          "unit": "Three candidate generations; five matched layouts per admitted candidate. Do not treat15 correlated rollouts as15 independent generated strategies."
+        }
+      },
+      "selection": [
+        {
+          "condition": "basic",
+          "decision": "retain_parent",
+          "admitted_evaluated": 3,
+          "eligible": 0
+        },
+        {
+          "condition": "execution_feedback",
+          "decision": "retain_parent",
+          "admitted_evaluated": 3,
+          "eligible": 0
+        }
+      ],
+      "heldout_parent": {
+        "task": "general_pickup",
+        "condition": "parent",
+        "n": 4,
+        "planned_n": 5,
+        "scores": [
+          0.0,
+          null,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "mean_score": 0.25,
+        "complete_successes": 1,
+        "runtime_interrupted": 1,
+        "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+        "expert": {
+          "name": "code.general_pickup",
+          "revision": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed"
+        },
+        "actors": 5,
+        "failed_or_rejected_calls": null,
+        "wall_seconds": 333.36688269799924,
+        "wall_scope": "Entire attempted cohort controller wall time including partial episode/preflight; not start_to_valid_receipts",
+        "scope": "Four natural terminals and one trajectory-tracking interruption; no complete-cohort framework receipts exist. Mean conditions on completed layouts; no full5-layout acceptance claim.",
+        "interrupted_action_counts": [
+          31
+        ]
+      },
+      "heldout_selected_views": {
+        "basic": {
+          "selected_source": "parent",
+          "reuses_parent_evidence": true,
+          "scores": [
+            0.0,
+            null,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "complete_successes": 1,
+          "mean_score": 0.25,
+          "paired_score_differences": [
+            0.0,
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 4,
+          "n": 4,
+          "planned_n": 5,
+          "missing_pairs": 1
+        },
+        "execution_feedback": {
+          "selected_source": "parent",
+          "reuses_parent_evidence": true,
+          "scores": [
+            0.0,
+            null,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "complete_successes": 1,
+          "mean_score": 0.25,
+          "paired_score_differences": [
+            0.0,
+            null,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0,
+          "improved": 0,
+          "worse": 0,
+          "equal": 4,
+          "n": 4,
+          "planned_n": 5,
+          "missing_pairs": 1
+        }
+      },
+      "heldout_capacity_reference": {
+        "task": "general_pickup",
+        "condition": "pi05_reference",
+        "n": 5,
+        "scores": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_score": 0.0,
+        "complete_successes": 0,
+        "source_sha256": null,
+        "expert": {
+          "name": "pi05",
+          "revision": "c70c9a59e650d484c8b921d8e17181cacd8e24b20c4cbae8277a1dffe9b69ee9"
+        },
+        "actors": 0,
+        "failed_or_rejected_calls": 0,
+        "wall_seconds": 292.40060876999996
+      },
+      "heldout_overlap_audit": {
+        "state": "passed",
+        "task": "general_pickup",
+        "new_geometry_sha256": [
+          "5386a36a1befb54a2d45d6004dc90125b35a36491a842138997c9f0b792fbe69",
+          "8d385c2cb26ab6002014f0bf2250983dfff3cfe7d3ef41caa309de0e26601def",
+          "a198aab3c2346c23e29f04a147799b001c68e003291bdcea83fe24f95cd242f1",
+          "dca4b0d32b6f113c4ab20d519b758844202edf8306a990c76861f1b476686718",
+          "6821c36358dc3cebcb2c514bfb086ad538fae2d43b8bef067071062d19949a29"
+        ],
+        "prior_unique_geometries": 6,
+        "missing_prior_references": [],
+        "sources": [
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/0/layout.json",
+            "geometry_sha256": "ef0dd6de63f3d9f356bb33fe1a3842a88eb0192b13aa0638353782227dec1572"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/1/layout.json",
+            "geometry_sha256": "4ca08a31ab7eff557518826dac69b8e81bfaf3400d6bebeb675bce5af784f0bb"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/2/layout.json",
+            "geometry_sha256": "2b8d4b6f4aa12288203cedbb7e3d4787803e240a5194b5d4a25783321028700c"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/3/layout.json",
+            "geometry_sha256": "5905ef556e4e7e624b72433332079858f5b157fcd81bdea581839c3e79e154ae"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/4/layout.json",
+            "geometry_sha256": "5f763fdfe92d0832f07989fc8c49769484bde3b3347137f1c890de7d2ad68b8a"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/0/layout.json",
+            "geometry_sha256": "ef0dd6de63f3d9f356bb33fe1a3842a88eb0192b13aa0638353782227dec1572"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/1/layout.json",
+            "geometry_sha256": "4ca08a31ab7eff557518826dac69b8e81bfaf3400d6bebeb675bce5af784f0bb"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/2/layout.json",
+            "geometry_sha256": "2b8d4b6f4aa12288203cedbb7e3d4787803e240a5194b5d4a25783321028700c"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/3/layout.json",
+            "geometry_sha256": "5905ef556e4e7e624b72433332079858f5b157fcd81bdea581839c3e79e154ae"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/development/generated/general_pickup/4/layout.json",
+            "geometry_sha256": "5f763fdfe92d0832f07989fc8c49769484bde3b3347137f1c890de7d2ad68b8a"
+          },
+          {
+            "path": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/layouts/general_pickup/smoke/generated/general_pickup/0/layout.json",
+            "geometry_sha256": "49e07c847812e3e631d27dfbf5af51679084549279453eba9af177f3d9d997bb"
+          }
+        ],
+        "scope": "Fresh same-sampler layouts; no identical geometry among available prior native campaigns. Not a new-object-category or official benchmark distribution claim. Unavailable prior references remain unknown."
+      }
+    }
+  },
+  "api": {
+    "requests": 12,
+    "http_200": 12,
+    "estimated_standard_usd": 0.46144340000000006,
+    "conservative_reserved_usd": 9.0,
+    "cap_usd": 10,
+    "input_tokens": 83082,
+    "output_tokens": 38663,
+    "cached_input_tokens": 55364,
+    "reasoning_output_subset": 21436,
+    "scope": "All12 proposal requests, including rejected or invalid outputs. Cache is part of input; reasoning is part of output. Cost estimated from reported usage; provider invoice authoritative."
+  },
+  "stage_accounting": [
+    {
+      "task": "general_pickup",
+      "phase": "general_pickup-smoke",
+      "native_episodes": 1,
+      "videos": 3,
+      "role": "preparation_not_formal",
+      "runtime_interrupted_episodes": 0,
+      "native_attempts": 1
+    },
+    {
+      "task": "classify_objects",
+      "phase": "classify_objects-parent",
+      "native_episodes": 5,
+      "videos": 15,
+      "role": "parent",
+      "runtime_interrupted_episodes": 0,
+      "native_attempts": 5
+    },
+    {
+      "task": "classify_objects",
+      "phase": "classify_objects-candidates",
+      "native_episodes": 30,
+      "videos": 90,
+      "role": "candidates",
+      "runtime_interrupted_episodes": 0,
+      "native_attempts": 30
+    },
+    {
+      "task": "classify_objects",
+      "phase": "classify_objects-heldout",
+      "native_episodes": 4,
+      "videos": 12,
+      "role": "heldout",
+      "runtime_interrupted_episodes": 1,
+      "native_attempts": 5
+    },
+    {
+      "task": "general_pickup",
+      "phase": "general_pickup-parent",
+      "native_episodes": 10,
+      "videos": 30,
+      "role": "parent",
+      "runtime_interrupted_episodes": 0,
+      "native_attempts": 10
+    },
+    {
+      "task": "general_pickup",
+      "phase": "general_pickup-candidates",
+      "native_episodes": 30,
+      "videos": 90,
+      "role": "candidates",
+      "runtime_interrupted_episodes": 0,
+      "native_attempts": 30
+    },
+    {
+      "task": "general_pickup",
+      "phase": "general_pickup-heldout",
+      "native_episodes": 9,
+      "videos": 27,
+      "role": "heldout",
+      "runtime_interrupted_episodes": 1,
+      "native_attempts": 10
+    }
+  ],
+  "actual_native_episodes": 89,
+  "actual_videos": 267,
+  "formal_native_episodes": 88,
+  "native_initializations": 21,
+  "rejected_candidates": 0,
+  "scope": "Two-task, one-round System2 feedback pilot; study code parents and task-specific observable RGB adapters; not official full benchmark, multi-round self-improvement, or cross-task transfer proof.",
+  "generation_by_task_condition": [
+    {
+      "task": "classify_objects",
+      "condition": "basic",
+      "requests": 3,
+      "input_tokens": 8136,
+      "output_tokens": 15130,
+      "cached_input_subset": 5418,
+      "reasoning_output_subset": 7989,
+      "api_seconds": 205.77592338200338,
+      "estimated_standard_usd": 0.1586323
+    },
+    {
+      "task": "classify_objects",
+      "condition": "execution_feedback",
+      "requests": 3,
+      "input_tokens": 44769,
+      "output_tokens": 10708,
+      "cached_input_subset": 29840,
+      "reasoning_output_subset": 5120,
+      "api_seconds": 137.47808196800543,
+      "estimated_standard_usd": 0.147382
+    },
+    {
+      "task": "general_pickup",
+      "condition": "basic",
+      "requests": 3,
+      "input_tokens": 3774,
+      "output_tokens": 6328,
+      "cached_input_subset": 2510,
+      "reasoning_output_subset": 4128,
+      "api_seconds": 98.87436277499728,
+      "estimated_standard_usd": 0.06668650000000001
+    },
+    {
+      "task": "general_pickup",
+      "condition": "execution_feedback",
+      "requests": 3,
+      "input_tokens": 26403,
+      "output_tokens": 6497,
+      "cached_input_subset": 17596,
+      "reasoning_output_subset": 4199,
+      "api_seconds": 104.433539139005,
+      "estimated_standard_usd": 0.08874259999999999
+    }
+  ],
+  "runtime_interruptions": [
+    {
+      "task": "classify_objects",
+      "phase": "classify_objects-heldout",
+      "condition": "parent",
+      "layout_id": 1,
+      "layout_sha256": "c8d9797243f1961da3774838cc0f1af7a980f9edbdd2be2f73104273dd08929e",
+      "score": null,
+      "success": null,
+      "natural_terminal": false,
+      "native_action_count": 214,
+      "error": "RpcError: request.execute: Observed robot diverged from planned trajectory",
+      "actor_uuid": "7091eef085404199af31adeae7ed158c",
+      "evidence_status": "runtime_interrupted_missing_native_terminal_score",
+      "verification": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/classify_objects-heldout/analysis/partial-evidence-verification.json"
+    },
+    {
+      "task": "general_pickup",
+      "phase": "general_pickup-heldout",
+      "condition": "parent",
+      "layout_id": 1,
+      "layout_sha256": "cb97f91d394d7f4437a564e60372b5aab18cde55c3dcc875e6da944aa31c4676",
+      "score": null,
+      "success": null,
+      "natural_terminal": false,
+      "native_action_count": 31,
+      "error": "RpcError: request.execute: Observed robot diverged from planned trajectory",
+      "actor_uuid": "24592a75f88f441cadb14b8a0bda32ea",
+      "evidence_status": "runtime_interrupted_missing_native_terminal_score",
+      "verification": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/general_pickup-heldout/analysis/partial-evidence-verification.json"
+    }
+  ],
+  "runtime_interrupted_episodes": 2,
+  "actual_native_attempts": 91,
+  "formal_native_attempts": 90,
+  "completion_qualification": "All planned evaluations attempted; 2 heldout executions interrupted and have no native terminal score. No retry or score imputation."
+}

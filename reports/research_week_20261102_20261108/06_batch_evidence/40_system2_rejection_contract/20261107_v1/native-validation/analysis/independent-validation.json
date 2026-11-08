@@ -1,0 +1,50 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T07:24:02.611577+00:00",
+  "valid_native_cases": 5,
+  "receipt_checks": [
+    {
+      "condition": "structured_rejection",
+      "layout_id": 0,
+      "receipt_sha256": "b058fbfad1ea1006037286345c51c6541555810b2f29592843ee6a085d77391a",
+      "harness_sha256": "611b0516b4acb05934660c89546ade86b4a1a0d3a0485a2cbc055f2648fd4dfa",
+      "state": "passed"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 1,
+      "receipt_sha256": "753f25ef36902cd40e162d0eab2bd32cd4d68beb70ec7c746fca81429d88561f",
+      "harness_sha256": "611b0516b4acb05934660c89546ade86b4a1a0d3a0485a2cbc055f2648fd4dfa",
+      "state": "passed"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 2,
+      "receipt_sha256": "ead81656a650d91ab6fa3c5de756492b2c23edbd4805b046cc536ef74922cdcc",
+      "harness_sha256": "611b0516b4acb05934660c89546ade86b4a1a0d3a0485a2cbc055f2648fd4dfa",
+      "state": "passed"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 3,
+      "receipt_sha256": "a0ae5018b1b759726ba7919db6f2e703466669c36e68962fa26f57e8c76c1cd6",
+      "harness_sha256": "611b0516b4acb05934660c89546ade86b4a1a0d3a0485a2cbc055f2648fd4dfa",
+      "state": "passed"
+    },
+    {
+      "condition": "structured_rejection",
+      "layout_id": 4,
+      "receipt_sha256": "63c1e434750ffa92e9d8d5670013ccddf548f4f1c087f34693f7850708e723e6",
+      "harness_sha256": "611b0516b4acb05934660c89546ade86b4a1a0d3a0485a2cbc055f2648fd4dfa",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 15,
+  "failed_videos": 0,
+  "protocol_sha256": "5c674832fe746802b3c517abd9a4a61256d163070116482d8d555f9ae9a2c5de",
+  "runtime_sha256": "d552f95232db6166d21824d7ff0d17a1845e5dc6615cf9a364974b96f9b56459",
+  "elapsed_seconds": 5.351351604998854,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

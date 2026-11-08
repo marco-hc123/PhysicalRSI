@@ -1,0 +1,36 @@
+{
+  "state": "passed",
+  "utc": "2026-11-07T04:52:19.772291+00:00",
+  "valid_native_cases": 3,
+  "receipt_checks": [
+    {
+      "condition": "logging_only",
+      "layout_id": 0,
+      "receipt_sha256": "3878938fbc12b4d595a528da7ee2cedcdccf3e7ef4c7bbc64597a96b3e0b0a8d",
+      "harness_sha256": "be5f8c759135fd21dd89d1545711d74251c1a9a879177d4a21fadd2d7424c98e",
+      "state": "passed"
+    },
+    {
+      "condition": "logging_only",
+      "layout_id": 1,
+      "receipt_sha256": "8bda75ff9b7aa3111b4ff62e378202f29f8d389bf4ad51d20de2879ab012cc7d",
+      "harness_sha256": "be5f8c759135fd21dd89d1545711d74251c1a9a879177d4a21fadd2d7424c98e",
+      "state": "passed"
+    },
+    {
+      "condition": "logging_only",
+      "layout_id": 2,
+      "receipt_sha256": "2eb6b65897505b59a9d299c3623fa25b1a7f0f9d134b4133b8edb0c56cc64d3b",
+      "harness_sha256": "be5f8c759135fd21dd89d1545711d74251c1a9a879177d4a21fadd2d7424c98e",
+      "state": "passed"
+    }
+  ],
+  "decoded_videos": 9,
+  "failed_videos": 0,
+  "protocol_sha256": "ae2e5edea541ceb6131f9233ecd959b9cd31fe47d0c4e100785e480fd5a8e8d7",
+  "runtime_sha256": "c9e72fb3470bbe61cdc0ffa0d7be4264caba256607c57a20f883bf634d299db0",
+  "elapsed_seconds": 2.362641507000035,
+  "api_calls": 0,
+  "gpu_used": false,
+  "scope": "Frozen episode_receipt revalidation, live source and harness digest checks, layout identity, analysis/raw agreement, full original video decoding. No experiment rerun."
+}

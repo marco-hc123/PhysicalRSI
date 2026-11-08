@@ -1,0 +1,14 @@
+[
+  {
+    "file": "frozen_task_sources/classify_objects.py",
+    "source": "current/result/server_preparation/multitask_system2_20261108/source-reference/code/RoboDojo/task/RoboDojo/tasks/classify_objects.py",
+    "sha256": "aef4333c088766375e21a928d53a9a93aaee285fecae41e22385acdc74dd11ac",
+    "role": "Frozen native task definition, not study candidate"
+  },
+  {
+    "file": "frozen_task_sources/general_pickup.py",
+    "source": "current/result/server_preparation/multitask_system2_20261108/source-reference/code/RoboDojo/task/RoboDojo/tasks/general_pickup.py",
+    "sha256": "1a9eef7fe518f9d2c6805ad1a8f97c1045fa83726f84b9c63f67ffdfabbc40a7",
+    "role": "Frozen native task definition, not study candidate"
+  }
+]

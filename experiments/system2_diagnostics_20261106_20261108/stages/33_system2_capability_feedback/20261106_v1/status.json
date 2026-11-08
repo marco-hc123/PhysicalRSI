@@ -1,0 +1,10 @@
+{
+  "state": "generation_complete",
+  "pid": null,
+  "attempts": 6,
+  "combined_reserved_usd": 5.659307999999999,
+  "estimated_standard_usd": 0.1846203,
+  "unknown_cost_requests": [],
+  "new_native_cases": 0,
+  "finished_utc": "2026-11-06T04:33:10.195262+00:00"
+}

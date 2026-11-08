@@ -1,0 +1,753 @@
+[
+  {
+    "condition": "parent",
+    "scores": [
+      0.0,
+      null,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "complete_successes": 1,
+    "actors": [
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/24592a75f88f441cadb14b8a0bda32ea/0/policy/processes/isolated/process.json",
+        "process_state": "failed",
+        "error": "RpcError: request.execute: Observed robot diverged from planned trajectory",
+        "calls": 4,
+        "method_counts": {
+          "scene": 1,
+          "approach": 2,
+          "gripper": 1
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 1,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.23521379818349006,
+                  -0.003944908181617246,
+                  1.02
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 1,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    3.078661284239281e-11,
+                    -3.309613867685801e-14,
+                    9.952982719680509e-15,
+                    1.8983521148812667e-14,
+                    -3.6527107727390984e-11,
+                    -2.54627458007306e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.14550377428531647,
+                    2.2177248001098633,
+                    2.4699721336364746,
+                    -1.6687825918197632,
+                    0.05464910715818405,
+                    -0.28461697697639465
+                  ],
+                  "right_ee_joint_state": [
+                    0.6579168095908783
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 2,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "command": 1
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 2,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    3.904344555993866e-11,
+                    -4.181114547467668e-14,
+                    1.2676106400709517e-14,
+                    2.395032583986812e-14,
+                    -4.6216648563746077e-11,
+                    -3.247520030669193e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.14458449184894562,
+                    2.209611415863037,
+                    2.4746253490448,
+                    -1.6682815551757812,
+                    0.054900068789720535,
+                    -0.2846047878265381
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 3,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.23521379818349006,
+                  -0.003944908181617246,
+                  0.93
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "state": "started"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/394aa305935e4c448899e89369165b81/0/policy/processes/isolated/process.json",
+        "process_state": "completed",
+        "error": null,
+        "calls": 6,
+        "method_counts": {
+          "scene": 1,
+          "approach": 3,
+          "gripper": 2
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 3,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "position_m": [
+                  -0.11545695498022358,
+                  -0.08476512836244515,
+                  0.93
+                ],
+                "quaternion_wxyz": [
+                  0.6130773077919165,
+                  -0.35934531270739906,
+                  0.6163777239676316,
+                  0.33924277781895285
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 3,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.475282222032547,
+                    2.0735414028167725,
+                    1.7422938346862793,
+                    -1.1406100988388062,
+                    0.019518490880727768,
+                    0.07452047616243362
+                  ],
+                  "left_ee_joint_state": [
+                    0.5211370762437582
+                  ],
+                  "right_arm_joint_state": [
+                    3.904343862104476e-11,
+                    -4.1810715181939476e-14,
+                    1.2675172970401643e-14,
+                    2.3949846419219975e-14,
+                    -4.621665203319303e-11,
+                    -3.247520030669193e-10
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 4,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "command": 0
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 4,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.47768840193748474,
+                    2.0713467597961426,
+                    1.7442314624786377,
+                    -1.140281319618225,
+                    0.021137991920113564,
+                    0.07494667172431946
+                  ],
+                  "left_ee_joint_state": [
+                    0.010634512326645624
+                  ],
+                  "right_arm_joint_state": [
+                    4.7300288685825365e-11,
+                    -5.052562711206805e-14,
+                    1.539810861011636e-14,
+                    2.8916559630717126e-14,
+                    -5.590618940010117e-11,
+                    -3.9487640934865453e-10
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 5,
+              "kind": "call",
+              "kwargs": {
+                "arm": "left",
+                "position_m": [
+                  -0.11545695498022358,
+                  -0.08476512836244515,
+                  1.06
+                ],
+                "quaternion_wxyz": [
+                  0.6130773077919165,
+                  -0.35934531270739906,
+                  0.6163777239676316,
+                  0.33924277781895285
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 5,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    -0.465434730052948,
+                    2.1797144412994385,
+                    2.2488465309143066,
+                    -1.6589492559432983,
+                    0.020844439044594765,
+                    0.07250215858221054
+                  ],
+                  "left_ee_joint_state": [
+                    0.011943721191750625
+                  ],
+                  "right_arm_joint_state": [
+                    5.418098608656052e-11,
+                    -5.778803000358601e-14,
+                    1.7667225172515906e-14,
+                    3.3055477707258016e-14,
+                    -6.39807928859426e-11,
+                    -4.5331338682785827e-10
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/7e55bf10de2d41c89eb436871d450654/0/policy/processes/isolated/process.json",
+        "process_state": "completed",
+        "error": null,
+        "calls": 6,
+        "method_counts": {
+          "scene": 1,
+          "approach": 3,
+          "gripper": 2
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 3,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.21059370490613205,
+                  -0.10571356796750442,
+                  0.93
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 3,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    3.629116798742338e-11,
+                    -3.89061409499826e-14,
+                    1.1768399636410444e-14,
+                    2.2294722017428444e-14,
+                    -4.298680161829438e-11,
+                    -3.0137717321743196e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.25914692878723145,
+                    1.7186803817749023,
+                    1.4411567449569702,
+                    -1.0748987197875977,
+                    0.051700908690690994,
+                    -0.17466498911380768
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 4,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "command": 0
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 4,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    4.454801111331008e-11,
+                    -4.7621154524064846e-14,
+                    1.44915241644724e-14,
+                    2.7261525014418003e-14,
+                    -5.267633551575557e-11,
+                    -3.715016072547428e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.2600632607936859,
+                    1.7141828536987305,
+                    1.4439740180969238,
+                    -1.0750646591186523,
+                    0.05140925198793411,
+                    -0.1746034175157547
+                  ],
+                  "right_ee_joint_state": [
+                    0.11266089390825341
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 5,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.21059370490613205,
+                  -0.10571356796750442,
+                  1.06
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 5,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    5.1428715452939144e-11,
+                    -5.4883655671404685e-14,
+                    1.676081182752729e-14,
+                    3.140052101799004e-14,
+                    -6.0750939001597e-11,
+                    -4.2993861248952214e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.2591513991355896,
+                    1.928094506263733,
+                    1.8769603967666626,
+                    -1.5640538930892944,
+                    0.048704806715250015,
+                    -0.1749027669429779
+                  ],
+                  "right_ee_joint_state": [
+                    0.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/d01f020b54b74ce78b50e4c697382761/0/policy/processes/isolated/process.json",
+        "process_state": "completed",
+        "error": null,
+        "calls": 6,
+        "method_counts": {
+          "scene": 1,
+          "approach": 3,
+          "gripper": 2
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 3,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.21672644257024676,
+                  -0.13076082916744358,
+                  0.93
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 3,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    3.491502920116574e-11,
+                    -3.7453642075767346e-14,
+                    1.131454413667854e-14,
+                    2.1466920106208605e-14,
+                    -4.137187814556853e-11,
+                    -2.8968974441490047e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.2607351541519165,
+                    1.8697559833526611,
+                    1.3006255626678467,
+                    -1.0397928953170776,
+                    0.04724953696131706,
+                    -0.17320707440376282
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 4,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "command": 0
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 4,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    4.317186885760549e-11,
+                    -4.6168652261717805e-14,
+                    1.4037666123641653e-14,
+                    2.643372479726406e-14,
+                    -5.106141204302972e-11,
+                    -3.598142062077869e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.2607913315296173,
+                    1.8698012828826904,
+                    1.3005887269973755,
+                    -1.0397921800613403,
+                    0.047246549278497696,
+                    -0.1732078343629837
+                  ],
+                  "right_ee_joint_state": [
+                    0.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 5,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.21672644257024676,
+                  -0.13076082916744358,
+                  1.06
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 5,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    5.005257319723455e-11,
+                    -5.343116018532122e-14,
+                    1.630695463372949e-14,
+                    3.057272588303378e-14,
+                    -5.913602246776506e-11,
+                    -4.1825121144256627e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.2606492042541504,
+                    1.8234416246414185,
+                    1.7341699600219727,
+                    -1.529691457748413,
+                    0.04859454184770584,
+                    -0.1733999401330948
+                  ],
+                  "right_ee_joint_state": [
+                    0.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          }
+        ]
+      },
+      {
+        "file": "/mnt/data/physical-RSI/result/46_system2_multitask_20261108/general_pickup-heldout/native-campaign/runs/parent/attempt-001/model/expert/dfd0ddda237f45649da2b3a5d01456c7/0/policy/processes/isolated/process.json",
+        "process_state": "failed",
+        "error": "RpcError: request.execute: Actor channel closed: actor stopping",
+        "calls": 6,
+        "method_counts": {
+          "scene": 1,
+          "approach": 3,
+          "gripper": 2
+        },
+        "last_calls": [
+          {
+            "request": {
+              "args": [],
+              "id": 3,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.06615756499811862,
+                  -0.12151915783380063,
+                  0.93
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "response": {
+              "id": 3,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    3.904344555993866e-11,
+                    -4.181114547467668e-14,
+                    1.2676106400709517e-14,
+                    2.395032583986812e-14,
+                    -4.6216648563746077e-11,
+                    -3.247520030669193e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.6215716600418091,
+                    2.1499054431915283,
+                    1.7024275064468384,
+                    -1.1830720901489258,
+                    0.028877627104520798,
+                    0.187343031167984
+                  ],
+                  "right_ee_joint_state": [
+                    1.0
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 4,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "command": 0
+              },
+              "method": "gripper"
+            },
+            "response": {
+              "id": 4,
+              "value": {
+                "state": {
+                  "left_arm_joint_state": [
+                    4.7300292155272317e-11,
+                    -5.052615566062714e-14,
+                    1.5399236858002104e-14,
+                    2.891712544872589e-14,
+                    -5.5906178991760314e-11,
+                    -3.9487640934865453e-10
+                  ],
+                  "left_ee_joint_state": [
+                    1.0
+                  ],
+                  "right_arm_joint_state": [
+                    0.6212990283966064,
+                    2.1490859985351562,
+                    1.702824354171753,
+                    -1.1830869913101196,
+                    0.02887612022459507,
+                    0.1874621957540512
+                  ],
+                  "right_ee_joint_state": [
+                    0.22010987315464903
+                  ]
+                }
+              }
+            },
+            "state": "completed"
+          },
+          {
+            "request": {
+              "args": [],
+              "id": 5,
+              "kind": "call",
+              "kwargs": {
+                "arm": "right",
+                "position_m": [
+                  0.06615756499811862,
+                  -0.12151915783380063,
+                  1.06
+                ],
+                "quaternion_wxyz": [
+                  0.38141138529977936,
+                  -0.6197184988732912,
+                  0.37851129873090317,
+                  0.5720170749645352
+                ]
+              },
+              "method": "approach"
+            },
+            "state": "started"
+          }
+        ]
+      }
+    ],
+    "notice": "Partial heldout, missing layout1 terminal score; failed actor error is a real execution guard, not a success-triggered cancellation."
+  }
+]

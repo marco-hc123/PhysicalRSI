@@ -1,0 +1,87 @@
+{
+  "analysis_type": "Recalculation of existing historical table; no new experiments.",
+  "rows": [
+    {
+      "task": "classify_objects",
+      "A_method": "mix",
+      "A_n": 5,
+      "B_n": 5,
+      "A_successes": 3,
+      "B_successes": 1,
+      "A_mean_total": 11193280.4,
+      "B_mean_total": 12604.0,
+      "total_ratio": 888.0736591558236,
+      "uncached_metric_ratio": 38.04072462397124,
+      "A_cached_fraction_of_input": 0.9734457115847657,
+      "B_cached_fraction_of_input": 0.35918932963796985,
+      "B_actual_HTTP_mean": 1.0,
+      "A_actual_HTTP_count": "unknown"
+    },
+    {
+      "task": "classify_objects",
+      "A_method": "gpt",
+      "A_n": 5,
+      "B_n": 5,
+      "A_successes": 5,
+      "B_successes": 1,
+      "A_mean_total": 22906180.8,
+      "B_mean_total": 12604.0,
+      "total_ratio": 1817.3739130434783,
+      "uncached_metric_ratio": 51.06404313688393,
+      "A_cached_fraction_of_input": 0.9824755334357813,
+      "B_cached_fraction_of_input": 0.35918932963796985,
+      "B_actual_HTTP_mean": 1.0,
+      "A_actual_HTTP_count": "unknown"
+    },
+    {
+      "task": "classify_objects_by_language",
+      "A_method": "mix",
+      "A_n": 5,
+      "B_n": 5,
+      "A_successes": 1,
+      "B_successes": 1,
+      "A_mean_total": 14423783.8,
+      "B_mean_total": 12332.4,
+      "total_ratio": 1169.5844928805425,
+      "uncached_metric_ratio": 27.585855145794877,
+      "A_cached_fraction_of_input": 0.9781238813124259,
+      "B_cached_fraction_of_input": 0.0,
+      "B_actual_HTTP_mean": 1.0,
+      "A_actual_HTTP_count": "unknown"
+    },
+    {
+      "task": "classify_objects_by_language",
+      "A_method": "gpt",
+      "A_n": 5,
+      "B_n": 5,
+      "A_successes": 2,
+      "B_successes": 1,
+      "A_mean_total": 37611460.2,
+      "B_mean_total": 12332.4,
+      "total_ratio": 3049.8086503843538,
+      "uncached_metric_ratio": 75.87514190263059,
+      "A_cached_fraction_of_input": 0.9769907495714406,
+      "B_cached_fraction_of_input": 0.0,
+      "B_actual_HTTP_mean": 1.0,
+      "A_actual_HTTP_count": "unknown"
+    }
+  ],
+  "total_ratio_range": [
+    888.0736591558236,
+    3049.8086503843538
+  ],
+  "uncached_metric_ratio_range": [
+    27.585855145794877,
+    75.87514190263059
+  ],
+  "A_cached_input_fraction_range": [
+    0.9734457115847657,
+    0.9824755334357813
+  ],
+  "qualifications": [
+    "Different models, tokenizers, layouts and success rates.",
+    "B task groups are reused across A modes, not four independent B cohorts.",
+    "Uncached metric is a descriptive accounting view, not a price or causal estimator.",
+    "Project A actual HTTP count is not established by action-segment counts."
+  ]
+}

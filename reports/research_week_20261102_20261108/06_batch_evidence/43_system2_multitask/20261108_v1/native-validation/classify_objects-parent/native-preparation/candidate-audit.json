@@ -1,0 +1,1 @@
+[{"admitted":true,"errors":[],"name":"parent","native_admission":{"accepted":true,"physical_qualification":false,"reason":"Artifact and syntax admission; generated code executes only in the isolated code-policy runtime"},"source_sha256":"e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88"}]
