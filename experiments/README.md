@@ -1,5 +1,7 @@
 # 实验与证据
 
+[规划反馈与独立验收](../experiments/planning_feedback_20261115/README.md)包含五任务扩展、可执行代码反馈以及分类和抓取各 20 个布局的验收。[三模块抓取迁移](../experiments/pickup_transfer_20261119/README.md)单列人工迁移干预及其配对复测。
+
 [完整研究总览](../docs/RESEARCH_OVERVIEW_ZH.md) · [研究路线图](../docs/RESEARCH_ROADMAP.md) · [代码导览](../docs/CODE_GUIDE.md)
 
 | 范围 | 入口 | 计数边界 |

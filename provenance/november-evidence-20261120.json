@@ -1,0 +1,122 @@
+[
+  {
+    "file": "experiments/planning_feedback_20261115/holdout.csv",
+    "sha256": "f2f55310c25558c823df88742e0d2894863387dcbb1de364db08b9e7046ec164",
+    "source_archive": "W46 report data",
+    "source_file": "episodes.csv",
+    "source_sha256": "c29a44768902da04237bbb2748ad45e1c6e332f41058986581be31d51e13c9a1",
+    "transformation": "selected original columns; UTF-8 and LF"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/summary.csv",
+    "sha256": "16fd9501b87bdd628148c88f445c2fc06cfc690059aa86ac78de4abab4a83791",
+    "source_archive": "W46 report data",
+    "source_file": "summary.csv",
+    "source_sha256": "e6b0b57b35cd2c23d69461bfc740696d6bea8a6bbac73653b12bd22b87864bd6",
+    "transformation": "selected original columns; UTF-8 and LF"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/classification/pilot_A_c1.py",
+    "sha256": "6ef3886c85df0b1391595e1f85872b67f2d45509efd9ab5abaf960a612f99d43",
+    "source_archive": "batch 52 final candidates",
+    "source_file": "pilot_A_c1.py",
+    "source_sha256": "6ef3886c85df0b1391595e1f85872b67f2d45509efd9ab5abaf960a612f99d43",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/classification/pilot_B_c1.py",
+    "sha256": "b118d3adfd00620e363e855f5c7f2a77ceacee67d9254ade36524d1846b6ab73",
+    "source_archive": "batch 52 final candidates",
+    "source_file": "pilot_B_c1.py",
+    "source_sha256": "b118d3adfd00620e363e855f5c7f2a77ceacee67d9254ade36524d1846b6ab73",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/classification/pilot_A_c2.py",
+    "sha256": "34634fd21caa72b8e904b30278ebfec282ad149e8d63e59781f0d489aa50228d",
+    "source_archive": "batch 52 final candidates",
+    "source_file": "pilot_A_c2.py",
+    "source_sha256": "34634fd21caa72b8e904b30278ebfec282ad149e8d63e59781f0d489aa50228d",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/classification/pilot_B_c2.py",
+    "sha256": "900ac4eed415d2116696b5af196c847f5c7051093ced2abfe5ca27263e03cd4e",
+    "source_archive": "batch 52 final candidates",
+    "source_file": "pilot_B_c2.py",
+    "source_sha256": "900ac4eed415d2116696b5af196c847f5c7051093ced2abfe5ca27263e03cd4e",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/classification/parent.py",
+    "sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+    "source_archive": "batch 52 parent",
+    "source_file": "source.py",
+    "source_sha256": "e21e333cd2f169c3d73be952e5fa6f2ca7e2f4e48042f5873fff64abc6f67e88",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/pickup/parent.py",
+    "sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+    "source_archive": "batch 53 parent",
+    "source_file": "source.py",
+    "source_sha256": "866eb6e931b39157c9c72a2d5fffb7a76753e346685ce78db2e18f76d749d9ed",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/planning_feedback_20261115/classification-development-holdout.png",
+    "sha256": "11e8e108fd7816f80fcc0698b2bcd9cf6e293e66729480f329e2c6f49b59e7de",
+    "source_archive": "W46 report figures",
+    "source_file": "01_classification_development_holdout.png",
+    "source_sha256": "11e8e108fd7816f80fcc0698b2bcd9cf6e293e66729480f329e2c6f49b59e7de",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/pickup_transfer_20261119/formal-scores.csv",
+    "sha256": "47ff33c21038f60f2f57cbc9eaf2dee7cab9743a2e3794e6c83cac175e76eec9",
+    "source_archive": "three-module pickup transfer",
+    "source_file": "formal-scores.csv",
+    "source_sha256": "7ff88f9f3d91a3bce697fd712a09a825e53c2284c193fec14e880eb322c11d8e",
+    "transformation": "selected original columns; UTF-8 and LF"
+  },
+  {
+    "file": "experiments/pickup_transfer_20261119/development-scores.csv",
+    "sha256": "99e75d188918660fd38d074e5ac6b53a93538eebde653aedf0bfb685993637e9",
+    "source_archive": "three-module pickup transfer",
+    "source_file": "development-scores.csv",
+    "source_sha256": "5f8cf17e6e55e96df14a274c29a655a21d1a0a3122cf98d69177673869225f79",
+    "transformation": "selected original columns; UTF-8 and LF"
+  },
+  {
+    "file": "experiments/pickup_transfer_20261119/code/holding_windows.py",
+    "sha256": "6520705ea8159910d3d9d4c733a6ada1a2f10cdb9912a81d340f5989eb0eb954",
+    "source_archive": "three-module frozen implementation",
+    "source_file": "holding_windows.py",
+    "source_sha256": "6520705ea8159910d3d9d4c733a6ada1a2f10cdb9912a81d340f5989eb0eb954",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/pickup_transfer_20261119/code/migrated_policy_v2.py",
+    "sha256": "a07a5840e38b14e1e16315efd01837681c7aae88f34a6a494e5c71ca6fa9f02d",
+    "source_archive": "three-module frozen implementation",
+    "source_file": "migrated_policy_v2.py",
+    "source_sha256": "a07a5840e38b14e1e16315efd01837681c7aae88f34a6a494e5c71ca6fa9f02d",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "experiments/pickup_transfer_20261119/code/pickup_modules.py",
+    "sha256": "02e44e568f65060d89ed7e0882cada8a9d6285c8362b143d39a3fab99d591052",
+    "source_archive": "three-module frozen implementation",
+    "source_file": "pickup_modules.py",
+    "source_sha256": "02e44e568f65060d89ed7e0882cada8a9d6285c8362b143d39a3fab99d591052",
+    "transformation": "byte-for-byte"
+  },
+  {
+    "file": "research/notes_20261115/W46.md",
+    "sha256": "b6a7af28dd968f279cdc9f46a6e8e61cd3e5265b614270ed3f30341e6dd425e4",
+    "source_archive": "installed W46 lab journal",
+    "source_file": "2026-W46.md",
+    "source_sha256": "838da94188fa0315e638ea7a734108817e459fe9a4a83de25970303f28849fd2",
+    "transformation": "public navigation and archive identifiers"
+  }
+]

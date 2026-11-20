@@ -1,0 +1,4 @@
+layout,layout_sha256,old_success,old_score,new_success,new_score,steps,policy_stop,correction_steps,after_error
+0,5c778baa2a060b5ce4d4211acd75c73d0592767e26dcb6f95d081031c94c8675,True,1.0,False,0.0,200,preclose_not_reached,8,"[0.02929839603236994, 4.444522352579429]"
+1,48859a2e2cdbb272f1e7d47e7df8ee8d3137cf23454384cfaa07e3f8690cb6b9,True,1.0,False,0.0,200,preclose_not_reached,8,"[0.002477046364628017, 0.26152668529040485]"
+2,ecd458002ef759e19c9603d9a53335a19e770a04390dbb08e747e211902bc09c,False,0.0,False,0.0,200,approach_plans_rejected,,

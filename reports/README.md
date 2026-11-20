@@ -1,5 +1,7 @@
 # 报告与汇报材料
 
+11 月 9–15 日的阶段结论与比较表见[规划反馈与独立验收](../experiments/planning_feedback_20261115/README.md)，其中包含分类开发与独立验收图及分组数据。11 月 19–20 日的配对复测见[三模块抓取迁移](../experiments/pickup_transfer_20261119/README.md)。
+
 [完整研究总览](../docs/RESEARCH_OVERVIEW_ZH.md) · [研究路线图](../docs/RESEARCH_ROADMAP.md) · [代码导览](../docs/CODE_GUIDE.md)
 
 当前结论见[RESULTS](../docs/RESULTS.md)，科研原始记录见[research](../research/README.md)。所有报告保留各自的日期、协议和分母。

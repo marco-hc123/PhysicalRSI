@@ -1,4 +1,8 @@
-# 研究证据导航（2026-11-08更新）
+# 研究证据导航
+
+[规划反馈与独立验收](../experiments/planning_feedback_20261115/README.md)给出五任务分组、分类开发与独立布局分数、父策略复用关系。[三模块抓取迁移](../experiments/pickup_transfer_20261119/README.md)给出开发与正式布局的新旧分数、停止原因和冻结实现。[W46 模板科研日志](../research/notes_20261115/W46.md)保留批次条件及修正记录。
+
+## 早期问题与原件索引
 
 [完整研究总览](RESEARCH_OVERVIEW_ZH.md) · [研究路线图](RESEARCH_ROADMAP.md) · [代码导览](CODE_GUIDE.md)
 

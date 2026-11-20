@@ -1,5 +1,9 @@
 # 仓库地图
 
+[项目首页](../README.md)按系统架构、研究路线和实测基准组织。11 月 15 日补充的代码与数据在 experiments/planning_feedback_20261115，11 月 19–20 日核实的抓取迁移在 experiments/pickup_transfer_20261119。科研记录按周保留原实验编号。[规划反馈与独立验收](../experiments/planning_feedback_20261115/README.md) · [三模块抓取迁移](../experiments/pickup_transfer_20261119/README.md) · [W46 模板科研日志](../research/notes_20261115/W46.md)
+
+## 截至 11 月 8 日的目录与归档
+
 [完整研究总览](RESEARCH_OVERVIEW_ZH.md) · [研究路线图](RESEARCH_ROADMAP.md) · [代码导览](CODE_GUIDE.md)
 
 本仓库为个人PhysicalRSI有限复现与研究证据库。当前整理范围截止2026-11-08本次服务器取证时刻；保留现有目录和冻结实验身份，以统一导航区分当前结论、历史记录和原件。
