@@ -1,5 +1,7 @@
 # 代码导览
 
+抓取扩展按配置追踪三维取点、朝向、闭爪和重抓；分类按首次筛选、C3_fix 退臂诊断、C6/C7 闭环分别保存源码。[抓取配置与实现](../experiments/task_transfer_20261122/pickup/) · [分类策略实现](../experiments/task_transfer_20261122/classify/)
+
 分类实验公开了父策略和 A、B 各两份最终候选；抓取验收保留了三组共同使用的父策略源码。逐布局记录中的 loaded_revision 可与源码逐字节匹配。后续迁移另外公开主策略、RGB-D 与闭爪控制适配、持物窗口记录三个冻结文件。[规划反馈与独立验收](../experiments/planning_feedback_20261115/README.md) · [三模块抓取迁移](../experiments/pickup_transfer_20261119/README.md)
 
 本仓库同时保存上游、历史集成、模型生成候选、人工诊断和核验代码。它们承担不同角色；判断某次运行采用什么实现，应使用该批协议与SHA256绑定，不把当前Git提交或最新适配倒填成旧实验版本。

@@ -1,0 +1,4 @@
+index,layout_sha256,C3_score_100,C3_success,C3_attempted_items,C3_held_after_lift_items,C3_deposited_items,C3_steps,C3_policy_stop,C3_fix_score_100,C3_fix_success,C3_fix_attempted_items,C3_fix_held_after_lift_items,C3_fix_deposited_items,C3_fix_steps,C3_fix_policy_stop,delta,retreat_completed,retreat_recorded,after_retreat_new_categories,assigned_new
+0,a14527c515e33d2bd3f52f58f3b19dbffeed22dd24ce22f41c0366d4947c021b,0.0,False,4,3,4,1100,parent_return_line_103,0.0,False,5,3,4,1100,parent_return_line_104,0.0,0,4,[],[]
+1,b663810e72f0fe5a7ffbe5c2684fd8a7707d7a4458005b9fe21cf990b55269c3,0.0,False,2,2,2,1100,parent_return_line_103,0.0,False,2,2,2,1100,parent_return_line_104,0.0,0,2,[],[]
+2,733f3a236a6966b349a9cfaa84ca7b8313ec92ca6f7802bb5598a8a46b5b3701,0.0,False,2,2,1,1100,trajectory_divergence_guard,0.0,False,2,2,1,1100,trajectory_divergence_guard,0.0,0,1,[],[]

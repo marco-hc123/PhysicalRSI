@@ -1,0 +1,81 @@
+phase,v,split,layout,success,score_native,score_100,steps,stop,target,closed,auto_held,tcp_rise_cm,seconds
+phaseA,V2,development,1,True,1.0,100.0,44,native_terminal,black-handled whisk,True,True,10.677723419650853,178.65604376792908
+phaseA,V2,development,2,False,0.0,0.0,200,lift_plan_rejected,lavender plastic shovel,True,False,0.0,269.91308212280273
+phaseA,V2,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,249.94380021095276
+phaseA,V2,formal,8,True,1.0,100.0,38,native_terminal,green-handled wire crimper,True,True,11.337426452362354,195.04171562194824
+phaseA,V2,formal,4,False,0.0,0.0,200,program_complete,donut,True,False,10.673713623278203,257.0627541542053
+phaseA,V2,formal,14,True,1.0,100.0,41,native_terminal,green orange juice carton,True,True,11.511800006512175,184.8442862033844
+phaseA,V2,formal,19,True,1.0,100.0,43,native_terminal,conch shell,True,True,11.480292340818643,207.04640698432922
+phaseA,V2,formal,1,True,1.0,100.0,37,native_terminal,beige bear-hat figurine,True,True,10.604278074317818,186.1684763431549
+phaseA,V9,development,1,True,1.0,100.0,45,native_terminal,black-handled whisk,True,True,11.975857574424353,185.61175847053528
+phaseA,V9,development,2,True,1.0,100.0,44,native_terminal,lavender plastic shovel,True,True,11.499418048066135,171.59626746177673
+phaseA,V9,development,3,False,0.0,0.0,200,program_complete,metal bottle opener,True,False,13.538452437296812,213.59947657585144
+phaseA,V9,formal,8,True,1.0,100.0,38,native_terminal,green-handled wire crimper,True,True,11.30344904144842,179.59709453582764
+phaseA,V9,formal,4,True,1.0,100.0,53,native_terminal,donut,True,True,9.690347230587859,176.65192246437073
+phaseA,V9,formal,14,False,0.0,0.0,200,observed_trajectory_divergence,green orange juice carton,False,False,0.0,225.54858231544495
+phaseA,V9,formal,19,False,0.0,0.0,200,approach_plans_rejected,conch shell,False,False,0.0,232.6027171611786
+phaseA,V9,formal,1,False,0.0,0.0,200,program_complete,beige bear-hat figurine,True,False,13.748408617047868,216.7542097568512
+phaseA,V1,development,1,False,0.0,0.0,200,program_complete,black-handled whisk,True,False,10.795279931840051,224.60866236686707
+phaseA,V1,development,2,True,1.0,100.0,45,native_terminal,lavender plastic shovel,True,True,11.164662296406203,176.60504937171936
+phaseA,V1,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,226.60360550880432
+phaseA,V1,formal,8,True,1.0,100.0,37,native_terminal,green-handled wire crimper,True,True,11.442159906142724,166.5958423614502
+phaseA,V1,formal,4,False,0.0,0.0,200,lift_plan_rejected,donut,True,False,0.0,240.7097291946411
+phaseA,V1,formal,14,False,0.0,0.0,200,program_complete,green orange juice carton,True,False,13.74898614210881,236.61086058616638
+phaseA,V1,formal,19,True,1.0,100.0,45,native_terminal,conch shell,True,True,11.022750290799642,194.6334571838379
+phaseA,V1,formal,1,True,1.0,100.0,39,native_terminal,beige bear-hat figurine,True,True,11.025226784825337,174.8036024570465
+phaseA,V4,development,1,True,1.0,100.0,40,native_terminal,black-handled whisk,True,True,12.042499657814155,178.62608003616333
+phaseA,V4,development,2,False,0.0,0.0,200,lift_plan_rejected,lavender plastic shovel,True,False,0.0,229.6072118282318
+phaseA,V4,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,237.60527181625366
+phaseA,V4,formal,8,True,1.0,100.0,37,native_terminal,green-handled wire crimper,True,True,11.315425494931086,181.5950858592987
+phaseA,V4,formal,4,False,0.0,0.0,200,program_complete,donut,True,False,10.673959517044306,226.65554785728455
+phaseA,V4,formal,14,False,0.0,0.0,200,program_complete,green orange juice carton,True,True,7.094044067730099,244.6625394821167
+phaseA,V4,formal,19,True,1.0,100.0,43,native_terminal,conch shell,True,True,11.277757161584379,176.63741040229797
+phaseA,V4,formal,1,True,1.0,100.0,37,native_terminal,beige bear-hat figurine,True,True,10.429863312468502,169.58908581733704
+phaseA,V5,development,1,True,1.0,100.0,40,native_terminal,black-handled whisk,True,True,11.750697110630348,169.579434633255
+phaseA,V5,development,2,False,0.0,0.0,200,lift_plan_rejected,lavender plastic shovel,True,False,0.0,257.66574025154114
+phaseA,V5,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,228.59317278862
+phaseA,V5,formal,8,True,1.0,100.0,37,native_terminal,green-handled wire crimper,True,True,11.502691459005,177.63426899909973
+phaseA,V5,formal,4,False,0.0,0.0,200,program_complete,donut,True,False,12.046641858862584,227.7058801651001
+phaseA,V5,formal,14,False,0.0,0.0,200,program_complete,green orange juice carton,True,True,8.748595485827959,242.7078640460968
+phaseA,V5,formal,19,True,1.0,100.0,42,native_terminal,conch shell,True,True,10.670210794119782,188.697979927063
+phaseA,V5,formal,1,True,1.0,100.0,37,native_terminal,beige bear-hat figurine,True,True,10.64288352373195,180.64183807373047
+phaseA,V6,development,1,True,1.0,100.0,42,native_terminal,black-handled whisk,True,True,11.334835223503037,169.86897802352905
+phaseA,V6,development,2,False,0.0,0.0,200,lift_plan_rejected,lavender plastic shovel,True,True,2.6570001277036015,249.6093771457672
+phaseA,V6,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,231.60034203529358
+phaseA,V6,formal,8,True,1.0,100.0,38,native_terminal,green-handled wire crimper,True,True,10.995807142813286,173.63995051383972
+phaseA,V6,formal,4,True,1.0,100.0,49,native_terminal,donut,True,True,9.78928595181976,176.7523651123047
+phaseA,V6,formal,14,False,0.0,0.0,200,program_complete,green orange juice carton,True,True,7.274093664704129,242.60975980758667
+phaseA,V6,formal,19,True,1.0,100.0,41,native_terminal,conch shell,True,True,10.354927366935918,186.6996808052063
+phaseA,V6,formal,1,True,1.0,100.0,38,native_terminal,beige bear-hat figurine,True,True,10.541218435897548,172.63215517997742
+phaseA,V7,development,1,True,1.0,100.0,42,native_terminal,black-handled whisk,True,True,11.335161906380264,187.65943598747253
+phaseA,V7,development,2,False,0.0,0.0,200,lift_plan_rejected,lavender plastic shovel,True,True,2.656411333212927,233.6012625694275
+phaseA,V7,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,229.70305824279785
+phaseA,V7,formal,8,True,1.0,100.0,38,native_terminal,green-handled wire crimper,True,True,10.998297470446905,166.63350415229797
+phaseA,V7,formal,4,True,1.0,100.0,49,native_terminal,donut,True,True,9.789354944684892,165.749032497406
+phaseA,V7,formal,14,False,0.0,0.0,200,program_complete,green orange juice carton,True,True,8.582051070265429,223.70947647094727
+phaseA,V7,formal,19,True,1.0,100.0,41,native_terminal,conch shell,True,True,10.68974308606312,179.6518325805664
+phaseA,V7,formal,1,True,1.0,100.0,38,native_terminal,beige bear-hat figurine,True,True,10.599420655866831,176.75110840797424
+phaseA,V8,development,1,True,1.0,100.0,41,native_terminal,black-handled whisk,True,True,10.290821246958593,190.59012651443481
+phaseA,V8,development,2,False,0.0,0.0,200,lift_plan_rejected,lavender plastic shovel,True,False,0.0,237.8069064617157
+phaseA,V8,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,216.6319305896759
+phaseA,V8,formal,8,False,0.0,0.0,200,program_complete,green-handled wire crimper,True,False,12.989913079598647,234.65319204330444
+phaseA,V8,formal,4,False,0.0,0.0,200,program_complete,donut,True,True,9.673306144256156,222.7077181339264
+phaseA,V8,formal,14,False,0.0,0.0,200,program_complete,green orange juice carton,True,True,9.077745878904286,233.60903453826904
+phaseA,V8,formal,19,True,1.0,100.0,42,native_terminal,conch shell,True,True,11.272034744138049,176.69020056724548
+phaseA,V8,formal,1,True,1.0,100.0,36,native_terminal,beige bear-hat figurine,True,True,10.315516452191066,172.75240349769592
+phaseA,V3,development,1,True,1.0,100.0,43,native_terminal,black-handled whisk,True,True,10.691160823912938,181.57383584976196
+phaseA,V3,development,2,False,0.0,0.0,200,lift_plan_rejected,lavender plastic shovel,True,False,0.0,241.65805578231812
+phaseA,V3,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,228.60339331626892
+phaseA,V3,formal,8,True,1.0,100.0,37,native_terminal,green-handled wire crimper,True,True,11.22244390980589,164.6305878162384
+phaseA,V3,formal,4,False,0.0,0.0,200,lift_plan_rejected,donut,True,False,0.0,234.7116150856018
+phaseA,V3,formal,14,True,1.0,100.0,42,native_terminal,green orange juice carton,True,True,11.79419762932069,182.59418892860413
+phaseA,V3,formal,19,True,1.0,100.0,44,native_terminal,conch shell,True,True,9.740550084057709,192.72435760498047
+phaseA,V3,formal,1,True,1.0,100.0,39,native_terminal,beige bear-hat figurine,True,True,11.159025869107907,167.6427845954895
+phaseA,V0,development,1,False,0.0,0.0,200,program_complete,black-handled whisk,True,False,11.011374963923037,212.69989585876465
+phaseA,V0,development,2,False,0.0,0.0,200,program_complete,lavender plastic shovel,True,False,11.44530421082588,230.60924792289734
+phaseA,V0,development,3,False,0.0,0.0,200,approach_plans_rejected,metal bottle opener,False,False,0.0,240.65925550460815
+phaseA,V0,formal,8,True,1.0,100.0,37,native_terminal,green-handled wire crimper,True,True,11.535800569857935,168.84252190589905
+phaseA,V0,formal,4,False,0.0,0.0,200,program_complete,donut,True,True,9.707217598141572,239.71206521987915
+phaseA,V0,formal,14,False,0.0,0.0,200,program_complete,green orange juice carton,True,False,5.0051442637476296,234.6047284603119
+phaseA,V0,formal,19,False,0.0,0.0,200,program_complete,conch shell,True,False,13.859411880660911,257.765216588974
+phaseA,V0,formal,1,True,1.0,100.0,38,native_terminal,beige bear-hat figurine,True,True,9.921588147511173,171.63951134681702

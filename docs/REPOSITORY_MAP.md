@@ -1,5 +1,7 @@
 # 仓库地图
 
+本周实验包集中保存策略快照、逐布局配对表、原生回执和图。[W47 实验与逐回合证据](../experiments/task_transfer_20261122/README.md) · [W47 模板科研日志](../research/notes_20261122/W47.md)
+
 [项目首页](../README.md)按系统架构、研究路线和实测基准组织。11 月 15 日补充的代码与数据在 experiments/planning_feedback_20261115，11 月 19–20 日核实的抓取迁移在 experiments/pickup_transfer_20261119。科研记录按周保留原实验编号。[规划反馈与独立验收](../experiments/planning_feedback_20261115/README.md) · [三模块抓取迁移](../experiments/pickup_transfer_20261119/README.md) · [W46 模板科研日志](../research/notes_20261115/W46.md)
 
 ## 截至 11 月 8 日的目录与归档

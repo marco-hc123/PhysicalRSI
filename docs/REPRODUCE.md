@@ -1,5 +1,7 @@
 # 实验条件与复现说明
 
+从根目录运行 `python3 -B tools/verify_w47.py`，可校验公开文件哈希并从原生回执复算 20 对抓取与 20 对分类布局。数据与源码依赖说明见实验包。[W47 实验与逐回合证据](../experiments/task_transfer_20261122/README.md)
+
 在仓库根目录运行 `python3 -B tools/verify_november_results.py` 可校验 11 月新增材料的文件哈希，复算分类与抓取的独立布局均分，按布局匹配迁移前后的原生终局。所需输入均在仓库。实际运行迁移代码还需要原批次的仿真、通信适配、运动学函数和模型资产。[公开材料哈希](../provenance/november-evidence-20261120.json)
 
 [完整研究总览](RESEARCH_OVERVIEW_ZH.md) · [研究路线图](RESEARCH_ROADMAP.md) · [代码导览](CODE_GUIDE.md)

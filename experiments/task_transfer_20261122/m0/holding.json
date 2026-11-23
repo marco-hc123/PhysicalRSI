@@ -1,0 +1,204 @@
+[
+  {
+    "formal_layout": 1,
+    "target": "戴熊帽人偶",
+    "active_arm": "right",
+    "visual_interpretation": "近闭合抓空或挤开",
+    "tcp_lift_peak_cm": 5.5,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.0,
+    "after_public_state": 0.0,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "指尖已合拢，人偶在指尖前方，可见姿态改变，未见两指夹牢。"
+      },
+      {
+        "phase": "lift",
+        "observation": "抬升开始即分离，人偶翻倒留桌。"
+      }
+    ],
+    "native_video_samples": "case01-motion.jpg"
+  },
+  {
+    "formal_layout": 2,
+    "target": "头冠",
+    "active_arm": "left",
+    "visual_interpretation": "闭爪接触，抬升被规划器拒绝",
+    "tcp_lift_peak_cm": null,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.13762496102739263,
+    "after_public_state": 0.13762496102739263,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "头冠边缘在两指之间，闭爪后保持接触。桌面仍支撑它，无法确认独立承重。"
+      }
+    ],
+    "native_video_samples": "case02-motion.jpg"
+  },
+  {
+    "formal_layout": 4,
+    "target": "甜甜圈",
+    "active_arm": "right",
+    "visual_interpretation": "随动保持至终局",
+    "tcp_lift_peak_cm": 10.9,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.7895621460896951,
+    "after_public_state": 0.73616783618927,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "甜甜圈位于两指之间。"
+      },
+      {
+        "phase": "lift",
+        "observation": "头部视角可见物体随爪翻转，腕部到终局仍可见物体在指间；支持保留持物，目标未达原生阈值。"
+      }
+    ],
+    "native_video_samples": "case04-motion.jpg"
+  },
+  {
+    "formal_layout": 7,
+    "target": "黑色鼠标",
+    "active_arm": "left",
+    "visual_interpretation": "未形成持续夹持",
+    "tcp_lift_peak_cm": 12.4,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.6895761133344085,
+    "after_public_state": 0.022182517733286923,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "腕部可见鼠标在两指内侧，头部视角受遮挡。未建立稳定承重的证据。"
+      },
+      {
+        "phase": "lift",
+        "observation": "抬升初段夹爪逐渐离开，鼠标基本留在桌面。"
+      }
+    ],
+    "native_video_samples": "case07-motion.jpg"
+  },
+  {
+    "formal_layout": 8,
+    "target": "绿柄压线钳",
+    "active_arm": "left",
+    "visual_interpretation": "接触后早期脱离",
+    "tcp_lift_peak_cm": 12.8,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.45625383484142795,
+    "after_public_state": 0.0,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "闭爪时钳体在指尖处转动，两个视角支持接触或短暂夹住。"
+      },
+      {
+        "phase": "lift",
+        "observation": "起抬后钳体继续转动并与两指分离，终局留桌。符合早期脱离，不能确认曾稳定离桌。"
+      }
+    ],
+    "native_video_samples": "case08-motion.jpg"
+  },
+  {
+    "formal_layout": 10,
+    "target": "葡萄串",
+    "active_arm": "right",
+    "visual_interpretation": "未形成持续夹持",
+    "tcp_lift_peak_cm": 8.5,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.10819128715881594,
+    "after_public_state": 0.0,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "指尖与部分葡萄接触，是否夹牢整串不确定。"
+      },
+      {
+        "phase": "lift",
+        "observation": "起抬后很快分开，整串在桌面移位，未见持续随爪升起。"
+      }
+    ],
+    "native_video_samples": "case10-motion.jpg"
+  },
+  {
+    "formal_layout": 14,
+    "target": "果汁盒",
+    "active_arm": "right",
+    "visual_interpretation": "随动保持至终局，承重不确定",
+    "tcp_lift_peak_cm": 5.3,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.5187436824595486,
+    "after_public_state": 0.5242623895958618,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "盒体在头部视角位于指间，腕部被盒面大幅遮挡。"
+      },
+      {
+        "phase": "lift",
+        "observation": "头部视角中盒体与夹爪共同移动、倾斜，终局仍贴合；腕部遮挡，无法单独判定是否完全离桌。"
+      }
+    ],
+    "native_video_samples": "case14-motion.jpg"
+  },
+  {
+    "formal_layout": 15,
+    "target": "海螺",
+    "active_arm": "left",
+    "visual_interpretation": "闭爪接触，抬升被规划器拒绝",
+    "tcp_lift_peak_cm": null,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.6338630861706204,
+    "after_public_state": 0.6345456421375274,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "外壳位于两指之间，与夹爪保持接触；没有离桌动作可检验承重。"
+      }
+    ],
+    "native_video_samples": "case15-motion.jpg"
+  },
+  {
+    "formal_layout": 17,
+    "target": "灰色胶带座",
+    "active_arm": "right",
+    "visual_interpretation": "近闭合抓空或挤开",
+    "tcp_lift_peak_cm": 11.2,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.009797565928763807,
+    "after_public_state": 0.0,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "闭爪时目标被推偏，指尖在边缘附近已接近闭合。"
+      },
+      {
+        "phase": "lift",
+        "observation": "胶带座留桌，夹爪向上离开。"
+      }
+    ],
+    "native_video_samples": "case17-motion.jpg"
+  },
+  {
+    "formal_layout": 19,
+    "target": "海螺",
+    "active_arm": "left",
+    "visual_interpretation": "接触后早期脱离",
+    "tcp_lift_peak_cm": 11.7,
+    "before_close_public_state": 1.0,
+    "before_lift_public_state": 0.6670977116734893,
+    "after_public_state": 0.013258929757608302,
+    "windows": [
+      {
+        "phase": "close",
+        "observation": "两指与海螺两侧接触，有短暂夹持迹象。"
+      },
+      {
+        "phase": "lift",
+        "observation": "起抬时海螺转动，随后偏向一侧并脱开，终局与夹爪分离。不能确认持续承重。"
+      }
+    ],
+    "native_video_samples": "case19-motion.jpg"
+  }
+]

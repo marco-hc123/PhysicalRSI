@@ -1,0 +1,45 @@
+{
+  "passed": false,
+  "successes": 0,
+  "paired": [
+    {
+      "layout": 1,
+      "sha256": "5c778baa2a060b5ce4d4211acd75c73d0592767e26dcb6f95d081031c94c8675",
+      "target": "black-handled whisk",
+      "original": 1.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "success": false,
+      "close_actions": 6,
+      "lift_actions": 8,
+      "stop": "program_complete",
+      "steps": 200
+    },
+    {
+      "layout": 2,
+      "sha256": "48859a2e2cdbb272f1e7d47e7df8ee8d3137cf23454384cfaa07e3f8690cb6b9",
+      "target": "lavender plastic shovel",
+      "original": 1.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "success": false,
+      "close_actions": 6,
+      "lift_actions": 6,
+      "stop": "program_complete",
+      "steps": 200
+    },
+    {
+      "layout": 3,
+      "sha256": "ecd458002ef759e19c9603d9a53335a19e770a04390dbb08e747e211902bc09c",
+      "target": "metal bottle opener",
+      "original": 0.0,
+      "m0": 0.0,
+      "m1": 0.0,
+      "success": false,
+      "close_actions": 0,
+      "lift_actions": 0,
+      "stop": "approach_plans_rejected",
+      "steps": 200
+    }
+  ]
+}

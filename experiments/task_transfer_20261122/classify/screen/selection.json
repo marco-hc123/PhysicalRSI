@@ -1,0 +1,125 @@
+{
+  "top2": [
+    "C1",
+    "C2"
+  ],
+  "ranking": [
+    {
+      "variant": "C1",
+      "key": [
+        0.0,
+        0,
+        0,
+        26,
+        17,
+        -1
+      ],
+      "valid": 8,
+      "missing": 0,
+      "mean_score_100": 0.0,
+      "native_success_count": 0,
+      "positive_score_count": 0,
+      "attempted": 29,
+      "total_held_items": 17,
+      "total_deposited_items": 26,
+      "veto": 0,
+      "held_per_attempt": 0.5862068965517241,
+      "deposits_per_attempt": 0.896551724137931,
+      "positive_per_episode": 0.0
+    },
+    {
+      "variant": "C2",
+      "key": [
+        0.0,
+        0,
+        0,
+        24,
+        18,
+        -2
+      ],
+      "valid": 8,
+      "missing": 0,
+      "mean_score_100": 0.0,
+      "native_success_count": 0,
+      "positive_score_count": 0,
+      "attempted": 27,
+      "total_held_items": 18,
+      "total_deposited_items": 24,
+      "veto": 0,
+      "held_per_attempt": 0.6666666666666666,
+      "deposits_per_attempt": 0.8888888888888888,
+      "positive_per_episode": 0.0
+    },
+    {
+      "variant": "C3",
+      "key": [
+        0.0,
+        0,
+        0,
+        23,
+        18,
+        -3
+      ],
+      "valid": 8,
+      "missing": 0,
+      "mean_score_100": 0.0,
+      "native_success_count": 0,
+      "positive_score_count": 0,
+      "attempted": 25,
+      "total_held_items": 18,
+      "total_deposited_items": 23,
+      "veto": 0,
+      "held_per_attempt": 0.72,
+      "deposits_per_attempt": 0.92,
+      "positive_per_episode": 0.0
+    },
+    {
+      "variant": "C5",
+      "key": [
+        0.0,
+        0,
+        0,
+        5,
+        17,
+        -5
+      ],
+      "valid": 8,
+      "missing": 0,
+      "mean_score_100": 0.0,
+      "native_success_count": 0,
+      "positive_score_count": 0,
+      "attempted": 22,
+      "total_held_items": 17,
+      "total_deposited_items": 5,
+      "veto": 4,
+      "held_per_attempt": 0.7727272727272727,
+      "deposits_per_attempt": 0.22727272727272727,
+      "positive_per_episode": 0.0
+    },
+    {
+      "variant": "C4",
+      "key": [
+        0.0,
+        0,
+        0,
+        5,
+        16,
+        -4
+      ],
+      "valid": 8,
+      "missing": 0,
+      "mean_score_100": 0.0,
+      "native_success_count": 0,
+      "positive_score_count": 0,
+      "attempted": 22,
+      "total_held_items": 16,
+      "total_deposited_items": 5,
+      "veto": 5,
+      "held_per_attempt": 0.7272727272727273,
+      "deposits_per_attempt": 0.22727272727272727,
+      "positive_per_episode": 0.0
+    }
+  ],
+  "screening_n": 8,
+  "missing_rule": "Exclude technical missing; disclose valid denominators"
+}

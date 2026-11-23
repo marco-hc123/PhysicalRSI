@@ -1,0 +1,21 @@
+{
+  "time": "2026-11-22T17:20:32.202296+08:00",
+  "phase": "B",
+  "reason": "user_requested_stop",
+  "stopped_queue_pid": 217214,
+  "child_pids": [
+    281964,
+    282849,
+    282787,
+    282777
+  ],
+  "active": {
+    "phase": "B",
+    "variant": "C0",
+    "split": "formal",
+    "index": 11,
+    "layout_sha256": "57dd88f8d37621b2db5e35b041aa6804b5dd0b992101728c9cd06cdfd15d146d"
+  },
+  "valid_A": 48,
+  "valid_B": 6
+}

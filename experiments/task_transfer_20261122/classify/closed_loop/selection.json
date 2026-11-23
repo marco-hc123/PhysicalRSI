@@ -1,0 +1,59 @@
+{
+  "winner": "C7",
+  "ranking": [
+    {
+      "variant": "C7",
+      "key": [
+        3.75,
+        0,
+        2,
+        30,
+        35,
+        47,
+        -2
+      ],
+      "summary": {
+        "valid": 8,
+        "mean_score_100": 3.75,
+        "native_success_count": 0,
+        "positive_score_count": 2,
+        "attempted_items": 59,
+        "held_after_lift_items": 35,
+        "vetoed_empty_transports": 19,
+        "deposited_items": 37,
+        "retained_at_basket_items": 30,
+        "retained_at_020": 29,
+        "retreat_ok_count": 47,
+        "retreat_attempted_count": 47,
+        "dynamic_assigned_categories": 0
+      }
+    },
+    {
+      "variant": "C6",
+      "key": [
+        3.75,
+        0,
+        2,
+        28,
+        37,
+        41,
+        -1
+      ],
+      "summary": {
+        "valid": 8,
+        "mean_score_100": 3.75,
+        "native_success_count": 0,
+        "positive_score_count": 2,
+        "attempted_items": 50,
+        "held_after_lift_items": 37,
+        "vetoed_empty_transports": 0,
+        "deposited_items": 41,
+        "retained_at_basket_items": 28,
+        "retained_at_020": 28,
+        "retreat_ok_count": 41,
+        "retreat_attempted_count": 41,
+        "dynamic_assigned_categories": 2
+      }
+    }
+  ]
+}
